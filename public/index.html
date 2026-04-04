@@ -28,7 +28,9 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:
 .topbar-sub{font-size:10px;color:var(--muted)}
 .badge{background:var(--surface);color:var(--muted);font-size:10px;padding:3px 9px;border-radius:20px;border:1px solid var(--border);white-space:nowrap;max-width:200px;overflow:hidden;text-overflow:ellipsis;font-family:'JetBrains Mono',monospace}
 .dept-sel{margin-left:auto;font-size:11px;border:1px solid var(--border);border-radius:6px;padding:4px 7px;background:var(--white);color:var(--text);cursor:pointer;outline:none}
-
+.api-btn{font-size:10px;border:1px solid var(--border);border-radius:6px;padding:4px 9px;background:var(--white);cursor:pointer;color:var(--muted);font-family:'Inter',sans-serif;transition:all .15s}
+.api-btn:hover{border-color:var(--text);color:var(--text)}
+.api-btn.has-key{border-color:#276749;color:#276749;background:#EFF6EC}
 
 /* CONTENT */
 .content{flex:1;overflow:hidden;display:flex}
@@ -140,12 +142,37 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:
 .miss-box p{font-size:10px;color:#6B4E00;line-height:1.65}
 .tab-intro{font-size:11px;line-height:1.8;color:var(--muted);border-left:2px solid var(--border);padding-left:10px;margin-bottom:12px}
 
-
+/* API KEY MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:500;display:flex;align-items:center;justify-content:center}
+.modal-box{background:var(--white);border-radius:16px;padding:28px;width:440px;box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.modal-box h2{font-family:'Lora',serif;font-size:18px;font-weight:700;margin-bottom:8px}
+.modal-box p{font-size:11px;line-height:1.7;color:var(--muted);margin-bottom:16px}
+.modal-input{width:100%;padding:9px 12px;border:1px solid var(--border);border-radius:8px;font-family:'JetBrains Mono',monospace;font-size:12px;background:var(--bg);outline:none;color:var(--text)}
+.modal-input:focus{border-color:var(--text)}
+.modal-btns{display:flex;gap:8px;margin-top:12px;justify-content:flex-end}
+.modal-btn{padding:7px 16px;border-radius:8px;font-size:11px;font-family:'Inter',sans-serif;cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text)}
+.modal-btn.primary{background:var(--text);color:var(--white);border-color:var(--text)}
+.modal-btn:hover{opacity:.85}
+.modal-note{font-size:10px;color:var(--muted);margin-top:10px;line-height:1.6}
 </style>
 </head>
 <body>
 
-<!-- No API key modal needed - key is server-side -->
+<!-- API KEY MODAL -->
+<div class="modal-overlay" id="api-modal" style="display:none">
+  <div class="modal-box">
+    <h2>Clé API Anthropic</h2>
+    <p>Le dashboard génère les fiches départementales à la demande via l'API Claude. Entrez votre clé pour activer cette fonctionnalité.</p>
+    <input class="modal-input" id="api-input" type="password" placeholder="sk-ant-api03-..." autocomplete="off">
+    <div class="modal-note">
+      La clé est stockée uniquement dans votre navigateur (localStorage). Elle n'est jamais envoyée ailleurs qu'à api.anthropic.com. Obtenez votre clé sur <strong>console.anthropic.com</strong>.
+    </div>
+    <div class="modal-btns">
+      <button class="modal-btn" onclick="closeModal()">Annuler</button>
+      <button class="modal-btn primary" onclick="saveKey()">Enregistrer</button>
+    </div>
+  </div>
+</div>
 
 <div class="tt" id="tt"></div>
 <div class="app">
@@ -168,6 +195,7 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:
     </div>
     <div class="badge" id="bdg">← sélectionner un département</div>
     <select class="dept-sel" id="dsel" onchange="selCode(this.value)"><option value="">— Département —</option></select>
+    <button class="api-btn" id="api-btn" onclick="openModal()">🔑 Clé API</button>
   </div>
   <div class="content">
     <div class="pane on" id="p0">
@@ -505,7 +533,7 @@ function renderTab(ti, code){
   }
 
   // Build fiche container with tabs for each dimension
-  const cacheKey=`v5_${code}_${k}`;  // v4 = sous-scores prompt
+  const cacheKey=`v6_${code}_${k}`;  // v4 = sous-scores prompt
   const cached=ficheCache[cacheKey];
 
   const ficheHtml=`<div class="fiche-wrap" id="fiche-${ti}">
@@ -532,6 +560,14 @@ function renderTab(ti, code){
 }
 
 function renderFicheLoading(code, k, ti){
+  const key=getKey();
+  if(!key){
+    return `<div class="fiche-body">
+      <p style="color:var(--muted);padding:10px 0">
+        <a href="#" onclick="openModal();return false;" style="color:var(--text);font-weight:500">Configurez votre clé API Anthropic</a> pour générer la fiche détaillée de ce département. La fiche sera ensuite mise en cache pour vos prochaines consultations.
+      </p>
+    </div>`;
+  }
   return `<div class="loading" id="loading-${ti}"><div class="spinner"></div><span>Génération de la fiche ${DIM_L[DIM_KEYS.indexOf(k)+1]} en cours…</span></div>`;
 }
 
@@ -548,22 +584,19 @@ function renderFicheBody(data){
   return `<div class="fiche-body">
     ${synth?`<p>${synth}</p>`:''}
     ${(data.sous_scores&&data.sous_scores.length>0)?`
-      <div style="margin:12px 0;background:var(--surface);border-radius:10px;padding:11px 13px">
-        <div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin-bottom:9px">Décomposition du score</div>
-        <div style="display:flex;flex-direction:column;gap:8px">
+      <div style="margin:12px 0">
+        <div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px">Décomposition du score</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
           ${data.sous_scores.map(s=>{
-            const pct=Math.round(s.score/10*25);
             const col=s.score>=7?'#276749':s.score>=5?'#D97706':'#C53030';
-            const barCol=s.score>=7?'#86efac':s.score>=5?'#fcd34d':'#fca5a5';
-            return `<div>
-              <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px">
-                <span style="font-size:10px;font-weight:500;color:var(--text)">${s.label}</span>
-                <span style="font-size:11px;font-weight:700;font-family:'JetBrains Mono',monospace;color:${col};flex-shrink:0;margin-left:8px">${s.score.toFixed(1)}<span style="font-size:8px;color:var(--muted);font-weight:400">/10</span></span>
+            const bg=s.score>=7?'#EFF6EC':s.score>=5?'#FFFBEB':'#FFF0F0';
+            const border=s.score>=7?'#86efac':s.score>=5?'#fcd34d':'#fca5a5';
+            return `<div style="background:${bg};border:1px solid ${border};border-radius:8px;padding:9px 10px">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:4px;margin-bottom:3px">
+                <span style="font-size:9px;font-weight:500;color:var(--text);line-height:1.3">${s.label}</span>
+                <span style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;color:${col};flex-shrink:0;line-height:1">${s.score.toFixed(1)}</span>
               </div>
-              <div style="height:4px;background:var(--border);border-radius:2px;overflow:hidden;margin-bottom:2px">
-                <div style="height:100%;width:${pct}%;background:${barCol};border-radius:2px"></div>
-              </div>
-              ${s.note?`<div style="font-size:9px;color:var(--muted);line-height:1.4">${s.note}</div>`:''}
+              ${s.note?`<div style="font-size:9px;color:var(--muted);line-height:1.35">${s.note}</div>`:''}
             </div>`;
           }).join('')}
         </div>
@@ -599,10 +632,13 @@ function renderFicheBody(data){
 const loadTokens={};
 
 async function loadFiche(code, d, k, dimLabel, rank, ti){
+  const key=getKey();
+  if(!key)return;
+
   const token=Date.now();
   loadTokens[ti]=token;
 
-  const cacheKey=`v5_${code}_${k}`;  // v4 = sous-scores prompt
+  const cacheKey=`v6_${code}_${k}`;  // v4 = sous-scores prompt
   const prompt=buildPrompt(code,d,k,dimLabel,rank);
 
   function writeIfCurrent(html){
@@ -612,9 +648,14 @@ async function loadFiche(code, d, k, dimLabel, rank, ti){
   }
 
   try {
-    const resp=await fetch('/api/fiche',{
+    const resp=await fetch('https://api.anthropic.com/v1/messages',{
       method:'POST',
-      headers:{'Content-Type':'application/json'},
+      headers:{
+        'Content-Type':'application/json',
+        'x-api-key':key,
+        'anthropic-version':'2023-06-01',
+        'anthropic-dangerous-direct-browser-access':'true'
+      },
       body:JSON.stringify({
         model:'claude-sonnet-4-6',
         max_tokens:1800,
@@ -682,7 +723,9 @@ async function loadFiche(code, d, k, dimLabel, rank, ti){
         };
       }).filter(s=>s.score>0);
 
-      const parsed = {
+    console.log('[DEBUG] sous_scores_raw:', JSON.stringify(sous_scores_raw.substring(0,200)));
+    console.log('[DEBUG] sous_scores parsed:', JSON.stringify(sous_scores));
+    const parsed = {
       synthese,
       sous_scores,
       points_forts: parseList(forts_raw),
@@ -713,9 +756,25 @@ const DIM_IC=['☀️','💧','🌬️','🌱','🫙','🦋'];
 let curDim='g', selDept=null, currentTabIdx=0;
 const ficheCache={};
 
-// ─── API KEY — géré côté serveur ─────────────────────────────────────────
-function getKey(){return 'server-side';}  // clé gérée par /api/fiche
-function updateKeyBtn(){}  // plus de bouton clé
+// ─── API KEY ──────────────────────────────────────────────────────────────
+function getKey(){return localStorage.getItem('anthropic_key')||'';}
+function openModal(){
+  document.getElementById('api-input').value=getKey();
+  document.getElementById('api-modal').style.display='flex';
+}
+function closeModal(){document.getElementById('api-modal').style.display='none';}
+function saveKey(){
+  const k=document.getElementById('api-input').value.trim();
+  if(k){localStorage.setItem('anthropic_key',k);}
+  else{localStorage.removeItem('anthropic_key');}
+  updateKeyBtn();
+  closeModal();
+}
+function updateKeyBtn(){
+  const btn=document.getElementById('api-btn');
+  btn.className=getKey()?'api-btn has-key':'api-btn';
+  btn.textContent=getKey()?'🔑 Clé OK':'🔑 Clé API';
+}
 
 // ─── COLOR HELPERS ────────────────────────────────────────────────────────
 function scColor(s){
@@ -945,6 +1004,8 @@ function renderMethodologie(){
 
 function genFiche(){
   if(!selDept)return;
+  const key=getKey();
+  if(!key){openModal();return;}
   sw(1);
 }
 window.genFiche=genFiche;
@@ -963,6 +1024,7 @@ function populateSel(){
 function init(){
   buildMap();
   populateSel();
+  updateKeyBtn();
   for(let i=1;i<=6;i++)renderTab(i,null);
   // Start on methodology tab
   sw(8);
