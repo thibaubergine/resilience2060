@@ -653,7 +653,7 @@ async function loadFiche(code, d, k, dimLabel, rank, ti){
     if(el)el.innerHTML=html;
   }
   try {
-    const resp=await fetch(`/fiches/${code}_${k}.json`);
+    const resp=await fetch(`/${code}_${k}.json`);
     if(!resp.ok){
       writeIfCurrent(`<div class="fiche-body"><p style="color:#C53030;padding:10px 0">Fiche non disponible.</p></div>`);
       return;
