@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège présente un profil pédologique globalement préservé, caractéristique d'un département à dominante rurale et montagnarde avec une faible pression industrielle historique. Selon la base GéoRisques (ex-BASOL), le département ne recense qu'une dizaine de sites pollués ou potentiellement pollués, l'un des bilans les plus favorables de France métropolitaine. Les sols agricoles ariégeois affichent de faibles teneurs en résidus de pesticides, en lien avec une agriculture peu intensive et une progression significative du bio : l'Ariège compte environ 18 % de sa SAU en agriculture biologique, plaçant le département dans le premier quartile national (Agence Bio 2023). En revanche, le risque radon est élevé sur une large partie du territoire en raison des formations granitiques et métamorphiques pyrénéennes, l'IRSN classant plusieurs communes ariégeoises en zone 3 (risque significatif). La qualité des sols reste néanmoins sous pression modérée liée à l'érosion en contexte de relief accentué et à des pratiques pastorales intensives localisées.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 9.0,
+      "note": "Moins de 12 sites BASOL recensés, faible héritage industriel"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Agriculture peu intensive, faibles résidus pesticides dans les sols"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Socle granitique pyrénéen, nombreuses communes en zone radon 3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~18 % SAU bio, parmi les meilleurs taux nationaux (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Très faible densité de sites pollués : moins de 12 sites BASOL recensés pour 4 890 km², soit l'un des ratios les plus bas de France (GéoRisques 2024)",
+    "Part de SAU en agriculture biologique parmi les plus élevées : ~18 % contre 10,7 % de moyenne nationale (Agence Bio 2023)",
+    "Absence de grandes zones industrielles ou minières actives générant une contamination diffuse des sols",
+    "Sols montagnards en grande partie sous couverts forestiers et prairiaux permanents, limitant l'érosion et favorisant la séquestration de carbone organique"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plus de 60 % des communes ariégeoises classées en zone 3 par l'IRSN, nécessitant des mesures préventives dans les bâtiments et un suivi des expositions intérieures",
+    "Érosion accélérée des sols en contexte de relief pyrénéen, aggravée par les projections climatiques DRIAS 2060 (intensification des précipitations intenses en automne)",
+    "Pression pastorale localisée sur les estives pouvant induire une dégradation de la structure des sols d'altitude et une perte de matière organique à moyen terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<12",
+      "label": "Sites BASOL recensés (09)"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Communes en zone radon 3 (IRSN)"
+    },
+    {
+      "valeur": "4 890 km²",
+      "label": "Superficie départementale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / base ex-BASOL 2024",
+    "Agence Bio – Observatoire national 2023",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "INRAE – Qualité des sols agricoles / Résidus pesticides 2023"
+  ],
+  "limites": [
+    "L'absence de réseau dense de surveillance des sols agricoles en Ariège (peu de points RMQS – Réseau de Mesure de la Qualité des Sols) limite la précision des données sur les teneurs en polluants diffus",
+    "Le risque radon est bien documenté à l'échelle communale mais les données d'exposition réelle des habitants dans les bâtiments existants restent partielles et peu actualisées pour ce département",
+    "La part de SAU bio peut masquer des hétérogénéités territoriales importantes entre fond de vallée (plus intensif) et zones de montagne, sans cartographie fine disponible publiquement"
+  ]
+}

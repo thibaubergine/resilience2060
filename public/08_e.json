@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Ardennes (08) présente une situation hydrique globalement intermédiaire, marquée par une ressource en eau superficielle significative grâce à la Meuse et ses affluents traversant un territoire à dominante forestière et agricole. La qualité des eaux souterraines est affectée par des pressions agricoles notables, notamment des teneurs en nitrates dépassant localement 40 mg/L dans les secteurs de grandes cultures du sud du département (ARS Grand Est, 2022). Les projections Explore2 (2023) anticipent une réduction des débits estivaux de la Meuse de l'ordre de 20 à 35 % à l'horizon 2050-2070 sous scénario intermédiaire, fragilisant les usages agricoles et industriels. La contamination aux PFAS reste préoccupante à proximité de certains sites industriels et anciens terrains militaires, avec des détections dans plusieurs captages d'eau potable (ARS, campagnes 2022-2023). Le taux de conformité des eaux distribuées atteint environ 98 % pour les paramètres microbiologiques, mais des dépassements ponctuels de limites de qualité physicochimiques sont recensés dans une vingtaine de communes rurales (ARS Grand Est, bilan 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité élevée ~98% micro ; dépassements ponctuels communes rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits estivaux Meuse -20 à -35% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Nitrates dépassant 40 mg/L localement dans secteurs grandes cultures sud"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "Détections PFAS plusieurs captages, proximité sites industriels/militaires"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité microbiologique des eaux distribuées ~98%, supérieur à la moyenne nationale (ARS Grand Est, 2022)",
+    "Réseau hydrographique dense structuré autour de la Meuse et de ses affluents (Semoy, Chiers), offrant une ressource volumique significative",
+    "Couverture forestière élevée (~40% du territoire) limitant le ruissellement et favorisant l'infiltration vers les nappes",
+    "Existence de zones humides préservées en vallée de Meuse contribuant à la régulation naturelle des crues et à l'autoépuration"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits estivaux de la Meuse de 20 à 35% à l'horizon 2060 (Explore2, 2023), menaçant alimentation en eau potable et refroidissement industriel",
+    "Contamination aux nitrates persistante dans les aquifères du sud du département, avec des zones classées vulnérables en zone Directive Nitrates et des teneurs localement supérieures à 40 mg/L (ARS 2022)",
+    "Présence de PFAS détectée dans plusieurs captages d'eau potable, liée aux anciens sites industriels et bases militaires, sans solution de traitement systématique à court terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~98%",
+      "label": "Conformité microbiologique eaux distribuées"
+    },
+    {
+      "valeur": "-20 à -35%",
+      "label": "Réduction débits estivaux Meuse (2060)"
+    },
+    {
+      "valeur": "40 mg/L",
+      "label": "Seuil nitrates dépassé localement (ARS 2022)"
+    },
+    {
+      "valeur": "~40%",
+      "label": "Couverture forestière du département"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilan qualité eaux 2022",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "Directive Cadre sur l'Eau – État des masses d'eau Grand Est",
+    "Campagnes PFAS ARS / DGS 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages ardennais sont partielles et issues de campagnes ponctuelles, ne permettant pas une cartographie exhaustive du risque à l'échelle départementale",
+    "L'état des petites masses d'eau souterraines locales (hors Meuse) est insuffisamment documenté dans les rapports DCE disponibles pour les Ardennes",
+    "Les projections Explore2 présentent une incertitude élevée pour les sous-bassins versants ardennais de la Meuse transfrontalière (Belgique), dont la gestion dépend de coopérations internationales non intégrées aux modèles"
+  ]
+}

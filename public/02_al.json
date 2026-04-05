@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aisne est un département à forte vocation agricole, avec une Surface Agricole Utile (SAU) représentant environ 62% du territoire, dominée par les grandes cultures céréalières et betteravières (Agreste 2023). Malgré cette production volumineuse, l'autonomie alimentaire locale reste limitée car l'essentiel des productions est orienté vers l'export ou l'industrie agro-alimentaire, avec peu de débouchés en circuits de proximité (ZAVA 2024). La part de la SAU conduite en agriculture biologique demeure très faible, autour de 2,8% en 2023, soit nettement en dessous de la moyenne nationale de 10,7% (Agence Bio 2023). Le département dispose de quelques signes de qualité INAO mais leur densité reste modeste au regard de la surface agricole totale, avec notamment une IGP pour la Bière de Laon et quelques productions locales identifiées (INAO 2023). Les circuits courts et AMAP se développent timidement, avec une trentaine de points de vente directe recensés, insuffisants pour un territoire aussi étendu (RGA 2020).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Forte SAU (62%) mais production orientée export/industrie, peu locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Peu de labels AOP/IGP; IGP Bière de Laon et quelques produits identifiés"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Part bio à 2,8% SAU, très inférieure à la moyenne nationale 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Trentaine d'AMAP/circuits courts recensés; dynamique émergente modeste"
+    }
+  ],
+  "points_forts": [
+    "Forte surface agricole utile couvrant 62% du territoire, assurant un potentiel productif élevé (Agreste 2023)",
+    "Filière betteravière et céréalière structurée autour de coopératives locales solides comme Cristal Union et Vivescia, garantissant une économie agricole stable (Agreste 2022)",
+    "Développement progressif des circuits courts avec une trentaine de marchés fermiers et points de vente directe recensés sur le département (RGA 2020)",
+    "Présence d'une filière maraîchère et légumière locale dans les vallées (Oise, Aisne) contribuant à diversifier l'offre alimentaire de proximité"
+  ],
+  "vigilances": [
+    "La dépendance aux grandes cultures céréalières et betteravières expose le système alimentaire local aux aléas climatiques projetés (hausse de 3°C à 4°C d'ici 2060, Climadiag 2024), risquant de fragiliser les rendements",
+    "La très faible part du bio (2,8%) et le retard structurel face aux objectifs du Plan Ambition Bio (objectif 18% en 2027) constituent un risque de décrochage économique et environnemental pour les agriculteurs n'ayant pas anticipé la transition",
+    "La concentration des exploitations (taille moyenne en hausse à 130 ha, RGA 2020) fragilise la diversification des productions et limite mécaniquement le développement des circuits courts et de l'alimentation locale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "62%",
+      "label": "Part SAU / territoire"
+    },
+    {
+      "valeur": "2,8%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "~30",
+      "label": "Points vente directe/AMAP"
+    },
+    {
+      "valeur": "130 ha",
+      "label": "Taille moyenne exploitation"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste / RGA 2020",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "L'indicateur ZAVA 2024 mesure un potentiel d'autonomie alimentaire théorique qui ne reflète pas les flux réels de commercialisation locale dans l'Aisne, département fortement exportateur",
+    "Le recensement des circuits courts et AMAP repose sur des données RGA 2020 potentiellement sous-estimées, car de nombreuses initiatives locales (vente à la ferme, ruches à légumes) ne sont pas systématiquement déclarées",
+    "L'absence de données infra-départementales détaillées sur la répartition géographique du bio et des labels ne permet pas d'identifier les territoires de l'Aisne les plus avancés dans la transition alimentaire"
+  ]
+}

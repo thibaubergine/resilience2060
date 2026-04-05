@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aisne présente une situation hydrique contrastée : si le département bénéficie d'une densité notable de cours d'eau (Aisne, Oise, Marne, Vesle) et d'aquifères crayeux importants, la qualité de ses masses d'eau reste dégradée par une agriculture intensive couvrant plus de 75 % du territoire (Agreste 2023). Les teneurs en nitrates dépassent régulièrement les 50 mg/L dans plusieurs captages de la zone nord-est, classant l'Aisne parmi les départements sous surveillance renforcée (ARS Hauts-de-France, 2023). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 20 à 35 % à l'horizon 2060 sur les bassins versants axonais, menaçant l'alimentation en eau potable de territoires ruraux déjà fragiles. La présence de PFAS a été détectée dans plusieurs points de captage, notamment en aval de zones industrielles de la vallée de l'Oise, renforçant les préoccupations sanitaires (ANSES/ARS 2022-2024).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Conformité globale acceptable mais captages vulnérables aux nitrates et pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Débits d'étiage en baisse de 20-35 % projetés horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Nombreux captages dépassant 40 mg/L nitrates, zone vulnérable étendue"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés ponctuellement, contamination industrielle localisée vallée Oise"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense avec 4 rivières principales (Aisne, Oise, Marne, Vesle) assurant une ressource brute abondante",
+    "Aquifères de la craie du Bassin parisien offrant une réserve souterraine significative (BRGM, nappes captives profondes relativement préservées)",
+    "Taux de conformité eau potable distribuée supérieur à 95 % en 2022 pour les paramètres bactériologiques (ARS Hauts-de-France 2023)",
+    "Présence de zones humides en vallées alluviales jouant un rôle tampon dans l'épuration naturelle des eaux"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 35 % des débits d'étiage à l'horizon 2060 (Explore2 2023), menaçant l'alimentation en eau potable de communes rurales isolées",
+    "Extension des zones vulnérables aux nitrates sur 80 % du territoire agricole axonais, avec risques accrus de fermeture de captages (Directive Nitrates, bilan 2022)",
+    "Contamination aux PFAS en expansion : détections en aval de sites industriels de la vallée de l'Oise, normes européennes renforcées à 0,10 µg/L dès 2026 imposeront des traitements coûteux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">35 %",
+      "label": "Réduction débits étiage 2060"
+    },
+    {
+      "valeur": ">50 mg/L",
+      "label": "Nitrates captages sensibles"
+    },
+    {
+      "valeur": "95 %",
+      "label": "Conformité bactériologique AEP"
+    },
+    {
+      "valeur": "75 %",
+      "label": "Surface agricole utile (SAU)"
+    }
+  ],
+  "sources": [
+    "Explore2 (2023) – Prospective hydrologique France",
+    "ARS Hauts-de-France – Bilan qualité eaux 2023",
+    "ANSES/DGS – Campagnes PFAS eau potable 2022-2024",
+    "Agence de l'eau Seine-Normandie – DCE masses d'eau 2022"
+  ],
+  "limites": [
+    "Les données PFAS sur l'Aisne restent partielles : toutes les unités de distribution n'ont pas encore été analysées dans le cadre des campagnes nationales 2022-2024",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle sous-départementale, ne permettant pas d'identifier précisément les bassins versants les plus à risque",
+    "L'absence de système de surveillance unifié entre les régies communales rurales (nombreuses en Aisne) et les grands opérateurs rend difficile une évaluation exhaustive de la qualité réelle de l'eau distribuée"
+  ]
+}

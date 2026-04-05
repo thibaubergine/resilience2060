@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-Maritimes affichent une vulnérabilité alimentaire structurelle marquée, avec une Surface Agricole Utile (SAU) de seulement 47 000 ha, soit moins de 10 % du territoire départemental, parmi les plus faibles de France (Agreste 2023). Le taux d'autonomie alimentaire estimé par le ZAVA 2024 place le département en situation de forte dépendance extérieure, avec une production locale couvrant moins de 15 % des besoins alimentaires d'une population de 1,1 million d'habitants. Si le département bénéficie de quelques filières d'excellence (fleurs de Nice, agrumes, olive), leur poids économique reste marginal face à la pression urbaine et touristique. La part de la SAU en agriculture biologique atteint environ 12 % (Agence Bio 2023), légèrement en dessous de la moyenne nationale de 13,5 %, tandis que les circuits courts se développent modestement avec une cinquantaine d'AMAP recensées sur le territoire. L'étalement urbain littoral et la forte densité de population (260 hab/km²) exercent une pression foncière considérable sur les terres agricoles restantes.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 3.0,
+      "note": "SAU inférieure à 10% du territoire, dépendance alimentaire extérieure massive (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Olive de Nice AOP, Brousse du Rove IGP, quelques filières locales reconnues (INAO)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "Part bio ~12% SAU, légèrement sous moyenne nationale de 13,5% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "~50 AMAP actives, marchés provençaux dynamiques, filières circuits courts en développement"
+    }
+  ],
+  "points_forts": [
+    "Présence de l'AOP Olive de Nice et de l'huile d'olive associée, filière identitaire structurée avec environ 200 producteurs référencés (INAO 2023)",
+    "Dynamisme des marchés de producteurs et des AMAP sur la métropole Nice Côte d'Azur, avec une cinquantaine de structures actives (Réseau AMAP PACA)",
+    "Développement de la Brousse du Rove IGP et des produits maraîchers en agriculture de montagne dans les arrière-pays (Agence Bio 2023)",
+    "Projets de Projet Alimentaire Territorial (PAT) portés par la métropole NCA et plusieurs EPCI, visant à relocaliser une part de l'approvisionnement en restauration collective"
+  ],
+  "vigilances": [
+    "Artificialisation des terres agricoles en progression : perte estimée de 300 à 500 ha/an de SAU sur la frange littorale sous pression urbaine et touristique (Agreste/CEREMA 2022), menaçant les derniers espaces productifs",
+    "Dépendance alimentaire extrême exposant le département à des risques de rupture d'approvisionnement en cas de crise logistique ou climatique, avec moins de 15 % d'autonomie selon le ZAVA 2024",
+    "Vulnérabilité accrue des cultures locales au changement climatique : sécheresses répétées et épisodes de gel tardif impactent déjà les oliveraies et les cultures maraîchères d'arrière-pays (Climadiag 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~47 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "<15 %",
+      "label": "Taux d'autonomie alimentaire estimé"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "Part SAU certifiée bio"
+    },
+    {
+      "valeur": "~50",
+      "label": "AMAP actives recensées"
+    }
+  ],
+  "sources": [
+    "Agreste PACA 2023 – Recensement agricole",
+    "ZAVA (Zone à Vocation Agricole) 2024 – Chambre d'Agriculture 06",
+    "Agence Bio – Observatoire national 2023",
+    "INAO – Registre AOP/IGP 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire des Alpes-Maritimes restent partielles et ne couvrent pas l'ensemble des filières de transformation locale, sous-estimant potentiellement certaines capacités productives de l'arrière-pays",
+    "La forte saisonnalité touristique (environ 12 millions de visiteurs/an) rend difficile l'estimation réelle des besoins alimentaires du territoire et biaise les ratios d'autonomie calculés sur base de population résidente",
+    "L'absence d'un observatoire foncier agricole consolidé à l'échelle départementale limite la précision du suivi des pertes de SAU et de l'évolution réelle de l'agriculture périurbaine niçoise"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-de-Haute-Provence constituent l'un des départements français les plus riches en biodiversité, avec environ 38 % de sa superficie classée en sites Natura 2000 (INPN, 2024), soit l'une des couvertures les plus élevées de métropole. Le département abrite le Parc National du Mercantour (partagé avec les Alpes-Maritimes) et le Parc Naturel Régional du Verdon, offrant une protection effective sur plus de 45 % du territoire (OFB, 2024). On y recense plus de 2 800 espèces végétales, dont de nombreuses endémiques alpines et provençales, faisant du département un hotspot floristique national (CBNA/CBMed, 2023). La LPO signale la présence de populations significatives d'Aigle royal, de Vautour fauve (colonie en expansion sur les gorges du Verdon, +12 % entre 2018 et 2023) et de Grand Tétras, espèces emblématiques du gradient altitudinal exceptionnel du département (200 à 3 050 m). Les corridors écologiques restent globalement fonctionnels grâce à la faible densité humaine (25 hab/km²) et à la continuité forestière, bien que fragmentés localement par la RN85 et les axes de la Durance.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "38 % superficie en Natura 2000, parmi les plus élevés de France"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PN Mercantour + PNR Verdon, >45 % territoire protégé"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Aigle royal, Vautour fauve, Grand Tétras, 2 800 espèces végétales"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors fonctionnels, faible densité ; fragmentés par axes Durance/RN85"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de métropole : ~38 % du territoire classé (INPN, 2024)",
+    "Double protection de grande envergure : PN Mercantour et PNR du Verdon, garantissant des zones noyaux cohérentes (OFB, 2024)",
+    "Colonie de Vautours fauves en pleine expansion dans les Gorges du Verdon (+12 % entre 2018 et 2023, LPO PACA)",
+    "Gradient altitudinal exceptionnel (200–3 050 m) favorisant une diversité d'habitats unique : pelouses alpines, garrigues, forêts mixtes, zones humides"
+  ],
+  "vigilances": [
+    "Réchauffement climatique projeté (+2,5 °C d'ici 2060 selon Climadiag) menaçant les espèces alpines de haute altitude avec remontée des étages de végétation",
+    "Sécheresses récurrentes fragilisant les zones humides de la Durance et réduisant les habitats d'espèces aquatiques sensibles (loutre, écrevisses à pieds blancs)",
+    "Pression touristique croissante dans les sites emblématiques (Gorges du Verdon : >1 million de visiteurs/an) pouvant dégrader les habitats rupestres et perturber la nidification des rapaces"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~38 %",
+      "label": "Superficie en Natura 2000"
+    },
+    {
+      "valeur": ">45 %",
+      "label": "Territoire sous protection (PN/PNR)"
+    },
+    {
+      "valeur": "2 800+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "25 hab/km²",
+      "label": "Densité de population (faible pression)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO PACA – Suivis avifaune Verdon/Mercantour",
+    "CBNA/CBMed – Inventaires floristiques régionaux"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces inventoriées restent incomplètes pour les invertébrés et champignons, sous-représentant la biodiversité réelle du département",
+    "L'état de conservation effectif des sites Natura 2000 varie fortement selon les habitats : certaines pelouses sèches sont en régression faute de pastoralisme suffisant",
+    "Le suivi des corridors écologiques en trame bleue (zones humides) demeure insuffisant dans les vallées de basse altitude, limitant l'évaluation précise de leur fonctionnalité"
+  ]
+}

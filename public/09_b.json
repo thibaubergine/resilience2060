@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège figure parmi les départements français les mieux dotés en biodiversité, avec près de 47 % de son territoire classé en zones Natura 2000, soit l'un des taux les plus élevés de France métropolitaine (INPN 2024). Le département abrite le Parc National des Pyrénées (partagé avec les Hautes-Pyrénées) et le Parc Naturel Régional des Pyrénées Ariégeoises (1 350 km²), offrant un cadre de protection cohérent sur les milieux montagnards (OFB 2024). On y recense des espèces emblématiques remarquables comme l'ours brun (environ 70 individus dans les Pyrénées, dont une part significative fréquente l'Ariège), le gypaète barbu et le desman des Pyrénées, espèce endémique en régression (LPO/INPN). Les corridors écologiques pyrénéens sont globalement fonctionnels, bien que fragmentés en piémont par l'urbanisation diffuse et les axes routiers (TVB Occitanie 2022). Le département concentre plus de 3 500 espèces végétales et animales inventoriées, reflétant une richesse biologique exceptionnelle liée à la diversité des étages altitudinaux.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "47 % du territoire en zones Natura 2000, parmi les premiers nationaux"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Pyrénées Ariégeoises + zone cœur Parc National Pyrénées présents"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Ours brun, gypaète barbu, desman des Pyrénées : espèces rares protégées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors montagnards fonctionnels, fragilisés en piémont par urbanisation"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 exceptionnelle : ~47 % du territoire, contre 13 % en moyenne nationale (INPN 2024)",
+    "Présence du PNR Pyrénées Ariégeoises (1 350 km²) structurant une gestion cohérente des milieux (OFB 2024)",
+    "Population d'ours bruns en augmentation dans les Pyrénées centrales (~70 individus recensés, LPO/DREAL Occitanie)",
+    "Plus de 200 espèces d'oiseaux nicheurs recensés, dont des rapaces rares comme le gypaète barbu et l'aigle royal (LPO Ariège)"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques en piémont ariégeois par l'étalement urbain et la RN20, risquant d'isoler des populations (TVB Occitanie 2022)",
+    "Régression du desman des Pyrénées liée à la modification des régimes hydrologiques prévue avec le changement climatique (-20 % d'habitat favorable d'ici 2050, INPN/MNHN)",
+    "Pression croissante du tourisme estival et hivernal sur les zones d'altitude, perturbant la faune sauvage et dégradant les habitats alpins sensibles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~47 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "1 350 km²",
+      "label": "Surface PNR Pyrénées Ariégeoises"
+    },
+    {
+      "valeur": "~70 individus",
+      "label": "Ours bruns Pyrénées"
+    },
+    {
+      "valeur": "3 500+",
+      "label": "Espèces inventoriées INPN"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN/MNHN 2024",
+    "LPO Ariège",
+    "TVB Occitanie 2022"
+  ],
+  "limites": [
+    "Les inventaires INPN restent partiels sur certaines zones de piémont, sous-estimant potentiellement la richesse réelle en invertébrés et champignons",
+    "Le suivi de l'ours brun repose sur des estimations indirectes (traces, ADN) rendant les effectifs précis difficiles à établir pour le seul département",
+    "L'état de conservation des habitats Natura 2000 ariégeois n'est pas systématiquement mis à jour, limitant l'évaluation dynamique de la biodiversité"
+  ]
+}

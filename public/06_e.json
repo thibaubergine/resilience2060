@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-Maritimes présentent une situation hydrique contrastée : le département bénéficie d'une faible pression agricole limitant la contamination par les nitrates (moins de 10 mg/L en moyenne sur la majorité des masses d'eau souterraines, ARS PACA 2023), mais fait face à un stress hydrique structurel croissant lié à la topographie alpine et à la forte densité urbaine littorale (1,1 million d'habitants concentrés sur la frange côtière). Les projections Explore2 (2023) indiquent une baisse des débits moyens annuels des cours d'eau azuréens de l'ordre de 20 à 35 % à l'horizon 2070, particulièrement sur le Var et la Siagne. La qualité de l'eau potable distribuée est globalement satisfaisante (95 % de la population alimentée par une eau conforme aux exigences bactériologiques et chimiques, ARS 2022), mais des tensions persistent sur les captages en période estivale face à un doublement saisonnier de la population. La présence de PFAS constitue une vigilance émergente, notamment en aval de zones industrielles et aéroportuaires (aéroport de Nice-Côte d'Azur), avec des détections récentes dans plusieurs masses d'eau superficielles (DREAL PACA 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "95% conformité eau potable, tensions estivales sur captages côtiers"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse débits -20 à -35% horizon 2070, Var et Siagne très exposés"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Faible agriculture, nitrates bas (<10 mg/L), masses d'eau peu contaminées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "Détections PFAS aéroport Nice, zones industrielles, surveillance renforcée"
+    }
+  ],
+  "points_forts": [
+    "Faible pression agricole : les nitrates restent sous 10 mg/L sur la majorité des masses d'eau souterraines du département (ARS PACA 2023)",
+    "Taux de conformité de l'eau distribuée élevé : 95 % de la population alimentée par une eau conforme aux normes bactériologiques et chimiques (ARS 2022)",
+    "Réseau karstique alpin fournissant des ressources en eau de bonne qualité naturelle pour les communes de l'arrière-pays",
+    "Dispositif de surveillance DCE (Directive Cadre sur l'Eau) actif sur les principaux cours d'eau (Var, Paillon, Loup, Siagne), permettant un suivi régulier"
+  ],
+  "vigilances": [
+    "Stress hydrique structurel aggravé : Explore2 (2023) projette une réduction des débits de 20 à 35 % à l'horizon 2060-2070 sur les cours d'eau azuréens, avec des étiages estivaux plus sévères et précoces",
+    "Contamination émergente aux PFAS détectée en aval de l'aéroport de Nice-Côte d'Azur et de zones industrielles du bas-Var, nécessitant une extension du suivi analytique (DREAL PACA 2023)",
+    "Vulnérabilité saisonnière des captages : la population littorale doublant en été (jusqu'à 2 millions de personnes), les ressources en eau mobilisables frôlent leur limite lors des pics estivaux en cas de sécheresse prolongée"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-20 à -35%",
+      "label": "Baisse débit prévue (2070)"
+    },
+    {
+      "valeur": "95%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "<10 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "2×",
+      "label": "Population littorale estivale"
+    }
+  ],
+  "sources": [
+    "ARS PACA – Bilan qualité eaux 2022-2023",
+    "Explore2 INRAE/OFB 2023 – Projections hydrologiques",
+    "DREAL PACA – Surveillance DCE et PFAS 2023",
+    "Agence de l'Eau Rhône Méditerranée Corse – État des masses d'eau 2022"
+  ],
+  "limites": [
+    "Les données de surveillance PFAS restent partielles sur le département : tous les captages d'eau potable n'ont pas encore fait l'objet d'analyses systématiques, sous-estimant potentiellement l'exposition réelle",
+    "Les projections Explore2 présentent une incertitude accrue pour les bassins versants alpins à régime nival-pluvial complexe (Roya, Bévéra), rendant difficile la planification précise de la gestion des ressources",
+    "L'absence de données publiées à l'échelle communale fine sur la qualité des eaux distribuées dans les petites communes rurales de l'arrière-pays limite l'évaluation exhaustive du critère eau potable pour l'ensemble du territoire azuréen"
+  ]
+}

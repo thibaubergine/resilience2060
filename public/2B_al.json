@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Corse présente un profil alimentaire favorable porté par une agriculture traditionnelle de qualité et une faible artificialisation des terres agricoles. Le département compte 8 appellations AOP/IGP actives (charcuteries, fromages, vins, huile d'olive, clémentine), positionnant l'île parmi les territoires les plus denses en signes de qualité rapportés à la SAU (INAO, 2023). La part de la SAU conduite en agriculture biologique atteint environ 12% en Haute-Corse, dépassant la moyenne nationale de 10,7% (Agence Bio, 2023). L'autonomie alimentaire demeure cependant structurellement limitée : le département importe environ 70% de ses produits alimentaires, notamment les céréales et les protéines animales, en raison d'un tissu agro-industriel de transformation quasi-absent (ZAVA, 2024). Les circuits courts restent dynamiques avec une progression des marchés paysans et des AMAP, bien qu'insuffisants pour compenser la forte dépendance aux flux logistiques maritimes continental-insulaire.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Forte dépendance aux importations continentales, ~70% des aliments importés"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP actives, densité parmi les plus élevées de France"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~12% SAU en bio, supérieur à la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Marchés paysans dynamiques, AMAP en développement, tissu encore limité"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de signes de qualité : 8 AOP/IGP (charcuterie corse, brocciu, vins AOC Patrimonio, huile d'olive, clémentine de Corse) pour un territoire de 4 666 km² (INAO, 2023)",
+    "Part de la SAU en agriculture biologique (~12%) supérieure à la moyenne nationale, témoignant d'une agriculture peu intensive historiquement (Agence Bio, 2023)",
+    "Forte identité alimentaire locale favorisant les débouchés en circuits courts et la valorisation des produits du terroir auprès des 3,5 millions de touristes annuels",
+    "Pression phytosanitaire globalement faible grâce au maintien de pratiques extensives et à la topographie du département préservant les exploitations d'une intensification excessive (INRAE, 2023)"
+  ],
+  "vigilances": [
+    "Dépendance logistique maritime critique : toute perturbation du trafic Corse-continent expose le territoire à une rupture rapide des approvisionnements alimentaires (ZAVA, 2024)",
+    "Vieillissement des agriculteurs et faible renouvellement : plus de 55% des chefs d'exploitation ont plus de 50 ans, menaçant la pérennité des filières AOP à horizon 2035 (Agreste Corse, 2022)",
+    "Impact du changement climatique sur la ressource en eau estivale : la sécheresse croissante menace l'irrigation des cultures de clémentine et d'olive (Climadiag 2060, seuil de stress hydrique aggravé)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8",
+      "label": "AOP/IGP actives (INAO 2023)"
+    },
+    {
+      "valeur": "~12%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~70%",
+      "label": "Produits alimentaires importés"
+    },
+    {
+      "valeur": "55%+",
+      "label": "Exploitants agricoles > 50 ans"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (zones d'autonomie alimentaire)",
+    "INAO 2023 (registre AOP/IGP)",
+    "Agence Bio 2023 (chiffres clés bio)",
+    "Agreste Corse 2022 (recensement agricole)"
+  ],
+  "limites": [
+    "L'indicateur ZAVA appliqué à la Haute-Corse ne distingue pas la production agricole locale destinée à l'export (vins, charcuteries) de celle réellement disponible pour la consommation insulaire, surestimant potentiellement l'autonomie apparente",
+    "Les données sur les AMAP et circuits courts en Corse sont partiellement documentées : l'absence d'observatoire régional structuré rend difficile une comparaison fiable avec les 96 départements",
+    "La saisonnalité touristique (pic estival x3 à x4 de la population) fausse les ratios de consommation alimentaire locale annuels, rendant les indicateurs de circuits courts et d'autonomie peu comparables aux départements à population stable"
+  ]
+}

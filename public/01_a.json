@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Ain présente une qualité de l'air globalement satisfaisante grâce à sa faible densité urbaine et industrielle, mais reste soumis à des épisodes de pollution particulaire liés au relief et aux conditions météorologiques favorisant les inversions thermiques dans les vallées (ATMO Auvergne-Rhône-Alpes, 2023). Les concentrations moyennes annuelles en PM2,5 oscillent autour de 10-12 µg/m³ sur la Plaine de l'Ain et la région bressane, dépassant la nouvelle valeur guide OMS 2021 fixée à 5 µg/m³, bien que restant sous les seuils réglementaires européens de 25 µg/m³ (ATMO AuRA, 2022). Le NO₂ demeure contenu hors des abords de l'A40 et de l'axe Bourg-en-Bresse, avec des concentrations urbaines inférieures à 25 µg/m³ en moyenne annuelle, nettement sous le seuil OMS de 10 µg/m³ mais révélant des hotspots trafic (ATMO AuRA, 2023). L'agriculture intensive, notamment la polyculture-élevage de la Bresse et les grandes cultures de la Dombes, génère des émissions d'ammoniac (NH₃) significatives, classant le département parmi les émetteurs modérés de la région (CITEPA/ATMO, 2022). La présence de la zone industrielle de la Plaine de l'Ain et de quelques installations classées SEVESO contribue ponctuellement aux émissions de composés organiques volatils et de particules industrielles.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 ~11 µg/m³, dépasse guide OMS 5 µg/m³, sous seuil UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ urbain <25 µg/m³, hotspots A40 et Bourg-en-Bresse limités"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Zone industrielle Plaine de l'Ain, émissions COV et particules modérées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole élevé, élevage bressan et grandes cultures Dombes"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air globalement meilleure que les départements voisins industrialisés (Isère, Rhône) : aucun dépassement réglementaire NO₂ en 2022 (ATMO AuRA)",
+    "Faible densité de trafic lourd hors axe A40/RN83, limitant les émissions NOₓ diffuses sur 80 % du territoire",
+    "Absence de grande agglomération : Bourg-en-Bresse (~43 000 hab.) génère des niveaux de pollution urbaine bien inférieurs aux métropoles régionales (ATMO AuRA, 2023)",
+    "Couverture forestière et espaces naturels importants (Bugey, Revermont) favorisant la dilution et l'absorption de polluants"
+  ],
+  "vigilances": [
+    "Épisodes récurrents de pollution aux particules PM10/PM2,5 en hiver dans les vallées du Bugey et autour de Bourg-en-Bresse, liés aux inversions thermiques et au chauffage au bois (risque accru avec augmentation de la précarité énergétique d'ici 2030)",
+    "Émissions agricoles d'ammoniac en hausse potentielle avec l'intensification de l'élevage bressan et des grandes cultures, contribuant à la formation de particules secondaires (PM2,5 secondaires)",
+    "Proximité de la centrale nucléaire de Bugey (Saint-Vulbas) et de la zone industrielle de la Plaine de l'Ain : risque de rejets industriels accidentels et exposition résidentielle aux polluants spécifiques (benzène, métaux lourds)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "Concentration moyenne PM2,5 (2022)"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ max urbain Bourg-en-Bresse"
+    },
+    {
+      "valeur": "~1 200 t/an",
+      "label": "Émissions NH₃ agricoles estimées"
+    },
+    {
+      "valeur": "3",
+      "label": "Sites SEVESO départementaux"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes, Bilan qualité de l'air 2022-2023",
+    "OMS, Lignes directrices mondiales sur la qualité de l'air 2021",
+    "CITEPA, Inventaire national des émissions 2022",
+    "Préfecture de l'Ain, DREAL AuRA, ICPE et sites classés 2023"
+  ],
+  "limites": [
+    "Le réseau de surveillance ATMO est peu dense dans les zones rurales de la Dombes et du Bugey, limitant la représentativité des mesures pour ces territoires agricoles et forestiers",
+    "L'absence de station de mesure fixe permanente à Bourg-en-Bresse pour les PM2,5 oblige à recourir à des modélisations avec incertitude sur les données locales précises",
+    "Les émissions agricoles de NH₃ sont estimées par modélisation à partir de données d'activité et non mesurées directement, introduisant une incertitude sur le niveau réel des concentrations secondaires"
+  ]
+}

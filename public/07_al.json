@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche présente un profil alimentaire solide, porté par une agriculture de terroir diversifiée et une tradition de valorisation des productions locales. Le département compte 8 appellations d'origine protégée et indications géographiques reconnues, dont la châtaigne d'Ardèche AOP et le picodon AOP, ancrant une identité gastronomique forte (INAO, 2024). La part de la surface agricole utile (SAU) conduite en agriculture biologique atteint environ 16 %, soit près du double de la moyenne nationale de 10,5 %, reflétant un engagement marqué des exploitants vers des pratiques durables (Agence Bio, 2023). Les zones à vocation agricole (ZAVA) identifiées dans le cadre des SCOT locaux couvrent des espaces significatifs, mais la topographie accidentée limite mécaniquement la SAU totale à environ 120 000 ha, soit 33 % du territoire (Agreste, 2023). Les circuits courts et AMAP sont bien développés, avec plus de 25 AMAP recensées et une dynamique marchés paysans notable portée par des collectifs comme le réseau ARDEAR Auvergne-Rhône-Alpes (INRAE/RnPAT, 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Zones ZAVA établies mais SAU limitée par relief montagneux ardéchois"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "8 AOP/IGP reconnues dont châtaigne et picodon, terroir fort"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~16% SAU bio, bien au-dessus moyenne nationale de 10,5%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "25+ AMAP actives, marchés paysans dynamiques, réseau ARDEAR structuré"
+    }
+  ],
+  "points_forts": [
+    "La châtaigne d'Ardèche AOP, emblème du département, valorise plusieurs milliers d'hectares de châtaigneraies et génère un chiffre d'affaires annuel estimé à plus de 5 M€ (INAO, 2024)",
+    "Avec 16 % de SAU certifiée bio, l'Ardèche se place parmi les 15 premiers départements français pour la conversion biologique (Agence Bio, 2023)",
+    "Présence de 8 signes officiels de qualité (AOP, IGP, Label Rouge) couvrant vins, fromages, fruits et châtaignes, conférant une densité de labels supérieure à la moyenne nationale",
+    "Un tissu associatif dynamique (ARDEAR, GAB 07, CIVAM) accompagne la transition vers des systèmes alimentaires locaux et résilients, avec plus de 25 AMAP opérationnelles"
+  ],
+  "vigilances": [
+    "Le changement climatique menace directement les châtaigneraies (sécheresses répétées, cynips, encre) : une perte de 20 à 30 % de la production est projetée d'ici 2050 si les conditions s'aggravent (Climadiag, DRIAS 2023)",
+    "La déprise agricole sur les coteaux en terrasses reste préoccupante : la SAU ardéchoise a reculé de près de 8 % en dix ans, fragilisant l'autonomie alimentaire territoriale (Agreste, 2020-2023)",
+    "La dépendance aux productions de niche (châtaigne, vins des Côtes du Rhône) expose l'économie alimentaire locale à une forte volatilité climatique et de marché, limitant la diversification des ressources alimentaires locales"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "16%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "8",
+      "label": "AOP/IGP départementales"
+    },
+    {
+      "valeur": "25+",
+      "label": "AMAP actives recensées"
+    },
+    {
+      "valeur": "120 000 ha",
+      "label": "SAU totale (33% du territoire)"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre officiel AOP/IGP France",
+    "Agence Bio 2023 – Baromètre national agriculture biologique",
+    "Agreste 2023 – Recensement agricole Ardèche",
+    "RnPAT/INRAE 2024 – Réseau national Projets Alimentaires Territoriaux"
+  ],
+  "limites": [
+    "Les données ZAVA sont issues de SCOT d'échelles variables et ne couvrent pas uniformément l'ensemble du département, rendant l'évaluation de l'autonomie alimentaire partielle",
+    "L'absence d'un Projet Alimentaire Territorial (PAT) formalisé à l'échelle départementale complète limite la consolidation des données sur les circuits courts et leur impact réel",
+    "La forte hétérogénéité topographique (plaines du Rhône vs. hautes terres du Massif Central) empêche une lecture uniforme des indicateurs alimentaires sur le territoire ardéchois"
+  ]
+}

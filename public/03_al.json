@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier (03) présente un profil alimentaire globalement favorable, porté par une agriculture mixte alliant polyculture-élevage et grandes cultures sur ses 340 000 ha de SAU (environ 60% de la superficie départementale). Le département compte plusieurs signes officiels de qualité reconnus, dont le Bourbon-Charolais et des productions AOC/IGP locales, témoignant d'une valorisation qualitative des terroirs (INAO, 2024). La part de la SAU en agriculture biologique atteignait environ 8,5% en 2023, légèrement inférieure à la moyenne nationale de 10,6%, mais en progression régulière depuis 2018 (Agence Bio, 2023). Les indicateurs ZAVA (Zones à Vocation Alimentaire) 2024 placent l'Allier dans une position intermédiaire pour l'autonomie alimentaire, avec une production bovine excédentaire mais une dépendance extérieure pour les fruits et légumes. Le réseau de circuits courts reste modéré avec environ 15% des exploitations déclarant une vente directe, inférieur à certains départements périurbains de la région (Recensement agricole, 2020).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Excédent bovin notable, déficit structurel en fruits et légumes locaux"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs IGP/AOP actives : Bourbon-Charolais, Saint-Pourçain AOP"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "~8,5% SAU bio en 2023, progression lente sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Réseau AMAP dynamique, marchés fermiers nombreux en milieu rural"
+    }
+  ],
+  "points_forts": [
+    "Production bovine excédentaire avec le Charolais de l'Allier, pilier d'une autonomie protéique significative à l'échelle régionale",
+    "Appellation Saint-Pourçain AOP (vins) et IGP Bourbon-Charolais reconnues nationalement, valorisant les terroirs locaux (INAO, 2024)",
+    "Environ 15% des exploitations agricoles pratiquent la vente directe, favorisant les circuits courts sur tout le territoire (RA 2020)",
+    "Dynamisme des marchés de producteurs et présence d'une vingtaine de points AMAP recensés, notamment autour de Moulins et Vichy"
+  ],
+  "vigilances": [
+    "Faible diversification maraîchère locale : la dépendance aux filières extérieures pour fruits et légumes fragilise la résilience alimentaire en cas de rupture logistique",
+    "Progression lente de l'agriculture biologique (~8,5% SAU en 2023) avec risque de décrochage face aux objectifs nationaux 18% à l'horizon 2027 (PAC 2023-2027)",
+    "Vieillissement des agriculteurs (âge moyen 52 ans dans l'Allier) et faible taux de renouvellement générational pouvant compromettre la durabilité des systèmes locaux d'ici 2035"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "340 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "8,5%",
+      "label": "Part SAU en bio (2023)"
+    },
+    {
+      "valeur": "~15%",
+      "label": "Exploitations en vente directe"
+    },
+    {
+      "valeur": "3",
+      "label": "AOP/IGP actives (INAO 2024)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio 2023",
+    "INAO 2024 – Registre AOP/IGP",
+    "Recensement Agricole 2020 – MSA/Agreste",
+    "Agence Bio – Baromètre national bio 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour l'Allier, sans distinction fine entre zones rurales profondes et bassins de vie urbains (Moulins, Vichy, Montluçon)",
+    "L'absence de cartographie précise des flux alimentaires locaux empêche de quantifier réellement le taux d'auto-approvisionnement par filière",
+    "La comparaison interdépartementale sur les circuits courts souffre d'hétérogénéité des définitions retenues selon les recensements et les DRAAF régionales"
+  ]
+}

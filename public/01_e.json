@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Ain bénéficie d'une situation hydrique globalement favorable grâce à la présence du Rhône, de l'Ain, de la Saône et de nombreux étangs de la Dombes, alimentant une ressource en eau abondante (ARS Auvergne-Rhône-Alpes, 2023). La qualité des eaux distribuées est satisfaisante pour environ 94 % de la population desservie par des réseaux conformes aux normes bactériologiques et physico-chimiques (ARS 2022). Toutefois, les projections Explore2 (2023) indiquent une réduction des débits d'étiage de l'ordre de 10 à 30 % à l'horizon 2060 sur les bassins versants de l'Ain et du Haut-Rhône, accentuant les tensions estivales déjà observées. La plaine de la Bresse présente des teneurs en nitrates préoccupantes dans certaines nappes phréatiques superficielles, liées à l'agriculture intensive (DCE/Agence de l'eau RMC, 2022). La contamination aux PFAS reste un sujet de vigilance émergent dans le couloir industriel rhodanien traversant le sud du département (ANSES/ARS, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.5,
+      "note": "94 % population desservie en eau conforme normes ARS 2022"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.5,
+      "note": "Réduction étiages 10-30 % prévue horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.5,
+      "note": "Nappes Bresse impactées par nitrates agricoles, dépassements locaux"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.5,
+      "note": "Contamination PFAS limitée, vigilance sur couloir rhodanien sud"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense : Rhône, Ain, Saône et plus de 1 000 étangs de la Dombes assurant une recharge significative des nappes",
+    "Conformité eau potable élevée : 94 % de la population alimentée par eau conforme aux paramètres réglementaires (ARS Auvergne-Rhône-Alpes, 2022)",
+    "Débit du Rhône parmi les plus importants de France, offrant une capacité de dilution et de soutien d'étiage supérieure à la moyenne nationale",
+    "Bon état écologique de plusieurs masses d'eau de surface classées « bon état » selon la Directive Cadre sur l'Eau (Agence de l'eau RMC, 2022)"
+  ],
+  "vigilances": [
+    "Réduction des débits d'étiage de 10 à 30 % sur les rivières Ain et Haut-Rhône à l'horizon 2060 selon les scénarios Explore2, menaçant alimentation en eau potable et refroidissement des centrales",
+    "Contamination aux nitrates des nappes phréatiques superficielles de la plaine bresane avec dépassements ponctuels du seuil de 50 mg/L liés aux pratiques agricoles intensives (DCE/Agence de l'eau RMC, 2022)",
+    "Présence de PFAS détectée dans certains captages du couloir industriel au sud du département (secteur Oyonnax/Ambérieu), nécessitant une surveillance renforcée (ARS/ANSES, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Réduction étiages 2060 (Explore2)"
+    },
+    {
+      "valeur": "1 000+",
+      "label": "Étangs Dombes (recharge nappes)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé localement (Bresse)"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes, Bilan qualité eaux 2022",
+    "Explore2, Projections hydrologiques 2023 (INRAE/OFB)",
+    "Agence de l'eau Rhône-Méditerranée-Corse, DCE état des masses d'eau 2022",
+    "ANSES/ARS, Surveillance PFAS eaux destinées consommation humaine 2023"
+  ],
+  "limites": [
+    "Les données de conformité ARS agrègent petits et grands réseaux, masquant des disparités sur les captages ruraux isolés de l'Ain",
+    "Les projections Explore2 présentent une incertitude importante à l'échelle des sous-bassins versants secondaires du département",
+    "La surveillance PFAS est récente et incomplète sur l'ensemble des captages ain-domistes, rendant toute conclusion définitive prématurée"
+  ]
+}

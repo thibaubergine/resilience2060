@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube (10) présente une situation préoccupante pour la qualité des sols, reflet direct de sa vocation agricole intensive dominée par les grandes cultures céréalières et betteravières, qui couvrent près de 80 % de la Surface Agricole Utile départementale (Agreste 2023). Les résidus de pesticides détectés dans les sols aubois figurent parmi les plus élevés de la région Grand Est, conséquence d'un usage intensif d'herbicides, fongicides et insecticides sur les grandes plaines champenoises (INRAE 2023). Le territoire recense plusieurs dizaines de sites pollués ou potentiellement pollués répertoriés dans la base de données GéoRisques (ex-BASOL), concentrés notamment autour de Troyes et des anciennes zones industrielles de la vallée de la Seine. L'agriculture biologique reste très marginale dans l'Aube, avec seulement 3,2 % de la SAU certifiée bio en 2023, soit l'un des taux les plus faibles de France métropolitaine (Agence Bio 2024). Le risque radon est jugé modéré à faible sur l'essentiel du territoire, du fait de la prédominance de substrats calcaires peu émissifs, ce qui constitue le seul point positif notable de cette dimension sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL autour de Troyes et vallée Seine"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Usage intensif pesticides grandes cultures, résidus sols parmi plus élevés Grand Est"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Substrat calcaire dominant, faible émissivité radon sur majorité du territoire"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "3,2 % SAU bio, légèrement sous moyenne nationale mais en progression"
+    }
+  ],
+  "points_forts": [
+    "Risque radon faible à modéré sur 90 % du territoire grâce aux substrats calcaires crayeux (IRSN, zones 1-2 dominantes)",
+    "Part des sols bio en légère progression (+0,4 point entre 2021 et 2023), signe d'une dynamique de conversion engagée (Agence Bio 2024)",
+    "Absence de concentration industrielle lourde sur l'ensemble du département hormis le bassin de Troyes, limitant la contamination chronique",
+    "Présence de programmes agro-environnementaux (MAEC) encourageant la réduction des intrants sur certaines zones de captage"
+  ],
+  "vigilances": [
+    "Pression pesticides structurelle : avec 80 % de SAU en grandes cultures conventionnelles, la charge chimique des sols risque de s'aggraver face aux ravageurs liés au changement climatique (INRAE 2023)",
+    "Compaction et érosion des sols champenois : les pratiques de travail intensif du sol et l'absence de couverts végétaux hivernaux sur de nombreuses parcelles fragilisent la structure du sol, avec un risque accru d'érosion hydrique estimé à 3-5 t/ha/an sur les limons",
+    "Réhabilitation incomplète de sites industriels : plusieurs sites ex-BASOL autour de Troyes présentent encore des pollutions aux métaux lourds et hydrocarbures insuffisamment traités, représentant un risque de transfert vers les nappes phréatiques"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,2 %",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "~80 %",
+      "label": "SAU en grandes cultures conventionnelles"
+    },
+    {
+      "valeur": "Zones 1-2",
+      "label": "Niveau radon majoritaire (IRSN)"
+    },
+    {
+      "valeur": "40+",
+      "label": "Sites GéoRisques ex-BASOL recensés"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus pesticides sols 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Données régionales 2024"
+  ],
+  "limites": [
+    "Les données BASOL/GéoRisques ne couvrent pas les sites pollués non encore identifiés ni les contaminations diffuses agricoles sur l'ensemble des parcelles auboises",
+    "L'indicateur de résidus pesticides dans les sols repose sur des campagnes d'échantillonnage INRAE ponctuelles, non représentatives de toutes les situations pédologiques du département",
+    "La part SAU bio ne reflète pas la qualité intrinsèque des sols conventionnels, et les données de matière organique ou d'indices de vie biologique des sols restent insuffisamment documentées à l'échelle départementale"
+  ]
+}

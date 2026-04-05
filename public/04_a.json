@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Alpes-de-Haute-Provence (04) affiche une qualité de l'air parmi les meilleures de France métropolitaine, bénéficiant d'une faible densité de population (23 hab/km²) et d'une quasi-absence d'industrie lourde. Les concentrations en PM2,5 mesurées par AtmoSud restent généralement inférieures à 10 µg/m³ en moyenne annuelle, bien en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ pour les zones rurales de montagne, avec des valeurs proches de 6-8 µg/m³ selon les stations de mesure de Manosque et Digne-les-Bains. Le NO₂ urbain demeure très modéré, les villes du département ne dépassant pas 15-18 µg/m³ en moyenne annuelle, loin du seuil réglementaire européen de 40 µg/m³ (AtmoSud, 2022-2023). Toutefois, les émissions d'ammoniac (NH₃) liées à l'élevage ovin et aux cultures lavandières constituent un point de vigilance relatif, avec des flux estimés par le Citepa plaçant le département dans une situation intermédiaire à l'échelle régionale PACA. La situation globale est nettement favorable par rapport aux 96 départements français, justifiant un score de 8,0/10.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.5,
+      "note": "PM2,5 ~7 µg/m³, sous seuil OMS; air rural montagnard favorable"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ <18 µg/m³ à Manosque; très inférieur au seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Quasi-absence d'industrie lourde; très faible densité émettrice"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.5,
+      "note": "Élevage ovin et lavande génèrent NH₃ notable à l'échelle régionale"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de PACA, ~7 µg/m³ en moyenne annuelle (AtmoSud, 2023), portées par la ventilation naturelle et la faible artificialisation",
+    "Aucune installation ICPE de type Seveso seuil haut recensée sur le territoire, limitant drastiquement les émissions industrielles de polluants primaires (DREAL PACA, 2023)",
+    "Niveaux de NO₂ très inférieurs aux normes européennes dans les principales agglomérations, Digne-les-Bains et Manosque affichant des valeurs stables sous 20 µg/m³ (AtmoSud, 2022)",
+    "Trafic routier faible (RN85 et routes secondaires) et absence d'autoroute à fort débit dans la majeure partie du territoire, réduisant les émissions de polluants liés aux transports"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac (NH₃) issues de l'élevage ovin (environ 800 000 têtes en transhumance) et de la filière lavande restent une source de pollution secondaire aux particules fines (PM2,5 secondaires) à surveiller (Citepa, 2022)",
+    "Les épisodes de pollution par les particules liés aux feux de forêt et au brûlage agricole sont en augmentation avec le changement climatique, pouvant faire ponctuellement dépasser les seuils OMS (projections DRIAS 2060)",
+    "La dépendance à la voiture individuelle dans ce département rural (taux de motorisation élevé, transports en commun limités) pourrait ralentir la décarbonation des transports et maintenir des émissions de NOx locales"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "<18 µg/m³",
+      "label": "NO₂ max urbain"
+    },
+    {
+      "valeur": "0 Seveso HH",
+      "label": "Sites industriels dangereux"
+    },
+    {
+      "valeur": "23 hab/km²",
+      "label": "Densité population"
+    }
+  ],
+  "sources": [
+    "AtmoSud – Bilan de la qualité de l'air PACA 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire des émissions NH₃ et PM par département 2022",
+    "DREAL PACA – Base ICPE et registre des émissions 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure AtmoSud est peu dense sur le 04 (2-3 stations fixes), ce qui limite la représentativité spatiale des concentrations mesurées sur ce vaste territoire montagneux",
+    "Les données sur les émissions agricoles diffuses (NH₃ lavande, élevage transhumant) reposent sur des modélisations à maille régionale peu précises à l'échelle départementale",
+    "L'absence de données spécifiques aux vallées encaissées (Ubaye, Verdon) empêche d'évaluer d'éventuels effets de confinement atmosphérique hivernaux sur la qualité de l'air local"
+  ]
+}

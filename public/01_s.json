@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Ain présente une qualité des sols globalement intermédiaire au niveau national, avec des pressions contrastées selon les territoires. La plaine de la Bresse et la Dombes, à forte vocation agricole, concentrent les usages intensifs en intrants phytosanitaires, générant des résidus mesurables dans les horizons superficiels (INRAE 2023). On recense sur le département plusieurs dizaines de sites recensés dans la base BASOL/GéoRisques liés à des activités industrielles passées, notamment autour de Bourg-en-Bresse et de la vallée de l'Ain. Le risque radon est modéré à faible sur la majorité du territoire, les zones granitiques étant limitées aux contreforts du Bugey (IRSN). En revanche, la dynamique de conversion à l'agriculture biologique reste en deçà de la moyenne nationale, avec environ 8 à 9 % de la SAU en bio (Agence Bio 2023), freinant la restauration de la biodiversité microbienne des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 60 sites BASOL recensés, concentration autour de Bourg-en-Bresse"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Résidus pesticides élevés en Bresse et Dombes, cultures intensives céréalières"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon faible à modéré, socle granitique limité au Bugey oriental"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~8-9%, légèrement sous la moyenne nationale de 10%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible sur plus de 80% du territoire départemental (IRSN), préservant la qualité des sols résidentiels",
+    "Progression continue de la SAU biologique ces 5 dernières années, avec +15% de conversions entre 2020 et 2023 (Agence Bio)",
+    "Présence de zones humides de la Dombes (~10 000 ha d'étangs) agissant comme filtres naturels et limitant le lessivage des polluants vers les horizons profonds",
+    "Faible densité industrielle lourde hors axe Bourg-en-Bresse, limitant la contamination diffuse des sols ruraux"
+  ],
+  "vigilances": [
+    "Contamination diffuse aux pesticides dans les sols de la Bresse bressane et de la Dombes, avec détection de PFAS et de fongicides persistants sur plusieurs parcelles suivies (INRAE 2023)",
+    "Tassement et érosion des sols agricoles en zone de grandes cultures, estimés à une perte de 1 à 3 t/ha/an sur les secteurs pentus du Bugey",
+    "Friches industrielles et anciens sites ICPE insuffisamment dépollués en périphérie de Bourg-en-Bresse représentant un risque résiduel de transfert de polluants vers les nappes phréatiques (GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~60",
+      "label": "Sites BASOL répertoriés"
+    },
+    {
+      "valeur": "~8,5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Faible à modéré",
+      "label": "Niveau de risque radon"
+    },
+    {
+      "valeur": "3 t/ha/an",
+      "label": "Érosion estimée zones pentues Bugey"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Rapport annuel 2023"
+  ],
+  "limites": [
+    "Absence de cartographie exhaustive et actualisée de la contamination aux micropolluants organiques sur l'ensemble des sols agricoles de l'Ain, rendant l'évaluation partielle",
+    "Les données BASOL ne couvrent pas les pollutions diffuses agricoles historiques, sous-estimant potentiellement les contaminations en Bresse et Dombes",
+    "Le suivi de la qualité des sols biologiques et de l'activité microbienne reste insuffisant à l'échelle départementale, limitant l'évaluation de la restauration écologique des sols"
+  ]
+}

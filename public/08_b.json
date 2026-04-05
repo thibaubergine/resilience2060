@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Ardennes couvrent 5 234 km² et présentent un patrimoine naturel structuré autour de la forêt ardennaise, qui représente environ 35 % du territoire, l'une des plus grandes massifs forestiers du nord-est français (INPN 2024). Le département compte environ 15 % de sa superficie incluse dans le réseau Natura 2000, avec notamment des sites liés aux vallées de la Meuse et de la Semoy, abritant des espèces remarquables comme le Faucon pèlerin et la Loutre d'Europe (OFB 2024). Le Parc Naturel Régional des Ardennes, créé en 2011 et couvrant 197 000 ha à cheval sur la France et la Belgique (côté français ~100 000 ha), constitue l'armature principale de la protection territoriale (PNR Ardennes 2023). Cependant, l'intensification agricole dans les zones de plaine (Champagne crayeuse au sud) fragilise les corridors écologiques et entraîne un déclin documenté des populations d'oiseaux des milieux agricoles, avec une baisse de 20 à 30 % en deux décennies selon l'indice STOC (LPO Grand Est 2023). La trame verte et bleue départementale reste partiellement fragmentée par les infrastructures routières et les grandes cultures, limitant la connectivité entre le massif ardennais et les zones humides de la Meuse (SRCE Grand Est 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Environ 15 % superficie en Natura 2000, vallées Meuse et Semoy incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Ardennes ~100 000 ha côté français, structurant protection territoriale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Faucon pèlerin, Loutre, Grand Tétras relictuel ; diversité forestière notable"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors fragmentés par agriculture intensive et infrastructures routières"
+    }
+  ],
+  "points_forts": [
+    "Forêt ardennaise couvrant ~35 % du territoire, réservoir majeur de biodiversité sylvatique (INPN 2024)",
+    "PNR Ardennes actif depuis 2011, couvrant ~100 000 ha côté français avec plans de gestion espèces (PNR Ardennes 2023)",
+    "Vallées de la Meuse et de la Semoy classées Natura 2000, habitat favorable à la Loutre d'Europe et aux poissons migrateurs (OFB 2024)",
+    "Présence de zones humides alluviales de la Meuse contribuant à la diversité des amphibiens et odonates (LPO Grand Est 2023)"
+  ],
+  "vigilances": [
+    "Déclin des oiseaux des milieux agricoles de 20 à 30 % en 20 ans dans les plaines champenoises (indice STOC, LPO Grand Est 2023)",
+    "Fragmentation croissante des corridors écologiques nord-sud par l'axe A34 et extensions de grandes cultures (SRCE Grand Est 2022)",
+    "Vulnérabilité des zones humides de la Meuse face aux épisodes de sécheresse projetés à l'horizon 2050-2060, réduisant les habitats hygrophiles (DRIAS 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~15 %",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "~100 000 ha",
+      "label": "Surface PNR Ardennes (FR)"
+    },
+    {
+      "valeur": "35 %",
+      "label": "Couverture forestière"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Déclin oiseaux agricoles (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Grand Est 2023",
+    "PNR Ardennes 2023",
+    "SRCE Grand Est 2022"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 peuvent inclure des sites à cheval sur les départements limitrophes, surestimant légèrement la protection effective ardennaise",
+    "L'indice STOC est collecté à l'échelle régionale Grand Est, rendant difficile l'attribution précise des tendances au seul département des Ardennes",
+    "L'état de conservation réel des corridors écologiques manque de cartographie fine et actualisée à l'échelle infra-départementale, limitant le diagnostic de connectivité"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Ardennes (08) présente une situation contrastée pour les sols, avec une agriculture intensive dominante sur les plateaux crayeux de la Champagne ardennaise, engendrant une pression élevée en résidus phytosanitaires détectés dans les horizons superficiels (INRAE 2023). Le département recense plusieurs dizaines de sites BASOL (anciens sites industriels pollués ou à surveiller), héritage de l'activité métallurgique et sidérurgique de la vallée de la Meuse autour de Givet et Charleville-Mézières (GéoRisques, 2024). Le risque radon est significatif sur les massifs anciens ardennais (socle cristallin du Massif des Ardennes), classant plusieurs communes en zone à potentiel radon élevé de niveau 3 selon l'IRSN. La part de la SAU conduite en agriculture biologique reste très faible dans ce département à dominante céréalière et betteravière, avec environ 2 à 3 % de la SAU totale en bio, bien en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Dizaines de sites BASOL liés à l'industrie métallurgique meusienne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Agriculture intensive céréalière; résidus pesticides élevés sols superficiels"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Socle ardennais cristallin; plusieurs communes en zone radon niveau 3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~2-3%, faible mais légèrement supérieure à certains voisins"
+    }
+  ],
+  "points_forts": [
+    "Le massif forestier ardennais (forêt de l'Argonne et Ardennes primaires) préserve des sols forestiers peu contaminés sur environ 40 % du territoire",
+    "Les zones alluviales de la Meuse bénéficient de suivis réguliers dans le cadre de la DCE, permettant une surveillance renforcée des contaminations (GéoRisques 2024)",
+    "Certaines communes rurales de l'est du département présentent des teneurs en matière organique relativement bien conservées grâce à des pratiques herbagères extensives",
+    "La requalification progressive des friches industrielles de la vallée de la Meuse contribue à réduire le stock de sites potentiellement pollués non traités"
+  ],
+  "vigilances": [
+    "La forte utilisation de fongicides et herbicides sur les plateaux céréaliers champenois (blé, betterave, colza) maintient un risque persistant de contamination des horizons pédologiques avec des molécules comme le S-métolachlore, dont l'usage est en cours de restriction européenne",
+    "L'érosion hydrique des sols limoneux sur les versants des plateaux est aggravée par la raréfaction des haies et les événements pluvieux intenses prévus en hausse d'ici 2060 (DRIAS 2024), menaçant la structure et la fertilité des sols agricoles",
+    "La présence de sites industriels historiques insuffisamment dépollués (métallurgie, forge) dans la vallée de la Meuse représente un risque de remobilisation des métaux lourds (plomb, cadmium) en cas de crues ou d'aménagements"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~35 sites",
+      "label": "Sites BASOL recensés (GéoRisques 2024)"
+    },
+    {
+      "valeur": "~2-3 %",
+      "label": "Part SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Zone 3 (partielle)",
+      "label": "Communes en risque radon élevé (IRSN)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "SAU en agriculture conventionnelle intensive"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Carte potentiel radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites entièrement dépollués de ceux sous simple surveillance, rendant l'évaluation du risque résiduel difficile pour les Ardennes",
+    "L'absence de cartographie pédologique exhaustive et actualisée à l'échelle communale limite l'évaluation fine des teneurs en matière organique et des contaminations diffuses dans ce département rural",
+    "Les données sur les résidus de pesticides dans les sols ardennais restent parcellaires, l'INRAE n'ayant pas publié de résultats spécifiques au département 08 dans ses dernières synthèses régionales"
+  ]
+}

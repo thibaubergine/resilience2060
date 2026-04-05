@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube (10) présente une qualité de l'air globalement intermédiaire au sein de la région Grand Est, avec des concentrations en PM2,5 généralement inférieures au seuil guide OMS 2021 (5 µg/m³) dans les zones rurales mais ponctuellement dépassées en périodes hivernales (ATMO Grand Est, 2023). Le NO₂ reste sous les seuils réglementaires annuels (40 µg/m³) à Troyes, ville principale, bien que les axes routiers du cœur d'agglomération enregistrent des pics pouvant dépasser 30 µg/m³ (ATMO Grand Est). L'activité agricole intensive génère des émissions d'ammoniac (NH₃) significatives, l'Aube étant un département de grande culture céréalière et d'élevage, contribuant aux dépôts azotés affectant la qualité de l'air rural (Citepa 2022). La densité industrielle reste modérée, concentrée autour de Troyes et de la zone logistique de Brienne-le-Château, sans source majeure classée SEVESO impactant massivement les émissions atmosphériques (DREAL Grand Est 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 rural faible ; pics hivernaux ponctuels autour de Troyes"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ urbain sous seuils réglementaires ; axes routiers Troyes limités"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Industrie modérée concentrée Troyes-Brienne ; peu d'émetteurs lourds"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "NH₃ agricole élevé ; grande culture et élevage intensifs prédominants"
+    }
+  ],
+  "points_forts": [
+    "Concentrations annuelles en NO₂ inférieures à 30 µg/m³ à Troyes, bien en-deçà du seuil OMS de 10 µg/m³ mais conformes à la directive européenne (ATMO Grand Est 2023)",
+    "Absence de site industriel SEVESO seuil haut majeur émetteur atmosphérique dans le département (DREAL Grand Est 2023)",
+    "Qualité de l'air rurale favorable sur les plateaux agricoles éloignés des axes autoroutiers, avec PM2,5 proche de 5 µg/m³ en période estivale (ATMO Grand Est)",
+    "Couverture de surveillance satisfaisante grâce au réseau ATMO Grand Est avec stations fixes à Troyes et modélisation spatiale départementale"
+  ],
+  "vigilances": [
+    "Émissions agricoles d'NH₃ chroniquement élevées liées aux épandages printaniers sur les grandes cultures (blé, colza), contribuant à la formation de particules secondaires PM2,5 et dépôts azotés (Citepa 2022, secteur agricole = ~90 % des émissions NH₃ nationales)",
+    "Épisodes de pollution aux particules fines en hiver combinant chauffage au bois résidentiel et brumes de gel sur la plaine champenoise, avec dépassements ponctuels du seuil OMS de 15 µg/m³/24h",
+    "Développement logistique autour de l'axe A5 (plateforme de Brienne, zone d'activités Troyes-ouest) susceptible d'augmenter les émissions de NOₓ et PM liées au trafic poids lourds à horizon 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12 µg/m³",
+      "label": "PM2,5 moyen annuel Troyes (ATMO GE 2023)"
+    },
+    {
+      "valeur": "~28 µg/m³",
+      "label": "NO₂ max annuel station urbaine Troyes"
+    },
+    {
+      "valeur": "~90 %",
+      "label": "Part agricole émissions NH₃ département"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites SEVESO seuil haut émetteurs air majeurs"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national émissions 2022",
+    "DREAL Grand Est – Installations classées 2023",
+    "OMS – Lignes directrices qualité de l'air mondial 2021"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO est centré sur Troyes ; la qualité de l'air en milieu rural aubois repose principalement sur des modèles spatiaux avec incertitude non négligeable",
+    "Les données NH₃ agricoles à l'échelle départementale sont issues d'inventaires nationaux désagrégés et non de mesures locales directes, ce qui limite la précision territoriale",
+    "L'absence de station de mesure des oxydes d'azote sur les axes routiers secondaires (RN19, RN77) ne permet pas d'évaluer l'exposition réelle des riverains hors agglomération troyenne"
+  ]
+}

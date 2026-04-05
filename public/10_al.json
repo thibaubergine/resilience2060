@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube présente un profil alimentaire intermédiaire (5,5/10), marqué par une agriculture dominée par les grandes cultures céréalières et la viticulture champenoise. La Surface Agricole Utile (SAU) du département atteint environ 340 000 ha, soit près de 55% du territoire, avec une forte orientation vers les cultures industrielles (blé, betterave, colza) qui limitent la diversification alimentaire locale (Agreste 2023). La part de l'agriculture biologique reste modeste, autour de 3,5% de la SAU, en-deçà de la moyenne nationale de 10,7% (Agence Bio 2023). L'Aube bénéficie d'une IGP Champagne reconnue mondialement mais le maillage en circuits courts et AMAP demeure insuffisant pour assurer une autonomie alimentaire satisfaisante à la population auboise (ZAVA 2024). Les zones à autonomie vivrière attestent d'une dépendance persistante aux approvisionnements extérieurs pour les fruits, légumes et protéines animales diversifiées.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "SAU orientée grandes cultures, faible diversification vivrière locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "AOC Champagne présente mais offre agroalimentaire diversifiée limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "3,5% SAU bio, nettement sous la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif autour de Troyes, marchés locaux bien structurés"
+    }
+  ],
+  "points_forts": [
+    "Viticulture champenoise reconnue mondialement avec l'AOC Champagne couvrant une partie du territoire aubois, générateur de valeur ajoutée locale élevée (INAO 2023)",
+    "Réseau de marchés de plein air et d'AMAP relativement actif autour de Troyes, avec une quinzaine de structures recensées en circuits courts (RnPAT 2023)",
+    "SAU importante (~340 000 ha, 55% du territoire) offrant un potentiel de reconversion vers une agriculture plus diversifiée (Agreste 2023)",
+    "Présence de filières betterave-sucre et de grandes cultures structurées assurant une sécurité économique agricole relative du territoire"
+  ],
+  "vigilances": [
+    "Part bio stagnante à 3,5% de la SAU malgré les objectifs du plan Ecophyto, risquant de creuser l'écart avec les objectifs nationaux de 18% d'ici 2027 (Agence Bio 2023)",
+    "Forte dépendance aux intrants chimiques dans les grandes cultures (betterave, colza), avec un indice de fréquence de traitement (IFT) supérieur à la moyenne régionale Grand Est (Agreste/OFB 2022)",
+    "Vulnérabilité climatique croissante pour la viticulture champenoise : hausse des températures de +1,5°C déjà mesurée et risque accru de gel tardif et de sécheresse printanière d'ici 2060 (Climadiag 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,5%",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~340 000 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "1 AOC",
+      "label": "Appellation Champagne sur territoire"
+    },
+    {
+      "valeur": "~15",
+      "label": "Structures circuits courts / AMAP"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste Grand Est 2023",
+    "ZAVA 2024 / RnPAT 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale Grand Est, rendant difficile l'individualisation précise du score aubois",
+    "La diversité réelle des circuits courts est difficile à quantifier exhaustivement, certaines ventes directes à la ferme n'étant pas répertoriées dans les bases officielles",
+    "L'impact de la filière Champagne sur l'autonomie alimentaire locale est ambigu : forte valeur économique mais faible contribution à la sécurité alimentaire en denrées de base"
+  ]
+}

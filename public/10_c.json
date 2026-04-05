@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube (10), situé dans la plaine champenoise à faible altitude (130-300 m en moyenne), présente une vulnérabilité climatique modérée à horizon 2060, avec un score de 5,0/10. Selon les projections DRIAS 2023 (scénario RCP 8.5), le département pourrait connaître une hausse des températures estivales de +3,5°C à +4°C d'ici 2060, passant d'une moyenne de 10,8°C à plus de 14°C annuels. Climadiag communal (Météo-France, 2023) indique que le nombre de jours de vague de chaleur pourrait tripler, passant de 3-5 jours/an actuellement à 12-18 jours/an en 2050-2070. L'Aube est traversée par la Seine et l'Aube, deux cours d'eau exposés aux crues et aux étiages sévères, avec des projections d'une réduction de 20 à 30 % des débits estivaux (source Explore2/BRGM 2023). La faible altitude du territoire offre peu de tampon thermique, mais le risque incendie demeure modéré grâce à une faible couverture forestière (17 % du territoire, IGN 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude basse (130-300 m), faible tampon thermique face aux chaleurs"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Hausse +3,5°C prévue 2060, vagues chaleur triplées (DRIAS/Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Couverture forestière faible (17%), risque feux modéré à limité"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Plaine alluviale Seine-Aube, crues fréquentes et étiages projetés sévères"
+    }
+  ],
+  "points_forts": [
+    "Risque incendie parmi les plus faibles de Grand Est : couverture forestière de seulement 17 % du territoire (IGN 2023), très en-dessous de la moyenne nationale (31 %)",
+    "Pas de façade littorale exposée : absence de submersion marine et de risque côtier, avantage structurel confirmé par Géorisques 2023",
+    "Présence du lac-réservoir Seine (Seine grands lacs) : 205 Mm³ de capacité, outil de régulation hydraulique face aux sécheresses estivales (source : EPTB Seine Grands Lacs)",
+    "Températures actuellement modérées (moyenne annuelle 10,8°C, MétéoFrance) offrant une marge d'adaptation plus longue que les départements méditerranéens"
+  ],
+  "vigilances": [
+    "Multiplication des sécheresses agricoles : déficit hydrique estival projeté en hausse de 25-30 % à horizon 2060 (DRIAS/Explore2), menaçant les cultures de grandes plaines (céréales, betteraves)",
+    "Augmentation des crues rapides de la Seine et de l'Aube : Troyes a subi des inondations majeures (1910, 1999, 2013) et le PPRI de l'Aube classe 35 % du territoire urbain en zone inondable (Géorisques/DDRM 10)",
+    "Stress thermique urbain croissant à Troyes : ville dense en plaine sans relief protecteur, avec projection de 20+ jours de canicule/an d'ici 2060 contre 4-5 actuellement (Climadiag Météo-France 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5 à +4°C",
+      "label": "Hausse températures 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "17 %",
+      "label": "Couverture forestière (IGN 2023)"
+    },
+    {
+      "valeur": "205 Mm³",
+      "label": "Capacité lacs-réservoirs Seine"
+    },
+    {
+      "valeur": "35 %",
+      "label": "Zone urbaine inondable Troyes (PPRI)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "Climadiag communal Météo-France 2023",
+    "Explore2-BRGM 2023",
+    "EPTB Seine Grands Lacs / Géorisques / DDRM Aube (10)"
+  ],
+  "limites": [
+    "Les projections DRIAS reposent sur des modèles d'ensemble dont l'incertitude reste élevée à l'échelle départementale pour 2060, notamment sur la variabilité interannuelle des précipitations dans l'Aube",
+    "L'indicateur \"risque feux de forêt\" est favorable aujourd'hui mais pourrait évoluer significativement si la végétation se transforme sous l'effet du réchauffement (colonisation arbustive des plateaux crayeux), ce que les données actuelles ne capturent pas encore",
+    "La vulnérabilité aux inondations est difficile à quantifier précisément pour l'Aube : les données PPRI ne couvrent pas l'ensemble des communes rurales du département, laissant des zones grises dans l'évaluation comparative"
+  ]
+}

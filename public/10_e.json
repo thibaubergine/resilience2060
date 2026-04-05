@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube (10) présente une situation hydrique contrastée, marquée par la présence de la nappe de la craie champenoise, ressource stratégique mais vulnérable, qui alimente l'essentiel de l'eau potable du territoire (ARS Grand Est, 2023). La qualité des eaux brutes est dégradée par une agriculture céréalière intensive couvrant près de 70% de la SAU, générant des teneurs en nitrates dépassant régulièrement 50 mg/L dans certaines captages classés en zones vulnérables (DCE/ADES, 2022). Les projections Explore2 (2023) anticipent une réduction des recharges des nappes alluviales et crayeuses de 10 à 30% à l'horizon 2050-2070, menaçant l'alimentation en eau potable et les usages agricoles. Des contaminations aux PFAS ont été détectées dans plusieurs points de surveillance de l'Aube, notamment à proximité de sites industriels et aéroportuaires (ARS Grand Est, 2023), bien que le département ne figure pas parmi les plus critiques à l'échelle nationale. La Seine et l'Aube, cours d'eau principaux, présentent un état écologique qualifié de « moyen » à « médiocre » pour plusieurs masses d'eau selon le dernier cycle DCE (2019-2024).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité eau potable globalement satisfaisante, captages crayeux vulnérables nitrates"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction recharge nappe craie 10-30% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Zones vulnérables nitrates étendues, dépassements 50 mg/L fréquents captages"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Détections PFAS ponctuelles, niveau inférieur à départements industriels majeurs"
+    }
+  ],
+  "points_forts": [
+    "La nappe de la craie champenoise constitue une réserve stratégique considérable, assurant plus de 80% de l'alimentation en eau potable du département (ARS Grand Est)",
+    "Le taux de conformité bactériologique de l'eau distribuée dépasse 98% dans la majorité des UDI auboise (ARS Grand Est, 2023)",
+    "Plusieurs captages prioritaires bénéficient de programmes de reconquête de la qualité dans le cadre du SDAGE Seine-Normandie 2022-2027",
+    "La présence de zones humides en vallée de la Seine et de l'Aube contribue à l'épuration naturelle et au soutien d'étiage"
+  ],
+  "vigilances": [
+    "La réduction projetée de 10 à 30% des recharges des nappes crayeuses à l'horizon 2050-2070 (Explore2, 2023) menace la sécurité d'approvisionnement en eau potable de l'ensemble du département",
+    "Les concentrations en nitrates restent préoccupantes dans les zones de grande culture, avec plusieurs captages sous arrêté préfectoral de restriction ou de mélange pour maintenir la conformité",
+    "Des traces de PFAS et de produits phytosanitaires (métolachlore-ESA notamment) ont été détectées dans les eaux souterraines, nécessitant une surveillance accrue autour des anciens sites industriels et des zones de grande culture"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">50 mg/L",
+      "label": "Nitrates : dépassements fréquents sur captages crayeux"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Réduction recharge nappes attendue à 2060 (Explore2)"
+    },
+    {
+      "valeur": "~80%",
+      "label": "Part eau potable issue de la nappe de la craie"
+    },
+    {
+      "valeur": ">98%",
+      "label": "Conformité bactériologique eau distribuée (ARS 2023)"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilan qualité eaux potables 2023",
+    "Explore2 – Projections hydrologiques France 2023",
+    "ADES/DCE – État des masses d'eau souterraine cycle 2019-2024",
+    "SDAGE Seine-Normandie 2022-2027"
+  ],
+  "limites": [
+    "Les données PFAS dans les eaux souterraines auboises sont encore partielles, les campagnes de mesure systématiques étant récentes (post-arrêté du 13 juin 2022), rendant difficile une cartographie exhaustive du risque",
+    "L'état écologique des masses d'eau de surface (Seine, Aube, Ardusson) repose sur des cycles DCE pluriannuels, ce qui peut masquer des dégradations ponctuelles ou saisonnières récentes",
+    "Les projections Explore2 présentent une incertitude significative à l'échelle départementale, les modèles hydrologiques étant calés à des échelles de bassins versants plus larges que le seul département de l'Aube"
+  ]
+}

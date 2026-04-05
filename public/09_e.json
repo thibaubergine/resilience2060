@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège bénéficie d'une ressource en eau abondante grâce à son réseau hydrographique dense structuré autour de l'Ariège, du Salat et de leurs affluents pyrénéens, avec un débit moyen annuel de l'Ariège à Foix estimé à environ 50 m³/s (DREAL Occitanie). La qualité des eaux superficielles est globalement bonne à très bonne, avec plus de 75 % des masses d'eau classées en bon état écologique selon l'état des lieux DCE 2019 de l'Agence de l'Eau Adour-Garonne. La contamination par les nitrates reste très faible, le département étant classé hors zone vulnérable aux nitrates sur la quasi-totalité de son territoire, grâce à la faible densité d'élevage intensif et à la prédominance de prairies permanentes (Directive Nitrates, arrêtés de zonage 2022). Les projections Explore2 (2023) signalent néanmoins une réduction des débits d'étiage estivaux de 10 à 30 % à l'horizon 2050–2070 sur les bassins versants pyrénéens, en lien avec la fonte des glaciers et neiges persistantes. La pression PFAS reste modérée, sans signalement de contamination majeure détectée dans les eaux distribuées selon les contrôles ARS Occitanie 2022–2023.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "Plus de 95 % population avec eau conforme, faible pression polluante"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Réduction débits étiage -10 à -30 % horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 10,
+      "note": "Hors zone vulnérable nitrates, agriculture extensive dominante"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Aucune contamination PFAS majeure détectée, contrôles ARS 2023"
+    }
+  ],
+  "points_forts": [
+    "Plus de 75 % des masses d'eau en bon état écologique selon l'état des lieux DCE 2019 (Agence de l'Eau Adour-Garonne)",
+    "Territoire classé hors zone vulnérable nitrates sur l'intégralité du département (arrêté de zonage Occitanie 2022)",
+    "Réseau hydrographique dense et alpin offrant un débit soutenu neuf mois sur douze, avec une recharge naturelle pyrénéenne significative",
+    "Absence de signalement de contamination PFAS dans les eaux destinées à la consommation humaine selon les contrôles ARS Occitanie 2022–2023"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage estivaux de 10 à 30 % à l'horizon 2050–2070 sous scénario RCP4.5–8.5 (Explore2, 2023), menaçant l'alimentation en eau potable en période sèche",
+    "Recul accéléré du manteau neigeux et des glaciers pyrénéens (−40 % de surface glaciaire depuis 1850, Météo-France/CNRS), réduisant progressivement le soutien d'étiage estival",
+    "Petites unités de distribution d'eau potable en milieu rural (nombreuses communes de moins de 500 habitants) présentant des vulnérabilités structurelles aux sécheresses et à la qualité microbiologique (rapport ARS Occitanie 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">75 %",
+      "label": "Masses d'eau en bon état écologique (DCE 2019)"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Réduction débits étiage 2050-2070 (Explore2)"
+    },
+    {
+      "valeur": "0",
+      "label": "Zones vulnérables nitrates dans le département"
+    },
+    {
+      "valeur": "~50 m³/s",
+      "label": "Débit moyen annuel Ariège à Foix (DREAL Occitanie)"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Adour-Garonne – État des lieux DCE 2019",
+    "Explore2 INRAE/BRGM 2023 – Projections hydrologiques",
+    "ARS Occitanie – Bilan contrôle eaux potables 2022-2023",
+    "Arrêté zonage zones vulnérables nitrates Occitanie 2022"
+  ],
+  "limites": [
+    "Les données de contrôle PFAS dans les eaux souterraines ariégeoises restent partielles, le maillage de surveillance étant moins dense qu'en zones périurbaines ou industrielles",
+    "Les projections Explore2 présentent une incertitude élevée sur les bassins pyrénéens de haute altitude en raison de la complexité de la modélisation nivo-glaciaire",
+    "L'état écologique de certaines petites masses d'eau de tête de bassin n'est pas systématiquement renseigné dans les états des lieux DCE, pouvant sous-estimer des pressions locales d'origine agricole ou touristique"
+  ]
+}

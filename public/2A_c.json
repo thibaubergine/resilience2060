@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud présente une vulnérabilité climatique modérée mais en nette aggravation, avec des projections Climadiag (Météo-France, 2023) indiquant une hausse des températures estivales de +2,5 à +4°C à l'horizon 2060 selon les scénarios RCP4.5 et RCP8.5. Le département enregistre déjà une augmentation des journées de canicule, passant de 5 à 15 jours/an en moyenne sur la période 1990-2020, avec des épisodes record comme l'été 2022 (DRIAS, 2023). Le risque incendie est particulièrement prégnant : la Corse-du-Sud compte parmi les départements français les plus exposés, avec plus de 65 % de surface boisée vulnérable et des conditions favorisant l'extension des feux (AP3C/TRACC, 2023). Le littoral, qui concentre l'essentiel de la population et des activités touristiques, est exposé à une montée des eaux estimée entre +30 et +80 cm d'ici 2100 (GIEC AR6), menaçant des zones basses comme le golfe d'Ajaccio et la plaine du Taravo. Le relief montagneux (Monte Incudine, 2 134 m) constitue un tampon thermique partiel mais insuffisant pour compenser l'intensification des phénomènes extrêmes méditerranéens.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Relief montagneux notable (2134 m) offre refuges thermiques significatifs"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Canicules en forte hausse : +10 jours/an projetés d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "65% surface boisée exposée, feux record en 2017 et 2022"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Littoral ajaccien exposé, érosion dunaire accélérée depuis 2000"
+    }
+  ],
+  "points_forts": [
+    "Le relief de la Corse-du-Sud, culminant à 2 134 m (Monte Incudine), offre des zones refuges thermiques permettant à environ 15 % du territoire de maintenir des températures modérées même en conditions de canicule",
+    "La façade maritime génère des effets de brise thermique limitant les pics de chaleur nocturne sur le littoral, avec des amplitudes atténuées de 2 à 3°C par rapport à l'intérieur des terres (Météo-France, station Ajaccio)",
+    "Le département bénéficie d'une politique de prévention incendie renforcée via le Plan Départemental de Protection des Forêts Contre l'Incendie (PDPFCI), avec des débroussaillements obligatoires sur 50 m autour des habitations",
+    "La relative faible densité de population (34 hab/km²) réduit l'effet îlot de chaleur urbain, limitant la vulnérabilité humaine directe aux canicules par rapport aux métropoles continentales"
+  ],
+  "vigilances": [
+    "Le risque feux de forêt est en aggravation structurelle : les modèles DRIAS projettent une extension de la saison à risque de 2 à 3 mois supplémentaires d'ici 2060, avec des conditions Météo Risque Très Élevé passant de 30 à 60 jours/an (AP3C Corse, 2023)",
+    "La montée du niveau marin menace directement les zones basses côtières (golfe d'Ajaccio, Bonifacio, plage de Pianottoli) avec une projection d'érosion côtière accélérée et un risque de submersion pour 8 à 12 % des plages corses d'ici 2050 (BRGM, 2023)",
+    "La raréfaction des ressources en eau douce en période estivale, combinée à la pression touristique (2,5 millions de visiteurs/an), crée une tension hydrique croissante qui amplifie la vulnérabilité aux vagues de chaleur prolongées et aux épisodes de sécheresse"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse temp. estivale projetée 2060 (scénario médian)"
+    },
+    {
+      "valeur": "65%",
+      "label": "Surface boisée à risque incendie élevé"
+    },
+    {
+      "valeur": "+15 jours",
+      "label": "Journées canicule supplémentaires/an d'ici 2060"
+    },
+    {
+      "valeur": "34 hab/km²",
+      "label": "Densité limitant l'effet îlot de chaleur"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS/TRACC projections régionales Corse",
+    "AP3C Corse – Adaptation au changement climatique 2023",
+    "BRGM – Érosion côtière méditerranéenne 2023"
+  ],
+  "limites": [
+    "Les projections climatiques à l'échelle départementale restent imprécises pour la Corse-du-Sud en raison de la complexité orographique (gradients altitude/mer très marqués) qui génère des micro-climats difficiles à modéliser",
+    "L'absence de station météorologique dense dans l'intérieur des terres limite la validation des modèles climatiques locaux, notamment pour les phénomènes de versant et les pluies méditerranéennes intenses",
+    "Les données historiques sur l'évolution du trait de côte en Corse-du-Sud sont fragmentaires avant les années 2000, rendant l'évaluation du taux d'érosion actuel et futur moins robuste que pour les côtes continentales françaises"
+  ]
+}

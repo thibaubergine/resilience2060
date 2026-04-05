@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Alpes constituent l'un des départements les plus riches en biodiversité de France métropolitaine, avec près de 47 % du territoire classé en zones Natura 2000, couvrant 278 000 ha sur une superficie totale de 586 000 ha (INPN, 2024). Le département abrite le Parc National des Écrins (178 000 ha, second plus grand parc national français) et une partie du Parc Naturel Régional du Queyras, garantissant une protection forte sur plus d'un tiers du territoire (OFB, 2024). La faune alpine y est exceptionnellement représentée avec des populations viables de bouquetin des Alpes (estimées à plus de 1 200 individus sur les Écrins), de gypaète barbu (environ 10 couples nicheurs) et de loup (présence confirmée dans plusieurs massifs, ONCFS/OFB). Les corridors écologiques alpins, bien que préservés grâce à une faible densité humaine (23 hab/km²), font face à des pressions croissantes liées au changement climatique, notamment la remontée altitudinale des espèces et la fragmentation des habitats nivaux (DRIAS 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "47 % du territoire en Natura 2000, parmi les plus élevés de France"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "Parc National des Écrins + PNR Queyras, couverture protégée majeure"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Bouquetin, gypaète barbu, loup, aigle royal, espèces remarquables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors alpins fonctionnels mais fragilisés par réchauffement climatique"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France : 47 % du territoire, soit environ 278 000 ha classés ZSC et ZPS (INPN, 2024)",
+    "Parc National des Écrins couvrant 178 000 ha dont 92 000 ha en zone cœur, second plus grand parc national de France métropolitaine (OFB, 2024)",
+    "Population viable de bouquetin des Alpes : plus de 1 200 individus dans le massif des Écrins, symbole de réintroduction réussie depuis les années 1970 (LPO/PNE)",
+    "Présence d'environ 10 couples nicheurs de gypaète barbu dans les Alpes du Sud, espèce en expansion après réintroduction (LPO, 2023)"
+  ],
+  "vigilances": [
+    "Réchauffement climatique : projection d'une hausse de +3°C à +4°C en altitude d'ici 2060 (DRIAS 2023), entraînant la régression des pelouses alpines et des habitats nivaux critiques pour la faune endémique",
+    "Fragmentation accrue des habitats par la fréquentation touristique intensive : plus de 600 000 visiteurs/an dans les Écrins, risque de dérangement des espèces sensibles en période de reproduction (PNE, 2023)",
+    "Déclin des populations d'insectes pollinisateurs dans les vallées agricoles et viticoles du Champsaur et du Briançonnais, corrélé à l'usage de produits phytosanitaires sur les surfaces cultivées (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "47 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "178 000 ha",
+      "label": "Superficie Parc National Écrins"
+    },
+    {
+      "valeur": "1 200+",
+      "label": "Bouquetins (Écrins)"
+    },
+    {
+      "valeur": "10 couples",
+      "label": "Gypaètes barbus nicheurs"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Rapport 2023",
+    "Parc National des Écrins (PNE)",
+    "DRIAS 2023 / Climadiag"
+  ],
+  "limites": [
+    "Les inventaires faunistiques et floristiques restent partiels sur les zones de haute altitude (>2 500 m), sous-représentées dans les bases INPN faute d'accessibilité et de missions de terrain suffisantes",
+    "L'état de conservation réel des habitats Natura 2000 n'est réévalué que tous les 6 ans (rapportage Art. 17 Directive Habitats), créant un décalage potentiel avec les dynamiques de dégradation en cours",
+    "L'impact du changement climatique sur les espèces endémiques alpines (flore de haute altitude, invertébrés glaciaires) est encore mal quantifié dans les modèles de projection départementaux disponibles"
+  ]
+}

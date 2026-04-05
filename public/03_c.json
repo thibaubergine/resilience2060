@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier (03), département de plaine et de bocage situé au cœur du Massif central à une altitude moyenne modeste (~350 m), présente une vulnérabilité climatique intermédiaire à l'horizon 2060. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de +2,5 à +3°C de sa température moyenne annuelle d'ici 2060 sous scénario SSP3-7.0, avec un allongement significatif des épisodes de sécheresse estivale. Le nombre de jours de vague de chaleur (Tmax >35°C) pourrait tripler, passant d'une moyenne actuelle de 5-7 jours/an à 15-20 jours/an selon les projections DRIAS 2023. Le bassin versant de l'Allier, classé parmi les cours d'eau les plus sensibles aux étiages sévères (TRACC/AP3C), renforce la pression sur les ressources en eau douce en période estivale. L'absence de façade littorale et la couverture forestière relativement limitée (24% du territoire, IFN 2022) constituent des facteurs modérateurs partiels face aux risques de feux et de submersion.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne ~350 m, tampon thermique modéré, bocage protecteur partiel"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+15 à +20 jours canicule/an projetés 2060, plaine vulnérable (DRIAS 2023)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Couverture forestière 24%, risque feux modéré, végétation bocagère favorable"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Rivière Allier à forts étiages, inondations ponctuelles, pas de risque côtier"
+    }
+  ],
+  "points_forts": [
+    "Absence totale de risque de submersion marine, le département étant enclavé à plus de 300 km de tout littoral",
+    "Couverture bocagère encore significative (~35% de haies et prairies permanentes, INRAE 2023) offrant un effet tampon microclimatique local",
+    "Risque feux de forêt modéré grâce à une surface forestière limitée (24%, IFN 2022) et à une composition essentiellement feuillue",
+    "Altitude relative de la frange est (Montagne bourbonnaise, jusqu'à 1 050 m) offrant des zones refuges thermiques accessibles"
+  ],
+  "vigilances": [
+    "Multiplication par 3 des jours de vague de chaleur à l'horizon 2060 (15 à 20 j/an contre 5-7 actuellement), impactant la population âgée (22% >65 ans, INSEE 2022)",
+    "Aggravation des étiages du fleuve Allier : débit d'étiage estival en baisse tendancielle de -20 à -40% selon scénario médian DRIAS/Explore2 2023, menaçant l'agriculture irriguée",
+    "Augmentation de la fréquence des épisodes de gel tardif printanier perturbant les cultures et vergers, dans un contexte de décalage phénologique (AP3C/INRAE)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~350 m",
+      "label": "Altitude moyenne du département"
+    },
+    {
+      "valeur": "+2,5 à +3°C",
+      "label": "Hausse T° moyenne projetée à 2060 (SSP3-7.0)"
+    },
+    {
+      "valeur": "24%",
+      "label": "Couverture forestière (IFN 2022)"
+    },
+    {
+      "valeur": "15-20 j/an",
+      "label": "Jours de canicule projetés 2060 (DRIAS)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS projections climatiques 2023",
+    "TRACC / AP3C Auvergne",
+    "IFN/IGN Inventaire Forestier 2022"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles à l'échelle départementale restent à résolution spatiale de 8 km, masquant les contrastes entre plaine bourbonnaise et Montagne bourbonnaise",
+    "L'absence de station météo de référence longue durée en zone de plaine centrale de l'Allier limite la robustesse des séries historiques de températures extrêmes",
+    "Les interactions entre stress hydrique, évolution des pratiques agricoles et îlot de chaleur rural restent peu documentées spécifiquement pour ce département dans les rapports nationaux"
+  ]
+}

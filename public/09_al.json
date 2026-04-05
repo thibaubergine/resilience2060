@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège (09) affiche un profil alimentaire remarquable, porté par une agriculture extensive et montagnarde préservée : le département compte environ 13% de sa SAU en agriculture biologique, soit plus du double de la moyenne nationale (6,8% en 2023, Agence Bio), témoignant d'une dynamique de conversion soutenue. La densité en signes de qualité (AOP/IGP) est notable avec le fromage Bethmale, les agneaux de lait des Pyrénées (IGP) et plusieurs produits sous Label Rouge, consolidant une identité gastronomique pyrénéenne (INAO 2023). L'analyse ZAVA 2024 positionne le département parmi les territoires à bonne autonomie alimentaire relative, grâce à des productions animales et végétales diversifiées (bovins, ovins, maraîchage, céréales) couvrant une part significative des besoins locaux. Le réseau de circuits courts et d'AMAP est actif, notamment autour de Foix, Saint-Girons et Pamiers, s'appuyant sur la demande croissante d'une population périurbaine sensibilisée (DRAAF Occitanie 2022). Toutefois, la faible densité démographique (31 hab/km²) et l'enclavement montagnard limitent structurellement les débouchés locaux et la rentabilité des filières courtes.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Bonne autonomie relative, productions animales et céréalières diversifiées (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "IGP agneaux Pyrénées, fromage Bethmale, offre qualitative solide mais limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 9.0,
+      "note": "~13% SAU bio, bien au-dessus moyenne nationale 6,8% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Réseau AMAP actif Foix/Pamiers, marchés paysans dynamiques en zone périurbaine"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU certifiée bio d'environ 13%, soit près du double de la moyenne nationale (6,8%), rang dans le top 10 départemental (Agence Bio 2023)",
+    "Présence d'IGP structurantes : Agneaux de lait des Pyrénées (IGP) et fromage Bethmale, valorisant les élevages pastoraux de montagne (INAO 2023)",
+    "Autonomie alimentaire relative favorable grâce à un tissu d'exploitations polyculture-élevage peu artificialisé et une faible pression urbaine sur les terres agricoles (ZAVA 2024)",
+    "Dynamisme des circuits courts autour des trois pôles urbains (Foix, Pamiers, Saint-Girons) avec une progression des points de vente collectifs et AMAP de +18% entre 2018 et 2022 (DRAAF Occitanie 2022)"
+  ],
+  "vigilances": [
+    "Vieillissement accentué des exploitants agricoles ariégeois (âge moyen 54 ans, Agreste 2020) avec un taux de renouvellement insuffisant, menaçant la pérennité des filières bio et pastorales à horizon 2030",
+    "Enclavement routier et relief montagnard fragilisant la logistique des circuits courts et limitant l'accès aux marchés régionaux, risque d'augmentation des coûts de distribution avec la hausse des prix énergétiques",
+    "Pression du changement climatique sur les estives et la ressource en eau d'irrigation : réduction projetée de 15 à 20% de la disponibilité estivale d'ici 2050 (DRIAS 2023), menaçant les productions pastorales et maraîchères"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13%",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "3",
+      "label": "IGP/AOP reconnues (INAO 2023)"
+    },
+    {
+      "valeur": "+18%",
+      "label": "Croissance circuits courts 2018-2022"
+    },
+    {
+      "valeur": "31 hab/km²",
+      "label": "Densité (INSEE 2023)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques nationales et départementales agriculture biologique",
+    "INAO 2023 – Registre des signes officiels de qualité et d'origine",
+    "DRAAF Occitanie 2022 – Diagnostic agricole et circuits alimentaires de proximité",
+    "ZAVA 2024 – Zones à Valeur Alimentaire, autonomie territoriale"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire reposent sur des estimations de flux régionaux et non sur des bilans comptables exhaustifs à l'échelle ariégeoise, induisant une incertitude sur le taux réel d'auto-approvisionnement",
+    "La faible densité démographique rend difficile la comparaison directe avec des départements urbains sur les indicateurs de circuits courts (nombre d'AMAP par habitant potentiellement surestimé en termes d'impact réel)",
+    "L'absence de données récentes post-2022 sur les conversions bio en Ariège ne permet pas d'évaluer si la dynamique favorable se poursuit ou marque un ralentissement dans un contexte économique difficile pour les exploitants"
+  ]
+}

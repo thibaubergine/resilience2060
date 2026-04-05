@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Ain présente une biodiversité remarquable, soutenue par la présence de la Dombes — premier site de France pour l'avifaune migratrice avec plus de 270 espèces recensées (LPO Ain, 2023) — et par les massifs du Bugey et du Jura méridional qui abritent des habitats forestiers et humides d'intérêt communautaire. Environ 14 % du territoire est couvert par des sites Natura 2000, dont 12 sites SIC/ZSC et 8 ZPS, couvrant près de 75 000 ha (INPN, 2024). Le département bénéficie de la présence du Parc Naturel Régional du Haut-Jura en frange nord-est, contribuant à la protection d'espèces emblématiques telles que le Grand Tétras, le Lynx boréal et la Loutre d'Europe (OFB, 2024). Les zones humides de la Dombes, classées Ramsar depuis 1991 et couvrant environ 10 000 ha d'étangs, constituent un réseau fonctionnel unique en France métropolitaine, bien que fragile face aux pressions agricoles et à l'urbanisation croissante. Les corridors écologiques intégrant la trame verte et bleue régionale identifient l'Ain comme un département charnière entre les Alpes, le Jura et le couloir rhodanien (SRCE Auvergne-Rhône-Alpes, 2020).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "~14 % du territoire classé Natura 2000, 20 sites référencés INPN"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Haut-Jura, Dombes Ramsar, multiples ZNIEFF couvrant 30 % du département"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Grand Tétras, Lynx, Loutre, 270+ espèces d'oiseaux recensées en Dombes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Trame verte bleue identifiée SRCE ; corridors fluviaux Ain/Rhône fonctionnels"
+    }
+  ],
+  "points_forts": [
+    "La Dombes abrite plus de 270 espèces d'oiseaux, dont des nicheurs rares comme le Blongios nain, faisant de cette zone l'une des plus riches de France métropolitaine (LPO Ain, 2023)",
+    "20 sites Natura 2000 couvrant environ 75 000 ha (~14 % du département), dont la ZPS Dombes inscrite au réseau européen depuis 2003 (INPN, 2024)",
+    "Présence confirmée du Lynx boréal et de la Loutre d'Europe sur les massifs du Bugey et les corridors du fleuve Ain (OFB, 2024)",
+    "Le réseau d'étangs de la Dombes (~1 100 étangs, 10 000 ha) constitue un écosystème humide unique, site Ramsar depuis 1991, essentiel pour les zones d'arrêt migratoire"
+  ],
+  "vigilances": [
+    "L'intensification agricole et le comblement d'étangs en Dombes menacent les habitats humides : perte estimée de 5 à 8 % de la surface en eau depuis 2000 (Chambre d'agriculture de l'Ain, 2022)",
+    "Le Grand Tétras est en déclin critique dans le Jura méridional ; la fragmentation forestière liée aux infrastructures (autoroute A40) accentue l'isolement des populations (OFB, 2024)",
+    "La pression d'urbanisation dans la plaine de l'Ain (proximité métropole lyonnaise, +15 % de surfaces artificialisées entre 2010 et 2023) fragmente les corridors écologiques TVB (CEREMA, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~75 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "20",
+      "label": "Sites Natura 2000 (INPN)"
+    },
+    {
+      "valeur": "270+",
+      "label": "Espèces oiseaux Dombes"
+    },
+    {
+      "valeur": "1 100",
+      "label": "Étangs réseau Dombes"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN 2024 – Inventaire National du Patrimoine Naturel",
+    "LPO Ain 2023 – Observatoire avifaune",
+    "SRCE Auvergne-Rhône-Alpes 2020 – Trame verte et bleue"
+  ],
+  "limites": [
+    "Les données de suivi des populations de mammifères (Lynx, Loutre) restent partielles dans l'Ain, avec des protocoles de détection insuffisamment couvrants sur les massifs du Bugey",
+    "L'état de conservation réel des habitats Natura 2000 n'est pas uniformément documenté : plusieurs sites manquent d'évaluations récentes post-2020 (INPN)",
+    "Les effets cumulatifs de l'urbanisation périurbaine lyonnaise sur les corridors TVB de la plaine de l'Ain sont difficiles à quantifier précisément faute d'un observatoire départemental dédié"
+  ]
+}

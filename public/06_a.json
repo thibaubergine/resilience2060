@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-Maritimes présentent une qualité de l'air contrastée, marquée par une forte pression anthropique sur le littoral azuréen et dans les vallées encaissées qui piègent les polluants. La conurbation niçoise génère des concentrations en NO₂ dépassant régulièrement 25-30 µg/m³ en zone urbaine dense, au-dessus du seuil OMS 2021 de 10 µg/m³ (ATMO Sud, 2023). Les PM2,5 atteignent en moyenne 11-13 µg/m³ sur le littoral, soit plus du double de la valeur guide OMS révisée à 5 µg/m³, avec des pics hivernaux liés aux inversions thermiques fréquentes en contexte méditerranéen (Citepa/ATMO Sud). Le trafic routier représente la première source d'émissions de NOₓ avec plus de 60 % des émissions départementales, amplifié par l'A8 et les axes transfrontaliers vers l'Italie (Atlas de la qualité de l'air ATMO Sud, 2023). La faible activité agricole limite les émissions d'ammoniac NH₃, constituant un avantage relatif par rapport aux départements à vocation agro-industrielle.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 ~12 µg/m³ littoral, nettement au-dessus seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ urbain Nice >25 µg/m³, dépasse seuil OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Faible densité industrielle lourde, tissu PME tertiaire dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Agriculture marginale, émissions NH₃ parmi les plus faibles nationalement"
+    }
+  ],
+  "points_forts": [
+    "Faible densité industrielle émettrice : absence de grandes installations classées ICPE à fort impact atmosphérique sur la majeure partie du territoire",
+    "Émissions NH₃ agricoles très limitées : la SAU représente moins de 8 % du territoire départemental, parmi les plus faibles de France métropolitaine (Agreste 2023)",
+    "Part croissante d'énergies renouvelables et de mobilité électrique sur la Métropole Nice Côte d'Azur, avec un plan de mobilité actif (MNCA, Plan Climat 2023)",
+    "Réseau de surveillance ATMO Sud dense sur le département (15+ stations), permettant un suivi fin des épisodes de pollution et une alerte rapide des populations"
+  ],
+  "vigilances": [
+    "Trafic transfrontalier franco-italien en hausse structurelle sur l'A8 et les cols alpins : projection d'augmentation de 15-20 % d'ici 2035, aggravant les pics de NO₂ en vallée (CEREMA 2022)",
+    "Épisodes d'inversions thermiques méditerranéennes de plus en plus fréquents avec le changement climatique, piégeant les polluants urbains dans les bassins versants (DRIAS 2060 : hausse des nuits chaudes)",
+    "Pollution aux particules fines lors des épisodes de feux de forêt en augmentation, avec des PM2,5 pouvant dépasser 50 µg/m³ lors des épisodes intenses (ATMO Sud, été 2022-2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12 µg/m³",
+      "label": "PM2,5 moyen littoral (ATMO Sud 2023)"
+    },
+    {
+      "valeur": ">25 µg/m³",
+      "label": "NO₂ urbain Nice centre"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Part trafic dans émissions NOₓ"
+    },
+    {
+      "valeur": "<8 %",
+      "label": "SAU / superficie totale du département"
+    }
+  ],
+  "sources": [
+    "ATMO Sud – Bilan qualité de l'air 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa – Inventaire émissions 2023",
+    "MNCA Plan Climat-Air-Énergie Territorial 2023"
+  ],
+  "limites": [
+    "Les stations ATMO Sud sont concentrées sur le littoral et la métropole niçoise, laissant les vallées alpines intérieures (Tinée, Vésubie, Roya) sous-surveillées malgré des risques de piégeage des polluants locaux",
+    "L'influence transfrontalière de la pollution industrielle et du trafic italiens (Ligurie) est difficile à modéliser précisément et peut biaiser l'attribution des sources d'émissions à l'échelle départementale",
+    "Les données sur la pollution intérieure des logements (radon, COV) restent peu intégrées aux bilans air extérieur, alors que le bâti ancien du pays niçois peut constituer une source non négligeable d'exposition cumulée"
+  ]
+}

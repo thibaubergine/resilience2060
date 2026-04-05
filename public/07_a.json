@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche (07) affiche une qualité de l'air globalement favorable, bénéficiant de sa faible densité industrielle et de sa situation géographique entre Massif Central et vallée du Rhône, qui favorise le renouvellement des masses d'air. Les concentrations annuelles moyennes en PM2,5 sont estimées entre 8 et 11 µg/m³ selon les zones (ATMO Auvergne-Rhône-Alpes, 2023), restant sous le seuil réglementaire européen de 25 µg/m³ mais encore supérieures à la nouvelle valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ demeure à des niveaux très modérés, les agglomérations ardéchoises (Privas, Aubenas, Annonay) ne dépassant pas 15 µg/m³ en moyenne annuelle, loin du seuil OMS de 10 µg/m³ et réglementaire de 40 µg/m³ (ATMO AuRA, 2023). Le principal facteur de dégradation local reste le chauffage au bois résidentiel, qui contribue fortement aux émissions de particules fines en période hivernale, représentant plus de 60 % des émissions de PM2,5 départementales (Citepa/ATMO AuRA, 2022). L'agriculture élevage génère par ailleurs des émissions d'ammoniac (NH₃) non négligeables, notamment dans les secteurs d'élevage ovin et caprin du sud du département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 entre 8-11 µg/m³, sous seuil EU mais dépasse OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain très faible, <15 µg/m³ à Privas et Aubenas"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Très peu d'industries émettrices, tissu industriel limité et diffus"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole notable: élevage ovin/caprin significatif, secteur sud"
+    }
+  ],
+  "points_forts": [
+    "Concentration annuelle en NO₂ inférieure à 15 µg/m³ dans toutes les agglomérations ardéchoises, très en deçà du seuil OMS de 10 µg/m³ en valeur horaire (ATMO AuRA, 2023)",
+    "Absence de zone industrielle majeure émettrice de polluants atmosphériques classés (seuls 2 sites ICPE A dans le département selon DREAL AuRA, 2023)",
+    "Renouvellement naturel des masses d'air favorisé par le relief (altitude moyenne 600 m) et la présence de vents canalisés par les vallées ardéchoises",
+    "Bon indice ATMO moyen annuel : plus de 85 % des jours classés « Bon » ou « Très bon » sur la station de référence de Privas (ATMO AuRA, 2022-2023)"
+  ],
+  "vigilances": [
+    "Le chauffage au bois résidentiel représente >60 % des émissions locales de PM2,5 et risque de s'intensifier avec la hausse du coût de l'énergie et le contexte de précarité énergétique (taux de logements chauffés au bois : ~35 % en Ardèche, INSEE 2023)",
+    "Des épisodes de pollution particulaire hivernale par accumulation (phénomène de cuvette dans les vallées encaissées : vallée du Rhône, vallée de l'Ardèche) peuvent ponctuellement dépasser les 50 µg/m³ en PM10 (ATMO AuRA, épisodes 2022-2023)",
+    "Les émissions agricoles d'ammoniac (NH₃), précurseurs de particules secondaires, pourraient augmenter sous l'effet d'une intensification de l'élevage et de la réduction des surfaces céréalières liée au changement climatique (Citepa, trajectoire 2030)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ max agglomérations ardéchoises"
+    },
+    {
+      "valeur": ">85 %",
+      "label": "Jours indice ATMO « Bon » ou « Très bon »"
+    },
+    {
+      "valeur": "~35 %",
+      "label": "Logements chauffés au bois (source chaleur principale)"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes – Bilan qualité de l'air 2023",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2022",
+    "DREAL AuRA – Registre ICPE Ardèche 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO est peu dense en Ardèche (2-3 stations seulement) : les données PM2,5 et NO₂ reposent largement sur la modélisation spatiale, avec incertitude en zones rurales isolées",
+    "L'impact du chauffage au bois est difficile à quantifier précisément à l'échelle infra-départementale faute de données de consommation locales actualisées (enquête INSEE énergie logement datant de 2013, réactualisée partiellement en 2023)",
+    "Les émissions agricoles de NH₃ ne font pas l'objet d'un suivi territorial spécifique en Ardèche, les estimations étant extrapolées depuis les statistiques agricoles nationales via le Citepa, sans mesure directe locale"
+  ]
+}

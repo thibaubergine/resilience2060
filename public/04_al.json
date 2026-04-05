@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Alpes-de-Haute-Provence (04) affiche un profil alimentaire remarquable, porté par une agriculture de qualité et une forte orientation biologique. Avec environ 22 % de la SAU conduite en agriculture biologique (Agence Bio, 2023), le département se place parmi les leaders nationaux, bien au-dessus de la moyenne française de 10,7 %. Le territoire bénéficie de plusieurs appellations d'origine protégée emblématiques, dont la Lavande de Haute-Provence AOP, le Miel de Provence IGP et l'Huile d'olive de Haute-Provence AOP, témoignant d'un ancrage fort en productions de terroir (INAO, 2024). L'autonomie alimentaire reste cependant limitée par la faible superficie agricole utile totale (environ 90 000 ha) et la dominance de productions spécialisées peu tournées vers l'alimentation de proximité directe (ZAVA, 2024). Les circuits courts et AMAP se développent activement, portés par la dynamique touristique et résidentielle du territoire, avec plus de 15 AMAP recensées et plusieurs marchés de producteurs labellisés (RnIAA, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie alimentaire partielle ; SAU limitée, productions spécialisées peu nourricières"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Plusieurs AOP/IGP emblématiques : lavande, huile d'olive, miel, épeautre"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 9.0,
+      "note": "~22 % SAU en bio, parmi les meilleurs départements français (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif, marchés producteurs, mais densité modeste hors zones touristiques"
+    }
+  ],
+  "points_forts": [
+    "Agriculture biologique : ~22 % de la SAU certifiée bio (Agence Bio 2023), rang national top 5 départemental",
+    "Richesse en signes de qualité : AOP Huile d'olive de Haute-Provence, AOP Lavande, IGP Miel de Provence, épeautre de Haute-Provence (INAO 2024)",
+    "Dynamique circuits courts soutenue par la fréquentation touristique (2 millions de visiteurs/an) favorisant les ventes directes producteurs",
+    "Structuration territoriale avec le PAT (Projet Alimentaire Territorial) du Pays de Haute-Provence, intégrant des objectifs de relocalisation alimentaire"
+  ],
+  "vigilances": [
+    "Dépendance aux importations pour les produits de grande consommation (céréales, protéines animales) : l'autonomie alimentaire locale reste structurellement incomplète face aux besoins de la population (~165 000 habitants)",
+    "Vulnérabilité climatique des productions emblématiques : la lavande AOP et l'olivier sont menacés par l'intensification des sécheresses estivales projetées (+2 °C d'ici 2050, DRIAS 2024), avec des pertes de rendement déjà observées",
+    "Pression foncière et déprise agricole dans les zones de montagne : réduction progressive des surfaces cultivées en fond de vallée au profit de l'urbanisation diffuse, fragilisant le tissu agricole local"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~22 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "5",
+      "label": "Appellations AOP/IGP actives sur le territoire"
+    },
+    {
+      "valeur": "15+",
+      "label": "AMAP recensées dans le département"
+    },
+    {
+      "valeur": "90 000 ha",
+      "label": "Surface Agricole Utile totale (04)"
+    }
+  ],
+  "sources": [
+    "Agence Bio – Observatoire national 2023",
+    "INAO – Registre AOP/IGP 2024",
+    "ZAVA – Zonage Alimentaire à Vocation Agricole 2024",
+    "Réseau National des PAT – Recensement 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du 04 restent agrégées à l'échelle régionale PACA, rendant difficile une évaluation fine de la couverture calorique locale",
+    "La part de SAU en bio masque une forte hétérogénéité : les cultures de lavande et plantes aromatiques dominent le bio, avec peu de productions maraîchères ou céréalières destinées à l'alimentation humaine directe",
+    "L'absence de recensement exhaustif des circuits courts (ventes directes à la ferme, marchés informels) dans les zones rurales isolées du département conduit à une probable sous-estimation du maillage réel"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "synthese": "Le département de l'Ain présente un profil alimentaire solide (7.0/10, rang ~27/96), porté par une agriculture diversifiée couvrant environ 235 000 ha de SAU, soit près de 36% du territoire départemental (Agreste 2020). La filière avicole de Bresse constitue un pilier identitaire majeur avec la volaille de Bresse AOP, seule volaille à bénéficier d'une AOP en France, produite sur environ 12 000 ha de zone délimitée (INAO 2023). La part de la SAU conduite en agriculture biologique atteignait 7,2% en 2022, légèrement en dessous de la moyenne nationale de 10,7%, mais en progression constante (Agence Bio 2022). Les initiatives en circuits courts se développent avec plus de 45 AMAP recensées sur le département, et la dynamique de la zone ZAVA (Zone à forte valeur alimentaire) identifie l'Ain comme un territoire à capacité d'autonomie alimentaire intermédiaire, bénéficiant de la proximité des bassins de consommation lyonnais et genevois (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Capacité alimentaire intermédiaire, proximité Lyon/Genève favorise débouchés"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Volaille de Bresse AOP unique en France, Bugey AOC, Cerdon AOC"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "7,2% SAU bio, inférieur moyenne nationale 10,7%, progression notable"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "45+ AMAP actives, marchés fermiers dynamiques, réseau AMAP AuRA présent"
+    }
+  ],
+  "points_forts": [
+    "La volaille de Bresse bénéficie de la seule AOP avicole française, avec environ 1,2 million de poulets labellisés par an (INAO 2023)",
+    "Le département compte 3 AOP/IGP majeures (Volaille de Bresse, Bugey AOC, Cerdon AOC), conférant une densité signes qualité supérieure à la moyenne nationale",
+    "La SAU représente 235 000 ha soit 36% du territoire, offrant une base agricole solide pour l'autonomie alimentaire locale (Agreste 2020)",
+    "Plus de 45 AMAP recensées et un réseau de marchés fermiers actif assurent des circuits courts structurés vers les bassins urbains de l'Ain et la métropole lyonnaise"
+  ],
+  "vigilances": [
+    "La part bio (7,2%) reste en retrait de 3,5 points par rapport à la moyenne nationale, avec un risque de stagnation si les soutiens PAC régionaux diminuent post-2027",
+    "La dépendance à la filière avicole intensive (hors Bresse AOP) expose le département aux crises sanitaires récurrentes, notamment l'influenza aviaire H5N1 (5 foyers détectés dans l'Ain en 2022-2023, DGAL)",
+    "La pression foncière croissante liée à l'expansion périurbaine de Lyon et des pôles de l'Ain (Bourg-en-Bresse, Ambérieu) menace l'intégrité des terres agricoles, avec une artificialisation estimée à 320 ha/an (CEREMA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "235 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "7,2%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "1,2 M",
+      "label": "Volailles de Bresse AOP/an"
+    },
+    {
+      "valeur": "45+",
+      "label": "AMAP actives recensées"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – AOP/IGP volaille de Bresse",
+    "Agence Bio 2022 – statistiques bio départementales",
+    "Agreste 2020 – recensement agricole Ain",
+    "ZAVA 2024 – zones à valeur alimentaire",
+    "DGAL 2022-2023 – foyers influenza aviaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent à l'échelle régionale AuRA, rendant difficile une granularité strictement départementale pour l'Ain",
+    "La dynamique des circuits courts (AMAP, vente directe) est sous-estimée faute de registre exhaustif : les chiffres disponibles reflètent les structures déclarées, pas les ventes directes informelles à la ferme",
+    "L'indicateur \"part SAU en bio\" ne capture pas la qualité des pratiques agroécologiques hors certification (HVE, mesures agro-environnementales), potentiellement significatives dans l'Ain"
+  ]
+}

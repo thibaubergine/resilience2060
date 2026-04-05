@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche présente un profil pédologique globalement favorable, avec des sols majoritairement granitiques et schisteux peu propices à l'accumulation de polluants industriels, un faible nombre de sites pollués recensés (environ 25 sites BASOL actifs, l'un des plus bas de la région Auvergne-Rhône-Alpes). La pression agricole en pesticides reste modérée grâce à la prédominance de l'élevage extensif et de la viticulture de petite échelle, avec une contamination des sols nettement inférieure aux moyennes nationales selon les données INRAE 2023. Le département affiche une part de SAU en agriculture biologique parmi les plus élevées de France, autour de 22-24 % (Agence Bio 2023), reflétant une orientation agricole favorable à la santé des sols. Le risque radon constitue toutefois une vulnérabilité notable : l'Ardèche figure parmi les départements à potentiel radon de catégorie 3 (fort) sur les massifs granitiques des Cévennes et du Vivarais, concernant une part significative du territoire (IRSN). Ces éléments combinés placent l'Ardèche dans une position favorable mais non exempte de vigilance sur la dimension sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.0,
+      "note": "Faible nombre de sites BASOL (~25), territoire peu industrialisé historiquement"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Pression pesticides modérée, élevage extensif dominant, viticulture raisonnée"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Département classé catégorie 3 radon, massifs granitiques très exposés"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio ~23%, parmi les 15 premiers départements français (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique estimée à ~23% en 2023, largement au-dessus de la moyenne nationale de 10,7% (Agence Bio 2023)",
+    "Faible densité de sites pollués ou en surveillance : ~25 sites BASOL actifs pour un territoire de 5 529 km², soit l'une des densités les plus basses d'Auvergne-Rhône-Alpes (GéoRisques)",
+    "Sols granitiques et schisteux naturellement peu rétenteurs de polluants organiques persistants, favorisant une dépollution naturelle rapide",
+    "Prédominance de l'élevage ovin et bovin extensif limitant structurellement le recours aux intrants chimiques sur une grande partie du territoire"
+  ],
+  "vigilances": [
+    "Risque radon élevé (catégorie 3 IRSN) sur les socles granitiques du Vivarais et des Cévennes, concernant potentiellement 40-50% des communes ardéchoises, avec des concentrations intérieures pouvant dépasser 300 Bq/m³",
+    "Érosion des sols accentuée par les pluies cévenoles intenses et les incendies récurrents (450 ha brûlés en moyenne annuelle), fragilisant la structure pédologique dans le sud du département",
+    "Pression viticole localisée dans les vallées du Rhône et de l'Ardèche (Côtes du Rhône, Saint-Joseph) pouvant générer des résidus de fongicides et d'herbicides dans les sols en terrasses"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~25",
+      "label": "Sites BASOL actifs"
+    },
+    {
+      "valeur": "~23%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Potentiel radon IRSN"
+    },
+    {
+      "valeur": "5 529 km²",
+      "label": "Superficie du département"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTECT)",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Panorama de l'agriculture biologique 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense en Ardèche rend difficile une caractérisation fine de la contamination réelle des sols agricoles hors sites BASOL",
+    "Les données BASOL ne couvrent pas les sites orphelins liés aux anciennes activités minières ardéchoises (mines de plomb, zinc, antimoine), susceptibles de laisser des traces métalliques non répertoriées",
+    "La classification radon par commune masque une variabilité infraterritoriale importante selon la nature exacte du sous-sol, rendant les estimations départementales peu précises à l'échelle parcellaire"
+  ]
+}

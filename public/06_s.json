@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-Maritimes présentent une situation contrastée en matière de sols, avec un territoire majoritairement montagneux et littoral peu propice à l'agriculture intensive, ce qui limite les pressions phytosanitaires sur les sols agricoles. Cependant, la forte urbanisation côtière génère une imperméabilisation significative des sols, estimée à plus de 12% des surfaces du département, parmi les taux les plus élevés de la région PACA (GéoRisques 2023). Le département recense plusieurs dizaines de sites pollués ou potentiellement pollués dans la base ex-BASOL/BASIAS, concentrés dans les zones industrielles et portuaires de Nice et Antibes. Le risque radon est modéré à élevé sur les secteurs granitiques et cristallins de l'arrière-pays, classant certaines communes en zone 3 selon la cartographie IRSN. La part de Surface Agricole Utile (SAU) en agriculture biologique reste inférieure à la moyenne nationale, malgré une dynamique de conversion progressive portée par les maraîchers des vallées alpines.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL en zones industrialo-portuaires niçoises"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Faible pression phytosanitaire, agriculture peu intensive, viticulture localisée"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Arrière-pays granitique à risque radon élevé, plusieurs communes en zone 3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio en progression, maraîchage biologique actif dans les vallées alpines"
+    }
+  ],
+  "points_forts": [
+    "Faible intensité agricole sur 80% du territoire montagneux, limitant les résidus pesticides dans les sols (INRAE 2023)",
+    "Agriculture biologique en progression avec environ 15% de la SAU convertie, au-dessus de la moyenne régionale (Agence Bio 2023)",
+    "Absence de grandes zones de grandes cultures céréalières, limitant les intrants azotés et les pollutions diffuses des sols",
+    "Terroirs viticoles et oléicoles de qualité (AOC Bellet, olives de Nice) favorisant des pratiques plus raisonnées"
+  ],
+  "vigilances": [
+    "Imperméabilisation croissante des sols littoraux liée à l'urbanisation, avec une progression estimée à +2% par décennie sur la bande côtière (GéoRisques 2023)",
+    "Exposition au radon dans les communes de l'arrière-pays cristallin (zones de Tende, Valdeblore) classées en zone à potentiel radon élevé (catégorie 3, IRSN)",
+    "Risque de pollution des sols par les friches industrielles et anciennes décharges littorales, dont la dépollution reste partielle et coûteuse dans un contexte foncier sous pression"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12%",
+      "label": "Taux imperméabilisation des sols"
+    },
+    {
+      "valeur": "Zone 3 IRSN",
+      "label": "Risque radon arrière-pays"
+    },
+    {
+      "valeur": "~15%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": ">50 sites",
+      "label": "Recensement BASOL/BASIAS"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base ex-BASOL 2023",
+    "INRAE – Résidus pesticides sols agricoles 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "La base ex-BASOL ne couvre pas l'ensemble des sites potentiellement pollués du littoral azuréen, notamment les anciennes décharges littorales non répertoriées",
+    "Les données INRAE sur les résidus pesticides sous-représentent les petites exploitations maraîchères et horticoles typiques des Alpes-Maritimes",
+    "L'évaluation de l'imperméabilisation des sols souffre d'un manque de granularité communale fine dans les zones de transition rural-urbain de l'arrière-pays"
+  ]
+}

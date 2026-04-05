@@ -1,0 +1,66 @@
+{
+  "synthese": "La Haute-Corse présente un profil climatique 2060 contrasté, marqué par des avantages altitudinaux significatifs (le Monte Cinto culmine à 2 706 m) mais exposée à des vulnérabilités méditerranéennes croissantes. Selon Climadiag 2023 (Météo-France), le département devrait connaître une augmentation de +2,0 à +3,5°C des températures estivales moyennes d'ici 2060 sous scénario SSP3-7.0, avec une multiplication par 2 à 3 du nombre de jours de canicule. La façade littorale orientale (plaine d'Aléria) concentre les risques d'inondation et d'élévation du niveau marin (projection GIEC AR6 : +0,4 à +0,8 m d'ici 2100), menaçant les zones basses agricoles et touristiques. Le département figure parmi les territoires français à très forte sensibilité aux feux de forêt, avec environ 65 % de surface boisée et des conditions de sécheresse estivale appelées à s'aggraver selon les projections DRIAS 2022. Le dispositif AP3C (Adaptation des Pratiques face au Changement Climatique) accompagne localement la résilience agro-forestière mais les capacités d'adaptation institutionnelle restent inégales sur le territoire.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Relief montagneux dominant (2706 m) offre tampon thermique altitudinal remarquable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+30 jours de canicule supplémentaires projetés d'ici 2060 selon Climadiag"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 4.0,
+      "note": "65% de surface boisée, risque feux extrême en hausse, saisons sèches allongées"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 9.0,
+      "note": "Littoral oriental exposé, plaine d'Aléria vulnérable aux crues et submersion marine"
+    }
+  ],
+  "points_forts": [
+    "Relief montagneux exceptionnel : 40 % du territoire au-dessus de 1 000 m, offrant des zones refuges climatiques pour la biodiversité et les populations",
+    "Ensoleillement maîtrisé en altitude : les vallées du Niolo et de l'Asco conservent des microclimats tempérés favorables selon les projections DRIAS 2022",
+    "Réseau hydrographique dense (Golo, Tavignano) assurant des réserves en eau douce supérieures à la moyenne méditerranéenne malgré les tensions estivales",
+    "Faible densité de population (37 hab/km²) réduisant l'effet îlot de chaleur urbain et la pression d'artificialisation climatiquement critique"
+  ],
+  "vigilances": [
+    "Risque feux de forêt en forte aggravation : allongement projeté de la saison à risque de 45 jours supplémentaires d'ici 2060 (DRIAS/INRAE), sur un massif forestier couvrant ~420 000 ha",
+    "Vulnérabilité de la plaine d'Aléria aux inondations et à la salinisation des nappes phréatiques côtières par remontée marine (+0,4 à +0,8 m d'ici 2100, GIEC AR6), menaçant l'agriculture irriguée",
+    "Pression hydrique estivale croissante : les étiages du Golo et du Tavignano devraient s'intensifier avec une réduction de 20 à 30 % des débits d'étiage projetée par Explore2 à l'horizon 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,0 à +3,5°C",
+      "label": "Hausse T° estivale 2060 (SSP3)"
+    },
+    {
+      "valeur": "65%",
+      "label": "Part de surface boisée (risque feux)"
+    },
+    {
+      "valeur": "2 706 m",
+      "label": "Point culminant (Monte Cinto)"
+    },
+    {
+      "valeur": "-20 à -30%",
+      "label": "Réduction débits étiage 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2022 (scénarios régionalisés)",
+    "GIEC AR6 2021 (élévation niveau marin)",
+    "Explore2 2023 (hydrologie future)",
+    "AP3C Corse (adaptation agro-climatique)"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à l'échelle régionale Corse et manquent de désagrégation fine à l'échelle des micro-territoires montagnards de Haute-Corse",
+    "L'absence de station météorologique de référence longue durée en altitude centrale limite la calibration des modèles de projection thermique locaux",
+    "Les scénarios de risque feux disponibles sous-estiment potentiellement les interactions entre sécheresse, canicule et pression pastorale spécifiques au contexte corse"
+  ]
+}

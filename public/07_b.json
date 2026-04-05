@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche figure parmi les départements français les mieux dotés en matière de biodiversité, avec près de 28 % de son territoire couvert par des zones Natura 2000 (INPN, 2024), soit environ 150 000 hectares intégrant des habitats aussi variés que les gorges, les landes, les tourbières et les milieux méditerranéens. Le département abrite le Parc Naturel Régional des Monts d'Ardèche, créé en 2001 et couvrant 186 700 ha, ainsi que des portions du Parc Naturel Régional du Pilat et des zones de protection spéciale pour l'avifaune (ZPS) remarquables (OFB, 2024). Avec plus de 2 800 espèces végétales recensées et une faune incluant le castor d'Europe, le vautour fauve réintroduit avec succès dans les gorges de l'Ardèche, et plusieurs espèces de chauves-souris prioritaires, le département présente une richesse faunistique et floristique exceptionnelle (LPO Ardèche, 2023). Les corridors écologiques traversant le massif du Vivarais, les vallées alluviales de l'Ardèche et du Chassezac constituent des axes fonctionnels clés du réseau Trame verte et bleue régional (SRCE Auvergne-Rhône-Alpes, 2024). Toutefois, la pression touristique estivale dans les gorges (plus de 2 millions de visiteurs/an) et le morcellement des habitats par les routes et exploitations forestières restent des facteurs de vulnérabilité à surveiller.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "28 % du territoire en Natura 2000 ; ~150 000 ha classés (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Monts d'Ardèche 186 700 ha ; plusieurs réserves naturelles régionales"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Vautour fauve, castor, 2 800+ espèces végétales ; richesse exceptionnelle"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors TVB fonctionnels le long des vallées de l'Ardèche et Chassezac"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France : 28 % du territoire (~150 000 ha), INPN 2024",
+    "Réintroduction réussie du vautour fauve dans les gorges de l'Ardèche : plus de 200 individus recensés (LPO Ardèche, 2023)",
+    "PNR des Monts d'Ardèche couvrant 186 700 ha, labellisé Réserve internationale de ciel étoilé, protégeant faune nocturne et chauves-souris",
+    "Trame verte et bleue régionale : corridors écologiques fonctionnels identifiés le long des vallées alluviales (SRCE AuRA, 2024)"
+  ],
+  "vigilances": [
+    "Pression touristique intense dans les gorges de l'Ardèche (>2 millions de visiteurs/an) perturbant habitats sensibles et espèces rupestres",
+    "Risque d'incendies de forêt en hausse avec le changement climatique : superficie de forêts combustibles en augmentation projetée de +20 % d'ici 2060 (DRIAS, 2023), menaçant les continuités écologiques",
+    "Espèces exotiques envahissantes (jussie, robinier, renouée du Japon) en progression dans les milieux alluviaux, fragilisant la biodiversité indigène (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "186 700 ha",
+      "label": "Surface PNR Monts d'Ardèche"
+    },
+    {
+      "valeur": "2 800+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "200+",
+      "label": "Vautours fauves réintroduits"
+    }
+  ],
+  "sources": [
+    "OFB 2024 (Observatoire de la Biodiversité)",
+    "INPN – Inventaire National du Patrimoine Naturel 2024",
+    "LPO Ardèche – Rapport espèces 2023",
+    "SRCE Auvergne-Rhône-Alpes 2024"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont partielles : les inventaires faunistiques de l'Ardèche rurale restent lacunaires dans les zones de moyenne montagne peu accessibles",
+    "L'efficacité réelle des corridors écologiques n'est pas mesurée par des indicateurs de connectivité standardisés à l'échelle départementale",
+    "La pression des usages forestiers privés (sylviculture intensive sur 52 % des forêts ardéchoises) est sous-évaluée dans les bilans officiels de biodiversité"
+  ]
+}

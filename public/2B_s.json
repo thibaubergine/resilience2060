@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Corse (2B) présente un profil pédologique globalement préservé, bénéficiant d'une faible densité industrielle et d'une agriculture peu intensive comparée aux départements continentaux. Le département ne recense que 6 sites BASOL actifs (anciens sites pollués ou à surveiller), un des chiffres les plus bas de France métropolitaine, reflétant un tissu industriel historiquement limité (GéoRisques/BASOL 2023). La pression en résidus phytosanitaires dans les sols reste modérée, l'agriculture biologique couvrant environ 18 % de la SAU départementale, soit bien au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023). En revanche, la géologie granitique et métamorphique dominante place une grande partie du territoire en zone à potentiel radon significatif (catégorie 3), avec plus de 60 % des communes classées à risque élevé par l'IRSN, ce qui constitue la principale fragilité de la dimension sols. L'érosion hydrique des sols, accentuée par les incendies récurrents et les pluies méditerranéennes intenses, représente également un enjeu croissant pour la qualité et la pérennité des sols agricoles et forestiers (INRAE/Copernicus 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 9.0,
+      "note": "Seulement 6 sites BASOL actifs, densité industrielle très faible"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Agriculture peu intensive, faibles résidus phytosanitaires dans sols"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Plus de 60 % communes en zone radon catégorie 3 (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~18 % SAU en bio, nettement supérieur à la moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Très faible nombre de sites pollués recensés : 6 sites BASOL actifs seulement, parmi les plus bas de France (GéoRisques 2023)",
+    "Part de la SAU en agriculture biologique d'environ 18 %, soit près du double de la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Absence de grandes zones d'agriculture intensive limitant la contamination diffuse des sols aux nitrates et pesticides",
+    "Sols naturels majoritairement préservés grâce à la faible urbanisation : moins de 5 % du territoire artificialisé (Corine Land Cover 2022)"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plus de 60 % des communes classées en catégorie 3 par l'IRSN, exposition chronique des habitants insuffisamment dépistée",
+    "Érosion hydrique accélérée par les incendies récurrents (>10 000 ha brûlés certaines années) et les épisodes méditerranéens intenses, avec perte irréversible de couches superficielles fertiles",
+    "Imperméabilisation progressive autour des zones côtières et de la plaine orientale sous pression touristique et résidentielle, avec artificialisation annuelle estimée à +150 ha/an (CEREMA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "6",
+      "label": "Sites BASOL actifs (2B)"
+    },
+    {
+      "valeur": "18 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Communes en zone radon cat. 3"
+    },
+    {
+      "valeur": "<5 %",
+      "label": "Part territoire artificialisé"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL 2023",
+    "Agence Bio 2023",
+    "IRSN - Carte radon 2022",
+    "Corine Land Cover / CEREMA 2022"
+  ],
+  "limites": [
+    "Les données BASOL ne capturent pas les pollutions diffuses historiques liées aux anciennes mines (plomb, amiante naturelle) présentes en Haute-Corse, sous-estimant potentiellement la contamination réelle",
+    "Le suivi des résidus de pesticides dans les sols agricoles corses reste lacunaire faute de réseau de surveillance spécifique à l'échelle départementale (absence de données RMQS complètes pour 2B)",
+    "L'évaluation de l'érosion post-incendie est partielle : les reconstitutions végétales rapides masquent des pertes de sol difficilement quantifiables sans suivi long terme spécifique au département"
+  ]
+}

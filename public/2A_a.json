@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud bénéficie d'une qualité de l'air parmi les meilleures de France métropolitaine, avec des concentrations en PM2,5 inférieures à 5 µg/m³ en moyenne annuelle, soit bien en deçà du seuil OMS 2021 de 5 µg/m³ et de la valeur limite européenne de 25 µg/m³ (ATMO Corse, 2023). Le NO₂ reste à des niveaux très bas, autour de 8 à 12 µg/m³ dans les zones urbaines d'Ajaccio, très loin du seuil réglementaire de 40 µg/m³ (ATMO Corse, 2022). L'absence de grands bassins industriels et la faible densité de trafic routier en dehors de la période estivale expliquent structurellement ces performances, confirmées par le réseau de mesure insulaire (Qualitair Corse). Les émissions agricoles d'ammoniac (NH₃) restent marginales au regard du faible niveau d'élevage intensif, la Corse-du-Sud concentrant principalement un élevage extensif de bovins, porcins et ovins (CITEPA, inventaire 2022). Des épisodes saisonniers de pollution transfrontalière aux particules fines (brumes sahariennes) constituent le principal facteur de dégradation ponctuelle, sans remettre en cause la qualité structurelle de l'air du département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 < 5 µg/m³ annuel, parmi les plus bas de France"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain Ajaccio ~10 µg/m³, très inférieur au seuil OMS"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Quasi-absence d'industrie lourde émettrice en Corse-du-Sud"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Élevage extensif : émissions NH₃ agricoles très faibles départementalement"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 5 µg/m³ en moyenne annuelle, parmi les plus faibles des 96 départements (ATMO Corse, 2023)",
+    "NO₂ urbain à Ajaccio autour de 8–12 µg/m³, très en deçà du seuil OMS 2021 de 10 µg/m³ (Qualitair Corse, 2022)",
+    "Absence quasi totale de sites industriels classés à fort impact atmosphérique (aucune installation SEVESO type 2 à émissions gazeuses majeures recensée en 2A)",
+    "Émissions d'ammoniac agricoles parmi les plus faibles de France grâce à la prédominance de l'élevage extensif et à la faible utilisation d'engrais azotés minéraux (CITEPA, inventaire régional 2022)"
+  ],
+  "vigilances": [
+    "Épisodes récurrents de transport de poussières sahariennes provoquant des pics ponctuels de PM10 dépassant 50 µg/m³, avec une fréquence en hausse liée au changement climatique (ATMO Corse, 2023)",
+    "Pression touristique estivale intense (doublement de la population en juillet-août) générant une hausse saisonnière du trafic routier et maritime, avec augmentation des émissions de NO₂ et de particules fines dans la baie d'Ajaccio",
+    "Pollution aux particules fines liées aux feux de forêt, dont la fréquence et l'intensité sont projetées à la hausse d'ici 2050 en Corse selon les scénarios DRIAS, dégradant ponctuellement la qualité de l'air sur l'ensemble du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 5 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "~10 µg/m³",
+      "label": "NO₂ urbain Ajaccio"
+    },
+    {
+      "valeur": "0 site",
+      "label": "Industrie lourde émettrice"
+    },
+    {
+      "valeur": "< 500 t/an",
+      "label": "Émissions NH₃ agricoles (Corse entière)"
+    }
+  ],
+  "sources": [
+    "ATMO Corse / Qualitair Corse 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "CITEPA Inventaire national des émissions 2022",
+    "DRIAS / Climadiag projections 2050"
+  ],
+  "limites": [
+    "Le réseau de mesure Qualitair Corse comporte peu de stations de mesure en Corse-du-Sud (principalement concentrées sur Ajaccio), laissant des zones rurales et montagneuses sans données fiables",
+    "Les épisodes de pollution transfrontalière saharienne ou liés aux feux de forêt ne sont pas intégrés dans les indicateurs annuels moyens, ce qui peut sous-estimer les expositions ponctuelles de la population",
+    "L'absence de station de mesure fixe pour certains polluants spécifiques (ozone troposphérique en milieu rural montagnard) limite l'évaluation exhaustive de la qualité de l'air sur l'ensemble du territoire du département"
+  ]
+}

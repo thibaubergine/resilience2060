@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier présente un profil pédologique mixte, avec des sols agricoles dominés par les grandes cultures céréalières et l'élevage bovin sur la Limagne bourbonnaise et les bocages du nord, exposant les terres à des pressions pesticides modérées à fortes. Le département recense une quarantaine de sites BASOL (anciens sites pollués ou en cours de traitement), principalement liés aux activités industrielles historiques de Montluçon et Vichy (métallurgie, chimie). Le risque radon est significatif dans les zones granitiques du sud et de l'ouest du département (secteurs de Montluçon et Commentry), classées en zone 3 à potentiel élevé selon l'IRSN. La part de SAU en agriculture biologique reste modeste dans l'Allier, estimée à environ 7 à 8 % de la surface agricole utile (Agence Bio, 2023), inférieure à la moyenne nationale de 10,7 %, témoignant d'une transition agroécologique encore en cours sur ce territoire à dominante conventionnelle.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites BASOL, pollutions industrielles historiques Montluçon/Vichy"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Pression pesticides céréalière notable, résidus détectés sols limoneux Limagne"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Zones granitiques sud-ouest classées zone 3 radon, risque élevé IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "Part SAU bio ~7-8%, progression constante, au-dessus de certains voisins"
+    }
+  ],
+  "points_forts": [
+    "La part de SAU en agriculture biologique atteint ~7-8 % (Agence Bio 2023), en progression régulière depuis 2018",
+    "Le nombre de sites BASOL reste contenu (~40 sites) pour un département à passé industriel significatif",
+    "Les secteurs bocagers du nord bénéficient de sols peu dégradés, avec une bonne matière organique liée à l'élevage extensif",
+    "Des initiatives de préservation des zones humides (tourbières de la Montagne Bourbonnaise) contribuent à la qualité des sols organiques"
+  ],
+  "vigilances": [
+    "Le risque radon en zone granitique (IRSN zone 3) concerne plusieurs milliers de logements potentiellement non diagnostiqués dans le secteur de Montluçon-Commentry",
+    "La pression pesticides sur les sols de la Limagne bourbonnaise (grandes cultures céréalières, maïs) pourrait s'accentuer avec l'intensification agricole projetée face au stress hydrique 2060",
+    "L'érosion des sols argileux sur les versants du bocage et les berges de l'Allier reste un risque diffus, aggravé par les événements pluvieux intenses plus fréquents (Climadiag 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~7-8 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Zone 3 IRSN",
+      "label": "Risque radon (secteur granitique)"
+    },
+    {
+      "valeur": "344 000 ha",
+      "label": "SAU totale département"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTECT)",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Observatoire national 2023",
+    "INRAE – Suivi des résidus de pesticides dans les sols 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne couvrent pas les sites dépollués anciens non répertoriés, sous-estimant potentiellement la contamination résiduelle sur les friches industrielles de Montluçon",
+    "Le suivi des résidus de pesticides dans les sols agricoles de l'Allier reste fragmentaire, sans réseau de mesures systématique à l'échelle départementale",
+    "La cartographie radon à l'échelle communale est disponible, mais le taux de diagnostic dans les bâtiments anciens reste très faible, limitant l'évaluation réelle de l'exposition humaine"
+  ]
+}

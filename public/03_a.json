@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier bénéficie d'une qualité de l'air globalement satisfaisante au regard des normes européennes, grâce à sa faible densité urbaine et à l'absence de grande agglomération industrielle structurante : Moulins, préfecture de 19 000 habitants, enregistre des concentrations moyennes annuelles en NO₂ inférieures à 15 µg/m³, bien en deçà du seuil OMS 2021 de 10 µg/m³ mais comparativement favorables à l'échelle nationale (ATMO Auvergne-Rhône-Alpes, 2023). Les particules fines PM2,5 affichent des niveaux moyens autour de 10-12 µg/m³ en zone rurale, légèrement supérieurs à la valeur guide OMS (5 µg/m³) mais parmi les plus bas de la région (ATMO AuRA, 2022). Le département est toutefois concerné par des émissions d'ammoniac (NH₃) d'origine agricole significatives, l'Allier étant un territoire d'élevage bovin et de grandes cultures, contribuant aux phénomènes de pollution aux particules secondaires (Citepa, inventaire OMINEA 2023). Les épisodes de pollution à l'ozone estival constituent le principal risque récurrent, la topographie de plaine alluviale de la Limagne favorisant l'accumulation photochimique lors des canicules (ATMO AuRA, bilans annuels 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~10-12 µg/m³ rural, dépasse seuil OMS 5 µg/m³ mais faible nationalement"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ <15 µg/m³ à Moulins, absence grande agglomération, trafic limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu de sites industriels émetteurs majeurs, pas de zone industrielle dense"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevage bovin et grandes cultures génèrent NH₃ significatif, enjeu régional"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures à 15 µg/m³ en moyenne annuelle à Moulins, parmi les plus faibles de la région Auvergne-Rhône-Alpes (ATMO AuRA, 2023)",
+    "Absence de grande zone industrielle émettrice classée Seveso ou ICPE à impact atmosphérique majeur, limitant les pics de polluants primaires (DREAL AuRA, 2023)",
+    "PM2,5 en milieu rural parmi les valeurs les plus basses du département régional, favorisées par la faible densité de population (~34 hab/km²)",
+    "Couverture de surveillance satisfaisante avec plusieurs stations ATMO déployées sur le territoire, permettant un suivi continu des principaux polluants réglementaires"
+  ],
+  "vigilances": [
+    "Émissions de NH₃ agricoles structurellement élevées (secteur élevage bovin dominant) contribuant à la formation de particules secondaires fines PM2,5, tendance à la hausse avec intensification possible des pratiques (Citepa, OMINEA 2023)",
+    "Épisodes d'ozone troposphérique (O₃) récurrents en été : dépassements du seuil d'information (180 µg/m³/h) lors des vagues de chaleur, risque aggravé par les projections climatiques à horizon 2060 (ATMO AuRA, Climadiag 2024)",
+    "Pollution aux particules liée au chauffage au bois résidentiel en hausse, notamment dans les zones rurales et péri-urbaines de l'Allier, avec pics hivernaux pouvant dépasser temporairement les seuils OMS (ATMO AuRA, rapport bois-énergie 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "PM2,5 moyen rural (2022)"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ annuel Moulins"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS PM2,5 (2021)"
+    },
+    {
+      "valeur": "~34 hab/km²",
+      "label": "Densité population Allier"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes – Bilans qualité de l'air 2022-2023",
+    "Citepa – Inventaire OMINEA 2023 (émissions NH₃ secteur agricole)",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DREAL Auvergne-Rhône-Alpes – Registre ICPE 2023"
+  ],
+  "limites": [
+    "Le réseau de stations ATMO dans l'Allier reste limité en nombre, avec une couverture rurale insuffisante pour caractériser finement les gradients de pollution agricole et les zones d'accumulation en fond de vallée",
+    "Les données spécifiques au département Allier sont parfois agrégées à l'échelle régionale Auvergne-Rhône-Alpes, rendant difficile une comparaison inter-départementale précise pour les PM2,5 en milieu rural",
+    "L'absence de station de mesure dédiée aux zones d'élevage intensif ne permet pas de quantifier avec précision l'impact local des émissions de NH₃ sur la formation de particules secondaires dans le département"
+  ]
+}

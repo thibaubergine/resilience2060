@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier présente un patrimoine naturel remarquable avec environ 12% de son territoire couvert par des sites Natura 2000 (INPN, 2024), incluant des zones humides alluviales majeures comme le Val d'Allier, classé parmi les dernières rivières sauvages de plaine en France et reconnu zone importante pour la conservation des oiseaux (ZICO). Le département abrite plus de 1 800 espèces végétales recensées et constitue un corridor écologique stratégique entre le Massif Central et le Bassin parisien (OFB, 2024). La Réserve Naturelle Nationale du Val d'Allier, ainsi que le Parc Naturel Régional du Livradois-Forez en bordure, confèrent une protection réglementaire à des milieux diversifiés allant des prairies bocagères aux forêts de ravin. Cependant, la fragmentation des habitats par l'agriculture intensive et les infrastructures routières menace la continuité des trames verte et bleue identifiées dans le SRCE Auvergne-Rhône-Alpes, avec une régression notable des zones humides estimée à 50% depuis les années 1960 (LPO Allier, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Environ 12% du territoire classé Natura 2000, Val d'Allier inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "RNN Val d'Allier, bordure PNR Livradois-Forez, protection partielle"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Loutre, castor, outarde; >1800 espèces végétales recensées INPN"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors identifiés SRCE mais fragmentation agricole persistante"
+    }
+  ],
+  "points_forts": [
+    "Le Val d'Allier constitue l'un des derniers fleuves sauvages de plaine d'Europe, refuge pour le saumon atlantique et la loutre d'Europe (LPO Allier, 2023)",
+    "Plus de 30 sites Natura 2000 couvrant ~70 000 ha intègrent zones humides, pelouses sèches et forêts alluviales (INPN, 2024)",
+    "Présence du castor d'Europe en expansion, indicateur d'une bonne qualité des milieux aquatiques et ripisylves",
+    "Richesse avifaunistique exceptionnelle avec plus de 250 espèces observées, dont le milan royal et le balbuzard pêcheur (LPO 03, 2023)"
+  ],
+  "vigilances": [
+    "Régression estimée à 50% des zones humides depuis les années 1960, accélérée par drainage agricole et artificialisation (OFB, 2024)",
+    "Déclin des populations d'insectes pollinisateurs lié aux pratiques agricoles intensives sur les plaines céréalières de la Limagne bourbonnaise",
+    "Fragmentation des corridors écologiques par les axes routiers (A71, RN79) compromettant les déplacements de la faune terrestre à l'horizon 2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": ">30 sites",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "~70 000 ha",
+      "label": "Surface protégée Natura 2000"
+    },
+    {
+      "valeur": "250+",
+      "label": "Espèces d'oiseaux recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Allier 2023",
+    "SRCE Auvergne-Rhône-Alpes",
+    "INPN - Natura 2000"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont incomplètes pour les invertébrés et champignons en Allier, sous-représentés dans les inventaires",
+    "L'état de conservation effectif des sites Natura 2000 n'est pas systématiquement évalué au niveau départemental faute de moyens de suivi",
+    "Les indicateurs de fragmentation des corridors manquent de mise à jour récente pour le département, le SRCE datant de 2015 sans révision complète"
+  ]
+}

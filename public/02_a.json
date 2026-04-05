@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aisne présente une qualité de l'air globalement dégradée, caractéristique des départements à forte dominante agricole et à héritage industriel persistant. Les concentrations annuelles en PM2,5 oscillent autour de 11-13 µg/m³ selon les zones (ATMO Hauts-de-France, 2023), dépassant régulièrement le seuil OMS 2021 fixé à 5 µg/m³. L'agriculture intensive génère des émissions d'ammoniac (NH₃) particulièrement élevées : l'Aisne figure parmi les 15 premiers départements français pour les émissions NH₃ d'origine agricole, contribuant à la formation de particules secondaires (Citepa, 2022). Le tissu industriel, notamment les sucreries, papeteries et agro-industries de la vallée de l'Oise et de l'Aisne, maintient des émissions localisées de polluants, tandis que les NO₂ urbains restent modérés dans les villes comme Laon ou Saint-Quentin, en l'absence de grande agglomération (ATMO HdF, 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 ~12 µg/m³, dépasse nettement le seuil OMS 2021 de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 6.0,
+      "note": "NO₂ urbain modéré, absence de grande métropole dans le département"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Sucreries, papeteries et agro-industries émettent localement des polluants"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "NH₃ agricole très élevé, top 15 national, formation importante de particules secondaires"
+    }
+  ],
+  "points_forts": [
+    "Absence de grande agglomération : les concentrations en NO₂ restent inférieures à 25 µg/m³ en zone urbaine (ATMO HdF, 2023), bien sous le seuil OMS de 40 µg/m³",
+    "Tendance baissière des émissions de SO₂ industrielles depuis la modernisation des sites sucriers (Citepa, bilan 2022)",
+    "Espaces ruraux vastes offrant une capacité naturelle de dilution des polluants atmosphériques",
+    "Réseau de surveillance ATMO Hauts-de-France actif avec stations de mesure à Saint-Quentin et Laon permettant un suivi régulier"
+  ],
+  "vigilances": [
+    "Les émissions agricoles de NH₃ restent structurellement élevées et contribuent à la formation de PM2,5 secondaires, avec peu de leviers rapides de réduction dans un département à 60 % de SAU",
+    "Les épisodes de pollution printanière (mars-avril) liés aux épandages combinés aux conditions anticycloniques exposent des populations rurales sans alerte systématique",
+    "Le changement climatique (hausse des températures estivales prévue +2 à +3°C à horizon 2060, DRIAS) risque d'aggraver la formation d'ozone troposphérique (O₃), polluant déjà préoccupant en été"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ max zone urbaine (Laon, Saint-Quentin)"
+    },
+    {
+      "valeur": "Top 15",
+      "label": "Rang national émissions NH₃ agricoles"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Part de la SAU dans la superficie départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Hauts-de-France – Bilan de la qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DRIAS – Projections climatiques régionales Hauts-de-France 2060"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO reste insuffisant en zones rurales de l'Aisne : les données de PM2,5 hors agglomérations sont partiellement modélisées et non mesurées in situ",
+    "Les émissions NH₃ agricoles sont estimées à partir de déclarations GEREP et de coefficients moyens nationaux, peu représentatifs des pratiques locales réelles",
+    "L'absence de station de mesure O₃ permanente en milieu rural limite l'évaluation de l'exposition réelle des populations aux pics d'ozone estivaux"
+  ]
+}

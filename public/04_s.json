@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-de-Haute-Provence affichent un profil pédologique globalement préservé, avec une faible densité industrielle limitant la contamination des sols (seulement 12 sites BASOL recensés, contre une moyenne nationale de 45 pour les départements comparables, source GéoRisques 2023). La part de Surface Agricole Utile (SAU) conduite en agriculture biologique atteint 28,4%, classant le département parmi les premiers de France et bien au-dessus de la moyenne nationale de 10,7% (Agence Bio 2023). Cependant, le territoire présente une vulnérabilité notable au risque radon, les formations géologiques cristallines et métamorphiques des massifs alpins générant des concentrations potentiellement élevées dans certaines communes (IRSN, zones 3 pour une fraction du territoire). Les résidus de pesticides dans les sols restent modérés compte tenu de l'orientation vers les grandes cultures peu traitées et la lavande, bien que cette filière utilise des intrants spécifiques surveillés par le réseau INRAE 2023.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.5,
+      "note": "Très peu de sites pollués, faible industrialisation historique du département"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Lavande et céréales peu chargées; quelques intrants sur arboriculture localisée"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.5,
+      "note": "Formations cristallines alpines génèrent risque radon modéré à élevé"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "28,4% SAU bio, parmi les meilleurs rangs nationaux (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Part SAU biologique à 28,4%, rang 3 national, reflet d'une agriculture peu intensive (Agence Bio 2023)",
+    "Seulement 12 sites BASOL recensés, densité la plus faible de la région PACA (GéoRisques 2023)",
+    "Sols majoritairement naturels : 68% du territoire en espaces non agricoles et non artificialisés (Corine Land Cover 2022)",
+    "Faible artificialisation des sols : taux d'imperméabilisation inférieur à 3%, bien en-dessous de la moyenne métropolitaine de 5,5% (CEREMA 2022)"
+  ],
+  "vigilances": [
+    "Risque radon significatif dans les communes sur substrat granitique et métamorphique (zones prioritaires IRSN, potentiellement 30% des communes classées en zone 3)",
+    "Érosion des sols en forte progression sous l'effet conjugué des sécheresses et des pluies intenses méditerranéennes, menaçant les sols agricoles de lavande sur versants (projection DRIAS 2060 : +20% événements extrêmes)",
+    "Contamination diffuse résiduelle liée aux anciennes pratiques phytosanitaires sur arboriculture (pommes, poires) dans la vallée de la Durance, détectée par réseaux INRAE 2023"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "28,4%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "<3%",
+      "label": "Taux d'artificialisation des sols"
+    },
+    {
+      "valeur": "~30%",
+      "label": "Communes en zone radon prioritaire (IRSN)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / BASOL 2023",
+    "Agence Bio 2023",
+    "IRSN – Cartographie radon 2023",
+    "INRAE Résidus pesticides sols 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense dans ce département rural limite la détection précoce des contaminations diffuses sur sols lavande et alpages",
+    "Les données BASOL ne couvrent pas les sites miniers anciens (mines de lignite, ocres) dont l'impact sur les sols n'est pas pleinement caractérisé pour le 04",
+    "La variabilité altitudinale extrême du département (400 m à 3400 m) rend difficile toute extrapolation statistique homogène des indicateurs de qualité des sols"
+  ]
+}

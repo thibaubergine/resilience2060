@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aisne présente une biodiversité fragilisée par la forte emprise agricole céréalière qui couvre environ 75% du territoire, limitant les habitats naturels disponibles (Agreste 2023). La couverture Natura 2000 reste modeste avec environ 6,5% du département classé, nettement en-dessous de la moyenne nationale de 12,6% (INPN 2024). Le département abrite néanmoins des milieux remarquables comme les marais de la Souche et les vallées de l'Oise et de l'Aisne, accueillant des espèces patrimoniales telles que le Râle des genêts et la Cistude d'Europe (LPO Hauts-de-France 2023). Les corridors écologiques sont fortement fragmentés par l'agriculture intensive, les infrastructures routières (A26, A4) et l'urbanisation diffuse, compromettant les continuités biologiques identifiées dans le SRCE régional (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 4.0,
+      "note": "Couverture Natura 2000 ~6,5%, inférieure à la moyenne nationale 12,6%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 4.0,
+      "note": "Aucun parc national; PNR Oise-Pays de France partiel, couverture limitée"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 5.0,
+      "note": "Râle des genêts, Cistude d'Europe présents mais populations en déclin"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par A26/A4 et agriculture intensive sur 75% territoire"
+    }
+  ],
+  "points_forts": [
+    "Zones humides des marais de la Souche (~4 000 ha), site Ramsar partiel, refuge pour avifaune migratrice",
+    "Présence de la Cistude d'Europe dans les vallées alluviales, espèce protégée nationale (LPO 2023)",
+    "Réseau de mares agricoles et bocagères encore présent dans le Laonnois, habitat clé pour batraciens",
+    "Vallées de l'Oise et de l'Aisne intégrées dans le réseau Natura 2000 comme ZSC/ZPS pour oiseaux d'eau"
+  ],
+  "vigilances": [
+    "Déclin des oiseaux agricoles (perdrix grise, bruant proyer) estimé à -40% en 20 ans dans les plaines axonaises (STOC/LPO 2023)",
+    "Fragmentation croissante des corridors écologiques : 78% des continuités identifiées au SRCE jugées dégradées ou interrompues (OFB Hauts-de-France 2024)",
+    "Prolifération des espèces exotiques envahissantes (Jussie, Renouée du Japon, Ragondin) dans les zones humides du département, avec dynamique d'expansion préoccupante"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~6,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~4 000 ha",
+      "label": "Marais de la Souche"
+    },
+    {
+      "valeur": "-40%",
+      "label": "Déclin oiseaux agricoles (20 ans)"
+    },
+    {
+      "valeur": "75%",
+      "label": "SAU/surface totale"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Hauts-de-France 2023",
+    "SRCE Hauts-de-France (OFB)",
+    "STOC 2023 / Agreste 2023"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces axonaises présentent des lacunes d'inventaire, notamment pour les invertébrés et la flore des milieux agricoles",
+    "L'absence de parc naturel régional couvrant l'ensemble du département limite la disponibilité de données de suivi standardisées et continues",
+    "Les indicateurs de fragmentation des corridors écologiques reposent sur des modélisations régionales peu affinées à l'échelle communale pour l'Aisne"
+  ]
+}

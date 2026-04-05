@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Corse (2B) bénéficie d'une ressource en eau globalement favorable grâce à un réseau hydrographique dense comptant plus de 30 cours d'eau permanents dont le Golo et le Tavignano, alimentés par les massifs montagneux culminant au Monte Cinto (2 706 m). La qualité des eaux souterraines et superficielles reste parmi les meilleures de France métropolitaine, avec moins de 5 % des masses d'eau en mauvais état chimique selon les données DCE (2022). Cependant, les projections Explore2 (2023) indiquent une réduction potentielle des débits moyens annuels de 20 à 30 % à l'horizon 2060, notamment sur les petits bassins versants du cap Corse et de la plaine orientale. La contamination aux nitrates demeure très faible, la Corse étant la seule région métropolitaine sans zone vulnérable nitrates classée (Directive Nitrates, révision 2023). Les PFAS restent peu documentés sur le département, bien que des analyses récentes de l'ARS Corse signalent des niveaux inférieurs aux seuils réglementaires dans les eaux distribuées.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "Eaux distribuées conformes >95% ; peu de captages sous pression agricole"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Réduction débits 20-30% projetée d'ici 2060 (Explore2) ; étiages sévères"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Aucune zone vulnérable nitrates ; agriculture extensive à faible intrant"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS sous seuils réglementaires ARS ; données encore partielles en 2B"
+    }
+  ],
+  "points_forts": [
+    "Aucune zone vulnérable aux nitrates en Haute-Corse, seule région métropolitaine dans ce cas (Directive Nitrates, révision 2023)",
+    "Plus de 85 % des masses d'eau superficielles en bon état écologique selon l'état des lieux DCE 2022 (Agence de l'eau Rhône-Méditerranée-Corse)",
+    "Réseau hydrographique dense avec le Golo (90 km) et le Tavignano (89 km), garantissant une alimentation en eau relativement sécurisée",
+    "Taux de conformité des eaux potables distribuées supérieur à 97 % pour les paramètres bactériologiques (ARS Corse, 2022)"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 30 % des débits moyens d'ici 2060 (Explore2, 2023), menaçant l'alimentation estivale en eau potable dans les zones rurales et touristiques",
+    "Pression saisonnière intense : la population touristique multiplie par 3 à 4 la demande en eau l'été, fragilisant les petits réseaux communaux déjà vieillissants",
+    "Intrusions salines croissantes dans les aquifères de la plaine orientale, risquant de compromettre l'irrigation agricole et l'AEP dans ce secteur densément cultivé"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">97%",
+      "label": "Conformité eau potable bactériologique"
+    },
+    {
+      "valeur": "-25%",
+      "label": "Réduction débits estimée 2060 (Explore2)"
+    },
+    {
+      "valeur": ">85%",
+      "label": "Masses d'eau en bon état écologique (DCE)"
+    },
+    {
+      "valeur": "0",
+      "label": "Zones vulnérables nitrates classées"
+    }
+  ],
+  "sources": [
+    "Agence de l'eau Rhône-Méditerranée-Corse – État des lieux DCE 2022",
+    "Explore2 – Projections hydrologiques France 2023 (INRAE/BRGM)",
+    "ARS Corse – Bilan qualité eaux distribuées 2022",
+    "Directive Nitrates UE – Révision des zones vulnérables 2023"
+  ],
+  "limites": [
+    "Les données PFAS pour la Haute-Corse sont très parcellaires, les campagnes de mesure systématiques dans les eaux souterraines n'étant pas encore finalisées à l'échelle départementale",
+    "Le réseau de suivi hydrométrique est moins dense qu'en métropole continentale, limitant la fiabilité des modélisations hydrologiques locales issues d'Explore2",
+    "Les petites communes rurales (nombreuses en 2B) disposent de systèmes d'assainissement et de distribution dont les données de conformité sont sous-déclarées ou incomplètes dans les bases nationales"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche bénéficie d'une ressource en eau globalement préservée grâce à un réseau hydrographique dense structuré autour du fleuve Ardèche, de l'Eyrieux et du Doux, alimentés par les précipitations cévenoles parmi les plus importantes de France (jusqu'à 2 500 mm/an sur le massif du Mézenc). La qualité des eaux brutes est favorable dans les secteurs peu anthropisés du Nord et du Centre, avec un bon état écologique reconnu pour une majorité des masses d'eau (environ 60 % en bon ou très bon état, ARS/DCE 2022). Cependant, les projections Explore2 (2023) indiquent une baisse des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins ardéchois, accentuant les tensions estivales déjà observées sur la basse Ardèche. La contamination aux nitrates reste modérée à l'échelle départementale, reflet d'une agriculture extensive dominante, mais des points de vigilance persistent sur les plaines alluviales de la vallée du Rhône en bordure est du département. La présence de PFAS dans les eaux superficielles et souterraines, bien que moins documentée qu'en contexte périurbain industriel, constitue un risque émergent à surveiller au regard de la proximité de la région lyonnaise.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.5,
+      "note": "Majorité des captages conformes ; vigilance sur petites unités rurales isolées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits étiage en baisse de 20–40 % d'ici 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Agriculture extensive ; nitrates faibles hors plaine rhodanienne est"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.5,
+      "note": "PFAS peu documentés ; proximité industrielle Rhône sous-évaluée"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense avec des précipitations cévenoles record (jusqu'à 2 500 mm/an sur le Mézenc), garantissant une recharge naturelle importante",
+    "Environ 60 % des masses d'eau ardéchoises en bon ou très bon état écologique (DCE/ARS 2022), au-dessus de la moyenne nationale (~45 %)",
+    "Agriculture majoritairement extensive (viticulture, élevage ovin, châtaigneraie) limitant la pression en nitrates et pesticides sur les nappes",
+    "Parc Naturel Régional des Monts d'Ardèche et zones Natura 2000 couvrant des bassins versants protégés, contribuant à la préservation des eaux de tête de bassin"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les rivières ardéchoises (Explore2, 2023), avec un risque accru de conflits d'usage eau/tourisme/agriculture en été",
+    "Vulnérabilité des petits captages ruraux en eau potable (nombreuses UDI de moins de 500 habitants) face aux épisodes de sécheresse et à la turbidité post-orages cévenols",
+    "Contamination émergente aux PFAS insuffisamment caractérisée dans les eaux souterraines de la frange rhodanienne est du département, à surveiller dans le cadre du plan national PFAS 2023-2027"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~60 %",
+      "label": "Masses d'eau en bon état écologique (DCE 2022)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage projetée à 2060 (Explore2)"
+    },
+    {
+      "valeur": "2 500 mm/an",
+      "label": "Précipitations max sur massif du Mézenc"
+    },
+    {
+      "valeur": "<18 mg/L",
+      "label": "Teneur moyenne nitrates eaux souterraines"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB 2023)",
+    "ARS Auvergne-Rhône-Alpes – Bilan qualité eaux potables 2022",
+    "DCE – État des masses d'eau bassin Rhône-Méditerranée 2022",
+    "Plan national PFAS MTECT 2023-2027"
+  ],
+  "limites": [
+    "Les données PFAS sur les eaux ardéchoises sont très parcellaires, les campagnes de mesure systématiques étant encore en cours (plan national 2023-2027), ce qui sous-estime potentiellement le risque",
+    "Le suivi piézométrique des nappes souterraines est limité en Ardèche (département peu industrialisé), rendant difficile une évaluation précise de l'état quantitatif des aquifères locaux",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle des petits bassins versants cévenols, aux régimes hydrologiques très contrastés entre crues éclairs et sécheresses estivales"
+  ]
+}

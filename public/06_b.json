@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-Maritimes présentent un patrimoine naturel exceptionnel, avec près de 37 % du territoire classé en zones Natura 2000 (INPN, 2024), soit l'un des taux les plus élevés de France métropolitaine. Le département abrite le Parc National du Mercantour, couvrant environ 68 500 ha en zone cœur, ainsi que deux Parcs Naturels Régionaux (Préalpes d'Azur et Verdon partiellement), formant un continuum montagne-mer unique en Europe (OFB, 2024). La richesse spécifique est remarquable : plus de 2 500 espèces végétales recensées, dont de nombreux endémiques alpino-ligures, et des populations viables de loups (environ 60 individus dans les massifs du Mercantour, LPO/OFB 2023). Néanmoins, la pression urbaine littorale, l'artificialisation des sols côtiers et la fragmentation des corridors écologiques par les infrastructures (A8, routes nationales) constituent des menaces structurelles pour la connectivité écologique.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "37 % du territoire en zones Natura 2000, parmi les meilleurs nationaux"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "Mercantour (PN) et deux PNR couvrent une large superficie montagnarde"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Loup, gypaète, saxifrage, endémiques alpino-ligures, flore méditerranéenne riche"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par littoral urbanisé et axes routiers A8/RN202"
+    }
+  ],
+  "points_forts": [
+    "Parc National du Mercantour : 68 500 ha en zone cœur, 146 000 ha en aire d'adhésion, l'un des 11 parcs nationaux français (OFB, 2024)",
+    "37 % du territoire en périmètre Natura 2000, taux nettement supérieur à la moyenne nationale (~13 %), (INPN, 2024)",
+    "Plus de 2 500 espèces végétales recensées dont ~200 endémiques ou subendémiques alpino-ligures (Flora Gallica / INPN)",
+    "Retour et maintien du loup : ~60 individus estimés sur les massifs du Mercantour, indicateur de fonctionnalité des écosystèmes alpins (LPO/OFB, 2023)"
+  ],
+  "vigilances": [
+    "Fragmentation littorale critique : le linéaire côtier du 06 est artificialisé à plus de 80 %, coupant les corridors bleus mer-montagne (GéoRisques/INRAE 2023)",
+    "Pression touristique intense sur les zones sensibles : plus de 11 millions de visiteurs/an dans le département, dont une part croissante en zone de montagne (CRT PACA, 2023)",
+    "Impact du changement climatique sur les étages alpins : remontée des espèces thermophiles, régression des habitats nivaux projetée à -30 % d'ici 2060 (DRIAS/Climadiag 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "37 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "68 500 ha",
+      "label": "Cœur Parc Mercantour"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "~60",
+      "label": "Loups estimés (2023)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO / Réseau Loup-Lynx OFB 2023",
+    "DRIAS / Climadiag 2024",
+    "CRT PACA 2023"
+  ],
+  "limites": [
+    "Les données INPN sur la richesse spécifique sont hétérogènes selon les taxons : les invertébrés et champignons restent sous-inventoriés dans les zones de haute montagne du Mercantour",
+    "L'évaluation de l'état de conservation des habitats Natura 2000 est incomplète : seuls ~60 % des habitats du département ont fait l'objet d'un diagnostic récent (<10 ans)",
+    "La mesure de la fonctionnalité réelle des corridors écologiques (TVB) manque d'indicateurs standardisés à l'échelle départementale, rendant la comparaison inter-départements difficile"
+  ]
+}

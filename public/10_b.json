@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aube (10) présente une biodiversité intermédiaire, caractérisée par la présence de zones humides remarquables autour du lac du Der et des étangs de la Champagne crayeuse, qui accueillent des milliers d'oiseaux migrateurs dont la Grue cendrée (jusqu'à 200 000 individus en transit, LPO 2023). Le département compte environ 8,5 % de sa superficie classée en zones Natura 2000, soit un taux légèrement inférieur à la moyenne nationale (~12,5 %, INPN 2024), reflétant la domination agricole des plaines champenoises. L'Aube est partiellement couverte par le Parc Naturel Régional de la Forêt d'Orient, qui protège un ensemble bocager et forestier significatif autour des lacs-réservoirs de la Seine et de l'Aube (OFB 2024). Les continuités écologiques (TVB) restent fragiles dans les zones de grande culture intensive qui représentent plus de 70 % de la SAU départementale, limitant la connectivité entre massifs forestiers et zones humides (INPN/SRCE Grand Est).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Environ 8,5 % du territoire en Natura 2000, sous la moyenne nationale 12,5 %"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Forêt d'Orient présent; couverture partielle du département en aires protégées"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Grues cendrées, cigognes, loutres; zones humides à forte valeur ornithologique"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par grandes cultures; TVB champenoise sous pression agricole"
+    }
+  ],
+  "points_forts": [
+    "Lac du Der et étangs de la Champagne crayeuse : site Ramsar accueillant jusqu'à 200 000 Grues cendrées en migration (LPO 2023)",
+    "PNR de la Forêt d'Orient : 70 000 ha protégés intégrant trois lacs-réservoirs et des forêts de feuillus diversifiées (OFB 2024)",
+    "Présence confirmée de la Loutre d'Europe sur plusieurs cours d'eau (Seine, Aube), espèce indicatrice de bonne qualité aquatique (INPN 2023)",
+    "Réseau de zones humides remarquables (étangs de la Champagne humide) classé en ZNIEFF de type I et II, contribuant à la régulation hydrologique"
+  ],
+  "vigilances": [
+    "Artificialisation et intensification agricole : plus de 70 % de la SAU en grandes cultures, menaçant les haies et auxiliaires de culture (SRCE Grand Est 2023)",
+    "Pression croissante sur les zones humides : assèchement prévisible de petits étangs sous l'effet du changement climatique d'ici 2060 (DRIAS 2024), réduisant les habitats d'hivernage",
+    "Espèces invasives en progression (Ragondin, Renouée du Japon, Jussie) le long des cours d'eau, fragilisant les berges et la biodiversité native (INPN 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5 %",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "70 000 ha",
+      "label": "Surface PNR Forêt d'Orient"
+    },
+    {
+      "valeur": "200 000",
+      "label": "Grues cendrées en transit"
+    },
+    {
+      "valeur": "70 %",
+      "label": "SAU en grandes cultures"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Grand Est 2023",
+    "SRCE Grand Est / DREAL",
+    "DRIAS 2024 / Climadiag"
+  ],
+  "limites": [
+    "Les données INPN sur la richesse spécifique communale restent incomplètes pour plusieurs cantons ruraux de l'Aube, sous-estimant potentiellement la biodiversité ordinaire",
+    "L'absence de Parc National sur le territoire limite les données de suivi standardisé à long terme des espèces et habitats",
+    "Les indicateurs Natura 2000 ne reflètent pas l'état de conservation réel des habitats, faute d'évaluations périodiques systématiques dans le département"
+  ]
+}

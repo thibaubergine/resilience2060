@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-de-Haute-Provence (04) présentent un profil climatique 2060 contrasté : l'altitude moyenne élevée (~1 000 m) confère un tampon thermique significatif, mais les projections DRIAS 2.0 indiquent une hausse des températures moyennes de +2,5 à +3,5°C à l'horizon 2060 selon le scénario RCP 8.5, avec des étés plus chauds et secs dans les vallées basses (Durance, Verdon). Le nombre de jours de canicule pourrait tripler dans les zones de basse altitude, passant de 5 à 15 jours/an en moyenne d'ici 2050-2060 (Climadiag, 2023). Le risque feux de forêt est en forte progression : le département, couvert à ~60% de forêts et d'espaces naturels, voit son aléa incendie s'étendre vers le nord sous l'effet du réchauffement, avec une saison à risque allongée de 30 jours supplémentaires d'ici 2060 (AP3C/TRACC). En revanche, l'absence de façade côtière et la topographie montagneuse limitent la vulnérabilité aux submersions marines, même si les crues torrentielles (Durance, Bléone) restent un aléa inondation structurel (GéoRisques).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne ~1 000 m, effet tampon thermique marqué et durable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Vallées basses exposées, jours de canicule triplés d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Aléa incendie croissant, saison allongée, 60% territoire forestier"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Pas de littoral, crues torrentielles localisées mais gérables"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne départementale ~1 000 m agissant comme tampon thermique naturel face aux vagues de chaleur extrêmes",
+    "Absence totale de façade côtière éliminant le risque de submersion marine (Géorisques)",
+    "Réseau de Plans de Prévention des Risques Naturels (PPRN) couvrant les principales communes exposées aux crues torrentielles",
+    "Faible densité de population (~22 hab/km²) réduisant l'exposition humaine globale aux chocs climatiques futurs"
+  ],
+  "vigilances": [
+    "Allongement de la saison à risque feux de forêt de +30 jours d'ici 2060 (AP3C), menaçant des massifs jusqu'alors peu exposés au nord du département",
+    "Réduction des débits estivaux de la Durance projetée à -30% à -40% en étiage d'ici 2060 (Explore2), aggravant stress hydrique et conflits d'usage",
+    "Multiplication des épisodes de crues torrentielles et laves torrentielles sur la Bléone et le Verdon sous l'effet d'événements précipitants plus intenses (TRACC/DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C",
+      "label": "Hausse T° projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "×3",
+      "label": "Jours de canicule en vallée d'ici 2060"
+    },
+    {
+      "valeur": "60%",
+      "label": "Part forêts/espaces naturels exposés"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Débit estival Durance projeté 2060"
+    }
+  ],
+  "sources": [
+    "DRIAS 2.0 / Climadiag 2023",
+    "TRACC / AP3C PACA",
+    "Explore2 (INRAE-BRGM)",
+    "GéoRisques / PPRN 04"
+  ],
+  "limites": [
+    "Les projections DRIAS couvrent des mailles de 8 km, insuffisantes pour restituer la forte hétérogénéité altitudinale intra-départementale (de 400 m à 3 421 m)",
+    "L'indice feux de forêt est encore peu intégré dans les outils Climadiag à l'échelle départementale fine pour les Alpes du Sud",
+    "La vulnérabilité des infrastructures critiques (RN85, barrages EDF sur la Durance) face aux aléas combinés chaleur/crue n'est pas encore modélisée de façon systémique pour ce territoire"
+  ]
+}

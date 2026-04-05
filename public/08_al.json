@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Ardennes (08) présentent un profil alimentaire intermédiaire avec un score de 5,5/10, reflétant une agriculture dominée par les grandes cultures céréalières (blé, orge, betterave sucrière) qui couvrent plus de 70 % de la SAU départementale (Agreste 2022). La part de surfaces en agriculture biologique reste modeste, autour de 3,8 % de la SAU, soit en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). Le département ne dispose que de quelques indications géographiques protégées, la valorisation AOC/IGP locale étant peu développée comparativement aux départements viticoles ou fromagers voisins (INAO 2023). Les circuits courts et initiatives AMAP restent limités dans un territoire rural peu densément peuplé (53 hab/km²), même si des dynamiques locales émergent autour de Charleville-Mézières (ZAVA 2024). L'autonomie alimentaire du territoire est contrainte par la prédominance d'une agriculture d'export orientée vers les marchés industriels, limitant la résilience alimentaire locale face aux chocs d'approvisionnement.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Agriculture céréalière dominante, faible diversification alimentaire locale (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Peu d'AOP/IGP actives, territoire non viticole, valorisation limitée (INAO 2023)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Seulement 3,8% SAU bio, très en dessous de la moyenne nationale 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Dynamiques circuits courts émergentes autour de Charleville-Mézières, AMAP actives"
+    }
+  ],
+  "points_forts": [
+    "Agriculture productive : les Ardennes génèrent plus de 400 000 tonnes de céréales par an, assurant une base productive locale solide (Agreste 2022)",
+    "Présence d'une filière maraîchère locale en développement dans la vallée de la Meuse, soutenue par la Chambre d'Agriculture des Ardennes",
+    "Initiatives de circuits courts en progression autour de Charleville-Mézières avec plusieurs AMAP recensées et marchés paysans réguliers (ZAVA 2024)",
+    "Ressource en eau relativement abondante (nappe de la Craie) favorisant l'irrigation maraîchère et les cultures diversifiées"
+  ],
+  "vigilances": [
+    "La très faible part de bio (3,8 % SAU) expose le territoire à un retard structurel croissant par rapport aux objectifs nationaux 18 % en 2027 (Agence Bio)",
+    "Dépendance forte aux marchés céréaliers internationaux : une disruption des chaînes d'approvisionnement accentuerait la vulnérabilité alimentaire locale",
+    "Vieillissement des exploitants agricoles (âge moyen 52 ans, Agreste 2022) et faible renouvellement des installations risquent de fragiliser la production locale à horizon 2035"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,8 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "70 %+",
+      "label": "SAU en grandes cultures céréalières"
+    },
+    {
+      "valeur": "53 hab/km²",
+      "label": "Densité population (faible marché local)"
+    },
+    {
+      "valeur": "~400 000 t",
+      "label": "Production céréalière annuelle"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Observatoire national de l'agriculture biologique",
+    "INAO 2023 – Registre AOP/IGP français",
+    "Agreste 2022 – Recensement agricole Grand Est",
+    "ZAVA 2024 – Zones à vocation alimentaire et circuits courts"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur les circuits courts dans les Ardennes sont partielles, plusieurs initiatives rurales informelles n'étant pas recensées officiellement",
+    "L'absence d'observatoire alimentaire territorial dédié aux Ardennes rend difficile l'évaluation précise de l'autonomie alimentaire locale à l'échelle communale",
+    "La comparaison inter-départementale sur la densité AOP/IGP défavorise structurellement les territoires de grandes cultures face aux régions viticoles ou fromagères, biaisant potentiellement le score sectoriel"
+  ]
+}

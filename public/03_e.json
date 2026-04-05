@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Allier dispose d'un réseau hydrographique dense structuré autour de la rivière Allier, affluent majeur de la Loire, et de ses sous-bassins (Sioule, Dore, Besbre), classés en grande partie en bon état écologique selon l'état des lieux DCE 2019 de l'Agence de l'Eau Loire-Bretagne. La qualité de l'eau potable reste globalement satisfaisante, avec environ 97,5 % de la population desservie par une eau conforme aux exigences bactériologiques (ARS Auvergne-Rhône-Alpes, 2022), bien que des dépassements ponctuels en pesticides soient recensés dans les zones agricoles du bocage bourbonnais. Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la rivière Allier pouvant atteindre -30 à -40 % à l'horizon 2060 sous scénario intermédiaire, faisant peser un risque sérieux sur les usages agricoles et industriels. La contamination aux nitrates reste modérée mais préoccupante dans les secteurs d'élevage intensif du nord du département, avec plusieurs captages classés prioritaires au SDAGE Loire-Bretagne 2022-2027. La détection de PFAS dans les eaux superficielles et souterraines, encore peu documentée à l'échelle départementale, constitue un enjeu émergent nécessitant des campagnes de mesure renforcées.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "97,5 % eau potable conforme ; quelques dépassements pesticides localisés"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits étiage -30 à -40 % horizon 2060 (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates modérés ; captages prioritaires en zones d'élevage nord département"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS peu documentés ; absence de site industriel majeur historique identifié"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense : rivière Allier, Sioule, Dore et Besbre en bon état écologique (DCE 2019, Agence de l'Eau Loire-Bretagne)",
+    "97,5 % de la population desservie par une eau potable conforme aux critères bactériologiques (ARS AuRA, 2022)",
+    "Faible densité industrielle lourde limitant la pression toxique sur les masses d'eau souterraines",
+    "Présence de zones humides fonctionnelles dans la plaine alluviale de l'Allier, contribuant à la régulation naturelle des débits"
+  ],
+  "vigilances": [
+    "Réduction des débits d'étiage de -30 à -40 % à horizon 2060 (Explore2, 2023), menaçant l'alimentation en eau potable et l'irrigation agricole",
+    "Dépassements ponctuels en pesticides sur plusieurs captages du bocage bourbonnais, avec des unités de distribution sous surveillance ARS",
+    "Contamination aux nitrates en progression dans les secteurs d'élevage intensif du nord du département, plusieurs captages inscrits en zones vulnérables (SDAGE 2022-2027)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "97,5 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-30 à -40 %",
+      "label": "Réduction débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "SDAGE 2022-2027",
+      "label": "Captages prioritaires nitrates recensés"
+    },
+    {
+      "valeur": "Bon état DCE",
+      "label": "Allier, Sioule, Besbre (état lieux 2019)"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Loire-Bretagne – État des lieux DCE 2019",
+    "ARS Auvergne-Rhône-Alpes – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques France 2023",
+    "SDAGE Loire-Bretagne 2022-2027"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques à l'Allier sont quasi inexistantes à l'échelle départementale, rendant l'évaluation partielle et sous-estimée",
+    "Les bilans de conformité ARS agrègent communes urbaines et rurales, masquant des disparités importantes sur les petits réseaux ruraux isolés",
+    "Les projections Explore2 sont fournies à l'échelle des bassins versants et non à l'échelle départementale stricte, introduisant une incertitude spatiale dans l'interprétation locale"
+  ]
+}

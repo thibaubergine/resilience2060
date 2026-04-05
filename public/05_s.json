@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Alpes présentent un profil pédologique globalement favorable, caractérisé par une très faible densité de sites pollués (ex-BASOL) liée au faible tissu industriel du département. Avec seulement 8 sites recensés sur la base BASOL/SIS (GéoRisques 2023), le département figure parmi les moins contaminés de France. La pression en résidus de pesticides reste modérée grâce à une agriculture extensive dominée par l'élevage ovin et les prairies permanentes, couvrant environ 60 % de la SAU (Agreste 2023). En revanche, le département est classé en zone à potentiel radon significatif (niveau 3) sur une grande partie de son territoire granitique et métamorphique, ce qui constitue le principal facteur de risque sol (IRSN 2022). La part d'agriculture biologique atteint environ 18 % de la SAU, nettement au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023), témoignant d'une transition agro-écologique engagée.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 9.0,
+      "note": "Moins de 10 sites BASOL ; département peu industrialisé, sols peu contaminés"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Agriculture extensive pastorale ; faibles intrants phytosanitaires sur prairies dominantes"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Socle granitique étendu ; classement radon niveau 3 sur majorité du territoire (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~18 % SAU bio, soit 1,7× la moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Moins de 10 sites pollués répertoriés (BASOL/SIS, GéoRisques 2023), l'un des taux les plus bas de France rapporté à la superficie",
+    "Part de SAU en agriculture biologique estimée à ~18 %, nettement supérieure à la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Faible pression pesticides : dominance de l'élevage ovin sur prairies permanentes limitant le recours aux intrants chimiques (INRAE 2023)",
+    "Absence d'industrie lourde et de grandes zones périurbaines préservant les sols agricoles et naturels de l'artificialisation intensive"
+  ],
+  "vigilances": [
+    "Risque radon élevé (niveau 3 IRSN) sur les socles granitiques et métamorphiques couvrant plus de 60 % du département, avec exposition intérieure insuffisamment diagnostiquée dans le bâti ancien",
+    "Érosion des sols en contexte alpin : les projections climatiques DRIAS 2060 anticipent une intensification des précipitations extrêmes et des cycles gel-dégel accélérant la dégradation des sols de pente",
+    "Pression croissante sur les sols d'altitude liée à la fréquentation touristique et aux aménagements de loisirs (stations de ski), risquant de dégrader les sols organiques et tourbeux à faible capacité de régénération"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10",
+      "label": "Sites BASOL/SIS recensés"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Niveau 3",
+      "label": "Potentiel radon (IRSN)"
+    },
+    {
+      "valeur": "~60 %",
+      "label": "SAU en prairies permanentes"
+    }
+  ],
+  "sources": [
+    "GéoRisques / BASOL-SIS 2023",
+    "Agence Bio – Observatoire national 2023",
+    "IRSN – Carte du potentiel radon 2022",
+    "INRAE – Résidus pesticides sols agricoles 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense en zone de montagne limite la caractérisation fine des sols alpins et de leur contamination diffuse",
+    "Les données BASOL ne couvrent pas les pollutions historiques minières (ancienne exploitation de lignite, ardoisières) potentiellement non répertoriées dans les Hautes-Alpes",
+    "La SAU bio déclarée peut inclure des prairies extensives peu différenciées des prairies conventionnelles, surestimant potentiellement l'effort de transition agro-écologique réel"
+  ]
+}

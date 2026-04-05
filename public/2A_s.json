@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud présente un profil pédologique globalement favorable, caractérisé par une faible densité industrielle limitant la contamination des sols : le département ne recense que 8 sites BASOL (ex-sites pollués ou potentiellement pollués) selon GéoRisques, un chiffre très inférieur à la moyenne nationale des départements métropolitains. La pression phytosanitaire reste modérée grâce à une agriculture extensive dominée par les cultures méditerranéennes (vigne, châtaignier, agrumes), avec des résidus de pesticides dans les sols parmi les plus faibles de France selon le réseau INRAE 2023. Le risque radon constitue néanmoins une préoccupation structurelle : les socles granitiques omniprésents en Corse-du-Sud classent une large part du territoire en zone à potentiel radon significatif (catégorie 3), selon la cartographie IRSN. L'agriculture biologique progresse notablement, avec environ 18 % de la SAU en agriculture biologique (Agence Bio 2023), plaçant le département au-dessus de la moyenne nationale (~13 %), ce qui constitue un levier protecteur pour la qualité des sols. Des fragilités subsistent liées à l'érosion des sols dans les zones de maquis incendiées, phénomène récurrent exacerbé par les épisodes de sécheresse.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.0,
+      "note": "Seulement ~8 sites BASOL recensés, faible pression industrielle historique"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Agriculture extensive, résidus pesticides sols faibles selon INRAE 2023"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Socles granitiques omniprésents, zones radon catégorie 3 IRSN prédominantes"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~18 % SAU bio, au-dessus moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Très faible densité de sites pollués : ~8 sites BASOL recensés (GéoRisques), parmi les plus bas de France",
+    "Part de SAU en agriculture biologique ~18 %, bien au-dessus de la moyenne nationale de 13 % (Agence Bio 2023)",
+    "Pression phytosanitaire réduite grâce à une agriculture traditionnelle extensive (vigne AOC, châtaigneraies, élevage ovin)",
+    "Absence quasi-totale de grandes zones industrielles ou minières actives générant une contamination chronique des sols"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plus de 60 % du territoire classé en zone à potentiel radon significatif (catégorie 3, IRSN), exposant les populations dans les constructions mal ventilées",
+    "Érosion accélérée des sols post-incendie : les feux répétés sur le maquis (plus de 3 000 ha brûlés certaines années) fragilisent la structure pédologique et favorisent le ruissellement",
+    "Pression touristique littorale et urbanisation diffuse menaçant l'imperméabilisation des sols agricoles et naturels, avec un risque de déclassement foncier progressif d'ici 2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Territoire en zone radon cat. 3"
+    },
+    {
+      "valeur": "~3 000 ha/an",
+      "label": "Maquis brûlé (années critiques)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Réseau de mesures des résidus pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon des formations géologiques",
+    "Agence Bio – Observatoire national de l'agriculture biologique 2023"
+  ],
+  "limites": [
+    "La base BASOL ne recense que les sites identifiés et traités administrativement ; des pollutions diffuses liées aux anciennes mines (plomb, amiante) en Corse-du-Sud sont potentiellement sous-documentées",
+    "Les données INRAE sur les résidus de pesticides dans les sols sont issues d'un réseau de points de mesure peu dense en Corse, réduisant la représentativité statistique insulaire",
+    "L'évaluation de l'érosion post-incendie ne dispose pas d'un suivi pédologique systématique et quantifié à l'échelle départementale, ce qui limite la précision du diagnostic sol"
+  ]
+}

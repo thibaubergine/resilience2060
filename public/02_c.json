@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Aisne (02), département de plaine à faible altitude moyenne (130 m environ), présente une vulnérabilité climatique significative à l'horizon 2060, classé 81e sur 96 départements selon l'analyse TRACC/Climadiag. Les projections DRIAS 2023 anticipent une hausse des températures de +2,5 à +3,5°C en été d'ici 2060 (scénario RCP 8.5), avec une augmentation du nombre de jours de canicule passant de 5-7 jours actuellement à 20-30 jours par an. Le département est traversé par plusieurs vallées alluviales (Oise, Aisne, Somme) qui constituent des zones d'inondation chroniques, avec 38 communes en risque fort selon le PPRI départemental (GéoRisques). La faible altitude et l'absence de reliefs significatifs privent le territoire d'un tampon thermique naturel, rendant les populations et les systèmes agricoles (grandes cultures céréalières couvrant 75 % de la SAU) particulièrement exposés aux chocs climatiques successifs (Climadiag Commune/AP3C Hauts-de-France 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude moyenne ~130 m, plaine sans tampon thermique significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "20-30 jours canicule/an projetés d'ici 2060, scénario RCP8.5"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Faible couvert forestier (~14%), risque feux limité comparativement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 3.0,
+      "note": "Vallées Oise/Aisne/Somme, 38 communes en PPRI, inondations récurrentes"
+    }
+  ],
+  "points_forts": [
+    "Risque incendie de forêt parmi les plus faibles de France : couvert forestier limité à ~14 % du territoire, soit 78 000 ha (IFN/IGN 2022)",
+    "Températures moyennes annuelles encore modérées (~10,5°C), inférieures de 1,5°C à la moyenne métropolitaine (Météo-France, normales 1991-2020)",
+    "Absence de façade littorale, éliminant tout risque de submersion marine ou d'érosion côtière (référentiel GéoRisques)",
+    "Réseau de suivi climatique AP3C Hauts-de-France actif, permettant une anticipation agricole et territoriale structurée"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +25 jours de chaleur (Tmax > 30°C) d'ici 2060 selon DRIAS, avec impact majeur sur les cultures céréalières et l'élevage bovin (50 000 bovins dans le département)",
+    "Risque d'inondation aggravé par l'imperméabilisation des sols et des épisodes de pluies intenses plus fréquents : 8 arrêtés de catastrophe naturelle liés aux inondations depuis 2000 dans les vallées de l'Aisne et de l'Oise (GéoRisques 2023)",
+    "Stress hydrique estival croissant sur les nappes phréatiques (nappe de la Craie notamment) combiné à une demande agricole intensive, risquant des conflits d'usage à l'horizon 2050-2060 (Explore2/BRGM 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse T° estivale projetée 2060"
+    },
+    {
+      "valeur": "~14 %",
+      "label": "Couvert forestier (risque feux faible)"
+    },
+    {
+      "valeur": "38 communes",
+      "label": "En PPRI inondation (GéoRisques)"
+    },
+    {
+      "valeur": "130 m",
+      "label": "Altitude moyenne (faible tampon thermique)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France RCP8.5",
+    "Climadiag Commune / AP3C Hauts-de-France 2023",
+    "GéoRisques – PPRI et arrêtés CatNat",
+    "IFN/IGN Inventaire forestier 2022",
+    "Explore2 / BRGM 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent des disparités locales entre les vallées alluviales (plus vulnérables) et les plateaux agricoles (légèrement moins exposés)",
+    "L'indice de vulnérabilité caniculaire ne prend pas suffisamment en compte la densité de population âgée en milieu rural, particulièrement élevée dans l'Aisne (15,6 % de +75 ans, INSEE 2020)",
+    "Le risque de remontées de nappes dans les zones de craie est sous-documenté à l'échelle communale fine, limitant la précision des évaluations d'exposition réelle au risque inondation"
+  ]
+}

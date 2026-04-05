@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Corse (2B) affiche un patrimoine naturel exceptionnel, avec environ 38 % de sa superficie couverte par des zones Natura 2000, parmi les taux les plus élevés de France métropolitaine (INPN 2024). Le département abrite le Parc Naturel Régional de Corse (PNRC), créé en 1972 et couvrant plus de 350 000 ha dont une large portion en 2B, ainsi que la Réserve Naturelle de Biguglia, zone humide d'importance internationale classée Ramsar. La Corse recense plus de 2 900 espèces végétales dont 150 endémiques strictes, et héberge des espèces emblématiques comme l'Aigle de Bonelli, le Gypaète barbu ou le Mouflon de Corse (Ovis gmelini musimon), espèce en voie de restauration (OFB 2024). Les corridors écologiques bénéficient d'une continuité forestière et montagnarde remarquable, avec plus de 60 % du territoire en milieux semi-naturels, garantissant une Trame Verte et Bleue cohérente à l'échelle insulaire (LPO / DREAL Corse 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "38 % du territoire classé Natura 2000, parmi les plus élevés nationalement"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNRC couvre 350 000 ha ; Réserve Naturelle Biguglia classée Ramsar"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Aigle de Bonelli, Gypaète barbu, Mouflon corse, 150 endémiques végétales"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 9.0,
+      "note": "60 % milieux semi-naturels ; continuité montagne-littoral préservée"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 d'environ 38 % de la superficie départementale, contre ~13 % en moyenne nationale (INPN 2024)",
+    "Présence du PNRC (350 000 ha) et de la Réserve Naturelle de l'Étang de Biguglia, site Ramsar d'importance internationale pour l'avifaune migratrice (LPO)",
+    "Richesse floristique exceptionnelle avec 2 900 espèces végétales recensées dont 150 endémiques strictes, record en France métropolitaine (INPN/OFB 2024)",
+    "Corridors écologiques fonctionnels grâce à plus de 60 % du territoire en milieux naturels ou semi-naturels, assurant la connectivité entre massifs montagnards et zones littorales"
+  ],
+  "vigilances": [
+    "Le changement climatique menace les espèces endémiques d'altitude : remontée des isothermes de +1,5 à +2°C projetée d'ici 2060 (DRIAS/Climadiag), réduisant les niches refuges de montagne",
+    "Pression croissante du tourisme estival (3,5 millions de visiteurs/an en Corse) fragilisant les habitats côtiers et les zones humides, notamment l'étang de Biguglia",
+    "Risque d'expansion des espèces exotiques envahissantes (EEE) végétales et animales, favorisée par l'insularité et les flux touristiques, signalée en progression par la DREAL Corse (2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "38 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "350 000 ha",
+      "label": "Superficie PNRC"
+    },
+    {
+      "valeur": "150",
+      "label": "Espèces végétales endémiques"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Milieux naturels/semi-naturels"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO / DREAL Corse 2023",
+    "Ramsar/MTE",
+    "Climadiag/DRIAS 2024"
+  ],
+  "limites": [
+    "Les données de suivi des populations faunistiques (Mouflon, rapaces) restent partielles et non systématisées à l'échelle du département 2B seul, souvent agrégées à l'échelle de la Corse entière",
+    "L'évaluation de l'état de conservation des habitats Natura 2000 n'est pas exhaustivement actualisée : plusieurs sites manquent de plans de gestion validés récents (DREAL Corse 2022)",
+    "L'impact réel des incendies récurrents (ex. : été 2022, +20 000 ha brûlés en Corse) sur la dynamique des corridors écologiques est encore insuffisamment quantifié dans les outils de suivi disponibles"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud bénéficie d'une ressource en eau globalement préservée grâce à un réseau hydrographique dense (rivières du Taravo, du Rizzanese, du Prunelli) alimenté par des aquifères de montagne, avec un taux de conformité de l'eau potable atteignant 95,6% des prélèvements selon l'ARS Corse (2022). Toutefois, le département est exposé à un stress hydrique croissant : les projections Explore2 (2023) indiquent une baisse des débits estivaux de 20 à 40% à l'horizon 2050-2070 sur les principaux cours d'eau insulaires, accentuée par l'allongement des sécheresses méditerranéennes. La contamination par les nitrates reste très faible, les masses d'eau souterraines corses étant classées en « bon état » pour ce paramètre selon l'état DCE 2022 (Agence de l'Eau Rhône Méditerranée Corse), en lien avec une agriculture peu intensive. La présence de PFAS demeure peu documentée sur le territoire, bien que des premières campagnes de surveillance nationale (2023-2024) aient mis en évidence des traces localisées à proximité des zones aéroportuaires (aéroport d'Ajaccio-Napoléon Bonaparte), constituant un signal de vigilance émergent.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "Conformité eau potable 95,6%, quelques défaillances réseaux ruraux isolés"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse débits estivaux projetée -20 à -40% horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Masses d'eau souterraines en bon état nitrates, agriculture peu intensive"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "Traces PFAS détectées près aéroport Ajaccio, surveillance nationale 2023"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité eau potable élevé : 95,6% des prélèvements conformes (ARS Corse, 2022), bien au-dessus de la moyenne nationale (~92%)",
+    "Masses d'eau en bon état écologique et chimique selon le bilan DCE 2022 (Agence de l'Eau Rhône Méditerranée Corse), avec un réseau hydrographique peu anthropisé",
+    "Faible pression agricole sur les ressources en eau : densité d'élevage et usage d'engrais azotés parmi les plus bas de France métropolitaine, limitant les contaminations diffuses",
+    "Barrage de l'Ospedale et retenue de Tolla assurant une sécurisation hydraulique pour Ajaccio et sa périphérie (~75 000 habitants desservis)"
+  ],
+  "vigilances": [
+    "Stress hydrique estival structurel en aggravation : les projections DRIAS/Explore2 (2023) prévoient une réduction des précipitations printanières de 10 à 20% et une intensification des étiages sévères d'ici 2060, menaçant l'alimentation en eau potable de communes rurales isolées",
+    "Réseaux de distribution vieillissants en zones rurales de l'intérieur : taux de rendement de certains réseaux communaux inférieur à 60%, générant des pertes en eau significatives dans un contexte de raréfaction de la ressource",
+    "Contamination émergente aux PFAS à surveiller : premières détections de substances per- et polyfluoroalkylées en aval de l'aéroport d'Ajaccio (mousses extinctrices AFFF), nécessitant un suivi renforcé des captages proches conformément à la circulaire DGPR 2023"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "95,6%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débits estivaux 2070 (Explore2)"
+    },
+    {
+      "valeur": "Bon état",
+      "label": "Masses d'eau souterraines DCE 2022"
+    },
+    {
+      "valeur": "<60%",
+      "label": "Rendement réseau certaines communes rurales"
+    }
+  ],
+  "sources": [
+    "ARS Corse – Bilan qualité eaux destinées consommation humaine 2022",
+    "Agence de l'Eau Rhône Méditerranée Corse – État des lieux DCE 2022",
+    "Explore2 (INRAE/OFB/BRGM) – Projections hydrologiques 2023",
+    "DGPR/DGS – Circulaire surveillance PFAS eaux souterraines 2023"
+  ],
+  "limites": [
+    "Le réseau de surveillance des eaux souterraines est moins dense en Corse-du-Sud qu'en France continentale, limitant la représentativité des données DCE pour certaines masses d'eau de socle granitique peu instrumentées",
+    "Les projections Explore2 ont été établies à l'échelle des grands bassins versants métropolitains ; leur déclinaison insulaire reste moins robuste statistiquement, introduisant une incertitude sur les estimations de débit futur pour les petits cours d'eau corses",
+    "L'absence d'un état de référence complet sur les PFAS en Corse-du-Sud (campagnes de 2023-2024 encore partielles) ne permet pas d'évaluer précisément l'étendue de la contamination ni de qualifier le risque sanitaire de façon définitive"
+  ]
+}

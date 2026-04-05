@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Ardennes (08), situé en région Grand Est à une altitude moyenne d'environ 200-300 m (massif des Ardennes au nord-est culminant à 505 m), bénéficie d'un tampon thermique relatif par rapport aux plaines du bassin parisien, avec des températures moyennes annuelles actuelles autour de 10°C (Météo-France). Selon les projections DRIAS 2023 (scénario RCP8.5), le département pourrait connaître une hausse de +3 à +4°C d'ici 2060 et voir le nombre de jours de vague de chaleur multiplié par 3 à 4, atteignant jusqu'à 15-20 jours de canicule par an en fin de siècle. Le risque de feux de forêt reste modéré à ce stade, le territoire forestier ardennais (~40 % de boisement) étant dominé par des essences feuillues humides moins inflammables, mais la sécheresse estivale croissante accroît la vulnérabilité (AP3C Grand Est, 2022). Les inondations représentent un risque structurel significatif, la Meuse et ses affluents ayant historiquement généré des crues importantes (crue centennale de référence 1995), et les projections Explore2 anticipent des épisodes de crues hivernales plus intenses couplés à des étiages estivaux plus sévères.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Relief ardennais modéré (505 m max) offre tampon thermique partiel appréciable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15-20 jours canicule/an projetés à 2060 selon DRIAS scénario RCP8.5"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux faible : forêts feuillues humides, inflammabilité réduite actuellement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Meuse et affluents : risque inondation élevé, crues historiques fréquentes"
+    }
+  ],
+  "points_forts": [
+    "Relief ardennais avec points culminants à ~505 m (Croix Scaille) atténue les pics thermiques estivaux par rapport aux plaines environnantes",
+    "Couverture forestière ~40 % du territoire avec essences feuillues (hêtres, chênes) limitant le risque incendie (AP3C Grand Est, 2022)",
+    "Températures moyennes actuellement parmi les plus fraîches du Grand Est (~10°C/an, Météo-France), constituant un avantage comparatif à court terme",
+    "Faible densité urbaine (~50 hab/km²) réduisant l'effet d'îlot de chaleur urbain par rapport aux métropoles régionales"
+  ],
+  "vigilances": [
+    "Hausse thermique projetée de +3 à +4°C à horizon 2060 (scénario RCP8.5, DRIAS 2023) avec multiplication des vagues de chaleur pouvant atteindre 15-20 jours/an",
+    "Risque inondation structurel sur la Meuse et la Chiers : projections Explore2 indiquant des crues hivernales plus fréquentes et des étiages estivaux plus sévères (-30 % débit estival possible)",
+    "Sécheresses estivales croissantes menaçant les peuplements forestiers résineux (épicéas) et augmentant progressivement la vulnérabilité aux feux de forêt d'ici 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3 à +4°C",
+      "label": "Hausse température 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "~40 %",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "505 m",
+      "label": "Point culminant (Croix Scaille)"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse débit estival Meuse projetée"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 (Météo-France)",
+    "AP3C Grand Est 2022",
+    "Explore2 / BRGM 2023",
+    "Climadiag Commune (Météo-France)"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale restent imprécises pour le relief ardennais, les modèles régionaux sous-représentant les effets altitudinaux locaux",
+    "L'absence d'un PCAET intercommunal couvrant l'ensemble du département limite la consolidation des données d'adaptation territoriale",
+    "Le risque feux de forêt pour 2060 est sous-documenté localement, les bases Prométhée et DFCI ne couvrant pas encore systématiquement les massifs nordiques français"
+  ]
+}

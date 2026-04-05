@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège bénéficie d'une position pyrénéenne exceptionnelle qui constitue un tampon thermique naturel face au réchauffement climatique, avec une altitude moyenne de 940 m (la plus élevée des départements français de plaine-montagne) limitant structurellement les pics de chaleur extrême. Selon Climadiag 2023 (Météo-France), le département connaîtra une hausse de température de +1,8°C à +3,2°C d'ici 2060 selon les scénarios RCP 4.5 et 8.5, valeurs inférieures à la moyenne du Sud-Ouest. Le nombre de jours de canicule devrait passer de 5 à 15-25 jours/an en vallée d'ici 2060, les zones de haute montagne restant significativement préservées (DRIAS 2023). Le risque feux de forêt est modéré mais en progression, les projections AP3C indiquant une extension vers des altitudes intermédiaires (400-900 m) actuellement peu concernées. L'absence de façade maritime et la topographie cloisonnée limitent fortement la vulnérabilité côtière, bien que les crues torrentielles pyrénéennes représentent un risque chronique documenté par GéoRisques.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude moyenne 940 m : tampon thermique exceptionnel vs plaines méridionales"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "Vallées ariégeoises exposées aux canicules ; montagne largement préservée"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux modéré mais progression vers altitudes intermédiaires projetée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Aucune façade côtière ; crues torrentielles localisées mais bien identifiées"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne départementale de 940 m, la plus élevée de France métropolitaine hors DOM, constituant un bouclier thermique naturel durable",
+    "Nombre de jours de canicule projeté parmi les plus faibles du quart Sud-Ouest selon DRIAS 2023 : 15-20 j/an en 2060 vs 30-40 j en plaine toulousaine",
+    "Absence totale de vulnérabilité littorale et submersion marine, éliminant un vecteur majeur de risque climatique côtier (GéoRisques)",
+    "Couverture forestière de 52 % du territoire avec dominance de forêts de montagne (hêtraies-sapinières) naturellement moins combustibles que les pinèdes méditerranéennes"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +3,2°C en scénario haut (RCP 8.5) d'ici 2060 avec intensification des épisodes de sécheresse en vallée de l'Ariège et du Salat (DRIAS 2023)",
+    "Extension du risque feux de forêt vers les étages montagnards intermédiaires (500-1 000 m), zones actuellement non équipées en défense DFCI, avec remontée de l'inflammabilité (AP3C/Occitanie)",
+    "Augmentation de la fréquence et de l'intensité des crues torrentielles liées à des précipitations intenses sur sols déjà saturés, risque documenté sur l'Ariège, l'Hers et le Vicdessos (GéoRisques/TRACC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "940 m",
+      "label": "Altitude moyenne dép."
+    },
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse max. projetée 2060"
+    },
+    {
+      "valeur": "52 %",
+      "label": "Couverture forestière"
+    },
+    {
+      "valeur": "15-20 j",
+      "label": "Jours canicule/an 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios RCP 4.5/8.5)",
+    "AP3C Occitanie – Adaptation agriculture/forêt",
+    "GéoRisques / TRACC CEREMA 2023"
+  ],
+  "limites": [
+    "Les modèles Climadiag et DRIAS restent à maille kilométrique insuffisante pour restituer la très forte hétérogénéité altitudinale et topographique de l'Ariège (vallées encaissées vs plateaux vs haute montagne)",
+    "L'absence de station météorologique de référence longue durée en haute Ariège fragilise la calibration locale des projections climatiques à l'horizon 2060",
+    "Le risque cumulé crues torrentielles × déstabilisation de versants (mouvements de terrain post-canicule/sécheresse) est sous-modélisé dans les outils nationaux actuels pour ce type de territoire pyrénéen"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Alpes bénéficient d'une ressource en eau globalement abondante grâce à leur position de château d'eau alpin, avec des précipitations annuelles atteignant 800 à 1 200 mm selon les massifs et d'importants stocks glaciaires et nivaux alimentant la Durance et le Buëch (ARS PACA, 2023). La qualité de l'eau potable distribuée est excellente : plus de 97 % des analyses de conformité bactériologique et physico-chimique sont satisfaisantes selon les données ARS 2022, plaçant le département parmi les mieux lotis de la région PACA. La contamination par les nitrates reste très faible, avec des teneurs généralement inférieures à 10 mg/L dans les masses d'eau souterraines, reflet d'une pression agricole limitée sur un territoire à dominante agropastorale extensive (DCE/Agence de l'eau RMC, 2022). Toutefois, les projections Explore2 (2023) alertent sur une baisse significative des débits d'étiage de la Durance pouvant atteindre -30 % à l'horizon 2050-2070, compromettant l'alimentation en eau de millions d'usagers en aval et les usages locaux irrigués du Briançonnais. La présence de PFAS, bien que moins documentée qu'en plaine, fait l'objet d'une surveillance accrue depuis 2023 dans les captages AEP suite à la réglementation européenne émergente (ARS PACA/ANSES 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "97 % des analyses AEP conformes, eau de montagne de haute qualité"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits Durance -30 % attendus à 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Nitrates < 10 mg/L généralement; pression agricole très faible"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Surveillance PFAS débutante; données lacunaires sur captages alpins"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité AEP exceptionnel : 97,4 % des analyses bactériologiques et physico-chimiques conformes (ARS PACA, 2022)",
+    "Faible pression agricole : moins de 8 % du territoire en SAU, limitant drastiquement les apports en nitrates et pesticides (Agreste 2020)",
+    "Masses d'eau souterraines en bon état chimique à plus de 85 % selon le SDAGE Rhône-Méditerranée 2022-2027 (Agence de l'eau RMC)",
+    "Réseau hydrographique dense et bien préservé : la Durance prend sa source à 2 390 m d'altitude, assurant des débits pérennes en conditions climatiques actuelles"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de la Durance de -20 à -40 % à l'horizon 2050-2070 (Explore2, 2023), menaçant l'alimentation en eau de 40 % de la population de PACA",
+    "Retrait glaciaire accéléré dans les massifs de l'Écrins et du Queyras : perte estimée de 50 % du volume glaciaire depuis les années 1980, réduisant le soutien d'étiage naturel (IGE/CNRS 2022)",
+    "Contaminations émergentes (PFAS, micropolluants pharmaceutiques) insuffisamment surveillées dans les petits captages d'altitude desservant des communes isolées (ARS PACA, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "97,4 %",
+      "label": "Conformité AEP analyses 2022"
+    },
+    {
+      "valeur": "< 10 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse débits Durance 2060 (Explore2)"
+    },
+    {
+      "valeur": "85 %",
+      "label": "Masses d'eau en bon état chimique"
+    }
+  ],
+  "sources": [
+    "ARS PACA – Bilan qualité eaux potables 2022",
+    "Agence de l'eau Rhône-Méditerranée-Corse – SDAGE 2022-2027",
+    "Explore2 – Projections hydrologiques France 2023",
+    "ANSES/ARS – Surveillance PFAS captages AEP 2023"
+  ],
+  "limites": [
+    "Les données de surveillance PFAS sur les captages d'altitude des Hautes-Alpes sont très parcellaires, rendant l'évaluation du risque de contamination émergente incomplète pour ce département",
+    "La multiplicité des petits syndicats d'eau potable intercommunaux dans les vallées isolées (Queyras, Champsaur) génère des lacunes dans la remontée des données de conformité vers l'ARS",
+    "Les projections hydrologiques Explore2 concernent principalement les grands bassins versants ; l'impact sur les micro-captages de source alimentant les communes de haute montagne reste mal modélisé à l'échelle communale"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Corse (2B) affiche l'une des qualités d'air les meilleures de France métropolitaine, bénéficiant d'une faible densité industrielle et d'une circulation atmosphérique atlantique et méditerranéenne favorisant la dispersion des polluants. Les concentrations moyennes annuelles en PM2,5 relevées par ATMO Corse sont estimées entre 5 et 7 µg/m³, nettement inférieures à la norme OMS 2021 (5 µg/m³ en objectif, 10 µg/m³ en valeur guide révisée), plaçant le département parmi les 5 meilleurs de France. Les émissions de NO₂ restent très limitées, le réseau routier étant peu dense et l'absence de zones industrielles majeures autour de Bastia réduisant les émissions de combustion (CITEPA, inventaire OMINEA 2022). Les émissions d'ammoniac (NH₃) d'origine agricole demeurent modestes compte tenu du faible cheptel et de la dominance de l'élevage extensif pastoral (CITEPA 2022). Seuls les épisodes de transport de poussières sahariennes et les fumées liées aux feux de forêt estivaux constituent des aléas ponctuels dégradant temporairement la qualité de l'air (ATMO Corse, bilans annuels 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 estimé 5–7 µg/m³, proche objectif OMS 2021, parmi meilleurs nationaux"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ très faible, absence industrie lourde et trafic urbain limité à Bastia"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 10,
+      "note": "Quasi-absence d'installations industrielles émettrices classées SEVESO ou IREP"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "NH₃ agricole faible, élevage pastoral extensif caprin-ovin peu émetteur"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de France, estimées à 5–7 µg/m³/an (ATMO Corse 2023), inférieures à la valeur guide OMS révisée 2021 de 15 µg/m³",
+    "Absence quasi totale d'industries lourdes émettrices : aucune installation classée SEVESO seuil haut en Haute-Corse (base DRAAF/DREAL Corse 2023)",
+    "Taux de boisement élevé (>60 % du territoire) contribuant à l'absorption locale des polluants et à la purification naturelle de l'air (IFN/IGN 2022)",
+    "Émissions de NOₓ très limitées : trafic routier peu dense hors axe Bastia-Furiani, absence d'aéroport international à fort trafic cargo polluant"
+  ],
+  "vigilances": [
+    "Feux de forêt estivaux en augmentation projetée (+30 à +50 % de surfaces brûlées d'ici 2050 selon DRIAS 2023) générant des pics de PM2,5 et COV pouvant dépasser 50 µg/m³ lors d'épisodes majeurs",
+    "Transport transfrontalier de poussières sahariennes : épisodes récurrents (5 à 10 jours/an) portant les PM10 à 40–80 µg/m³, phénomène susceptible de s'intensifier avec le changement climatique (Météo-France/ATMO Corse)",
+    "Développement touristique saisonnier (fréquentation en hausse, +3 %/an) pouvant accroître les émissions de trafic routier et maritime dans les ports de Bastia et Macinaggio"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "5–7 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne estimée"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "Seuil guide OMS 2021 (PM2,5)"
+    },
+    {
+      "valeur": "~0 site",
+      "label": "Installations SEVESO seuil haut recensées"
+    },
+    {
+      "valeur": "<5 jours/an",
+      "label": "Jours de dépassement NO₂ en zone urbaine Bastia"
+    }
+  ],
+  "sources": [
+    "ATMO Corse – Bilan qualité de l'air 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "CITEPA – Inventaire OMINEA 2022 (émissions NH₃, NOₓ)",
+    "DREAL Corse – Registre installations classées ICPE/SEVESO 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO Corse est peu dense en Haute-Corse (2–3 stations fixes), limitant la représentativité spatiale des données pour les zones rurales et montagneuses",
+    "Les émissions liées aux feux de forêt sont mal intégrées dans les inventaires annuels standardisés (CITEPA), sous-estimant potentiellement les pics saisonniers de polluants particulaires",
+    "L'absence de données désagrégées au niveau communal pour les émissions agricoles de NH₃ rend difficile l'identification de foyers locaux d'émission dans les zones d'élevage pastoral du Cortenais"
+  ]
+}

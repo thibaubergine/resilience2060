@@ -1,0 +1,66 @@
+{
+  "synthese": "Les Alpes-Maritimes présentent un profil climatique 2060 contrasté, combinant des atouts altimétriques réels et des vulnérabilités côtières marquées. Selon Climadiag 2023 (Météo-France/TRACC), le département connaîtra une augmentation de +2,2°C à +3,1°C de sa température moyenne d'ici 2060 selon les scénarios RCP4.5 et RCP8.5, avec une amplification des épisodes méditerranéens extrêmes. Le nombre de jours de canicule pourrait tripler d'ici 2050 sur le littoral azuréen, passant d'une moyenne de 8 à 25 jours/an (DRIAS 2023), tandis que les communes de montagne (Mercantour, Alpes du Sud) conservent un tampon thermique significatif au-delà de 1 000 m d'altitude. Le risque feux de forêt est particulièrement préoccupant : 65 % de la surface départementale est classée en aléa fort à très fort (INRAE/DGPR 2023), avec une remontée altitudinale du risque de 300 à 500 m supplémentaires attendue d'ici 2060. La façade littorale (Cannes, Nice, Menton) reste exposée à la montée du niveau marin estimée entre +20 et +60 cm d'ici 2100 (GIEC AR6), ainsi qu'aux crues torrentielles des cours d'eau côtiers, dont la catastrophe de la Vésubie en 2020 a illustré la sévérité.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Relief alpin (Mercantour 3 143 m) offre tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Littoral azuréen : +25 jours canicule/an projetés d'ici 2050"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "65 % du territoire en aléa feux fort à très fort (INRAE 2023)"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Côte exposée montée mer ; torrents côtiers à crues rapides"
+    }
+  ],
+  "points_forts": [
+    "Gradient altitudinal exceptionnel (0 à 3 143 m) offrant des refuges climatiques pour les populations et espèces",
+    "Environ 40 % du territoire au-dessus de 1 000 m, limitant l'exposition aux canicules extrêmes (Climadiag 2023)",
+    "Réseau d'alerte météo et plan ORSEC feux parmi les plus structurés de France (SDIS 06)",
+    "Parc National du Mercantour jouant un rôle de réservoir de biodiversité et de régulation thermique sur le haut-pays"
+  ],
+  "vigilances": [
+    "Risque feux de forêt en forte extension altitudinale : remontée du risque de 300 à 500 m supplémentaires attendue d'ici 2060 (INRAE/AP3C), menaçant des zones aujourd'hui épargnées",
+    "Événements méditerranéens extrêmes (MEE) en intensification : les précipitations type tempête Alex (octobre 2020, >600 mm/24h localement) pourraient devenir plus fréquentes selon DRIAS 2023",
+    "Érosion côtière et submersion marine : 30 km de côtes vulnérables entre Cannes et Menton, avec infrastructure touristique et urbaine à très haute valeur exposée (montée mer +20 à +60 cm d'ici 2100, GIEC AR6)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,7°C",
+      "label": "Hausse température moyenne 2060 (scénario médian)"
+    },
+    {
+      "valeur": "25 j/an",
+      "label": "Jours de canicule projetés sur littoral à l'horizon 2050"
+    },
+    {
+      "valeur": "65 %",
+      "label": "Surface en aléa feux fort à très fort (INRAE 2023)"
+    },
+    {
+      "valeur": "+60 cm",
+      "label": "Montée maximale du niveau marin projetée à 2100 (GIEC AR6)"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2023 – Météo-France/TRACC",
+    "DRIAS 2023 – Météo-France (scénarios RCP4.5/8.5)",
+    "INRAE/DGPR – Aléa feux de forêt 2023",
+    "GIEC AR6 2021 – Rapport sur la montée du niveau marin",
+    "AP3C – Accompagnement climatique PACA"
+  ],
+  "limites": [
+    "L'hétérogénéité altitudinale extrême du département (0–3 143 m) rend les projections climatiques moyennées peu représentatives : la situation du littoral et du haut-pays sont radicalement différentes",
+    "Les données Climadiag à l'échelle communale restent insuffisamment précises pour les vallées encaissées (Roya, Tinée, Vésubie) où les effets d'exposition locale sont déterminants",
+    "La très forte pression urbaine et touristique littorale (1,1 million d'habitants, 10 millions de visiteurs/an) génère une vulnérabilité sociale et économique difficile à modéliser dans les indicateurs climatiques standardisés"
+  ]
+}

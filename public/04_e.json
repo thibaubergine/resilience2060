@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Alpes-de-Haute-Provence bénéficient d'une ressource en eau globalement de bonne qualité bactériologique, avec 94,5% de la population alimentée en eau conforme aux exigences réglementaires (ARS PACA, 2023), bien que les réseaux ruraux isolés restent fragiles. Le département est traversé par la Durance, axe hydrologique majeur de PACA, dont les débits estivaux sont projetés en baisse de 20 à 40% à l'horizon 2060 selon le programme Explore2 (BRGM, 2023), exposant fortement l'agriculture irriguée et l'alimentation en eau potable. La contamination par les nitrates demeure modérée grâce à la faible densité agricole intensive, avec des teneurs inférieures à 25 mg/L sur la majorité des masses d'eau souterraines (Agence de l'eau RMC, 2022). La présence de PFAS reste peu documentée à l'échelle départementale, mais des contaminations émergentes ont été détectées sur certains captages proches d'axes routiers et d'anciens sites industriels du couloir durancien (ANSES, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "94,5% conformité eau potable ; réseaux ruraux isolés parfois défaillants"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits Durance en baisse 20-40% horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Teneurs nitrates faibles, <25 mg/L majoritairement sur masses d'eau"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS émergents détectés couloir durancien ; surveillance incomplète"
+    }
+  ],
+  "points_forts": [
+    "Qualité bactériologique élevée : 94,5% de conformité eau potable (ARS PACA, 2023)",
+    "Faible pression agricole intensive : contamination aux nitrates parmi les plus basses de PACA (Agence de l'eau RMC, 2022)",
+    "Réseau hydrographique dense avec la Durance et ses affluents (Verdon, Bléone), offrant une ressource diversifiée",
+    "Lac de Serre-Ponçon (1,27 milliard de m³) comme réservoir stratégique pour l'alimentation en eau de la région"
+  ],
+  "vigilances": [
+    "Stress hydrique sévère projeté : réduction des débits d'étiage de la Durance de 30 à 40% d'ici 2060 (Explore2/BRGM, 2023), menaçant l'irrigation de 60 000 ha",
+    "Multiplication des arrêtés de restriction d'eau : le département est en crise hydrique récurrente chaque été depuis 2017, avec des épisodes prolongés",
+    "Contamination émergente aux PFAS insuffisamment cartographiée sur les petits captages ruraux, exposant des populations isolées sans solution alternative"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94,5%",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "-30 à -40%",
+      "label": "Baisse débits Durance 2060"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "1,27 Md m³",
+      "label": "Capacité Serre-Ponçon"
+    }
+  ],
+  "sources": [
+    "ARS PACA – Bilan qualité eau potable 2023",
+    "Explore2 / BRGM – Projections hydrologiques 2023",
+    "Agence de l'eau Rhône-Méditerranée-Corse – État DCE masses d'eau 2022",
+    "ANSES – Campagne nationale PFAS captages 2023"
+  ],
+  "limites": [
+    "Les données PFAS restent parcellaires pour les petits captages desservant moins de 50 personnes, nombreux en zone rurale de montagne dans ce département peu dense",
+    "Les projections Explore2 sur la Durance intègrent mal les effets locaux des retenues collinaires et des prélèvements agricoles diffus propres au 04",
+    "L'état écologique des masses d'eau superficielles de haute altitude (>1 500 m) est insuffisamment suivi, avec des lacunes de stations de mesure DCE en zones isolées"
+  ]
+}

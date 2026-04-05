@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud présente un profil alimentaire relativement favorable à l'échelle nationale, porté par une identité agro-alimentaire forte et des signes de qualité reconnus. Le département compte 8 appellations AOP/IGP actives (charcuteries, fromages, huile d'olive, vins), parmi les plus denses par habitant en France (INAO 2023). La Surface Agricole Utile (SAU) en agriculture biologique atteint environ 18 % selon l'Agence Bio 2023, soit presque le double de la moyenne nationale (10,7 %), reflet d'une tradition d'élevage extensif. Toutefois, le taux d'autonomie alimentaire demeure structurellement limité : la Corse importe estimativement plus de 80 % de ses besoins alimentaires du continent, en raison d'une SAU réduite (environ 40 000 ha) et d'une insularité contraignante (ZAVA 2024). Les circuits courts se développent mais restent concentrés sur le littoral et Ajaccio, avec une couverture rurale encore insuffisante.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Insularité pénalisante : >80 % des besoins alimentaires importés du continent"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP actives, densité parmi les plus élevées de France par habitant"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~18 % SAU en bio, quasi double de la moyenne nationale (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Circuits courts en développement, concentrés sur Ajaccio, couverture rurale limitée"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de signes de qualité : 8 AOP/IGP (charcuterie corse, Brocciu, huile d'olive, vins AOC Ajaccio…) pour ~160 000 habitants (INAO 2023)",
+    "Agriculture biologique dynamique : ~18 % de la SAU certifiée bio, rang dans le top 10 national (Agence Bio 2023)",
+    "Élevage extensif traditionnel (porcins nustrale, ovins, caprins) garant de pratiques agro-écologiques préservant la qualité des produits",
+    "Développement des marchés de producteurs à Ajaccio et Porto-Vecchio, soutenu par le Plan d'Action Régional Alimentation Corse (PRAC)"
+  ],
+  "vigilances": [
+    "Dépendance alimentaire critique (>80 % d'importations) : toute rupture logistique maritime expose le département à une insécurité alimentaire rapide, risque amplifié par les projections climatiques sur les aléas maritimes à horizon 2060",
+    "Pression foncière croissante sur les terres agricoles péri-urbaines (Ajaccio, Bonifacio), réduisant progressivement la SAU disponible pour l'agriculture locale",
+    "Vulnérabilité climatique des filières emblématiques (olivier, vigne, châtaignier) face aux sécheresses récurrentes et aux incendies estivaux projetés en hausse selon Climadiag 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">80 %",
+      "label": "Taux d'importations alimentaires"
+    },
+    {
+      "valeur": "8",
+      "label": "AOP/IGP actives (INAO 2023)"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "SAU certifiée en bio"
+    },
+    {
+      "valeur": "~40 000 ha",
+      "label": "Surface Agricole Utile totale"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (autonomie alimentaire)",
+    "INAO 2023 (signes de qualité)",
+    "Agence Bio 2023 (part SAU bio)",
+    "PRAC – Collectivité de Corse (circuits courts)"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations agrégées à l'échelle régionale Corse, sans distinction fine Corse-du-Sud / Haute-Corse",
+    "La part de SAU en bio peut être surestimée car l'élevage extensif corse est partiellement comptabilisé en bio de fait sans certification formelle complète",
+    "Le maillage des AMAP et circuits courts est sous-documenté statistiquement en Corse-du-Sud, rendant la comparaison inter-départementale imprécise pour ce critère"
+  ]
+}

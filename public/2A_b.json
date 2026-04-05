@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corse-du-Sud figure parmi les départements français les mieux dotés en termes de biodiversité, avec une couverture Natura 2000 dépassant 40% de son territoire terrestre et marin, témoignant d'une richesse écologique exceptionnelle (INPN/OFB 2024). Le Parc Naturel Régional de Corse (PNRC), dont une large part couvre le département, protège des habitats montagnards, maquis et zones humides abritant des espèces endémiques comme le gypaète barbu ou la truite macrostigma (LPO/PNRC). Les zones marines bénéficient de la Réserve Naturelle des Bouches de Bonifacio, première réserve internationale franco-italienne, couvrant plus de 80 000 ha et protégeant des herbiers de posidonie et des espèces rares (OFB 2024). Les corridors écologiques restent globalement fonctionnels grâce à la faible densité de population (moins de 37 hab/km²) et à la continuité des massifs forestiers et montagnards, même si la pression touristique estivale génère des perturbations localisées (INPN).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "Couverture Natura 2000 >40% terrestre et marin, parmi les plus élevées nationales"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Corse + Réserve Bouches de Bonifacio couvrent vastes surfaces protégées"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Espèces endémiques: gypaète, truite macrostigma, tortue d'Hermann présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors globalement fonctionnels mais pression touristique estivale marquée"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France métropolitaine, dépassant 40% du territoire (INPN 2024)",
+    "Réserve Naturelle des Bouches de Bonifacio : 80 000 ha marins protégés, herbiers de posidonie en bon état (OFB 2024)",
+    "Présence de plus de 2 800 espèces végétales en Corse dont ~10% endémiques, richesse floristique exceptionnelle (PNRC/INPN)",
+    "Faible densité humaine (~37 hab/km²) favorisant le maintien de continuités écologiques terrestres de qualité"
+  ],
+  "vigilances": [
+    "Pression touristique intense (plus de 3 millions de visiteurs/an en Corse) générant piétinement des habitats littoraux et maquis sensibles, risque d'érosion de la biodiversité côtière",
+    "Espèces invasives en progression (frelon asiatique, Carpobrotus spp. sur littoral) menaçant la flore et la faune endémiques (OFB 2024)",
+    "Risque incendie croissant sous l'effet du changement climatique : scénario DRIAS 2060 prévoit +20% de jours à risque fort, menaçant les habitats forestiers et les zones Natura 2000"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">40%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "80 000 ha",
+      "label": "Réserve Bouches de Bonifacio"
+    },
+    {
+      "valeur": "~10%",
+      "label": "Taux endémisme flore corse"
+    },
+    {
+      "valeur": "37 hab/km²",
+      "label": "Densité population"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN (Inventaire National du Patrimoine Naturel)",
+    "LPO (Ligue pour la Protection des Oiseaux)",
+    "PNRC (Parc Naturel Régional de Corse)"
+  ],
+  "limites": [
+    "Les données de suivi de l'état de conservation des espèces endémiques corses restent partielles et peu actualisées au niveau départemental 2A spécifiquement",
+    "L'évaluation des corridors écologiques marins est insuffisamment renseignée malgré l'importance du domaine maritime du département",
+    "L'impact réel des espèces exotiques envahissantes sur la biodiversité locale manque de quantification précise et récente à l'échelle de la Corse-du-Sud"
+  ]
+}

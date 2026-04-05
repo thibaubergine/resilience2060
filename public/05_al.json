@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Alpes présentent un profil alimentaire contrasté, avec une agriculture de montagne structurellement limitée par la topographie (SAU de 78 000 ha, soit seulement 16% du territoire départemental selon Agreste 2023), mais valorisée par des filières d'excellence. Le département bénéficie d'une part significative de l'agriculture biologique, atteignant environ 22% de la SAU certifiée bio (Agence Bio 2023), plaçant les Hautes-Alpes parmi les départements les plus avancés de France dans cette transition. L'autonomie alimentaire reste néanmoins limitée par la faible densité de population productive et la prédominance de l'élevage extensif ovin et bovin (plus de 60% de la SAU dédiée aux prairies et estives), avec une dépendance aux approvisionnements extérieurs pour les produits transformés (ZAVA 2024). Les circuits courts se développent progressivement autour de Gap et Briançon, avec une quinzaine d'AMAP recensées, mais peinent à irriguer les zones rurales isolées. La richesse des terroirs locaux (agneau de sisteron, fromages d'alpage) constitue un levier identitaire fort pour les signes de qualité, bien que le nombre d'AOP/IGP reste modeste à l'échelle nationale.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "SAU limitée (16% territoire), forte dépendance extérieure produits transformés"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Agneau de Sisteron IGP, fromages alpage ; nombre AOP modeste nationalement"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "22% SAU certifiée bio, parmi les meilleurs départements français (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.5,
+      "note": "~15 AMAP actives, circuits courts concentrés Gap/Briançon, zones rurales isolées"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique atteignant ~22%, soit plus du double de la moyenne nationale (10,6%, Agence Bio 2023), portée par l'élevage extensif ovin en conversion",
+    "Agneau de Sisteron IGP : filière structurante impliquant plus de 500 éleveurs sur le département et les départements limitrophes, reconnaissance nationale forte (INAO 2023)",
+    "Qualité sanitaire élevée des productions locales grâce à des systèmes d'élevage extensifs à faible intrant chimique, cohérente avec les scores air et biodiversité du département",
+    "Dynamisme des marchés de producteurs estivaux (Gap, Embrun, Briançon) et développement d'une offre de restauration collective en circuits courts dans plusieurs collèges du département (Département 05, 2022)"
+  ],
+  "vigilances": [
+    "Vulnérabilité climatique croissante des estives alpines : réduction projetée de 15 à 25% de la productivité herbagère à horizon 2060 sous scénario RCP 4.5 (DRIAS/Climadiag), menaçant directement la filière ovine",
+    "Dépendance structurelle aux importations alimentaires pour une population touristique importante (fréquentation estivale et hivernale multiplie par 3 à 5 la population résidente), fragilisant la sécurité alimentaire locale en cas de crise logistique",
+    "Vieillissement des agriculteurs (âge moyen 53 ans, Agreste 2020) et faible renouvellement des exploitations risquant de réduire la SAU productive de 10 à 15% d'ici 2030, fragilisant les filières locales déjà limitées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~22%",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "78 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "500+",
+      "label": "Éleveurs Agneau de Sisteron IGP"
+    },
+    {
+      "valeur": "~15",
+      "label": "AMAP actives recensées"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023 (registre AOP/IGP)",
+    "Agreste Recensement Agricole 2020",
+    "ZAVA 2024 (Zones à valeur alimentaire)"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire des Hautes-Alpes restent partielles pour les territoires de montagne, où les flux d'approvisionnement informels et les productions d'autoconsommation sont sous-estimés",
+    "La saisonnalité extrême de l'économie touristique rend difficile l'évaluation de la demande alimentaire locale réelle et biaise les indicateurs de circuits courts et d'autonomie",
+    "L'isolement géographique de nombreuses communes (notamment dans le Briançonnais et le Champsaur) limite la représentativité des données agrégées au niveau départemental, masquant de fortes disparités infra-territoriales"
+  ]
+}

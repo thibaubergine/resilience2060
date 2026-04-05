@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Alpes (05) bénéficient d'un avantage thermique structurel grâce à une altitude moyenne de 1 471 m, la plus élevée de France métropolitaine, conférant un tampon climatique significatif face aux vagues de chaleur (Climadiag Commune, Météo-France 2023). Selon les projections DRIAS 2023 (scénario RCP8.5), le département devrait enregistrer d'ici 2060 une hausse des températures moyennes de +2,5 à +3°C, avec une augmentation marquée des épisodes de sécheresse estivale affectant le manteau neigeux et les ressources en eau des vallées. Le recul glaciaire est documenté à un rythme accéléré : le glacier du Lautaret a perdu environ 40 % de sa surface depuis les années 1980 (OHM-CV, 2022). Le risque feux de forêt, historiquement modéré en haute montagne, progresse vers les étages subalpin et montagnard sous l'effet de la sécheresse estivale et de la déprise agricole, avec une extension de l'aléa modélisée par Prométhée II (2023). Enfin, l'absence de littoral et le caractère torrentiel des cours d'eau (Durance, Guil) exposent le territoire à des crues morphogènes plutôt qu'à des inondations de plaine, un risque différencié mais réel (TRACC, CEREMA 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude moyenne 1 471 m, tampon thermique exceptionnel en métropole"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "Vagues de chaleur rares en altitude mais vallées exposées +3°C 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant en montagne, déprise agricole aggravante"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Pas de littoral, crues torrentielles Durance/Guil en progression"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 1 471 m, la plus haute de France métropolitaine, limitant structurellement les pics de chaleur extrême (Météo-France, Climadiag 2023)",
+    "Moins de 5 jours de canicule projetés par an d'ici 2050 en zone de haute montagne, contre 20+ jours dans les Bouches-du-Rhône (DRIAS 2023)",
+    "Très faible densité urbaine (25 hab/km²) réduisant l'effet d'îlot de chaleur urbain et la vulnérabilité humaine directe (INSEE 2023)",
+    "Présence du Plan Climat Air Énergie Territorial (PCAET) du Pays Gapençais intégrant les projections TRACC et les adaptations alpines (CEREMA 2022)"
+  ],
+  "vigilances": [
+    "Recul glaciaire et fonte du permafrost : +40 % de perte de surface glaciaire depuis 1980, menaçant les débits estivaux de la Durance et l'alimentation en eau potable de 1,2 million de Provençaux en aval (OHM-CV / EDF 2022)",
+    "Extension de l'aléa feux de forêt vers les étages montagnards et subalpins : la surface potentiellement combustible augmente de 15 à 20 % à l'horizon 2060 selon les modèles Prométhée II/Météo-France",
+    "Déstabilisation des versants alpins sous l'effet du dégel du permafrost et de l'intensification des précipitations intenses, avec un risque accru de laves torrentielles sur les axes RN94/RN85 (BRGM, GéoRisques 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "1 471 m",
+      "label": "Altitude moyenne départementale"
+    },
+    {
+      "valeur": "+2,5 à +3°C",
+      "label": "Hausse T° projetée à 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "-40 %",
+      "label": "Recul glaciaire depuis 1980"
+    },
+    {
+      "valeur": "<5 j/an",
+      "label": "Jours de canicule projetés 2050 en altitude"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune – Météo-France 2023",
+    "DRIAS 2023 – scénarios RCP4.5/8.5",
+    "OHM-CV / EDF – Observatoire Hydro-Météo des Alpes 2022",
+    "TRACC CEREMA 2023 / Prométhée II / GéoRisques BRGM 2023"
+  ],
+  "limites": [
+    "Les modèles climatiques DRIAS ont une résolution spatiale de 8 km, insuffisante pour capturer la variabilité altitudinale intra-départementale très marquée dans les Hautes-Alpes (différence de 2 800 m entre fonds de vallée et sommets)",
+    "L'évolution du risque feux en milieu alpin est encore peu documentée par Prométhée II, calibré historiquement sur le pourtour méditerranéen de basse altitude",
+    "Les projections sur les ressources en eau ne distinguent pas suffisamment les effets du recul nival/glaciaire des effets de la variabilité pluviométrique interannuelle, rendant difficile la planification adaptative à l'échelle communale"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Ain (01), situé en Auvergne-Rhône-Alpes, bénéficie d'une position géographique intermédiaire entre plaine bressan et reliefs du Jura et du Bugey, offrant un tampon thermique notable face aux projections climatiques à horizon 2060. Selon Climadiag (Météo-France 2023), le département devrait connaître une hausse des températures moyennes de +2,5°C à +3,5°C d'ici 2060 selon les scénarios RCP 4.5 à 8.5, avec une augmentation significative du nombre de jours de vague de chaleur. Les projections DRIAS indiquent que les zones de plaine bressane (Bourg-en-Bresse, Ambérieu) seront les plus exposées aux épisodes caniculaires, avec jusqu'à 20 à 30 nuits tropicales supplémentaires annuelles d'ici 2060. Le risque de feux de forêt reste modéré mais croissant, notamment sur les versants exposés du Bugey et de la Dombes (AP3C/TRACC), tandis que les crues de l'Ain, du Rhône et de la Saône représentent un risque d'inondation structurel bien documenté (GéoRisques, PPRI en vigueur sur 28 communes).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Jura et Bugey offrent tampon thermique altitudinal significatif face au réchauffement"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Plaine bressane exposée à +30 nuits tropicales supplémentaires d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant sur Bugey et Dombes, actuellement encore modéré"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Inondations Rhône/Saône/Ain documentées, pas d'exposition côtière maritime"
+    }
+  ],
+  "points_forts": [
+    "Gradient altitudinal marqué (200 à 1 720 m, Grand Colombier) offrant des refuges climatiques pour 2060",
+    "Couverture forestière de 38 % du territoire (IFN/IGN 2023) jouant un rôle de régulation thermique et hydrique",
+    "Réseau hydrographique dense (Ain, Rhône, Saône) soutenant la résilience agricole face aux sécheresses modérées",
+    "Plans de Prévention des Risques d'Inondation (PPRI) opérationnels sur les principales vallées, anticipant les crues centennales (GéoRisques)"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +35 % des journées de sécheresse estivale sur la Dombes et la Bresse d'ici 2060 (DRIAS/scénario RCP 8.5)",
+    "Progression du risque incendie sur le massif du Bugey : indice de sécheresse estivale en hausse, peuplements résineux vulnérables (AP3C/TRACC)",
+    "Vulnérabilité croissante des zones humides de la Dombes (10 000 étangs) face à l'évapotranspiration accrue et aux sécheresses répétées projetées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3,5°C",
+      "label": "Hausse T° projetée 2060"
+    },
+    {
+      "valeur": "30 jours",
+      "label": "Nuits tropicales supplémentaires"
+    },
+    {
+      "valeur": "38 %",
+      "label": "Couverture forestière (IFN 2023)"
+    },
+    {
+      "valeur": "28 communes",
+      "label": "Couvertes par un PPRI"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios RCP 4.5/8.5)",
+    "TRACC/AP3C Auvergne-Rhône-Alpes",
+    "GéoRisques / PPRI DDT Ain"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent des disparités fortes entre plaine bressane et reliefs jurassiens du Bugey, pouvant surestimer la vulnérabilité globale",
+    "L'évaluation du risque feux de forêt pour l'Ain reste moins consolidée que pour les départements méditerranéens, avec peu de données historiques locales robustes",
+    "Les modèles de vulnérabilité aux inondations ne prennent pas encore pleinement en compte les effets cumulés des étiages sévères sur la dynamique des crues dans le bassin de l'Ain"
+  ]
+}

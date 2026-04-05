@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Ardennes présentent une qualité de l'air globalement intermédiaire à l'échelle nationale, bénéficiant d'une faible densité urbaine et d'une pression automobile limitée. Selon ATMO Grand Est, les concentrations moyennes annuelles en PM2,5 oscillent autour de 10-12 µg/m³, dépassant la valeur guide OMS 2021 fixée à 5 µg/m³ mais restant en deçà des seuils réglementaires européens (25 µg/m³). Le département est toutefois pénalisé par des émissions agricoles d'ammoniac (NH₃) significatives, liées à l'élevage bovin et à la grande culture céréalière qui caractérisent son territoire (Citepa, inventaire INERIS). La présence de quelques sites industriels historiques dans le bassin de Charleville-Mézières et Revin contribue à des émissions localisées de polluants, même si la désindustrialisation a réduit sensiblement leur impact depuis les années 2000 (GéoRisques/DREAL Grand Est). Les épisodes de pollution transfrontalière (Belgique) et les phénomènes de brumes hivernales constituent des facteurs de vulnérabilité spécifiques au territoire ardennais.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 ~11 µg/m³, supérieur guide OMS 5 µg/m³, reste modéré"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ faible, densité urbaine réduite, trafic limité hors Charleville"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 5.0,
+      "note": "Sites industriels résiduels à Charleville-Revin, impact localisé notable"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "Élevages bovins et grandes cultures génèrent NH₃ élevé, secteur agricole dominant"
+    }
+  ],
+  "points_forts": [
+    "Faibles concentrations de NO₂ en milieu rural, inférieures à 20 µg/m³ sur la majorité du territoire (ATMO Grand Est)",
+    "Absence de grande agglomération réduisant les pics de pollution photochimique et les émissions de transports",
+    "Désindustrialisation significative depuis les années 2000 ayant réduit les émissions de polluants lourds (SO₂, métaux, poussières)",
+    "Couverture forestière importante (~40 % du département, ONF) contribuant à la filtration naturelle des particules fines"
+  ],
+  "vigilances": [
+    "Émissions agricoles d'NH₃ structurellement élevées : le secteur agricole représente plus de 90 % des émissions d'ammoniac départementales (Citepa), contribuant à la formation de particules secondaires",
+    "Pollution transfrontalière belge lors d'épisodes météorologiques défavorables (vents d'ouest-nord-ouest), difficilement maîtrisable localement",
+    "Brûlage des résidus agricoles et usage du bois-énergie en milieu rural susceptibles de maintenir des niveaux de PM2,5 problématiques en période hivernale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 (PM2,5)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Part agricole des émissions NH₃"
+    },
+    {
+      "valeur": "~40 %",
+      "label": "Couverture forestière du département"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2022",
+    "Citepa – Inventaire national des émissions 2023",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DREAL Grand Est – Profil environnemental des Ardennes"
+  ],
+  "limites": [
+    "Le réseau de mesures ATMO est peu dense en zone rurale ardennaise, limitant la représentativité des données pour l'ensemble du territoire",
+    "Les émissions transfrontalières en provenance de Belgique sont mal intégrées dans les inventaires nationaux, sous-estimant potentiellement l'exposition réelle de la population",
+    "L'absence de station de mesure spécifique aux PM2,5 en continu dans certaines zones rurales oblige à recourir à des modélisations dont l'incertitude reste significative"
+  ]
+}

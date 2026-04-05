@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ariège bénéficie d'une qualité de l'air parmi les meilleures de France métropolitaine, grâce à sa faible densité de population (31 hab/km²) et à l'absence quasi totale d'industrie lourde émettrice. Les concentrations moyennes en PM2,5 mesurées par ATMO Occitanie oscillent entre 6 et 9 µg/m³, restant proches voire inférieures à la valeur guide OMS 2021 (5 µg/m³) dans les zones rurales et montagnardes. Le NO₂ urbain demeure très bas, Foix enregistrant des niveaux bien en deçà du seuil réglementaire européen (40 µg/m³), avec des valeurs estimées autour de 10–14 µg/m³ (ATMO Occitanie, 2022). Le secteur agricole, dominé par l'élevage bovin et ovin extensif, génère des émissions d'ammoniac (NH₃) modérées, sans pic comparable aux bassins d'élevage intensif du Grand Ouest (Citepa, 2023). La topographie pyrénéenne favorise en revanche des épisodes de brume hivernale dans les vallées encaissées, constituant le principal facteur de vigilance local.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 rural montagnard ~6–9 µg/m³, proche seuil OMS 2021"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ Foix ~12 µg/m³, très en deçà seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Quasi absence industrie lourde, tissu PME non émetteur"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage extensif NH₃ modéré mais non négligeable en vallées"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus faibles d'Occitanie, ~6–9 µg/m³ en zones rurales (ATMO Occitanie, 2022)",
+    "NO₂ urbain à Foix estimé à ~12 µg/m³, soit 70 % sous le seuil réglementaire européen de 40 µg/m³",
+    "Absence de grandes installations industrielles classées ICPE à fort impact atmosphérique, densité émettrice très faible (Citepa 2023)",
+    "Couverture forestière à 45 % du territoire assurant un rôle de puits et de filtre naturel pour les polluants (IFN/IGN 2023)"
+  ],
+  "vigilances": [
+    "Accumulation hivernale de polluants (PM2,5, particules de combustion bois) dans les vallées encaissées de la Garonne ariégeoise et du Vicdessos, risque d'épisodes de pollution localisés",
+    "Émissions NH₃ liées à l'élevage pastoral : en cas d'intensification agricole, progression possible vers des niveaux plus problématiques (Citepa, trajectoire nationale 2030)",
+    "Trafic routier estival (cols pyrénéens, tourisme) et usage croissant du bois-énergie résidentiel susceptibles de dégrader ponctuellement les indicateurs PM10 et PM2,5"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7 µg/m³",
+      "label": "PM2,5 moyen annuel (ATMO Occitanie)"
+    },
+    {
+      "valeur": "~12 µg/m³",
+      "label": "NO₂ Foix (estimation ATMO 2022)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "45 %",
+      "label": "Couverture forestière départementale (IGN 2023)"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2023",
+    "IGN/IFN – Inventaire forestier national 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est peu dense en Ariège : une seule station de fond urbain à Foix, rendant la représentativité des données rurales et montagnardes limitée",
+    "Les données PM2,5 en altitude pyrénéenne sont essentiellement issues de modélisations et non de mesures directes, introduisant une incertitude sur les valeurs réelles",
+    "L'inventaire NH₃ agricole à l'échelle communale reste imprécis pour un département à élevage extensif dispersé, avec un risque de sous-estimation dans certains secteurs de piémont"
+  ]
+}

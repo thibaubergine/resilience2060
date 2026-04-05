@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aisne présente un profil pédologique sous pression marquée par une agriculture intensive céréalière et betteravière couvrant plus de 75 % de la SAU, favorisant l'érosion hydrique et le tassement des sols limoneux (INRAE 2023). Le département recense environ 180 sites BASOL (anciens sites pollués ou en cours de traitement), héritage d'une industrialisation passée notamment dans la vallée de l'Oise et autour de Saint-Quentin (GéoRisques/ex-BASOL). La contamination des sols agricoles par les résidus de pesticides est préoccupante, l'Aisne figurant parmi les départements à usage intensif de fongicides et herbicides céréaliers selon le suivi INRAE 2023, avec des traces de SDHI et de glyphosate détectées dans les horizons superficiels. L'agriculture biologique reste marginale, avec seulement 2,1 % de la SAU certifiée bio en 2023 (Agence Bio), contre 10,7 % en moyenne nationale, plaçant le département dans le dernier quartile national. Le risque radon demeure faible à modéré sur l'essentiel du territoire, les sous-sols sédimentaires crayeux et limoneux présentant peu d'émanations significatives (IRSN).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "~180 sites BASOL, héritage industriel vallée Oise/Saint-Quentin"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Usage intensif pesticides céréaliers, résidus SDHI/glyphosate détectés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Sous-sols limoneux crayeux, risque radon faible à modéré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "Seulement 2,1% SAU bio, très en deçà moyenne nationale 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon faible sur la majorité du territoire grâce aux formations géologiques sédimentaires (craie, limons), classement IRSN catégorie 1-2",
+    "Sols limoneux à fort potentiel agronomique reconnu, parmi les plus fertiles du nord de la France (Chambre d'Agriculture 02)",
+    "Présence de programmes de reconversion de friches industrielles actifs (Plan Vert Hauts-de-France 2021-2027)",
+    "Réseau de surveillance des sols agricoles partiellement actif via le programme RMQS (Réseau de Mesures de la Qualité des Sols, INRAE)"
+  ],
+  "vigilances": [
+    "Érosion hydrique des sols limoneux en forte progression : jusqu'à 10 t/ha/an dans les zones à grandes cultures en pente, aggravée par les événements pluvieux intenses projetés à +20 % d'ici 2050 (DRIAS/INRAE)",
+    "Tassement structural chronique lié aux engins agricoles lourds, affectant 30 à 40 % des parcelles selon estimations régionales, compromettant la capacité de rétention hydrique",
+    "Stagnation de la conversion bio (2,1 % SAU, +0,3 pt en 5 ans) très insuffisante pour atteindre l'objectif national de 18 % en 2027 (Agence Bio/Pacte Vert)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~180",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "2,1%",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": ">75%",
+      "label": "SAU en grandes cultures"
+    },
+    {
+      "valeur": "Faible-Modéré",
+      "label": "Risque radon IRSN"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (2024)",
+    "INRAE – Qualité des sols agricoles (2023)",
+    "IRSN – Cartographie radon (2022)",
+    "Agence Bio – Chiffres clés (2023)"
+  ],
+  "limites": [
+    "L'inventaire BASOL ne couvre pas les sites non recensés historiquement (petites industries diffuses rurales), sous-estimant potentiellement la pollution réelle dans l'Aisne",
+    "Les données RMQS sur les résidus pesticides dans les sols sont disponibles à maille nationale et non spécifiquement départementalisées pour l'Aisne, limitant la précision",
+    "L'absence de cartographie fine de l'érosion hydrique à l'échelle parcellaire pour l'Aisne rend difficile la quantification exacte des pertes en terre par commune"
+  ]
+}

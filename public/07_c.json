@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ardèche présente un profil climatique 2060 contrasté, avec une altitude moyenne de 660 m (Massif central) offrant un tampon thermique relatif pour les secteurs de haute et moyenne montagne, mais les projections DRIAS indiquent une hausse des températures estivales de +3,5 à +4°C d'ici 2060 sur le bassin ardéchois méridional. Selon Climadiag (Météo-France 2023), le département connaîtra une augmentation significative des journées de canicule, passant de 5-10 jours/an actuellement à 20-35 jours/an à l'horizon 2050-2060 dans les vallées du sud. Le risque incendie est particulièrement préoccupant : l'Ardèche compte déjà plus de 310 000 ha de forêts et garrigues, et les projections AP3C indiquent une extension vers le nord de la zone Natura à risque feux, avec un allongement de la saison à risque de 3 à 6 semaines supplémentaires d'ici 2060. Les épisodes cévenols, générateurs de crues éclairs sur les bassins de l'Ardèche, du Chassezac et du Beaume, devraient s'intensifier selon le TRACC, avec des débits de pointe potentiellement accrus de 15 à 30 %.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne 660 m offre tampon thermique notable pour nord-département"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Vallées méridionales : +35 jours canicule/an projetés à horizon 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "310 000 ha forestiers exposés, risque feux croissant vers le nord"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Crues cévenoles éclairs fréquentes, mais absence de vulnérabilité côtière"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 660 m (point culminant : Mont Mézenc 1 753 m) procurant un régime thermique plus frais dans les secteurs de haute-Ardèche, limitant les pics de chaleur extrême",
+    "La partie nord et centrale du département (plateau ardéchois) présente un nombre de jours de canicule actuel inférieur à 5/an, contre 15 à 20 dans les plaines du Gard voisin (Climadiag 2023)",
+    "Aucune vulnérabilité côtière : département entièrement continental, épargnant les risques liés à la montée du niveau marin et aux submersions marines projetées à +50-80 cm d'ici 2100",
+    "La forêt ardéchoise, couvrant 53 % du territoire, agit comme puits de carbone local estimé à environ 1,2 MtCO₂/an (IGN-INRAE), contribuant à l'atténuation climatique régionale"
+  ],
+  "vigilances": [
+    "Extension rapide de la zone à risque feux vers le nord : les projections AP3C/TRACC anticipent que 60 % du territoire ardéchois sera classé en risque élevé à très élevé d'incendie d'ici 2060, contre 35 % aujourd'hui",
+    "Intensification des épisodes cévenols : les crues éclairs sur l'Ardèche, le Chassezac et le Beaume pourraient voir leurs débits centennaux augmenter de 20 à 30 % selon les scénarios SSP3-7.0 du DRIAS, menaçant les 40 000 habitants des vallées encaissées",
+    "Sécheresse édaphique croissante dans les vallées méridionales : le déficit hydrique estival devrait s'aggraver de 15 à 25 % d'ici 2060, impactant l'agriculture, les étiages de la rivière Ardèche et l'alimentation en eau potable de secteurs ruraux déjà fragiles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5 à +4°C",
+      "label": "Hausse T° estivale 2060 (vallées sud)"
+    },
+    {
+      "valeur": "310 000 ha",
+      "label": "Surface forestière exposée feux"
+    },
+    {
+      "valeur": "+20 à 35 j/an",
+      "label": "Jours canicule supplémentaires 2060"
+    },
+    {
+      "valeur": "660 m",
+      "label": "Altitude moyenne départementale"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS scénarios SSP3-7.0",
+    "TRACC – Trajectoire de Réchauffement de Référence",
+    "AP3C Massif central – Adaptation forêt/feux"
+  ],
+  "limites": [
+    "La forte hétérogénéité altitudinale de l'Ardèche (200 m à 1 753 m) rend les projections climatiques moyennées peu représentatives des situations locales très contrastées entre Bas-Vivarais méridional et plateau ardéchois",
+    "Les données Climadiag disponibles à la maille communale restent agrégées à l'échelle départementale dans les comparatifs inter-départementaux, masquant les disparités nord-sud particulièrement marquées en Ardèche",
+    "Les modèles de risque feux ne prennent pas encore totalement en compte les dynamiques de végétation liées aux changements d'usage des sols (déprise agricole, reforestation naturelle), phénomène très prononcé en Ardèche depuis les années 1970"
+  ]
+}
