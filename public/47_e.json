@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne s'appuie sur la Garonne et ses affluents (Lot, Baïse, Dropt) pour alimenter un territoire fortement agricole, avec une superficie irriguée parmi les plus importantes de France (~80 000 ha irrigués, source Agreste 2022). La qualité des eaux superficielles est hétérogène : si 55 % des masses d'eau atteignent le bon état écologique (DCE/AELB 2022), les pressions agricoles maintiennent des teneurs en nitrates préoccupantes sur certains bassins versants, notamment la Baïse et le Dropt. Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 30 à 50 % à l'horizon 2060 sur les affluents de la Garonne, aggravant des tensions estivales déjà récurrentes. La qualité de l'eau potable distribuée reste globalement satisfaisante, avec 92 % de la population desservie par une eau conforme aux exigences bactériologiques et physico-chimiques (ARS Nouvelle-Aquitaine, 2022), mais des dépassements ponctuels aux pesticides persistent sur les captages en zone viticole et maraîchère. La présence de PFAS dans les eaux souterraines commence à être documentée, notamment à proximité des zones industrielles de l'agglomération agenaise.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.5,
+      "note": "92 % conformité eau potable, dépassements pesticides ponctuels en zones agricoles"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.5,
+      "note": "Étiages -30 à -50 % projetés d'ici 2060, tensions estivales déjà récurrentes"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Nitrates préoccupants sur Baïse et Dropt, zones vulnérables en extension"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "PFAS peu documentés, signaux émergents autour d'Agen, faible densité industrielle"
+    }
+  ],
+  "points_forts": [
+    "Conformité élevée de l'eau potable : 92 % de la population desservie par une eau conforme bactériologiquement et physico-chimiquement (ARS Nouvelle-Aquitaine, 2022)",
+    "55 % des masses d'eau en bon état écologique, au-dessus de la moyenne nationale d'environ 45 % (DCE/Agence de l'eau Adour-Garonne, 2022)",
+    "Réseau hydrographique dense avec la Garonne, le Lot, la Baïse et le Dropt offrant des ressources en eau globalement abondantes hors période d'étiage",
+    "Faible densité industrielle lourde limitant la contamination PFAS et métaux lourds des nappes souterraines par rapport aux départements plus industrialisés"
+  ],
+  "vigilances": [
+    "Stress hydrique sévère projeté : les débits d'étiage des affluents de la Garonne pourraient chuter de 30 à 50 % à l'horizon 2060 (Explore2, 2023), menaçant l'irrigation de 80 000 ha agricoles",
+    "Contamination aux pesticides des captages en zones viticoles et maraîchères avec dépassements ponctuels des valeurs sanitaires réglementaires sur plusieurs unités de distribution (ARS 2022)",
+    "Extension probable des zones vulnérables aux nitrates sur les bassins de la Baïse et du Dropt sous pression des élevages et cultures intensives, risquant de dégrader des captages actuellement conformes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "80 000 ha",
+      "label": "Surface irriguée (Agreste 2022)"
+    },
+    {
+      "valeur": "55 %",
+      "label": "Masses d'eau bon état écologique"
+    },
+    {
+      "valeur": "92 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-30 à -50 %",
+      "label": "Baisse débit étiage 2060 (Explore2)"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Adour-Garonne – État des lieux DCE 2022",
+    "ARS Nouvelle-Aquitaine – Bilan qualité eau potable 2022",
+    "Explore2 (INRAE/OFB) – Projections débits 2023",
+    "Agreste – Statistiques irrigation 2022"
+  ],
+  "limites": [
+    "Les données PFAS sur les eaux souterraines du Lot-et-Garonne restent très partielles, la campagne nationale de screening (2023-2024) n'ayant pas encore produit de résultats consolidés à l'échelle départementale",
+    "L'état écologique des masses d'eau est évalué selon un cycle DCE sexennal, ce qui peut masquer des dégradations récentes liées aux étiages exceptionnels de 2022-2023",
+    "Les projections Explore2 présentent des incertitudes importantes selon les scénarios climatiques retenus (RCP4.5 vs RCP8.5), rendant difficile la quantification précise du stress hydrique futur local"
+  ]
+}

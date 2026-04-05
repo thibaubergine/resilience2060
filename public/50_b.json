@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Manche bénéficie d'une biodiversité remarquable grâce à sa façade maritime exceptionnelle, avec plus de 350 km de côtes abritant des écosystèmes variés (landes, bocages, zones humides, estrans) (OFB 2024/INPN). La surface en zones Natura 2000 couvre environ 18 % du territoire manchois, incluant des sites emblématiques comme la baie du Mont-Saint-Michel, classée au patrimoine mondial de l'UNESCO, et les îles Chausey, qui constituent la plus grande archipel de France (INPN 2023). Le bocage normand, encore relativement bien préservé dans la Manche par rapport à d'autres départements, constitue un réseau de haies estimé à plus de 60 000 km, favorable aux chiroptères, passereaux et petite faune terrestre (LPO Normandie). Le département accueille des espèces emblématiques comme le dauphin commun, le phoque gris en baie du Mont-Saint-Michel (colonie d'environ 600 individus), et des oiseaux marins nicheurs rares à l'échelle nationale (GEMEL Normandie/OFB 2024). Néanmoins, la pression agricole intensive sur les zones humides intérieures et l'artificialisation progressive du littoral fragilisent certains corridors écologiques identifiés dans le SRCE Normandie (DREAL Normandie 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "18 % du territoire en Natura 2000, baie Mont-Saint-Michel incluse"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Normandie-Maine partiellement inclus, réserves naturelles littorales"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Phoques gris, dauphins, oiseaux marins nicheurs rares en France"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Bocage dense mais corridors humides intérieurs fragilisés par agriculture"
+    }
+  ],
+  "points_forts": [
+    "La baie du Mont-Saint-Michel constitue l'un des plus grands estrans d'Europe (~50 000 ha), site Ramsar et Natura 2000 cumulés (INPN 2023)",
+    "Les îles Chausey abritent la plus grande colonie de goélands argentés de France ainsi que des phoques gris, avec une réserve naturelle régionale active (LPO Normandie/OFB 2024)",
+    "Le linéaire de haies bocagères dépasse 60 000 km, l'un des plus importants de France, assurant connectivité écologique et refuges pour la faune (DREAL Normandie)",
+    "La Manche compte plus de 20 zones humides inventoriées d'importance, dont les marais du Cotentin et du Bessin, zone Ramsar de 32 000 ha abritant des populations de spatules blanches et de canards plongeurs (OFB 2024)"
+  ],
+  "vigilances": [
+    "La régression des zones humides intérieures se poursuit avec une perte estimée à 1 % par an en surface fonctionnelle, menaçant les espèces inféodées aux milieux humides (DREAL Normandie 2023)",
+    "L'intensification agricole et l'usage des pesticides fragilisent les populations d'insectes pollinisateurs et d'oiseaux des plaines agricoles, avec un déclin de 30 % des oiseaux communs en 20 ans en Normandie (LPO/STOC 2022)",
+    "La montée du niveau marin (+30 à +60 cm projetés d'ici 2060 selon DRIAS) menace directement les habitats dunaires et prés-salés du littoral manchois, notamment en baie du Mont-Saint-Michel"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18 %",
+      "label": "Surface Natura 2000 / territoire"
+    },
+    {
+      "valeur": "32 000 ha",
+      "label": "Marais Cotentin-Bessin (Ramsar)"
+    },
+    {
+      "valeur": "~600",
+      "label": "Phoques gris baie Mont-Saint-Michel"
+    },
+    {
+      "valeur": "60 000 km",
+      "label": "Linéaire haies bocagères estimé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Normandie / STOC 2022",
+    "DREAL Normandie – SRCE 2023",
+    "GEMEL Normandie / Site Ramsar"
+  ],
+  "limites": [
+    "Les données sur l'état réel des corridors écologiques manchois restent parcellaires, le SRCE Normandie n'offrant qu'une cartographie indicative sans suivi annuel systématique",
+    "La biodiversité marine côtière (faune benthique, herbiers, poissons) est insuffisamment documentée dans les inventaires INPN pour la Manche, limitant l'évaluation comparative interdépartementale",
+    "Les chiffres de régression du bocage varient selon les sources (DREAL, Chambre d'agriculture, IGN) et ne font pas l'objet d'un observatoire unifié et actualisé pour le département"
+  ]
+}

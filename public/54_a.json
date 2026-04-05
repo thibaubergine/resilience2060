@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle présente une qualité de l'air globalement moyenne, pénalisée par son passé industriel sidérurgique et la présence d'agglomérations significatives comme Nancy et Longwy. Les concentrations moyennes annuelles en PM2,5 oscillent entre 10 et 14 µg/m³ selon les zones, dépassant la valeur guide OMS 2021 fixée à 5 µg/m³ (ATMO Grand Est, 2023). Le NO₂ urbain à Nancy atteint des niveaux préoccupants, avec des pics dépassant 25-30 µg/m³ à proximité des axes routiers majeurs, proches de la valeur limite OMS de 10 µg/m³/an. Le département concentre des sites industriels émetteurs importants, notamment dans le bassin de Pont-à-Mousson et le nord du département (ArcelorMittal Florange-Hayange en zone limitrophe), classés au registre CITEPA/IREP avec des émissions significatives de NOx et SO₂. Les émissions agricoles d'ammoniac (NH₃) restent modérées comparées aux départements à forte densité d'élevage intensif, l'agriculture locale étant davantage orientée vers les grandes cultures.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 10-14 µg/m³, bien au-dessus seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 4.0,
+      "note": "NO₂ urbain Nancy 25-30 µg/m³, dépasse seuil OMS annuel"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Héritage sidérurgique, sites IREP actifs bassin Pont-à-Mousson/nord"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Agriculture grandes cultures dominante, NH₃ modéré versus élevage intensif"
+    }
+  ],
+  "points_forts": [
+    "Émissions NH₃ agricoles contenues : orientation céréalière du département limite les rejets ammoniacaux (< 2 500 t/an estimées, CITEPA 2022)",
+    "Réseau de surveillance ATMO Grand Est dense sur l'agglomération nancéienne, permettant un suivi fin des polluants et alertes précoces",
+    "Tendance à la baisse des émissions industrielles de SO₂ depuis la restructuration sidérurgique des années 2000-2010 (IREP/CITEPA)",
+    "Espaces périurbains et ruraux du sud du département (Lunéville, Sarrebourg) affichant des niveaux de pollution atmosphérique sensiblement plus faibles que la moyenne départementale"
+  ],
+  "vigilances": [
+    "Persistance de dépassements des seuils OMS 2021 pour les PM2,5 en zones urbaines et périurbaines, avec un risque sanitaire chronique estimé à plusieurs milliers d'années de vie perdues (BEH Santé Publique France)",
+    "Trafic routier dense sur les axes A31/A33 traversant le département, source majeure de NO₂ et particules fines ; intensification prévue sans report modal significatif d'ici 2030",
+    "Présence de sites industriels classés émetteurs de polluants organiques persistants (HAP, dioxines) liés à l'héritage cokeries/hauts-fourneaux, avec risques résiduels pour les riverains du nord du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "PM2,5 moyen annuel (zones urbaines)"
+    },
+    {
+      "valeur": "25-30 µg/m³",
+      "label": "NO₂ max urbain Nancy"
+    },
+    {
+      "valeur": "~5 µg/m³",
+      "label": "Seuil guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "78/96",
+      "label": "Rang national qualité de l'air"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2023",
+    "OMS Guidelines 2021 (PM2,5 : 5 µg/m³, NO₂ : 10 µg/m³/an)",
+    "CITEPA – Inventaire national émissions 2022",
+    "IREP/Registre émissions polluantes industrielles (sites 54)"
+  ],
+  "limites": [
+    "Les données ATMO Grand Est sont principalement issues de stations urbaines (Nancy, Longwy), sous-représentant les zones rurales et semi-rurales du département",
+    "L'héritage industriel génère des pollutions diffuses (sols/air) difficiles à quantifier précisément sans campagnes de mesure ciblées sur les friches du nord du département",
+    "L'absence de station de mesure permanente dans plusieurs cantons ruraux (sud Meurthe-et-Moselle) oblige à des estimations par modélisation, introduisant une incertitude sur les niveaux réels d'exposition"
+  ]
+}

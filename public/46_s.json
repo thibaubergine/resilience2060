@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot (46) présente un profil pédologique globalement favorable, dominé par des causses calcaires (Causse de Gramat, Causse de Limogne) et des vallées alluviales (Lot, Célé, Dordogne) offrant une diversité de terroirs préservés. Avec seulement 18 sites BASOL recensés (GéoRisques), le département figure parmi les moins contaminés de France en matière de pollution industrielle des sols, reflet d'un tissu industriel historiquement limité. La pression agricole en pesticides reste modérée grâce à une dominante d'élevage extensif et de viticulture raisonnée (AOC Cahors), bien que des résidus soient détectés dans les zones de grandes cultures de la vallée du Lot (INRAE 2023). Le risque radon constitue la principale vigilance, avec des zones de niveau 2 à 3 identifiées sur les formations granitiques et métamorphiques du nord-est du département (IRSN). L'agriculture biologique progresse significativement, représentant environ 12 % de la SAU lotoise, au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.5,
+      "note": "Seulement 18 sites BASOL, industrie historiquement peu présente"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.5,
+      "note": "Pression pesticides modérée, résidus localisés en vallée du Lot"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Zones radon niveau 2-3 sur formations granitiques nord-est lotois"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~12 % SAU bio, au-dessus moyenne nationale de 10,7 %"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués : 18 sites BASOL recensés pour 173 000 habitants, soit l'un des ratios les plus bas du pays (GéoRisques 2024)",
+    "Prédominance de sols calcaires caussenards peu exposés aux intrants chimiques intensifs, favorisant une qualité intrinsèque élevée",
+    "Agriculture biologique en progression constante avec ~12 % de la SAU, portée par les filières élevage et polyculture-élevage (Agence Bio 2023)",
+    "Viticulture de l'AOC Cahors engagée dans des démarches de réduction phytosanitaire, avec plusieurs domaines certifiés HVE ou bio"
+  ],
+  "vigilances": [
+    "Risque radon significatif dans le nord-est du département (formations hercyniennes) : zones IRSN de niveau 2 à 3 affectant potentiellement plusieurs communes de la Bouriane",
+    "Érosion des sols sur les versants caussenards et les coteaux viticoles, accentuée par les épisodes de pluies intenses prévus à l'horizon 2050 (DRIAS/Climadiag)",
+    "Contamination résiduelle aux pesticides dans les alluvions de la vallée du Lot, avec risque de transfert vers les eaux souterraines et nappes alluviales (INRAE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Niveau 2-3",
+      "label": "Risque radon IRSN (nord-est)"
+    },
+    {
+      "valeur": "173 000 hab.",
+      "label": "Population départementale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Cartographie radon 2023",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense dans le Lot limite la connaissance fine de l'état des sols caussenards et des vallées encaissées",
+    "Les données BASOL peuvent sous-estimer les pollutions diffuses liées aux anciennes activités minières (zinc, plomb) dans certaines zones du nord du département",
+    "La progression du bio en SAU masque des disparités intra-départementales importantes entre causses, Bouriane et vallée du Lot, rendant le score global peu représentatif des microterritoires"
+  ]
+}

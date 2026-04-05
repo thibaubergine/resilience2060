@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53), département intérieur du Massif armoricain à altitude modérée (60-300 m), présente une exposition climatique 2060 intermédiaire selon les projections DRIAS 2020. Selon Climadiag Commune (Météo-France, 2023), le nombre de jours de vague de chaleur pourrait tripler d'ici 2050-2070 par rapport à la période de référence 1976-2005, avec une augmentation des températures estivales de +2 à +3°C en scénario intermédiaire SSP2-4.5. Le département, peu boisé (taux de boisement ~14%, IFN), présente un risque incendie limité mais voit ses épisodes de sécheresse agricole s'intensifier, avec un déficit hydrique estival croissant documenté par les indicateurs TRACC. L'absence de façade maritime et le relief vallonné des Coëvrons constituent un tampon thermique relatif, classant la Mayenne dans une position médiane à l'échelle nationale face aux transformations climatiques projetées à horizon 2060.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Relief armoricain modéré (max 357 m, Coëvrons), tampon thermique réel"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+3°C projeté été 2050-2070 ; jours caniculaires en forte hausse DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Faible boisement (~14%) ; risque feux classé bas à modéré en Pays de la Loire"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Inondations récurrentes (Mayenne, Oudon) ; axe fluvial vulnérable sans côte"
+    }
+  ],
+  "points_forts": [
+    "Taux de boisement faible (~14%, IFN) limitant structurellement le risque de grands feux de forêt comparé aux départements du sud-ouest",
+    "Relief des Coëvrons (357 m) offrant un effet tampon thermique et des microclimats plus frais que la moyenne régionale (Climadiag, Météo-France 2023)",
+    "Absence de façade littorale supprimant tout risque d'érosion côtière ou de submersion marine à horizon 2060",
+    "Réseau de haies bocagères encore dense contribuant à l'atténuation thermique locale et à la régulation du cycle de l'eau (INRAE, programme Bocage Mayenne)"
+  ],
+  "vigilances": [
+    "Multiplication par 2 à 3 des jours de vague de chaleur à horizon 2050-2070 selon scénario SSP2-4.5 (DRIAS 2020), avec impact sur la santé des populations âgées (65+ ans : 18% de la population, INSEE 2022)",
+    "Inondations fluviales récurrentes sur la Mayenne et ses affluents : 47 communes reconnues en état de catastrophe naturelle inondation depuis 1982 (GéoRisques), risque aggravé par l'intensification des épisodes pluvieux hivernaux",
+    "Sécheresse agricole croissante avec déficit hydrique estival projeté en hausse de 15 à 20% à 2060 (TRACC/Explore2), menaçant l'élevage laitier dominant du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "357 m",
+      "label": "Altitude max (Coëvrons)"
+    },
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse T° estivale projetée 2050 (SSP2)"
+    },
+    {
+      "valeur": "~14%",
+      "label": "Taux de boisement départemental"
+    },
+    {
+      "valeur": "47",
+      "label": "Communes en arrêté CatNat inondation"
+    }
+  ],
+  "sources": [
+    "DRIAS 2020 / Météo-France Climadiag",
+    "TRACC – Trajectoire de Réchauffement de Référence pour l'Adaptation",
+    "IFN – Inventaire Forestier National (IGN)",
+    "GéoRisques / BRGM – base CatNat"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent soumises à des incertitudes importantes sur les scénarios d'émissions au-delà de 2050, réduisant la précision des comparaisons interdépartementales",
+    "L'effet tampon du bocage mayennais sur les températures locales est documenté qualitativement mais peu quantifié à l'échelle fine du département, rendant difficile son intégration dans les scores comparatifs",
+    "L'absence d'observatoire climatique local spécifique à la Mayenne (contrairement à certains départements dotés d'ORCAE renforcés) limite la disponibilité de données historiques localisées nécessaires à une évaluation fine du risque 2060"
+  ]
+}

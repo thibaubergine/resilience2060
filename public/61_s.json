@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Orne présente une situation contrastée en matière de qualité des sols, avec un score de 5,5/10 reflétant des pressions agricoles significatives sur un territoire à dominante bocagère et herbagère. Le département recense une cinquantaine de sites BASOL (anciens sites pollués ou potentiellement pollués nécessitant une action des pouvoirs publics), concentrés notamment autour d'Alençon et des zones industrielles historiques (GéoRisques). Les analyses INRAE 2023 révèlent une contamination modérée des sols agricoles par les résidus phytosanitaires, liée à la polyculture-élevage et aux cultures céréalières du Perche, avec détection de fongicides et d'herbicides dans les horizons superficiels. Le risque radon est notable dans l'Orne, classé en zone à potentiel radon significatif (catégorie 3 partielle) sur les formations géologiques granitiques du Massif armoricain qui affleurent en partie occidentale du département (IRSN). La part de surface agricole utile (SAU) conduite en agriculture biologique reste inférieure à la moyenne nationale, autour de 5,5 % contre 10,7 % au niveau national (Agence Bio 2023), limitant la dynamique de régénération des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Cinquantaine de sites BASOL, concentration autour d'Alençon, enjeux limités"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Résidus fongicides et herbicides détectés en zones céréalières et maraîchères"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Formations granitiques armoricaines génèrent potentiel radon élevé localement"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "Part SAU bio ~5,5%, progression lente mais hausse de 8% entre 2021-2023"
+    }
+  ],
+  "points_forts": [
+    "Prédominance de sols bocagers et prairiaux limitant l'érosion : environ 55 % de la SAU en prairies permanentes et temporaires (Agreste 2023)",
+    "Faible densité industrielle historique comparée aux départements voisins, limitant la pollution des sols aux métaux lourds (GéoRisques)",
+    "Présence de zones humides et de haies bocagères jouant un rôle de filtre naturel pour la qualité des sols (OFB 2024)",
+    "Dynamique de conversion bio en progression, avec +8 % d'exploitations engagées en bio entre 2021 et 2023 (Agence Bio Normandie)"
+  ],
+  "vigilances": [
+    "Érosion des sols en hausse projetée avec l'intensification des épisodes pluvieux intenses d'ici 2060 (DRIAS 2023), particulièrement sur les versants du Perche et du Pays d'Auge",
+    "Contamination diffuse par les nitrates et les pesticides dans les zones de grandes cultures céréalières du Pays d'Alençon, avec risque de transfert vers les nappes alluviales (INRAE 2023)",
+    "Risque radon non négligeable sur les socles granitiques de l'Orne occidentale : environ 20 % du territoire en zone 3 IRSN, nécessitant une vigilance accrue dans les bâtiments résidentiels anciens"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~50",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "5,5 %",
+      "label": "SAU conduite en bio"
+    },
+    {
+      "valeur": "Zone 3 partielle",
+      "label": "Potentiel radon IRSN"
+    },
+    {
+      "valeur": "55 %",
+      "label": "SAU en prairies (permanentes + temporaires)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Qualité des sols agricoles 2023",
+    "IRSN – Cartographie du potentiel radon",
+    "Agence Bio – Chiffres Normandie 2023"
+  ],
+  "limites": [
+    "Absence de cartographie fine et actualisée de la contamination des sols agricoles ornais par les pesticides à l'échelle parcellaire, rendant l'évaluation des résidus partiellement extrapolée depuis des données régionales",
+    "Les données BASOL ne reflètent pas toujours l'état réel de dépollution des sites, certains dossiers n'étant pas mis à jour depuis plusieurs années pour l'Orne",
+    "La mesure de la SAU bio ne renseigne pas sur la qualité intrinsèque des pratiques agro-écologiques ou la régénération effective des sols dans les exploitations non certifiées"
+  ]
+}

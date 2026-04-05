@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne (52) affiche un score alimentaire de 6,0/10, reflet d'une agriculture dominée par les grandes cultures céréalières et l'élevage bovin extensif, qui couvrent respectivement environ 55 % et 30 % de la SAU départementale (Agreste 2023). Le département bénéficie de quelques signes d'identification de qualité, notamment le Chaource AOP en limite de territoire et le Miel de sapin des Vosges IGP, mais leur densité reste modeste comparée à d'autres départements (INAO 2024). La part de la SAU en agriculture biologique atteignait environ 5,8 % en 2022, légèrement en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023). L'autonomie alimentaire du territoire, mesurée via le zonage ZAVA 2024, révèle une dépendance structurelle aux filières longues pour les produits transformés, malgré un potentiel agronomique réel lié aux prairies permanentes. Le développement des circuits courts reste limité avec une vingtaine d'AMAP recensées, reflétant la faible densité de population du département (52 hab/km²).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.5,
+      "note": "Dépendance filières longues malgré bon potentiel céréalier et prairies"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques AOP/IGP présentes mais densité faible sur territoire rural"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.5,
+      "note": "Bio à 5,8% SAU, sous moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Circuits courts dynamiques relatifs à faible densité, vingtaine d'AMAP actives"
+    }
+  ],
+  "points_forts": [
+    "Potentiel élevage bovin significatif : environ 120 000 bovins recensés, soutenant une production laitière et carnée locale (Agreste 2022)",
+    "Présence de l'IGP Miel de sapin des Vosges et proximité du Chaource AOP, valorisant des productions de terroir (INAO 2024)",
+    "SAU importante représentant près de 60 % du territoire départemental, offrant une base productive solide pour l'autonomie alimentaire",
+    "Dynamique de conversion bio en progression (+1,2 point entre 2020 et 2022), portée par des exploitations en polyélevage (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Déprise agricole croissante : réduction du nombre d'exploitations de 25 % entre 2010 et 2020, fragilisant les circuits de proximité (Agreste recensement 2020)",
+    "Vulnérabilité climatique des grandes cultures : les projections DRIAS 2060 anticipent des déficits hydriques estivaux pouvant réduire les rendements céréaliers de 15 à 30 %",
+    "Faible diversification des productions locales et dépendance aux coopératives régionales éloignées, limitant la résilience alimentaire territoriale en cas de rupture logistique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "5,8 %",
+      "label": "SAU en agriculture biologique (2022)"
+    },
+    {
+      "valeur": "~120 000",
+      "label": "Bovins recensés (Agreste 2022)"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Part du territoire en SAU"
+    },
+    {
+      "valeur": "~20",
+      "label": "AMAP et points circuits courts actifs"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio 2023",
+    "INAO 2024 – Signes de qualité",
+    "Agreste recensement agricole 2020-2022",
+    "DRIAS 2060 – projections climatiques Grand Est"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire de la Haute-Marne restent agrégées à l'échelle régionale Grand Est, limitant la précision départementale",
+    "Le recensement des AMAP et circuits courts en milieu rural peu dense est sous-déclaré, conduisant probablement à une sous-estimation du score circuits courts",
+    "L'absence d'observatoire alimentaire territorial propre à la Haute-Marne rend difficile le suivi fin des flux alimentaires locaux et des taux d'auto-approvisionnement"
+  ]
+}

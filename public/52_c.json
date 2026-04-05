@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne (52), département rural et peu densément peuplé du plateau lorrain (altitude moyenne ~380 m), présente un profil climatique 2060 intermédiaire, légèrement protégé par son relief mais exposé à une hausse thermique significative. Selon les projections DRIAS 2023, le département devrait connaître une augmentation de température moyenne de +2,5 à +3,5°C d'ici 2060 selon les scénarios RCP4.5/8.5, avec un doublement probable des jours de canicule (dépassant 35°C). Le rapport Climadiag Commune (Météo-France, 2023) identifie une aggravation nette des sécheresses estivales sur l'ensemble du plateau de Langres, menaçant les nappes phréatiques déjà fragiles. Le risque d'inondation reste modéré mais non négligeable le long de la Marne, de l'Aube et de leurs affluents, avec des crues hivernales susceptibles de s'intensifier en fréquence selon les projections AP3C Grand Est. Le département bénéficie en revanche d'une exposition aux feux de forêt encore limitée comparativement au quart sud-est de la France, bien que les massifs forestiers (45 % de boisement) deviennent progressivement plus vulnérables selon l'IGN et le CNPF.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Altitude plateau de Langres (~380-470 m) amortit partiellement les pics thermiques"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+3,5°C projeté d'ici 2060 ; doublement jours caniculaires selon DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Massifs boisés croissants en vulnérabilité ; risque encore modéré vs Sud"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Inondations Marne/Aube récurrentes ; absence risque côtier, crues printanières"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne du plateau de Langres (~380-470 m) offre un tampon thermique naturel réduisant les pics de chaleur extrême de 1 à 2°C par rapport aux plaines (Météo-France/DRIAS 2023)",
+    "Faible densité de population (28 hab/km², INSEE 2022) limite fortement l'effet îlot de chaleur urbain et l'exposition humaine directe aux canicules",
+    "Risque feux de forêt encore classé modéré par Prométhée/CNPF, avec des essences majoritairement feuillues (chênes, hêtres) moins inflammables que les pinèdes méditerranéennes",
+    "Absence totale de vulnérabilité côtière et éloignement des zones de submersion marine, constituant un avantage structurel dans le comparatif national des 96 départements"
+  ],
+  "vigilances": [
+    "Projections DRIAS scénario RCP8.5 : jusqu'à +3,5°C d'ici 2060 et multiplication par 2,5 des nuits tropicales, menaçant les populations âgées (26 % de plus de 60 ans, INSEE 2022) peu équipées en climatisation",
+    "Sécheresses estivales récurrentes sur le plateau de Langres : baisse de recharge des nappes phréatiques anticipée de -10 à -25 % d'ici 2050 (Explore2/BRGM 2023), fragilisant l'alimentation en eau potable rurale",
+    "Vulnérabilité croissante des forêts haut-marnaises (45 % du territoire, IGN 2022) aux dépérissements liés aux stress hydriques combinés, avec risque d'incendie en hausse progressive selon les scénarios TRACC à horizon 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse thermique projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "470 m",
+      "label": "Altitude max plateau de Langres (tampon thermique)"
+    },
+    {
+      "valeur": "45 %",
+      "label": "Part boisée du département (IGN 2022)"
+    },
+    {
+      "valeur": "28 hab/km²",
+      "label": "Densité population (INSEE 2022)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 – Météo-France (projections climatiques RCP4.5/8.5)",
+    "Climadiag Commune – Météo-France 2023",
+    "Explore2/BRGM 2023 (ressources en eau à horizon 2050)",
+    "AP3C Grand Est – DRAAF/INRAE (adaptation agriculture et forêt)"
+  ],
+  "limites": [
+    "Les projections DRIAS à maille fine restent incertaines à l'échelle communale en Haute-Marne, département au relief hétérogène entre vallées encaissées et plateaux exposés différemment",
+    "L'absence de station météorologique de référence dense sur le plateau de Langres limite la robustesse des données historiques de températures extrêmes locales servant de base aux modèles",
+    "Le risque feux de forêt pour ce département est encore peu documenté dans les référentiels nationaux (Prométhée couvre principalement le Sud), rendant toute comparaison interdépartementale partiellement spéculative"
+  ]
+}

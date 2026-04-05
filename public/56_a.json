@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Morbihan affiche une qualité de l'air globalement satisfaisante, bénéficiant de sa façade atlantique et de vents dominants d'ouest qui dispersent efficacement les polluants atmosphériques. Les concentrations moyennes annuelles en PM2,5 se situent autour de 8-9 µg/m³ (ATMO Bretagne, 2023), en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ mais nettement inférieures à la moyenne nationale (~11 µg/m³). Les niveaux de NO₂ urbains restent modérés, avec des pics mesurés à Vannes et Lorient inférieurs à 20 µg/m³ en moyenne annuelle (ATMO Bretagne, 2023), loin du seuil réglementaire européen de 40 µg/m³. En revanche, l'agriculture intensive génère des émissions d'ammoniac (NH₃) significatives liées aux élevages porcins et avicoles, le Morbihan étant l'un des départements bretons les plus concernés par cette problématique (Citepa/ATMO Bretagne, 2022). L'absence de grand bassin industriel lourd constitue un atout structurel majeur pour la qualité de l'air départementale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~8-9 µg/m³, sous seuil national, au-dessus OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain Vannes/Lorient <20 µg/m³, bien sous seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Peu d'industries lourdes émettrices, tissu industriel léger et diffus"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole élevé, élevages porcins-avicoles intensifs omniprésents"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de France métropolitaine (~8-9 µg/m³), grâce aux flux maritimes atlantiques (ATMO Bretagne, 2023)",
+    "NO₂ urbain très en deçà des normes : Vannes et Lorient affichent des moyennes annuelles inférieures à 20 µg/m³ contre un seuil réglementaire de 40 µg/m³ (directive 2008/50/CE)",
+    "Absence de zones industrielles lourdes majeures (pas de pétrochimie, pas de sidérurgie), limitant les émissions de SO₂ et de COV industriels",
+    "Taux d'urbanisation modéré (densité ~72 hab/km²) réduisant la pression du trafic automobile et les émissions associées au chauffage collectif"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricole (NH₃) persistantes : le Morbihan contribue significativement aux dépôts azotés bretons, favorisant la formation de particules secondaires (PM2,5 issues de NH₄NO₃) en lien avec les élevages intensifs (Citepa, 2022)",
+    "Épisodes de pollution printanière aux particules (PM10/PM2,5) liés aux brûlages agricoles et à la combinaison NH₃/composés nitrés, susceptibles de s'intensifier avec le réchauffement climatique (DRIAS 2050)",
+    "Qualité de l'air intérieur et chauffage au bois : développement de l'usage des poêles à granulés et bois bûche en zone rurale morbihannaise, source croissante de PM2,5 et HAP, insuffisamment surveillée hors agglomérations"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8-9 µg/m³",
+      "label": "PM2,5 moyen annuel 2023"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "NO₂ urbain Vannes/Lorient"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "72 hab/km²",
+      "label": "Densité population Morbihan"
+    }
+  ],
+  "sources": [
+    "ATMO Bretagne – Bilan qualité de l'air 2023",
+    "OMS – Lignes directrices mondiales qualité de l'air 2021",
+    "Citepa – Inventaire des émissions NH₃ par département 2022",
+    "Directive européenne 2008/50/CE sur la qualité de l'air ambiant"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO Bretagne est principalement concentré sur Vannes et Lorient, laissant de larges zones rurales du Morbihan sans surveillance continue de la qualité de l'air",
+    "Les émissions diffuses de NH₃ agricoles sont estimées par modélisation et non mesurées directement, introduisant une incertitude significative sur les valeurs départementales",
+    "L'absence de station de mesure des HAP et des COV en zone périurbaine et rurale empêche une évaluation précise des impacts du chauffage au bois, en forte progression dans le département"
+  ]
+}

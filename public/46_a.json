@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot (46) affiche l'une des meilleures qualités de l'air en France métropolitaine, bénéficiant d'une très faible densité industrielle et d'un trafic routier limité. Les concentrations moyennes annuelles en PM2,5 sont estimées entre 7 et 9 µg/m³ selon ATMO Occitanie, soit nettement inférieures à la valeur guide OMS 2021 fixée à 5 µg/m³ mais parmi les plus basses de la région. Le NO₂ urbain demeure très contenu, Cahors enregistrant des niveaux inférieurs à 15 µg/m³ (seuil OMS : 10 µg/m³), loin des grandes agglomérations occitanes. Le principal enjeu identifié par ATMO Occitanie reste les émissions d'ammoniac (NH₃) issues de l'élevage bovin et ovin, secteur dominant dans l'économie agricole lotoise, contribuant à la formation de particules secondaires. Les épisodes de brûlage agricole et résidentiel constituent également un facteur de dégradation ponctuelle, notamment en hiver.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 entre 7-9 µg/m³, parmi les plus bas d'Occitanie"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ Cahors <15 µg/m³, trafic très faible, pas d'agglomération majeure"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 10,
+      "note": "Quasi-absence d'industrie lourde émettrice, tissu rural dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "NH₃ agricole élevé, élevage bovin-ovin intensif, particules secondaires"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses d'Occitanie, entre 7 et 9 µg/m³ en moyenne annuelle (ATMO Occitanie)",
+    "Absence quasi-totale d'industries lourdes émettrices (pas de site Seveso classé émetteur air majeur dans le département, source DREAL Occitanie)",
+    "NO₂ très faible sur Cahors et l'ensemble du département (<15 µg/m³), grâce à une densité de trafic réduite et l'absence d'autoroute à fort débit",
+    "Classement parmi les 10 meilleurs départements français sur la qualité de l'air, rang 8/96 global, reflétant un environnement rural bien préservé"
+  ],
+  "vigilances": [
+    "Les émissions de NH₃ agricoles, liées à l'élevage extensif bovin et ovin (plus de 130 000 UGB dans le Lot), contribuent à la formation de particules secondaires fines en conditions anticycloniques, risque accru avec intensification possible des élevages",
+    "Le chauffage au bois résidentiel représente la première source locale de PM2,5 et de HAP en hiver ; avec le vieillissement du parc d'appareils (>50 % d'appareils anciens estimés), des pics hivernaux locaux sont observés dans les vallées encaissées (Lot, Célé)",
+    "Le brûlage des résidus agricoles et forestiers, encore pratiqué dans certaines zones, peut générer des épisodes ponctuels de pollution aux particules et au monoxyde de carbone, pratique encadrée mais difficile à contrôler en milieu rural dispersé"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "7-9 µg/m³",
+      "label": "PM2,5 moyen annuel (ATMO Occitanie)"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ Cahors (vs seuil OMS 10 µg/m³)"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites industriels émetteurs air majeurs (DREAL)"
+    },
+    {
+      "valeur": "~130 000 UGB",
+      "label": "Cheptel bovin-ovin, source NH₃ principale"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air Lot 2022-2023",
+    "OMS Guidelines qualité de l'air 2021 (PM2,5 : 5 µg/m³, NO₂ : 10 µg/m³)",
+    "CITEPA – Inventaire national émissions NH₃ secteur agricole 2022",
+    "DREAL Occitanie – Registre des installations classées et émissions industrielles 2023"
+  ],
+  "limites": [
+    "Le Lot ne dispose pas de station de mesure permanente en zone rurale profonde ; les données ATMO reposent partiellement sur modélisation spatiale, avec une incertitude accrue sur les zones de vallées encaissées",
+    "Les émissions de NH₃ agricoles sont estimées par modèle (Inventaire CITEPA) et non mesurées in situ dans le département, limitant la précision du diagnostic local",
+    "L'absence de réseau de surveillance dense sur les HAP et les polluants organiques issus du chauffage bois ne permet pas une évaluation fine de l'exposition chronique des populations rurales dispersées"
+  ]
+}

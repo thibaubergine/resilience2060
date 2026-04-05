@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne affiche une performance alimentaire remarquable (8,0/10, rang estimé parmi les 25 premiers départements français), portée par une agriculture diversifiée et productive couvrant 302 000 ha de SAU (Agreste 2023). Le département compte plus de 15 signes officiels de qualité et d'origine (AOP/IGP/Label Rouge), incluant l'IGP Pruneaux d'Agen — première IGP fruitière française avec 55 000 tonnes/an — et l'IGP Ail blanc de Lomagne (INAO 2023). La part de la SAU conduite en agriculture biologique atteint environ 9,5 % (Agence Bio 2023), soit légèrement en dessous de la moyenne nationale (10,7 %), mais en progression de +18 % sur cinq ans. Les circuits courts sont dynamiques avec plus de 280 points de vente directe recensés et une trentaine d'AMAP actives (RnCOFCO/Réseau AMAP Nouvelle-Aquitaine 2023). L'autonomie alimentaire du territoire est soutenue par une production maraîchère et arboricole d'envergure nationale (premier département producteur de fraises et de pruneaux, ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Premier département fraise/pruneaux France ; forte diversification maraîchère-arboricole (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Plus de 15 AOP/IGP dont IGP Pruneaux d'Agen, référence nationale (INAO 2023)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "9,5 % SAU bio, progression +18 % sur 5 ans, légèrement sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "280+ points vente directe, ~30 AMAP actives en Lot-et-Garonne (RnCOFCO 2023)"
+    }
+  ],
+  "points_forts": [
+    "Premier département producteur national de pruneaux : IGP Pruneaux d'Agen représentant ~55 000 t/an et 15 000 emplois directs et indirects (INAO/CNPF 2023)",
+    "Diversité exceptionnelle des SIQO : 15+ signes (AOP, IGP, Label Rouge, AB) couvrant fruits, légumes, volailles et vins (INAO 2023)",
+    "Agriculture maraîchère et arboricole de premier plan : 1er département français pour la fraise (Gariguette), contribuant à l'autonomie alimentaire régionale et nationale (Agreste/ZAVA 2024)",
+    "Réseau de circuits courts dynamique avec plus de 280 points de vente directe et une trentaine d'AMAP, favorisant l'accessibilité alimentaire locale (Réseau AMAP Nouvelle-Aquitaine 2023)"
+  ],
+  "vigilances": [
+    "Vulnérabilité climatique des filières arboricoles et maraîchères : les projections DRIAS 2060 indiquent +2,5 °C et une hausse de la fréquence des gelées tardives printanières, menaçant directement la production de fraises et pruneaux",
+    "Dépendance aux intrants et aux pesticides : la forte spécialisation arboricole génère une pression phytosanitaire élevée (IFT moyen supérieur à la moyenne régionale, Agreste 2022), freinant la conversion bio et la qualité des sols",
+    "Tension sur la ressource en eau pour l'irrigation : 80 % des exploitations arboricoles et maraîchères sont irrigantes ; les projections Explore2 anticipent une baisse des débits estivaux de -20 à -40 % à horizon 2050, risquant de compromettre les rendements"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "55 000 t/an",
+      "label": "Production IGP Pruneaux d'Agen"
+    },
+    {
+      "valeur": "15+",
+      "label": "Signes SIQO (AOP/IGP/Label Rouge)"
+    },
+    {
+      "valeur": "9,5 %",
+      "label": "SAU conduite en agriculture biologique"
+    },
+    {
+      "valeur": "280+",
+      "label": "Points de vente en circuits courts"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio 2023",
+    "INAO 2023 (registre SIQO)",
+    "Agreste – Recensement agricole 2020-2023",
+    "Réseau AMAP Nouvelle-Aquitaine / RnCOFCO 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations modélisées ; l'absence de comptabilité territoriale alimentaire fine pour le 47 limite la précision du score",
+    "La part de SAU bio déclarée à l'Agence Bio peut inclure des exploitations en conversion (C1/C2), surestimant légèrement la surface réellement certifiée AB en Lot-et-Garonne",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires (RnCOFCO), induisant une sous-estimation probable des initiatives non référencées dans les zones rurales isolées du département"
+  ]
+}

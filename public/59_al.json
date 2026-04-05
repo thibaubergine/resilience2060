@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Nord (59) présente une situation alimentaire contrastée, bénéficiant d'une surface agricole utile (SAU) importante d'environ 388 000 ha représentant près de 60 % du territoire, mais fortement orientée vers les grandes cultures industrielles (betterave, pomme de terre, lin) peu favorables à l'autonomie alimentaire locale (ZAVA 2024). Avec seulement 2,8 % de sa SAU en agriculture biologique en 2023, le Nord se situe très en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023), traduisant la persistance d'un modèle agricole conventionnel intensif hérité de l'histoire industrielle et sucrière. Le département ne dispose que de très peu d'indications géographiques protégées à fort rayonnement : la Maroilles AOP et quelques IGP locaux représentent une densité de labels qualité nettement inférieure aux départements du sud de la France (INAO 2024). En revanche, la dynamique des circuits courts et des AMAP connaît un regain, avec près de 180 AMAP recensées dans les Hauts-de-France dont une proportion significative dans le Nord, portée par la densité urbaine de la métropole lilloise (Réseau AMAP Nord 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "SAU étendue mais dominée par cultures industrielles, faible autonomie locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 3.0,
+      "note": "Maroilles AOP et rares IGP, densité labels très faible comparée aux autres départements"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 2.0,
+      "note": "2,8 % SAU bio, très en dessous de la moyenne nationale de 10,7 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "180 AMAP Hauts-de-France, forte dynamique urbaine métropole lilloise"
+    }
+  ],
+  "points_forts": [
+    "Une SAU de 388 000 ha (~60 % du territoire) offrant un potentiel agricole structurant pour la transition alimentaire",
+    "La métropole lilloise (1,1 million d'habitants) génère une demande locale forte soutenant les circuits courts et AMAP, avec environ 180 structures actives dans la région (Réseau AMAP Hauts-de-France 2023)",
+    "Le Maroilles bénéficie d'une AOP reconnue, symbole d'un savoir-faire fromager local ancré dans les bocages de l'Avesnois",
+    "Des initiatives de planification alimentaire territoriale (PAT) émergent dans plusieurs EPCI du Nord, dont la MEL engagée dans un PAT reconnu niveau 2 par le MAA (2023)"
+  ],
+  "vigilances": [
+    "La dépendance aux grandes cultures d'exportation (betterave sucrière, pomme de terre industrielle) fragilise l'autonomie alimentaire locale face aux crises logistiques et climatiques à horizon 2040",
+    "La très faible part de SAU en bio (2,8 %) et le recours intensif aux intrants chimiques exposent les sols et les eaux à une contamination persistante, réduisant la qualité alimentaire produite localement",
+    "La pression foncière agricole en périphérie de la métropole lilloise menace l'espace cultivable dédié aux circuits courts, avec une artificialisation de 1 500 ha/an estimée en Hauts-de-France (DRAAF 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "388 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "2,8 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~180",
+      "label": "AMAP actives en Hauts-de-France"
+    },
+    {
+      "valeur": "1 AOP",
+      "label": "Labels qualité majeurs (Maroilles)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à vocation agricole et alimentaire)",
+    "Agence Bio – Observatoire national 2023",
+    "INAO – Registre AOP/IGP 2024",
+    "Réseau AMAP Hauts-de-France / MAA PAT 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour le Nord, département non prioritaire dans les premières vagues de cartographie fine de l'autonomie alimentaire",
+    "La mesure des circuits courts ne dispose pas d'un registre exhaustif départemental : les chiffres AMAP sont des estimations régionales difficilement ventilables à l'échelle du seul département Nord",
+    "L'indicateur \"densité AOP/IGP\" pénalise structurellement les départements du nord de la France, dont la tradition fromagère et viticole est historiquement moins développée que dans le Sud, sans refléter nécessairement la qualité intrinsèque des pratiques agricoles locales"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Manche bénéficie d'une qualité de l'air globalement favorable, portée par sa position littorale atlantique qui favorise un fort brassage des masses d'air et dilue les polluants. Les concentrations en PM2,5 restent inférieures à 10 µg/m³ en moyenne annuelle sur la majorité du territoire (ATMO Normandie, 2023), s'approchant des normes OMS 2021 (5 µg/m³) mieux que la plupart des départements continentaux. Le NO₂ demeure bas, sans grande agglomération émettrice, Cherbourg-en-Cotentin ne dépassant pas 15 µg/m³ en moyenne (ATMO Normandie, 2022). Le revers est l'agriculture intensive bocagère : la Manche figure parmi les départements normands les plus émetteurs d'ammoniac (NH₃), avec des flux liés aux élevages bovins et laitiers estimés à plus de 8 000 tonnes/an (Citepa, inventaire 2021), ce qui pèse sur le bilan aérien local.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 < 10 µg/m³, vent littoral limitant l'accumulation"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ faible, Cherbourg sous 15 µg/m³, pas de métropole dense"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle lourde, tissu PME et naval modéré"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ élevé, élevage bovin intensif, >8 000 t/an estimées"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air parmi les meilleures de Normandie grâce au vent marin dominant (vitesse moyenne ~5 m/s sur le littoral), assurant une dispersion efficace des polluants",
+    "Concentrations en PM2,5 inférieures à la valeur guide OMS intermédiaire (10 µg/m³) sur plus de 90 % du territoire (ATMO Normandie, 2023)",
+    "Absence de grande zone industrielle émettrice de SO₂ ou de COV lourds ; le tissu industriel reste dominé par des activités à faible impact atmosphérique",
+    "Faibles niveaux d'ozone troposphérique en zone littorale grâce à la réactivité photochimique limitée par les embruns et la nébulosité normande (ATMO Normandie, suivi réseau 2022)"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac agricoles (NH₃ > 8 000 t/an, Citepa 2021) contribuent à la formation de particules secondaires et à l'eutrophisation, avec un risque d'aggravation si la densité animale augmente",
+    "La centrale nucléaire de Flamanville (mise en service EPR attendue) et les activités de maintenance navale militaire à Cherbourg pourraient générer des émissions spécifiques (poussières métalliques, COV) à surveiller localement",
+    "Le développement du parc éolien offshore (Cotentin) et terrestre pourrait induire des trafics d'engins et émissions temporaires de particules lors des phases de construction, avec une pression croissante sur les zones rurales calmes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "~15 µg/m³",
+      "label": "Pic NO₂ Cherbourg (2022)"
+    },
+    {
+      "valeur": ">8 000 t/an",
+      "label": "Émissions NH₃ agricoles estimées"
+    },
+    {
+      "valeur": "7.0/10",
+      "label": "Score Air départemental (rang ~25/96)"
+    }
+  ],
+  "sources": [
+    "ATMO Normandie – Bilan qualité de l'air 2022-2023",
+    "Citepa – Inventaire national des émissions 2021 (NH₃, PM, NOx)",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Air Breizh / ATMO Normandie – Réseau de surveillance littorale"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est peu dense en zone rurale manchoise (stations concentrées sur Cherbourg et Saint-Lô), laissant des angles morts sur les émissions agricoles diffuses",
+    "L'absence de station de mesure NH₃ en continu sur le département contraint à des estimations modélisées, avec une incertitude significative sur les pics saisonniers (épandages printaniers)",
+    "Les données spécifiques à la Manche sont parfois agrégées à l'échelle normande dans les rapports ATMO, rendant difficile une comparaison interdépartementale fine et robuste"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Lot (46) bénéficie d'une ressource en eau globalement bien préservée, structurée autour du bassin versant de la Lot et de ses affluents (Célé, Vers, Truyère), avec une qualité des masses d'eau superficielles jugée majoritairement bonne à très bonne selon l'état des lieux DCE 2022 (Agence de l'Eau Adour-Garonne). La pression agricole reste modérée comparativement aux plaines céréalières du bassin parisien, avec des teneurs en nitrates inférieures à 25 mg/L sur la majorité des stations de mesure (ADES/BRGM 2023). Toutefois, les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la Lot pouvant atteindre -30 à -40% à l'horizon 2060 sous scénario intermédiaire, menaçant l'alimentation en eau potable de plusieurs communes rurales. Les analyses ARS 2022 confirment que 94% des abonnés lotois reçoivent une eau conforme aux paramètres microbiologiques et physico-chimiques, bien que quelques unités de distribution rurales présentent des non-conformités ponctuelles. La problématique des PFAS, révélée nationalement par les campagnes de screening 2023 (ANSES/DGS), reste peu documentée spécifiquement dans le Lot, constituant une incertitude analytique notable.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "94% conformité eau potable ; rares non-conformités unités rurales (ARS 2022)"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits étiage -30 à -40% horizon 2060 scénario intermédiaire (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Nitrates <25 mg/L majorité stations ; pression agricole modérée (ADES/BRGM)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Peu d'activités industrielles PFAS historiques ; données screening limitées"
+    }
+  ],
+  "points_forts": [
+    "Qualité des masses d'eau superficielles majoritairement bonne à très bonne selon l'état des lieux DCE 2022 (Agence de l'Eau Adour-Garonne)",
+    "Teneurs en nitrates inférieures à 25 mg/L sur la majorité des points de surveillance, parmi les plus faibles du grand Sud-Ouest (ADES/BRGM 2023)",
+    "Faible densité industrielle réduisant le risque de pollutions diffuses aux micropolluants et PFAS comparativement aux départements périurbains",
+    "Réseau hydrographique dense (rivière Lot, Célé, Vers) offrant une diversité de ressources superficielles et souterraines limitant la dépendance à une seule source"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de la rivière Lot de -30 à -40% à l'horizon 2060 (Explore2 2023), fragilisant l'alimentation en eau potable des communes rurales en période estivale",
+    "Vulnérabilité des petites unités de distribution rurales aux non-conformités microbiologiques ponctuelles, dans un département où 30% des communes comptent moins de 500 habitants (INSEE 2023)",
+    "Pression croissante des usages agricoles et touristiques (canoë, camping) sur les débits d'étiage du Célé et des affluents, en contexte de sécheresses répétées (2019, 2020, 2022, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Réduction étiage projetée 2060 (Explore2)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines (BRGM 2023)"
+    },
+    {
+      "valeur": "Bonne à TB",
+      "label": "Statut DCE masses d'eau superficielles"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Adour-Garonne – État des lieux DCE 2022",
+    "ARS Occitanie – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques 2023 (BRGM/INRAE)",
+    "ADES/BRGM – Base nationale piézométrie et nitrates 2023"
+  ],
+  "limites": [
+    "Absence de données publiques consolidées sur les PFAS dans les eaux brutes et distribuées du Lot, le screening national 2023 (ANSES) n'étant que partiellement publié à l'échelle départementale",
+    "Réseau de surveillance piézométrique peu dense dans les zones de causses (Quercy Blanc, Gramat), laissant des angles morts sur l'état des nappes karstiques locales",
+    "Les projections Explore2 restent associées à une incertitude élevée sur les aquifères karstiques lotois, dont le comportement hydrodynamique diffère significativement des modèles hydrologiques standards utilisés"
+  ]
+}

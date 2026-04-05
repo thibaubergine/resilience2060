@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne (52) affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une très faible densité urbaine (environ 28 hab/km²) et d'une industrie lourde peu développée, ce qui maintient les concentrations en NO₂ et PM2,5 parmi les plus basses du Grand Est (ATMO Grand Est, 2023). Les mesures des stations de surveillance indiquent des concentrations moyennes annuelles en PM2,5 inférieures à 10 µg/m³ dans la plupart des zones, proches du seuil OMS 2021 (5 µg/m³) mais bien en deçà de la valeur guide européenne (25 µg/m³). Cependant, la forte orientation agro-pastorale du département génère des émissions d'ammoniac (NH₃) significatives, la Haute-Marne figurant parmi les départements du Grand Est avec des flux NH₃ élevés liés à l'élevage bovin et aux épandages (Citepa/INVENTAIRE NATIONAL, 2022). Les épisodes de pollution aux particules fines restent ponctuels et associés principalement au chauffage au bois résidentiel en période hivernale, pratique répandue dans ce département forestier. Au regard du bilan national comparatif entre 96 départements, la Haute-Marne se positionne dans le tiers supérieur pour la qualité de l'air (rang estimé ~30/96), avec un score de 6,5/10.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 moyens <10 µg/m³, ruraux ; dépassement seuil OMS 5 µg/m³ modéré"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ très faible, absence agglomération dense, trafic routier limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Très peu d'industries émettrices, tissu industriel léger et dispersé"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ agricole élevé ; élevage bovin et épandages intensifs présents"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses du Grand Est, inférieures à 15 µg/m³ en moyenne annuelle (ATMO Grand Est, 2023), très en deçà du seuil OMS (10 µg/m³)",
+    "Absence de grande agglomération industrielle limitant les émissions de polluants primaires (SOx, NOx) ; pas de site SEVESO classé émetteur atmosphérique majeur (GéoRisques, 2024)",
+    "Couverture forestière importante (~35 % du territoire) contribuant à l'absorption du CO₂ et à la filtration des polluants atmosphériques locaux (IGN, inventaire forestier 2022)",
+    "Trafic routier faible, autoroutier concentré sur l'A31, générant des émissions de particules et NOx localisées et sans impact diffus sur l'ensemble du département"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac (NH₃) agricoles structurellement élevées liées à l'élevage bovin (Haute-Marne : ~15 000 UGB bovins) contribuant à la formation de PM2,5 secondaires ; tendance stable sans amélioration notable (Citepa, 2022)",
+    "Pollution hivernale aux particules fines (PM2,5 et PM10) liée au chauffage au bois résidentiel, pratique en progression dans ce département rural fortement boisé, pouvant générer des dépassements ponctuels en vallées encaissées",
+    "Risque de dégradation future de la qualité de l'air lié aux projets d'extension agricole et aux pratiques d'épandage non couvertes par des plans de gestion durable des azotes, dans un contexte de révision de la directive NEC à horizon 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Concentration moy. PM2,5 annuelle"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "Concentration moy. NO₂ annuelle"
+    },
+    {
+      "valeur": "~35 %",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "6.5/10",
+      "label": "Score Air départemental (rang ~30/96)"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions atmosphériques 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "IGN – Inventaire forestier national 2022"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est peu dense en Haute-Marne (territoire rural vaste, ~6 200 km²), ce qui peut sous-estimer les pics de pollution locaux, notamment en zones d'élevage intensif",
+    "Les données NH₃ reposent sur des modélisations nationales Citepa et non sur des mesures in situ départementales, introduisant une incertitude sur la répartition spatiale réelle des émissions agricoles",
+    "L'absence de station urbaine de référence dans une ville de taille significative (Chaumont : ~22 000 hab.) limite la comparabilité stricte avec d'autres départements disposant de réseaux de mesure plus étoffés"
+  ]
+}

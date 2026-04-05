@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne (51) présente une biodiversité contrastée, avec une forte dominance de grandes cultures céréalières et viticoles qui fragmentent considérablement les habitats naturels sur près de 70% de la superficie agricole utile du département (Agreste 2023). Le réseau Natura 2000 couvre environ 8,5% du territoire départemental, soit un niveau inférieur à la moyenne nationale de 12,7%, avec des sites emblématiques comme les marais de Saint-Gond et les coteaux calcaires champenois (INPN 2024). Le département dispose du Parc Naturel Régional de la Montagne de Reims, qui constitue un îlot de biodiversité forestière et viticole au sein d'une plaine agricole intensifiée, abritant notamment le bison d'Europe réintroduit (OFB 2024). Les corridors écologiques de la Trame Verte et Bleue sont fortement mis sous pression par l'agriculture intensive, avec une réduction documentée des populations d'oiseaux des plaines agricoles de près de 30% en 20 ans sur ce type de territoire (LPO/Stoc 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Natura 2000 couvre ~8,5% du territoire, sous la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Montagne de Reims présent ; absence de Parc National"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Bison réintroduit, coteaux calcaires riches ; pression agricole marquée"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par grandes cultures céréalières dominantes"
+    }
+  ],
+  "points_forts": [
+    "Le PNR de la Montagne de Reims protège ~68 000 ha de forêts, vignes et bocages, abritant une biodiversité remarquable (OFB 2024)",
+    "Les marais de Saint-Gond constituent une zone humide d'importance nationale, classée Natura 2000, refuge pour l'avifaune migratrice (INPN 2024)",
+    "Les coteaux crayeux champenois hébergent des pelouses calcicoles rares avec plus de 400 espèces végétales recensées (Conservatoire botanique CBNBP)",
+    "La réintroduction du bison d'Europe dans la forêt de Vouivre (PNR) représente un succès emblématique de restauration d'espèces (LPO/OFB 2023)"
+  ],
+  "vigilances": [
+    "L'intensification agricole sur la Champagne crayeuse entraîne une perte continue d'habitats ; déclin estimé de 28% des oiseaux des plaines en 20 ans (LPO/Stoc 2023)",
+    "Les zones humides du département sont menacées par drainage et artificialisation ; 30% des zones humides historiques ont disparu depuis 1950 (DREAL Grand Est)",
+    "Le changement climatique (scénario RCP 4.5, Climadiag 2060) risque d'assécher les mares et cours d'eau temporaires, appauvrissant les habitats amphibiens et aquatiques"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "68 000 ha",
+      "label": "Surface PNR Montagne de Reims"
+    },
+    {
+      "valeur": "400+",
+      "label": "Espèces végétales coteaux crayeux"
+    },
+    {
+      "valeur": "-28%",
+      "label": "Déclin oiseaux des plaines (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO / Stoc 2023",
+    "DREAL Grand Est / TVB",
+    "Conservatoire botanique CBNBP"
+  ],
+  "limites": [
+    "Les données sur les espèces sont partiellement issues d'inventaires non exhaustifs ; les zones agricoles intensives restent sous-prospectées dans la Marne",
+    "L'évaluation de l'état des corridors écologiques repose sur des modélisations TVB régionales dont la résolution reste insuffisante à l'échelle parcellaire",
+    "L'absence de Parc National et la faible densité de réserves naturelles nationales limitent la disponibilité de données de suivi standardisées et longitudinales"
+  ]
+}

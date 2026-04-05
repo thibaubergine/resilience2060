@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Oise présente une qualité de l'air dégradée, sous l'influence conjuguée d'une agriculture intensive émettrice d'ammoniac (NH₃) et d'une activité industrielle significative dans la vallée de l'Oise et autour de Compiègne-Creil. Les concentrations moyennes annuelles en PM2,5 dépassent régulièrement le seuil OMS 2021 de 5 µg/m³, oscillant entre 8 et 12 µg/m³ selon les stations de surveillance ATMO Hauts-de-France (2022-2023). Le NO₂ reste préoccupant dans les secteurs urbanisés de Creil et Compiègne, avec des pics liés au trafic de l'A1 et de l'axe ferroviaire Paris-Lille. Le département figure parmi les zones agricoles les plus émettrices de NH₃ en Hauts-de-France, l'élevage et les grandes cultures représentant une part majeure des 96 000 tonnes régionales déclarées au CITEPA (2022). L'épisode de pollution particulaire de mars 2023 a concerné l'ensemble du territoire oisien, confirmant une vulnérabilité structurelle aux phénomènes de transport transfrontalier de polluants depuis la Belgique et les Pays-Bas.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 8-12 µg/m³, nettement au-delà du seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ urbain modéré, axes Creil-Compiègne ponctuellement dépassant 30 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Présence industrielle notable : chimie, agroalimentaire, plasturgie dans le 60"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Émissions NH₃ élevées liées aux grandes cultures et élevages intensifs oisiens"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance ATMO Hauts-de-France actif avec plusieurs stations fixes dans l'Oise (Creil, Compiègne, Beauvais), permettant un suivi en temps réel",
+    "Tendance à la baisse du NO₂ de -18% entre 2015 et 2022 grâce à la rénovation du parc automobile (ATMO Hauts-de-France 2023)",
+    "Absence de zones de dépassement persistant des valeurs limites européennes en NO₂ annuel (40 µg/m³) sur l'ensemble du département",
+    "Part significative de l'Oise couverte par des espaces naturels (forêts de Compiègne, Halatte, Ermenonville) jouant un rôle de puits et de zone tampon"
+  ],
+  "vigilances": [
+    "Les concentrations en PM2,5 restent structurellement supérieures aux nouvelles normes OMS 2021 (5 µg/m³), sans perspective de conformité à court terme sans action sur les sources agricoles et industrielles",
+    "Les émissions agricoles de NH₃ participent à la formation de particules secondaires et pourraient stagner malgré la PAC 2023-2027, faute d'engagements contraignants sur les pratiques d'épandage dans le département",
+    "Le positionnement géographique de l'Oise sous les vents dominants d'ouest/nord-ouest expose le département aux importations de polluants transfrontaliers (ozone, PM2,5) en hausse avec les épisodes caniculaires projetés à l'horizon 2040-2060 (DRIAS 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-12 µg/m³",
+      "label": "Concentration PM2,5 annuelle (ATMO 2023)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 (PM2,5)"
+    },
+    {
+      "valeur": "-18%",
+      "label": "Baisse NO₂ départemental 2015-2022"
+    },
+    {
+      "valeur": "96 000 t",
+      "label": "Émissions NH₃ région Hauts-de-France (CITEPA 2022)"
+    }
+  ],
+  "sources": [
+    "ATMO Hauts-de-France – Bilan qualité de l'air 2022-2023",
+    "CITEPA – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DRIAS – Projections climatiques régionales 2023"
+  ],
+  "limites": [
+    "Le nombre limité de stations de mesure fixes dans l'Oise (principalement urbaines) sous-représente l'exposition des populations rurales aux polluants agricoles (NH₃, pesticides)",
+    "Les données CITEPA sont agrégées à l'échelle régionale, rendant difficile la désagrégation précise des émissions à l'échelle du seul département de l'Oise",
+    "L'absence de surveillance systématique des polluants émergents (particules ultrafines, PFAS atmosphériques) constitue un angle mort dans l'évaluation de la qualité de l'air oisienne"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot (46) bénéficie d'une position géographique de plateau caussenard (altitude moyenne ~350 m) qui lui confère un tampon thermique modéré face aux vagues de chaleur, contrairement aux plaines du Bas-Quercy plus exposées. Selon les projections DRIAS 2023 (scénario RCP8.5), le département connaîtra une augmentation de +2,5 à +3,5°C d'ici 2060 et jusqu'à 30 jours supplémentaires de canicule annuelle, pesant sur les activités agricoles et touristiques du Parc Naturel Régional des Causses du Quercy. Le risque feux de forêt progresse significativement : la surface potentiellement sensible aux incendies pourrait s'étendre de 15 à 20 % d'ici 2050 selon Climadiag (2022), notamment dans les zones de pins sylvestres et chênes pubescents. En l'absence de façade maritime, le Lot échappe aux risques côtiers, mais les vallées du Lot et du Célé concentrent une vulnérabilité aux crues torrentielles (PPRI actifs sur 42 communes selon GéoRisques 2024), nuançant un bilan climatique globalement favorable à l'échelle nationale.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Plateaux caussenards à ~350 m offrent tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "+30 jours canicule projetés d'ici 2060 (DRIAS RCP8.5)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant, forêts de pins et chênes pubescents vulnérables"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Pas de façade littorale ; crues vallées Lot/Célé localisées"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne des Causses (~300-500 m) limitant les pics thermiques extrêmes comparativement aux plaines aquitaines",
+    "Absence totale de vulnérabilité côtière, écartant tout risque de submersion marine (Climadiag 2022)",
+    "Taux de boisement de 46 % avec dominance de feuillus (chênes) plus résistants au stress hydrique que les résineux",
+    "Réseau hydrographique dense (rivières Lot, Célé, Vers) maintenant des îlots de fraîcheur locaux favorables à la résilience écologique"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +2,5 à +3,5°C d'ici 2060 (DRIAS/RCP8.5) menaçant les cultures de noix AOP et de melon du Quercy",
+    "Extension du risque incendie : surfaces combustibles potentiellement en hausse de 15-20 % à l'horizon 2050 (Climadiag 2022), avec déficit hydrique estival croissant",
+    "Intensification des épisodes cévenols et crues soudaines dans les vallées encaissées, 42 communes sous PPRI actif (GéoRisques 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse temp. projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "~350 m",
+      "label": "Altitude moyenne département"
+    },
+    {
+      "valeur": "+30 j",
+      "label": "Jours canicule supplémentaires/an 2060"
+    },
+    {
+      "valeur": "42",
+      "label": "Communes en PPRI (vallées Lot/Célé)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 (scénarios RCP4.5/8.5)",
+    "Climadiag Communes – Météo-France 2022",
+    "GéoRisques / PPRI DREAL Occitanie 2024",
+    "AP3C / TRACC – Ministère Transition Écologique 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent des disparités internes fortes entre fonds de vallées (Figeac, Cahors) et plateaux caussenards",
+    "L'indice de risque feux repose sur des modèles forestiers nationaux peu calibrés pour les paysages agropastoraux mixtes des Causses du Lot",
+    "L'absence de station météorologique de référence dense sur les Causses limite la fiabilité des données de températures locales historiques servant de base aux projections"
+  ]
+}

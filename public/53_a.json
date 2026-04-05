@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53) présente une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle qui limite les émissions de polluants primaires. Les concentrations moyennes annuelles en PM2,5 restent inférieures à 10 µg/m³ sur la majorité du territoire, proches du seuil OMS 2021 de 5 µg/m³ mais nettement sous le plafond réglementaire européen (ATMO Pays de la Loire, 2023). Le NO₂ urbain demeure peu préoccupant, Laval affichant des concentrations bien en-deçà des 40 µg/m³ de la directive européenne, reflet d'un trafic routier modéré. Toutefois, la forte orientation agro-pastorale du département génère des émissions d'ammoniac (NH₃) significatives, plaçant la Mayenne parmi les départements les plus émetteurs de la région Pays de la Loire, avec une contribution notable aux dépôts azotés (Citepa, 2022). La qualité de l'air intérieure et les épisodes de particules liés aux pratiques agricoles (épandages, brûlage) constituent des points de vigilance récurrents recensés par ATMO Pays de la Loire.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 sous 10 µg/m³, territoire rural limitant les émissions primaires"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ faible à Laval, trafic modéré, pas de zone fortement congestionnée"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries lourdes émettrices, tissu industriel diffus et modeste"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ agricole élevé, élevage intensif bovin-porcin dominant le territoire"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures à 20 µg/m³ en moyenne annuelle sur Laval, bien sous le seuil OMS de 10 µg/m³ (ATMO Pays de la Loire, 2023)",
+    "Absence de grande agglomération industrielle réduisant structurellement les émissions de polluants atmosphériques primaires (PM, SO₂)",
+    "Qualité de l'air extérieur classée \"bonne\" ou \"très bonne\" plus de 85 % des jours de l'année selon l'indice ATMO régional (2022-2023)",
+    "Faible densité de sites industriels classés ICPE à émissions atmosphériques significatives comparé à la moyenne nationale"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricoles parmi les plus élevées des Pays de la Loire (~12 000 à 15 000 t NH₃/an estimées), contribuant à la formation de particules secondaires (PM2,5) et aux dépôts azotés sur les écosystèmes (Citepa, 2022)",
+    "Épisodes saisonniers de particules liés aux épandages printaniers et aux pratiques d'écobuage, pouvant dégrader ponctuellement l'indice ATMO local",
+    "Risque de renforcement des épisodes de pollution à l'ozone (O₃) en été avec le changement climatique, la Mayenne n'étant pas épargnée par les projections de hausse des pics d'ozone d'ici 2040-2060 (DRIAS, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Concentration moyenne PM2,5"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "Concentration moyenne NO₂ Laval"
+    },
+    {
+      "valeur": "~85 %",
+      "label": "Jours qualité air \"bonne\" (ATMO)"
+    },
+    {
+      "valeur": "~12 000 t/an",
+      "label": "Émissions NH₃ agricoles estimées"
+    }
+  ],
+  "sources": [
+    "ATMO Pays de la Loire – Bilan qualité de l'air 2022-2023",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DRIAS – Projections climatiques et qualité de l'air 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO reste peu dense en Mayenne (territoire rural), limitant la représentativité spatiale des données de qualité de l'air",
+    "Les émissions NH₃ agricoles sont estimées par modélisation à l'échelle nationale et manquent de granularité départementale précise pour la Mayenne",
+    "L'absence de données longues séries spécifiques à la Mayenne sur les PM2,5 secondaires (formation à partir de NH₃) rend difficile l'évaluation fine de l'impact sanitaire agricole local"
+  ]
+}

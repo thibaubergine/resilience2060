@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Manche bénéficie d'un climat océanique tempéré particulièrement régulateur, avec des températures moyennes annuelles autour de 11-12°C et des amplitudes thermiques faibles grâce à l'influence maritime de la Manche et de l'Atlantique (Climadiag 2023). Selon les projections DRIAS 2022, le département devrait connaître une hausse de température de +1,6 à +2,4°C à l'horizon 2060 selon le scénario RCP4.5, restant parmi les hausses les plus modérées de France métropolitaine. Le nombre de jours de canicule projeté reste inférieur à 5-8 jours/an en 2060 (scénario intermédiaire), contre 15 à 30 jours pour les départements méditerranéens et continentaux (TRACC 2023). En revanche, la Manche présente une vulnérabilité côtière notable avec 350 km de littoral exposés à l'érosion et à la submersion marine, la montée du niveau de la mer étant estimée entre +20 et +60 cm à l'horizon 2100 (GIEC/AP3C Normandie). Le risque de feux de forêt demeure très faible en raison du couvert végétal humide et de la faible proportion boisée (18% de taux de boisement, IGN 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude bocagère et façade maritime assurent tampon thermique efficace"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 8.0,
+      "note": "Moins de 8 jours de canicule projetés en 2060, scénario intermédiaire"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 9.0,
+      "note": "Taux boisement 18%, végétation humide, risque feux quasi nul"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "350 km de littoral exposés, érosion et submersion marine croissantes"
+    }
+  ],
+  "points_forts": [
+    "Amplitude thermique parmi les plus faibles de France : écart été/hiver inférieur à 12°C grâce à l'influence maritime (Climadiag 2023)",
+    "Moins de 8 jours de canicule annuels projetés à 2060 (scénario RCP4.5, DRIAS 2022), contre 30+ jours dans le Sud-Est",
+    "Risque feux de forêt quasi nul : végétation naturellement humide et couvert bocager dominant sur 60% du territoire (IGN 2022)",
+    "Hausse thermique projetée parmi les plus modérées du pays (+1,6°C à +2,4°C à 2060, AP3C Normandie)"
+  ],
+  "vigilances": [
+    "Érosion côtière accélérée : recul moyen de 0,3 à 1,5 m/an sur certaines falaises et plages, aggravé par la montée du niveau marin (+20 à +60 cm d'ici 2100, GIEC/AP3C)",
+    "Augmentation des précipitations intenses hivernales et risque d'inondations fluviales en hausse sur les bassins de la Vire et de la Sélune (Explore2 2023)",
+    "Dépendance agricole élevée (67% de SAU) : le système d'élevage herbager pourrait être fragilisé par la variabilité accrue des précipitations printanières (TRACC 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,0°C",
+      "label": "Hausse T° moyenne projetée 2060"
+    },
+    {
+      "valeur": "<8 j/an",
+      "label": "Jours de canicule projetés 2060"
+    },
+    {
+      "valeur": "350 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "18%",
+      "label": "Taux de boisement départemental"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2022 – scénarios RCP4.5/8.5",
+    "AP3C Normandie – Adaptation au changement climatique",
+    "GIEC AR6 2021 – montée du niveau marin"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent des disparités locales entre le littoral Cotentin (effet maritime fort) et les terres intérieures plus continentalisées",
+    "L'absence d'observatoire départemental unifié du trait de côte limite la précision des données d'érosion à fine échelle pour la Manche",
+    "Les scénarios Climadiag ne modélisent pas les effets cumulés des tempêtes hivernales et de la submersion marine, particulièrement prégnants sur ce territoire"
+  ]
+}

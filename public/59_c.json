@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Nord (59), avec son altitude quasi nulle (point culminant à 270 m, Climadiag 2023) et sa position littorale sur la mer du Nord, présente une vulnérabilité climatique 2060 préoccupante malgré un risque incendie quasi inexistant. Les projections DRIAS 2023 indiquent une augmentation de +2,1°C à +3,4°C d'ici 2060 selon les scénarios SSP2-4.5 et SSP5-8.5, avec un doublement probable des jours de vague de chaleur (de 4 à 9 jours/an en moyenne). Le littoral dunkerquois et la plaine maritime flamande sont exposés à une élévation du niveau de la mer estimée entre +30 et +80 cm d'ici 2100 (IPCC AR6), menaçant directement les polders et zones de wateringues (120 000 ha sous le niveau de la mer, AP3C Hauts-de-France). Les épisodes de submersion marine et les inondations fluviales récurrentes (Lys, Scarpe, Escaut) touchent régulièrement plus de 900 000 habitants en zone potentiellement inondable (TRACC 2023, Géorisques). La faible altitude générale du département (<50 m pour 75 % du territoire) supprime tout effet tampon thermique naturel face aux projections climatiques (DRIAS/Météo-France).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude maximale 270 m, plaine dominante, tampon thermique faible"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "Doublement jours canicule projeté, densité urbaine aggravante (2650 hab/km²)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 9.0,
+      "note": "Couverture forestière inférieure à 8 %, risque feux quasi nul"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 1,
+      "note": "120 000 ha sous niveau mer, 900 000 habitants en zone inondable"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt quasi inexistant : couverture boisée < 8 % du territoire (IFN/IGN 2022), parmi les plus faibles de France",
+    "Réseau de wateringues historique (120 000 ha gérés), patrimoine hydraulique de gestion des crues actif depuis le Moyen-Âge (GEMAPI Nord)",
+    "Températures estivales encore modérées : moyenne juillet à 19°C à Lille (Météo-France, normale 1991-2020), l'une des plus basses des grandes métropoles",
+    "Plan Littoral dunkerquois et PAPI (Programme d'Actions de Prévention des Inondations) actifs, avec 6 PAPI approuvés dans le département (DREAL Hauts-de-France 2023)"
+  ],
+  "vigilances": [
+    "Submersion marine progressive : le niveau de la mer du Nord pourrait monter de +60 cm d'ici 2100 (scénario médian IPCC AR6), menaçant directement Dunkerque, Grande-Synthe et la plaine maritime flamande",
+    "Intensification des inondations fluviales : la fréquence des crues centennales de la Lys et de l'Escaut pourrait doubler d'ici 2060 selon les projections Explore2/TRACC, aggravée par l'imperméabilisation (50 % de sols artificialisés en zone urbaine)",
+    "Îlot de chaleur urbain amplifié : la métropole lilloise (1,2 million d'hab.) affiche un différentiel thermique urban/rural de +3°C à +5°C en canicule (Météo-France/ADEME 2022), avec projections de 20 à 30 jours de vague de chaleur/an à horizon 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "270 m",
+      "label": "Altitude maximale (point culminant)"
+    },
+    {
+      "valeur": "120 000 ha",
+      "label": "Surface sous le niveau de la mer (wateringues)"
+    },
+    {
+      "valeur": "+2,1 à +3,4°C",
+      "label": "Hausse température projetée 2060 (DRIAS)"
+    },
+    {
+      "valeur": "900 000",
+      "label": "Habitants en zone inondable potentielle"
+    }
+  ],
+  "sources": [
+    "DRIAS / Météo-France 2023 (Climadiag)",
+    "TRACC / DGPR 2023 (zones inondables)",
+    "IPCC AR6 2021 (élévation niveau mer)",
+    "AP3C Hauts-de-France / GEMAPI Nord (wateringues)"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale restent incertaines pour les phénomènes locaux (submersion côtière dunkerquoise vs. inondations intérieures de la Scarpe), nécessitant des modèles hydrodynamiques à fine résolution encore en développement",
+    "L'effet combiné densité urbaine / vieillissement de la population (Nord : 23 % de moins de 20 ans mais aussi forte pauvreté, taux pauvreté 20,2 % INSEE 2022) sur la vulnérabilité aux canicules est sous-quantifié dans les indicateurs nationaux standardisés",
+    "La gestion des wateringues, essentielle à la résilience du territoire, dépend de financements GEMAPI dont la pérennité à l'horizon 2060 n'est pas garantie, créant une incertitude sur la capacité d'adaptation réelle du système hydraulique historique"
+  ]
+}

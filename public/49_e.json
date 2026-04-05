@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire dispose d'un réseau hydrographique dense articulé autour de la Loire, de la Maine et de leurs affluents (Layon, Authion, Sarthe, Mayenne), couvrant près de 7 000 km de cours d'eau (AELB, 2023). La qualité de l'eau potable distribuée est globalement satisfaisante, avec 94,5 % de la population alimentée par une eau conforme aux paramètres bactériologiques et physicochimiques (ARS Pays de la Loire, 2022), bien que certaines unités de distribution rurales présentent des dépassements récurrents en pesticides. Les projections Explore2 (2023) indiquent une baisse médiane des débits annuels des cours d'eau de 10 à 25 % à l'horizon 2050-2070, menaçant l'alimentation en eau potable de plusieurs captages stratégiques et aggravant les étiages sévères déjà observés sur la Loire. La contamination par les nitrates reste une problématique structurelle dans les secteurs agricoles intensifs du Saumurois et de la plaine de l'Authion, avec plusieurs masses d'eau souterraines en mauvais état chimique au titre de la DCE (état des lieux 2022, Agence de l'Eau Loire-Bretagne). La présence de PFAS est documentée dans plusieurs captages et cours d'eau du département, notamment en lien avec d'anciens usages industriels et l'utilisation de mousses anti-incendie (ANSES/ARS, 2023-2024).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "94,5 % eau conforme; dépassements pesticides sur captages ruraux persistants"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse débits 10-25 % horizon 2060; étiages Loire aggravés (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates élevés Authion et Saumurois; plusieurs masses d'eau en mauvais état chimique"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement; concentrations restant sous seuils sanitaires actuels"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable élevé : 94,5 % des analyses bactériologiques conformes en 2022 (ARS Pays de la Loire)",
+    "Réseau hydrographique dense et diversifié (Loire, Maine, Sarthe, Mayenne, Layon) assurant une ressource en eau structurellement abondante en période normale (AELB)",
+    "Engagement fort dans les contrats territoriaux eau (CTE) et les démarches de reconquête de la qualité des captages prioritaires Grenelle, dont plusieurs en cours de réhabilitation",
+    "Bonne couverture du territoire par des stations d'épuration aux normes, avec 90 % des stations conformes en performance épuratoire (MTES/OFB, 2022)"
+  ],
+  "vigilances": [
+    "Stress hydrique structurel amplifié : Explore2 (2023) projette une réduction de 15 à 30 % des débits d'étiage de la Loire d'ici 2070, menaçant alimentation AEP et refroidissement industriel",
+    "Contamination diffuse aux pesticides persistante sur captages agricoles : plusieurs UDI rurales sous surveillance renforcée pour atrazine-déséthyl et métolachlore-ESA (ARS 2022)",
+    "Expansion des zones vulnérables nitrates insuffisamment contrôlée dans la plaine alluviale de l'Authion, secteur maraîcher intensif à fort lessivage hivernal"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94,5 %",
+      "label": "Conformité eau potable (bactério.)"
+    },
+    {
+      "valeur": "-10 à -25 %",
+      "label": "Baisse débits prévue à 2060 (Explore2)"
+    },
+    {
+      "valeur": "7 000 km",
+      "label": "Linéaire cours d'eau département"
+    },
+    {
+      "valeur": "~60 %",
+      "label": "Masses d'eau en bon état DCE (2022)"
+    }
+  ],
+  "sources": [
+    "ARS Pays de la Loire – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques 2023 (BRGM/OFB)",
+    "Agence de l'Eau Loire-Bretagne – État des lieux DCE 2022",
+    "ANSES/ARS – Campagnes PFAS captages AEP 2023-2024"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages du Maine-et-Loire restent parcellaires, les campagnes de mesure systématiques étant en cours de déploiement à l'échelle nationale (seuils réglementaires européens applicables fin 2026)",
+    "L'état écologique et chimique des masses d'eau souterraines est évalué par cycles de 6 ans (DCE), ce qui peut masquer des dégradations récentes liées à l'évolution des pratiques agricoles locales",
+    "Les projections Explore2 présentent une incertitude significative à l'échelle infra-départementale, notamment pour les petits bassins versants du Layon et du Louet, peu instrumentés"
+  ]
+}

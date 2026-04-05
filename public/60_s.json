@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Oise présente une situation préoccupante pour la qualité de ses sols, reflet d'une agriculture intensive dominée par les grandes cultures céréalières et betteravières sur ses limons fertiles du Bassin parisien. Le département recense plus de 180 sites pollués ou en cours de traitement recensés dans la base de données ex-BASOL (GéoRisques 2023), héritage d'un passé industriel dense notamment autour de Creil, Nogent-sur-Oise et Compiègne. Les résidus de pesticides dans les sols agricoles y sont particulièrement élevés, l'Oise figurant parmi les départements à pression phytosanitaire forte selon les données INRAE 2023, avec une utilisation d'herbicides et fongicides parmi les plus intenses de la région Hauts-de-France. Le risque radon reste modéré à faible sur la majeure partie du territoire, les terrains sédimentaires calcaires et limoneux étant peu émissifs (IRSN). La part de la surface agricole utile en agriculture biologique ne dépasse pas 2,8 % en 2023 (Agence Bio), soit l'un des taux les plus bas de France métropolitaine, témoignant de la difficile transition agroécologique dans ce bassin de grande culture.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Plus de 180 sites BASOL recensés, héritage industriel Creil-Compiègne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Pression phytosanitaire très élevée, grandes cultures céréalières et betteravières"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Terrains sédimentaires limoneux peu émissifs, risque radon faible"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 4.0,
+      "note": "SAU bio < 2,8 %, parmi les plus faibles taux nationaux"
+    }
+  ],
+  "points_forts": [
+    "Risque radon naturellement faible grâce aux substrats limoneux et calcaires couvrant ~85 % du territoire (IRSN)",
+    "Sols limoneux à très haute valeur agronomique, parmi les plus fertiles de France (référentiel pédologique INRAE)",
+    "Efforts de dépollution engagés sur plusieurs sites industriels de la vallée de l'Oise, avec plans de gestion actifs (GéoRisques 2023)",
+    "Présence de zones de captage prioritaires favorisant quelques bonnes pratiques agricoles localisées (Agence de l'eau Seine-Normandie)"
+  ],
+  "vigilances": [
+    "Contamination aux métabolites de pesticides (chlorothalonil, S-métolachlore) détectée dans les sols et eaux souterraines de plusieurs bassins versants, avec tendance à la persistance projetée (INRAE 2023)",
+    "Imperméabilisation et artificialisation des sols en hausse : +1 200 ha artificialisés entre 2019 et 2023, pression périurbaine forte autour de l'axe Paris-Amiens (Cerema/MTE)",
+    "Pollution résiduelle aux métaux lourds (plomb, zinc, HAP) sur les friches industrielles de Creil et Montataire non entièrement réhabilitées, avec risques de transfert vers les eaux souterraines (GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "180+",
+      "label": "Sites pollués ex-BASOL (2023)"
+    },
+    {
+      "valeur": "2,8 %",
+      "label": "Part SAU en bio (2023)"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Niveau risque radon IRSN"
+    },
+    {
+      "valeur": "~1 200 ha",
+      "label": "Artificialisation 2019-2023"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie fine et systématique des teneurs en pesticides des sols agricoles de l'Oise rend difficile toute évaluation parcellaire précise",
+    "Les données ex-BASOL sous-estiment probablement le nombre réel de sites contaminés car limitées aux sites connus et déclarés",
+    "La SAU bio est une donnée agrégée qui masque de fortes disparités territoriales entre le Pays de Bray (plus favorable) et le Valois ou le Santerre (quasi-nuls)"
+  ]
+}

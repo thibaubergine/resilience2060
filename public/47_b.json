@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne présente une biodiversité remarquable portée par la confluence Lot-Garonne-Dordogne, formant un réseau hydrographique classé parmi les plus riches du Sud-Ouest en espèces aquatiques (INPN 2024). Le département compte environ 18% de sa surface couverte par des zones Natura 2000, incluant des habitats alluviaux prioritaires à haute valeur écologique (OFB 2024). La LPO Lot-et-Garonne recense plus de 280 espèces d'oiseaux nicheurs ou de passage, dont le Milan royal et la Cigogne blanche en effectifs significatifs, témoignant d'une avifaune diversifiée. Les continuités écologiques (TVB) bénéficient d'un maillage de haies et de ripisylves encore fonctionnel, bien que soumis à la pression de l'intensification agricole dominante (SRCE Nouvelle-Aquitaine 2015). L'enjeu majeur reste la préservation des zones humides alluviales, estimées à plus de 25 000 ha, dont une partie significative est menacée par les conflits d'usage liés à l'agriculture irriguée.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "18% surface Natura 2000; habitats alluviaux et forestiers bien représentés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Périgord-Limousin en bordure; réserves naturelles locales limitées"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "280+ espèces oiseaux; loutre, vison d'Europe, cistude bien présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Réseau Lot-Garonne-Dordogne; ripisylves et haies bocagères fonctionnelles"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique exceptionnel (Garonne, Lot, Dordogne, Baïse) abritant la loutre d'Europe et la cistude, espèces bio-indicatrices de qualité écologique (INPN 2024)",
+    "Plus de 280 espèces d'oiseaux recensées dont le Martin-pêcheur et la Cigogne blanche, témoignant de la richesse des milieux humides (LPO 47)",
+    "Environ 18% du territoire classé en Natura 2000, couvrant notamment les forêts alluviales à aulnes et frênes (habitats prioritaires Directive Habitats)",
+    "Présence du Vison d'Europe (Mustela lutreola), espèce en danger critique, dont le Lot-et-Garonne constitue l'un des derniers bastions nationaux (OFB 2024)"
+  ],
+  "vigilances": [
+    "Régression des zones humides alluviales estimée à -30% en 50 ans en plaine garonnaise, menaçant les habitats d'espèces à fort enjeu patrimonial (INRAE 2023)",
+    "Intensification agricole (arboriculture, maïsiculture irriguée) entraînant une fragmentation progressive des corridors écologiques et une réduction du bocage (SRCE NA 2015)",
+    "Espèces exotiques envahissantes (Jussie, Renouée du Japon, Ragondin) en progression marquée dans les milieux aquatiques et rivulaires, affectant la biodiversité indigène (OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18%",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "280+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "25 000 ha",
+      "label": "Zones humides alluviales"
+    },
+    {
+      "valeur": "~5",
+      "label": "Sites RNN/RNR présents"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Lot-et-Garonne – Atlas ornithologique",
+    "SRCE Nouvelle-Aquitaine 2015"
+  ],
+  "limites": [
+    "Les données de suivi des populations de Vison d'Europe restent fragmentaires et peu actualisées à l'échelle départementale, rendant l'évaluation de tendance incertaine",
+    "L'état réel des continuités écologiques (TVB) n'est pas cartographié finement à l'échelle parcellaire en Lot-et-Garonne, limitant l'appréciation précise des ruptures de corridors",
+    "Les inventaires floristiques et entomologiques (insectes pollinisateurs notamment) sont insuffisamment couverts hors zones Natura 2000, créant des angles morts dans l'évaluation globale de la biodiversité départementale"
+  ]
+}

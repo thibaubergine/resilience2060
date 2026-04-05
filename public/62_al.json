@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Pas-de-Calais est l'un des premiers départements agricoles français avec 575 000 ha de SAU (environ 72 % du territoire), dominés par les grandes cultures céréalières et betteravières (Agreste 2023), mais cette vocation productive intensive contraste avec une faible diversification vers les systèmes durables. La part de SAU en agriculture biologique ne dépasse pas 2,1 % (Agence Bio 2023), très en deçà de la moyenne nationale de 10,7 %, révélant un retard structurel persistant. Le département compte peu d'indications géographiques protégées à forte valeur identitaire, la Maroilles et l'Ail fumé de Arleux constituant les rares produits emblématiques (INAO 2024), limitant la valorisation territoriale de la production. Les circuits courts et AMAP restent peu développés malgré une pression urbaine littorale et métropolitaine (Lens-Béthune-Calais), avec moins de 45 AMAP recensées sur l'ensemble du département (Réseau AMAP Nord 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Grande SAU mais dépendance aux intrants et exportations céréalières dominantes"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Rares AOP/IGP : Maroilles, Ail d'Arleux, faible densité territoriale"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 3.0,
+      "note": "2,1 % SAU bio, très inférieur à moyenne nationale de 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 5.0,
+      "note": "Circuits courts en développement modéré, moins de 45 AMAP recensées"
+    }
+  ],
+  "points_forts": [
+    "Première SAU départementale des Hauts-de-France avec ~575 000 ha, garantissant une capacité productive élevée (Agreste 2023)",
+    "Production de pommes de terre de consommation significative : le 62 est l'un des 3 premiers départements producteurs nationaux, avec ~800 000 t/an",
+    "Présence de l'IGP Ail fumé d'Arleux, produit patrimonial unique à forte notoriété nationale (INAO 2024)",
+    "Dynamique de diversification maraîchère en zone périurbaine (Lens, Calais) portée par les PAT (Projets Alimentaires Territoriaux) en cours de déploiement"
+  ],
+  "vigilances": [
+    "Dépendance aux monocultures betterave/céréales vulnérabilisant la résilience alimentaire face aux aléas climatiques projetés (hausse des sécheresses estivales d'ici 2050, Climadiag 2024)",
+    "Taux de bio à 2,1 % très éloigné de l'objectif national 18 % en 2027 (Plan Ambition Bio), risque de décrochage structurel du territoire",
+    "Contamination résiduelle des sols agricoles aux pesticides et métaux lourds (héritage minier et industriel), affectant la qualité des productions locales (INRAE/GéoRisques 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "72 %",
+      "label": "Part du territoire en SAU"
+    },
+    {
+      "valeur": "2,1 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~45",
+      "label": "AMAP recensées dans le département"
+    },
+    {
+      "valeur": "3",
+      "label": "Produits AOP/IGP identifiés (INAO)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques régionales agriculture biologique",
+    "INAO 2024 – Registre AOP/IGP France",
+    "Agreste Hauts-de-France 2023 – Recensement agricole",
+    "Réseau AMAP Nord / RnPAT – Projets Alimentaires Territoriaux 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire à l'échelle départementale restent agrégées à la région Hauts-de-France, limitant la précision du score 62 seul",
+    "L'inventaire des circuits courts (AMAP, marchés de producteurs, vente directe) manque d'exhaustivité territoriale faute de recensement systématique annuel dans le département",
+    "La part de SAU bio peut sous-estimer les pratiques agroécologiques non certifiées (HVE, agriculture raisonnée) qui ne sont pas intégrées dans les indicateurs Agence Bio"
+  ]
+}

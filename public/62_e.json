@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Pas-de-Calais présente une situation hydrique préoccupante malgré une pluviométrie annuelle excédentaire (~800 mm/an), en raison d'une pression agricole intense sur les masses d'eau : 68 % des cours d'eau n'atteignent pas le bon état écologique au sens de la DCE (ARS/Agence de l'Eau Artois-Picardie, 2022). Les nitrates constituent une menace structurelle avec des concentrations dépassant régulièrement 50 mg/L dans les eaux souterraines de la plaine maritime flamande et du Ternois (Agence de l'Eau Artois-Picardie, 2023). La contamination aux PFAS est documentée autour des zones industrielles de Calais et Béthune, avec des détections dans plusieurs captages AEP dépassant les seuils de vigilance fixés à 0,1 µg/L (ANSES/ARS HdF, 2023). Les projections Explore2 indiquent une réduction des débits d'étiage de 15 à 30 % à l'horizon 2050 pour les bassins côtiers, accentuant les tensions sur les ressources déjà fragilisées par les pompages agricoles.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "63% captages conformes bactério; nappes phréatiques ponctuellement dégradées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages -15 à -30% horizon 2050; bassins côtiers vulnérables"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 3.0,
+      "note": "Dépassements fréquents 50 mg/L; plaine maritime et Ternois en zone vulnérable"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "PFAS détectés captages Calais/Béthune; dépassements seuil 0,1 µg/L signalés"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie annuelle élevée (~800 mm/an) assurant une recharge globale correcte des nappes superficielles",
+    "Réseau de surveillance dense : 180+ stations DCE suivies par l'Agence de l'Eau Artois-Picardie permettant un suivi fin des masses d'eau",
+    "Programmes agro-environnementaux actifs (MAE, plan Écophyto) couvrant plus de 40 000 ha agricoles du département",
+    "Plusieurs SAGE opérationnels (Aa, Canche, Authie) structurant la gouvernance locale de l'eau"
+  ],
+  "vigilances": [
+    "Contamination aux nitrates structurelle : la totalité du département est classée en zone vulnérable nitrates (5e programme d'action, 2022), avec risque d'aggravation sous pression climatique",
+    "PFAS industriels : contamination identifiée autour de sites ex-BASOL et zones industrielles, avec incertitude sur l'étendue réelle des panaches souterrains (campagne nationale ANSES 2023-2024 en cours)",
+    "Stress hydrique accru : projections Explore2 anticipent des conflits d'usage eau agriculture/eau potable dès 2040, notamment sur la nappe de la Craie déjà surexploitée localement"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "68%",
+      "label": "Cours d'eau hors bon état écologique (DCE)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé dans nappes locales"
+    },
+    {
+      "valeur": "-20%",
+      "label": "Réduction débit étiage projetée à 2050"
+    },
+    {
+      "valeur": "0,1 µg/L",
+      "label": "Seuil PFAS dépassé sur captages identifiés"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Artois-Picardie – État des masses d'eau DCE 2022",
+    "ARS Hauts-de-France – Bilan qualité AEP 2023",
+    "BRGM/Explore2 – Projections hydrologiques 2050",
+    "ANSES – Campagne nationale PFAS captages 2023"
+  ],
+  "limites": [
+    "Les données PFAS restent partielles : la campagne nationale ANSES 2023-2024 n'est pas encore totalement publiée pour le Pas-de-Calais, sous-estimant potentiellement l'étendue des contaminations",
+    "L'état écologique des masses d'eau souterraines de la nappe de la Craie repose sur un maillage de piézomètres insuffisant dans les zones rurales reculées du Boulonnais et du Montreuillois",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle départementale pour les petits bassins versants côtiers, rendant difficile la planification fine des conflits d'usage futurs"
+  ]
+}

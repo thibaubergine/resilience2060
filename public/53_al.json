@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53) affiche des performances alimentaires supérieures à la moyenne nationale, portées par un tissu agro-alimentaire dense et une tradition d'élevage bovins-laitier structurante. Le département compte environ 5 600 exploitations agricoles couvrant 84% du territoire en SAU, l'une des proportions les plus élevées des Pays de la Loire (Agreste 2020). La Mayenne bénéficie d'indications géographiques reconnues, notamment l'AOP Camembert de Normandie (zones limitrophes) et surtout l'IGP Volailles de Loué, emblématique du territoire. La part de la Surface Agricole Utile en agriculture biologique reste cependant modeste, autour de 5,8% en 2023 (Agence Bio 2023), en deçà de la moyenne nationale de 10,7%. Les circuits courts et AMAP se développent progressivement, avec une quarantaine de structures recensées, mais peinent à irriguer les zones rurales peu denses du nord du département.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "SAU couvrant 84% du territoire, autonomie céréales-fourrage élevée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "IGP Volailles de Loué et fromages locaux bien valorisés"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "5,8% SAU bio, nettement sous la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Quarantaine d'AMAP, réseaux circuits courts actifs en milieu rural"
+    }
+  ],
+  "points_forts": [
+    "Taux de couverture SAU exceptionnel (84% du territoire), garantissant une base productive alimentaire solide (Agreste 2020)",
+    "IGP Volailles de Loué : filière structurée et reconnue, plus de 3 millions de volailles labellisées annuellement, valorisant l'élevage extensif local (INAO 2023)",
+    "Forte densité d'exploitations laitières assurant une autonomie protéique et fromagère locale significative, avec des coopératives actives (Laïta, 3A)",
+    "Développement des circuits courts en progression : marchés de producteurs, vente directe à la ferme et restauration scolaire approvisionnée localement dans plusieurs communes"
+  ],
+  "vigilances": [
+    "Dépendance au modèle d'élevage intensif bovins-laitier, vulnérable aux crises économiques et aux évolutions réglementaires environnementales (directive nitrates, révision PAC post-2027)",
+    "Part bio stagnante à 5,8% de la SAU, risque de décrochage par rapport aux objectifs régionaux Pays de la Loire fixant 18% en 2030 (Agence Bio 2023)",
+    "Concentration de la chaîne agro-alimentaire sur quelques acteurs coopératifs majeurs, fragilisant la résilience alimentaire locale en cas de défaillance industrielle"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "84%",
+      "label": "SAU / superficie totale"
+    },
+    {
+      "valeur": "5,8%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~40",
+      "label": "structures AMAP/circuits courts"
+    },
+    {
+      "valeur": "3 M+",
+      "label": "Volailles de Loué IGP/an"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste Recensement Agricole 2020",
+    "ZAVA 2024 (Zones à dominante agricole et vocation alimentaire)"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale, rendant difficile une caractérisation précise des flux intra-départementaux en Mayenne",
+    "L'absence d'observatoire alimentaire départemental structuré limite le suivi des circuits courts et la mesure réelle du taux d'approvisionnement local de la restauration collective",
+    "La frontière normande du département (nord) crée des zones d'appartenance floues pour certaines AOP/IGP fromagères, complexifiant l'attribution des bénéfices économiques et identitaires à la Mayenne stricto sensu"
+  ]
+}

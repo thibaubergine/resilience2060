@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme bénéficie d'une biodiversité exceptionnelle portée par la diversité des écosystèmes volcaniques, tourbières et forêts de moyenne montagne : le département compte environ 18 % de sa superficie couverte par des sites Natura 2000, soit près de 147 000 ha répartis sur 38 sites (INPN, 2024). Le Parc Naturel Régional du Livradois-Forez (300 000 ha dont ~180 000 en Puy-de-Dôme) et la proximité du Parc Naturel Régional des Volcans d'Auvergne (395 000 ha, le plus grand PNR de France) structurent un cadre de protection remarquable (OFB, 2024). L'INPN recense plus de 2 800 espèces végétales et une faune diversifiée incluant des espèces patrimoniales comme le Sonneur à ventre jaune, la Loutre d'Europe ou le Bouquetin des Alpes réintroduit sur les volcans d'Auvergne. Les corridors écologiques identifiés dans le SRCE Auvergne-Rhône-Alpes confèrent au département un rôle de nœud de biodiversité entre Massif Central et plaines alluviales de l'Allier, fleuve classé parmi les derniers grands fleuves sauvages d'Europe (LPO Auvergne, 2023). Malgré ce potentiel, les pressions agricoles intensives en Limagne et l'urbanisation autour de Clermont-Ferrand exercent une fragmentation progressive des habitats naturels (INPN/OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "38 sites Natura 2000, ~147 000 ha, soit 18% superficie départementale (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Volcans Auvergne + PNR Livradois-Forez couvrant majorité du département"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Loutre, Sonneur ventre jaune, Bouquetin réintroduit, flore volcanique endémique"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Allier corridor majeur SRCE ; fragmentation en Limagne limitant continuités"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France métropolitaine : ~147 000 ha et 38 sites désignés (INPN, 2024)",
+    "PNR des Volcans d'Auvergne, plus grand PNR de France métropolitaine (395 000 ha), garant d'une gestion durable des écosystèmes volcaniques",
+    "La rivière Allier, classée corridor bleu de niveau national dans le SRCE AURA, abrite l'une des dernières populations de Saumon atlantique migrateur en Massif Central (LPO Auvergne, 2023)",
+    "Diversité floristique exceptionnelle : plus de 2 800 espèces végétales recensées, dont plusieurs inféodées aux tourbières d'altitude et aux champs de lave (INPN, 2024)"
+  ],
+  "vigilances": [
+    "Fragmentation des habitats en plaine de Limagne : l'artificialisation progresse à ~180 ha/an autour de Clermont-Ferrand, menaçant les corridors de connexion entre volcans et vallée de l'Allier (INPN/OFB, 2024)",
+    "Réchauffement climatique : remontée des isothermes de +300 à +500 m d'altitude projetée d'ici 2060 (Climadiag 2024), menaçant les espèces tourbicoles et les hêtraies-sapinières d'altitude",
+    "Prolifération d'espèces exotiques envahissantes (Renouée du Japon, Jussie, Écrevisse signal) documentée sur plusieurs cours d'eau et zones humides du département (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~147 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "38",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "395 000 ha",
+      "label": "PNR Volcans d'Auvergne"
+    },
+    {
+      "valeur": "2 800+",
+      "label": "Espèces végétales recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel 2024",
+    "LPO Auvergne – Atlas Faune 2023",
+    "SRCE Auvergne-Rhône-Alpes – Trame verte et bleue"
+  ],
+  "limites": [
+    "Les données INPN sur la complétude des inventaires faunistiques et floristiques restent inégales selon les communes, avec un sous-échantillonnage notable sur les zones agricoles intensives de Limagne",
+    "L'évaluation de l'état de conservation réel des habitats Natura 2000 (rapportage article 17 directive Habitats) n'est disponible qu'à l'échelle nationale et non désagrégée au niveau départemental",
+    "Les indicateurs de connectivité des corridors écologiques issus du SRCE datent de 2014-2016 et n'ont pas été actualisés, rendant difficile l'évaluation précise de l'évolution récente de la fragmentation"
+  ]
+}

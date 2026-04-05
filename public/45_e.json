@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret (45) présente une situation hydrique contrastée, structurée autour de la Loire et de ses affluents (Loing, Dhuy, Essonne), ainsi que d'importants aquifères de la Beauce, parmi les plus exploités de France avec près de 300 millions de m³ prélevés annuellement (BRGM, 2022). La qualité des eaux souterraines est fortement dégradée par les nitrates agricoles, avec des teneurs dépassant régulièrement 50 mg/L dans les secteurs céréaliers de la Beauce, classée zone vulnérable au titre de la directive nitrates (ARS Centre-Val de Loire, 2023). Les projections Explore2 (2023) indiquent une baisse des débits d'étiage de la Loire pouvant atteindre 30 à 40 % à l'horizon 2060, aggravant les tensions entre usages agricoles, industriels (centrale nucléaire de Saint-Laurent-des-Eaux en amont) et domestiques. La présence de PFAS a été détectée dans plusieurs captages du département, notamment autour d'Orléans et des zones industrielles, entraînant des dépassements de la valeur guide européenne de 0,1 µg/L pour la somme des 20 PFAS (ARS, campagne 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Eau potable conforme majoritairement, tensions ponctuelles sur captages beaucerons"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse étiage Loire -30 à -40 % horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Nappe de Beauce fortement chargée en nitrates, dépassements fréquents 50 mg/L"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés Orléans et zones industrielles, campagnes surveillance en cours"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense : la Loire et ses affluents assurent une ressource superficielle significative sur 6 721 km² de bassin versant départemental",
+    "Bon taux de conformité bactériologique de l'eau du robinet : >98 % des analyses conformes selon ARS Centre-Val de Loire (2022)",
+    "Schéma d'Aménagement et de Gestion des Eaux (SAGE) Nappe de Beauce en vigueur depuis 2013, encadrant les prélèvements agricoles avec quotas par secteur",
+    "Présence de zones humides remarquables (Val de Loire, Sologne) contribuant à la recharge naturelle des nappes et à l'épuration des eaux"
+  ],
+  "vigilances": [
+    "Stress hydrique structurel sur la nappe de Beauce : les volumes prélevés (agriculture irriguée ~85 % des usages) dépassent ponctuellement la recharge, avec des niveaux piézométriques historiquement bas en 2022 (BRGM, 2023)",
+    "Contamination aux nitrates persistante dans les eaux souterraines de la Beauce, avec des communes sous arrêté de restriction d'eau potable et recours à des mélanges ou traitements supplémentaires",
+    "Risque PFAS croissant : les nouvelles normes européennes (0,1 µg/L pour 20 PFAS dès 2026) pourraient mettre hors conformité plusieurs unités de distribution desservant l'agglomération orléanaise"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~300 M m³/an",
+      "label": "Prélèvements nappe Beauce"
+    },
+    {
+      "valeur": ">50 mg/L",
+      "label": "Nitrates Beauce (zones dépassement)"
+    },
+    {
+      "valeur": "-30 à -40 %",
+      "label": "Baisse étiage Loire 2060 (Explore2)"
+    },
+    {
+      "valeur": ">98 %",
+      "label": "Conformité bactériologique eau potable"
+    }
+  ],
+  "sources": [
+    "ARS Centre-Val de Loire – Bilan qualité eaux 2022-2023",
+    "BRGM – Piézométrie nappe de Beauce 2022-2023",
+    "Explore2 – Projections hydrologiques 2060, bassin Loire-Bretagne",
+    "SAGE Nappe de Beauce – Rapport d'évaluation 2013-2022"
+  ],
+  "limites": [
+    "Les données PFAS pour le Loiret restent partielles : la campagne nationale est encore en cours et les résultats définitifs par captage ne sont pas tous publiés à date",
+    "La diversité hydrogéologique du département (nappe de Beauce au nord, alluvions de Loire, aquifères de Sologne) rend difficile une note unique représentative de toutes les situations locales",
+    "Les projections Explore2 portent sur des bassins versants larges (Loire) et ne permettent pas de distinguer finement les impacts à l'échelle des petits cours d'eau du Loiret (Dhuy, Bionne, Rimarde)"
+  ]
+}

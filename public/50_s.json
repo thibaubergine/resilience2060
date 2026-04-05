@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Manche présente un profil pédologique contrasté, avec des sols agricoles soumis à une pression pesticide significative liée à la polyculture-élevage intensive et aux cultures légumières du Cotentin (INRAE 2023). On recense environ 45 sites BASOL (sites et sols pollués ou potentiellement pollués) sur le territoire, héritage notamment des activités industrielles passées et de la présence du complexe nucléaire de La Hague (GéoRisques). Le risque radon reste modéré à faible sur la majorité du département, les formations géologiques dominantes (schistes, grès armoricains) générant un aléa de niveau 2 sur une partie du bocage normand (IRSN). La part de SAU en agriculture biologique reste en deçà de la moyenne nationale, autour de 4,5 % contre 10,7 % en France (Agence Bio 2023), pénalisée par la prédominance de l'élevage conventionnel laitier et bovin intensif qui couvre plus de 60 % de la SAU manchoise.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 45 sites BASOL recensés, densité moyenne, La Hague notable"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée, cultures légumières et céréales Cotentin"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Aléa radon niveau 2 partiel, majorité du département en zone faible"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~4,5%, inférieure à moyenne nationale de 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement modéré : plus de 60 % des communes classées en zone 1 (aléa faible) selon l'IRSN",
+    "Nombre de sites BASOL contenu (≈45) rapporté à la superficie départementale de 5 938 km², soit une densité inférieure à la moyenne nationale",
+    "Efforts de dépollution engagés sur plusieurs friches industrielles littorales dans le cadre des programmes régionaux Normandie (DREAL Normandie 2022)",
+    "Qualité structurelle des sols bocagers préservée dans les zones d'élevage extensif, limitant l'érosion sur les versants herbagés"
+  ],
+  "vigilances": [
+    "Contamination résiduelle des sols autour du site de retraitement nucléaire de La Hague (tritium, carbone 14) : surveillance renforcée IRSN/ASN requise d'ici 2030",
+    "Dégradation progressive des sols agricoles liée à l'intensification : compaction, perte de matière organique estimée à -0,1 % MO/an sur grandes parcelles céréalières (INRAE 2023)",
+    "Stagnation de la conversion bio (<5 % SAU) malgré les objectifs régionaux à 18 % en 2030 fixés par la stratégie Normandie Agriculture Biologique, risquant de pérenniser la pression pesticides"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "≈45",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "4,5 %",
+      "label": "SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "Zone 1-2",
+      "label": "Aléa radon majoritaire (IRSN)"
+    },
+    {
+      "valeur": "5 938 km²",
+      "label": "Superficie département Manche"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (BRGM-MTES)",
+    "INRAE – Observatoire de la qualité des sols 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites en surveillance passive des sites activement dépollués, limitant l'évaluation du risque résiduel réel dans la Manche",
+    "L'absence de réseau de mesure systématique des résidus pesticides dans les sols agricoles manchois (hors nappes) empêche une cartographie précise de la contamination pédologique",
+    "La spécificité nucléaire du site de La Hague constitue un cas atypique national qui fausse la comparaison avec les 95 autres départements sur le critère pollution des sols"
+  ]
+}

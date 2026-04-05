@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Pas-de-Calais (62), département littoral du nord de la France, présente une vulnérabilité climatique 2060 préoccupante malgré un régime thermique actuellement tempéré. Selon Climadiag (Météo-France 2023), le département devrait connaître une augmentation de +1,8°C à +2,4°C d'ici 2050-2060 sous scénario RCP4.5, avec une multiplication par 2,5 des jours de vague de chaleur. Son littoral de 120 km est particulièrement exposé à la montée des eaux (projection DRIAS : +30 à +60 cm à horizon 2100), menaçant directement les zones basses de la plaine maritime picarde et du Boulonnais. Les événements extrêmes récents, notamment les inondations catastrophiques de novembre 2023 qui ont touché plus de 1 200 habitations dans l'Audomarois et la région de Béthune (données Préfecture 62), illustrent la sensibilité accrue du territoire aux précipitations intenses, tendance amenée à s'aggraver selon les projections AP3C Hauts-de-France.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude faible (0-200m) mais effet tampon océanique Manche significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Hausse canicules modérée mais accélération projetée post-2040 (Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Couverture forestière <8% ; risque feux quasi nul comparé au Sud"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 2.0,
+      "note": "120 km de côtes exposées ; plaine maritime très vulnérable aux submersions"
+    }
+  ],
+  "points_forts": [
+    "Effet tampon thermique océanique important : la Manche limite les extrêmes estivaux, avec une température maximale moyenne estivale de 21°C à Boulogne-sur-Mer (Météo-France normales 1991-2020)",
+    "Risque incendie parmi les plus faibles de France : taux de boisement de 7,8% et climat humide (850-1000 mm/an de précipitations) rendent les feux de forêt quasi inexistants (INRAE 2023)",
+    "Réseau de wateringues historique (plus de 1 000 km de canaux) offrant une infrastructure de gestion hydraulique adaptative, partiellement mobilisable face aux excès pluviométriques",
+    "Dynamique de mobilisation territoriale : Plan de Gestion des Risques d'Inondation (PGRI) Artois-Picardie 2022-2027 couvrant 38 territoires à risques importants (TRI) dans le département"
+  ],
+  "vigilances": [
+    "Submersion marine et érosion côtière accélérée : le recul du trait de côte atteint 0,5 à 1,5 m/an sur certains secteurs (Hardelot, Merlimont) selon le CEREMA 2023, avec projection d'une perte de 50 à 80 ha de terres d'ici 2060",
+    "Inondations par ruissellement et débordement amplifiées : les événements de novembre 2023 (cumuls >100 mm en 48h) ont causé plus de 200 M€ de dégâts estimés ; la fréquence de tels épisodes devrait doubler d'ici 2060 (DRIAS, scénario RCP8.5)",
+    "Vulnérabilité des infrastructures stratégiques en zone basse : le tunnel sous la Manche, les zones portuaires de Calais et Boulogne-sur-Mer, ainsi que les terres agricoles de la plaine maritime (55 000 ha sous le niveau de la mer) sont directement menacés par la hausse du niveau marin"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "120 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "+2,1°C",
+      "label": "Hausse T° projetée 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "55 000 ha",
+      "label": "Plaine maritime sous niveau mer"
+    },
+    {
+      "valeur": "7,8%",
+      "label": "Taux de boisement départemental"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS projections climatiques BRGM/IPSL",
+    "CEREMA – Observatoire du trait de côte 2023",
+    "AP3C Hauts-de-France – Atlas climatique régional",
+    "PGRI Artois-Picardie 2022-2027"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles pour le Pas-de-Calais restent à maille de 8 km², insuffisante pour modéliser finement les microclimats côtiers et la variabilité altitudinale entre plaine maritime et Boulonnais",
+    "L'évaluation du risque de submersion marine ne prend pas encore pleinement en compte les interactions entre montée des eaux, tempêtes et saturation des sols après épisodes pluvieux intenses, phénomènes en co-occurrence croissante",
+    "Les données sur l'adaptation effective des infrastructures et des bâtiments aux nouvelles normes climatiques restent parcellaires à l'échelle communale, rendant difficile l'évaluation de la résilience réelle du territoire"
+  ]
+}

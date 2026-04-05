@@ -1,0 +1,65 @@
+{
+  "synthese": "La Lozère présente un profil alimentaire exceptionnel, porté par une agriculture extensive de qualité sur 230 000 ha de SAU (Agreste 2023), soit 40 % du territoire. Le département compte 8 signes officiels de qualité (AOP/IGP), dont l'Agneau de l'Aubrac, la Fin Gras du Mézenc et le Miel de Sapin des Vosges, faisant de la Lozère l'un des départements les plus denses en appellations rapportées à la superficie agricole utile (INAO 2024). La part de la SAU conduite en agriculture biologique atteint 18,5 %, soit plus du double de la moyenne nationale de 9,7 % (Agence Bio 2023), reflétant une dynamique de conversion soutenue par des exploitations ovines et bovines peu intensives. L'autonomie alimentaire territoriale est structurellement élevée : la production locale de viandes, laitages et produits de terroir couvre largement les besoins d'une population de seulement 76 000 habitants, ratio unique en France (ZAVA 2024). Les circuits courts se développent progressivement, favorisés par les marchés ruraux et les AMAP du bassin de vie de Mende, même si la faible densité démographique limite mécaniquement leur essor quantitatif.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.5,
+      "note": "Production locale très excédentaire pour 76 000 habitants, forte autonomie carnée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP dont Agneau Aubrac, Pélardon, Laguiole, densité record nationale"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 9.0,
+      "note": "18,5 % SAU en bio, double moyenne nationale, élevages extensifs dominants"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.5,
+      "note": "AMAP actives à Mende, circuits courts limités par la faible densité démographique"
+    }
+  ],
+  "points_forts": [
+    "Agriculture biologique couvrant 18,5 % de la SAU, soit le double de la moyenne nationale de 9,7 % (Agence Bio 2023)",
+    "8 signes de qualité INAO actifs (AOP/IGP) dont Agneau de l'Aubrac, Pélardon AOP, Laguiole AOP et Miel de sapin (INAO 2024)",
+    "Ratio production/population exceptionnel : 76 000 habitants pour 230 000 ha de SAU, garantissant une forte autonomie protéique locale",
+    "Élevage extensif ovin et bovin dominant, quasi-absent d'intrants chimiques intensifs, préservant la qualité des productions (Agreste 2023)"
+  ],
+  "vigilances": [
+    "Déprise agricole croissante : -12 % d'exploitations entre 2010 et 2020 (Agreste 2020), risque de perte de capacité productive locale à horizon 2035",
+    "Vieillissement des agriculteurs (âge moyen 53 ans) et difficultés de renouvellement générationnel menaçant la pérennité des filières AOP (MSA 2023)",
+    "Circuits courts fragilisés par l'isolement géographique et la faiblesse des infrastructures logistiques locales, limitant l'accès alimentaire de proximité pour certaines communes rurales"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "230 000 ha",
+      "label": "SAU totale Lozère"
+    },
+    {
+      "valeur": "18,5 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "8",
+      "label": "Signes qualité AOP/IGP actifs"
+    },
+    {
+      "valeur": "76 000 hab.",
+      "label": "Population desservie"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024",
+    "Agreste – Recensement agricole 2020",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "La faible densité de population (15 hab./km²) rend difficile toute évaluation robuste des flux de circuits courts et AMAP, les données locales restant lacunaires",
+    "Les scores ZAVA 2024 reposent sur des déclarations d'exploitants et peuvent surestimer l'autonomie alimentaire réelle en sous-comptant les intrants alimentaires importés pour l'élevage",
+    "L'absence d'un observatoire alimentaire territorial propre à la Lozère empêche un suivi précis de la consommation locale versus exportation, biaisant le calcul d'autonomie réelle"
+  ]
+}

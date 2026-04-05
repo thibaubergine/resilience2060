@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire (49) présente une vulnérabilité climatique modérée à horizon 2060, caractérisée par une exposition croissante aux épisodes de chaleur dans un département de plaine ligérienne peu élevé (altitude moyenne ~80 m). Selon les projections Climadiag (Météo-France, 2023), le nombre de jours de canicule pourrait tripler d'ici 2060 dans la vallée de la Loire, avec des températures estivales dépassant régulièrement 35°C à Angers. La Loire et ses affluents (Maine, Authion) exposent environ 15% du territoire à un risque d'inondation significatif, classé parmi les plus importants de France (PGRI Loire-Bretagne, 2022). Le massif forestier reste limité (~13% de boisement), contenant le risque incendie, mais le changement climatique allonge la saison à risque de plusieurs semaines (DRIAS 2023). Le département bénéficie d'un effet tampon océanique partiel grâce à sa situation dans les Pays de la Loire, mais cette protection s'érode progressivement selon les scénarios SSP2-4.5 du GIEC.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude faible (~80 m) ; légère influence océanique atténue les extrêmes"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Projections +3°C à 2060 ; doublements jours chauds à Angers (Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Faible taux boisement (13%) ; risque incendie limité mais saison allongée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Vallée Loire et Authion inondables ; 15% territoire en zone à risque (PGRI)"
+    }
+  ],
+  "points_forts": [
+    "Taux de boisement faible (~13%) limitant mécaniquement l'exposition aux feux de forêt par rapport aux départements du sud-ouest",
+    "Influence océanique résiduelle (façade atlantique à ~150 km) contribuant à modérer les pics thermiques estivaux (Météo-France, station Angers-Marcé)",
+    "Absence de littoral marin supprimant tout risque de submersion marine et d'érosion côtière directe",
+    "Réseau de haies bocagères en reconstitution partielle (+5% entre 2015-2022, PAT Maine-et-Loire) offrant un effet tampon microclimatique local"
+  ],
+  "vigilances": [
+    "Risque inondation majeur sur la Loire et l'Authion : scénarios DRIAS 2060 prévoient une intensification des crues décennales, affectant potentiellement 80 000 habitants en zone inondable",
+    "Multiplication des vagues de chaleur à Angers : passage estimé de 3 à 9 jours de canicule par an à horizon 2050-2060 (scénario intermédiaire RCP4.5, Climadiag 2023)",
+    "Sécheresses agricoles récurrentes menaçant le vignoble AOC (Anjou, Saumur, Muscadet) et les cultures maraîchères, avec des déficits hydriques estivaux déjà enregistrés en 2019, 2020 et 2022 (Chambre d'agriculture 49)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 m",
+      "label": "Altitude moyenne du département"
+    },
+    {
+      "valeur": "+3°C",
+      "label": "Réchauffement projeté à 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "15%",
+      "label": "Part du territoire en zone inondable"
+    },
+    {
+      "valeur": "13%",
+      "label": "Taux de boisement départemental"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 – Scénarios climatiques RCP4.5/8.5",
+    "PGRI Loire-Bretagne 2022-2027",
+    "AP3C Pays de la Loire – Adaptation agriculture"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale masquent des disparités intra-territoriales importantes entre le Val d'Anjou (très exposé) et le Segréen (moins vulnérable)",
+    "L'évaluation du risque inondation repose sur des modèles hydrauliques qui intègrent imparfaitement les effets combinés sécheresse/crue soudaine devenus plus fréquents avec le changement climatique",
+    "L'absence de données locales actualisées sur l'évolution du bocage et des îlots de chaleur urbains à Angers limite la précision de l'évaluation du tampon thermique réel à l'horizon 2060"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse présente une situation contrastée en matière de qualité des sols, avec un territoire majoritairement rural dominé par les grandes cultures céréalières et l'élevage bovin, mais exposé à des pressions agricoles significatives. Le département compte environ 45 sites BASOL recensés (GéoRisques), reflet d'une industrialisation historique limitée mais d'héritages localisés notamment autour de Bar-le-Duc et Verdun. La part de l'agriculture biologique en SAU reste modeste, autour de 4,5 % (Agence Bio 2023), nettement en dessous de la moyenne nationale de 10,7 %, témoignant d'une transition agroécologique encore embryonnaire. Les sols meusiens, à dominante argilo-calcaire et limoneux, présentent des niveaux de résidus phytosanitaires préoccupants dans les zones de grande culture intensive, en lien avec la céréaliculture et la betterave sucrière (INRAE 2023). Le risque radon, lié à la géologie locale (granite absent mais substrats argileux et calcaires), reste globalement faible à modéré, classant la Meuse en zone à priorité 2 selon l'IRSN.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 45 sites BASOL, faible densité industrielle historique meusienne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Grandes cultures céréalières, pression phytosanitaire notable zones intensives"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie calcaire-argileuse, risque radon faible, zone priorité 2 IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~4,5%, inférieure moyenne nationale 10,7% (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués recensés (~45 sites BASOL), reflet d'un tissu industriel historiquement limité",
+    "Risque radon globalement bas à modéré (zone priorité 2, IRSN), absence de formations granitiques majeures",
+    "Vaste surface agricole utile (environ 320 000 ha, Agreste 2023) préservant des sols peu artificialisés",
+    "Prairies permanentes significatives liées à l'élevage bovin, favorisant la séquestration de carbone et la structure des sols"
+  ],
+  "vigilances": [
+    "Pression phytosanitaire persistante dans les zones de grandes cultures (céréales, betteraves), avec détection de résidus de glyphosate et fongicides dans les sols (INRAE 2023)",
+    "Transition vers l'agriculture biologique très lente (4,5 % SAU bio), risquant de creuser l'écart avec les objectifs Plan Stratégique National 2027 (18 % national)",
+    "Érosion des sols limoneux en zones de pentes accentuées, aggravée par les événements pluviométriques intenses projetés à l'horizon 2060 (DRIAS/Climadiag)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "4,5 %",
+      "label": "Part SAU bio (2023)"
+    },
+    {
+      "valeur": "Zone 2",
+      "label": "Classement radon IRSN"
+    },
+    {
+      "valeur": "320 000 ha",
+      "label": "Surface agricole utile"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (2023)",
+    "INRAE – Observatoire des résidus phytosanitaires (2023)",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres clés département 2023"
+  ],
+  "limites": [
+    "Absence de cartographie exhaustive de la qualité des sols agricoles meusiens à l'échelle parcellaire, limitant l'évaluation fine des contaminations diffuses",
+    "Les données BASOL ne capturent pas les pollutions diffuses agricoles chroniques, sous-estimant potentiellement les risques réels sur les sols",
+    "La part SAU bio issue de l'Agence Bio peut présenter un décalage temporel et ne rend pas compte des pratiques agro-écologiques intermédiaires (HVE, agroforesterie) en développement dans le département"
+  ]
+}

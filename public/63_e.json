@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme bénéficie d'une ressource en eau abondante grâce à son socle volcanique (Chaîne des Puys, Massif du Sancy) qui agit comme un château d'eau naturel, alimentant des nappes profondes de qualité remarquable et des débits soutenus (ARS Auvergne-Rhône-Alpes, 2023). La qualité de l'eau potable distribuée est globalement excellente : plus de 94% de la population reçoit une eau conforme aux paramètres bactériologiques et physico-chimiques (ARS, rapport qualité eaux 2022). Les teneurs en nitrates restent faibles sur la majorité du territoire, avec des concentrations généralement inférieures à 25 mg/L, reflet d'une pression agricole modérée liée à la prédominance de l'élevage extensif sur les grandes cultures (DCE/Agence de l'eau Loire-Bretagne, 2022). Cependant, le projet Explore2 (2023) signale une vulnérabilité croissante des étiages estivaux sur les cours d'eau du bassin, avec une réduction projetée des débits d'étiage de 10 à 30% à horizon 2050 sur l'Allier et ses affluents. La contamination aux PFAS, bien que documentée dans quelques secteurs périurbains de l'agglomération clermontoise, demeure limitée en comparaison nationale, sans dépassement généralisé des seuils réglementaires (ANSES, campagnes 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.5,
+      "note": "94% population eau conforme; nappes volcaniques de haute qualité"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.5,
+      "note": "Étiages Allier en baisse projetée de 10-30% d'ici 2050"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.5,
+      "note": "Nitrates <25 mg/L majoritairement; élevage extensif dominant"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.5,
+      "note": "Traces PFAS zone clermontoise; pas de dépassement généralisé"
+    }
+  ],
+  "points_forts": [
+    "Socle volcanique (Chaîne des Puys, Sancy) constitue un réservoir naturel exceptionnel avec des nappes profondes peu vulnérables aux pollutions de surface",
+    "94% de la population alimentée en eau conforme aux normes bactériologiques et physicochimiques (ARS Auvergne-Rhône-Alpes, rapport 2022)",
+    "Concentrations en nitrates parmi les plus faibles de France métropolitaine (<25 mg/L sur 80% du territoire), grâce à la prédominance de l'élevage bovin extensif (DCE/Agence de l'eau Loire-Bretagne, 2022)",
+    "Réseau hydrographique dense (Allier, Dore, Sioule) garantissant des débits naturellement soutenus en dehors des épisodes d'étiage"
+  ],
+  "vigilances": [
+    "Réduction projetée de 10 à 30% des débits d'étiage estivaux sur l'Allier et ses affluents à horizon 2050 (Explore2, 2023), menaçant l'alimentation en eau potable et les usages agricoles",
+    "Présence de PFAS détectée dans plusieurs captages périurbains de l'agglomération clermontoise (ANSES, campagnes 2022-2023), nécessitant une surveillance renforcée avec l'entrée en vigueur des nouvelles valeurs seuils européennes en 2026",
+    "Fragilité de certains petits captages ruraux en zones karstiques ou volcaniques peu profondes, exposés aux épisodes de turbidité lors de fortes précipitations et aux sécheresses répétées (ARS 63, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94%",
+      "label": "Eau potable conforme (ARS 2022)"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Débit étiage Allier 2050 (Explore2)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates majoritaires (DCE 2022)"
+    },
+    {
+      "valeur": "8.0/10",
+      "label": "Score eau départemental (rang 9/96)"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes, Rapport qualité eaux 2022",
+    "Explore2, Projections hydrologiques INRAE 2023",
+    "Agence de l'eau Loire-Bretagne, DCE état des masses d'eau 2022",
+    "ANSES, Campagnes nationales PFAS eaux potables 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS sur le Puy-de-Dôme restent partielles : toutes les unités de distribution n'ont pas encore fait l'objet d'analyses exhaustives, ce qui peut sous-estimer l'exposition réelle de certaines populations rurales",
+    "Les projections Explore2 sur les étiages sont exprimées à l'échelle des grands bassins versants et ne permettent pas d'anticiper finement les impacts sur les petits captages locaux des communes rurales de montagne",
+    "L'évaluation de la qualité des eaux souterraines profondes du volcanisme auvergnat demeure incomplète faute de points de surveillance suffisants dans les aquifères basaltiques, rendant difficile toute comparaison standardisée inter-départementale"
+  ]
+}

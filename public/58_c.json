@@ -1,0 +1,65 @@
+{
+  "synthese": "La Nièvre, département continental du centre de la France à altitude moyenne de 280 m (avec des reliefs atteignant 900 m dans le Morvan), bénéficie d'un tampon thermique relatif par rapport aux plaines méridionales, mais les projections DRIAS 2050-2070 indiquent une hausse des températures moyennes de +2,5°C à +3,5°C selon les scénarios RCP 4.5 et 8.5. Climadiag Commune (2023) signale une augmentation significative du nombre de jours de vague de chaleur d'ici 2060, passant de 5-8 jours actuels à 15-25 jours en scénario intermédiaire pour les zones de plaine. Le massif du Morvan, qui couvre environ 40 % du département, constitue un atout climatique non négligeable grâce à ses précipitations soutenues (1 200 mm/an) et ses forêts de résineux, bien que ces dernières soient de plus en plus exposées aux sécheresses estivales répétées (AP3C Bourgogne-Franche-Comté, 2022). Le risque d'inondations fluviales reste prégnant sur les bassins de la Loire et de l'Yonne, classés en zone à risque important d'inondation (PGRI Loire-Bretagne 2022), sans exposition côtière mais avec des crues centennales documentées.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Relief morvandiau (900 m) offre tampon thermique notable en été"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15 à 25 jours de canicule projetés en plaine nivernaise d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant sur résineux morvandiaux, sécheresses répétées"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Inondations Loire/Yonne fréquentes, PGRI identifie TRI Nevers-Imphy"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne du Morvan (~500-900 m) limite les pics thermiques estivaux par rapport aux plaines ligériennes voisines",
+    "Précipitations annuelles élevées dans le Morvan (1 200 mm/an), réservoir hydrique régulateur (AP3C BFC, 2022)",
+    "Absence totale d'exposition littorale ou marine, éliminant les risques de submersion côtière et érosion marine",
+    "Faible densité urbaine (30 hab/km², INSEE 2021) réduisant les effets d'îlot de chaleur urbain comparativement aux métropoles"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +3,5°C en scénario RCP 8.5 à horizon 2071-2100, menaçant les forêts de résineux du Morvan et l'élevage bovin extensif (DRIAS 2023)",
+    "Sécheresses estivales de plus en plus fréquentes (2018, 2019, 2022) affectant le niveau de la Loire et les nappes alluviales nivernaises, avec un risque de déficit hydrique structurel après 2040 (Explore2, 2023)",
+    "Risque feux de forêt en progression sur les plantations de douglas et d'épicéas du Morvan, avec extension probable de la zone de danger vers le nord d'ici 2050 (Prométhée/MTECT 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3,5°C",
+      "label": "Hausse températures projetée 2050 (RCP 4.5/8.5)"
+    },
+    {
+      "valeur": "15-25 jours",
+      "label": "Jours canicule supplémentaires/an en plaine vers 2060"
+    },
+    {
+      "valeur": "1 200 mm/an",
+      "label": "Précipitations Morvan (tampon hydrique)"
+    },
+    {
+      "valeur": "30 hab/km²",
+      "label": "Densité faible, effet îlot chaleur limité"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "Climadiag Commune 2023 / Météo-France",
+    "AP3C Bourgogne-Franche-Comté 2022",
+    "PGRI Loire-Bretagne 2022 / MTECT"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent incertaines pour le relief complexe du Morvan, les modèles régionaux pouvant sous-estimer les effets d'altitude locaux",
+    "L'absence de station météorologique de référence dense dans le nord-Morvan limite la précision des données climatiques historiques servant de base aux projections 2060",
+    "Les scénarios de risque feux de forêt pour la Nièvre sont extrapolés depuis des modèles calibrés sur le sud de la France, leur fiabilité pour un département continental de moyenne montagne reste à consolider"
+  ]
+}

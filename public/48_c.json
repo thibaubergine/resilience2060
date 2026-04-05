@@ -1,0 +1,65 @@
+{
+  "synthese": "La Lozère, département le plus élevé de France métropolitaine avec une altitude moyenne de 1 000 m (culminant à 1 699 m au mont Lozère), bénéficie d'un effet tampon thermique naturel exceptionnel face au réchauffement climatique. Selon Climadiag (Météo-France, 2023), le nombre de jours de canicule projeté à l'horizon 2060 sous scénario RCP 8.5 reste inférieur à 10 jours/an en Lozère, contre plus de 30 jours pour les plaines méditerranéennes voisines. Le département est totalement exempt de vulnérabilité côtière et présente une exposition aux inondations catastrophiques modérée, principalement concentrée sur les bassins du Lot et du Tarn (DRIAS 2023). En revanche, l'évolution du risque incendie constitue un enjeu croissant : les projections AP3C/CNRS indiquent une extension vers les moyennes altitudes du front de risque feux à l'horizon 2050-2060, jusqu'alors limité aux marges méridionales du département. La combinaison altitude protectrice, faible densité humaine et éloignement du littoral positionne la Lozère comme l'un des territoires français les plus résilients face aux aléas climatiques projetés.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude moyenne 1 000 m, effet tampon thermique exceptionnel en France"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 9.0,
+      "note": "Moins de 10 jours canicule/an projetés en 2060 (Climadiag RCP8.5)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux en progression vers moyennes altitudes d'ici 2050"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Aucune exposition côtière ; inondations localisées Lot/Tarn"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 1 000 m conférant un tampon thermique naturel unique parmi les 96 départements français, avec des températures estivales moyennes inférieures de 4 à 6 °C aux plaines voisines",
+    "Moins de 10 jours de canicule projetés par an à l'horizon 2060 sous RCP 8.5 selon Climadiag (Météo-France, 2023), contre une moyenne nationale de 25 jours",
+    "Département 100 % continental, sans aucune exposition au risque de submersion marine ou d'érosion côtière (GéoRisques)",
+    "Faible densité de population (15 hab./km², plus faible densité de France métropolitaine) limitant la vulnérabilité humaine aux événements climatiques extrêmes"
+  ],
+  "vigilances": [
+    "Extension du risque feux de forêt vers les altitudes 600–1 100 m projetée à l'horizon 2050 sous l'effet de la hausse des températures et de l'allongement des sécheresses estivales (AP3C/CNRS)",
+    "Intensification des épisodes de précipitations extrêmes (épisodes cévenols) sur les versants sud du département, avec des crues-éclair pouvant dépasser 200 mm/24h sur le Tarn et ses affluents (DRIAS 2023)",
+    "Dépérissement progressif des forêts de résineux (épicéas, pins sylvestres) face à la hausse des températures et aux sécheresses répétées, fragilisant les sols et amplifiant le risque incendie à moyen terme (INRAE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "1 000 m",
+      "label": "Altitude moyenne départementale"
+    },
+    {
+      "valeur": "< 10 j/an",
+      "label": "Jours de canicule projetés 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "15 hab/km²",
+      "label": "Densité population (+ faible de France)"
+    },
+    {
+      "valeur": "1 699 m",
+      "label": "Point culminant (Mont Lozère)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS – Projections climatiques régionales 2023",
+    "AP3C/CNRS – Risque incendie 2050",
+    "INRAE – Dépérissement forestier 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont calibrées sur des mailles de 8 km, ce qui peut sous-estimer les variations micro-climatiques très importantes en territoire de moyenne montagne lozérien",
+    "Le risque incendie est encore mal modélisé pour les altitudes supérieures à 800 m dans les outils nationaux, rendant les projections locales peu robustes pour la Lozère",
+    "L'absence de station météorologique à haute altitude en nombre suffisant limite la validation des modèles climatiques locaux et la précision des scénarios thermiques à l'échelle communale"
+  ]
+}

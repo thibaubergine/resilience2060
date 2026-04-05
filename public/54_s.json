@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle (54) présente une qualité des sols fortement marquée par son passé industriel sidérurgique et minier, avec 187 sites recensés dans la base BASIAS et plusieurs dizaines de sites actifs ou traités dans l'ancienne base BASOL (désormais Géorisques), concentrés notamment dans le bassin de Briey et la vallée de l'Orne. Le risque radon est élevé sur une partie significative du territoire, particulièrement sur les secteurs à substrat granitique et métamorphique des Vosges du nord et des plateaux lorrains, classant plusieurs communes en zone 3 (prioritaire) selon la cartographie IRSN. La part de la Surface Agricole Utile (SAU) en agriculture biologique reste modeste, autour de 4,5% en 2023 (Agence Bio), en deçà de la moyenne nationale de 10,7%, reflétant la domination des grandes cultures conventionnelles de céréales et d'oléoprotéagineux. Les résidus de pesticides dans les sols agricoles, documentés par les travaux INRAE 2023, témoignent d'une pression phytosanitaire significative sur les terres de grande culture, notamment dans la Woëvre et le Saintois.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "187 sites BASIAS, nombreux sites industriels pollués vallée Orne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Pression pesticides significative grandes cultures Woëvre et Saintois"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Zones radon prioritaires (niveau 3) sur plateaux vosgiens et lorrains"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~4,5% (2023), progression récente mais sous moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "La SAU bio a progressé de +35% entre 2019 et 2023 en Meurthe-et-Moselle, témoignant d'une dynamique de conversion en hausse (Agence Bio 2023)",
+    "Plusieurs sites BASOL ont été dépollués et reconvertis dans le cadre des politiques de requalification des friches industrielles (Géorisques 2024)",
+    "La présence de zones humides et de prairies permanentes dans certains secteurs (vallées de la Moselle et de la Meurthe) contribue à limiter l'érosion et à séquestrer du carbone",
+    "Des programmes agro-environnementaux (MAEC) sont actifs sur plusieurs territoires, accompagnant la réduction des intrants chimiques (DDT 54)"
+  ],
+  "vigilances": [
+    "L'héritage industriel sidérurgique génère des pollutions aux métaux lourds (plomb, zinc, cadmium) persistantes dans les sols de la Vallée de l'Orne, avec des risques de transfert vers les nappes",
+    "Le risque radon élevé (zones IRSN niveau 3) concerne plusieurs dizaines de communes et nécessite une vigilance accrue dans les bâtiments anciens et les espaces confinés",
+    "Le maintien des pratiques de grande culture intensive sur la Woëvre risque d'aggraver la dégradation de la structure des sols et la pression pesticides à horizon 2030, en l'absence de reconversion"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "187",
+      "label": "Sites BASIAS recensés (54)"
+    },
+    {
+      "valeur": "4,5%",
+      "label": "SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "Zones 3",
+      "label": "Communes en risque radon prioritaire (IRSN)"
+    },
+    {
+      "valeur": "<10%",
+      "label": "SAU bio vs 10,7% moyenne nationale"
+    }
+  ],
+  "sources": [
+    "Géorisques / ex-BASOL 2024",
+    "INRAE – Résidus pesticides sols agricoles 2023",
+    "IRSN – Cartographie risque radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL/Géorisques ne couvrent pas l'ensemble des sites potentiellement pollués hors procédure administrative formelle, sous-estimant l'ampleur réelle de la contamination industrielle historique",
+    "La cartographie radon IRSN repose sur une résolution géologique qui ne permet pas d'identifier finement les disparités infra-communales, limitant le ciblage des actions préventives",
+    "Les données sur les résidus de pesticides dans les sols agricoles de Meurthe-et-Moselle restent partielles et peu actualisées à l'échelle départementale fine, rendant difficile toute comparaison précise avec d'autres départements"
+  ]
+}

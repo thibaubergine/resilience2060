@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Orne (61) présente une qualité de l'air globalement satisfaisante, bénéficiant de sa faible densité urbaine et de l'absence de grande agglomération industrielle. Les concentrations en PM2,5 restent modérées, estimées autour de 9–11 µg/m³ en moyenne annuelle, proches mais encore au-dessus du seuil OMS 2021 de 5 µg/m³ (ATMO Normandie, 2023). Le NO₂ urbain à Alençon, principale ville du département, demeure bien en deçà des seuils réglementaires européens (< 40 µg/m³), avec des niveaux mesurés inférieurs à 15 µg/m³ (ATMO Normandie). En revanche, la forte orientation agro-pastorale du territoire génère des émissions d'ammoniac (NH₃) significatives, l'Orne figurant parmi les départements normands à émissions agricoles élevées, contribuant aux dépôts azotés et à la formation de particules secondaires (Citepa, 2022). Le tissu industriel reste limité, concentré autour d'Alençon et Flers, sans site ICPE majeur classé Seveso seuil haut sur le territoire.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~10 µg/m³, au-dessus OMS 5 µg/m³ mais favorable nationalement"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ <15 µg/m³ à Alençon, très inférieur au seuil européen 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle, aucun site Seveso seuil haut recensé"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "Élevage bovin dominant, NH₃ agricole parmi les plus élevés de Normandie"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de Normandie, inférieures à 15 µg/m³ à Alençon (ATMO Normandie, 2023)",
+    "Absence de grand pôle industriel émetteur : aucun site Seveso seuil haut dans le département (DREAL Normandie, 2023)",
+    "Faible densité de trafic routier hors axes A28/N12, limitant les pics de pollution photochimique",
+    "Couverture forestière (~22 % du territoire, ONF) favorisant la séquestration et la filtration naturelle des polluants"
+  ],
+  "vigilances": [
+    "Émissions de NH₃ issues de l'élevage bovin et porcin contribuant à la formation de PM2,5 secondaires, avec risque d'aggravation si intensification des pratiques (Citepa 2022 : secteur agricole = >90 % du NH₃ normand)",
+    "Épisodes de brume sèche printanière et pollution à l'ozone (O₃) récurrents en bordure du Perche et du Bocage, liés aux précurseurs agricoles et au transport longue distance (ATMO Normandie)",
+    "Combustion de biomasse résidentielle (chauffage au bois) en progression, source croissante de PM2,5 et HAP, notamment dans les zones rurales isolées du Sud-Orne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ max mesuré Alençon"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Part agricole émissions NH₃ régionales"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites Seveso seuil haut dans l'Orne"
+    }
+  ],
+  "sources": [
+    "ATMO Normandie – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DREAL Normandie – Inventaire ICPE/Seveso 2023"
+  ],
+  "limites": [
+    "Réseau de stations de mesure ATMO très limité dans l'Orne (essentiellement Alençon), sous-représentation des zones rurales et du Perche",
+    "Absence de données spatialisées fines sur les émissions NH₃ à l'échelle communale, rendant difficile l'identification des points chauds locaux",
+    "Les épisodes de pollution transfrontalière (apports depuis l'Île-de-France ou le bassin parisien) ne sont pas dissociés des émissions locales dans les bilans disponibles"
+  ]
+}

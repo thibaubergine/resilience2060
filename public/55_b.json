@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse (55) présente un profil de biodiversité relativement favorable, avec environ 18 % de son territoire couvert par des zones Natura 2000, notamment les massifs forestiers de l'Argonne et les zones humides de la vallée de la Meuse (INPN 2024). Le département abrite des habitats remarquables comme les prairies alluviales, les tourbières et les forêts de feuillus anciennes, accueillant des espèces emblématiques telles que le Grand Murin, la Cigogne noire et l'Écrevisse à pattes blanches (OFB 2024). La Meuse bénéficie de la présence du Parc Naturel Régional de Lorraine, dont une partie significative couvre le sud du département, structurant la trame verte et bleue locale. Cependant, l'agriculture intensive sur les plateaux céréaliers fragilise certains corridors écologiques et contribue au déclin des populations d'oiseaux des milieux agricoles, avec une baisse estimée à -30 % en 20 ans (LPO Grand Est 2023). Le maillage bocager subsistant dans certaines vallées constitue un atout patrimonial mais reste sous pression.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "18% territoire Natura 2000 ; massifs Argonne et zones humides meusiennes inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Lorraine couvre partiellement le sud ; réserves biologiques forestières présentes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Cigogne noire, Grand Murin, Écrevisse pattes blanches : cortège patrimonial notable"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragilisés par grandes cultures céréalières ; bocage résiduel sous pression"
+    }
+  ],
+  "points_forts": [
+    "Environ 18 % du territoire classé en zones Natura 2000, soit ~108 000 ha de milieux protégés (INPN 2024)",
+    "Présence du PNR de Lorraine structurant la trame verte et bleue sur le sud du département (Charte PNR 2020-2035)",
+    "Richesse en zones humides fonctionnelles : vallée de la Meuse, étangs de la Woëvre, tourbières de l'Argonne (OFB 2024)",
+    "Population de Cigogne noire nicheuse confirmée, espèce indicatrice de forêts matures préservées (LPO Grand Est 2023)"
+  ],
+  "vigilances": [
+    "Déclin des oiseaux agricoles estimé à -30 % en 20 ans sur les plateaux céréaliers meusiens (LPO Grand Est 2023), tendance non enrayée",
+    "Fragmentation croissante des corridors écologiques par l'agriculture intensive et les infrastructures (RN4, A4), réduisant les échanges entre massifs forestiers",
+    "Pression sur les zones humides de la Woëvre : drainage agricole résiduel et eutrophisation menaçant les habitats à Cistude d'Europe (OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "1 PNR",
+      "label": "Parc Naturel Régional (Lorraine)"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Déclin oiseaux agricoles (20 ans)"
+    },
+    {
+      "valeur": "~108 000 ha",
+      "label": "Surface Natura 2000 estimée"
+    }
+  ],
+  "sources": [
+    "OFB 2024 (Observatoire Faune/Flore)",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Grand Est 2023",
+    "Charte PNR Lorraine 2020-2035"
+  ],
+  "limites": [
+    "L'état de conservation réel des habitats Natura 2000 meusiens n'est pas exhaustivement évalué : les rapportages Art.17 restent partiels pour ce département peu doté en observateurs naturalistes",
+    "Les données sur les corridors écologiques (TVB) reposent sur le SRCE Grand Est 2015, non actualisé depuis, limitant la fiabilité des diagnostics de connectivité actuels",
+    "L'impact du site de stockage nucléaire profond Cigéo (Bure) sur la biodiversité souterraine et les nappes locales reste non évalué dans les référentiels naturalistes standard"
+  ]
+}

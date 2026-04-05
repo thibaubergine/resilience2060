@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Orne présente une biodiversité globalement préservée, portée notamment par le Parc Naturel Régional Normandie-Maine qui couvre environ 314 000 hectares incluant une partie significative du département, avec des écosystèmes bocagers, forestiers et de landes encore bien représentés (INPN/OFB 2024). La couverture Natura 2000 y atteint environ 6,5 % du territoire départemental, avec des sites emblématiques comme la forêt d'Écouves (la plus haute forêt de l'ouest de la France, culminant à 417 m) et les bocages humides ornais inscrits en ZSC et ZPS (INPN 2024). La LPO Normandie recense dans l'Orne des espèces indicatrices de milieux en bon état, dont le Damier de la Succise, l'Azuré des mouillères et plusieurs espèces de chauves-souris protégées nichant dans le bocage (LPO Normandie 2023). Toutefois, l'intensification agricole dans les plaines du sud du département et la fragmentation progressive des haies bocagères — avec une perte estimée à 2 % des linéaires de haies par an en Normandie — fragilisent les corridors écologiques terrestres (Observatoire du bocage normand 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Natura 2000 couvre ~6,5 % du territoire, sites bocagers et forestiers"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Normandie-Maine, forte couverture protégée sur massifs ornais"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Chauves-souris, Damier de la Succise, Azuré des mouillères présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Haies bocagères fragmentées, perte estimée 2 %/an en Normandie"
+    }
+  ],
+  "points_forts": [
+    "Le PNR Normandie-Maine couvre ~314 000 ha et intègre une charte de préservation des milieux naturels ornais renouvelée en 2021",
+    "La forêt domaniale d'Écouves (~15 000 ha) constitue un réservoir de biodiversité forestière majeur inscrit en site Natura 2000 (INPN 2024)",
+    "Présence confirmée de plusieurs espèces de chauves-souris cavernicoles (Grand Rhinolophe, Grand Murin) dans les bocages et bâtis ornais (LPO Normandie 2023)",
+    "Le bocage ornais, encore dense dans les secteurs collinaires, offre des corridors fonctionnels pour la faune sauvage et les pollinisateurs"
+  ],
+  "vigilances": [
+    "La régression des haies bocagères (–2 %/an estimé en Normandie) fragilise la trame verte et l'habitat de nombreuses espèces nichant en lisière (Observatoire bocage normand 2022)",
+    "L'intensification agricole dans les plaines céréalières du sud de l'Orne menace les espèces de milieux ouverts, notamment l'Outarde canepetière et le Busard cendré",
+    "Le changement climatique d'ici 2060 (Climadiag) risque de dégrader les zones humides et tourbières du Pays d'Auge ornais, habitats d'espèces hygrophiles sensibles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~6,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "314 000 ha",
+      "label": "Surface PNR Normandie-Maine"
+    },
+    {
+      "valeur": "~15 000 ha",
+      "label": "Forêt domaniale d'Écouves"
+    },
+    {
+      "valeur": "–2 %/an",
+      "label": "Perte haies bocagères Normandie"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Normandie 2023",
+    "Observatoire du bocage normand 2022",
+    "PNR Normandie-Maine – Charte 2021"
+  ],
+  "limites": [
+    "L'inventaire INPN reste incomplet pour les invertébrés et la fonge ornaise, sous-échantillonnage notable dans les zones agricoles",
+    "Les données sur la connectivité réelle des corridors écologiques manquent d'une cartographie fine et actualisée pour l'Orne",
+    "L'impact des pratiques sylvicoles intensives sur la biodiversité forestière d'Écouves et des massifs ornais est peu documenté à l'échelle départementale"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Lozère présente l'une des ressources en eau les plus préservées de France métropolitaine, bénéficiant d'une densité hydrographique exceptionnelle avec plus de 7 000 km de cours d'eau pour un territoire de 5 167 km², incluant les sources du Lot, de la Truyère et du Tarn (Agence de l'Eau Adour-Garonne/Rhône-Méditerranée). La qualité des eaux souterraines et superficielles est remarquable : plus de 92 % des masses d'eau superficielles atteignent le bon état écologique au titre de la Directive Cadre sur l'Eau 2022, plaçant le département parmi les meilleurs de France (ARS Occitanie/DCE 2022). La faible densité agricole intensive (moins de 15 % de SAU en grandes cultures) limite drastiquement les apports en nitrates, avec des teneurs moyennes inférieures à 10 mg/L dans la plupart des captages AEP (ARS 2023). Les projections Explore2 signalent néanmoins une réduction des débits estivaux de 20 à 30 % à l'horizon 2060 sur les bassins cévenols, constituant le principal défi hydrique du département. La quasi-absence d'industrie lourde et de zones urbaines denses préserve les eaux de toute contamination significative aux polluants émergents, y compris les PFAS (BRGM 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.5,
+      "note": "92 % masses d'eau en bon état ; captages AEP conformes quasi-intégralement"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 8.0,
+      "note": "Réduction débits estivaux 20-30 % horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.5,
+      "note": "Teneurs nitrates < 10 mg/L ; agriculture extensive dominante, peu d'intrants"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 9.0,
+      "note": "Aucune contamination PFAS significative détectée ; industrie quasi absente"
+    }
+  ],
+  "points_forts": [
+    "Plus de 92 % des masses d'eau superficielles en bon état écologique (DCE 2022), rang parmi les 5 meilleurs départements français",
+    "Densité hydrographique exceptionnelle : ~7 000 km de cours d'eau, dont les sources du Lot, du Tarn et de la Truyère (Agence de l'Eau Adour-Garonne)",
+    "Teneurs en nitrates inférieures à 10 mg/L dans la majorité des captages AEP, bien en dessous du seuil réglementaire de 50 mg/L (ARS Occitanie 2023)",
+    "Absence de contamination aux polluants émergents (PFAS, pesticides) liée à la faiblesse de l'agriculture intensive et de l'industrie (BRGM 2023)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits estivaux de 20 à 30 % à l'horizon 2060 sur les bassins versants cévenols (Explore2/DRIAS), menaçant l'alimentation en eau potable des communes rurales isolées",
+    "Vulnérabilité des captages karstiques (Grands Causses) aux épisodes de turbidité post-orage, fréquence accrue avec l'intensification des précipitations extrêmes (Climadiag 2024)",
+    "Tension saisonnière estivale croissante liée à l'afflux touristique (~1,5 million de visiteurs/an) sur une population permanente de seulement 73 000 habitants"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7 000 km",
+      "label": "Réseau hydrographique total"
+    },
+    {
+      "valeur": "92 %",
+      "label": "Masses d'eau en bon état DCE"
+    },
+    {
+      "valeur": "< 10 mg/L",
+      "label": "Nitrates moyens captages AEP"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Réduction débit estival 2060 (Explore2)"
+    }
+  ],
+  "sources": [
+    "ARS Occitanie – Bilan qualité eaux 2023",
+    "Agence de l'Eau Adour-Garonne / Rhône-Méditerranée – DCE 2022",
+    "Explore2 / DRIAS – Projections hydrologiques 2060",
+    "BRGM – Surveillance PFAS eaux souterraines 2023"
+  ],
+  "limites": [
+    "Le réseau de surveillance des eaux est moins dense qu'en zones urbaines ou agricoles intensives, laissant des angles morts sur certains petits bassins versants lozériens",
+    "Les données PFAS restent partielles en Lozère, la surveillance nationale n'étant pleinement déployée qu'en 2023-2024, rendant les comparaisons interdépartementales encore fragiles",
+    "Les projections Explore2 présentent une incertitude élevée sur les petits bassins karstiques des Causses, dont le comportement hydrologique est difficile à modéliser à fine échelle"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne présente une qualité de l'air globalement correcte en contexte rural dominant, avec des concentrations en PM2,5 estimées entre 10 et 13 µg/m³ selon ATMO Grand Est, valeurs proches du seuil OMS 2021 (5 µg/m³) mais inférieures aux normes européennes actuelles (25 µg/m³). Le NO₂ reste modéré en dehors de l'agglomération rémoise, où les axes structurants (A4, N44) génèrent des pics ponctuels mesurés autour de 20-30 µg/m³ (ATMO Grand Est 2022). La grande plaine céréalière et viticole champenoise est une source notable d'émissions ammoniacales (NH₃), les pratiques de fertilisation azotée intensive classant la Marne parmi les départements agricoles les plus émetteurs de France selon le Citepa (inventaire OMINEA 2022). La faible densité industrielle hors secteur agroalimentaire et champagne constitue un facteur favorable, mais les épisodes de particules printaniers liés aux travaux agricoles et aux brûlis résiduels dégradent périodiquement les indices de qualité de l'air.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 10-13 µg/m³, au-dessus seuil OMS mais sous norme UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ faible hors Reims, axes routiers à surveiller localement"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Faible densité industrielle émettrice, secteur agroalimentaire dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "NH₃ agricole élevé, grande plaine céréalière intensive très émettrice"
+    }
+  ],
+  "points_forts": [
+    "Concentrations NO₂ inférieures à 30 µg/m³ sur la quasi-totalité du territoire rural marnais (ATMO Grand Est 2022)",
+    "Absence de grande zone industrielle polluante type sidérurgie ou chimie lourde, contrairement à d'autres départements Grand Est",
+    "Indice ATMO quotidien classé \"bon\" ou \"moyen\" plus de 75 % des jours de l'année selon le bilan ATMO Grand Est 2022",
+    "Couverture du réseau de surveillance étendue avec stations Reims-Croix du Sud et Épernay permettant un suivi précis des épisodes"
+  ],
+  "vigilances": [
+    "Émissions NH₃ agricoles structurellement élevées : la Marne figure parmi les 15 premiers départements français émetteurs d'ammoniac, avec un impact direct sur la formation de particules secondaires (PM2,5) (Citepa/OMINEA 2022)",
+    "Épisodes printaniers récurrents de pics de particules liés aux travaux de semis et à la pollinisation, pouvant faire passer l'indice ATMO en catégorie \"mauvais\" plusieurs jours par an",
+    "L'agglomération rémoise (220 000 habitants) reste exposée à des dépassements ponctuels des valeurs guides OMS pour les PM2,5 et l'ozone estival (O₃ > 120 µg/m³ sur 8h), tendance susceptible de s'aggraver avec le réchauffement climatique d'ici 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-13 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "20-30 µg/m³",
+      "label": "NO₂ pic agglomération rémoise"
+    },
+    {
+      "valeur": "~75 %",
+      "label": "Jours indice ATMO bon/moyen"
+    },
+    {
+      "valeur": "Top 15 national",
+      "label": "Émissions NH₃ agricoles"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2022",
+    "Citepa – Inventaire OMINEA 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DREAL Grand Est – Données émissions atmosphériques 2022"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur Reims et Épernay, laissant la vaste plaine agricole marnaise sans surveillance directe des PM et NH₃ au sol",
+    "Les données d'émissions NH₃ par département sont des estimations modélisées (Citepa) et non des mesures directes, introduisant une incertitude sur le classement réel de la Marne",
+    "L'impact de la viticulture champenoise (traitements phytosanitaires, COV émis) sur la qualité de l'air local est peu documenté à l'échelle départementale faute d'études spécifiques publiées"
+  ]
+}

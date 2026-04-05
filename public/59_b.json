@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Nord (59) présente l'un des bilans biodiversité les plus défavorables de France métropolitaine, reflet d'une artificialisation massive et d'un héritage industriel lourd : avec seulement 2,8 % de son territoire classé en zones Natura 2000, il figure parmi les 5 départements les moins couverts (INPN 2024). La densité de population (450 hab/km²) et l'emprise urbaine et agricole intensive laissent peu d'espace aux habitats naturels, réduisant les corridors écologiques à des fragments isolés le long de l'Aa, de la Scarpe et de l'Escaut (OFB 2024). L'INPN recense moins de 15 % de zones humides en bon état fonctionnel dans le département, quand la plaine maritime flamande et les wateringues concentrent des espèces à fort enjeu comme le Courlis cendré et la Loutre d'Europe, toutes deux en déclin documenté (LPO Hauts-de-France 2023). La fragmentation des habitats est aggravée par le réseau routier ultra-dense (>12 000 km de voies), limitant drastiquement la fonctionnalité des trames verte et bleue (SRCE Hauts-de-France révisé 2022). Le score de 2,5/10 place le Nord au rang 93/96, témoignant d'une pression anthropique exceptionnelle sur les milieux naturels résiduels.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 2.0,
+      "note": "Seulement 2,8 % du territoire en zones Natura 2000, parmi les plus faibles"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 3.0,
+      "note": "Aucun parc national ; PNR Scarpe-Escaut partiel, faible emprise territoriale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 3.0,
+      "note": "Courlis cendré, Loutre, Triton crêté menacés ; populations fragmentées et déclinantes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 2.0,
+      "note": "Corridors fortement fragmentés par urbanisation dense et infrastructure routière"
+    }
+  ],
+  "points_forts": [
+    "Le PNR Scarpe-Escaut, premier parc naturel régional de France (créé 1968), protège ~50 000 ha de zones humides et forêts alluviales",
+    "La plaine maritime flamande et les wateringues abritent des habitats hygrophiles rares, référencés dans les cahiers d'habitats Natura 2000 (INPN 2024)",
+    "Des programmes de restauration de zones humides menés par le Conservatoire d'espaces naturels (CEN Hauts-de-France) ont permis la recolonisation de la Loutre d'Europe sur la Scarpe",
+    "Le réseau d'observateurs bénévoles de la LPO Nord-Pas-de-Calais constitue une base de données floristiques et faunistiques parmi les plus denses de France pour un territoire urbain"
+  ],
+  "vigilances": [
+    "L'artificialisation progresse à un rythme de ~1 200 ha/an dans le Nord (CEREMA 2023), menaçant les dernières continuités écologiques identifiées dans le SRCE",
+    "Le déclin des populations d'oiseaux agricoles (vanneaux, pluviers, alouettes) atteint -40 % en 20 ans sur les plaines cultivées (STOC/LPO 2023), sans tendance de retournement visible",
+    "Les zones humides résiduelles sont exposées à une pollution chronique aux métaux lourds et HAP issus des friches industrielles, compromettant la qualité des habitats pour la faune aquatique (OFB/BRGM 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "2,8 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~50 000 ha",
+      "label": "Surface PNR Scarpe-Escaut"
+    },
+    {
+      "valeur": "-40 %",
+      "label": "Déclin oiseaux agricoles (20 ans)"
+    },
+    {
+      "valeur": "<15 %",
+      "label": "Zones humides en bon état"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Hauts-de-France 2023",
+    "SRCE Hauts-de-France 2022 (révisé)",
+    "CEREMA 2023 / CEN Hauts-de-France"
+  ],
+  "limites": [
+    "Les données INPN sur la présence d'espèces dans le Nord souffrent de lacunes d'inventaire dans les zones périurbaines denses, sous-estimant potentiellement certaines populations résiduelles",
+    "Le périmètre du PNR Scarpe-Escaut chevauche la frontière belge, rendant difficile une évaluation strictement départementale de l'efficacité de la protection",
+    "Les indicateurs de fragmentation des corridors ne disposent pas d'une méthodologie standardisée nationale permettant une comparaison rigoureuse rang-à-rang entre les 96 départements"
+  ]
+}

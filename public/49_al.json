@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire affiche un profil alimentaire solide (7,0/10, parmi les 40 meilleurs départements français), porté par une agriculture diversifiée couvrant environ 370 000 ha de SAU (soit 73% du territoire départemental, source Agreste 2023). Le département concentre un nombre significatif de signes officiels de qualité et d'origine, avec notamment les vins d'Anjou et de Saumur représentant plusieurs AOP/IGP reconnues par l'INAO, faisant de la Loire-Anjou l'un des vignobles AOP les plus denses du grand Ouest. La part de la SAU conduite en agriculture biologique atteint environ 13% (Agence Bio 2023), légèrement au-dessus de la moyenne nationale (~10,4%), traduisant une dynamique de conversion soutenue depuis 2015. Les circuits courts y sont bien développés, avec plus de 1 200 exploitations pratiquant la vente directe recensées (Agreste RGA 2020), et une densité d'AMAP supérieure à la moyenne régionale Pays de la Loire. L'autonomie alimentaire reste toutefois partielle, le territoire restant dépendant des flux extérieurs pour certains produits transformés (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie alimentaire partielle, dépendance aux filières de transformation extérieures (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Vignoble Anjou-Saumur : nombreuses AOP/IGP vins, ardoises, rosés reconnus INAO"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "~13% SAU bio, au-dessus moyenne nationale 10,4% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.5,
+      "note": "Plus de 1 200 exploitations vente directe, réseau AMAP actif (RGA 2020)"
+    }
+  ],
+  "points_forts": [
+    "Vignoble Anjou-Saumur parmi les plus denses AOP de France : plus de 15 appellations reconnues INAO couvrant ~25 000 ha",
+    "Agriculture biologique dynamique avec 13% de SAU certifiée bio, en progression de +40% entre 2018 et 2023 (Agence Bio 2023)",
+    "Plus de 1 200 exploitations pratiquant la vente directe recensées au RGA 2020, densité supérieure à la moyenne régionale",
+    "Forte diversification agricole (maraîchage, horticulture, viticulture, élevage) limitant la mono-dépendance d'une filière unique"
+  ],
+  "vigilances": [
+    "Pression sur la ressource en eau pour l'irrigation viticole et maraîchère en contexte de sécheresses estivales croissantes (projections DRIAS 2060 : +15 à +20 jours de sécheresse)",
+    "Dépendance partielle aux intrants extérieurs et à l'agro-industrie pour la transformation, fragilisant l'autonomie alimentaire locale (ZAVA 2024)",
+    "Risque de régression des surfaces bio face à la crise de consommation nationale des produits biologiques observée depuis 2022 (Agence Bio 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "73%",
+      "label": "SAU / surface dép."
+    },
+    {
+      "valeur": "13%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "15+",
+      "label": "Appellations AOP/IGP vins"
+    },
+    {
+      "valeur": "1 200+",
+      "label": "Exploitations vente directe"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Chiffres clés régions",
+    "INAO 2024 – Registre AOP/IGP",
+    "Agreste RGA 2020 – Maine-et-Loire",
+    "ZAVA 2024 – Zones à autonomie alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent expérimentales et le périmètre de calcul de l'autonomie alimentaire peut varier selon les méthodologies, limitant les comparaisons inter-départementales précises",
+    "La part de SAU bio déclarée ne renseigne pas sur la qualité agronomique effective des pratiques ni sur les conversions abandonnées en cours de certification",
+    "La densité d'AMAP et circuits courts n'est pas systématiquement mise à jour entre deux recensements agricoles (dernier RGA 2020), rendant l'évaluation partielle pour la période récente 2022-2024"
+  ]
+}

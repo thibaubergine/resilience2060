@@ -1,0 +1,65 @@
+{
+  "synthese": "La Lozère constitue un sanctuaire de biodiversité exceptionnel à l'échelle nationale, avec près de 63 % de son territoire classé en zones Natura 2000 (INPN, 2024), soit le taux le plus élevé des départements français métropolitains. Le département abrite le Parc National des Cévennes, seul parc national de plaine-montagne en France et réserve de biosphère UNESCO depuis 1985, couvrant environ 91 000 ha de zone cœur. Plus de 3 500 espèces végétales et une avifaune remarquable — dont le vautour fauve réintroduit avec succès (plus de 700 individus recensés, LPO 2023) — illustrent la richesse faunistique et floristique du territoire. Les corridors écologiques reliant les massifs du Massif Central (Margeride, Aubrac, Mont Lozère) aux garrigues cévenoles sont fonctionnels et peu fragmentés, classant la Lozère parmi les départements les moins artificialisés de France avec seulement 2,8 % de surfaces imperméabilisées (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 10,
+      "note": "63 % du territoire classé Natura 2000, record métropolitain national"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 10,
+      "note": "Parc National Cévennes + PNR Aubrac + PNR Grands Causses couvrant territoire"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Vautour fauve, loutre, desman des Pyrénées, orchidées rares bien présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 9.0,
+      "note": "Corridors Margeride-Aubrac-Cévennes peu fragmentés, faible artificialisation"
+    }
+  ],
+  "points_forts": [
+    "63 % du territoire en zones Natura 2000, le plus fort taux de France métropolitaine (INPN, 2024)",
+    "Parc National des Cévennes : seule réserve de biosphère UNESCO de France méridionale, 91 000 ha en zone cœur",
+    "Réintroduction réussie du vautour fauve : plus de 700 individus comptabilisés dans les gorges de la Jonte et du Tarn (LPO, 2023)",
+    "Seulement 2,8 % de surfaces artificialisées, garantissant des habitats naturels quasi intacts (OFB, 2024)"
+  ],
+  "vigilances": [
+    "Changement climatique : hausse projetée de +2,5 °C à +3,5 °C d'ici 2060 (Climadiag, DRIAS) menaçant les espèces d'altitude comme le desman des Pyrénées et les tourbières du Mont Lozère",
+    "Colonisation par des espèces exotiques envahissantes (renouée du Japon, vison d'Amérique) progressant le long des cours d'eau cévenols, fragilisant les écosystèmes rivulaires (OFB, 2024)",
+    "Déprise agricole et fermeture des milieux ouverts (pelouses sèches, landes) réduisant la diversité des habitats favorables à l'avifaune steppique et aux insectes pollinisateurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "63 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "91 000 ha",
+      "label": "Zone cœur PNC"
+    },
+    {
+      "valeur": "700+",
+      "label": "Vautours fauves recensés"
+    },
+    {
+      "valeur": "2,8 %",
+      "label": "Surfaces artificialisées"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN / MNHN 2024",
+    "LPO Rapport annuel 2023",
+    "Parc National des Cévennes / UNESCO MAB"
+  ],
+  "limites": [
+    "Les inventaires INPN peuvent sous-représenter certains groupes taxonomiques (invertébrés, champignons) faute de prospections exhaustives en zone rurale isolée",
+    "Le suivi de l'état de conservation des habitats Natura 2000 reste partiel : moins de 40 % des sites lozériens disposent d'évaluations DOCOB actualisées après 2018",
+    "L'absence de données standardisées sur la fragmentation nocturne (pollution lumineuse, routes) limite l'évaluation précise de la connectivité réelle des corridors écologiques"
+  ]
+}

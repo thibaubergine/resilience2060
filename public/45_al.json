@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret (45) affiche un score alimentaire de 6,5/10, se positionnant favorablement parmi les départements français grâce à une tradition agricole céréalière et maraîchère solide : avec près de 315 000 ha de SAU (Agreste 2023), il constitue l'un des greniers céréaliers du Centre-Val de Loire. Le département bénéficie de plusieurs signes officiels de qualité reconnus, dont le Safran du Gâtinais (IGP) et le Miel du Gâtinais (IGP), témoignant d'une identité agri-alimentaire locale (INAO 2023). La part des exploitations en agriculture biologique reste cependant modeste, autour de 5,2 % de la SAU en bio (Agence Bio 2023), en dessous de la moyenne nationale de 10,7 %. Les circuits courts et les AMAP se développent progressivement, notamment autour d'Orléans et dans le Gâtinais, avec plus de 180 points de vente directe recensés (ZAVA 2024), traduisant une dynamique locale encourageante mais encore perfectible.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Grande SAU céréalière et maraîchère, autonomie locale relative satisfaisante"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "IGP Safran Gâtinais et Miel Gâtinais, palette AOP/IGP limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "5,2 % SAU bio, nettement sous la moyenne nationale (10,7 %)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 180 points vente directe, dynamique AMAP active autour Orléans"
+    }
+  ],
+  "points_forts": [
+    "Agriculture maraîchère et céréalière étendue : 315 000 ha de SAU parmi les plus vastes de la région (Agreste 2023)",
+    "Deux IGP emblématiques — Safran du Gâtinais et Miel du Gâtinais — valorisant des productions locales à haute valeur ajoutée (INAO 2023)",
+    "Plus de 180 points de vente directe recensés dans le département, dont une quinzaine d'AMAP actives autour d'Orléans (ZAVA 2024)",
+    "Dynamique de restauration collective locale croissante avec plusieurs collectivités engagées dans la loi EGAlim (> 50 % produits durables dans certains lycées)"
+  ],
+  "vigilances": [
+    "La part de SAU en agriculture biologique (5,2 %) stagne depuis 2021 et reste très inférieure à l'objectif national de 18 % d'ici 2027 (Agence Bio 2023)",
+    "La dépendance aux grandes cultures céréalières exportatrices fragilise l'autonomie alimentaire locale en cas de perturbations logistiques ou climatiques (sécheresses projetées à +30 % d'ici 2050, DRIAS 2023)",
+    "La pression foncière périurbaine autour d'Orléans Métropole menace des terres agricoles à haute valeur maraîchère, avec une perte estimée à plusieurs centaines d'hectares par décennie (SAFER Centre-Val de Loire)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "315 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "5,2 %",
+      "label": "Part SAU en bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "2 IGP",
+      "label": "Safran & Miel du Gâtinais (INAO 2023)"
+    },
+    {
+      "valeur": "180+",
+      "label": "Points vente directe (ZAVA 2024)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones Alimentaires à Vocation Agricole)",
+    "INAO 2023 (registre AOP/IGP national)",
+    "Agence Bio 2023 (observatoire national agriculture biologique)",
+    "Agreste Centre-Val de Loire 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur les circuits courts sont déclaratives et peuvent sous-estimer les ventes directes informelles dans les zones rurales du Loiret",
+    "L'IGP Safran du Gâtinais concerne des volumes très faibles (quelques dizaines de kilos annuels), limitant son impact territorial réel sur l'économie alimentaire locale",
+    "L'absence de données communales désagrégées sur la restauration collective rend difficile l'évaluation précise du taux réel d'approvisionnement local dans les cantines du département"
+  ]
+}

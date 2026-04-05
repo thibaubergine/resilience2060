@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse (55), département continental du Grand Est, présente une vulnérabilité climatique intermédiaire à l'horizon 2060, avec une altitude moyenne de 280 m offrant un tampon thermique modéré face aux vagues de chaleur (Climadiag 2023). Les projections DRIAS 2050-2070 indiquent une augmentation de +2,2°C à +3,1°C des températures estivales selon les scénarios RCP4.5 et RCP8.5, avec un passage de 5 à 20 jours de canicule annuels d'ici 2060 (Météo-France/DRIAS 2022). Le département est traversé par la Meuse et ses affluents, ce qui génère un risque d'inondations persistant, aggravé par l'intensification des pluies intenses hivernales projetée par les modèles TRACC (+15 % d'intensité des précipitations extrêmes). En revanche, la faible densité de végétation méditerranéenne et le contexte forestier tempéré (forêts de hêtres et de chênes) limitent significativement le risque feux de forêt comparé aux départements du sud, classant la Meuse dans une position relativement favorable sur ce critère (GéoRisques 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude ~280 m, relief argonnais modère les pics thermiques estivaux"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+20 jours de canicule projetés/an d'ici 2060, exposition continentale croissante"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Forêts tempérées feuillues, risque feux très faible comparé aux 96 départements"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Vallée de la Meuse inondable, crues récurrentes aggravées par pluies intenses"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 280 m et relief de l'Argonne assurent un tampon thermique réel, limitant les pics extrêmes de chaleur par rapport aux plaines du sud",
+    "Risque feux de forêt très faible : forêts de hêtres et de chênes résistantes, absence de végétation xérophyte, classement GéoRisques 2023 parmi les 15 départements les moins exposés",
+    "Faible imperméabilisation des sols (taux d'artificialisation ~5,3 % en 2022, sous la moyenne nationale), limitant le ruissellement urbain lors des épisodes pluvieux intenses",
+    "Ensoleillement et régime thermique actuel encore favorable à une agriculture diversifiée, offrant une capacité d'adaptation progressive aux nouvelles conditions climatiques (AP3C Grand Est 2023)"
+  ],
+  "vigilances": [
+    "Multiplication des épisodes caniculaires : passage de 5 à 20 jours/an de canicule d'ici 2060 (scénario RCP8.5, DRIAS 2022), population rurale âgée particulièrement vulnérable",
+    "Risque inondations en hausse dans la vallée de la Meuse : crues centennales susceptibles de survenir tous les 30-40 ans d'ici 2070 selon les projections Explore2/TRACC 2023",
+    "Stress hydrique agricole estival croissant : déficit hydrique potentiel en juillet-août estimé à +30 % à l'horizon 2060, menaçant cultures céréalières et élevages (DRIAS/Chambre Agriculture 55)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,7°C",
+      "label": "Réchauffement moyen projeté 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "~20 j",
+      "label": "Jours de canicule annuels estimés à 2060"
+    },
+    {
+      "valeur": "5,3 %",
+      "label": "Taux artificialisation des sols (2022)"
+    },
+    {
+      "valeur": "280 m",
+      "label": "Altitude moyenne départementale"
+    }
+  ],
+  "sources": [
+    "DRIAS 2022 / Météo-France",
+    "Climadiag Communes 2023",
+    "TRACC / Explore2 2023",
+    "GéoRisques 2023 / AP3C Grand Est"
+  ],
+  "limites": [
+    "Les projections DRIAS sont établies à l'échelle régionale Grand Est et manquent de granularité infra-départementale pour la Meuse, dont les microclimats (Argonne, plateau lorrain) sont hétérogènes",
+    "L'absence d'un observatoire climatique local dédié à la Meuse limite la validation des données Climadiag par des relevés terrain systématiques sur l'ensemble du territoire",
+    "Les scénarios de risque inondation ne prennent pas suffisamment en compte les effets cumulés des aménagements hydrauliques historiques (canaux, retenues) sur les dynamiques de crue à l'horizon 2060"
+  ]
+}

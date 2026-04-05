@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme affiche une qualité de l'air globalement favorable, bénéficiant d'un relief volcanique qui favorise la dispersion des polluants en dehors des fonds de vallées et de l'agglomération clermontoise. Les concentrations annuelles moyennes en PM2,5 relevées par ATMO Auvergne-Rhône-Alpes oscillent autour de 8–10 µg/m³ en zone rurale, restant inférieures à la valeur guide OMS 2021 de 5 µg/m³ en altitude mais dépassant ponctuellement ce seuil en milieu urbain dense. Les niveaux de NO₂ à Clermont-Ferrand, principale source de pollution urbaine du département, atteignent environ 20–25 µg/m³ en moyenne annuelle, bien en deçà du seuil réglementaire européen de 40 µg/m³ (ATMO AuRA, 2022). Le tissu industriel, dominé par le pôle Michelin et quelques installations classées, génère des émissions localisées mais maîtrisées grâce aux plans de réduction imposés par les arrêtés préfectoraux. L'agriculture auvergnate, orientée vers l'élevage bovin extensif, contribue aux émissions d'ammoniac NH₃, représentant environ 85 % des émissions agricoles azotées du département selon le Citepa, bien que la densité d'élevage reste modérée comparée aux bassins laitiers intensifs du Grand Ouest.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 ruraux ~8–10 µg/m³, légèrement au-dessus seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ Clermont ~22 µg/m³, très inférieur au seuil européen 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Tissu industriel modéré, Michelin dominant, émissions encadrées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 9.0,
+      "note": "Élevage extensif bovin, densité NH₃ faible vs bassins intensifs nationaux"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air rurale très satisfaisante : PM2,5 inférieures à 10 µg/m³ sur plus de 80 % du territoire départemental (ATMO AuRA, 2022)",
+    "NO₂ urbain à Clermont-Ferrand bien maîtrisé (~22 µg/m³), sans dépassement du seuil réglementaire européen depuis plusieurs années consécutives",
+    "Absence de zone en dépassement réglementaire pour l'ozone en fond rural, grâce à l'altitude moyenne élevée favorisant la dispersion photochimique (ATMO AuRA)",
+    "Tissu industriel relativement peu dense hors agglomération clermontoise, limitant les points d'émission diffuse de polluants atmosphériques"
+  ],
+  "vigilances": [
+    "Épisodes hivernaux de pollution aux particules fines (PM2,5 et PM10) en fond de vallée et basin clermontois lors des inversions thermiques, susceptibles de s'intensifier avec le changement climatique (ATMO AuRA)",
+    "Émissions d'ammoniac agricoles (NH₃) issues de l'élevage bovin contribuant à la formation de particules secondaires ; enjeu croissant avec l'intensification potentielle des élevages (Citepa 2022)",
+    "Trafic routier sur l'axe A71/A75 générant des niveaux de NO₂ localement élevés en bordure d'infrastructure, avec des projections de hausse de fréquentation à horizon 2035"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~22 µg/m³",
+      "label": "NO₂ moyen Clermont-Ferrand"
+    },
+    {
+      "valeur": "~9 µg/m³",
+      "label": "PM2,5 moyen urbain"
+    },
+    {
+      "valeur": "8.5/10",
+      "label": "Score Air départemental"
+    },
+    {
+      "valeur": "Rang 9/96",
+      "label": "Classement national Air"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes 2022",
+    "OMS Guidelines 2021 (seuils PM2,5 / NO₂)",
+    "Citepa – Inventaire national émissions 2022",
+    "Préfecture 63 – Arrêtés ICPE Michelin"
+  ],
+  "limites": [
+    "Les données de surveillance ATMO reposent sur un réseau de capteurs concentré sur l'agglomération clermontoise, laissant de larges zones rurales et montagneuses du Massif Central sous-représentées",
+    "Les émissions NH₃ agricoles sont estimées par modélisation à l'échelle nationale (Citepa) sans mesures terrain spécifiques au département, induisant une incertitude sur les valeurs locales",
+    "L'impact des épisodes de feux de végétation en altitude (Chaîne des Puys) sur la qualité de l'air locale est insuffisamment documenté dans les bilans annuels disponibles"
+  ]
+}

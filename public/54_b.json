@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle présente une biodiversité contrastée, avec environ 8,2 % de son territoire couvert par des zones Natura 2000 (INPN, 2024), un taux inférieur à la moyenne nationale (12,6 %), reflétant la pression exercée par l'urbanisation de la métropole nancéienne et l'agriculture intensive des plateaux lorrains. Le département abrite néanmoins des habitats remarquables, notamment les prairies humides de la vallée de la Moselle, les forêts alluviales et les pelouses calcaires du Pays Haut, qui constituent des réservoirs de biodiversité identifiés dans le SRCE Grand Est (OFB, 2024). Aucun Parc National ne couvre le territoire, mais la proximité du Parc Naturel Régional de Lorraine influence partiellement la gestion écologique d'une frange ouest du département. Les corridors écologiques restent fragmentés par l'infrastructure autoroutière dense (A31, A4) et les zones industrielles héritées de la sidérurgie, compromettant la connectivité entre massifs forestiers (LPO Lorraine, 2023). Le département compte environ 1 800 espèces végétales inventoriées et plusieurs espèces animales d'intérêt communautaire, dont le Grand Murin et la Cigogne blanche, dont les populations demeurent sous surveillance (INPN, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Couverture Natura 2000 à 8,2 %, sous la moyenne nationale de 12,6 %"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 4.0,
+      "note": "Aucun Parc National ; PNR de Lorraine couvre partiellement le département"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Grand Murin, Cigogne blanche, pelouses calcaires abritant espèces protégées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par A31, A4 et friches industrielles sidérurgiques"
+    }
+  ],
+  "points_forts": [
+    "Environ 8,2 % du territoire classé Natura 2000, incluant zones humides de la vallée de la Moselle et forêts alluviales (INPN, 2024)",
+    "Présence de pelouses calcaires remarquables du Pays Haut, habitats prioritaires abritant des orchidées sauvages rares (LPO Lorraine, 2023)",
+    "Population de Cigogne blanche en reconquête progressive depuis les années 2000, signe d'amélioration partielle des zones humides",
+    "Réseau de forêts publiques géré par l'ONF représentant environ 30 % de la superficie départementale, contribuant à la trame verte"
+  ],
+  "vigilances": [
+    "Fragmentation croissante des corridors écologiques par l'urbanisation de l'axe Nancy-Metz, avec une artificialisation des sols estimée à +4 % entre 2010 et 2020 (CEREMA, 2023)",
+    "Déclin des populations d'insectes pollinisateurs dans les zones agricoles intensives des plateaux lorrains, menaçant la pollinisation de 35 % des cultures départementales (OFB, 2024)",
+    "Pression des espèces exotiques envahissantes (Renouée du Japon, Balsamine de l'Himalaya) sur les berges de la Moselle et de la Meurthe, colonisation en progression documentée depuis 2015 (INPN, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,2 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Forêts publiques (ONF)"
+    },
+    {
+      "valeur": "1 800+",
+      "label": "Espèces végétales inventoriées"
+    },
+    {
+      "valeur": "0",
+      "label": "Parc National sur le territoire"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Lorraine 2023",
+    "SRCE Grand Est / DREAL Grand Est",
+    "CEREMA 2023"
+  ],
+  "limites": [
+    "Les inventaires INPN sont partiels pour certaines communes rurales du nord du département, limitant la précision des évaluations d'espèces",
+    "L'impact réel des friches industrielles reconverties sur la biodiversité locale est peu documenté faute de suivis écologiques systématiques post-réhabilitation",
+    "Les données sur l'état des corridors écologiques manquent de mise à jour récente, le SRCE Grand Est datant de 2020 sans révision publiée depuis"
+  ]
+}

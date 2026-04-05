@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle (54), département continental de plaine et collines (altitude moyenne ~300 m), présente une vulnérabilité climatique modérée selon les projections DRIAS 2060. Les scénarios SSP3-7.0 anticipent une hausse de +2,5 à +3,5°C des températures moyennes estivales d'ici 2060, avec une multiplication par 2 à 3 des journées de canicule (>35°C) à Nancy (Météo-France/Climadiag 2023). Le territoire est exposé aux crues de la Moselle et de la Meurthe, classées parmi les cours d'eau à risque important d'inondation (TRI Nancy, PGRI Rhin-Meuse 2022), avec des épisodes de crue centennale réévalués à la hausse sous effet climatique. Le risque feux de forêt demeure limité mais croissant, les massifs vosgiens voisins et les forêts de Haye (~10 000 ha) étant suivis dans le cadre du plan national de protection des forêts (DFCI/ONF 2023). La position géographique intérieure, sans façade maritime, protège le département des submersions côtières mais l'expose pleinement aux épisodes de sécheresse agricole récurrents depuis 2018 (INRAE/Chambres d'agriculture Grand Est).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne 280-350 m, effet tampon thermique partiel continental"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+3°C prévu d'ici 2060, canicules multipliées par 3 à Nancy"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts limitées, risque feux faible mais croissant (forêt de Haye)"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 3.0,
+      "note": "TRI Nancy, crues Moselle/Meurthe, inondations récurrentes documentées"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt parmi les plus faibles du Grand Est : massifs peu étendus et humidité continentale encore favorable (ONF 2023)",
+    "Altitude collinaire (280-400 m sur le plateau lorrain) offrant un léger tampon thermique par rapport aux plaines alsaciennes ou champenoises",
+    "Absence totale de vulnérabilité côtière, éliminant tout risque de submersion marine et d'érosion littorale",
+    "Plan de Gestion des Risques Inondation (PGRI Rhin-Meuse 2022) actif avec cartographie TRI Nancy et mesures de réduction de la vulnérabilité engagées"
+  ],
+  "vigilances": [
+    "Intensification des crues de la Moselle et de la Meurthe : les scénarios DRIAS projettent des crues centennales aux fréquences recalculées à 50 ans d'ici 2060, impactant ~25 000 habitants en zone inondable (PGRI 2022)",
+    "Multiplication des vagues de chaleur à Nancy : de 2 épisodes/an en moyenne (1990-2020) à 5-7 épisodes/an projetés à l'horizon 2060 (Climadiag/Météo-France 2023), avec vulnérabilité accrue des populations âgées",
+    "Sécheresses estivales répétées depuis 2018 fragilisant les nappes alluviales de la Moselle et les sols agricoles (arrêtés sécheresse reconductibles depuis 2019, DREAL Grand Est)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse T° moyenne projetée 2060 (SSP3)"
+    },
+    {
+      "valeur": "~25 000",
+      "label": "Habitants en zone inondable TRI Nancy"
+    },
+    {
+      "valeur": "10 000 ha",
+      "label": "Surface forêt de Haye surveillée DFCI"
+    },
+    {
+      "valeur": "280-400 m",
+      "label": "Altitude moyenne plateau lorrain (m)"
+    }
+  ],
+  "sources": [
+    "Climadiag/Météo-France 2023",
+    "DRIAS 2.0 – DREAL Grand Est",
+    "PGRI Rhin-Meuse 2022 – DRIEAT",
+    "ONF/DFCI – Plan national forêt 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles couvrent des mailles de 8 km, insuffisantes pour différencier les microclimats du plateau lorrain, de la vallée de la Moselle et des contreforts vosgiens au sein même du département",
+    "L'indice Climadiag communal n'est pas encore déployé pour l'ensemble des 594 communes du 54, limitant la granularité infra-départementale de l'analyse canicule",
+    "Les données sur l'évolution du risque feux en forêt de Haye restent partielles : aucun plan DFCI spécifique validé à l'échelle de ce massif péri-urbain nancéien n'est publiquement disponible à ce jour"
+  ]
+}

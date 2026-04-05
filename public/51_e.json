@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne présente une situation hydrique contrastée : si la nappe de la craie champenoise constitue une ressource volumineuse, elle est soumise à une pression agricole intense avec 68 % du territoire en zone vulnérable nitrates (arrêté préfectoral 2022). Les projections Explore2 (2023) indiquent une réduction des débits moyens annuels des cours d'eau (Marne, Vesle, Aisne amont) de l'ordre de 10 à 25 % à l'horizon 2050-2070 sous scénario intermédiaire. La qualité de l'eau potable reste perfectible : environ 12 % des unités de distribution ont présenté des dépassements ponctuels de la limite de qualité pour les nitrates ou pesticides selon l'ARS Grand Est (2022). Des contaminations aux PFAS ont été détectées dans plusieurs captages du département, notamment en lien avec les zones industrielles et aérodromes (données ANSES/préfecture 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "12 % UDI en dépassement ponctuel nitrates/pesticides (ARS 2022)"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Réduction débits -10 à -25 % prévue horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "68 % territoire en zone vulnérable nitrates, pression viticole/céréalière"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés ponctuellement, captages concernés limités en nombre"
+    }
+  ],
+  "points_forts": [
+    "La nappe de la craie champenoise offre une capacité de stockage naturelle importante, assurant un soutien d'étiage non négligeable aux cours d'eau en période sèche",
+    "Le lac du Der-Chantecoq (4 800 ha), plus grand lac artificiel de France, joue un rôle stratégique de régulation des crues de la Marne et de soutien d'étiage (VNF)",
+    "Plusieurs captages prioritaires bénéficient de programmes agro-environnementaux actifs dans leurs aires d'alimentation (PAT et AAC, AEAP 2021-2026)",
+    "Le taux de conformité microbiologique de l'eau potable dépasse 98 % dans la majorité des communes de la Marne (ARS Grand Est, 2022)"
+  ],
+  "vigilances": [
+    "Les projections Explore2 (2023) anticipent une baisse significative des débits d'étiage (jusqu'à -40 % en été pour certains affluents), menaçant les prélèvements agricoles et l'alimentation en eau potable",
+    "La contamination chronique aux nitrates et pesticides (métabolites de chlorothalonil, AMPA) dans la nappe crayeuse compromet la conformité durable de nombreux captages",
+    "La présence de PFAS détectée à proximité de sites industriels et de l'aérodrome de Vatry constitue un risque émergent insuffisamment cartographié à ce stade (ANSES 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "68 %",
+      "label": "Territoire en zone vulnérable nitrates"
+    },
+    {
+      "valeur": "-10 à -25 %",
+      "label": "Réduction débits prévue à 2060 (Explore2)"
+    },
+    {
+      "valeur": "4 800 ha",
+      "label": "Surface lac du Der-Chantecoq"
+    },
+    {
+      "valeur": "98 %",
+      "label": "Conformité microbiologique eau potable"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB 2023)",
+    "ARS Grand Est – Bilan qualité eau potable 2022",
+    "Agence de l'eau Rhin-Meuse / Artois-Picardie – DCE 2022",
+    "ANSES – Campagne PFAS captages 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages marnais restent partielles : la campagne nationale de mesure (ANSES 2023) n'est pas encore exhaustive à l'échelle de tous les points de prélèvement du département",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle locale des sous-bassins versants marnais, rendant difficile la planification fine de la gestion de l'eau",
+    "L'état écologique des masses d'eau de surface (Vesle, Suippe) est évalué à un pas de temps pluriannuel (DCE), ce qui peut masquer des dégradations ponctuelles récentes liées aux sécheresses 2022-2023"
+  ]
+}

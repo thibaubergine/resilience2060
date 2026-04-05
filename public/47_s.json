@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne présente une situation contrastée sur la dimension sols, avec une agriculture intensive en fruits et légumes (premier département français pour la prune d'Ente, important pour la tomate, la fraise) qui génère une pression significative en résidus phytosanitaires détectés dans les sols agricoles (INRAE 2023). Le département compte environ 80 sites ou sols pollués recensés dans la base de données nationale ex-BASOL/SIS, liés notamment à des activités industrielles passées dans l'agglomération agenaise et à des dépôts de carburants. Le risque radon demeure faible à modéré sur la majeure partie du territoire, les formations géologiques dominantes (molasses, alluvions garonnaises) étant peu émettrices (IRSN). En revanche, la part des surfaces agricoles utiles conduites en agriculture biologique reste inférieure à la moyenne nationale, autour de 8-9 % de la SAU départementale, malgré une progression sensible depuis 2018 (Agence Bio 2023). La forte spécialisation arboricole et maraîchère du département constitue le principal facteur de pression sur la qualité des sols, plaçant le Lot-et-Garonne en position intermédiaire dans le classement national.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "Environ 80 sites BASOL/SIS, densité modérée, zones industrielles agenaises"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Forte pression phytosanitaire arboriculture/maraîchage, résidus détectés fréquemment"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Géologie alluviale et molassique, risque radon faible sur la majorité du territoire"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "Part SAU bio ~8-9%, progression notable depuis 2018, supérieure à certains voisins"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de Nouvelle-Aquitaine grâce aux formations alluviales de la Garonne et du Lot (IRSN)",
+    "Progression de l'agriculture biologique : +35 % de surfaces certifiées bio entre 2018 et 2022 (Agence Bio 2023)",
+    "Nombre de sites pollués (ex-BASOL) contenu au regard du tissu industriel historique limité hors agglomération agenaise",
+    "Dynamique de conversion vers des pratiques agricoles moins intrantives portée par les filières Label Rouge et IGP locales"
+  ],
+  "vigilances": [
+    "Contamination des sols agricoles par les pesticides : le Lot-et-Garonne figure parmi les départements à forte utilisation de fongicides et insecticides en arboriculture, avec des IFT (indices de fréquence de traitement) élevés pouvant atteindre 30-40 traitements/an sur certaines cultures",
+    "Érosion et tassement des sols en zone de grandes cultures et de vergers sur coteaux, accentués par les épisodes de pluies intenses projetés à l'horizon 2050 (DRIAS 2023)",
+    "Risque de transfert des polluants des sols vers les nappes souterraines, notamment autour des anciens sites industriels d'Agen et de Marmande, dans un contexte de baisse de la recharge hydrique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites pollués BASOL/SIS"
+    },
+    {
+      "valeur": "8-9 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Niveau risque radon (IRSN)"
+    },
+    {
+      "valeur": "35 %",
+      "label": "Hausse surfaces bio 2018-2022"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base SIS-BASOL (DGPR)",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon des formations géologiques",
+    "Agence Bio – Statistiques départementales 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance systématique des sols agricoles en Lot-et-Garonne rend difficile une cartographie précise de la contamination aux pesticides à l'échelle parcellaire",
+    "Les données ex-BASOL ne couvrent pas les pollutions diffuses liées à l'usage agricole historique (anciens traitements à l'arsenic en viticulture et arboriculture), pouvant sous-estimer le risque réel",
+    "La part SAU bio est calculée sur les surfaces certifiées ou en conversion déclarées, sans tenir compte des pratiques agroécologiques non labellisées, ce qui peut minorer la réalité des efforts de transition"
+  ]
+}

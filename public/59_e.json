@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Nord (59) présente une situation hydrique préoccupante, cumulant des pressions agricoles, industrielles et urbaines intenses sur une ressource déjà fragilisée. La qualité des eaux souterraines est dégradée : selon l'ARS Hauts-de-France, plus de 35 % des captages du département présentent des dépassements de normes en nitrates ou pesticides, plaçant le Nord parmi les départements les plus exposés de France métropolitaine. La nappe de la Craie, principale ressource stratégique du territoire, est classée en mauvais état chimique par la DCE (état des lieux 2022, Agence de l'Eau Artois-Picardie), avec des contaminations aux nitrates, pesticides et PFAS particulièrement documentées dans les zones périurbaines et agricoles. Les projections Explore2 (2023) indiquent une réduction des recharges napphréatiques de 10 à 25 % à l'horizon 2060 dans le bassin Artois-Picardie, aggravant un stress hydrique structurel dans un département déjà fortement consommateur d'eau industrielle et domestique. La présence de PFAS est confirmée dans plusieurs captages du Nord, notamment à proximité de sites industriels historiques (Solvay, zone de Flandre), faisant de cette contamination émergente un enjeu critique pour la décennie à venir.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 3.0,
+      "note": "35% captages non conformes; nappe Craie en mauvais état chimique DCE"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Recharge nappe -10 à -25% horizon 2060 selon Explore2 Artois-Picardie"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 3.0,
+      "note": "Zone vulnérable nitrates totale; dépassements fréquents dans eaux souterraines"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 3.0,
+      "note": "PFAS confirmés plusieurs captages; sites industriels historiques Flandre impliqués"
+    }
+  ],
+  "points_forts": [
+    "Réseau d'alimentation en eau potable assurant une couverture universelle grâce à des interconnexions entre captages (taux de raccordement >99%, ARS 2022)",
+    "La nappe de la Craie représente une ressource volumineuse pouvant soutenir les usages en période non critique (Agence de l'Eau Artois-Picardie)",
+    "Programmes de reconquête de la qualité engagés sur plusieurs aires d'alimentation de captages (AAC) prioritaires, notamment sur la Lys et la Scarpe",
+    "Surveillance renforcée des micropolluants et PFAS depuis 2022, permettant une meilleure cartographie des risques (ARS Hauts-de-France)"
+  ],
+  "vigilances": [
+    "Réduction projetée de la recharge des nappes de 10 à 25 % d'ici 2060 (Explore2, 2023), menaçant la sécurité d'approvisionnement de 2,6 millions d'habitants",
+    "Contamination aux PFAS non résolue sur plusieurs captages stratégiques, avec valeurs guides ANSES (100 ng/L somme PFAS) dépassées à proximité de zones industrielles de Flandre intérieure",
+    "Pression agricole persistante : le Nord est classé en zone vulnérable nitrates sur l'intégralité de son territoire, avec des concentrations dépassant 50 mg/L dans plusieurs masses d'eau souterraines (DCE 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">35%",
+      "label": "Captages non conformes (ARS)"
+    },
+    {
+      "valeur": "-10 à -25%",
+      "label": "Réduction recharge nappe 2060"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé localement"
+    },
+    {
+      "valeur": "100%",
+      "label": "Territoire en zone vulnérable nitrates"
+    }
+  ],
+  "sources": [
+    "ARS Hauts-de-France 2022",
+    "Agence de l'Eau Artois-Picardie – DCE État des lieux 2022",
+    "Explore2 BRGM/OFB 2023",
+    "ANSES – Valeurs guides PFAS 2022"
+  ],
+  "limites": [
+    "Les données de contamination PFAS par captage restent partiellement confidentielles ou non consolidées à l'échelle départementale, rendant l'évaluation du risque réel sous-estimée",
+    "L'état des masses d'eau de surface (Lys, Scarpe, Deûle) est suivi à l'échelle du district Artois-Picardie, rendant difficile l'isolement précis de la part imputable au seul département du Nord",
+    "Les projections Explore2 sont disponibles à l'échelle du bassin hydrographique et non à la maille départementale, introduisant une incertitude sur la territorialisation fine des risques de stress hydrique"
+  ]
+}

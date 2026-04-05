@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle présente un profil alimentaire intermédiaire, avec une Surface Agricole Utile (SAU) de près de 300 000 ha, dominée par les grandes cultures céréalières et les prairies permanentes liées à l'élevage bovin (Agreste 2020). La part de l'agriculture biologique atteint environ 4,5 % de la SAU, soit un niveau légèrement inférieur à la moyenne nationale de 10,7 % (Agence Bio 2023), révélant une transition agroécologique encore limitée. Le département bénéficie de quelques appellations protégées, notamment la Mirabelle de Lorraine (IGP) et la Quetsche de Lorraine, mais leur poids économique reste modeste comparé aux grandes régions viti-vinicoles (INAO 2023). L'autonomie alimentaire territoriale (indicateur ZAVA 2024) est contrainte par la forte urbanisation autour de Nancy et la spécialisation en productions exportatrices, limitant la résilience alimentaire locale face aux tensions d'approvisionnement.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Autonomie alimentaire moyenne, urbanisation nancéienne freine la résilience locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 5.0,
+      "note": "Mirabelle de Lorraine IGP présente, mais faible densité d'appellations"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "Bio à ~4,5% SAU, sous la moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Réseau AMAP actif autour Nancy, circuits courts en développement progressif"
+    }
+  ],
+  "points_forts": [
+    "La Mirabelle de Lorraine (IGP) représente un emblème territorial fort avec environ 70 % de la production mondiale concentrée en Lorraine (INAO 2023)",
+    "Un réseau d'une vingtaine d'AMAP actives dans la métropole du Grand Nancy favorise l'accès aux circuits courts (Réseau AMAP Grand Est 2023)",
+    "La SAU départementale de ~300 000 ha offre une base agricole solide pour une diversification des productions locales (Agreste 2020)",
+    "Des initiatives de PAT (Projet Alimentaire Territorial) en cours dans la métropole du Grand Nancy, labellisées niveau 1 par le MAA, structurent la gouvernance alimentaire locale"
+  ],
+  "vigilances": [
+    "La progression du bio reste lente (+0,3 point/an), risquant de maintenir le département dans le bas du classement national si la tendance ne s'accélère pas d'ici 2030 (Agence Bio 2023)",
+    "La dépendance aux grandes cultures exportatrices (blé, orge, colza) fragilise l'autonomie protéique locale et expose le territoire aux volatilités des marchés internationaux",
+    "Le changement climatique menace directement la production de mirabelles : les épisodes de gel tardif printanier se multiplient, avec des pertes de récolte pouvant dépasser 80 % certaines années (Chambres d'agriculture Grand Est / Climadiag 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~4,5 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~300 000 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "1 IGP majeure",
+      "label": "Mirabelle de Lorraine (INAO)"
+    },
+    {
+      "valeur": "~20 AMAP",
+      "label": "Groupements circuits courts actifs"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Chiffres clés départementaux",
+    "INAO 2023 – Registre AOP/IGP/Label Rouge",
+    "Agreste Grand Est 2020 – Recensement agricole",
+    "ZAVA 2024 – Indicateurs autonomie alimentaire territoriale"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations à maille départementale, peu sensibles aux dynamiques infra-territoriales (secteur rural sud vs. bassin urbain nancéien)",
+    "La superficie en bio peut varier significativement selon les années de conversion/déconversion, rendant les comparaisons inter-départementales instables sur une seule année de référence",
+    "L'inventaire des circuits courts et AMAP souffre d'un déficit de remontées statistiques exhaustives en Meurthe-et-Moselle, conduisant à une probable sous-estimation du maillage réel"
+  ]
+}

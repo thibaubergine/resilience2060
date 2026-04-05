@@ -1,0 +1,67 @@
+{
+  "synthese": "Le Pas-de-Calais présente l'un des profils pédologiques les plus dégradés de France métropolitaine, combinant un héritage industriel lourd et une pression agricole intensive. Le département recense plus de 280 sites traités ou en cours de traitement dans la base BASOL (ancienne nomenclature), héritage direct du bassin minier Nord-Pas-de-Calais, avec des contaminations aux métaux lourds (plomb, cadmium, arsenic) persistantes dans les horizons superficiels. L'agriculture intensive couvre près de 80 % de la SAU départementale en grandes cultures conventionnelles, avec des indices de fréquence de traitement (IFT) parmi les plus élevés nationalement, engendrant une pression en résidus de pesticides significative dans les sols (INRAE 2023). La part de l'agriculture biologique reste structurellement très faible (environ 3,5 % de la SAU), plaçant le département dans le dernier décile national selon l'Agence Bio 2023. Le risque radon est classé en zone 1 (faible) sur la quasi-totalité du territoire, constituant le seul indicateur favorable de cette dimension.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 2.0,
+      "note": "Plus de 280 sites BASOL, héritage minier, métaux lourds persistants"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 2.0,
+      "note": "IFT élevés, grandes cultures intensives, résidus détectés fréquemment (INRAE)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Zone radon 1 dominante, substrat sédimentaire, risque faible départemental"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 2.0,
+      "note": "Part SAU bio ~3,5%, dernier décile national (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France : département classé majoritairement en zone 1 (IRSN), substrat sédimentaire peu émissif",
+    "Démarches de requalification du bassin minier inscrites au Plan National Friches, avec dépollution progressive de plusieurs sites BASOL prioritaires",
+    "Présence de sols agricoles profonds et limoneux à fort potentiel agronomique naturel (limons de plateaux, INRAE)",
+    "Dynamique régionale Hauts-de-France vers la réduction des phytosanitaires portée par la DRAAF dans le cadre Écophyto 2+"
+  ],
+  "vigilances": [
+    "Contamination diffuse aux métaux lourds (Pb, Cd, As) dans les sols du bassin minier : plus de 700 km² de terrils et carreaux de fosse potentiellement impactés, avec risque de transfert vers les cultures maraîchères locales",
+    "Pression pesticides structurellement très élevée : le département figure parmi les 10 premiers nationaux pour les volumes de produits phytosanitaires vendus par hectare de SAU (BNVD 2022), avec un risque de dégradation irréversible de la microbiologie des sols",
+    "Artificialisation des sols soutenue : le Pas-de-Calais consomme en moyenne 700 à 900 ha/an d'espaces naturels et agricoles (CEREMA 2022), menaçant la résilience pédologique à horizon 2030-2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "280+",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~3,5%",
+      "label": "Part SAU en bio"
+    },
+    {
+      "valeur": "Zone 1",
+      "label": "Classement radon IRSN"
+    },
+    {
+      "valeur": "~80%",
+      "label": "SAU en grandes cultures conventionnelles"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTES)",
+    "INRAE – Observatoire de la qualité des sols 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres clés 2023",
+    "BNVD – Banque nationale des ventes de produits phytosanitaires 2022",
+    "CEREMA – Rapport artificialisation 2022"
+  ],
+  "limites": [
+    "L'ancienne base BASOL est en cours de fusion avec BASIAS : le nombre exact de sites actifs contaminés dans le Pas-de-Calais est difficile à stabiliser, avec un risque de sous-estimation des sites non encore caractérisés dans le bassin minier",
+    "Aucune cartographie systématique de la qualité des sols agricoles à l'échelle parcellaire n'est disponible pour le département, rendant l'évaluation des résidus de pesticides partiellement extrapolée depuis des données régionales INRAE",
+    "La part de SAU bio est agrégée à l'échelle régionale dans certaines publications, pouvant masquer des disparités infra-départementales entre l'Artois et le Boulonnais, zones au potentiel bio différencié"
+  ]
+}

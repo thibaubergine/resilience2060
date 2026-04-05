@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse présente une situation hydrique globalement satisfaisante, portée par un réseau hydrographique dense articulé autour de la Meuse, de la Chiers et de leurs affluents, avec environ 3 600 km de cours d'eau sur le territoire (Agence de l'Eau Rhin-Meuse, 2022). La qualité des masses d'eau superficielles reste perfectible : selon l'état des lieux DCE 2022, environ 40 % seulement des masses d'eau du bassin Rhin-Meuse atteignent le bon état écologique, pénalisées par les pressions agricoles diffuses. La contamination aux nitrates demeure préoccupante dans les zones de grandes cultures du sud du département, avec des teneurs dépassant ponctuellement 40 mg/L dans certains captages (ARS Grand Est, 2022). Les projections Explore2 (2023) anticipent une réduction des débits d'étiage de la Meuse de l'ordre de 20 à 40 % à l'horizon 2050-2070 sous scénario intermédiaire, ce qui constitue un risque structurel majeur pour les usages en eau. La présence de PFAS reste peu documentée à l'échelle départementale, mais les premiers résultats du plan national de surveillance (ANSES/DGS, 2023-2024) signalent des détections dans plusieurs captages de la région Grand Est.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité eau potable correcte, quelques dépassements nitrates ponctuels"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages Meuse -20 à -40 % prévue horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Zones vulnérables sud département, teneurs approchant 40 mg/L"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Peu de sources industrielles majeures PFAS identifiées, surveillance partielle"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (~3 600 km de cours d'eau) offrant une ressource en eau superficielle structurellement abondante (Agence de l'Eau Rhin-Meuse, 2022)",
+    "Faible densité industrielle réduisant les rejets de micropolluants et de substances prioritaires dans les cours d'eau (DCE 2022)",
+    "Présence de zones humides et de tourbières en Argonne et dans le nord-ouest, soutenant les débits d'étiage et la recharge des nappes (OFB 2024)",
+    "Absence de grande métropole limitant les pressions en eau potable et les rejets d'eaux usées concentrés, favorisant une pression urbaine modérée"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage de la Meuse à l'horizon 2050-2070 (Explore2, 2023), menaçant les usages agricoles et le refroidissement de l'installation nucléaire de Bure",
+    "Pression agricole diffuse persistante en nitrates dans les secteurs de grande culture du sud meusien, avec risque de déclassement de captages supplémentaires (ARS Grand Est, 2022)",
+    "Surveillance des PFAS encore incomplète sur le département, avec un risque de contamination sous-estimée dans les captages à proximité des axes routiers et des zones d'entraînement militaire (ANSES, 2023-2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 %",
+      "label": "Masses d'eau en bon état écologique (bassin Rhin-Meuse)"
+    },
+    {
+      "valeur": "3 600 km",
+      "label": "Linéaire de cours d'eau dans la Meuse"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction étiages projetée à 2060 (Explore2)"
+    },
+    {
+      "valeur": "40 mg/L",
+      "label": "Seuil nitrates approché dans certains captages"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Rhin-Meuse – État des lieux DCE 2022",
+    "ARS Grand Est – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques MTECT 2023",
+    "ANSES/DGS – Plan national surveillance PFAS 2023-2024"
+  ],
+  "limites": [
+    "Les données de qualité des masses d'eau souterraines sont peu disagrégées à l'échelle du seul département Meuse, rendant l'évaluation partielle",
+    "La surveillance PFAS reste très récente et les résultats exhaustifs par captage ne sont pas encore publics pour la Meuse (enquête nationale en cours en 2024)",
+    "Les projections Explore2 portent sur le bassin versant de la Meuse dans son ensemble et ne distinguent pas précisément les sous-bassins internes au département 55"
+  ]
+}

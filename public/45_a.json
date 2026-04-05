@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret affiche une qualité de l'air globalement moyenne à l'échelle nationale (rang 67/96), avec des concentrations en PM2,5 comprises entre 10 et 14 µg/m³ selon les zones, dépassant les nouvelles recommandations OMS 2021 (5 µg/m³) mais restant en deçà des valeurs limites européennes (ATMO Centre-Val de Loire, 2023). L'agglomération orléanaise génère des pics de NO₂ liés à un trafic routier dense, notamment sur l'axe A10/N20, avec des concentrations pouvant atteindre 25-35 µg/m³ en zone urbaine. Le département concentre plusieurs installations classées SEVESO et des zones logistiques majeures autour d'Orléans et de la plaine de la Beauce, contribuant aux émissions de polluants industriels (CITEPA, inventaire 2022). Par ailleurs, la Beauce céréalière génère des émissions d'ammoniac (NH₃) agricoles significatives liées aux grandes cultures intensives et aux épandages d'engrais azotés, plaçant le Loiret parmi les départements moyennement exposés à ce polluant (EMEP/CITEPA 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 5.0,
+      "note": "PM2,5 entre 10-14 µg/m³, dépassant seuil OMS 2021 (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ urbain Orléans 25-35 µg/m³, axe A10/N20 problématique"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Présence SEVESO et zones logistiques, densité industrielle modérée"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Beauce céréalière émettrice NH₃, engrais azotés intensifs importants"
+    }
+  ],
+  "points_forts": [
+    "PM2,5 moyens annuels sous la valeur limite européenne de 25 µg/m³, sans dépassement réglementaire majeur enregistré (ATMO Centre-Val de Loire, 2023)",
+    "Absence de zones à faibles émissions (ZFE) obligatoires hors Orléans, limitant les contraintes de mobilité en zones rurales",
+    "Réseau de surveillance ATMO couvrant le département avec 8 stations fixes permettant un suivi en temps réel de la qualité de l'air",
+    "Tendance à la baisse des émissions de SO₂ industrielles sur la décennie 2012-2022, grâce à la modernisation des installations classées (CITEPA 2022)"
+  ],
+  "vigilances": [
+    "Les nouvelles normes OMS 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³) sont structurellement dépassées dans l'agglomération orléanaise, exposant une population d'environ 280 000 habitants à un risque sanitaire chronique",
+    "Le développement de grandes plateformes logistiques (Artenay, Saran) génère une hausse du trafic de poids lourds susceptible d'aggraver les émissions de NOₓ et de particules fines d'ici 2030",
+    "Les épisodes de pollution aux particules et à l'ozone (O₃) en période estivale devraient s'intensifier avec le réchauffement climatique, le Loiret étant projeté en zone à fort stress thermique à horizon 2060 (DRIAS/Climadiag)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "25-35 µg/m³",
+      "label": "NO₂ zones urbaines Orléans"
+    },
+    {
+      "valeur": "~15 sites ICPE",
+      "label": "Installations classées émettrice"
+    },
+    {
+      "valeur": ">50 000 t NH₃/an",
+      "label": "Émissions agricoles Beauce (estimation)"
+    }
+  ],
+  "sources": [
+    "ATMO Centre-Val de Loire – Bilan qualité de l'air 2023",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "CITEPA – Inventaire national des émissions 2022",
+    "DRIAS/Climadiag – Projections climatiques Centre-Val de Loire 2060"
+  ],
+  "limites": [
+    "Les données de surveillance ATMO sont concentrées sur l'agglomération orléanaise, laissant peu de mesures représentatives pour les secteurs ruraux de Beauce et de Sologne",
+    "Les émissions de NH₃ agricoles reposent sur des modélisations nationales (CITEPA) et non sur des mesures terrain spécifiques au Loiret, introduisant une incertitude sur les valeurs départementales",
+    "L'impact sanitaire cumulé des multi-expositions (NO₂ + PM2,5 + O₃) n'est pas encore quantifié à l'échelle départementale faute d'étude épidémiologique locale dédiée"
+  ]
+}

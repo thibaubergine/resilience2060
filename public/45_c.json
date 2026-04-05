@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret (45), département de plaine du Bassin parisien situé entre 80 et 260 m d'altitude, présente une vulnérabilité climatique significative à l'horizon 2060, avec des projections DRIAS indiquant une hausse des températures moyennes de +2,5 à +3,5°C et une augmentation du nombre de jours de canicule passant de 5 à 20-30 jours annuels (Climadiag 2023). La Loire, axe structurant du département, représente un risque d'inondation majeur pour environ 150 000 habitants en zone inondable, tout en voyant ses débits d'étiage menacés par une réduction estimée à -20 à -30% à l'horizon 2050-2070 (Explore2, 2023). Le relief quasi inexistant du département (altitude médiane ~110 m) offre peu de tampon thermique face aux épisodes de chaleur extrême, plaçant le Loiret parmi les départements intérieurs les plus exposés de la région Centre-Val de Loire (TRACC/AP3C). Les projections Climadiag signalent également une augmentation des sécheresses agricoles et une pression accrue sur les aquifères de Beauce, nappe stratégique déjà en tension quantitative (BRGM, 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Relief plat, altitude médiane ~110 m, tampon thermique quasi nul"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "20 à 30 jours de canicule projetés/an à 2060 (Climadiag 2023)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Forêts d'Orléans exposées, risque modéré mais croissant post-2040"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "150 000 habitants en zone inondable Loire, étiages sévères projetés"
+    }
+  ],
+  "points_forts": [
+    "Le risque de feux de forêt reste modéré à moyen terme : la forêt d'Orléans (35 000 ha) bénéficie d'une gestion ONF active et d'une pluviométrie encore supérieure à 650 mm/an en moyenne actuelle",
+    "Le réseau de surveillance climatique AP3C Centre-Val de Loire permet un suivi fin des indicateurs agro-climatiques départementaux, facilitant l'adaptation anticipée des acteurs",
+    "L'absence de façade littorale exclut tout risque de submersion marine ou d'érosion côtière, limitant les scénarios de vulnérabilité extrême",
+    "Le PCAET de l'Agglomération Orléanaise (2021-2026) intègre des objectifs d'adaptation aux îlots de chaleur urbains et de végétalisation, couvrant la principale zone de concentration de population"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +2,5 à +3,5°C des températures moyennes à 2060 (DRIAS 2023) dans un département dépourvu de relief protecteur, avec multiplication des nuits tropicales en milieu urbain orléanais",
+    "La nappe de Beauce, principale ressource en eau souterraine, connaît déjà des déficits quantitatifs récurrents ; les projections Explore2 (2023) anticipent une réduction des recharges hivernales de 15 à 25% à horizon 2070, menaçant usages agricoles et AEP",
+    "La forêt d'Orléans, second massif domanial de France, voit son indice de risque feux progresser dans les scénarios DRIAS à horizon 2050-2060, avec des périodes de sécheresse estivale s'allongeant de 15 à 25 jours supplémentaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C",
+      "label": "Hausse T° moyenne projetée à 2060 (DRIAS)"
+    },
+    {
+      "valeur": "~150 000",
+      "label": "Habitants en zone inondable Loire"
+    },
+    {
+      "valeur": "-20 à -30%",
+      "label": "Réduction débits d'étiage Loire à 2070 (Explore2)"
+    },
+    {
+      "valeur": "35 000 ha",
+      "label": "Forêt d'Orléans, risque feux croissant"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Climadiag Météo-France",
+    "Explore2 – BRGM/OFB 2023",
+    "TRACC & AP3C Centre-Val de Loire",
+    "GéoRisques / Plan Loire Grandeur Nature"
+  ],
+  "limites": [
+    "Les modèles DRIAS présentent des incertitudes importantes à l'échelle infra-départementale pour le Loiret, notamment sur la variabilité des précipitations printanières pourtant cruciales pour la recharge de la nappe de Beauce",
+    "L'évaluation du risque feux de forêt pour la forêt d'Orléans manque de données historiques locales suffisamment longues pour calibrer précisément les projections à 2050-2060",
+    "Les indicateurs de vulnérabilité aux inondations agrègent des zones à risque très hétérogènes (crue lente de Loire vs. ruissellement urbain), ce qui peut masquer des disparités territoriales significatives entre Val de Loire et plateau beauceron"
+  ]
+}

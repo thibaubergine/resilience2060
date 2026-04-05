@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meurthe-et-Moselle présente une situation hydrique contrastée, marquée par la présence de ressources souterraines dans les aquifères gréseux et calcaires lorrains, mais sous pression croissante. La qualité de l'eau potable distribuée est globalement satisfaisante, avec 92% de la population alimentée par une eau conforme aux limites de qualité (ARS Grand Est, 2022), mais des dépassements ponctuels persistent notamment en zones agricoles intensives. Les nitrates constituent une préoccupation majeure : environ 35% des masses d'eau souterraines du département présentent des concentrations supérieures à 25 mg/L, reflétant la pression agricole des plateaux lorrains (DCE/AERM, 2022). Les projections Explore2 indiquent une réduction des débits d'étiage des cours d'eau (Moselle, Meurthe) de l'ordre de 20 à 40% à l'horizon 2050-2070, aggravant les tensions en période estivale. La contamination aux PFAS, détectée dans plusieurs captages du département suite aux campagnes de surveillance ANSES 2022-2023, représente un enjeu émergent préoccupant pour la sécurité sanitaire de l'eau potable.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "92% eau conforme ARS 2022, dépassements ponctuels zones agricoles"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages Moselle-Meurthe -20 à -40% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "35% masses d'eau souterraines >25 mg/L nitrates (DCE/AERM 2022)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés plusieurs captages, campagne ANSES 2022-2023 département"
+    }
+  ],
+  "points_forts": [
+    "92% de la population desservie par une eau conforme aux limites de qualité réglementaires (ARS Grand Est, 2022)",
+    "Réseau hydrographique dense avec la Moselle et la Meurthe offrant une ressource en eau de surface significative pour l'alimentation et l'industrie",
+    "Des aquifères gréseux du Trias et calcaires bajociens constituant des réserves souterraines structurantes pour l'alimentation en eau potable (BRGM)",
+    "Engagement du SDAGE Rhin-Meuse 2022-2027 avec des programmes de mesures ciblés sur les captages prioritaires du département"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de -20 à -40% sur la Moselle et la Meurthe à l'horizon 2050-2070 selon les scénarios Explore2, menaçant les usages industriels et agricoles",
+    "Contamination aux nitrates persistante sur les plateaux agricoles lorrains, avec un risque de dégradation des masses d'eau souterraines non encore atteintes le bon état chimique DCE",
+    "Présence de PFAS détectée dans plusieurs captages d'eau potable du département (ANSES 2022-2023), impliquant des coûts de traitement potentiellement très élevés pour les collectivités"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "92%",
+      "label": "Eau potable conforme ARS 2022"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Réduction étiages 2060 (Explore2)"
+    },
+    {
+      "valeur": "35%",
+      "label": "Masses d'eau souterr. >25 mg/L NO₃"
+    },
+    {
+      "valeur": "PFAS détectés",
+      "label": "Captages surveillés ANSES 2023"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilan qualité eau potable 2022",
+    "Agence de l'Eau Rhin-Meuse – DCE/SDAGE 2022-2027",
+    "Explore2 – Projections hydrologiques 2050-2070 (INRAE/MTE)",
+    "ANSES – Campagne nationale PFAS eau potable 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS pour Meurthe-et-Moselle restent partielles, la surveillance systématique étant récente (post-2022) et non exhaustive sur l'ensemble des captages départementaux",
+    "Les projections Explore2 présentent une large fourchette d'incertitude sur les débits futurs, rendant difficile la planification précise des usages de l'eau à l'échelle locale",
+    "L'absence de données publiques consolidées à l'échelle communale sur les dépassements de nitrates limite l'identification précise des zones les plus vulnérables du département"
+  ]
+}

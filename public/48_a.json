@@ -1,0 +1,65 @@
+{
+  "synthese": "La Lozère affiche les concentrations en polluants atmosphériques les plus faibles de France métropolitaine, avec des niveaux de PM2,5 estimés entre 4 et 6 µg/m³ en moyenne annuelle, très en deçà de la norme OMS 2021 (5 µg/m³ comme objectif guide, 15 µg/m³ comme valeur de transition) et largement sous le seuil réglementaire européen (25 µg/m³) (ATMO Occitanie, 2023). Le NO₂ urbain y est quasi nul, Mende (chef-lieu, ~12 000 hab.) ne générant aucun trafic routier dense ni zone industrielle significative, avec des valeurs annuelles inférieures à 10 µg/m³ contre 40 µg/m³ de norme européenne. Le département compte zéro installation classée ICPE de grande envergure émettrice (aucune installation dans le registre E-PRTR national), faisant de la Lozère le territoire le moins industrialisé de France en termes d'émissions atmosphériques (CITEPA, 2022). Les émissions agricoles d'ammoniac (NH₃) restent modérées malgré l'élevage ovin et bovin extensif dominant, avec une densité animale parmi les plus faibles du pays (0,3 UGB/ha de SAU) limitant structurellement les flux d'émissions azotées diffuses.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 10,
+      "note": "PM2,5 ~5 µg/m³, parmi les plus bas de France, quasi-conformité OMS 2021"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 10,
+      "note": "NO₂ <10 µg/m³ à Mende, aucune agglomération dense génératrice"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 10,
+      "note": "Zéro installation E-PRTR, département le moins industrialisé de France"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 9.0,
+      "note": "Élevage extensif ovin/bovin, densité faible ; NH₃ modéré mais non nul"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 estimées à ~4-6 µg/m³, parmi les plus faibles des 96 départements français (ATMO Occitanie, 2023)",
+    "Aucune installation industrielle figurant au registre européen E-PRTR, zéro source ponctuelle majeure de polluants atmosphériques (CITEPA, 2022)",
+    "Trafic routier extrêmement réduit (réseau limité, RN88 et D-routes, <5 000 véh/j sur les axes principaux) limitant les émissions de NOₓ et particules liées aux transports",
+    "Couverture forestière étendue (43 % du territoire, IGN 2022) et présence du Parc National des Cévennes agissant comme puits de particules naturel et barrière contre les pollutions extérieures"
+  ],
+  "vigilances": [
+    "Épisodes de transport longue distance de particules désertiques (poussières sahariennes) affectant ponctuellement la qualité de l'air printanière, avec PM10 pouvant dépasser 50 µg/m³ sur 24h (ATMO Occitanie, printemps 2022)",
+    "Combustion du bois énergie en hausse (chauffage résidentiel rural dominant) susceptible d'augmenter les PM2,5 locales en hiver, en particulier dans les vallées encaissées mal ventilées",
+    "Risque d'ozone (O₃) estival en progression avec le changement climatique ; la Lozère, en altitude, est exposée à des concentrations d'O₃ élevées issues des précurseurs émis par les métropoles voisines (dépassements >120 µg/m³ en été enregistrés, ATMO Occitanie, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~5 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Concentration NO₂ à Mende"
+    },
+    {
+      "valeur": "0",
+      "label": "Installation E-PRTR recensée"
+    },
+    {
+      "valeur": "0,3 UGB/ha",
+      "label": "Densité animale (SAU)"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2023",
+    "CITEPA – Inventaire des émissions 2022 (registre E-PRTR)",
+    "OMS – Lignes directrices qualité de l'air mondial 2021",
+    "IGN – Inventaire forestier national 2022"
+  ],
+  "limites": [
+    "Absence de station de mesure permanente de qualité de l'air en Lozère (réseau ATMO peu dense) : les valeurs sont issues de modélisations et d'extrapolations, avec une incertitude élevée pour les zones rurales isolées",
+    "Les émissions liées au chauffage au bois résidentiel (source diffuse majeure en milieu rural lozérien) sont sous-évaluées dans les inventaires nationaux faute de données locales précises sur les équipements utilisés",
+    "L'exposition aux pics d'ozone en altitude, spécifique à la géographie lozérienne, est mal restituée par les indicateurs moyens annuels standard utilisés pour le classement départemental"
+  ]
+}

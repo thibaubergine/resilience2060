@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme présente un profil pédologique globalement favorable, caractérisé par des sols volcaniques riches en matière organique issus du massif des Puys, classé UNESCO, couvrant environ 30 % du territoire départemental (GéoRisques). Toutefois, le département est classé en zone à potentiel radon significatif de niveau 3 (le plus élevé) sur une large partie de son territoire granitique et volcanique, affectant potentiellement 400 000 habitants selon l'IRSN. La part de SAU en agriculture biologique atteignait 12,8 % en 2023, soit au-dessus de la moyenne nationale (10,7 %), avec 780 exploitations engagées (Agence Bio 2023). Les sites BASOL/BASIAS recensent environ 85 sites pollués ou potentiellement pollués en activité ou à réhabiliter, un chiffre modéré pour un département de cette taille industrielle (GéoRisques 2023). Les pratiques agricoles extensives dominantes en zones de moyenne montagne limitent la pression en résidus phytosanitaires dans les sols comparativement aux départements de grande culture (INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.5,
+      "note": "Environ 85 sites BASOL, densité modérée pour département semi-industriel"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Élevage extensif dominant, faibles résidus pesticides sols montagnards"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.5,
+      "note": "Zone radon niveau 3 majoritaire, socle granitique et volcanique étendu"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "12,8 % SAU bio, 780 exploitations, nettement au-dessus moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU biologique à 12,8 %, rang dans le top 15 national (Agence Bio 2023)",
+    "Sols volcaniques du Massif Central riches en minéraux et matière organique, faible érosion chimique (GéoRisques)",
+    "Dominance de l'élevage herbager extensif limitant l'usage de pesticides et d'intrants azotés sur les prairies permanentes",
+    "Faible artificialisation des sols : taux d'imperméabilisation inférieur à la moyenne régionale Auvergne-Rhône-Alpes (Observatoire Foncier ARA 2023)"
+  ],
+  "vigilances": [
+    "Exposition radon de niveau 3 sur plus de 60 % du territoire, risque sanitaire chronique sous-estimé pour les habitations (IRSN 2022)",
+    "Pression foncière croissante autour de Clermont-Ferrand avec artificialisation de 180 ha/an en moyenne sur 2015-2023, menaçant les terres agricoles périurbaines",
+    "Contamination résiduelle de sites industriels liés à la chimie et au pneumatique (héritage Michelin/Limagrain) nécessitant suivi BASOL continu (GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,8 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "85",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "Niveau 3",
+      "label": "Zone radon IRSN"
+    },
+    {
+      "valeur": "780",
+      "label": "Exploitations bio (2023)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / BASOL 2023",
+    "INRAE Transferts pesticides 2023",
+    "IRSN Cartographie radon 2022",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "La cartographie radon reste statistique et ne préjuge pas de l'exposition réelle intérieure des bâtiments non mesurés dans le département",
+    "Les données BASOL sous-estiment potentiellement la contamination diffuse liée aux anciennes pratiques agricoles en zones d'élevage intensif de la Limagne",
+    "L'indicateur SAU bio ne renseigne pas sur la qualité microbiologique effective des sols ni sur la séquestration carbone réelle des prairies volcaniques"
+  ]
+}

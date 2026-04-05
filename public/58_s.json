@@ -1,0 +1,65 @@
+{
+  "synthese": "La Nièvre présente un profil pédologique contrasté, dominé par des sols argilo-calcaires du Morvan et des limons de la plaine de la Loire, avec une surface agricole utile d'environ 280 000 ha couvrant 52 % du territoire (Agreste 2020). Le département enregistre un nombre relativement limité de sites pollués ou en cours de réhabilitation (ex-BASOL), reflétant une industrialisation historiquement modérée, mais la présence d'anciennes activités métallurgiques et minières dans le Morvan laisse des héritages de contamination localisés (GéoRisques 2023). La pression des résidus phytosanitaires reste préoccupante dans les zones céréalières du nord du département, où les pratiques grandes cultures intensifient les transferts vers les sols (INRAE 2023). Le potentiel radon est classé en zone 3 (potentiel significatif) sur une large partie du Morvan granitique, exposant une fraction notable de la population à ce risque géologique (IRSN 2023). La part de la SAU en agriculture biologique, bien qu'en progression (environ 8,5 % en 2022), reste inférieure à la moyenne nationale de 10,7 % (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "Faible densité industrielle ; quelques sites BASOL liés aux anciennes fonderies nivernaises"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Zones céréalières nord soumises à pression phytosanitaire ; résidus détectés dans sols agricoles"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Socle granitique Morvan classé zone 3 IRSN ; potentiel radon significatif sur large territoire"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio ~8,5 % en progression ; élevage extensif Charolais favorise pratiques extensives"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués recensés : moins de 15 sites actifs ex-BASOL pour 220 000 habitants, parmi les plus bas de la région (GéoRisques 2023)",
+    "Élevage bovin extensif charolais dominant (~60 % de la SAU en prairies) limitant le recours aux intrants chimiques sur les sols (Agreste 2020)",
+    "Progression notable de l'agriculture biologique : +12 % de surfaces certifiées entre 2020 et 2022, portée par les exploitations d'élevage du sud du département (Agence Bio 2023)",
+    "Sols forestiers du Morvan (30 % du territoire) faiblement artificialisés et jouant un rôle de puits de carbone et de régulation de l'érosion (IGN 2022)"
+  ],
+  "vigilances": [
+    "Exposition au radon élevée sur le Morvan granitique (zone 3 IRSN) : plus de 60 % du territoire en potentiel significatif, nécessitant des mesures préventives dans les bâtiments résidentiels et les ERP",
+    "Contamination résiduelle des sols par les anciens sites miniers et métallurgiques (Imphy, La Machine) : risques de transfert de métaux lourds (plomb, zinc) vers les eaux souterraines non totalement caractérisés (GéoRisques 2023)",
+    "Artificialisiation progressive des sols périurbains de Nevers : perte nette estimée à ~80 ha/an en zone fonctionnelle, fragilisant la continuité écologique des berges de Loire (CEREMA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8,5 %",
+      "label": "SAU en agriculture biologique (2022)"
+    },
+    {
+      "valeur": "<15",
+      "label": "Sites actifs ex-BASOL recensés"
+    },
+    {
+      "valeur": "Zone 3",
+      "label": "Classement radon IRSN (Morvan)"
+    },
+    {
+      "valeur": "~52 %",
+      "label": "Part du territoire en SAU"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus phytosanitaires 2023",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "Absence de cartographie fine et actualisée des contaminations diffuses des sols agricoles nivernais, notamment pour les métaux lourds issus des anciennes activités industrielles du Morvan",
+    "Les données BASOL ne couvrent pas les sites pollués orphelins ni les contaminations historiques non encore caractérisées (friches industrielles de Decize ou Guérigny)",
+    "La mesure de la part SAU bio sous-estime les pratiques agro-écologiques non certifiées, fréquentes dans l'élevage extensif charolais du département"
+  ]
+}

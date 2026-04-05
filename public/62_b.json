@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Pas-de-Calais présente un état de la biodiversité particulièrement dégradé, avec seulement 4,8 % de son territoire couvert par des zones Natura 2000 (INPN 2024), l'un des taux les plus faibles de France métropolitaine, reflet d'une artificialisation historique intense liée à l'héritage minier et industriel. Le département compte néanmoins des hotspots écologiques remarquables comme les dunes littorales du Touquet et du Marquenterre, les marais arrière-littoraux et les pelouses calcaricoles de l'Artois, qui hébergent des espèces protégées comme le Gravelot à collier interrompu ou la Liparis de Loesel (OFB 2024). Les corridors écologiques de la trame verte et bleue restent très fragmentés par un réseau dense de voies de communication (autoroutes A16, A26, A21) et par une agriculture intensive couvrant plus de 78 % de la SAU (Agreste 2023), limitant fortement les connexions entre habitats. Avec un taux d'espèces menacées en hausse et des zones humides ayant régressé de plus de 60 % au XXe siècle (DREAL Hauts-de-France), le département se classe parmi les plus vulnérables (rang 90/96) pour la dimension biodiversité.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 3.0,
+      "note": "Couverture Natura 2000 inférieure à 5%, parmi les plus faibles de France"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 4.0,
+      "note": "Pas de parc national ; PNR Caps et Marais d'Opale partiel et limité"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Espèces remarquables présentes mais populations réduites et vulnérables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 3.0,
+      "note": "Corridors très fragmentés : autoroutes, urbanisation et agriculture intensive"
+    }
+  ],
+  "points_forts": [
+    "Présence du PNR Caps et Marais d'Opale (132 000 ha), unique espace de gouvernance écologique structuré du département",
+    "Littoral dunaire exceptionnel : 80 km de côtes avec habitats prioritaires abritant le Gravelot à collier interrompu (LPO 2023)",
+    "Réseau de marais arrière-littoraux (marais de Guînes, marais Audomarois) classé zone humide d'importance internationale (Ramsar pour l'Audomarois)",
+    "Programme LIFE+ dunes littorales engagé pour la restauration des habitats côtiers prioritaires (DREAL Hauts-de-France)"
+  ],
+  "vigilances": [
+    "Poursuite de l'artificialisation : +12 % de surfaces bâties entre 2000 et 2023 (Observatoire des territoires), menaçant les derniers corridors écologiques",
+    "Régression continue des populations d'oiseaux agricoles : effondrement de 35 % des effectifs d'alouettes et vanneaux en 20 ans sur les plaines d'Artois (LPO/Stoc 2023)",
+    "Vulnérabilité accrue des zones humides et dunes littorales face à la montée des eaux et à l'érosion côtière prévue (+40 cm d'ici 2060, Climadiag)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "4,8 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "132 000 ha",
+      "label": "Surface PNR Caps et Marais d'Opale"
+    },
+    {
+      "valeur": "-60 %",
+      "label": "Régression zones humides (XXe s.)"
+    },
+    {
+      "valeur": "78 %",
+      "label": "SAU en agriculture intensive"
+    }
+  ],
+  "sources": [
+    "OFB / INPN 2024",
+    "LPO / STOC 2023",
+    "DREAL Hauts-de-France",
+    "Agreste 2023",
+    "Observatoire des territoires"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 ne reflètent pas toujours l'état réel de conservation des habitats au sein des zones désignées",
+    "L'absence de parc national et la faible densité d'observatoires naturalistes locaux limitent le suivi fin des espèces hors zones protégées",
+    "Les indicateurs de corridors écologiques reposent sur des cartographies TVB régionales de 2020, non actualisées depuis les nouvelles ZAN et projets d'infrastructure"
+  ]
+}

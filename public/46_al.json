@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot (46) affiche un profil alimentaire remarquable à l'échelle nationale, porté par une tradition agricole de qualité et une forte densité de signes d'identification géographique. Le département compte 8 AOP/IGP/Label Rouge actifs (INAO, 2023), dont les emblématiques Rocamadour AOP, Cahors AOC (vin), noix du Périgord IGP et agneau fermier du Quercy IGP, plaçant le Lot parmi les 10 premiers départements français pour la densité de labels rapportée à la SAU. La superficie agricole utile bio représente environ 14,5% de la SAU totale (Agence Bio, 2023), soit un niveau supérieur à la moyenne nationale (10,7%), avec près de 450 exploitations engagées en agriculture biologique. L'autonomie alimentaire du territoire (indicateur ZAVA 2024) est favorisée par une production diversifiée — élevage ovin et caprin, arboriculture, viticulture, trufficulture — couvrant plusieurs besoins locaux. Les circuits courts restent dynamiques avec une soixantaine de points de vente directe recensés et une intégration croissante dans la restauration collective (PAT du Grand Cahors depuis 2021).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.5,
+      "note": "Production diversifiée (élevage, vin, noix) couvrant partiellement les besoins locaux"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP actifs sur territoire rural de 520 000 ha SAU, densité élevée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "14,5% SAU bio, 450 exploitations, au-dessus de la moyenne nationale (10,7%)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.5,
+      "note": "~60 points vente directe, PAT Grand Cahors 2021, AMAP présentes mais limitées"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de labels de qualité : Rocamadour AOP, Cahors AOC, Noix du Périgord IGP, Agneau Quercy IGP, Chasselas de Moissac AOC parmi 8 signes officiels (INAO, 2023)",
+    "Part de SAU en agriculture biologique de 14,5%, supérieure de +3,8 points à la moyenne nationale (Agence Bio, 2023)",
+    "Existence d'un Projet Alimentaire Territorial (PAT) porté par le Grand Cahors depuis 2021, structurant les circuits courts en restauration collective",
+    "Trufficulture et noix constituent des filières identitaires à haute valeur ajoutée, contribuant à l'économie agricole locale et à la réputation gastronomique nationale"
+  ],
+  "vigilances": [
+    "Vieillissement des agriculteurs lotois : âge moyen de 52 ans (Agreste 2020), avec risque de déprise agricole sur 20-30% des exploitations à horizon 2035 sans renouvellement des actifs",
+    "Vulnérabilité hydrique croissante des cultures sous climat 2060 (température +2,5°C projetée, DRIAS) menaçant viticulture, noix et prairies d'élevage",
+    "Faible maillage en AMAP (moins de 10 recensées) et marchés de plein vent insuffisamment connectés à une stratégie alimentaire territoriale intégrée à l'échelle départementale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8",
+      "label": "AOP/IGP/Labels actifs (INAO 2023)"
+    },
+    {
+      "valeur": "14,5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~450",
+      "label": "Exploitations bio recensées"
+    },
+    {
+      "valeur": "1 PAT",
+      "label": "Projet Alimentaire Territorial (Grand Cahors, 2021)"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre des signes officiels de qualité",
+    "Agence Bio 2023 – Statistiques nationales et départementales du bio",
+    "ZAVA 2024 – Indicateur d'autonomie alimentaire territoriale",
+    "Agreste Recensement Agricole 2020 – Occitanie/Lot"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du Lot restent parcellaires et ne distinguent pas les filières animales des filières végétales à l'échelle infra-départementale",
+    "La part de SAU bio peut masquer des disparités importantes entre zones de vallée (plus favorables) et causses (contraintes pédologiques fortes limitant les conversions)",
+    "L'absence de suivi systématique des AMAP et circuits courts à l'échelle du département rend difficile l'évaluation précise de leur impact sur la sécurité alimentaire locale"
+  ]
+}

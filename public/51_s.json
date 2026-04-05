@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne présente un profil pédologique marqué par la grande culture intensive sur sols crayeux et limoneux champenois, avec une SAU représentant près de 79 % du territoire (Agreste 2023), parmi les taux les plus élevés de France. La pression phytosanitaire y est significative : le département figure parmi les plus consommateurs de pesticides à l'échelle nationale, avec des résidus fréquemment détectés dans les sols agricoles (INRAE 2023), notamment fongicides et herbicides liés à la viticulture champenoise et aux grandes cultures céréalières. On recense sur le territoire marnais plusieurs dizaines de sites pollués ou potentiellement pollués recensés dans la base BASOL/SIS (GéoRisques 2024), principalement liés à d'anciennes activités industrielles et à la gestion des munitions de la Première Guerre mondiale. Le risque radon reste globalement faible à modéré dans la plaine crayeuse, mais localement plus préoccupant dans les zones argileuses et sur les pourtours du massif ardennais (IRSN). La part de la SAU cultivée en agriculture biologique demeure nettement inférieure à la moyenne nationale, reflétant la domination des systèmes conventionnels intensifs.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL/SIS, héritage industriel et munitions WWI"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Forte pression pesticides, céréales et viticulture, résidus fréquents sols (INRAE)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon faible à modéré, sols crayeux peu émissifs majoritairement"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~3-4%, en-dessous moyenne nationale, progression lente (Agence Bio)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible sur la plaine crayeuse champenoise, substratum peu émissif (IRSN 2023)",
+    "Sols limoneux et crayeux à forte productivité agricole, limitant l'artificialisation par étalement (Agreste 2023)",
+    "Réseau de surveillance des sols agricoles en place via les observatoires régionaux Grand Est",
+    "Dynamique de certification HVE en progression dans le vignoble champenois, réduisant partiellement les intrants"
+  ],
+  "vigilances": [
+    "Contamination résiduelle des sols par obus et métaux lourds (plomb, arsenic) dans les zones de combats WWI, dites « Zone Rouge », toujours active dans le nord du département",
+    "Pression pesticides très élevée : parmi les 15 % de départements les plus consommateurs en France, risque de transfert sol-nappe croissant avec les événements pluvieux intenses projetés (DRIAS 2060)",
+    "Artificialisation des terres agricoles en progression autour de Reims et Châlons-en-Champagne, avec une perte nette de surfaces de qualité estimée à plusieurs centaines d'hectares/an (CEREMA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "79%",
+      "label": "Part SAU/superficie totale"
+    },
+    {
+      "valeur": "~3,5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "47 sites",
+      "label": "Sites BASOL/SIS recensés (GéoRisques)"
+    },
+    {
+      "valeur": "Catégorie 2/3",
+      "label": "Risque radon IRSN (faible à modéré)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base SIS-BASOL 2024",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "Agence Bio – Statistiques régionales Grand Est 2023"
+  ],
+  "limites": [
+    "Les données BASOL/SIS ne couvrent pas les pollutions diffuses liées aux munitions de la Première Guerre mondiale, sous-estimant la contamination réelle des sols marnais",
+    "La SAU bio déclarée peut masquer des pratiques intermédiaires non certifiées et ne reflète pas la qualité biologique effective des sols conventionnels",
+    "L'absence d'un réseau de surveillance dense et systématique des teneurs en pesticides dans les sols agricoles marnais limite la comparaison interdépartementale fiable"
+  ]
+}

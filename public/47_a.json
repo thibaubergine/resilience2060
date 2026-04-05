@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle qui limite les émissions de polluants primaires. Les concentrations moyennes annuelles en PM2,5 oscillent autour de 8 à 10 µg/m³ selon les stations ATMO Nouvelle-Aquitaine (2022-2023), en deçà des seuils réglementaires européens (25 µg/m³) mais au-delà de la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ reste contenu, avec des niveaux urbains inférieurs à 15 µg/m³ à Agen, très en dessous de la valeur limite annuelle de 40 µg/m³ (ATMO Nouvelle-Aquitaine, 2023). Néanmoins, le caractère fortement agricole du département génère des émissions d'ammoniac (NH₃) significatives, le secteur agricole représentant plus de 95 % des émissions départementales de NH₃ contribuant à la formation de particules secondaires (Citepa, 2022). Les épisodes de pollution à l'ozone (O₃) constituent un enjeu saisonnier croissant, liés à l'ensoleillement important et aux précurseurs NOx/COV régionaux.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~9 µg/m³, sous seuil EU mais dépasse guide OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain Agen <15 µg/m³, très inférieur à la limite 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Très faible tissu industriel émetteur, territoire rural dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Agriculture intensive génère NH₃ élevé, >95 % des émissions locales"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus faibles de France avec moins de 15 µg/m³ annuels à Agen (ATMO Nouvelle-Aquitaine, 2023)",
+    "Quasi-absence de grandes installations industrielles émettrices classées dans le registre IREP/Citepa, limitant les rejets de polluants lourds",
+    "PM2,5 inférieures à 10 µg/m³ en zone rurale, parmi les niveaux les plus bas de la région Nouvelle-Aquitaine (ATMO NA, 2022)",
+    "Bonne couverture végétale et bocagère contribuant à l'absorption locale de certains polluants et à la dilution atmosphérique"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricoles persistantes favorisant la formation de particules secondaires PM2,5 et PM10, risque d'aggravation avec l'intensification des pratiques (Citepa 2022)",
+    "Épisodes d'ozone troposphérique en hausse avec l'augmentation des températures estivales projetées à +2°C d'ici 2050 (DRIAS/Climadiag), dépassements du seuil information 120 µg/m³ plus fréquents",
+    "Brûlages agricoles et résidus de cultures toujours pratiqués localement, contribuant ponctuellement aux pics de particules et de composés organiques volatils (COV)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ annuel à Agen"
+    },
+    {
+      "valeur": ">95 %",
+      "label": "Part agricole dans émissions NH₃"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine 2022-2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa – Inventaire national émissions 2022",
+    "DRIAS/Climadiag – Projections climatiques 2050"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est peu dense en Lot-et-Garonne (stations principalement à Agen), laissant des zones rurales et agricoles sans suivi en temps réel des PM2,5 et NH₃",
+    "L'absence de station de mesure de l'ozone en continu hors d'Agen limite la caractérisation fine des épisodes estivaux sur l'ensemble du territoire",
+    "Les données sur les brûlages agricoles et leurs contributions aux émissions de COV et particules restent parcellaires et non systématiquement intégrées aux bilans départementaux"
+  ]
+}

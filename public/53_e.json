@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53) présente une situation hydrique intermédiaire, avec des ressources en eaux superficielles structurées autour de la rivière Mayenne et de ses affluents, alimentant notamment les captages AEP du département. La qualité de l'eau potable distribuée reste globalement satisfaisante, bien qu'environ 15 à 20 % de la population soit desservie par des eaux présentant ponctuellement des dépassements en nitrates ou pesticides (ARS Pays de la Loire, 2022). Les projections Explore2 (2023) indiquent une baisse potentielle des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins versants mayennais, accentuant la vulnérabilité des captages en période estivale. La pression agricole intense — le département étant un territoire d'élevage hors-sol et de grandes cultures — contribue à une contamination diffuse par les nitrates, classant plusieurs masses d'eau en état chimique médiocre au titre de la DCE (AELB, état des lieux 2022). La présence de PFAS dans les eaux brutes reste peu documentée localement, mais les contrôles récents initiés par l'ANSES et la DGCCRF révèlent des détections ponctuelles à proximité de zones industrielles et de sites d'entraînement incendie.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité AEP globalement bonne, dépassements ponctuels nitrates/pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse étiages projetée 20–40 % horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Pression agricole élevée, plusieurs masses d'eau en état médiocre"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "PFAS peu documentés, détections ponctuelles limitées à zones industrielles"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable distribuée supérieur à 95 % pour les paramètres bactériologiques (ARS Pays de la Loire, 2022)",
+    "Réseau hydrographique dense structuré autour de la Mayenne et de ses affluents, offrant une bonne capacité de dilution en dehors des étiages",
+    "Effort de structuration des périmètres de protection des captages : plus de 80 % des captages AEP disposent d'un arrêté préfectoral de protection (AELB, 2022)",
+    "Faible urbanisation industrielle lourde limitant les contaminations ponctuelles aux métaux lourds et aux hydrocarbures dans les eaux souterraines"
+  ],
+  "vigilances": [
+    "Baisse projetée des débits d'étiage de 20 à 40 % à l'horizon 2060 (Explore2, 2023), menaçant la sécurisation des captages superficiels en période estivale",
+    "Contamination persistante par les nitrates dans plusieurs masses d'eau superficielles classées en état chimique médiocre, liée à la densité de l'élevage intensif (AELB, état des lieux DCE 2022)",
+    "Émergence des micro-polluants et PFAS : absence de cartographie exhaustive locale, risque sous-évalué en contexte de généralisation des contrôles nationaux post-2023 (ANSES/DGCCRF)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~95 %",
+      "label": "Conformité bactériologique AEP"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": ">80 %",
+      "label": "Captages AEP avec arrêté protection"
+    },
+    {
+      "valeur": "2 à 3",
+      "label": "Masses d'eau en état chimique médiocre (DCE)"
+    }
+  ],
+  "sources": [
+    "ARS Pays de la Loire – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques 2023 (BRGM/OFB)",
+    "Agence de l'Eau Loire-Bretagne – État des lieux DCE 2022",
+    "ANSES/DGCCRF – Campagnes PFAS eaux destinées à la consommation humaine 2023"
+  ],
+  "limites": [
+    "Absence de données publiques consolidées et spatialisées sur les teneurs en PFAS dans les eaux brutes mayennaises, rendant l'évaluation du risque partielle",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle du sous-bassin versant local, ce qui limite la précision des anticipations pour les captages individuels",
+    "L'état des lieux DCE 2022 agrège parfois les masses d'eau à une échelle supra-départementale, rendant difficile l'isolation précise du seul département de la Mayenne"
+  ]
+}

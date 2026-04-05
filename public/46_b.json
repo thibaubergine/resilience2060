@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot (46) présente l'une des meilleures situations biodiversité de France métropolitaine, avec environ 32% de sa superficie couverte par des zones Natura 2000 (INPN 2024), soit plus du double de la moyenne nationale (~13%). Le département abrite des milieux remarquables : causses calcaires, vallées de la Dordogne, du Célé et du Lot, forêts de chênes pubescents, constituant des réservoirs de biodiversité exceptionnels reconnus à l'échelle européenne. La LPO recense plus de 220 espèces d'oiseaux nicheuses ou de passage sur le territoire, dont des populations significatives de vautours fauves réintroduits dans les gorges du Célé et de l'Aveyron (OFB 2024). Le Parc Naturel Régional des Causses du Quercy couvre près de 175 000 ha et structure une politique de préservation active des habitats calcicoles et des espèces steppiques. Les corridors écologiques lotois restent globalement fonctionnels, la faible densité démographique du département (~33 hab/km²) limitant la fragmentation anthropique des habitats naturels.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "32% superficie en Natura 2000, bien au-dessus moyenne nationale 13%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Causses du Quercy 175 000 ha, plusieurs réserves biologiques"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Vautours fauves, loutre, grand-duc, espèces steppiques caussenardes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors vallées Lot/Dordogne fonctionnels, faible pression urbaine"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France : ~32% du territoire (INPN 2024), avec 28 sites désignés (ZSC et ZPS)",
+    "PNR des Causses du Quercy : 175 000 ha structurant la gestion durable des pelouses sèches et habitats calcicoles (Charte PNR 2023)",
+    "Présence de la loutre d'Europe sur l'ensemble du réseau hydrographique lotois, indicateur de bonne qualité écologique des cours d'eau (OFB 2024)",
+    "Plus de 1 800 espèces végétales recensées, dont plusieurs orchidées rares des causses ; biodiversité floristique parmi les plus riches de l'Occitanie (INPN/CBN Pyrénées-Midi-Pyrénées)"
+  ],
+  "vigilances": [
+    "Déprise agricole et fermeture des milieux ouverts calcicoles menacent les espèces steppiques (outarde canepetière, pie-grièche) : perte estimée de 15 à 20% des pelouses sèches en 30 ans (OFB/PNR CQ)",
+    "Changement climatique 2060 : remontée des espèces thermophiles et risque de déplacement/disparition d'espèces adaptées aux causses frais ; modèles DRIAS projettent +2,5°C en été à l'horizon 2060",
+    "Fragmentation résiduelle par l'axe A20 et les routes nationales coupant les corridors entre causses du Quercy et vallées de la Dordogne, avec mortalité routière significative pour les grands mammifères (CEREMA)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~32%",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "175 000 ha",
+      "label": "Surface PNR Causses du Quercy"
+    },
+    {
+      "valeur": "220+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "1 800+",
+      "label": "Espèces végétales INPN"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Occitanie",
+    "PNR Causses du Quercy – Charte 2023",
+    "CBN Pyrénées-Midi-Pyrénées"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont partiellement lacunaires pour certains groupes (invertébrés, fonge) sur les secteurs forestiers non inventoriés du Lot",
+    "L'évaluation de l'état de conservation réel des habitats Natura 2000 lotois reste incomplète : peu de DOCOB finalisés avec suivis quantitatifs actualisés post-2020",
+    "L'absence d'observatoire départemental unifié de la biodiversité rend difficile le suivi temporel des populations d'espèces emblématiques hors LPO et PNR"
+  ]
+}

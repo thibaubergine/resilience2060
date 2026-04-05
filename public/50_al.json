@@ -1,0 +1,65 @@
+{
+  "synthese": "La Manche constitue un département agricole majeur de Normandie, avec une Surface Agricole Utile (SAU) représentant environ 70% du territoire, soit près de 430 000 hectares dédiés à l'agriculture (Agreste 2023). Le département bénéficie d'une forte identité alimentaire portée par des produits sous signe officiel de qualité, notamment le beurre et la crème d'Isigny AOP, le porc charcutier et l'agneau du Cotentin, témoignant d'une ancrage territorial solide (INAO 2024). L'agriculture biologique progresse dans la Manche avec environ 8% de la SAU convertie en 2023, un niveau légèrement inférieur à la moyenne nationale de 10,7%, mais en progression constante (Agence Bio 2023). Les circuits courts se développent activement sur le territoire, soutenus par une demande touristique saisonnière importante et des initiatives locales structurées autour des marchés fermiers du Cotentin. L'analyse ZAVA 2024 positionne la Manche avec une bonne capacité d'autonomie alimentaire grâce à ses productions bovines laitières et carnées, bien que la dépendance aux intrants extérieurs reste une vulnérabilité notable.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.5,
+      "note": "Forte production bovine laitière et carnée assurant bonne autonomie locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "AOP Isigny beurre/crème, agneau Cotentin, camembert à proximité"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.5,
+      "note": "8% SAU bio, en deçà moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Marchés fermiers dynamiques, tourisme littoral dopant circuits courts locaux"
+    }
+  ],
+  "points_forts": [
+    "Autonomie laitière exceptionnelle : la Manche produit environ 1,3 milliard de litres de lait par an, parmi les 5 premiers départements laitiers français (Agreste 2023)",
+    "L'AOP Beurre et Crème d'Isigny est reconnue internationalement et génère un chiffre d'affaires estimé à plus de 150 M€/an (INAO 2024)",
+    "Élevage ovin du Cotentin en développement : l'agneau de pré-salé des grèves normandes bénéficie d'une notoriété croissante sur les marchés régionaux et nationaux",
+    "Un réseau dense de marchés locaux et de vente directe à la ferme structuré par la Chambre d'Agriculture de la Manche, avec plus de 200 exploitations en circuits courts recensées (CA50 2023)"
+  ],
+  "vigilances": [
+    "La dépendance aux intrants azotés et aux cultures fourragères importées expose les élevages manchois à des risques de coûts accrus et de vulnérabilité climatique d'ici 2035",
+    "La progression de l'agriculture biologique reste freinée par des structures d'exploitation de grande taille et une culture conventionnelle fortement ancrée, risquant de creuser l'écart avec la moyenne nationale",
+    "La saisonnalité touristique du littoral crée une pression inégale sur les circuits courts locaux, avec des risques de désorganisation de l'offre en basse saison et de captation par la grande distribution"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~430 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "8%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "1,3 Md L/an",
+      "label": "Production laitière annuelle"
+    },
+    {
+      "valeur": "200+",
+      "label": "Exploitations en circuits courts"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques nationales et départementales",
+    "INAO 2024 – Registre AOP/IGP français",
+    "Agreste 2023 – Recensement agricole Manche",
+    "ZAVA 2024 – Zones d'Autonomie Alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 à l'échelle infra-départementale restent partielles pour la Manche, rendant difficile une cartographie fine des bassins d'autonomie alimentaire locaux",
+    "La part de SAU en bio est issue de déclarations PAC et peut sous-estimer les surfaces en conversion ou les pratiques agroécologiques non certifiées",
+    "L'évaluation des circuits courts repose sur des recensements déclaratifs de la Chambre d'Agriculture, sans audit indépendant systématique des flux économiques réels"
+  ]
+}

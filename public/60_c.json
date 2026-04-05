@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Oise (60), département de plaine à faible altitude moyenne (environ 110 m), présente une vulnérabilité climatique significative à l'horizon 2060, confirmée par les projections DRIAS et Climadiag. Les scénarios RCP 8.5 anticipent une hausse des températures moyennes de +2,5 à +3,5°C d'ici 2060, avec une multiplication par 3 à 4 du nombre de jours de canicule annuels (Climadiag 2023). Le département est traversé par l'Oise, l'Aisne et leurs affluents, exposant environ 85 000 habitants à des risques d'inondation accrus sous l'effet de précipitations intenses plus fréquentes et de sols agricoles peu infiltrants (PPRi Oise). Bien que le risque feux de forêt reste modéré comparé au Sud de la France, la sécheresse des sols forestiers du Valois et de la forêt d'Halatte devrait s'intensifier (TRACC/AP3C Hauts-de-France), fragilisant les peuplements résineux et mixtes du nord du département.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude modeste ~110m, faible tampon thermique en plaine agricole"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Multiplication par 3-4 des jours caniculaires projetés à 2060 (Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux limité mais forêts Halatte/Compiègne fragilisées par sécheresse"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 3.0,
+      "note": "85 000 habitants en zone inondable, vallées Oise-Aisne très exposées"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt parmi les plus faibles du territoire national, avec seulement ~18 000 ha de forêts majoritairement feuillues (IFN/IGN)",
+    "Absence de littoral élimine toute vulnérabilité côtière directe (submersion marine, érosion du trait de côte)",
+    "Réseau hydrographique dense offrant des ressources en eau mobilisables pour l'adaptation agricole et urbaine (SDAGE Artois-Picardie)",
+    "Couverture nuageuse et régime de vent atlantique atténuent partiellement l'intensité des épisodes caniculaires par rapport au couloir rhodanien"
+  ],
+  "vigilances": [
+    "Projections DRIAS 2060 (RCP 8.5) : +35 à +45 jours de vagues de chaleur par an, exposition accrue des zones urbaines denses (Beauvais, Creil, Compiègne) sans végétalisation suffisante",
+    "Risque inondation majeur : le PPRi de la vallée de l'Oise classe 42 communes en zone rouge ; les crues centennales pourraient voir leur fréquence doubler à l'horizon 2070 (Explore2/TRACC)",
+    "Sécheresse agricole structurelle : les sols limoneux du Beauvaisis, très sensibles au déficit hydrique estival, menacent la viabilité des cultures céréalières sans adaptation des assolements (INRAE 2023/AP3C)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C",
+      "label": "Hausse température moyenne 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "85 000",
+      "label": "Habitants en zone inondable PPRi"
+    },
+    {
+      "valeur": "×3,5",
+      "label": "Multiplication jours canicule d'ici 2060"
+    },
+    {
+      "valeur": "110 m",
+      "label": "Altitude moyenne département"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2023 (Météo-France)",
+    "DRIAS 2.0 – scénarios RCP 4.5/8.5 (IPSL/CNRM)",
+    "TRACC & AP3C Hauts-de-France (CEREMA 2022)",
+    "PPRi vallée de l'Oise (DDT 60 / GéoRisques)"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à l'échelle communale mais leur agrégation départementale masque les disparités entre plaine agricole du Beauvaisis et massifs forestiers du Valois",
+    "L'absence de station météorologique de référence de longue durée dans le centre du département limite la validation locale des modèles climatiques régionaux DRIAS",
+    "Les scénarios d'inondation intègrent insuffisamment les interactions entre remontées de nappes (nappes sub-affleurantes de la craie) et crues fluviales, sous-estimant potentiellement le risque combiné"
+  ]
+}

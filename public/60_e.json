@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Oise présente une situation hydrique intermédiaire mais sous tension croissante : le département repose majoritairement sur des captages en nappe de craie, ressource vulnérable aux pollutions agricoles diffuses, avec environ 78 % de la population alimentée par des eaux souterraines (ARS Hauts-de-France, 2022). La qualité des eaux distribuées est globalement acceptable mais 12 % des unités de distribution ont présenté des dépassements ponctuels de la limite de qualité en nitrates ou pesticides sur la période 2019-2022 (ARS, 2023). Le bassin versant de l'Oise est classé en mauvais état chimique pour plusieurs masses d'eau superficielles du fait des intrants agricoles intensifs (DCE/Agence de l'eau Seine-Normandie, 2022). Les projections Explore2 indiquent une réduction probable des débits d'étiage de 20 à 35 % à l'horizon 2050-2070, accentuant la compétition entre usages agricoles, industriels et domestiques dans ce département à dominante agricole céréalière.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Qualité globale acceptable, dépassements ponctuels nitrates/pesticides 12% UDI"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Débits étiage -20 à -35% horizon 2070 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Agriculture céréalière intensive, nappes craie vulnérables, zones vulnérables nitrates"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Contaminations PFAS détectées ponctuellement, niveau modéré vs autres départements"
+    }
+  ],
+  "points_forts": [
+    "Ressource en eau souterraine abondante grâce à la nappe de craie du Sénonien, avec des réserves volumétriques importantes couvrant ~78 % de l'alimentation en eau potable (ARS Hauts-de-France, 2022)",
+    "Réseau de surveillance des captages densifié : 47 captages prioritaires identifiés avec programmes d'actions agro-environnementales actifs (Agence de l'eau Seine-Normandie, 2023)",
+    "Taux de conformité bactériologique des eaux distribuées supérieur à 98 % sur l'ensemble du département (ARS, 2022)",
+    "Présence de zones humides en vallée de l'Oise et de l'Aisne contribuant à la recharge naturelle et à l'autoépuration des eaux superficielles"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de l'Oise de 20 à 35 % à l'horizon 2050-2070 (Explore2, 2023), menaçant les prélèvements estivaux agricoles et industriels",
+    "Pression nitrates persistante : l'intégralité du département est classée en zone vulnérable nitrates, avec des concentrations moyennes en nappe de craie dépassant 30 mg/L dans plusieurs secteurs (ADES/BRGM, 2022)",
+    "Détection de résidus de pesticides (chlorothalonil-R471811, métolachlore-ESA) dans plusieurs captages prioritaires, questionnant la pérennité de certaines ressources sans traitement renforcé (ARS/ANSES, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "78 %",
+      "label": "Alimentation AEP en eaux souterraines"
+    },
+    {
+      "valeur": "12 %",
+      "label": "UDI avec dépassements ponctuels qualité"
+    },
+    {
+      "valeur": "-20 à -35 %",
+      "label": "Réduction débits étiage 2070 (Explore2)"
+    },
+    {
+      "valeur": "47",
+      "label": "Captages prioritaires sous programme d'actions"
+    }
+  ],
+  "sources": [
+    "ARS Hauts-de-France – Bilan qualité eaux 2022",
+    "Agence de l'eau Seine-Normandie – DCE/état des masses d'eau 2022-2023",
+    "Explore2 BRGM/OFB – Projections hydrologiques 2023",
+    "ADES/BRGM – Base nationale piézométrie et qualité nappes 2022"
+  ],
+  "limites": [
+    "Les données PFAS à l'échelle départementale restent partielles : le plan national de surveillance lancé en 2022-2023 n'a pas encore produit de cartographie exhaustive pour l'Oise, sous-estimant potentiellement l'exposition réelle",
+    "Les projections Explore2 présentent une incertitude importante à l'échelle locale (intervalle ±15 %) et ne distinguent pas suffisamment les sous-bassins versants intra-départementaux (Thérain, Brèche, Automne)",
+    "L'état écologique des masses d'eau superficielles est évalué sur cycle de 6 ans (DCE), ce qui peut masquer des dégradations récentes liées aux sécheresses 2022-2023 non encore intégrées dans les bilans officiels disponibles"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53) présente une biodiversité relativement préservée grâce à ses bocages caractéristiques de l'ouest français, ses vallées alluviales et ses zones humides associées à la Mayenne et ses affluents. Le département compte environ 8,5 % de sa superficie en zones Natura 2000 (INPN 2024), un taux inférieur à la moyenne nationale (~12,5 %), avec 12 sites désignés couvrant principalement les vallées de la Mayenne, de l'Oudon et de l'Erve. La LPO recense plusieurs espèces à enjeux dont le Grand Rhinolophe, la Loutre d'Europe et diverses espèces de chauve-souris liées aux bocages denses, mais les populations subissent la pression de l'intensification agricole. Le bocage mayennais, bien que partiellement maintenu, a perdu près de 25 % de ses haies entre 1950 et 2020 (OFB 2024/INRAE), fragilisant les trames verte et bleue indispensables aux corridors écologiques. L'absence de Parc National et la couverture limitée en aires protégées strictes constituent des lacunes notables pour la gouvernance de la biodiversité départementale.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Natura 2000 couvre ~8,5% du territoire, sous la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Aucun Parc National ; pas de PNR actif en Mayenne"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Grand Rhinolophe, Loutre d'Europe, bocage favorable aux espèces"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Bocage partiellement maintenu, corridors alluviaux fonctionnels"
+    }
+  ],
+  "points_forts": [
+    "12 sites Natura 2000 couvrant les vallées de la Mayenne, l'Oudon et l'Erve, protégeant des habitats alluviaux remarquables (INPN 2024)",
+    "Présence confirmée de la Loutre d'Europe sur l'ensemble du réseau hydrographique mayennais, indicateur d'une bonne qualité des milieux aquatiques (LPO/OFB)",
+    "Maintien d'un bocage dense dans le nord du département, parmi les mieux préservés des Pays de la Loire, offrant refuges et corridors aux chiroptères et passereaux",
+    "Population de Grand Rhinolophe en hausse relative grâce aux plans de conservation chiroptères régionaux, avec plusieurs gîtes identifiés dans les bâtis ruraux (SFEPM/LPO 53)"
+  ],
+  "vigilances": [
+    "Régression continue des haies bocagères (-25 % depuis 1950, INRAE 2023) menaçant la connectivité des trames vertes et les espèces bocagères spécialistes (Pie-grièche écorcheur, Chevêche d'Athéna)",
+    "Intensification agricole et usage de pesticides affectant les invertébrés pollinisateurs et les amphibiens des zones humides, avec projections de pression accrue d'ici 2040 (OFB 2024)",
+    "Absence de structure de protection forte (PNR ou réserve naturelle nationale d'envergure) limitant la gouvernance territoriale de la biodiversité et les financements dédiés"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "12",
+      "label": "Sites Natura 2000 désignés"
+    },
+    {
+      "valeur": "-25%",
+      "label": "Perte haies depuis 1950"
+    },
+    {
+      "valeur": "0",
+      "label": "Parc National ou PNR actif"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Mayenne / SFEPM",
+    "INRAE 2023 (bocage)",
+    "DREAL Pays de la Loire / Natura 2000"
+  ],
+  "limites": [
+    "Les données sur l'état réel des haies restent partielles : les inventaires linéaires précis à l'échelle communale sont incomplets pour la Mayenne",
+    "L'absence de Parc Naturel Régional limite la disponibilité de suivis standardisés et longitudinaux des espèces et habitats sur le département",
+    "Les évaluations de l'état de conservation des habitats Natura 2000 mayennais ne sont pas toutes actualisées (certains DOCOB datent des années 2000-2010), réduisant la fiabilité des diagnostics récents"
+  ]
+}

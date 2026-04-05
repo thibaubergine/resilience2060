@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret présente une biodiversité contrastée, structurée autour de la vallée de la Loire, site Natura 2000 majeur et inscrit au Patrimoine mondial de l'UNESCO, qui abrite des habitats alluviaux rares comme les prairies inondables et les forêts galeries (INPN, 2024). Le département compte environ 8,5 % de sa superficie sous désignation Natura 2000, soit un niveau inférieur à la moyenne nationale (12,5 %), mais concentre des espèces emblématiques comme le Chabot, la Bouvière ou encore le Grand Murin (LPO Centre-Val de Loire, 2023). La forêt d'Orléans, deuxième massif forestier domanial de France avec 53 000 ha, constitue un réservoir de biodiversité significatif, bien que sa gestion intensive limite partiellement son rôle d'habitat naturel (ONF, 2023). Les corridors écologiques ligériens sont fragilisés par l'urbanisation croissante autour d'Orléans et par la déprise des pratiques agropastorales traditionnelles dans les zones humides riveraines (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Natura 2000 couvre ~8,5% du territoire, sous la moyenne nationale de 12,5%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Pas de Parc National ; PNR Loire-Anjou-Touraine marginal en limite départementale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Loire abrite Chabot, Bouvière, Grand Murin ; espèces patrimoniales notables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors ligériens fragmentés par urbanisation orléanaise et agriculture intensive"
+    }
+  ],
+  "points_forts": [
+    "La vallée de la Loire, site Natura 2000 FR2400528, couvre plus de 22 000 ha dans le Loiret et constitue l'un des derniers grands fleuves sauvages d'Europe (INPN, 2024)",
+    "La forêt domaniale d'Orléans (53 000 ha) représente le 2e massif forestier public de France et abrite plusieurs espèces de chiroptères protégées (ONF, 2023)",
+    "Le Loiret recense plus de 1 800 espèces végétales et 300 espèces d'oiseaux nicheurs ou de passage, témoignant d'une diversité taxonomique notable (LPO Centre-Val de Loire, 2023)",
+    "Les zones humides ligériennes (étangs de la Sologne nord, prairies de Loire) jouent un rôle clé pour les oiseaux migrateurs, avec des haltes importantes de limicoles et d'anatidés (OFB, 2024)"
+  ],
+  "vigilances": [
+    "La régression des zones humides se poursuit : environ 50 % des prairies alluviales ligériennes ont disparu depuis 1950, menaçant les espèces inféodées aux habitats humides (OFB, 2024)",
+    "La fragmentation des corridors écologiques par les axes routiers (A10, A71, A19) et l'étalement urbain orléanais isole des populations animales et réduit les flux génétiques",
+    "Le réchauffement climatique projeté (hausse de +2,5°C à +3°C d'ici 2060 selon DRIAS) aggrave l'assèchement des zones humides de Sologne et fait pression sur les espèces aquatiques froides comme le Chabot"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "53 000 ha",
+      "label": "Forêt domaniale d'Orléans"
+    },
+    {
+      "valeur": ">1 800",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "~50%",
+      "label": "Prairies alluviales perdues depuis 1950"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Centre-Val de Loire 2023",
+    "ONF – Office National des Forêts 2023"
+  ],
+  "limites": [
+    "Les données de suivi des espèces en Loiret restent partielles hors vallée de la Loire, notamment pour les milieux bocagers et agro-forestiers du nord du département",
+    "L'état réel des corridors écologiques n'est pas quantifié avec précision à l'échelle départementale, faute de cartographie TVB actualisée post-SRCE 2015",
+    "Les indicateurs Natura 2000 mesurent la superficie désignée mais pas l'état de conservation effectif des habitats, qui peut être dégradé malgré la protection formelle"
+  ]
+}

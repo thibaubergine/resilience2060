@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne (52) présente un profil de biodiversité relativement favorable pour un département rural peu densifié (environ 175 000 hab., 52 km²), avec une couverture forestière significative représentant près de 40 % du territoire, majoritairement composée de chênaies-hêtraies et de forêts de Champagne humide (IGN/IFN 2023). Le département accueille plusieurs sites Natura 2000 couvrant environ 12 à 14 % de sa superficie, protégeant notamment des habitats de zones humides associées aux vallées de la Marne, de l'Aube et de la Vingeanne (INPN 2024). En l'absence de Parc National, la Haute-Marne bénéficie d'une proximité avec le PNR des Forêts (Côte-d'Or/Haute-Marne), créé en 2019, qui intègre une partie de son territoire oriental et constitue un levier de gouvernance écologique notable (OFB 2024). Des espèces emblématiques comme le Milan royal, la Pie-grièche grise et la Loutre d'Europe sont recensées sur le département, témoignant d'une biodiversité fonctionnelle encore préservée, bien que fragmentée par les grandes cultures de la plaine champenoise (LPO Champagne-Ardenne 2023). Les corridors écologiques de la Trame Verte et Bleue restent partiellement opérationnels, fragilisés par l'intensification agricole dans les secteurs occidentaux et les infrastructures routières (SRCE Grand Est 2020).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Environ 13 % du territoire en Natura 2000, légèrement sous la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR des Forêts intègre le territoire est; absence de Parc National"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Milan royal, Loutre, Pie-grièche grise: cortège espèces remarquables présent"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "TVB partiellement fragmentée par grandes cultures plaine champenoise"
+    }
+  ],
+  "points_forts": [
+    "Couverture forestière d'environ 40 % du département, supérieure à la moyenne Grand Est, abritant des habitats d'espèces remarquables (IGN/IFN 2023)",
+    "Intégration partielle au PNR des Forêts (créé 2019), premier PNR labellisé en Grand Est, couvrant ~60 000 ha sur les confins Haute-Marne/Côte-d'Or (OFB 2024)",
+    "Présence confirmée du Milan royal nicheur, espèce emblématique en déclin national, sur plusieurs secteurs de bocage haut-marnais (LPO 2023)",
+    "Réseau de zones humides lié aux vallées de la Marne et de l'Aube, inscrit en sites Natura 2000 et favorable aux amphibiens, loutres et odonates (INPN 2024)"
+  ],
+  "vigilances": [
+    "Régression du bocage et des prairies permanentes dans la plaine champenoise occidentale : perte estimée de 15 à 20 % des haies en 20 ans, réduisant les corridors pour la faune (SRCE Grand Est 2020)",
+    "Pression sur les populations d'oiseaux des plaines agricoles (Alouette des champs, Bruant ortolan) avec déclin de plus de 30 % en Champagne crayeuse depuis 2000 (STOC/LPO 2022)",
+    "Risque d'assèchement des zones humides de fonds de vallées sous l'effet du changement climatique : projections Climadiag 2060 indiquent une hausse de +2,5°C à +3°C en été pour la Haute-Marne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 %",
+      "label": "Couverture forestière du département"
+    },
+    {
+      "valeur": "~13 %",
+      "label": "Surface Natura 2000 / superficie totale"
+    },
+    {
+      "valeur": "2019",
+      "label": "Création PNR des Forêts (est du dép.)"
+    },
+    {
+      "valeur": ">200",
+      "label": "Espèces d'oiseaux recensées (LPO 52)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Champagne-Ardenne 2023",
+    "SRCE Grand Est 2020",
+    "IGN/IFN 2023"
+  ],
+  "limites": [
+    "Les données Natura 2000 disponibles pour la Haute-Marne ne distinguent pas toujours l'état de conservation réel des habitats de leur simple délimitation cartographique (INPN 2024)",
+    "L'impact réel du PNR des Forêts sur la biodiversité haut-marnaise reste difficile à évaluer, le parc étant très récent (2019) et les indicateurs de suivi encore en cours de consolidation",
+    "L'absence d'atlas départemental de biodiversité récent et exhaustif en Haute-Marne limite la précision des évaluations sur les espèces invertébrées et les végétations de milieux ouverts"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Nord (59) affiche une qualité de l'air parmi les plus dégradées de France métropolitaine, pénalisé par la conjonction d'une très forte densité industrielle (métallurgie, chimie, cimenteries dans la zone Dunkerque-Valenciennes), d'un trafic routier intense lié à l'axe A1/A25 et d'une agriculture intensive émettrice d'ammoniac (NH₃). Selon ATMO Hauts-de-France (2023), les concentrations moyennes annuelles de PM2,5 atteignent 12 à 15 µg/m³ dans les agglomérations lilloise et valenciennoise, dépassant largement la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ urbain dépasse régulièrement 25 µg/m³ sur les axes structurants de la métropole lilloise, proche du seuil réglementaire européen de 40 µg/m³ (directive 2008/50/CE). Le Nord figure parmi les premiers départements français pour les émissions d'ammoniac agricole, du fait de l'élevage porcin et bovin intensif contribuant à la formation de particules secondaires (Citepa, inventaire 2022). La population exposée à des dépassements de valeurs guides OMS représente plus de 70 % des 2,6 millions d'habitants du département (ATMO Hauts-de-France, 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 2.0,
+      "note": "PM2,5 moyen 12-15 µg/m³, dépasse seuil OMS (5 µg/m³) de 2 à 3 fois"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ urbain Lille ~25 µg/m³, proche limite réglementaire européenne"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 2.0,
+      "note": "Dunkerque-Valenciennes parmi zones industrielles les plus émettrices nationales"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "Élevages intensifs, NH₃ élevé, formation particules secondaires significative"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance dense : ATMO Hauts-de-France opère 30+ stations de mesure dans le Nord, permettant un suivi fin des polluants",
+    "Tendance baisse des émissions SO₂ industrielles de -40 % entre 2010 et 2022 grâce aux réglementations IED (source : Citepa 2022)",
+    "Plans de Protection de l'Atmosphère (PPA) actifs sur les agglomérations de Lille et Dunkerque, avec objectifs chiffrés de réduction",
+    "Développement du réseau de transport en commun métropolitain (Transpole/Ilévia) contribuant à la réduction du trafic individuel motorisé"
+  ],
+  "vigilances": [
+    "Épisodes de pollution particulaire récurrents : le Nord enregistre en moyenne 15 à 20 jours/an de dépassement du seuil d'information PM10 (50 µg/m³), avec risque d'aggravation lors de vagues de chaleur futures (DRIAS 2050)",
+    "Pollution industrielle persistante à Dunkerque et Mardyck : émissions de HAP, benzène et métaux lourds impactant les riverains, contentieux européen toujours actif sur la qualité de l'air transfrontalier (Belgique)",
+    "Cumul des expositions en zones périurbaines et rurales : les émissions NH₃ agricoles combinées aux polluants industriels génèrent des pics de particules secondaires sous-estimés dans les campagnes du Cambrésis et de l'Avesnois"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12-15 µg/m³",
+      "label": "PM2,5 moyen annuel urbain"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "25 µg/m³",
+      "label": "NO₂ moyen Lille"
+    },
+    {
+      "valeur": "+70 %",
+      "label": "Population exposée dépassements OMS"
+    }
+  ],
+  "sources": [
+    "ATMO Hauts-de-France – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Directive européenne 2008/50/CE qualité de l'air ambiant"
+  ],
+  "limites": [
+    "Les données ATMO sont représentatives des zones urbaines et périurbaines équipées de stations ; les espaces ruraux du Cambrésis, de l'Avesnois et du Cœur de Flandre restent sous-instrumentés, sous-estimant les expositions réelles aux NH₃ et particules secondaires",
+    "L'inventaire Citepa agrège les émissions à l'échelle nationale et régionale ; la désagrégation infra-départementale par commune ou EPCI reste imprécise pour les petits émetteurs diffus",
+    "Les effets transfrontaliers (apports belges et néerlandais de polluants transportés par les vents dominants d'ouest) ne sont pas intégrés dans les bilans départementaux locaux, conduisant à sous-estimer la charge polluante totale"
+  ]
+}

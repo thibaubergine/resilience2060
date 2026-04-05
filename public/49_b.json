@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire présente une biodiversité notable grâce à la confluence de la Loire, du Layon, de l'Authion et de leurs zones humides associées, qui constituent des habitats remarquables pour de nombreuses espèces. Le département compte environ 8,5 % de son territoire couvert par des zones Natura 2000, soit près de 65 000 hectares, incluant des sites d'importance majeure comme la « Loire de Nantes aux Ponts-de-Cé » (OFB 2024/INPN). La LPO Anjou recense plus de 250 espèces d'oiseaux nicheurs ou de passage, dont le Râle des genêts et le Busard des roseaux, emblématiques des prairies humides ligériennes. Cependant, les corridors écologiques restent sous pression : la fragmentation agricole intense, avec plus de 60 % de la superficie en surfaces agricoles utiles, fragilise la trame verte et bleue définie dans le SRCE des Pays de la Loire. L'absence de parc naturel régional sur le territoire départemental constitue une limite structurelle à la gouvernance de la biodiversité locale.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Environ 8,5 % du territoire en zones Natura 2000, soit ~65 000 ha"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Aucun parc national; PNR Loire-Anjou-Touraine partiel, couverture limitée"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Plus de 250 espèces d'oiseaux; Râle des genêts, Loutre, Cistude présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Trame bleue ligérienne structurante mais corridors terrestres fragmentés"
+    }
+  ],
+  "points_forts": [
+    "Réseau de zones humides ligériennes exceptionnel : plus de 20 000 ha de prairies inondables classées en zone Natura 2000 le long de la Loire (INPN)",
+    "Présence de la Cistude d'Europe et de la Loutre d'Europe, espèces protégées indicatrices d'une bonne qualité des milieux aquatiques (LPO Anjou / OFB 2024)",
+    "Le PNR Loire-Anjou-Touraine couvre une partie du département et anime des actions de restauration de haies et de mares bocagères",
+    "Fort réseau associatif naturaliste (LPO Anjou, Anjou Nature) contribuant à un atlas de biodiversité actualisé et à la détection précoce des espèces invasives"
+  ],
+  "vigilances": [
+    "Déclin documenté des populations de Râle des genêts : moins de 200 mâles chanteurs recensés en 2023 en France, dont une part significative dépend des prairies humides angevines de plus en plus drainées (LPO/OFB)",
+    "Espèces exotiques envahissantes en progression : la Jussie et le Ragondin colonisent les réseaux de fossés et plans d'eau du Saumurois, dégradant les habitats aquatiques natifs",
+    "Fragmentation des corridors terrestres croissante : artificialisation des sols de +4 % sur la décennie 2010-2020 (CEREMA), menaçant la continuité de la trame verte bocagère"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~65 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part territoire Natura 2000"
+    },
+    {
+      "valeur": "250+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "20 000 ha",
+      "label": "Prairies inondables Loire"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Anjou – Atlas des oiseaux nicheurs",
+    "SRCE Pays de la Loire (DREAL)",
+    "PNR Loire-Anjou-Touraine"
+  ],
+  "limites": [
+    "Les données Natura 2000 ne reflètent pas l'état écologique réel des habitats à l'intérieur des périmètres, qui peuvent être dégradés par l'agriculture intensive",
+    "L'atlas de biodiversité communal (ABC) n'est pas déployé sur l'ensemble du département, laissant des zones grises dans la connaissance des espèces locales",
+    "L'indicateur de fragmentation des corridors repose sur des modélisations SRCE de 2015, non actualisées, sous-estimant potentiellement les ruptures récentes liées à l'urbanisation péri-angevine"
+  ]
+}

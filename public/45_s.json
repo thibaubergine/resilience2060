@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loiret présente une situation pédologique contrastée, marquée par la prédominance de grandes plaines céréalières intensives (Beauce, Gâtinais) qui exposent les sols à une pression phytosanitaire élevée, avec des concentrations en résidus de pesticides parmi les plus significatives de la région Centre-Val de Loire selon les données INRAE 2023. Le département comptabilise un nombre notable de sites et sols pollués, héritage de son tissu industriel et logistique développé autour d'Orléans, avec plusieurs dizaines de sites en traitement actif dans la base de données ex-BASOL (GéoRisques). Le risque radon demeure globalement faible à modéré sur la majeure partie du territoire loirétain, les formations géologiques sédimentaires du Bassin parisien présentant peu d'émanations uranifères significatives (IRSN). En revanche, la part de Surface Agricole Utile (SAU) en agriculture biologique reste inférieure à 5% (Agence Bio 2023), sensiblement en dessous de la moyenne nationale de 10,7%, reflétant la domination des systèmes conventionnels intensifs en Beauce.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Nombre élevé de sites pollués, contexte industrialo-logistique orléanais significatif"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression phytosanitaire forte, plaines céréalières Beauce et Gâtinais intensives"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Formations sédimentaires, risque radon faible à modéré sur territoire"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~4-5%, inférieure moyenne nationale, progression lente"
+    }
+  ],
+  "points_forts": [
+    "Risque radon limité : formations géologiques sédimentaires du Bassin parisien peu émettrices, potentiel d'exposition faible pour la majorité de la population (IRSN)",
+    "Présence de zones de sols remarquables en val de Loire, classés au patrimoine mondial UNESCO, bénéficiant de pratiques plus diversifiées (viticulture, maraîchage)",
+    "Dynamique de conversion bio en progression constante, avec +8% de surfaces certifiées entre 2021 et 2023 (Agence Bio Centre-Val de Loire)",
+    "Existence de programmes locaux de gestion des terres polluées coordonnés par la DREAL Centre-Val de Loire, avec suivi actif des friches industrielles"
+  ],
+  "vigilances": [
+    "Contamination persistante des sols agricoles en Beauce par les pesticides (chlortoluron, S-métolachlore) avec détections récurrentes dans les eaux souterraines et les matrices sol (INRAE 2023), risque de dégradation irréversible sur horizon 20-30 ans",
+    "Multiplication des sites logistiques et zones d'activité autour d'Orléans-Brétigny-Saran générant de nouveaux risques de pollutions diffuses aux hydrocarbures et métaux lourds (GéoRisques/ex-BASOL)",
+    "Érosion et compaction des sols limoneux de Beauce accentuées par le changement climatique (épisodes pluvieux intenses), fragilisant la structure pédologique et réduisant la capacité de stockage carbone à l'horizon 2050 (Climadiag)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 sites",
+      "label": "Sites ex-BASOL actifs ou surveillés"
+    },
+    {
+      "valeur": "<5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Faible-modéré",
+      "label": "Potentiel radon (IRSN)"
+    },
+    {
+      "valeur": ">60%",
+      "label": "SAU en grandes cultures conventionnelles"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie nationale du risque radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Absence de cartographie fine et actualisée de la contamination en résidus pesticides spécifiquement dans les sols agricoles du Loiret, les données INRAE restant partielles à l'échelle départementale",
+    "La base ex-BASOL ne recense que les sites identifiés et déclarés, sous-estimant potentiellement la pollution diffuse des zones péri-urbaines en expansion rapide autour d'Orléans",
+    "Les données sur la teneur en matière organique et le stock carbone des sols loirétains sont insuffisamment spatialisées pour permettre un suivi robuste de la dégradation pédologique liée aux pratiques agricoles intensives"
+  ]
+}

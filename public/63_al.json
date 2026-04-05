@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme présente un profil alimentaire solide, porté par une tradition agricole diversifiée sur 330 000 ha de SAU (Agreste 2023), combinant élevage bovin laitier, polyculture et maraîchage péri-urbain autour de Clermont-Ferrand. Le département compte 12 appellations AOP/IGP reconnues par l'INAO, dont le Saint-Nectaire, la Fourme d'Ambert et la Lentille verte du Puy (AOC partagée), conférant une densité géographique d'indications de qualité supérieure à la moyenne nationale. La part de la SAU en agriculture biologique atteint environ 9,8 % (Agence Bio 2023), en progression régulière mais encore en deçà des objectifs du Plan Ambition Bio. L'autonomie alimentaire locale est favorisée par un tissu dense de circuits courts : le département recense plus de 280 AMAP et points de vente directs actifs (ZAVA 2024/RNM), avec une dynamique renforcée autour du bassin clermontois. Ces atouts font du Puy-de-Dôme un département de référence en alimentation durable à l'échelle régionale Auvergne-Rhône-Alpes.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Autonomie alimentaire bonne grâce élevage bovin et maraîchage péri-urbain dense"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "12 AOP/IGP dont Saint-Nectaire, Fourme d'Ambert, Bleu d'Auvergne"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "9,8% SAU bio, progression lente, objectifs Plan Ambition Bio non atteints"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 280 AMAP et circuits courts actifs, forte dynamique clermontoise"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle d'AOP/IGP : 12 appellations reconnues INAO dont 4 fromagères (Saint-Nectaire, Fourme d'Ambert, Bleu d'Auvergne, Cantal partagé) valorisant l'élevage montagnard",
+    "Filière lait AOP structurée et résiliente : 85% du lait collecté en zone AOP transformé localement (INAO/Agreste 2022), garantissant une chaîne de valeur territoriale",
+    "Réseau de circuits courts dynamique avec plus de 280 AMAP et marchés de producteurs recensés (ZAVA 2024), notamment en aire urbaine clermontoise",
+    "SAU de 330 000 ha maintenue grâce au soutien des MAE et à la vitalité des exploitations familiales d'élevage extensif (Agreste 2023)"
+  ],
+  "vigilances": [
+    "Pression climatique sur les prairies permanentes : réduction de 15 à 20 % de la productivité fourragère projetée d'ici 2050 (Climadiag/DRIAS 2024), menaçant la base des filières AOP fromagères",
+    "Stagnation de la progression bio à 9,8 % de SAU, loin de l'objectif national de 18 % en 2027 (Agence Bio 2023), avec risque de déconversions liées à la crise des débouchés",
+    "Concentration des circuits courts sur l'aire clermontoise laissant les zones rurales isolées (est et nord du département) en sous-accessibilité alimentaire locale (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "330 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "12",
+      "label": "Appellations AOP/IGP (INAO 2024)"
+    },
+    {
+      "valeur": "9,8 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "280+",
+      "label": "AMAP & circuits courts actifs"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / INAO 2024",
+    "Agence Bio 2023",
+    "Agreste – Recensement agricole 2023",
+    "Climadiag / DRIAS 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur les circuits courts n'intègrent pas les ventes directes informelles et sous-estiment probablement l'autonomie alimentaire réelle du département",
+    "La part de SAU bio calculée exclut les surfaces en conversion, ce qui peut minorer le dynamisme réel de la transition agroécologique en cours dans le 63",
+    "L'évaluation de la densité AOP/IGP repose sur le nombre d'appellations sans pondérer les volumes produits ni la part de la production départementale effectivement certifiée chaque année"
+  ]
+}

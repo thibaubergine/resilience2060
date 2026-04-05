@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Puy-de-Dôme bénéficie d'un profil climatique 2060 globalement favorable grâce à son relief volcanique, avec une altitude médiane d'environ 870 m et des sommets dépassant 1 800 m (Puy de Sancy), ce qui constitue un tampon thermique naturel significatif (Climadiag 2023). Les projections DRIAS 2060 scénario SSP3-7.0 anticipent une hausse de +2,5°C à +3,2°C selon l'altitude, nettement moins pénalisante qu'en plaine languedocienne ou rhônalpine basse. Le nombre de jours de canicule (Tmax > 35°C) devrait augmenter de 5 à 12 jours/an en fond de vallée (Limagne, Issoire) d'ici 2060, mais rester marginal sur les plateaux et massifs (AP3C/TRACC 2023). Le risque feux de forêt, bien que croissant, reste modéré comparé aux départements méditerranéens, avec environ 550 ha brûlés en moyenne annuelle ces dix dernières années (DFCI Auvergne). L'absence de façade littorale et la morphologie volcanique limitent fortement la vulnérabilité côtière, tandis que le risque inondation reste localisé sur les bassins Allier et Dore (TRACC/PPRI en vigueur).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Relief volcanique (1885 m) offre un tampon thermique exceptionnel en France métropolitaine"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "Vallées de Limagne exposées aux canicules; massifs protégés jusqu'en 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux croissant mais massifs humides limitent propagation comparé au Sud"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Pas de côte; inondations Allier/Dore localisées, PPRI couvrant zones à risque"
+    }
+  ],
+  "points_forts": [
+    "Altitude médiane élevée (~870 m) et points culminants à 1 885 m (Sancy) réduisant structurellement l'exposition thermique future (Climadiag 2023)",
+    "Projections DRIAS 2060 : hausse thermique limitée à +2,5°C sur les hauts plateaux, contre +3,5°C en plaine rhodanienne (DRIAS/TRACC)",
+    "Absence totale de vulnérabilité littorale, éliminant les risques de submersion marine et érosion côtière",
+    "Réseau hydrographique dense (Allier, Dore, Sioule) maintenant une humidité relative favorisant la résilience écologique des massifs (AP3C Auvergne)"
+  ],
+  "vigilances": [
+    "Îlots de chaleur urbains en expansion à Clermont-Ferrand : +4°C nocturnes projetés d'ici 2060 en fond de cuvette (TRACC/Météo-France)",
+    "Risque feux de forêt en progression sur les versants secs de la Chaîne des Puys et du Livradois, avec des années extrêmes dépassant 1 000 ha (DFCI Auvergne 2022)",
+    "Étiages sévères de l'Allier et de la Dore en été projetés à -30% de débit moyen d'ici 2060 (Explore2/DRIAS), accentuant les tensions sur l'alimentation en eau"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse T° projetée 2060 (moy. dép.)"
+    },
+    {
+      "valeur": "870 m",
+      "label": "Altitude médiane départementale"
+    },
+    {
+      "valeur": "12 j/an",
+      "label": "Jours canicule supplémentaires (Limagne)"
+    },
+    {
+      "valeur": "550 ha",
+      "label": "Surface brûlée moy. annuelle (2013-2023)"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2023 (Météo-France)",
+    "DRIAS 2023 – scénarios SSP3-7.0 et SSP5-8.5",
+    "TRACC – Trajectoire de Réchauffement de Référence pour l'Adaptation au Changement Climatique",
+    "AP3C – Agriculture Pastoralisme et Changement Climatique en Auvergne"
+  ],
+  "limites": [
+    "Les projections Climadiag/DRIAS sont disponibles à l'échelle communale mais la forte hétérogénéité altitudinale du Puy-de-Dôme rend toute valeur départementale moyenne peu représentative des réalités locales contrastées",
+    "Le risque feux de forêt est encore sous-documenté pour le Massif Central comparé aux départements méditerranéens, avec des modèles de propagation moins calibrés pour les essences auvergnates (Météo-France/INRAE)",
+    "L'exposition aux événements de précipitations extrêmes (orages cévenols remontants) est difficile à modéliser précisément à l'horizon 2060, introduisant une incertitude significative sur le volet inondations soudaines"
+  ]
+}

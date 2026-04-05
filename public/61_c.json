@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Orne (61), département intérieur du Massif armoricain normand, bénéficie d'un positionnement altitudinal modéré (collines du Perche et des Alpes Mancelles culminant à 417 m) qui constitue un tampon thermique non négligeable face aux vagues de chaleur futures (Climadiag 2024). Selon les projections DRIAS 2023, le département devrait connaître une augmentation de +2,5 à +3°C en température estivale moyenne à l'horizon 2060 sous scénario RCP 8.5, avec un nombre de jours de canicule passant de 3-4 actuellement à 15-20 jours par an. L'enclavement continental du département l'éloigne des risques côtiers majeurs mais l'expose davantage aux sécheresses agricoles et aux étiages sévères des bassins versants de la Sarthe et de l'Orne (AP3C Normandie, 2023). Le risque incendie reste modéré comparé aux départements méridionaux mais progresse sensiblement du fait de la déprise agricole et de l'extension des espaces boisés (environ 23 % de surface forestière, IGN 2023), tandis que les inondations par ruissellement en fond de vallée demeurent le principal aléa hydroclimatique local (TRACC 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Collines du Perche et Alpes Mancelles (417 m) offrent tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15-20 jours de canicule projetés/an à 2060, hausse significative (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêt 23 %, risque feux modéré mais en progression avec déprise agricole"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Inondations vallées Orne/Sarthe récurrentes ; aucun risque côtier direct"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne supérieure à la plupart des départements normands (point culminant 417 m, Alpes Mancelles), limitant les pics thermiques extrêmes",
+    "Département sans façade maritime : zéro exposition au risque de submersion côtière ou d'érosion littorale (données GéoLittoral/TRACC 2023)",
+    "Couvert forestier de 23 % (IGN 2023) assurant un effet îlot de fraîcheur local et un stockage carbone significatif (~4,5 MtCO₂ stockées)",
+    "Faible densité urbaine (30 hab/km²) réduisant l'effet d'îlot de chaleur urbain par rapport aux métropoles régionales"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +2,5 à +3°C en été à l'horizon 2060 (RCP 8.5, DRIAS 2023) avec doublement voire triplement des jours de chaleur extrême, impactant une population agricole et âgée vulnérable (23 % de plus de 60 ans, INSEE 2023)",
+    "Risque de feux de forêt en progression : la déprise agricole et l'enrésinement de certaines zones (Perche) combinés aux sécheresses estivales accrues pourraient placer le département en zone de vigilance moyenne d'ici 2060 (Climadiag/INRAE 2023)",
+    "Étiages critiques des rivières Orne et Sarthe en été : les projections Explore2 (2023) anticipent une baisse des débits d'étiage de -20 à -40 % à l'horizon 2050-2070, menaçant l'alimentation en eau potable et les usages agricoles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "417 m",
+      "label": "Altitude maximale (Alpes Mancelles)"
+    },
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse T° estivale projetée 2060"
+    },
+    {
+      "valeur": "23 %",
+      "label": "Surface forestière départementale"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse débit étiage projetée 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2024 (Météo-France)",
+    "DRIAS Les Futurs du Climat 2023 (IPSL/CERFACS)",
+    "AP3C Normandie – Adaptation au Changement Climatique 2023",
+    "TRACC (Trajectoire de Réchauffement de Référence) 2023",
+    "Explore2 – Hydrologie future France 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale manquent encore de granularité pour les micro-reliefs ornais (Alpes Mancelles, bocage du Perche), pouvant sous-estimer les effets tampon locaux",
+    "L'absence de station météorologique dense dans les zones de relief du département limite la calibration des modèles climatiques régionaux (réseau Météo-France insuffisant en Orne rurale)",
+    "Le risque feux de forêt est encore peu documenté pour la Normandie intérieure, faute de données historiques longues sur ce péril émergent dans le département"
+  ]
+}

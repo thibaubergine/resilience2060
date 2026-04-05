@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne présente une situation contrastée sur la dimension sols, avec un territoire à dominante agricole et forestière couvrant environ 6 200 km², mais exposé à des pressions d'origines diverses. Le département recense une quarantaine de sites BASOL (anciens sites pollués ou potentiellement pollués nécessitant une action) liés à son passé industriel sidérurgique et métallurgique, notamment dans la vallée de la Blaise et autour de Saint-Dizier (GéoRisques/BASOL). Les teneurs en résidus de pesticides dans les sols agricoles restent préoccupantes, la Haute-Marne affichant une SAU de plus de 280 000 ha avec une agriculture conventionnelle majoritaire utilisant fongicides et herbicides céréaliers (INRAE 2023). Le risque radon est significatif sur une partie du territoire, notamment sur les secteurs à substrat granitique et cristallin en bordure du Plateau de Langres (IRSN). La part de SAU en agriculture biologique reste inférieure à la moyenne nationale, estimée autour de 5-6%, contre 10,7% au niveau français (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites BASOL, héritage sidérurgique localisé vallée Blaise"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Agriculture céréalière intensive, herbicides et fongicides fréquents sols agricoles"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Risque radon modéré à élevé sur secteurs granitiques Plateau Langres"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~5-6%, progression lente mais légèrement meilleure que voisins"
+    }
+  ],
+  "points_forts": [
+    "Densité industrielle actuelle faible : moins de 3 hab/km² en zone rurale, limitant les nouvelles pollutions diffuses des sols",
+    "Couverture forestière importante (~40% du territoire, ONF) assurant une protection physique des sols contre l'érosion et le lessivage",
+    "Nombre de sites BASOL maîtrisés en dépollution active relativement contenu au regard du passé industriel historique (GéoRisques)",
+    "Sols à forte capacité de séquestration carbone dans les zones bocagères et forestières du sud du département (INRAE)"
+  ],
+  "vigilances": [
+    "Contamination résiduelle aux métaux lourds (plomb, zinc, cadmium) dans les sols autour des anciennes forges et fonderies de la vallée de la Blaise, avec risque de transfert vers les eaux souterraines d'ici 2030",
+    "Tassement et érosion des sols agricoles en progression sur les grandes plaines céréalières du nord du département, aggravés par les épisodes pluvieux intenses projetés à +20% d'ici 2050 (DRIAS)",
+    "Très faible progression de l'agriculture biologique et des pratiques agroécologiques limitant la reconstitution de la matière organique des sols, avec un risque d'appauvrissement structurel à horizon 2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 sites",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~5,5%",
+      "label": "Part SAU bio (2023)"
+    },
+    {
+      "valeur": "~40%",
+      "label": "Couverture forestière"
+    },
+    {
+      "valeur": "Modéré-élevé",
+      "label": "Risque radon (IRSN)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL 2023",
+    "INRAE - Observatoire des résidus pesticides sols 2023",
+    "IRSN - Cartographie du risque radon 2022",
+    "Agence Bio - Statistiques département 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie fine et récente des teneurs en pesticides à l'échelle parcellaire en Haute-Marne rend difficile l'évaluation précise de la contamination réelle des sols agricoles",
+    "Les données BASOL ne reflètent pas toujours les pollutions diffuses historiques liées à la métallurgie rurale disséminée sur le territoire, souvent non cartographiées",
+    "La mesure de la part SAU bio ne rend pas compte de la diversité des pratiques intermédiaires (agriculture raisonnée, HVE) qui peuvent significativement réduire les intrants sur les sols haut-marnais"
+  ]
+}

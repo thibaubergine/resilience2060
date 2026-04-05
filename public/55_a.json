@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse (55) affiche une qualité de l'air globalement satisfaisante au regard de sa faible densité de population (~29 hab/km²) et de l'absence de grandes agglomérations industrielles, avec des concentrations en NO₂ nettement inférieures aux seuils OMS dans la quasi-totalité du territoire (ATMO Grand Est, 2023). Les niveaux de PM2,5 restent modérés, autour de 10-12 µg/m³ en moyenne annuelle, proches mais légèrement supérieurs à la nouvelle valeur guide OMS 2021 fixée à 5 µg/m³, principalement sous l'influence de la combustion de biomasse et des transports (Citepa 2022). L'agriculture intensive génère toutefois des émissions d'ammoniac (NH₃) significatives, la Meuse étant un département à dominante agricole représentant une part non négligeable des émissions régionales de NH₃ (ATMO Grand Est/Citepa 2022), contribuant à la formation de particules secondaires. La présence de l'installation nucléaire de Bure (centre de stockage CIGÉO en projet) et de quelques sites industriels classés constitue un point de surveillance spécifique, bien que leur contribution aux émissions atmosphériques réglementées reste limitée (IRSN 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 ~11 µg/m³, au-dessus guide OMS 5 µg/m³, sous seuil EU"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ très faible, absence de grande agglomération, trafic limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Peu de sites industriels émetteurs majeurs, territoire rural dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "NH₃ agricole élevé, grandes cultures et élevages bovins intensifs"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de la région Grand Est, inférieures à 15 µg/m³ (ATMO Grand Est 2023), bien en deçà du seuil OMS de 10 µg/m³",
+    "Absence de zone urbaine dense générant des épisodes de pollution chronique ; aucune zone de dépassement réglementaire identifiée (ATMO Grand Est)",
+    "Faible densité de trafic routier et autoroutier, limitant les émissions de polluants primaires (NOₓ, particules) sur la majeure partie du territoire",
+    "Couverture forestière importante (~40 % du département) contribuant à l'absorption partielle de certains polluants et à la régulation de la qualité de l'air local"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac (NH₃) agricoles structurellement élevées favorisant la formation de particules secondaires (PM2,5 et PM10), avec peu de perspectives de réduction à court terme sans évolution des pratiques",
+    "Combustion de biomasse (chauffage au bois domestique) susceptible de générer des pics hivernaux de PM2,5 et de benzo[a]pyrène, en augmentation avec la hausse du coût de l'énergie (ATMO Grand Est 2022-2023)",
+    "Surveillance renforcée autour du site CIGÉO (Bure) et des installations classées SEVESO, même si les émissions atmosphériques actuelles restent dans les normes (IRSN 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "Concentration moyenne PM2,5"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "Concentration moyenne NO₂"
+    },
+    {
+      "valeur": "~29 hab/km²",
+      "label": "Densité population (faible pression urbaine)"
+    },
+    {
+      "valeur": "~40 %",
+      "label": "Couverture forestière départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "IRSN – Surveillance environnementale Bure 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure de qualité de l'air en Meuse est peu dense (stations fixes limitées), ce qui implique une forte part d'extrapolation par modélisation pour les zones rurales",
+    "Les données sur les émissions agricoles de NH₃ à l'échelle infra-départementale restent peu précises et peu actualisées, rendant difficile l'évaluation de l'exposition réelle des populations",
+    "L'influence transfrontalière (Belgique, Luxembourg) et les transferts de masses d'air depuis les zones industrielles voisines (Lorraine, Ardennes) ne sont pas toujours intégrés dans les analyses locales"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne (51), vaste département de plaine champenoise situé entre 80 et 290 m d'altitude, présente une vulnérabilité climatique à horizon 2060 préoccupante mais médiane à l'échelle nationale. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de +1,8 à +2,4°C des températures moyennes annuelles d'ici 2050-2060, avec une hausse significative du nombre de jours de canicule (de 5 à 20 jours/an selon les scénarios RCP 4.5 à 8.5). Le bassin marnais, dominé par les grandes cultures céréalières et viticoles champenoises, est particulièrement exposé au stress hydrique estival, les projections DRIAS indiquant une réduction des précipitations estivales de l'ordre de -15 à -25 % à horizon 2060. Le faible couvert forestier du département (environ 18 % du territoire, IGN 2022) limite le risque incendie mais réduit également le pouvoir tampon thermique naturel du territoire face aux épisodes de chaleur extrême.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude moyenne faible (140 m), plaine champenoise, tampon thermique limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+20 jours de canicule/an projetés à 2060 (scénario RCP8.5, DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Faible boisement (18 %), risque incendie très limité comparé au Sud"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Inondations Marne/Vesle récurrentes, plaine inondable étendue autour Châlons"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt parmi les plus faibles de France : couvert forestier réduit (~18 %) et climat continental humide limitent fortement l'aléa (IGN 2022)",
+    "Absence totale de vulnérabilité côtière, département strictement continental, aucun linéaire de trait de côte exposé",
+    "Réseau de surveillance climatique AP3C opérationnel en Grand Est, permettant un suivi fin des indicateurs agroclimatiques pour la viticulture champenoise",
+    "Viticulture champenoise déjà engagée dans l'adaptation (vendanges avancées de ~2 semaines depuis 1970, CIVC), démontrant une capacité d'adaptation sectorielle"
+  ],
+  "vigilances": [
+    "Stress hydrique agricole croissant : les projections DRIAS prévoient une baisse des précipitations estivales de -15 à -25 % à horizon 2060, menaçant les grandes cultures céréalières (blé, betterave) sur 340 000 ha de SAU",
+    "Multiplication des épisodes de canicule : passage de ~5 jours/an actuellement à 15-25 jours/an en 2060 (scénario RCP 8.5, Climadiag Météo-France 2023), avec impact sanitaire fort sur les zones urbaines de Reims et Châlons-en-Champagne",
+    "Risque d'inondations fluviales aggravé par l'intensification des épisodes de pluies intenses hivernaux : la vallée de la Marne et ses affluents (Vesle, Suippe) concentrent des zones d'aléa fort affectant plusieurs dizaines de communes (PPRi existants, GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~140 m",
+      "label": "Altitude moyenne du département"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "Couvert forestier (IGN 2022)"
+    },
+    {
+      "valeur": "+2,1°C",
+      "label": "Hausse T° projetée à 2060 (scénario médian)"
+    },
+    {
+      "valeur": "~340 000 ha",
+      "label": "Surface agricole utile exposée au stress hydrique"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS-Les Futurs du Climat (IPSL/CERFACS)",
+    "IGN Inventaire Forestier National 2022",
+    "AP3C Grand Est / CIVC"
+  ],
+  "limites": [
+    "Les projections Climadiag disponibles sont établies à l'échelle communale mais leur agrégation départementale masque les disparités entre la plaine de Châlons et le massif de l'Argonne à l'est",
+    "L'absence de données spécifiques sur l'îlot de chaleur urbain rémois limite l'évaluation fine de la vulnérabilité sanitaire à la canicule pour la population urbaine concentrée à Reims (180 000 hab.)",
+    "Le score Climat 2060 ne prend pas en compte les capacités d'adaptation déjà engagées (ex. pratiques viticoles champenoises, irrigations agricoles autorisées), ce qui peut conduire à une surestimation de la vulnérabilité réelle"
+  ]
+}

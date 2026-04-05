@@ -1,0 +1,65 @@
+{
+  "synthese": "La Nièvre dispose de ressources en eau globalement préservées grâce à la présence du bassin versant de la Loire et de ses affluents (Nièvre, Aron, Yonne), couvrant un département faiblement peuplé (~200 000 habitants, INSEE 2023). La qualité des eaux souterraines reste satisfaisante dans les secteurs forestiers du Morvan, où les pressions agricoles sont limitées, mais des dépassements de nitrates sont signalés dans les zones de polyculture-élevage de la plaine nivernaise (ARS BFC, 2022). Les projections Explore2 (2023) anticipent une réduction des débits d'étiage de 20 à 40 % sur la Loire nivernaise à l'horizon 2060, menaçant l'alimentation en eau potable de plusieurs collectivités rurales. La contamination aux PFAS reste peu documentée dans ce département à faible densité industrielle, mais les analyses conduites dans le cadre du plan national PFAS 2023 restent incomplètes sur ce territoire. La conformité des eaux distribuées atteint environ 96 % des analyses bactériologiques (ARS BFC, 2022), bien que de nombreuses petites unités de distribution rurales présentent des fragilités structurelles.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "96% conformité bactériologique; fragilités sur petites UDI rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits d'étiage Loire en baisse de 20-40% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Dépassements nitrates localisés en plaine nivernaise, Morvan préservé"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Faible pression industrielle; analyses PFAS partielles mais peu d'alertes"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité bactériologique des eaux distribuées d'environ 96 % (ARS BFC, 2022), supérieur à la moyenne nationale rurale",
+    "Le massif du Morvan, couvrant ~30 % du département, constitue un château d'eau naturel aux pressions agricoles très faibles (OFB 2024)",
+    "Faible densité industrielle limitant les risques de contamination chimique diffuse des nappes phréatiques",
+    "Réseau hydrographique dense (Loire, Yonne, Nièvre, Aron) offrant une disponibilité structurelle en eau de surface importante"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage sur la Loire et ses affluents nivernais à l'horizon 2060 (Explore2, 2023), fragilisant l'AEP de communes rurales",
+    "Vulnérabilité des petites unités de distribution d'eau potable (nombreuses communes <500 habitants) face aux sécheresses estivales récurrentes et au vieillissement des infrastructures",
+    "Dépassements ponctuels de nitrates dans les eaux souterraines de la plaine agricole nivernaise, avec risque d'extension liée aux pratiques d'élevage intensif bovin (DCE/ARS BFC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "96%",
+      "label": "Conformité bactériologique AEP"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débits étiage 2060"
+    },
+    {
+      "valeur": "~200 000 hab.",
+      "label": "Population desservie AEP"
+    },
+    {
+      "valeur": "30%",
+      "label": "Part territoire Morvan (faible pression)"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté 2022",
+    "Explore2 BRGM/OFB 2023",
+    "DCE Agence de l'eau Loire-Bretagne 2022",
+    "OFB Tableau de bord eau 2024"
+  ],
+  "limites": [
+    "Les données PFAS pour la Nièvre sont partielles : le plan national de surveillance 2023 ne couvre pas encore toutes les captages AEP du département, rendant l'évaluation incomplète",
+    "L'hétérogénéité territoriale entre le Morvan forestier et la plaine agricole nivernaise rend difficile un score unique représentatif de la diversité des situations locales",
+    "L'absence de système de suivi unifié des petites unités de distribution rurales (<50 habitants) génère des angles morts dans l'évaluation de la conformité réelle des eaux distribuées"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Pas-de-Calais figure parmi les départements français les plus exposés à la pollution atmosphérique, en raison de la conjonction d'un tissu industriel historiquement dense (sidérurgie, chimie, cimenterie) et d'une agriculture intensive génératrice d'ammoniac. Les concentrations moyennes en PM2,5 dépassent régulièrement le seuil OMS 2021 de 5 µg/m³, avec des valeurs annuelles mesurées autour de 11 à 13 µg/m³ selon les stations ATMO Hauts-de-France. Le NO₂ urbain atteint des pics notables dans les agglomérations de Lens-Liévin et Béthune, en lien avec le trafic routier sur les axes A21/A26 et les émissions industrielles résiduelles. Le département se classe dans le dernier quart national sur la qualité de l'air, avec un indice Atmo régulièrement dégradé : en 2022, plus de 60 % des jours ont présenté un indice « moyen » à « mauvais » sur certaines stations (ATMO Hauts-de-France, 2023). Les émissions d'ammoniac agricole, portées par l'élevage porcin et bovin intensif du Boulonnais et de l'Artois, contribuent significativement à la formation de particules secondaires (Citepa, inventaire 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 3.0,
+      "note": "PM2,5 ~12 µg/m³, soit plus du double du seuil OMS (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 4.0,
+      "note": "NO₂ urbain élevé à Lens-Béthune; axes routiers et industrie residuelle"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 2.0,
+      "note": "Bassin minier et chimique dense; nombreux sites ICPE classés Seveso"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "Élevage intensif Boulonnais/Artois; NH₃ agricole parmi les plus élevés régionalement"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance ATMO Hauts-de-France bien maillé : 12 stations fixes actives dans le département, permettant un suivi en temps réel",
+    "Tendance à la baisse des émissions de SO₂ industriel : réduction de plus de 70 % depuis 2000 grâce à la reconversion post-sidérurgique (Citepa, 2022)",
+    "Plans de Protection de l'Atmosphère (PPA) actifs sur les agglomérations de Lens-Douai et Dunkerque-Calais, avec objectifs chiffrés de réduction",
+    "Diminution progressive du parc de véhicules diesel anciens dans les zones urbaines, soutenue par les ZFE-m en discussion à l'échelle régionale"
+  ],
+  "vigilances": [
+    "Persistance de dépassements des seuils OMS en PM2,5 et PM10 lors des épisodes hivernaux, aggravés par les inversions thermiques fréquentes dans la plaine de Flandre-Artois",
+    "Maintien d'une densité élevée de sites ICPE (dont plusieurs Seveso seuil haut autour de Calais et Béthune) exposant les riverains à des polluants spécifiques (HAP, métaux lourds)",
+    "Les émissions de NH₃ agricoles, couplées à la météorologie locale (vents dominants d'ouest), favorisent la formation de particules secondaires fines (PM2,5 secondaires) dont la régulation reste insuffisante à l'échelle nationale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle (ATMO HdF 2022)"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Jours à indice Atmo « moyen » à « mauvais » (stations 62, 2022)"
+    },
+    {
+      "valeur": "-70 %",
+      "label": "Réduction émissions SO₂ depuis 2000 (Citepa 2022)"
+    },
+    {
+      "valeur": "12",
+      "label": "Stations de surveillance ATMO actives dans le département"
+    }
+  ],
+  "sources": [
+    "ATMO Hauts-de-France – Bilan de la qualité de l'air 2022",
+    "Citepa – Inventaire national des émissions, édition 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DREAL Hauts-de-France – Plan de Protection de l'Atmosphère, 2021"
+  ],
+  "limites": [
+    "Les données de surveillance restent insuffisantes en zones rurales du Pas-de-Calais (Ternois, Montreuillois), laissant des angles morts sur l'exposition réelle aux NH₃ et pesticides atmosphériques",
+    "L'indice Atmo agrège les polluants réglementaires mais ne capture pas les polluants spécifiques industriels locaux (HAP, dioxines) pour lesquels les campagnes de mesure sont ponctuelles et non exhaustives",
+    "La reconversion économique du bassin minier reste incomplète, rendant difficile l'évaluation de la part résiduelle des anciens sites dans les émissions diffuses actuelles de particules et métaux lourds"
+  ]
+}

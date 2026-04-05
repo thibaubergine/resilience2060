@@ -1,0 +1,65 @@
+{
+  "synthese": "La Meuse (55) présente un profil alimentaire intermédiaire avec un score de 6,0/10, reflet d'une agriculture dominée par les grandes cultures céréalières et l'élevage bovin, couvrant environ 380 000 ha de SAU sur 619 000 ha de superficie départementale (Agreste 2022). Le département dispose d'un tissu de signes de qualité modeste mais identifiable, notamment la Bière de Meuse, le Miel de Meuse et des reconnaissances liées aux produits laitiers de la région Grand Est (INAO 2023). La part de l'agriculture biologique reste limitée, avec environ 4,8 % de la SAU certifiée en bio en 2022, en deçà de la moyenne nationale de 10,4 % (Agence Bio 2023). L'autonomie alimentaire locale (ZAVA 2024) est fragilisée par la prépondérance des productions exportées (céréales, betterave sucrière) au détriment des circuits de proximité, tandis que la densité d'AMAP et de circuits courts demeure faible au regard de la faible densité de population meusienne (environ 29 hab/km²). Des initiatives émergentes, portées notamment par le PAT du Conseil Départemental de la Meuse, cherchent à renforcer les liens producteurs-consommateurs sur ce territoire rural.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Production céréalière exportée, faible autonomie alimentaire locale (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques IGP/Label Rouge mais densité AOP limitée (INAO 2023)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "4,8 % SAU bio, sous la moyenne nationale de 10,4 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "PAT actif, circuits courts en développement malgré faible densité"
+    }
+  ],
+  "points_forts": [
+    "Présence d'un Projet Alimentaire Territorial (PAT) porté par le Conseil Départemental, labellisé niveau 1 par le MAA en 2022",
+    "Filière bovine structurée avec environ 95 000 têtes bovines (Agreste 2022), base pour circuits viande locaux",
+    "Reconnaissance de produits locaux identitaires : Bière de Meuse, Miel de Meuse, Mirabelle de Lorraine (IGP partagée)",
+    "SAU importante (380 000 ha) offrant un potentiel de reconversion vers des productions alimentaires locales diversifiées"
+  ],
+  "vigilances": [
+    "Dépendance aux grandes cultures (blé, orge, betterave) peu orientées alimentation locale : risque de vulnérabilité en cas de perturbation des marchés export",
+    "Progression lente de l'agriculture biologique (+0,3 pt/an), insuffisante pour atteindre l'objectif national 18 % SAU bio d'ici 2027 (Agence Bio)",
+    "Désertification rurale et vieillissement des exploitants (âge moyen 52 ans, Agreste 2020) menaçant la transmission et la diversification des fermes vers les circuits courts"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "380 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "4,8 %",
+      "label": "Part SAU en bio (2022)"
+    },
+    {
+      "valeur": "95 000",
+      "label": "Têtes bovines"
+    },
+    {
+      "valeur": "29 hab/km²",
+      "label": "Densité population"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques nationales bio",
+    "INAO 2023 – Registre AOP/IGP/Label Rouge",
+    "Agreste 2022 – Recensement agricole Meuse",
+    "ZAVA 2024 – Zones à valeur alimentaire / PAT MAA"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale sont partiellement disponibles pour les départements peu peuplés comme la Meuse, limitant la précision du sous-score",
+    "L'absence de marché urbain structurant (pas de grande agglomération) rend difficile la quantification réelle des flux en circuits courts et AMAP",
+    "La frontière régionale Grand Est complexifie l'attribution de certaines IGP partagées (Mirabelle de Lorraine, produits laitiers) au seul département de la Meuse"
+  ]
+}

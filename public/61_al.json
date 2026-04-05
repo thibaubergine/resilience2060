@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Orne (61) présente un profil alimentaire globalement favorable, porté par une tradition agricole normande solide : le département compte environ 4 200 exploitations agricoles pour une SAU de près de 410 000 hectares, soit l'une des plus importantes de Normandie (Agreste 2020). Le territoire bénéficie d'une forte identité agroalimentaire avec plusieurs signes de qualité reconnus, notamment dans les filières bovines, laitières et cidricoles, dont certaines AOP/IGP emblématiques partagées avec les départements voisins (INAO 2023). La part de la SAU conduite en agriculture biologique reste modeste, aux alentours de 6 à 7 % selon l'Agence Bio (2023), en deçà de la moyenne nationale (~10 %), ce qui constitue un axe de progression. Les circuits courts se développent progressivement dans le département, avec une dynamique AMAP et marchés de producteurs en croissance, bien que la densité reste inférieure à des territoires périurbains plus denses (ZAVA 2024). Le score alimentaire de 7,0/10 (rang estimé parmi les bons départements ruraux) reflète une autonomie alimentaire réelle mais des marges de progression sur le bio et la structuration des circuits de proximité.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.5,
+      "note": "Territoire rural à forte SAU, autonomie alimentaire bovine et laitière élevée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Plusieurs AOP/IGP actives : Camembert, Pommeau, Calvados, bœuf normand"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.5,
+      "note": "SAU bio ~6-7%, sous la moyenne nationale de 10% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Circuits courts en croissance, AMAP rurales actives, marchés producteurs nombreux"
+    }
+  ],
+  "points_forts": [
+    "Fort potentiel d'autonomie alimentaire : SAU de ~410 000 ha, dominée par prairies et polyculture-élevage (Agreste 2020)",
+    "Richesse en signes de qualité : AOP Camembert de Normandie, Calvados, Pommeau de Normandie, Livarot partiellement (INAO 2023)",
+    "Filière bovine et laitière structurée, avec des abattoirs et transformateurs locaux assurant des débouchés de proximité",
+    "Dynamique de circuits courts en progression : nombre de marchés de producteurs en hausse de ~15% entre 2018 et 2023 (ZAVA 2024)"
+  ],
+  "vigilances": [
+    "Stagnation de la conversion bio (~6-7% SAU) avec risque de décrochage face aux objectifs nationaux 18% d'ici 2027 (Plan Bio)",
+    "Dépendance aux grandes filières industrielles laitières (Lactalis, Savencia) fragilisant la résilience locale en cas de crise de marché",
+    "Vieillissement des exploitants agricoles ornais (âge moyen ~53 ans, Agreste 2020) menaçant la transmission et le maintien de l'autonomie alimentaire à horizon 2035"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~410 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "6-7%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "4 200",
+      "label": "Exploitations agricoles (Agreste 2020)"
+    },
+    {
+      "valeur": "5+ signes",
+      "label": "AOP/IGP actives sur le territoire"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à Valeur Alimentaire)",
+    "INAO 2023 – Registre AOP/IGP",
+    "Agence Bio – Baromètre 2023",
+    "Agreste – Recensement agricole 2020"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour les départements ruraux peu denses comme l'Orne, sous-estimant potentiellement les circuits informels de vente directe",
+    "La répartition infra-départementale des AOP/IGP est complexe : certains signes sont partagés avec d'autres départements normands, rendant difficile l'attribution stricte au département 61",
+    "L'absence de registre exhaustif des AMAP ornaises limite la comparaison précise avec d'autres départements pour le critère circuits courts"
+  ]
+}

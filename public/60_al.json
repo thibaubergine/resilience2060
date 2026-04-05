@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Oise est un département à dominante agricole intense, avec 62% de sa superficie en SAU (environ 370 000 ha), orientée massivement vers les grandes cultures céréalières et betteravières (AGRESTE 2023). La part de la SAU conduite en agriculture biologique reste très faible, autour de 2,8% soit environ 10 400 ha certifiés bio en 2023, bien en deçà de la moyenne nationale de 10,7% (Agence Bio 2024). Le département ne bénéficie d'aucune AOP/IGP alimentaire majeure sur son territoire propre, à l'exception de quelques labels partagés avec la région Hauts-de-France, ce qui témoigne d'une faible valorisation des productions locales (INAO 2024). Selon le diagnostic ZAVA 2024, l'autonomie alimentaire du territoire reste limitée par la prédominance de filières d'exportation (céréales, betteraves sucrières) peu tournées vers la consommation locale. Les circuits courts et AMAP se développent modestement, avec environ 180 points de vente directe recensés, mais restent insuffisants face à la pression de l'agriculture conventionnelle intensive (RGA 2020).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Grande agriculture exportatrice, faible retour alimentaire local (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Aucune AOP propre majeure, rares IGP régionales partagées (INAO 2024)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "2,8% SAU bio, très inférieur à la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "~180 points vente directe, dynamique AMAP croissante en péri-urbain"
+    }
+  ],
+  "points_forts": [
+    "Densité agricole élevée avec 62% du territoire en SAU, garantissant un potentiel productif majeur (AGRESTE 2023)",
+    "Proximité de l'agglomération parisienne favorisant les débouchés en circuits courts et vente directe (~180 points recensés, RGA 2020)",
+    "Développement de AMAP et marchés de producteurs en zone péri-urbaine (Compiègne, Beauvais, Creil), tendance +12% entre 2018 et 2023",
+    "Présence de coopératives agricoles structurées permettant une traçabilité et une organisation de filières locales potentiellement mobilisables"
+  ],
+  "vigilances": [
+    "Hyper-spécialisation en grandes cultures (blé, betterave, colza) fragilisant la diversification alimentaire locale et l'autonomie protéique du territoire face aux chocs climatiques projetés à horizon 2050 (Climadiag 2024)",
+    "Part bio stagnante à 2,8% malgré les objectifs nationaux de 18% en 2027 (Agence Bio 2024), risquant d'aggraver la dépendance aux intrants chimiques et la pression sur les sols et nappes",
+    "Pression foncière périurbaine croissante autour de l'axe Paris-Creil menaçant les espaces agricoles à vocation diversifiée et les installations de jeunes agriculteurs en circuits courts"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "62%",
+      "label": "Part SAU / superficie totale"
+    },
+    {
+      "valeur": "2,8%",
+      "label": "SAU conduite en bio (2023)"
+    },
+    {
+      "valeur": "~180",
+      "label": "Points de vente directe recensés"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP alimentaires propres au département"
+    }
+  ],
+  "sources": [
+    "AGRESTE 2023 – Recensement agricole Oise",
+    "Agence Bio 2024 – Statistiques bio régionales",
+    "INAO 2024 – Registre AOP/IGP",
+    "RGA 2020 – Circuits courts et vente directe",
+    "ZAVA 2024 – Zones à enjeux alimentaires"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire sont disponibles à l'échelle régionale Hauts-de-France et leur déclinaison fine à l'échelle de l'Oise reste partielle",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, induisant une probable sous-estimation du nombre réel de structures actives dans l'Oise",
+    "L'absence d'AOP/IGP strictement isoise ne reflète pas nécessairement la qualité intrinsèque des productions locales, mais traduit un déficit historique de structuration en filières de valorisation"
+  ]
+}

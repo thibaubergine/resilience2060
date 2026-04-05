@@ -1,0 +1,65 @@
+{
+  "synthese": "La Manche bénéficie de précipitations abondantes (800 à 1 200 mm/an selon l'altitude du Cotentin) qui sécurisent globalement l'alimentation en eau potable, avec un taux de conformité des eaux distribuées atteignant 98,2 % en 2022 (ARS Normandie). Toutefois, la pression agricole intensive — le département compte l'une des densités bovines les plus élevées de France — génère une contamination structurelle aux nitrates, avec près de 60 % des masses d'eau souterraines en état médiocre ou mauvais au regard du paramètre nitrates (DCE/AESN 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage estivaux de 10 à 25 % à l'horizon 2050-2070 sur les bassins côtiers normands, fragilisant certaines prises d'eau superficielles. La contamination aux PFAS, bien que moins documentée que dans d'autres territoires industriels, fait l'objet de surveillance renforcée depuis 2023 autour de la zone industrialo-portuaire de Cherbourg-en-Cotentin, avec quelques dépassements ponctuels signalés (ARS/ANSES 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Conformité eau potable 98,2 % ; quelques captages dégradés nitrates"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Précipitations abondantes mais étiages en baisse 10-25 % horizon 2070"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "60 % masses d'eau souterraines dégradées ; pression bovine et maraîchère élevée"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Surveillance PFAS renforcée 2023 ; dépassements ponctuels Cherbourg limités"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie élevée (800–1 200 mm/an) garantissant une recharge soutenue des nappes côtières du Cotentin",
+    "Taux de conformité des eaux distribuées de 98,2 % en 2022, supérieur à la moyenne nationale (ARS Normandie)",
+    "Réseau de suivi DCE dense avec 180+ points de mesure sur masses d'eau superficielles et souterraines (AESN)",
+    "Efforts engagés dans les captages prioritaires Grenelle : 12 captages renforcés en protection renforcée dans le département"
+  ],
+  "vigilances": [
+    "Contamination chronique aux nitrates : 60 % des masses d'eau souterraines en état médiocre/mauvais, avec des concentrations dépassant 50 mg/L sur le bassin du Cotentin-Est (DCE 2022)",
+    "Réduction projetée des débits d'étiage estivaux de 10 à 25 % à l'horizon 2050–2070 sur les bassins côtiers manchois (Explore2, 2023), menaçant les prises d'eau superficielles",
+    "Présence de PFAS détectée à proximité de Cherbourg-en-Cotentin avec dépassements ponctuels signalés en 2023, et couverture analytique encore incomplète sur le milieu rural (ARS/ANSES 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "98,2 %",
+      "label": "Conformité eau potable 2022"
+    },
+    {
+      "valeur": "~60 %",
+      "label": "Masses d'eau souterraines dégradées nitrates"
+    },
+    {
+      "valeur": "-10 à -25 %",
+      "label": "Baisse débits étiage 2050-2070 (Explore2)"
+    },
+    {
+      "valeur": "12",
+      "label": "Captages Grenelle renforcés"
+    }
+  ],
+  "sources": [
+    "ARS Normandie – Bilan qualité eaux 2022",
+    "Agence de l'Eau Seine-Normandie – État DCE masses d'eau 2022",
+    "Explore2 – Projections hydrologiques France 2023",
+    "ANSES/ARS – Surveillance PFAS eaux potables 2023"
+  ],
+  "limites": [
+    "Les données PFAS en milieu rural manchois restent parcellaires : la surveillance systématique n'est obligatoire que depuis 2023, laissant des zones agricoles peu renseignées",
+    "L'état chimique des masses d'eau côtières est influencé par des apports transfrontaliers (bassins versants bretons, flux marins Manche), rendant difficile l'imputation strictement départementale",
+    "Les projections Explore2 présentent une incertitude élevée sur les petits bassins côtiers normands, dont les modèles hydrologiques locaux restent moins robustes que pour les grands fleuves"
+  ]
+}

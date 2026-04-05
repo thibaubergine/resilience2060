@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire présente une situation pédologique contrastée, avec des sols majoritairement limoneux et argilo-sableux dans le Saumurois et des schistes du Massif armoricain à l'ouest, offrant des profils très hétérogènes. Le département comptabilise environ 250 sites ou sols pollués recensés dans la base de données nationale (GéoRisques/ex-BASOL), héritage d'une activité industrielle et extractive ancienne concentrée autour d'Angers et Saint-Nazaire. Les analyses INRAE 2023 révèlent une contamination résiduelle en pesticides préoccupante, liée à la viticulture intensive du Val de Loire (AOC Anjou, Saumur) et aux grandes cultures céréalières du nord du département, plaçant le Maine-et-Loire parmi les départements à pression phytosanitaire notable. Le potentiel radon est classé en zone 2 (risque modéré) sur la majeure partie du territoire, notamment sur les formations géologiques de schistes et granites du bocage angevin (IRSN). La part de SAU en agriculture biologique atteint environ 8,5 % (Agence Bio 2023), légèrement supérieure à la moyenne nationale, mais encore insuffisante pour compenser les pressions phytosanitaires globales sur les sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "~250 sites pollués ex-BASOL, concentration autour d'Angers"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression viticole et céréalière forte, résidus pesticides élevés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Zone radon 2 modérée, schistes et granites du bocage armoricain"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "8,5% SAU bio, au-dessus de la moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique à 8,5 % (Agence Bio 2023), dépassant la moyenne nationale de 7,7 %",
+    "Présence de zones bocagères préservées limitant l'érosion des sols dans l'ouest du département (OFB 2024)",
+    "Diversité pédologique favorable à une agriculture variée (tuffeau, schiste, limons), limitant la monoculture intensive sur l'ensemble du territoire",
+    "Initiatives locales actives via le Plan Alimentation Territorial (PAT) du Maine-et-Loire encourageant la réduction des intrants chimiques"
+  ],
+  "vigilances": [
+    "Contamination résiduelle en fongicides et herbicides dans les sols viticoles du Saumurois, avec des concentrations en cuivre dépassant les seuils critiques (>100 mg/kg) dans les vignobles anciens (INRAE 2023)",
+    "Artificialisation des sols en progression autour d'Angers Métropole : +450 ha/an estimés sur 2015-2023, menaçant les terres agricoles périurbaines (GéoRisques/CEREMA)",
+    "Risque de lessivage accru des polluants vers les nappes phréatiques sous l'effet des épisodes de pluies intenses projetés à l'horizon 2060 (DRIAS/Climadiag Maine-et-Loire)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~250",
+      "label": "Sites pollués recensés (ex-BASOL)"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Zone 2",
+      "label": "Potentiel radon IRSN (risque modéré)"
+    },
+    {
+      "valeur": ">100 mg/kg",
+      "label": "Cuivre dans sols viticoles (seuil critique)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Résidus pesticides et métaux lourds 2023",
+    "IRSN – Cartographie du potentiel radon",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas les sites industriels récents ni les pollutions diffuses agricoles non déclarées, sous-estimant la contamination réelle des sols en Maine-et-Loire",
+    "L'hétérogénéité géologique forte du département (tuffeau, schiste, limon, granite) rend difficile toute extrapolation régionale des mesures ponctuelles de résidus",
+    "Absence de cartographie systématique des teneurs en cuivre dans l'ensemble des vignobles angevins, limitant l'évaluation précise de la contamination viticole historique"
+  ]
+}

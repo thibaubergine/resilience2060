@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Oise (60) présente une biodiversité fragilisée par une pression agricole et urbaine intense, avec seulement 3,2 % du territoire couvert par des zones Natura 2000, bien en deçà de la moyenne nationale d'environ 13 % (INPN/OFB 2024). Le département compte néanmoins des milieux remarquables, notamment les massifs forestiers de Compiègne, d'Halatte et d'Ermenonville, intégrés dans le Parc Naturel Régional Oise-Pays de France (créé en 2004, couvrant environ 60 000 ha). La trame verte et bleue est fortement fragmentée : les grandes infrastructures de transport (A1, A16, voies ferrées) et l'artificialisation des sols (taux de 8,4 %, source CEREMA 2023) réduisent significativement la connectivité entre les habitats naturels. Les espèces indicatrices de biodiversité agricole, notamment l'outarde canepetière et le busard Saint-Martin, sont en fort déclin dans les plaines céréalières de la Picardie calcaire, confirmant la dégradation des écosystèmes ouverts (LPO Hauts-de-France 2023). L'état de conservation des zones humides, pourtant essentielles au fonctionnement des corridors écologiques le long de l'Oise et de l'Aisne, demeure préoccupant avec des pertes estimées à plus de 60 % depuis les années 1960 (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 3.0,
+      "note": "Seulement 3,2 % du territoire en Natura 2000, très inférieur moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "PNR Oise-Pays de France présent mais superficie limitée à 60 000 ha"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Espèces emblématiques agricoles et humides en fort déclin confirmé LPO"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par infrastructures majeures mais massifs forestiers connectés"
+    }
+  ],
+  "points_forts": [
+    "Trois massifs forestiers majeurs (Compiègne, Halatte, Ermenonville) totalisant plus de 20 000 ha de forêts domaniales à haute valeur écologique",
+    "PNR Oise-Pays de France structurant une gouvernance territoriale de la biodiversité sur 60 communes environ (OFB 2024)",
+    "Réseau hydrographique de l'Oise et de ses affluents constituant un corridor bleu fonctionnel pour la faune aquatique (INPN)",
+    "Présence de pelouses calcicoles remarquables sur le Plateau picard, habitats prioritaires abritant des orchidées sauvages rares (INPN 2023)"
+  ],
+  "vigilances": [
+    "Artificialisation continue des sols à un rythme de 8,4 % du territoire déjà urbanisé, menaçant les zones tampon autour des espaces naturels (CEREMA 2023)",
+    "Effondrement des populations d'oiseaux des plaines agricoles estimé à -30 % en 15 ans dans les zones de grandes cultures intensives de l'Oise (LPO Hauts-de-France 2023)",
+    "Disparition et dégradation des zones humides (>60 % perdues depuis 1960) fragilisant la résilience hydrologique et la biodiversité aquatique face aux sécheresses projetées à l'horizon 2060 (OFB/DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,2 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "60 000 ha",
+      "label": "Surface PNR Oise-Pays de France"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Déclin oiseaux plaines (15 ans)"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Zones humides perdues depuis 1960"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Hauts-de-France 2023",
+    "CEREMA 2023",
+    "INPN Natura 2000"
+  ],
+  "limites": [
+    "Données précises sur l'état de conservation des habitats Natura 2000 dans l'Oise peu actualisées, les évaluations nationales masquant les disparités départementales fines",
+    "Absence d'observatoire départemental consolidé de la biodiversité, rendant difficile le suivi longitudinal des espèces et habitats à l'échelle de l'Oise spécifiquement",
+    "Les indicateurs de corridors écologiques reposent sur des modélisations régionales (SRCE Hauts-de-France) dont la granularité départementale reste insuffisante pour évaluer précisément la connectivité locale"
+  ]
+}

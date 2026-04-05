@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Marne bénéficie d'une ressource en eau globalement préservée grâce à sa faible densité de population (28 hab/km²) et à la présence de nombreux cours d'eau de qualité comme la Marne, l'Aube et la Meuse en tête de bassin (ARS Grand Est, 2023). La qualité de l'eau potable distribuée est satisfaisante pour environ 85 % de la population, mais des dépassements ponctuels de seuils en nitrates et pesticides affectent certaines captages ruraux (ARS, bilan annuel 2022). Les projections Explore2 (2023) indiquent une réduction des débits estivaux de 20 à 40 % à l'horizon 2050-2070 sur les affluents de la Marne, fragilisant les étiages déjà sensibles. Le département présente une contamination aux nitrates modérée, les zones vulnérables couvrant environ 30 % du territoire agricole (Agence de l'eau Seine-Normandie, 2022). La présence de PFAS reste peu documentée localement, mais les analyses récentes menées dans le cadre du plan national (ANSES, 2023) signalent des détections sporadiques sur quelques captages en lien avec d'anciens sites industriels.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "85% population conforme ; dépassements ponctuels nitrates/pesticides ruraux"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction débits estivaux 20-40% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Zones vulnérables nitrates limitées à ~30% territoire agricole"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Détections PFAS sporadiques ; faible industrialisation, données partielles"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense avec la Marne, l'Aube et la Meuse en zones de tête de bassin, garantissant une recharge naturelle significative",
+    "Faible pression démographique (28 hab/km²) limitant les prélèvements anthropiques sur les masses d'eau (DREAL Grand Est, 2022)",
+    "Qualité physicochimique des cours d'eau jugée bonne à très bonne sur 60 % des stations de mesure DCE (Agence de l'eau Seine-Normandie, 2023)",
+    "Zones humides et tourbières présentes dans le Plateau de Langres, jouant un rôle de régulation et de filtration naturelle reconnu (OFB, 2023)"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage estivaux à l'horizon 2060 selon Explore2 (2023), menaçant l'alimentation en eau potable de communes rurales isolées",
+    "Contamination résiduelle aux pesticides (métolachlore, S-métolachlore) sur plusieurs captages prioritaires, substances classées en révision réglementaire par l'ANSES (2023)",
+    "Vieillissement des réseaux d'eau potable en milieu rural avec un taux de perte moyen supérieur à 25 % dans certaines collectivités (SISPEA, 2022), aggravant les tensions en période de sécheresse"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28 hab/km²",
+      "label": "Densité population"
+    },
+    {
+      "valeur": "20-40%",
+      "label": "Réduction débits 2060"
+    },
+    {
+      "valeur": "85%",
+      "label": "Population eau conforme"
+    },
+    {
+      "valeur": "30%",
+      "label": "Surface zones vulnérables nitrates"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilans qualité eau potable 2022-2023",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "Agence de l'eau Seine-Normandie – État des masses d'eau DCE 2023",
+    "ANSES – Plan national PFAS et pesticides 2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages haut-marnais sont encore fragmentaires, les campagnes de mesure systématiques étant en cours au niveau national (ANSES, 2023-2024)",
+    "L'état écologique des petits cours d'eau et têtes de bassin versant est inégalement surveillé, avec des lacunes dans le réseau de stations de mesure DCE en zone rurale profonde",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle des sous-bassins locaux, rendant difficile la planification précise des besoins en eau à l'horizon 2060"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Marne, premier département céréalier de France avec environ 480 000 ha de SAU (Agreste 2023), présente un profil alimentaire paradoxal : une production agricole massive mais peu diversifiée, dominée à plus de 70 % par les grandes cultures (blé, orge, betterave sucrière, vigne). La filière Champagne constitue un atout identitaire majeur avec 34 700 ha de vignes classées en AOC Champagne (INAO 2023), représentant la première AOC viticole mondiale en valeur. Cependant, la part de la SAU conduite en agriculture biologique reste très faible, estimée à 2,8 % en 2023 (Agence Bio), très en deçà de la moyenne nationale de 10,7 %. Les circuits courts et structures de type AMAP demeurent peu développés malgré quelques initiatives autour de Reims et Châlons-en-Champagne, reflétant une économie agricole tournée vers l'export et l'agroalimentaire industriel (sucreries, malteries). Le score ZAVA indique une dépendance alimentaire locale significative pour les fruits, légumes et protéines animales diversifiées.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Grande production céréalière mais faible diversité alimentaire locale (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "AOC Champagne majeure ; quelques IGP locales complémentaires (INAO 2023)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Bio à 2,8 % SAU, très inférieur à la moyenne nationale 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 5.0,
+      "note": "Circuits courts limités, AMAP concentrées autour de Reims et Châlons"
+    }
+  ],
+  "points_forts": [
+    "Premier département céréalier français avec ~480 000 ha de SAU, assurant une sécurité productive nationale (Agreste 2023)",
+    "AOC Champagne sur 34 700 ha classés, première appellation mondiale en valeur exportée (~3,5 Md€/an, CIVC 2023)",
+    "Présence d'IGP complémentaires (Brie de Meaux, Langres, volailles Champagne) renforçant l'ancrage territorial",
+    "Infrastructures agroalimentaires structurantes : sucreries Cristal Union, malteries Soufflet, valorisant la production locale"
+  ],
+  "vigilances": [
+    "Monoculture céréalière et viticole exposant le département à des chocs de marché et aux aléas climatiques projetés (Climadiag 2050 : +15 % de stress hydrique estival)",
+    "Part bio stagnante (2,8 % en 2023 vs objectif national 18 % en 2030) avec risque de décrochage structurel face aux politiques Farm to Fork",
+    "Dépendance aux intrants azotés et pesticides sur grandes cultures : nappes de la Craie sous pression nitrates, compromettant la qualité de l'eau alimentaire (DCE/ARS 51)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "480 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "2,8 %",
+      "label": "Part SAU en bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "34 700 ha",
+      "label": "Vignes AOC Champagne (INAO 2023)"
+    },
+    {
+      "valeur": "~3,5 Md€",
+      "label": "Export Champagne annuel (CIVC 2023)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agreste Grand Est",
+    "INAO 2023 / CIVC 2023",
+    "Agence Bio – Observatoire national 2023",
+    "ARS Marne / DCE Bassin Seine-Normandie"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent partielles pour distinguer production destinée au marché intérieur vs export/industrie dans la Marne",
+    "L'absence d'un observatoire départemental consolidé des circuits courts rend difficile le comptage fiable des AMAP et points de vente directe actifs en 2023-2024",
+    "La valeur agricole du territoire est fortement tirée par la viticulture champenoise, ce qui peut surestimer la performance alimentaire globale par rapport à la diversité nutritionnelle réelle disponible localement"
+  ]
+}

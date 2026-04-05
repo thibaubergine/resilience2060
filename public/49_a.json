@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Maine-et-Loire affiche une qualité de l'air globalement satisfaisante, avec des concentrations en PM2,5 inférieures à la moyenne nationale, estimées entre 9 et 11 µg/m³ selon le réseau ATMO Pays de la Loire (2022-2023), en deçà du seuil OMS 2021 de 5 µg/m³ mais conformes aux valeurs guides européennes. Les niveaux de NO₂ en zone urbaine, notamment sur l'agglomération angevine, restent modérés autour de 20-25 µg/m³, bien en dessous du seuil réglementaire européen (40 µg/m³) (ATMO Pays de la Loire, 2023). Cependant, la forte orientation agricole du département — avec plus de 500 000 hectares de surface agricole utile — engendre des émissions d'ammoniac (NH₃) significatives, le secteur agricole représentant plus de 95 % des émissions de NH₃ locales (Citepa, inventaire 2021). Le tissu industriel, concentré autour d'Angers et des zones d'activité de Cholet et Saumur, génère des émissions de polluants industriels limitées mais non négligeables, plaçant le département dans une situation intermédiaire à l'échelle nationale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 9-11 µg/m³, au-dessus OMS 2021 (5 µg/m³) mais correct"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain Angers ~20-25 µg/m³, bien sous seuil européen 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Tissu industriel modéré, concentré Angers/Cholet, émissions limitées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole élevé, agriculture dominante, >95 % des émissions locales"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à la moyenne nationale (~10 µg/m³ vs ~12 µg/m³ national), selon ATMO Pays de la Loire 2023",
+    "NO₂ urbain maîtrisé à Angers : aucun dépassement du seuil réglementaire annuel (40 µg/m³) enregistré ces cinq dernières années (ATMO Pays de la Loire)",
+    "Faible densité de sites industriels fortement émetteurs comparativement aux départements de la vallée de la Loire amont ou de la métropole nantaise",
+    "Couverture végétale importante (bocage, vignobles, forêts) favorisant un effet tampon naturel sur la dispersion des polluants atmosphériques locaux"
+  ],
+  "vigilances": [
+    "Émissions de NH₃ agricoles structurellement élevées du fait de l'élevage intensif (bovins, volailles) : risque de dépôts azotés sur les écosystèmes sensibles et de formation de particules secondaires",
+    "Épisodes de pollution aux particules PM10 et PM2,5 lors des périodes de labour, épandage printanier et canicule, susceptibles de s'intensifier avec le changement climatique (projections DRIAS 2060 : +15 à +20 jours de chaleur)",
+    "Surveillance insuffisante en zones rurales et périurbaines : maillage de stations de mesure ATMO insuffisant hors agglomération angevine, laissant des angles morts sur la qualité de l'air agricole"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "Concentration PM2,5 moyenne (2023)"
+    },
+    {
+      "valeur": "20-25 µg/m³",
+      "label": "NO₂ urbain Angers (2023)"
+    },
+    {
+      "valeur": ">95 %",
+      "label": "Part agriculture dans émissions NH₃"
+    },
+    {
+      "valeur": "500 000 ha",
+      "label": "Surface agricole utile départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Pays de la Loire – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions, format Secten 2021",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DRIAS – Projections climatiques régionales Pays de la Loire 2060"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur l'agglomération angevine, limitant la représentativité des données pour les zones rurales et agricoles du département",
+    "Les émissions de NH₃ issues de l'agriculture sont estimées par modélisation (Citepa) et non mesurées in situ en Maine-et-Loire, introduisant une incertitude sur les valeurs réelles",
+    "L'absence de données publiques récentes et spatialisées sur les émissions des élevages hors-sol (volailles, porcins) rend difficile l'évaluation précise de l'impact local sur la qualité de l'air de proximité"
+  ]
+}

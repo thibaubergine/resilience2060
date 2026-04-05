@@ -1,0 +1,65 @@
+{
+  "synthese": "La Mayenne (53) présente un profil pédologique contrasté, avec des sols majoritairement à dominante bocagère sur substrats schisteux et granitiques, exposés à une pression agricole élevée liée à l'élevage intensif. Le département recense un nombre modéré de sites pollués ou à surveiller au titre de l'ex-base BASOL (environ 25 à 30 sites répertoriés), ce qui reste contenu au regard de la faible densité industrielle (GéoRisques). En revanche, les résidus de pesticides dans les sols demeurent préoccupants : la Mayenne figure parmi les départements à forte utilisation d'intrants phytosanitaires liée aux grandes cultures céréalières et à la polyculture-élevage, avec des IFT (Indices de Fréquence de Traitement) supérieurs à la moyenne nationale sur certaines cultures (INRAE 2023). Le risque radon constitue un enjeu territorial significatif : le département est classé en zone à potentiel radon élevé (catégorie 3 pour une portion notable du territoire granitique nord-ouest), impactant la qualité des milieux intérieurs (IRSN). La part de SAU en agriculture biologique reste modeste, autour de 5 à 6 % en 2023, inférieure à la moyenne nationale de 10,7 % (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 25-30 sites ex-BASOL, pression industrielle faible, département rural"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "IFT élevés, pression pesticides notable en polyculture-élevage intensif"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Zone radon catégorie 3 partielle, substrat granitique nord-ouest concerné"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio ~5-6%, progression régulière mais sous moyenne nationale 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués industriels : environ 25-30 sites ex-BASOL recensés pour un département essentiellement rural et agricole (GéoRisques)",
+    "Absence de grandes zones industrielles historiques à contamination lourde des sols, limitant les passifs environnementaux (GéoRisques/BASOL)",
+    "Maintien d'un réseau bocager dense favorisant la structuration et la rétention des sols agricoles, limitant l'érosion hydrique",
+    "Progression de l'agriculture biologique ces dernières années avec une tendance positive des conversions en Mayenne (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Contamination diffuse des sols par les pesticides et les nitrates liée à l'élevage intensif et aux cultures fourragères, avec risque de cumul sur le long terme (INRAE 2023)",
+    "Exposition au radon dans les zones à substrat granitique (nord-ouest du département), nécessitant des mesures préventives dans les bâtiments en zones catégorie 3 (IRSN)",
+    "Artificialisation des sols en progression autour des pôles urbains de Laval et Mayenne, avec une consommation d'espaces agricoles et naturels estimée à plusieurs dizaines d'hectares par an (Observatoire des territoires)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~25-30 sites",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "~5-6 %",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "Catégorie 3 partielle",
+      "label": "Potentiel radon IRSN (zone granitique)"
+    },
+    {
+      "valeur": "IFT > moy. nationale",
+      "label": "Pression pesticides cultures principales"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL",
+    "INRAE 2023 – Observatoire des résidus pesticides sols",
+    "IRSN – Cartographie du potentiel radon",
+    "Agence Bio – Statistiques 2023 Pays de la Loire"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance systématique des sols agricoles en Mayenne rend difficile une évaluation précise et actualisée de la contamination diffuse par les pesticides",
+    "La cartographie radon de l'IRSN est établie à l'échelle communale mais les mesures effectives dans les bâtiments mayennais restent insuffisamment documentées pour une évaluation exhaustive",
+    "Les données ex-BASOL ne reflètent pas nécessairement l'ensemble des contaminations réelles, certains sites agricoles ou artisanaux pouvant échapper aux recensements officiels en milieu rural"
+  ]
+}

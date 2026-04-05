@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Lot-et-Garonne, situé à faible altitude moyenne (environ 150 m), est particulièrement exposé au réchauffement climatique avec une hausse de température projetée de +2,5°C à +4°C à l'horizon 2060 selon les scénarios RCP4.5 et RCP8.5 (DRIAS 2023). Le département a déjà enregistré des épisodes caniculaires significatifs, avec l'été 2022 ayant battu des records locaux à Agen (40°C+), et Climadiag projette une augmentation du nombre de jours de canicule passant de 5 à plus de 25 jours/an d'ici 2060 (Climadiag/Météo-France). Le risque incendie est en forte progression : les forêts de pins des Landes de Gascogne en bordure ouest du département sont classées en zone de danger élevé, avec une extension probable de l'aléa vers les coteaux viticoles et arboricoles (AP3C/TRACC 2023). Le régime hydrique du bassin de la Garonne et du Lot expose le département à des étiages sévères estivaux couplés à des crues hivernales et printanières, une double contrainte qui s'intensifiera selon Explore2 (2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude basse (~150m), faible tampon thermique face au réchauffement"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+25 jours canicule/an projetés d'ici 2060 selon Climadiag"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts landaises en lisière ouest, risque incendie en extension notable"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Garonne et Lot : crues hivernales et étiages estivaux sévères récurrents"
+    }
+  ],
+  "points_forts": [
+    "Réseau de cours d'eau dense (Garonne, Lot, Baïse) offrant une ressource hydrique structurante pour l'adaptation agricole",
+    "Plateau de couverture forestière (environ 30% du territoire) jouant un rôle de régulation thermique locale (IGN/IFN 2023)",
+    "Tissu agricole diversifié (arboriculture, maraîchage, viticulture) favorisant des capacités d'adaptation culturale face aux aléas climatiques",
+    "Position géographique intérieure protégeant le département des risques de submersion marine et d'érosion côtière"
+  ],
+  "vigilances": [
+    "Projection de +25 à +35 jours de vague de chaleur par an à l'horizon 2060 (RCP8.5, DRIAS 2023), menaçant la santé des populations âgées et les rendements agricoles",
+    "Extension du risque feux de forêt vers les coteaux et zones agricoles arborées, aggravée par les sécheresses estivales répétées (AP3C/TRACC 2023)",
+    "Déséquilibre croissant du bilan hydrique : étiages de la Garonne et du Lot atteignant des niveaux critiques dès juillet-août, avec des tensions sur les usages agricoles et l'alimentation en eau potable (Explore2 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse T° projetée 2060 (scénario médian)"
+    },
+    {
+      "valeur": "+25 j",
+      "label": "Jours canicule supplémentaires/an à 2060"
+    },
+    {
+      "valeur": "~30%",
+      "label": "Part forêts et boisements du territoire"
+    },
+    {
+      "valeur": "2 bassins",
+      "label": "Garonne + Lot : double contrainte hydrologique"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "Climadiag Communes / Météo-France 2022",
+    "AP3C / TRACC Nouvelle-Aquitaine 2023",
+    "Explore2 / BRGM-OFB 2023"
+  ],
+  "limites": [
+    "L'absence de station météorologique de référence homogène sur l'ensemble du territoire rend délicate la spatialisation fine des projections climatiques à l'échelle infra-départementale",
+    "Les modèles DRIAS et Climadiag présentent des incertitudes significatives sur les scénarios de précipitations estivales, variable pourtant déterminante pour le 47",
+    "Le risque feux de forêt est encore sous-documenté dans les secteurs de coteaux arboricoles et viticoles, où les données de combustibilité restent insuffisantes"
+  ]
+}
