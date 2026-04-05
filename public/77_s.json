@@ -1,0 +1,66 @@
+{
+  "synthese": "La Seine-et-Marne (77), département le plus étendu d'Île-de-France avec 589 500 ha dont environ 310 000 ha de SAU, présente une situation préoccupante pour ses sols en raison d'une pression agricole intensive dominée par les grandes cultures céréalières (blé, maïs, betterave), générant une contamination chronique aux pesticides documentée par l'INRAE (2023). Le département recense plus de 350 sites BASOL/ex-BASOL liés à son passé industriel et à la logistique francilienne, concentrés notamment autour de Melun, Meaux et Montereau-Fault-Yonne (GéoRisques). La part de la Surface Agricole Utile conduite en agriculture biologique reste très faible, estimée à environ 3,5 % contre 10,7 % au niveau national (Agence Bio 2023), témoignant d'une transition agroécologique encore embryonnaire. Le risque radon est en revanche modéré à faible sur la majorité du territoire, les formations géologiques sédimentaires du Bassin parisien étant peu émettrices (IRSN). La combinaison d'une artificialisation soutenue liée à la pression foncière francilienne et d'une agriculture conventionnelle dominante place la Seine-et-Marne parmi les départements les plus vulnérables sur la dimension sols (rang 85/96).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 3.0,
+      "note": "Plus de 350 sites pollués recensés, héritage industriel et logistique dense"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Pression pesticides élevée, grandes cultures céréalières dominantes, résidus sol significatifs"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon faible, socle sédimentaire du Bassin parisien peu émetteur"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "Seulement ~3,5 % de SAU bio, très en-dessous de la moyenne nationale (10,7 %)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles d'Île-de-France grâce aux formations sédimentaires du Bassin parisien (IRSN)",
+    "Présence de sols agricoles à haute valeur agronomique (limons profonds de Brie et Gâtinais), patrimoine pédologique reconnu",
+    "Quelques initiatives de conversion bio en progression sur la plaine de Brie, portées par le GAB Île-de-France",
+    "Présence de la forêt de Fontainebleau (~25 000 ha) limitant localement l'artificialisation et préservant des sols forestiers peu dégradés (ONF)"
+  ],
+  "vigilances": [
+    "Artificialisation accélérée : la Seine-et-Marne consomme environ 1 500 ha/an de surfaces naturelles et agricoles sous pression logistique et résidentielle francilienne (CEREMA 2022), menaçant directement les sols agricoles de grande qualité",
+    "Contamination chronique aux pesticides et nitrates des sols agricoles : les grandes monocultures céréalières et betteravières impliquent des IFT (Indices de Fréquence de Traitement) élevés, avec des résidus détectés dans les horizons de surface (INRAE 2023)",
+    "Maintien et dépollution insuffisants des sites BASOL : plusieurs friches industrielles et logistiques autour de Melun et Meaux restent en attente de réhabilitation, avec un risque de transfert de polluants vers les nappes phréatiques sous-jacentes (GéoRisques/BRGM)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~310 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "~3,5 %",
+      "label": "Part SAU conduite en bio (2023)"
+    },
+    {
+      "valeur": "350+",
+      "label": "Sites BASOL/pollués recensés"
+    },
+    {
+      "valeur": "~1 500 ha/an",
+      "label": "Artificialisation moyenne annuelle"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus pesticides sols 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres clés 2023",
+    "CEREMA – Observatoire de l'artificialisation des sols"
+  ],
+  "limites": [
+    "L'inventaire BASOL/GéoRisques est partiel : de nombreux sites anciennement pollués en zones rurales ou industrielles diffuses ne sont pas encore recensés, sous-estimant la contamination réelle des sols de Seine-et-Marne",
+    "Les données INRAE sur les résidus de pesticides dans les sols sont agrégées à l'échelle régionale Île-de-France, rendant difficile une granularité infra-départementale précise pour la Seine-et-Marne",
+    "La mesure de l'artificialisation annuelle varie selon les méthodologies (CEREMA, INSEE, Observatoire national), introduisant des incertitudes sur la quantification exacte des pertes de surfaces agricoles et naturelles"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Var (83) présente un profil climatique 2060 particulièrement préoccupant en raison de sa position méditerranéenne et de son relief varié mais insuffisant pour constituer un tampon thermique efficace sur l'ensemble du département. Selon les projections DRIAS 2023, le département pourrait subir jusqu'à 30 à 40 jours de canicule supplémentaires par an d'ici 2060 sous scénario RCP 8.5, contre 10 à 15 jours actuellement observés en plaine littorale. Le risque incendie est structurellement élevé : le Var est l'un des départements français les plus touchés, avec plus de 25 000 hectares brûlés lors du seul été 2021 (Prométhée/DFCI Var), et les projections Climadiag indiquent une extension significative des zones à aléa fort d'ici 2050. La vulnérabilité côtière est également documentée par le BRGM, qui évalue à plus de 200 km de linéaire côtier exposé à l'érosion et à la submersion marine, avec une montée du niveau de la mer estimée entre +40 et +80 cm d'ici 2100 pour la façade méditerranéenne (IPCC AR6/AP3C PACA).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Massifs Maures/Verdon offrent tampon partiel ; plaines littorales sans protection thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "30 à 40 jours canicule supplémentaires projetés d'ici 2060 (DRIAS/RCP8.5)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 2.0,
+      "note": "25 000 ha brûlés en 2021 ; aléa fort généralisé selon Prométhée/DFCI"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "200 km côtes exposées ; submersion marine +40 à +80 cm d'ici 2100 (BRGM)"
+    }
+  ],
+  "points_forts": [
+    "Présence de massifs intérieurs (Verdon, Maures) permettant des refuges climatiques en altitude, avec des écarts thermiques de 6 à 8°C par rapport au littoral",
+    "Réseau de surveillance incendie parmi les plus denses de France : 1 200 km de pistes DFCI et dispositif SDIS 83 dimensionné pour la résilience (DFCI Var 2023)",
+    "Ensoleillement record (2 800 à 3 000 h/an) favorisant la transition vers les énergies renouvelables solaires comme levier d'adaptation climatique",
+    "Existence d'un Plan de Protection des Forêts Contre les Incendies (PPRIF) révisé et d'un SCOT intégrant les risques climatiques pour les nouvelles constructions"
+  ],
+  "vigilances": [
+    "Extension majeure du risque feux : les modèles INRAE/Climadiag projettent une remontée de l'aléa incendie vers des zones actuellement épargnées (pré-Alpes varoises) d'ici 2040-2060",
+    "Pression hydrique critique : le département pourrait connaître des déficits pluviométriques de -20 à -30 % en été d'ici 2060 (DRIAS RCP8.5), aggravant les conflits d'usage eau/forêt/agriculture/tourisme",
+    "Submersion et érosion côtière accélérée : les communes de Fréjus, Saint-Raphaël et Hyères figurent parmi les plus exposées de PACA, avec des enjeux économiques estimés à plusieurs centaines de millions d'euros (BRGM/AP3C)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C à +4°C",
+      "label": "Hausse températures moyennes 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "25 000 ha",
+      "label": "Surface brûlée été 2021 (Prométhée)"
+    },
+    {
+      "valeur": "200 km",
+      "label": "Linéaire côtier exposé érosion/submersion"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Déficit pluviométrique estival projeté 2060"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France (projections climatiques RCP)",
+    "Prométhée / DFCI Var (historique et risque incendie)",
+    "BRGM / AP3C PACA (vulnérabilité côtière et submersion)",
+    "Climadiag Commune / INRAE (aléas feux et températures)"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent de fortes disparités internes entre le littoral très exposé et les zones d'altitude (Verdon à 700-1500 m) qui bénéficient d'un tampon thermique réel",
+    "L'indice de risque incendie agrège des situations très hétérogènes : les massifs des Maures sont structurellement différents des zones péri-urbaines de Toulon, ce que les scores globaux ne distinguent pas",
+    "Les données de vulnérabilité côtière disponibles publiquement (BRGM) ne prennent pas encore pleinement en compte les interactions entre montée des eaux, épisodes méditerranéens intenses et saturation des réseaux urbains côtiers varois"
+  ]
+}

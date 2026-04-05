@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines (78) affichent une qualité de l'air dégradée, héritant de la forte pression urbaine et routière de l'Île-de-France. Les concentrations moyennes annuelles en NO₂ atteignent 25 à 35 µg/m³ dans les zones urbaines denses comme Versailles et Saint-Germain-en-Laye, dépassant la valeur guide OMS 2021 fixée à 10 µg/m³ (AIRPARIF, 2023). Les particules fines PM2,5 oscillent entre 12 et 16 µg/m³ en moyenne annuelle, soit deux à trois fois la recommandation OMS de 5 µg/m³ (AIRPARIF, 2023). Le département est traversé par des axes routiers à très fort trafic (A13, A12, N118) générant des points noirs de pollution persistants, avec plus de 350 000 véhicules/jour sur certains tronçons (DRIEAT Île-de-France). Les émissions agricoles d'ammoniac (NH₃), bien que modérées comparées aux départements ruraux, contribuent à la formation de particules secondaires dans l'ouest du département (CITEPA, 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 12-16 µg/m³, 2 à 3x au-dessus seuil OMS 2021"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ 25-35 µg/m³ zones urbaines, très supérieur aux 10 µg/m³ OMS"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 5.0,
+      "note": "Industrie modérée, quelques sites émetteurs à Flins et Trappes"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ agricole limité mais plaine de Versailles contribue localement"
+    }
+  ],
+  "points_forts": [
+    "Absence de grande industrie lourde : pas de complexe chimique ou sidérurgique majeur, limitant les émissions de polluants industriels primaires (CITEPA 2023)",
+    "Part croissante des véhicules électriques et hybrides dans le département : +28% d'immatriculations de VE en 2023 par rapport à 2022 (AVERE France)",
+    "Réseau de surveillance AIRPARIF dense avec 6 stations de mesure actives dans le département, permettant un suivi fin des épisodes de pollution",
+    "Forêt de Saint-Germain-en-Laye et massifs boisés (~10 000 ha) jouant un rôle de puits de particules et de régulation de la qualité de l'air local"
+  ],
+  "vigilances": [
+    "Les axes A13 et A12 génèrent des dépassements récurrents en NO₂ et PM10 dans les communes riveraines (Rocquencourt, Le Chesnay), avec des populations exposées estimées à plus de 80 000 habitants (AIRPARIF, 2023)",
+    "Le site de Flins (ex-Renault, reconversion industrielle en cours) maintient des émissions de COV et de poussières susceptibles d'affecter la qualité de l'air locale pendant la phase de transition",
+    "L'augmentation projetée des épisodes de canicule liée au changement climatique (Climadiag 2060) favorisera la formation d'ozone troposphérique (O₃), aggravant les pics estivaux déjà observés au-dessus de 180 µg/m³ dans l'ouest yvelinois"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12-16 µg/m³",
+      "label": "Concentration PM2,5 annuelle"
+    },
+    {
+      "valeur": "25-35 µg/m³",
+      "label": "Concentration NO₂ zones urbaines"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil guide OMS PM2,5 (2021)"
+    },
+    {
+      "valeur": "~10 000 ha",
+      "label": "Massifs forestiers filtrants"
+    }
+  ],
+  "sources": [
+    "AIRPARIF – Bilan de la qualité de l'air en Île-de-France 2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "CITEPA – Inventaire des émissions de polluants atmosphériques 2023",
+    "DRIEAT Île-de-France – Trafic routier et pollution de l'air 2022"
+  ],
+  "limites": [
+    "Les stations AIRPARIF mesurent principalement les zones urbaines ; les zones rurales de l'ouest des Yvelines (Mantois, Houdan) sont sous-représentées dans la surveillance, biaisant l'évaluation de l'exposition réelle",
+    "Les données sur les émissions diffuses liées aux chantiers de construction (nombreux en Yvelines avec Grand Paris Express) sont fragmentaires et peu intégrées aux inventaires départementaux disponibles",
+    "L'évaluation de l'exposition de la population aux polluants secondaires (ozone, particules secondaires issues du NH₃ agricole) nécessite une modélisation fine non disponible à l'échelle communale pour l'ensemble du département"
+  ]
+}

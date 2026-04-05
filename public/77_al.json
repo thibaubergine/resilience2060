@@ -1,0 +1,66 @@
+{
+  "synthese": "La Seine-et-Marne est le premier département agricole d'Île-de-France avec environ 316 000 ha de SAU représentant près de 52 % de sa superficie totale, dominée par les grandes cultures céréalières (blé, maïs, betterave) orientées vers l'export et l'agro-industrie (Agreste 2023). Malgré ce potentiel agronomique majeur, la part de la surface agricole conduite en agriculture biologique reste modeste, autour de 4,8 % de la SAU, soit en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). Le département dispose de quelques signes de qualité (Brie de Meaux AOP, Brie de Melun AOP), mais leur emprise territoriale est limitée par rapport à la surface agricole totale (INAO 2023). Le score ZAVA (Zone d'Autonomie Vivrière Alimentaire) révèle une dépendance structurelle aux filières longues et à la grande distribution, avec un tissu de circuits courts encore en développement mais inégalement réparti entre zones rurales et périurbaines (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Grande SAU céréalière mais dépendance filières longues, autonomie partielle"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 5.0,
+      "note": "Brie de Meaux et Brie de Melun AOP, couverture géographique limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "4,8 % SAU en bio, inférieur à la moyenne nationale de 10,7 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif, marchés fermiers nombreux en zone périurbaine"
+    }
+  ],
+  "points_forts": [
+    "Premier département agricole francilien avec 316 000 ha de SAU (52 % du territoire), socle de production alimentaire solide (Agreste 2023)",
+    "Deux AOP fromagères reconnues mondialement : Brie de Meaux et Brie de Melun, ancrage patrimonial fort (INAO 2023)",
+    "Réseau de circuits courts dynamique avec plus de 80 AMAP recensées, notamment en ceinture périurbaine de la Seine-et-Marne (ZAVA 2024)",
+    "Présence de la filière maraîchère en Seine-et-Marne contribuant à l'approvisionnement local et aux marchés de plein vent actifs dans les bourgs ruraux"
+  ],
+  "vigilances": [
+    "La faible part de SAU en bio (4,8 %) et la monoculture céréalière intensive exposent les sols à des risques de dégradation et limitent la résilience alimentaire locale face aux aléas climatiques projetés à horizon 2050 (INRAE 2023)",
+    "Pression foncière croissante liée à l'urbanisation du Grand Paris Express menace la pérennité des exploitations agricoles périurbaines, avec une perte estimée de terres agricoles accélérée sur les franges ouest et nord du département (SAFER Île-de-France 2023)",
+    "Dépendance aux intrants externes (engrais azotés, pesticides) dans les filières grandes cultures, vulnérabilité face aux tensions d'approvisionnement et au renchérissement des matières premières post-2022 (Chambres d'agriculture 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "316 000 ha",
+      "label": "SAU totale (2023)"
+    },
+    {
+      "valeur": "4,8 %",
+      "label": "Part SAU en bio"
+    },
+    {
+      "valeur": "2 AOP",
+      "label": "Fromagères (Brie Meaux/Melun)"
+    },
+    {
+      "valeur": "80+",
+      "label": "AMAP recensées"
+    }
+  ],
+  "sources": [
+    "Agreste Île-de-France 2023",
+    "Agence Bio 2023",
+    "INAO 2023",
+    "ZAVA 2024",
+    "SAFER Île-de-France 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations méthodologiques et ne reflètent pas toujours la diversité des filières locales courtes en zone rurale seine-et-marnaise",
+    "La surface AOP fromagère est difficile à isoler précisément au sein de la SAU totale, ce qui rend l'indicateur densité AOP/IGP peu discriminant à l'échelle du département",
+    "L'hétérogénéité territoriale forte entre zones périurbaines (ouest, nord) et zones rurales (est, sud) rend tout indicateur agrégé peu représentatif des réalités locales contrastées de l'alimentation en Seine-et-Marne"
+  ]
+}

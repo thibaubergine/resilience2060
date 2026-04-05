@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée présente un profil alimentaire globalement favorable avec une surface agricole utile (SAU) représentant environ 55% du territoire départemental, soit près de 370 000 ha (Agreste 2022), ce qui soutient une autonomie alimentaire relative. Le département bénéficie de plusieurs signes officiels de qualité reconnus par l'INAO, dont le Jambon de Vendée IGP, le Mogette de Vendée IGP et les volailles Label Rouge, valorisant une identité culinaire affirmée. La part de la SAU conduite en agriculture biologique atteint environ 7,5% en Vendée (Agence Bio 2023), en progression mais encore inférieure à la moyenne nationale de 10,7%, reflétant la prédominance de grandes exploitations céréalières et d'élevage intensif. Les circuits courts et AMAP se développent activement, avec plus de 15 AMAP recensées et un réseau de marchés fermiers soutenu par le Conseil Départemental, bien que la structuration reste inégale entre littoral touristique et bocage intérieur (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "SAU ~370 000 ha, polyculture-élevage assurant bonne autonomie relative"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Jambon Vendée IGP, Mogette IGP, volailles Label Rouge présents"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Bio ~7,5% SAU, progression lente, sous moyenne nationale 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Réseau marchés fermiers dense, 15+ AMAP, littoral touristique actif"
+    }
+  ],
+  "points_forts": [
+    "SAU de près de 370 000 ha représentant ~55% du territoire, assurant une base productive solide (Agreste 2022)",
+    "Trois signes d'identification INAO actifs : Jambon de Vendée IGP, Mogette de Vendée IGP et volailles sous Label Rouge, valorisant les filières locales",
+    "Réseau de circuits courts dynamique sur le littoral et dans le bocage, avec plus de 15 AMAP recensées et de nombreux marchés à la ferme soutenus par le Conseil Départemental 85",
+    "Production maraîchère et ostréicole (baie de Bourgneuf) contribuant à la diversité alimentaire locale et au tourisme gastronomique"
+  ],
+  "vigilances": [
+    "Part du bio stagnante (~7,5% SAU en 2023) face à l'objectif national de 18% en 2027, avec risque de décrochage si les conversions ralentissent (Agence Bio 2023)",
+    "Dépendance forte aux grandes cultures céréalières et à l'élevage intensif porcin/volaille, exposant la filière aux aléas climatiques et aux tensions sur l'alimentation animale (projection TRACC 2060)",
+    "Pression foncière littorale et périurbaine croissante autour de La Roche-sur-Yon menaçant la préservation des terres agricoles et la pérennité des circuits courts de proximité"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~370 000 ha",
+      "label": "SAU départementale (Agreste 2022)"
+    },
+    {
+      "valeur": "7,5%",
+      "label": "Part SAU en agriculture biologique (Agence Bio 2023)"
+    },
+    {
+      "valeur": "3",
+      "label": "Signes INAO actifs (IGP + Label Rouge)"
+    },
+    {
+      "valeur": "15+",
+      "label": "AMAP recensées en Vendée (ZAVA 2024)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 – Zones à Valeur Alimentaire",
+    "INAO – Registre des signes officiels de qualité",
+    "Agence Bio – Observatoire national 2023",
+    "Agreste – Recensement Agricole 2022"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire vendéenne restent agrégées à l'échelle régionale Pays de la Loire, rendant l'interprétation infra-départementale incertaine",
+    "L'absence de bilan alimentaire territorial formalisé en Vendée empêche de quantifier précisément le taux de couverture des besoins locaux par la production locale",
+    "Le recensement des circuits courts et AMAP repose sur des déclarations volontaires, induisant une probable sous-estimation du nombre réel de points de vente directe actifs"
+  ]
+}

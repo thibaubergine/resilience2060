@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn bénéficie d'une ressource en eau globalement bien distribuée grâce au réseau hydrographique du Tarn, de l'Agout et du Dadou, ainsi qu'aux retenues de Laouzas et de la Raviège qui assurent un soutien d'étiage important (capacité cumulée ~70 Mm³). La qualité des eaux distribuées est satisfaisante : selon les données ARS Occitanie 2022-2023, plus de 94% de la population du département est alimentée par une eau conforme aux exigences réglementaires en termes bactériologiques et physico-chimiques. Les projections Explore2 (2023) indiquent néanmoins une diminution des débits moyens annuels de 10 à 30% à l'horizon 2050-2070 sur les principaux cours d'eau du bassin Adour-Garonne, accentuant les tensions estivales déjà observées. La contamination aux nitrates reste modérée comparée aux départements de grandes cultures du nord de la France, avec des teneurs généralement inférieures à 25 mg/L dans les masses d'eau souterraines (Agence de l'eau Adour-Garonne, 2022). La présence de PFAS, bien que préoccupante à l'échelle nationale, fait l'objet d'une surveillance renforcée depuis la campagne nationale 2022-2023, avec quelques captages identifiés à surveiller dans les secteurs industriels du Tarn.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "94% population alimentée eau conforme ARS Occitanie 2023"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits en baisse de 10-30% horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Teneurs nitrates majoritairement sous 25 mg/L eaux souterraines"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Quelques captages surveillés secteurs industriels campagne PFAS 2023"
+    }
+  ],
+  "points_forts": [
+    "Conformité élevée de l'eau potable : 94% de la population alimentée en eau conforme aux normes bactériologiques et physico-chimiques (ARS Occitanie, 2023)",
+    "Retenues stratégiques de Laouzas et la Raviège assurant un soutien d'étiage d'environ 70 Mm³ sur le bassin de l'Agout",
+    "Contamination aux nitrates modérée : masses d'eau souterraines majoritairement sous le seuil de 25 mg/L, loin du seuil d'alerte de 50 mg/L (Agence de l'eau Adour-Garonne, 2022)",
+    "Réseau hydrographique dense (Tarn, Agout, Dadou, Vère) offrant une bonne résilience de la ressource brute en conditions normales"
+  ],
+  "vigilances": [
+    "Stress hydrique estival croissant : les projections Explore2 (2023) anticipent une réduction des débits d'étiage de 20 à 40% sur le Tarn et l'Agout à l'horizon 2060, menaçant les prélèvements agricoles et l'alimentation en eau potable",
+    "Présence de PFAS à surveiller sur plusieurs captages du département, notamment dans les secteurs à activité industrielle ou à proximité d'aérodromes, avec des campagnes de contrôle à intensifier conformément à la directive européenne 2020/2184",
+    "Vulnérabilité des petites communes rurales : une partie des collectivités tarnaises présente des réseaux vieillissants avec des taux de pertes par fuites supérieurs à 20%, aggravant la tension sur la ressource en période de sécheresse (SISPEA, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94%",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Baisse débits prévue 2060 (Explore2)"
+    },
+    {
+      "valeur": "25 mg/L",
+      "label": "Seuil nitrates mesuré eaux souterraines"
+    },
+    {
+      "valeur": "70 Mm³",
+      "label": "Capacité retenues Laouzas + Raviège"
+    }
+  ],
+  "sources": [
+    "ARS Occitanie – Bilan qualité eaux 2023",
+    "Explore2 BRGM/OFB 2023 – Projections hydrologiques Adour-Garonne",
+    "Agence de l'eau Adour-Garonne – DCE masses d'eau 2022",
+    "SISPEA – Données performance réseaux eau potable 2022"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques au Tarn restent partielles : la campagne nationale 2022-2023 ne couvre pas l'intégralité des captages du département, laissant des zones de surveillance incomplètes",
+    "Les projections Explore2 sont exprimées à l'échelle du bassin Adour-Garonne et leur déclinaison précise aux sous-bassins tarnais (Agout, Dadou) comporte une incertitude significative selon les scénarios climatiques retenus",
+    "L'absence de données publiques consolidées et récentes sur les taux de pertes réseau à l'échelle communale dans le Tarn limite l'évaluation fine de l'efficience du système d'alimentation en eau potable"
+  ]
+}

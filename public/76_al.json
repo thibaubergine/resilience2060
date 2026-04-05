@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente un profil alimentaire intermédiaire (5,5/10) marqué par une forte dominance des grandes cultures céréalières et oléoprotéagineuses sur sa SAU d'environ 545 000 hectares, au détriment de la diversification alimentaire locale (Agreste 2023). La part de la surface agricole utile conduite en agriculture biologique reste modeste, autour de 4,2 % en 2023, soit en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). Le département bénéficie de quelques signes de qualité reconnus, notamment le Cidre du Pays de Caux et le Neufchâtel AOP, mais la densité d'indications géographiques reste faible au regard de la superficie agricole (INAO 2024). Les circuits courts et AMAP se développent progressivement dans l'aire métropolitaine rouennaise et havraise, avec une centaine de points de vente directs recensés, mais la concentration urbaine et industrielle limite la couverture territoriale (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Autonomie alimentaire partielle, grandes cultures exportatrices dominantes (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 5.0,
+      "note": "Neufchâtel AOP et Cidre du Pays de Caux, offre limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "4,2 % SAU bio, nettement sous la moyenne nationale 10,7 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Réseau circuits courts actif zones urbaines Rouen et Le Havre"
+    }
+  ],
+  "points_forts": [
+    "Le Neufchâtel AOP, premier fromage normand à bénéficier d'une AOC (1969), constitue un marqueur identitaire fort avec environ 1 500 tonnes produites annuellement",
+    "Le réseau de marchés de producteurs et d'AMAP est dynamique autour de la métropole rouennaise, avec plus d'une centaine de points de vente en circuit court recensés (ZAVA 2024)",
+    "La filière pomme à cidre du Pays de Caux bénéficie d'une IGP reconnue, structurant une agriculture de bocage alternative aux grandes cultures",
+    "La diversité pédoclimatique du département (plateau cauchois, vallées de la Seine et de la Bresle) permet une production agricole variée incluant lin, betterave, céréales et élevage laitier"
+  ],
+  "vigilances": [
+    "La très forte artificialisation des sols autour des agglomérations de Rouen et du Havre menace les terres agricoles péri-urbaines à fort potentiel maraîcher, avec une perte estimée à plus de 400 ha/an (Agreste 2023)",
+    "La dépendance aux intrants chimiques dans les systèmes céréaliers intensifs du plateau cauchois fragilise la résilience alimentaire locale face aux tensions d'approvisionnement projetées à horizon 2035",
+    "La faible progression de l'agriculture biologique (+ 0,3 point/an seulement) risque de creuser l'écart avec les objectifs du plan Ambition Bio 2027 fixant 18 % de SAU nationale en bio"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "545 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "4,2 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "2",
+      "label": "Appellations AOP/IGP majeures (Neufchâtel, Cidre Pays de Caux)"
+    },
+    {
+      "valeur": "~100",
+      "label": "Points de vente circuits courts recensés"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Panorama national et régional",
+    "INAO 2024 – Registre des signes officiels de qualité",
+    "ZAVA 2024 – Zones à valeur alimentaire, diagnostic territorial",
+    "Agreste Normandie 2023 – Statistiques agricoles départementales"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent agrégées à l'échelle régionale Normandie pour plusieurs indicateurs, rendant l'extraction strictement seine-marinaise incertaine",
+    "L'absence de référentiel standardisé sur les circuits courts au niveau départemental oblige à recourir à des estimations issues d'enquêtes locales non exhaustives",
+    "La part de SAU bio peut légèrement varier selon les millésimes de référence (Agence Bio vs déclarations PAC), introduisant une incertitude de ±0,5 point sur ce sous-score"
+  ]
+}

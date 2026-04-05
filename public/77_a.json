@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-et-Marne présente une qualité de l'air globalement intermédiaire au sein de la région Île-de-France, bénéficiant d'une moindre densité urbaine par rapport au cœur métropolitain mais restant soumise aux influences de l'agglomération parisienne et des grands axes routiers (A4, A5, A6, Francilienne). Les concentrations moyennes annuelles en PM2,5 oscillent autour de 12-14 µg/m³ selon les zones (ATMO Île-de-France, 2022-2023), dépassant la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ reste en-dessous des seuils réglementaires européens (40 µg/m³) en dehors des couloirs autoroutiers, avec des valeurs typiquement comprises entre 15 et 25 µg/m³ sur les zones rurales et périurbaines (ATMO IDF, 2023). Le département est par ailleurs un important territoire agricole (1er département agricole d'Île-de-France par la surface), générant des émissions significatives d'ammoniac (NH₃) issues des grandes cultures céréalières et de l'élevage, contribuant à la formation de particules secondaires.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 5.0,
+      "note": "PM2,5 ~13 µg/m³, dépasse norme OMS 5 µg/m³ mais inférieur à Paris"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 6.0,
+      "note": "NO₂ sous seuil UE hors axes autoroutiers, 15-25 µg/m³ zones périurbaines"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Faible densité industrielle émettrice, quelques ZI localisées (Marne-la-Vallée)"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "1er département agricole IDF, NH₃ élevé issu grandes cultures et fertilisation"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air meilleure que les départements de la petite couronne parisienne : PM2,5 ~13 µg/m³ vs ~16 µg/m³ pour Paris intra-muros (ATMO IDF, 2023)",
+    "NO₂ annuel moyen inférieur à 25 µg/m³ dans les zones rurales du département, nettement sous le seuil réglementaire européen de 40 µg/m³",
+    "Faible densité industrielle lourde : absence de grandes installations classées SEVESO émettant des polluants atmosphériques majeurs sur la majeure partie du territoire",
+    "Couverture forestière importante (~25 % du territoire, forêts de Fontainebleau et de Sénart) contribuant à l'absorption partielle des polluants et à l'effet tampon"
+  ],
+  "vigilances": [
+    "Persistance de dépassements OMS pour les PM2,5 (>5 µg/m³) sur l'ensemble du département, avec risques sanitaires chroniques pour les 1,4 million d'habitants, notamment les populations vulnérables",
+    "Émissions d'ammoniac agricoles importantes liées à la fertilisation azotée des grandes cultures céréalières (Seine-et-Marne représente ~40 % de la SAU régionale), favorisant la formation de particules secondaires et d'aérosols nitrés",
+    "Axe autoroutier dense (A4, A5, Francilienne) générant des pics de NO₂ et PM10 localisés en zones périurbaines en expansion, avec une pression croissante liée au développement de l'habitat pavillonnaire et logistique (entrepôts XXL)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13 µg/m³",
+      "label": "Concentration PM2,5 moyenne (ATMO IDF 2023)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "15-25 µg/m³",
+      "label": "NO₂ zones périurbaines/rurales"
+    },
+    {
+      "valeur": "~40 %",
+      "label": "Part SAU régionale IDF en Seine-et-Marne"
+    }
+  ],
+  "sources": [
+    "ATMO Île-de-France – Bilan qualité de l'air 2022-2023",
+    "OMS 2021 – Lignes directrices mondiales sur la qualité de l'air",
+    "Citepa – Inventaire national des émissions de polluants atmosphériques",
+    "DRIEAT Île-de-France – Données agricoles et industrielles 77"
+  ],
+  "limites": [
+    "La surveillance de la qualité de l'air en Seine-et-Marne repose sur un réseau de stations ATMO relativement limité pour un département aussi étendu (5 915 km²), laissant des zones rurales sans mesure directe",
+    "Les émissions NH₃ agricoles sont estimées par modélisation à partir des données de pratiques culturales, sans mesures terrain systématiques à l'échelle parcellaire",
+    "L'impact des émissions transfrontalières de l'agglomération parisienne sur la Seine-et-Marne est difficile à distinguer des sources locales dans les inventaires disponibles"
+  ]
+}

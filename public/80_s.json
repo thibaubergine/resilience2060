@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme présente un profil pédologique fortement marqué par une agriculture intensive sur limons et craies, avec près de 87 % de la superficie agricole utile cultivée en grandes cultures céréalières et betteravières (Agreste 2023). Le département recense plus de 120 sites recensés sur l'ancienne base BASOL (sites pollués ou potentiellement pollués), héritage d'une industrie agro-alimentaire et textile concentrée autour d'Amiens et Abbeville (GéoRisques 2023). La contamination des sols par les résidus de pesticides est préoccupante : la Somme figure parmi les départements les plus exposés selon l'Observatoire des Résidus de Pesticides (INRAE 2023), avec des usages intensifs de fongicides et herbicides sur blé tendre et colza. La part des surfaces en agriculture biologique reste très faible, autour de 3,2 % de la SAU, bien en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). En revanche, le risque radon demeure limité, les formations géologiques crayeuses et limoneuses étant peu émettrices.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Plus de 120 sites BASOL recensés, Amiens et vallée industrielle impactées"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Usage intensif pesticides sur céréales et betteraves, résidus sols élevés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie crayeuse et limoneuse, potentiel radon naturellement faible"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 2.0,
+      "note": "SAU bio à 3,2 %, très inférieure à la moyenne nationale de 10,7 %"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France grâce aux formations crayeuses dominantes (IRSN, catégorie 1 majoritaire)",
+    "Sols limoneux à forte capacité agronomique, parmi les plus fertiles d'Europe du Nord (Chambre d'agriculture Somme 2022)",
+    "Présence de plans de gestion des sites pollués engagés sur plusieurs friches industrielles amiénoises (GéoRisques 2023)",
+    "Dynamique émergente de couverture hivernale des sols portée par la PAC 2023 réduisant l'érosion"
+  ],
+  "vigilances": [
+    "Érosion hydrique des limons très préoccupante : la Somme perd en moyenne 5 à 10 tonnes de terre/ha/an sur les zones en pente (INRAE/GisSol 2022), risque aggravé par le changement climatique",
+    "Contamination aux résidus de pesticides (notamment glyphosate et métazachlore) détectée dans les sols agricoles, avec accumulation à long terme sur les horizons superficiels",
+    "Progression très lente de la bio (+ 0,2 point/an) rendant l'objectif régional de 18 % SAU bio en 2030 hors d'atteinte pour le département (Agence Bio 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "120+",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "3,2 %",
+      "label": "SAU bio (Somme)"
+    },
+    {
+      "valeur": "5-10 t/ha/an",
+      "label": "Érosion sols limoneux"
+    },
+    {
+      "valeur": "87 %",
+      "label": "SAU en grandes cultures"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE / GisSol 2022-2023",
+    "Agence Bio 2023",
+    "IRSN – Cartographie radon"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites réhabilités des sites encore actifs, limitant l'évaluation réelle de la pollution résiduelle",
+    "L'absence de réseau départemental de surveillance des résidus de pesticides dans les sols rend difficile une cartographie fine et actualisée pour la Somme",
+    "La mesure de l'érosion reste issue de modélisations nationales (GisSol) peu adaptées aux spécificités topographiques locales des vallons picards"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Vienne (86) présente une biodiversité notable avec environ 11,8 % de son territoire couvert par des zones Natura 2000, incluant notamment les zones humides de la vallée de la Vienne et les pelouses calcaires du Montmorillonnais (INPN, 2024). Le département abrite des espèces emblématiques comme l'Outarde canepetière, dont la Vienne constitue l'un des derniers bastions français avec plus de 300 mâles chanteurs recensés (LPO, 2023), ainsi que le Grand Rhinolophe et la Cistude d'Europe. Les corridors écologiques identifiés dans le SRCE Nouvelle-Aquitaine montrent des discontinuités significatives liées à l'agriculture intensive sur les plateaux cultivés du nord du département, affectant la connectivité entre les massifs forestiers (OFB, 2024). Le Parc Naturel Régional de la Forêt des Landes ne couvre pas la Vienne, mais le PNR Périgord-Limousin effleure marginalement ses marges occidentales, laissant une grande partie du territoire sans protection forte (INPN, 2024). Des initiatives locales via les APPB (Arrêtés Préfectoraux de Protection de Biotope) complètent partiellement le dispositif pour les espèces les plus menacées.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "11,8 % du territoire en zones Natura 2000, valeur moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Absence de Parc National ; PNR marginal, couverture protégée limitée"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Outarde canepetière, Grand Rhinolophe, Cistude ; forte valeur patrimoniale"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors SRCE présents mais fragmentés par agriculture intensive plateaux"
+    }
+  ],
+  "points_forts": [
+    "Présence de l'Outarde canepetière avec plus de 300 mâles chanteurs recensés, faisant de la Vienne l'un des deux premiers départements français pour cette espèce (LPO, 2023)",
+    "11,8 % du territoire en zones Natura 2000, couvrant les vallées alluviales, pelouses calcaires et bocages (INPN, 2024)",
+    "Richesse avifaunistique remarquable avec plus de 250 espèces d'oiseaux recensées, dont rapaces nicheurs et limicoles des zones humides (LPO Vienne)",
+    "Réseau de zones humides structurant le long des vallées de la Vienne, du Clain et de la Creuse, habitats d'espèces patrimoniales comme la Cistude d'Europe (OFB, 2024)"
+  ],
+  "vigilances": [
+    "Déclin continu des populations d'Outarde canepetière lié à l'intensification agricole et à la perte d'habitats steppiques ; perte estimée de 30 % des effectifs en 20 ans (LPO)",
+    "Fragmentation des corridors écologiques par les infrastructures routières (A10, RN10) et l'urbanisation diffuse autour de Poitiers, menaçant la connectivité entre massifs boisés",
+    "Assèchement progressif des zones humides sous l'effet du changement climatique (projections DRIAS 2060 : -15 % à -20 % des précipitations estivales), fragilisant les habitats des espèces aquatiques et semi-aquatiques"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "11,8 %",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "300+",
+      "label": "Mâles Outarde canepetière"
+    },
+    {
+      "valeur": "250+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "~4 %",
+      "label": "Surface aires protégées fortes"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Vienne 2023",
+    "SRCE Nouvelle-Aquitaine / OFB",
+    "DRIAS 2060 / Climadiag"
+  ],
+  "limites": [
+    "Les données INPN sur la connectivité des corridors écologiques restent partielles pour la Vienne, sans cartographie fine à l'échelle communale disponible publiquement",
+    "L'évaluation de l'état de conservation des espèces Natura 2000 est discontinue : certains sites n'ont pas été réévalués depuis plus de 10 ans, limitant la fiabilité du diagnostic",
+    "L'absence de Parc National ou de Réserve Naturelle Nationale de taille significative sur le territoire réduit la disponibilité de suivis naturalistes standardisés et comparables aux départements mieux dotés en outils de protection"
+  ]
+}

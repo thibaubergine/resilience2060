@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Vosges constituent un département à forte valeur écologique, avec environ 18% de leur superficie couverte par le réseau Natura 2000, représentant plus de 190 000 hectares de milieux naturels d'intérêt communautaire (INPN, 2024). Le massif vosgien abrite une biodiversité remarquable incluant des espèces emblématiques comme le grand tétras (Tetrao urogallus), espèce parapluie des forêts de montagne, et la loutre d'Europe en cours de recolonisation sur les cours d'eau (LPO/OFB 2024). Le département bénéficie d'une protection renforcée grâce au Parc Naturel Régional des Ballons des Vosges, qui couvre environ 300 000 hectares incluant une partie significative du territoire vosgien, constituant un réservoir de biodiversité majeur du nord-est français (Charte PNR 2020-2035). Les corridors écologiques du massif vosgien s'inscrivent dans le Schéma Régional de Cohérence Écologique (SRCE) Grand Est, bien que la fragmentation par les axes routiers (RN57, A36) et l'artificialisation progressive des vallées représentent des pressions persistantes sur la continuité des habitats (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18% territoire en Natura 2000, soit ~190 000 ha classés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Ballons des Vosges couvre ~300 000 ha, protection solide"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Grand tétras, loutre, milan royal présents mais populations fragiles"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "SRCE structuré, fragmentation partielle par axes routiers et urbanisation"
+    }
+  ],
+  "points_forts": [
+    "Réseau Natura 2000 couvrant environ 18% du territoire départemental, l'un des taux les plus élevés du Grand Est (INPN, 2024)",
+    "PNR des Ballons des Vosges, l'un des plus grands PNR de France (300 000 ha), ancrant une gouvernance écologique active (Charte 2020-2035)",
+    "Présence de la loutre d'Europe en recolonisation sur la Moselle et ses affluents, indicateur de bon état écologique des cours d'eau (OFB 2024)",
+    "Massif forestier vosgien couvrant plus de 55% du département, offrant un réservoir de biodiversité forestière exceptionnel (IGN/IFN)"
+  ],
+  "vigilances": [
+    "Le grand tétras des Vosges est en danger critique : population estimée à moins de 100 individus, menacée par les dérangements touristiques et le changement climatique (OFB/LPO 2023)",
+    "La fragmentation des corridors écologiques par les infrastructures de transport (RN57, A31) et l'urbanisation des vallées réduit la connectivité entre massifs forestiers",
+    "Le réchauffement climatique projette une remontée des isothermes de +2 à +3°C d'ici 2060 (DRIAS), menaçant les espèces montagnards-boréales et les habitats subalpins des Hautes-Chaumes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "300 000 ha",
+      "label": "Surface PNR Ballons des Vosges"
+    },
+    {
+      "valeur": "55%",
+      "label": "Couverture forestière dép."
+    },
+    {
+      "valeur": "<100 ind.",
+      "label": "Population grand tétras vosgien"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Grand Est 2023",
+    "Charte PNR Ballons des Vosges 2020-2035",
+    "SRCE Grand Est / DRIAS 2024"
+  ],
+  "limites": [
+    "Les données sur l'état de conservation précis des habitats Natura 2000 vosgiens restent partielles, les rapportages étant réalisés à l'échelle biogéographique et non départementale",
+    "Le suivi des espèces ordinaires (insectes pollinisateurs, amphibiens) est insuffisant à l'échelle du département, rendant difficile l'évaluation de l'érosion de la biodiversité commune",
+    "L'impact réel des pratiques sylvicoles intensives sur la biodiversité forestière vosgienne est mal documenté à l'échelle locale malgré l'importance économique de la filière bois"
+  ]
+}

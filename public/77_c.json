@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-et-Marne (77), département le plus étendu d'Île-de-France avec 5 915 km², présente une vulnérabilité climatique préoccupante à l'horizon 2060, accentuée par sa topographie majoritairement plane (altitude moyenne ~90 m) offrant peu de tampon thermique face aux épisodes de chaleur. Selon Climadiag (Météo-France, 2023), le département pourrait connaître jusqu'à 40 jours de canicule par an à l'horizon 2050-2070 sous scénario RCP8.5, contre 5-7 jours actuellement, plaçant les zones urbaines et périurbaines dans une situation critique. Le réseau hydrographique dense (Seine, Marne, Yonne, Loing) expose une part significative du territoire aux inondations : la crue de janvier 2018 a affecté plus de 50 communes et causé près de 500 millions d'euros de dommages (EPTB Seine Grands Lacs). Les projections DRIAS 2023 indiquent une hausse des températures moyennes de +2,5 à +3,8°C d'ici 2060, avec des sécheresses estivales plus fréquentes affectant les sols argileux du Brie et les massifs forestiers (Fontainebleau, 28 000 ha) dont le risque incendie est en forte progression selon l'inventaire forestier de l'ONF.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Relief plat (~90 m), plaines de Brie, faible tampon thermique altitudinal"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "40 jours de canicule/an projetés d'ici 2060, zones urbaines exposées"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Massif de Fontainebleau (28 000 ha) en risque croissant, incendies 2022"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Inondations Seine/Marne/Loing fréquentes, crue 2018 : 500 M€ dommages"
+    }
+  ],
+  "points_forts": [
+    "Massif forestier de Fontainebleau (28 000 ha) offre un îlot de fraîcheur et un stock carbone significatif classé Réserve de Biosphère UNESCO",
+    "Réseau de zones humides et val des rivières (Seine, Marne) contribue à la régulation thermique locale et à l'atténuation partielle des crues (EPTB Seine Grands Lacs)",
+    "Faible densité urbaine relative (234 hab/km²) comparée aux départements de la petite couronne, limitant partiellement l'effet îlot de chaleur urbain",
+    "Plan de Prévention du Risque Inondation (PPRI) couvrant les principales vallées, avec des dispositifs de prévision opérationnels via Vigicrues"
+  ],
+  "vigilances": [
+    "Projection de +40 jours de canicule/an à l'horizon 2060 (RCP8.5, Climadiag Météo-France 2023) menaçant populations âgées et travailleurs agricoles du plateau de Brie",
+    "Risque incendie en forte progression sur le massif de Fontainebleau : l'été 2022 a confirmé la vulnérabilité des forêts séquano-marniennes, avec un indice feu forêt en hausse de 20% selon l'ONF",
+    "Sécheresses à répétition (2018, 2019, 2022) combinées aux sols argileux gonflants du Brie engendrent un risque de retrait-gonflement des argiles (RGA) affectant plus de 60% des communes du département (GéoRisques 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse température moyenne projetée 2060 (DRIAS)"
+    },
+    {
+      "valeur": "~40 j",
+      "label": "Jours de canicule annuels projetés à 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "28 000 ha",
+      "label": "Surface boisée Fontainebleau exposée feux"
+    },
+    {
+      "valeur": "500 M€",
+      "label": "Dommages crue Seine/Marne janvier 2018"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénario RCP8.5)",
+    "EPTB Seine Grands Lacs – Bilan crue 2018",
+    "ONF / IFN – Inventaire forestier et risque incendie 2022-2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à l'échelle communale mais leur agrégation départementale masque les disparités locales entre le plateau de Brie (plus exposé) et les vallées (effets tampons)",
+    "Le risque feux de forêt en zone tempérée francilienne reste moins documenté que dans le Sud de la France, avec des modèles de propagation encore peu calibrés pour Fontainebleau",
+    "L'absence d'observatoire climatique départemental dédié en Seine-et-Marne limite le suivi fin des indicateurs d'adaptation locale, contrairement à certains départements dotés d'un PCAET intercommunal intégré"
+  ]
+}

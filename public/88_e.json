@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Vosges bénéficient d'une ressource en eau globalement abondante grâce aux massifs vosgiens, avec des précipitations annuelles dépassant 1 500 mm sur les sommets et des débits soutenus sur les cours d'eau comme la Moselle et la Meurthe en têtes de bassin (Agence de l'Eau Rhin-Meuse). La qualité des eaux potables est satisfaisante pour une large majorité de la population, avec plus de 95 % des analyses conformes aux normes microbiologiques et physico-chimiques selon les données ARS Grand Est 2022. Cependant, les projections Explore2 (2023) indiquent une réduction sensible des débits d'étiage à l'horizon 2050-2070, avec des baisses pouvant atteindre -20 à -30 % sur certains affluents vosgiens, fragilisant les usages agricoles et industriels en période estivale. La contamination aux nitrates reste modérée comparativement aux plaines agricoles françaises, grâce à la prédominance forestière (38 % de la surface départementale couverte par la forêt), mais certaines vallées agricoles présentent des teneurs proches de 25-40 mg/L (DCE/ADES). La présence de PFAS, bien que moins documentée que dans d'autres départements industrialisés, fait l'objet d'une vigilance croissante autour de certains sites textiles et tanneries historiques des vallées vosgiennes (BRGM/ARS 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.5,
+      "note": "95 % des analyses conformes, eau potable majoritairement conforme ARS 2022"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.5,
+      "note": "Débits estivaux en baisse projetée -20 à -30 % horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.5,
+      "note": "Nitrates modérés, couvert forestier dominant limite les transferts agricoles"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.5,
+      "note": "PFAS détectés ponctuellement, héritage textile-tannerie dans les vallées"
+    }
+  ],
+  "points_forts": [
+    "Précipitations annuelles parmi les plus élevées de France métropolitaine (>1 500 mm sur les Hautes-Chaumes), alimentant durablement les nappes et cours d'eau",
+    "Couverture forestière de 38 % du territoire limitant le ruissellement et filtrant naturellement les eaux de pluie (IFN/IGN 2022)",
+    "Qualité microbiologique des eaux distribuées excellente pour 95 % des analyses conformes (ARS Grand Est 2022)",
+    "Réseau hydrographique dense (Moselle, Vologne, Meurthe) offrant une capacité de dilution et de recharge élevée des milieux aquatiques"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de -20 à -30 % à l'horizon 2060 sur les cours d'eau vosgiens, menaçant les usages en période de sécheresse estivale (Explore2, 2023)",
+    "Contamination agricole localisée dans les vallées (Plaine des Vosges côté occidental) avec des concentrations en nitrates pouvant approcher 40 mg/L dans certains captages (ADES/DCE)",
+    "Risque PFAS sous-évalué autour des anciens sites textiles et tanneries des vallées de la Moselle et de la Vologne, nécessitant un renforcement des campagnes de surveillance (ARS/BRGM 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">1 500 mm",
+      "label": "Précipitations annuelles (sommets vosgiens)"
+    },
+    {
+      "valeur": "95 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Baisse débit étiage projetée 2060 (Explore2)"
+    },
+    {
+      "valeur": "38 %",
+      "label": "Surface forestière départementale (IGN)"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilan qualité eaux 2022",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "ADES/DCE – Surveillance nitrates eaux souterraines",
+    "IGN/IFN – Inventaire forestier national 2022"
+  ],
+  "limites": [
+    "Les données PFAS sur le département des Vosges restent parcellaires : les campagnes de screening systématique des captages AEP sont encore incomplètes à l'échelle communale",
+    "Les projections Explore2 présentent une incertitude notable sur les petits bassins versants vosgiens, dont les comportements hydrologiques montagnards sont difficiles à modéliser finement",
+    "L'absence d'un observatoire départemental unifié de l'eau rend difficile la consolidation des données qualité/quantité à l'échelle des 515 communes du département"
+  ]
+}

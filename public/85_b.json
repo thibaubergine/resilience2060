@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée présente un profil de biodiversité globalement favorable, structuré autour d'un littoral atlantique riche et de zones humides d'importance internationale. Le marais poitevin, partagé avec les Deux-Sèvres et la Charente-Maritime, constitue la plus grande zone humide de France avec 100 000 ha, classée en Parc Naturel Régional depuis 2014 (OFB 2024). Le département abrite plus de 340 espèces d'oiseaux recensées, dont des populations significatives de gorgebleue à miroir et de courlis cendré (LPO 85). Environ 12,5 % du territoire vendéen est couvert par des zonages Natura 2000, incluant des sites marins emblématiques comme les pertuis charentais et l'île de Noirmoutier (INPN 2023). Toutefois, la pression agricole intensive sur les bocages et le recul des zones humides côtières sous effet de l'élévation du niveau marin constituent des menaces structurelles identifiées (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "12,5 % du territoire en Natura 2000, couvrant zones humides et littoral"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Marais Poitevin actif; absence de Parc National en propre"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "340+ espèces d'oiseaux; gorgebleue, courlis, loutre présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Bocage et réseau hydrographique fragmentés; trames vertes partiellement restaurées"
+    }
+  ],
+  "points_forts": [
+    "Le marais poitevin, 100 000 ha de zones humides, constitue un réservoir de biodiversité majeur classé PNR (OFB 2024)",
+    "12,5 % du territoire sous zonage Natura 2000, dont des ZPS et ZSC littorales protégeant des espèces marines et avifaune migratrice (INPN 2023)",
+    "Présence de 340+ espèces d'oiseaux recensées par la LPO 85, avec des populations nicheuses remarquables de gorgebleue à miroir et de spatule blanche",
+    "Le réseau bocager, bien que dégradé, reste l'un des mieux conservés des Pays de la Loire avec encore 35 000 km de haies estimés (Agreste 2020)"
+  ],
+  "vigilances": [
+    "Recul des zones humides côtières accéléré par la montée du niveau marin (+6 mm/an sur la façade atlantique), menaçant les habitats de nidification à l'horizon 2050 (DRIAS 2023)",
+    "Pression agricole persistante sur le bocage : fragmentation des corridors écologiques par remembrement et maïsiculture intensive en plaine vendéenne",
+    "Prolifération d'espèces exotiques envahissantes (jussie, ragondin, vison d'Amérique) dans les marais, dégradant les habitats aquatiques recensés par l'OFB 85"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "100 000 ha",
+      "label": "Marais poitevin (PNR)"
+    },
+    {
+      "valeur": "340+",
+      "label": "Espèces d'oiseaux recensées"
+    },
+    {
+      "valeur": "35 000 km",
+      "label": "Réseau de haies estimé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 (Observatoire de la Biodiversité)",
+    "INPN 2023 (Inventaire National du Patrimoine Naturel)",
+    "LPO Vendée 85",
+    "Agreste 2020 (Recensement bocage Pays de la Loire)"
+  ],
+  "limites": [
+    "Les données de fragmentation des corridors écologiques en Vendée manquent de granularité communale, rendant l'évaluation partielle de la trame verte et bleue",
+    "La part du marais poitevin partagée entre trois départements complexifie l'attribution précise des surfaces protégées à la seule Vendée",
+    "Le suivi des espèces exotiques envahissantes reste hétérogène selon les acteurs locaux (syndicats de marais, OFB, communes), limitant la fiabilité des données d'état"
+  ]
+}

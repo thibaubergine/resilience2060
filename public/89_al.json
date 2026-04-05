@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne présente un profil alimentaire intermédiaire (6,5/10, rang estimé autour du 3e quartile national) porté par une agriculture céréalière dominante et quelques signes de qualité reconnus. Le département compte environ 290 000 hectares de surface agricole utile (SAU), représentant près de 55 % du territoire (Agreste 2020), avec une orientation majoritairement grandes cultures (blé, orge, colza). La viticulture icaunaise, notamment le Chablis et l'Irancy, confère une identité AOP significative au territoire, l'Yonne abritant plusieurs appellations viticoles reconnues par l'INAO. La part de l'agriculture biologique reste modeste avec environ 6,5 % de la SAU en bio en 2022 (Agence Bio 2023), légèrement sous la moyenne nationale de 10,7 %. Les circuits courts et AMAP restent peu développés comparativement à des départements périurbains, bien que la proximité avec l'Île-de-France génère quelques débouchés (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Grande SAU céréalière mais faible diversification alimentaire locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Chablis, Irancy, Bourgogne Épineuil : appellations viticoles reconnues INAO"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "~6,5% SAU bio, sous moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Proximité Île-de-France favorise circuits courts, AMAP en développement"
+    }
+  ],
+  "points_forts": [
+    "Viticulture AOP structurante : le Chablis est l'une des appellations blanches les plus exportées de Bourgogne, avec ~5 000 ha en production (INAO 2023)",
+    "SAU étendue (~290 000 ha, soit 55 % du territoire) assurant une capacité productive départementale significative (Agreste 2020)",
+    "Présence de plusieurs AOP/IGP viticoles (Chablis Premier Cru, Petit Chablis, Irancy, Bourgogne Côtes d'Auxerre) renforçant la valeur ajoutée agricole locale",
+    "Proximité avec l'Île-de-France (moins de 2h de Paris) facilitant les débouchés en circuits courts et l'approvisionnement de restauration collective régionale (ZAVA 2024)"
+  ],
+  "vigilances": [
+    "Dépendance aux grandes cultures céréalières exposée aux aléas climatiques : le département a subi des pertes de rendement blé de -20 à -30 % lors des sécheresses 2020 et 2022 (Agreste)",
+    "Part bio insuffisante (6,5 % vs 10,7 % national) avec risque de stagnation si la transition agroécologique n'est pas accompagnée financièrement post-PAC 2027",
+    "Vulnérabilité de l'appellation Chablis face au gel tardif printanier, événement récurrent depuis 2016, menaçant jusqu'à 60 % de la récolte certaines années (Chambre d'agriculture 89)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~290 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "6,5 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "5 000 ha",
+      "label": "Vignoble AOP Chablis"
+    },
+    {
+      "valeur": "6",
+      "label": "Appellations AOP/IGP présentes"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste Recensement Agricole 2020",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent agrégées à l'échelle régionale Bourgogne-Franche-Comté, rendant difficile une quantification précise pour le seul département de l'Yonne",
+    "Le maillage des AMAP et points de vente directe n'est pas exhaustivement recensé à l'échelle infra-départementale, sous-estimant potentiellement les initiatives locales",
+    "L'orientation grandes cultures de l'Yonne biaise l'indicateur \"alimentation\" : la production céréalière contribue peu à l'autonomie alimentaire locale directe, étant majoritairement destinée à l'export ou à l'alimentation animale"
+  ]
+}

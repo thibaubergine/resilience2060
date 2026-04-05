@@ -1,0 +1,65 @@
+{
+  "synthese": "Paris (75) présente une situation hydrique paradoxale : alimentée à 70 % par des eaux superficielles (Seine et Marne) et 30 % par des eaux souterraines, la capitale dépend d'un réseau géré par Eau de Paris desservant 2,2 millions d'habitants, avec une eau du robinet conforme aux normes sanitaires à plus de 99 % des analyses (ARS Île-de-France, 2023). Toutefois, la Seine et ses affluents restent fortement impactés par les rejets urbains et industriels, avec des épisodes de contamination aux micropolluants, perturbateurs endocriniens et PFAS détectés en aval des stations d'épuration (SIAAP, 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la Seine pouvant atteindre -30 % à -40 % à l'horizon 2050-2070, aggravant le stress hydrique estival dans un territoire déjà très imperméabilisé à plus de 90 %. Le département, entièrement urbain et dépourvu d'agriculture, affiche des teneurs en nitrates faibles dans les eaux distribuées (< 10 mg/L), mais les contaminations aux PFAS dans les masses d'eau de surface constituent une vigilance croissante identifiée par la DCE et l'ANSES (2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Eau conforme >99% analyses ARS; micropolluants résiduels préoccupants"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 2.0,
+      "note": "Débits Seine -30 à -40% horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Absence agriculture; nitrates faibles <10 mg/L dans eau distribuée"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 2.0,
+      "note": "PFAS détectés Seine et nappes; stations SIAAP insuffisamment équipées"
+    }
+  ],
+  "points_forts": [
+    "Conformité sanitaire de l'eau potable supérieure à 99 % des prélèvements analysés (ARS Île-de-France, 2023)",
+    "Absence totale d'agriculture intensive : teneurs en nitrates dans l'eau distribuée inférieures à 10 mg/L, bien en dessous du seuil réglementaire de 50 mg/L (Eau de Paris, 2023)",
+    "Réseau Eau de Paris intégralement géré en régie publique depuis 2010, avec politique de réduction des pertes (rendement réseau ~91 %)",
+    "Fontaines d'eau potable publiques (environ 1 200 fontaines Wallace et bornes réfrigérées) réduisant la consommation d'eau en bouteille plastique"
+  ],
+  "vigilances": [
+    "Projection Explore2 (2023) : réduction des débits d'étiage de la Seine de -30 % à -40 % à l'horizon 2050-2070, menaçant les capacités de prélèvement et de dilution des rejets",
+    "Contamination croissante aux PFAS (« polluants éternels ») détectée dans la Seine et les nappes phréatiques d'Île-de-France, avec des concentrations dépassant les futures valeurs seuils européennes (ANSES, 2023 ; DCE)",
+    "Imperméabilisation quasi-totale du territoire parisien (>90 % de surfaces artificialisées) générant des ruissellements massifs, surcharges des réseaux unitaires et déversements d'eaux non traitées en Seine lors d'épisodes pluvieux intenses (SIAAP, 2022 : ~300 déversements/an)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">99 %",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "<10 mg/L",
+      "label": "Nitrates eau distribuée"
+    },
+    {
+      "valeur": "-30 à -40 %",
+      "label": "Débit étiage Seine 2060 (Explore2)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Taux imperméabilisation territoire"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France – Bilan qualité eau potable 2023",
+    "Explore2 – Projections hydrologiques France 2023 (INRAE/OFB)",
+    "SIAAP – Rapport annuel assainissement 2022",
+    "ANSES – Evaluation PFAS eaux destinées à la consommation humaine 2023"
+  ],
+  "limites": [
+    "Paris ne dispose d'aucune masse d'eau souterraine autonome exploitable à grande échelle : la dépendance aux captages régionaux (Loing, Vanne, Avre) rend l'évaluation hydrique locale difficile à dissocier du contexte régional",
+    "L'absence d'agriculture dans le département fausse positivement les comparaisons inter-départementales sur les critères nitrates et pesticides, sans refléter les pressions urbaines spécifiques (micropolluants, PFAS, résidus pharmaceutiques)",
+    "Les données sur la contamination aux PFAS dans les eaux souterraines parisiennes restent partielles et non systématiquement publiées à l'échelle du département, limitant l'évaluation précise du risque pour la ressource en eau potable"
+  ]
+}

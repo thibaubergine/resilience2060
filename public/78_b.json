@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines (78) présentent une biodiversité fragilisée par une pression urbaine et périurbaine intense, caractéristique des départements d'Île-de-France à fort taux d'artificialisation. La couverture Natura 2000 ne concerne qu'environ 3,5 % du territoire départemental, bien en deçà de la moyenne nationale de 12,6 % (INPN, 2024), traduisant un déficit structurel de protection réglementaire. Le département abrite néanmoins des espaces naturels remarquables comme la forêt de Rambouillet (~20 000 ha) et la vallée de la Seine, qui constituent des refuges pour des espèces patrimoniales telles que le Cerf élaphe, la Loutre d'Europe et plusieurs chiroptères protégés (LPO Île-de-France, 2023). Les continuités écologiques (TVB) sont fortement fragmentées par l'autoroute A13, l'A12 et l'agglomération de Saint-Quentin-en-Yvelines, compromettant les échanges entre massifs forestiers (OFB, 2024). Avec seulement ~18 % d'espaces naturels effectivement préservés et une pression foncière persistante (+2 500 ha artificialisés entre 2011 et 2021 selon Corine Land Cover), le département se situe dans le dernier tiers national pour la biodiversité.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 4.0,
+      "note": "Couverture Natura 2000 ~3,5%, très inférieure à la moyenne nationale 12,6%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Forêt de Rambouillet et PNR Haute Vallée de Chevreuse présents"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 5.0,
+      "note": "Cerf élaphe, Loutre, chiroptères présents mais espèces en régression"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 3.0,
+      "note": "TVB fortement fragmentée par autoroutes A13/A12 et urbanisation dense"
+    }
+  ],
+  "points_forts": [
+    "La forêt de Rambouillet (~20 000 ha) constitue le plus grand massif forestier d'Île-de-France, abritant une biodiversité forestière significative",
+    "Le PNR de la Haute Vallée de Chevreuse, classé depuis 1985, protège des habitats bocagers et humides (LPO Île-de-France, 2023)",
+    "La vallée de la Seine et ses annexes hydrauliques hébergent plus de 200 espèces d'oiseaux recensées, dont plusieurs nicheurs patrimoniaux (INPN, 2024)",
+    "Présence confirmée de la Loutre d'Europe sur l'Yvette et la Mauldre, indicateur d'une qualité hydrique en amélioration partielle (OFB, 2024)"
+  ],
+  "vigilances": [
+    "L'artificialisation continue (+2 500 ha entre 2011 et 2021, Corine Land Cover) menace directement les zones tampons autour des espaces protégés et accélère la fragmentation des corridors",
+    "Le changement climatique projeté à l'horizon 2060 (hausse de +2,5°C à +3°C, DRIAS/Climadiag) risque de déstabiliser les écosystèmes forestiers de Rambouillet, déjà touchés par les scolytes et la sécheresse",
+    "La faible proportion de zones humides fonctionnelles (<1 % du territoire, OFB 2024) rend le département très vulnérable à la perte d'espèces inféodées aux milieux aquatiques et aux services écosystémiques associés"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~20 000 ha",
+      "label": "Forêt de Rambouillet"
+    },
+    {
+      "valeur": "+2 500 ha",
+      "label": "Artificialisation 2011-2021"
+    },
+    {
+      "valeur": "200+",
+      "label": "Espèces oiseaux vallée Seine"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la biodiversité",
+    "INPN – Base de données nationale (2024)",
+    "LPO Île-de-France – Atlas ornithologique 2023",
+    "Corine Land Cover – Artificialisation 2011-2021"
+  ],
+  "limites": [
+    "L'absence d'un observatoire départemental dédié à la biodiversité dans les Yvelines rend difficile le suivi précis et actualisé des populations d'espèces à l'échelle locale",
+    "Les données sur l'état réel des corridors écologiques restent parcellaires : le SRCE Île-de-France (2013) n'a pas fait l'objet d'une révision intégrant les évolutions d'urbanisation post-2018",
+    "La pression périurbaine génère un biais dans les inventaires naturalistes, les zones les plus sensibles étant souvent sous-prospectées faute d'accès ou de moyens associatifs suffisants"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente un profil climatique 2060 contrasté : son littoral de 130 km (Manche) et son altitude modeste (point culminant à 265 m sur le Pays de Caux) lui confèrent un effet tampon océanique qui limite les extrêmes thermiques, avec une température moyenne actuelle de 10,8°C (Météo-France). Cependant, les projections DRIAS 2050-2070 (scénario RCP8.5) anticipent une augmentation de +2,5 à +3°C des températures estivales et une multiplication par 2 à 3 des jours de vague de chaleur sur Rouen d'ici 2060. Le département est soumis à une vulnérabilité côtière significative : l'érosion des falaises crayeuses atteint en moyenne 20 à 40 cm/an sur certains secteurs (BRGM, 2022), et la plaine alluviale de la Seine expose près de 180 000 habitants au risque d'inondation (PPRI Seine). Si le risque incendie de forêt demeure faible comparativement au sud de la France (faible densité boisée : 13% du territoire), le cumul des stress climatiques sur ce territoire industrialo-portuaire (Le Havre, Rouen) génère une vulnérabilité systémique à surveiller (Climadiag Communes, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude modeste mais façade maritime océanique forte tampon thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Hausse +2,5°C prévue ; canicules en hausse mais atténuées par influence marine"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Faible couverture forestière (13%) ; risque incendie très limité comparé au national"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Érosion côtière 20-40 cm/an ; 180 000 habitants en zone inondable Seine"
+    }
+  ],
+  "points_forts": [
+    "Influence océanique marquée : l'amplitude thermique annuelle reste l'une des plus faibles de France métropolitaine (~12°C), amortissant les extrêmes de chaleur (Météo-France)",
+    "Risque feux de forêt parmi les plus bas de France avec seulement 13% de couverture boisée et un indice de danger IFEM structurellement bas (DRIAS/Climadiag 2023)",
+    "Les projections Climadiag Communes indiquent que les communes littorales du département resteront en dessous de 15 jours de vague de chaleur/an à horizon 2060 (scénario intermédiaire RCP4.5)",
+    "Présence d'un dispositif de surveillance et de gestion du risque inondation Seine mature (EPTB Seine Grands Lacs, PPRI approuvés sur 80% des communes à risque)"
+  ],
+  "vigilances": [
+    "Érosion accélérée des falaises crayeuses du Pays de Caux : perte estimée à 40 cm/an sur certains secteurs, risque aggravé par la montée du niveau marin (+30 à +60 cm d'ici 2100, BRGM/GIEC AR6), menaçant infrastructures et habitat côtier",
+    "Augmentation des épisodes de ruissellement intense sur plateaux agricoles limoneux : le phénomène de coulées de boue devrait s'intensifier avec les pluies intenses printanières projetées (+15% d'intensité, DRIAS RCP8.5 2060), impactant déjà ~40 communes/an",
+    "Vulnérabilité thermique urbaine de la métropole rouennaise : îlot de chaleur urbain combiné aux projections de +3°C accentue les risques sanitaires estivaux pour une population densément âgée ; nombre de nuits tropicales pouvant tripler d'ici 2060 (Climadiag/TRACC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3°C",
+      "label": "Hausse T° estivale projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "13%",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "180 000",
+      "label": "Habitants en zone inondable Seine (PPRI)"
+    },
+    {
+      "valeur": "20-40 cm/an",
+      "label": "Érosion falaises crayeuses (BRGM 2022)"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2050-2070 scénarios RCP4.5/RCP8.5 (IPSL/CERFACS)",
+    "BRGM – Observatoire du trait de côte 2022",
+    "TRACC – Trajectoire de Réchauffement de Référence pour l'Adaptation au Changement Climatique (SGPE 2023)"
+  ],
+  "limites": [
+    "Les projections Climadiag et DRIAS sont disponibles à l'échelle communale mais leur précision sur les effets méso-climatiques locaux (plateau de Caux vs vallée de Seine) reste limitée pour une planification fine à l'horizon 2060",
+    "L'évaluation du risque côtier intègre insuffisamment les effets combinés érosion + submersion marine + événements tempétueux hivernaux, qui sont en interaction croissante sur ce littoral manchois",
+    "Les données sur la vulnérabilité thermique urbaine spécifique à Rouen et Le Havre (îlots de chaleur, populations sensibles) restent parcellaires et non consolidées dans un observatoire départemental unifié à ce jour"
+  ]
+}

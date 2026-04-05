@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée présente une situation pédologique contrastée, avec une pression agricole significative sur les sols liée à une SAU représentant environ 60% du territoire départemental (Agreste 2023), exposant les terres à des contaminations par résidus phytosanitaires notamment en zones de grandes cultures maraîchères du bocage vendéen et des marais. Le département recense une quarantaine de sites pollués ou en surveillance dans la base BASOL/SIS (GéoRisques 2024), un chiffre modéré mais non négligeable pour un département à dominante rurale. Le risque radon reste globalement faible en Vendée, le socle géologique étant majoritairement constitué de formations sédimentaires et d'argiles peu émettrices, à l'exception du Bocage Nord au contact du Massif armoricain (IRSN 2023). La part de la SAU conduite en agriculture biologique atteint environ 8,5% en Vendée (Agence Bio 2023), légèrement sous la moyenne nationale de 10,7%, reflétant une transition agroécologique encore incomplète malgré une progression notable ces dernières années.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites BASOL/SIS, pression industrielle limitée mais réelle"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Forte pression phytosanitaire, maraîchage et grandes cultures intensives"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Socle sédimentaire dominant, risque radon faible sauf Bocage Nord"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~8,5%, sous moyenne nationale de 10,7% (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles des départements de façade atlantique, grâce au socle sédimentaire dominant (IRSN 2023)",
+    "Nombre de sites BASOL relativement contenu (~40 sites) pour un département de 685 000 habitants (GéoRisques 2024)",
+    "Progression de l'agriculture biologique de +25% en 5 ans, avec 8,5% de SAU bio en 2023 (Agence Bio)",
+    "Présence de sols de bocage et de zones humides des marais préservant des stocks de carbone organique notables"
+  ],
+  "vigilances": [
+    "Contamination des sols agricoles par les produits phytosanitaires en forte progression dans les zones de maraîchage intensif (plaine vendéenne), avec détection de métabolites de chlorothalonil dans plusieurs captages (ARS 85, 2023)",
+    "Érosion des sols accélérée par la déstructuration du bocage : perte estimée à 30% du linéaire de haies depuis 1970, augmentant le ruissellement et la dégradation des horizons superficiels (DRAAF Pays de la Loire)",
+    "Tassement et artificialisation des sols en progression : +8% de surfaces artificialisées entre 2011 et 2021, particulièrement sur le littoral (Observatoire des territoires / Cerema 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 sites",
+      "label": "Sites BASOL/SIS recensés"
+    },
+    {
+      "valeur": "8,5%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "Faible-modéré",
+      "label": "Niveau risque radon"
+    },
+    {
+      "valeur": "60%",
+      "label": "Part SAU dans la superficie totale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base SIS-BASOL 2024",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du risque radon 2023",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie systématique des teneurs en pesticides dans les sols agricoles vendéens rend difficile une évaluation précise de la contamination réelle à l'échelle parcellaire",
+    "Les données BASOL/SIS ne couvrent pas les pollutions diffuses d'origine agricole, largement sous-représentées dans les bases officielles pour la Vendée",
+    "La mesure de la qualité des sols organiques des marais vendéens (marais poitevin, marais breton) est insuffisamment documentée dans les référentiels nationaux disponibles"
+  ]
+}

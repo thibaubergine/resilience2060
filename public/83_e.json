@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Var, avec ses 1 084 000 habitants (INSEE 2021) et une économie fortement touristique (12 millions de visiteurs/an), subit une pression hydrique considérable sur un territoire méditerranéen structurellement déficitaire. La ressource en eau repose à plus de 60 % sur des eaux superficielles (Verdon, Argens, Gapeau) gérées par le Syndicat Mixte de l'Eau et de l'Assainissement du Var (SMEA83), mais les projections Explore2 (2023) prévoient une baisse des débits moyens annuels de 20 à 40 % à l'horizon 2060 dans les bassins côtiers méditerranéens. La qualité de l'eau potable distribuée reste hétérogène : si 89 % de la population reçoit une eau conforme aux paramètres microbiologiques (ARS PACA 2022), des dépassements ponctuels en pesticides et en turbidité sont recensés notamment dans les secteurs ruraux du Haut-Var. La contamination aux PFAS, bien que moins documentée que dans certains départements industriels, fait l'objet de campagnes de surveillance depuis 2023 suite à la directive européenne, avec des détections préoccupantes signalées près des zones d'activité de Toulon et Brignoles (ARS PACA 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "89% conformité eau potable; dépassements pesticides en zones rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Baisse débits prévue 20-40% à 2060; déficit méditerranéen structurel"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates faibles; agriculture peu intensive, quelques nappes côtières à risque"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "Détections PFAS près Toulon/Brignoles; surveillance renforcée depuis 2023"
+    }
+  ],
+  "points_forts": [
+    "Faible pression agricole en nitrates : le Var ne figure pas parmi les zones vulnérables nitrates au titre de la directive européenne 91/676/CE",
+    "Réseau Verdon-Provence : infrastructure majeure sécurisant l'alimentation en eau potable de 400 000 habitants (SCP/SMEA83)",
+    "Taux de conformité microbiologique élevé : 89 % de la population alimentée en eau conforme (ARS PACA 2022)",
+    "Réseau de surveillance DCE actif avec 47 masses d'eau superficielles et souterraines suivies (Agence de l'Eau RMC)"
+  ],
+  "vigilances": [
+    "Stress hydrique critique : Explore2 (2023) projette une réduction de 30 à 40 % des étiages estivaux dans le bassin de l'Argens d'ici 2060, menaçant les usages agricoles et touristiques simultanément",
+    "Conflits d'usage en été : la population varoises triple en saison touristique (12 M visiteurs/an), générant des pics de consommation sur des nappes déjà fragilisées par des années de sécheresse répétées (2017, 2019, 2022)",
+    "Contamination émergente PFAS et pesticides : les captages AEP de la plaine des Maures et du Gapeau présentent des vulnérabilités croissantes face aux pollutions diffuses et aux substances per- et polyfluoroalkylées détectées en 2023"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débits 2060 (Explore2)"
+    },
+    {
+      "valeur": "89%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "47",
+      "label": "Masses d'eau surveillées (DCE/RMC)"
+    },
+    {
+      "valeur": "12 M",
+      "label": "Visiteurs/an (pression saisonnière)"
+    }
+  ],
+  "sources": [
+    "Explore2 INRAE/OFB 2023",
+    "ARS PACA – Bilan qualité eau potable 2022",
+    "Agence de l'Eau Rhône-Méditerranée-Corse – DCE 2022",
+    "SMEA83 / SCP – Rapports annuels eau"
+  ],
+  "limites": [
+    "Les données PFAS dans les eaux varoise restent parcellaires : le programme national de surveillance ne couvre pas encore tous les captages AEP du département (déploiement progressif 2023-2025)",
+    "Le suivi des eaux souterraines côtières (intrusion saline, aquifères karstiques) est insuffisant pour anticiper les impacts du changement climatique à fine échelle territoriale",
+    "L'hétérogénéité des services d'eau (plus de 30 gestionnaires publics/privés sur le département) rend difficile une évaluation homogène de la conformité et des pertes en réseau (rendements parfois inférieurs à 65 % en zones rurales)"
+  ]
+}

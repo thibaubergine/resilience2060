@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Vosges présentent un profil pédologique contrasté, avec des sols vosgiens acides et pauvres en nutriments sur le massif cristallin à l'est, et des terres agricoles plus productives dans la plaine occidentale. Le département recense environ 80 sites ou sols pollués référencés dans la base BASOL/Géorisques, un chiffre modéré à l'échelle nationale, héritage limité mais réel de l'activité textile et métallurgique historique (Géorisques 2024). La pression pesticides reste contenue grâce à une agriculture moins intensive que dans les grandes plaines céréalières, bien que les zones de grandes cultures au nord-ouest du département présentent des indices de contamination détectables (INRAE 2023). Le risque radon constitue la préoccupation majeure pour les sols vosgiens : le massif granitique des Vosges classe une large partie du territoire en catégorie 3 (risque significatif), affectant potentiellement plusieurs dizaines de milliers de logements (IRSN). La part de la SAU en agriculture biologique reste inférieure à la moyenne nationale, autour de 7-8 %, limitant la reconquête de la qualité des sols agricoles (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "Environ 80 sites BASOL, héritage industriel textile-métallurgique limité"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Pression pesticides modérée, agriculture moins intensive qu'en plaine céréalière"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Large massif granitique classé zone radon catégorie 3 par l'IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~7-8%, en progression mais sous la moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Densité de sites pollués BASOL relativement faible (~80 sites pour 5 874 km²), reflet d'une industrialisation historique modérée",
+    "Sols forestiers en bon état structural : 62% du territoire boisé limite l'érosion et préserve la matière organique (IGN 2023)",
+    "Pression pesticides contenue grâce à la dominance de l'élevage et des prairies permanentes dans la moitié est du département (INRAE 2023)",
+    "Dynamique de conversion bio en hausse, avec +15% d'exploitations certifiées entre 2020 et 2023 (Agence Bio Grand Est)"
+  ],
+  "vigilances": [
+    "Risque radon élevé sur l'ensemble du massif granitique vosgien (catégorie 3 IRSN), nécessitant des diagnostics dans les bâtiments anciens et les établissements recevant du public",
+    "Acidification progressive des sols forestiers liée aux dépôts acides historiques et aux épisodes de sécheresse projetés d'ici 2060 (DRIAS 2024), fragilisant la fertilité sylvicole",
+    "Contamination résiduelle aux métaux lourds (plomb, zinc) sur d'anciens sites textiles et tanneries, notamment dans les vallées des Vosges (Géorisques 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "7-8%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "62%",
+      "label": "Part territoire boisé"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Risque radon IRSN"
+    }
+  ],
+  "sources": [
+    "Géorisques/BASOL 2024",
+    "INRAE Diagnostic pesticides 2023",
+    "IRSN Cartographie radon",
+    "Agence Bio Grand Est 2023"
+  ],
+  "limites": [
+    "Les données BASOL sous-estiment probablement la contamination réelle des anciens sites textiles vosgiens, nombreux mais peu inventoriés exhaustivement",
+    "L'hétérogénéité pédologique extrême entre massif cristallin et plaine sédimentaire rend toute généralisation départementale peu représentative de la diversité locale",
+    "L'absence de réseau de surveillance systématique des sols agricoles vosgiens (hors RMQS national à maille large) ne permet pas d'évaluer précisément l'évolution des teneurs en matière organique et en contaminants"
+  ]
+}

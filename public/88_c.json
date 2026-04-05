@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Vosges bénéficient d'une protection thermique relative grâce au massif vosgien culminant à 1 424 m (Grand Ballon), qui tamponne les extrêmes caniculaires par rapport aux plaines alsaciennes et lorraines voisines (Climadiag 2023). Selon les projections DRIAS sous scénario RCP8.5, le nombre de jours de canicule pourrait tripler d'ici 2060 dans les vallées vosgiennes, passant de 5 à 15-18 jours par an, avec un réchauffement moyen de +3,2°C attendu. Le département présente un couvert forestier exceptionnel de 47% du territoire (soit environ 300 000 ha), ce qui constitue un atout climatique majeur mais également un facteur de risque incendie croissant selon les projections TRACC 2023. Les inondations représentent le risque naturel dominant avec 376 communes sur 515 exposées, notamment dans les vallées de la Moselle et de la Saône, un risque accentué par l'augmentation des précipitations intenses hivernales projetée (AP3C Grand Est 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Massif vosgien à 1424m offre tampon thermique notable pour les vallées"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Vallées encaissées exposées ; +3,2°C et 15-18 jours canicule d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "47% forêts résineuses vieillissantes ; risque feux en hausse post-2040"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "376 communes/515 en zone inondable Moselle/Saône ; risque majeur persistant"
+    }
+  ],
+  "points_forts": [
+    "Altitude protectrice : le massif vosgien (sommets >1 000 m) atténue significativement les pics thermiques estivaux par rapport aux départements de plaine voisins (Climadiag 2023)",
+    "Couverture forestière de 47% du territoire (~300 000 ha) assurant un rôle de puits de carbone et de régulation thermique locale (IGN Inventaire forestier 2022)",
+    "Pluviométrie élevée (1 500 à 2 000 mm/an sur le massif) limitant le risque de sécheresse agricole sévère à court terme (DRIAS/Météo-France)",
+    "Faible densité urbaine (73 hab/km²) réduisant l'effet d'îlot de chaleur urbain et la vulnérabilité caniculaire des populations (INSEE 2023)"
+  ],
+  "vigilances": [
+    "Réchauffement projeté de +3,2°C à +4°C sous RCP8.5 d'ici 2060, menaçant les écosystèmes d'altitude et les ressources en neige (DRIAS 2023)",
+    "Risque incendie forestier en forte hausse : les forêts résineuses vosgiennes (épicéas dépérissants) présentent une inflammabilité croissante, avec une période à risque étendue post-2040 (TRACC 2023)",
+    "Inondations récurrentes et intensifiées : 376 communes exposées, avec des épisodes comme novembre 2019 causant 120 M€ de dommages ; précipitations intenses hivernales en hausse projetée de 15% (AP3C Grand Est 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Réchauffement projeté 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "47%",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "376/515",
+      "label": "Communes en zone inondable"
+    },
+    {
+      "valeur": "1 424 m",
+      "label": "Point culminant (Grand Ballon)"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2023 – Projections climatiques RCP8.5",
+    "AP3C Grand Est – Adaptation au changement climatique 2022",
+    "TRACC – Trajectoire de Réchauffement de Référence pour l'Adaptation 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles couvrent des mailles de 8 km², insuffisantes pour capturer la forte variabilité altitudinale interne au massif vosgien (vallées vs crêtes)",
+    "L'absence d'un observatoire départemental dédié au suivi des effets du changement climatique limite la disponibilité de données de terrain localisées et actualisées",
+    "Le risque de dépérissement forestier massif (scolytes, sécheresses) constitue un facteur d'amplification climatique difficile à modéliser précisément à l'horizon 2060 pour ce territoire"
+  ]
+}

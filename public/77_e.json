@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-et-Marne, département agricole et péri-urbain de grande superficie (5 915 km²), présente une situation hydrique préoccupante, notamment en raison de la pression agricole intense sur ses nappes phréatiques et cours d'eau. Les masses d'eau souterraines du département, notamment la nappe de la Beauce et les nappes de la Brie, affichent des dépassements récurrents des seuils de nitrates (ARS Île-de-France, 2022), avec des teneurs dépassant 40 mg/L dans plusieurs captages. Selon les projections Explore2 (2023), les débits des rivières seine-et-marnaises (Grand Morin, Yerres, Lunain) pourraient baisser de 20 à 40 % à l'horizon 2050-2070, aggravant les tensions entre usages agricoles, urbains et environnementaux. La contamination aux PFAS a été identifiée dans plusieurs captages d'eau potable du département, notamment en lien avec des activités industrielles et agroalimentaires passées, plaçant la Seine-et-Marne parmi les départements franciliens les plus exposés (ANSES/ARS, 2023). Malgré un réseau de distribution globalement conforme sur les paramètres bactériologiques (>96 % de conformité, ARS 2022), la qualité physico-chimique reste fragilisée par la pression agricole dominante.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Conformité bactériologique >96% mais dépassements physico-chimiques sur nitrates et pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse débits projetée 20-40% sur petits cours d'eau (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Teneurs nitrates >40 mg/L sur plusieurs captages, agriculture intensive omniprésente"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "Contaminations PFAS détectées dans captages industriels et agro-alimentaires (ARS 2023)"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité bactériologique de l'eau potable supérieur à 96 % sur l'ensemble du département (ARS Île-de-France, 2022)",
+    "Présence de zones humides remarquables (marais de Saint-Gond, vallée du Lunain) contribuant à la régulation naturelle du cycle de l'eau (INPN/OFB)",
+    "Réseau de suivi hydrologique dense grâce aux stations de l'EPTB Seine Grands Lacs permettant un pilotage des étiages",
+    "Quelques captages d'eau souterraine bénéficiant de périmètres de protection bien définis, notamment en secteur forestier (forêt de Fontainebleau)"
+  ],
+  "vigilances": [
+    "Projection Explore2 (2023) : réduction des débits d'étiage de 30 à 40 % sur le Grand Morin et l'Yerres à horizon 2060, menaçant l'alimentation en eau potable de plusieurs communes",
+    "Contamination aux PFAS dans au moins 5 captages identifiés par l'ARS Île-de-France (2023), sans solution de substitution immédiate pour les communes concernées",
+    "Pression agricole sur les nitrates structurellement élevée : 60 % du territoire en zone vulnérable nitrates (directive Nitrates), avec des dépassements chroniques dans la nappe de la Brie"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">40 mg/L",
+      "label": "Nitrates dans captages à risque"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débit attendue 2060"
+    },
+    {
+      "valeur": "96%",
+      "label": "Conformité eau potable (bactério)"
+    },
+    {
+      "valeur": "5+",
+      "label": "Captages PFAS identifiés (ARS 2023)"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France – Bilan qualité eaux potables 2022",
+    "Explore2 – Projections hydrologiques INRAE/OFB 2023",
+    "ANSES/ARS – Campagne nationale PFAS captages 2022-2023",
+    "Directive Nitrates – Zones vulnérables, DRIEAT Île-de-France 2022"
+  ],
+  "limites": [
+    "Les données de contamination PFAS sont partielles : toutes les unités de distribution du département n'ont pas encore été analysées dans le cadre de la campagne nationale, laissant des zones grises significatives",
+    "Les projections Explore2 sont établies à l'échelle des grands bassins versants et ne permettent pas toujours une déclinaison précise à l'échelle des petits captages ruraux seine-et-marnais",
+    "L'hétérogénéité territoriale est forte entre le nord agricole intensif (Brie champenoise) et le sud forestier (Gâtinais), rendant tout score départemental agrégé peu représentatif des disparités locales réelles"
+  ]
+}

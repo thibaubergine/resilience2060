@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne bénéficie d'une qualité de l'air globalement satisfaisante au regard de sa faible densité démographique (42 hab/km²) et de l'absence de grands pôles industriels majeurs. Les concentrations moyennes en PM2,5 relevées par ATMO Bourgogne-Franche-Comté oscillent autour de 9-11 µg/m³, inférieures au seuil réglementaire européen (25 µg/m³) mais encore au-dessus de la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ reste à des niveaux modérés en milieu urbain, notamment à Auxerre, avec des concentrations inférieures à 20 µg/m³ en moyenne annuelle (OMS : 10 µg/m³). Le principal défi atmosphérique du département réside dans les émissions d'ammoniac (NH₃) liées à l'agriculture céréalière et d'élevage, qui représentent la part prépondérante des émissions d'azote réduit selon le Citepa, contribuant à l'eutrophisation et à la formation de particules secondaires.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~10 µg/m³, sous seuil EU mais au-dessus guide OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ Auxerre <20 µg/m³, nettement sous seuil OMS 2021 (40 µg/m³ EU)"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle, pas de site Seveso majeur émetteur atmosphérique"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ agricole élevé, agriculture céréalière et élevage dominants dans l'Yonne"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures à 20 µg/m³ à Auxerre, bien en dessous du seuil européen de 40 µg/m³ (ATMO BFC)",
+    "Absence de grande zone industrielle émettrice de polluants atmosphériques lourds (SO₂, métaux lourds), aucun site classé ICPE majeur air en activité intensive (Citepa)",
+    "Faible densité de trafic autoroutier hors axe A6 (Paris-Lyon), limitant l'exposition chronique des populations rurales aux oxydes d'azote",
+    "Territoire à dominante rurale et forestière (~110 000 ha de forêts), favorisant la dilution naturelle des polluants et la captation de certains composés"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac agricole (NH₃) restent structurellement élevées et contribuent à la formation de particules fines secondaires (PM2,5) ; la directive NEC fixe des objectifs de réduction nationaux à -13 % d'ici 2030 difficiles à atteindre sans changements de pratiques",
+    "L'axe autoroutier A6 traversant l'ouest du département génère des pics locaux de NO₂ et de particules, exposant les communes riveraines (Sens, Joigny) à des niveaux supérieurs à la moyenne départementale",
+    "Le brûlage agricole à l'air libre, encore pratiqué ponctuellement, et l'usage de chauffage au bois individuel non performant contribuent à des pics saisonniers de PM2,5 en automne-hiver, tendance susceptible de s'accentuer avec la hausse du coût de l'énergie"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "Concentration moyenne PM2,5"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "NO₂ moyen Auxerre"
+    },
+    {
+      "valeur": "~85 %",
+      "label": "Part NH₃ d'origine agricole"
+    },
+    {
+      "valeur": "42 hab/km²",
+      "label": "Densité démographique Yonne"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté (bilan qualité air 2022-2023)",
+    "OMS Guidelines 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³)",
+    "Citepa – Inventaire national des émissions (NH₃, secteur agricole)",
+    "Directive NEC 2016/2284 – objectifs réduction polluants atmosphériques 2030"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est peu dense en Yonne rurale, ce qui peut sous-estimer l'exposition réelle des populations aux abords des zones d'épandage agricole intensif",
+    "Les données Citepa sur le NH₃ sont disponibles à l'échelle nationale et régionale mais la désagrégation départementale reste estimée, réduisant la précision de l'évaluation locale",
+    "L'impact des pollutions transfrontalières et des épisodes de transport de masse d'air depuis le bassin parisien (ozone, particules) n'est pas toujours distingué des émissions locales dans les bilans disponibles"
+  ]
+}

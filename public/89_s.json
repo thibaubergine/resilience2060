@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne présente une situation contrastée en matière de qualité des sols, avec une pression agricole significative sur un territoire à dominante céréalière (la SAU représente environ 58% de la surface départementale, principalement en grandes cultures). Les analyses INRAE 2023 révèlent des résidus de pesticides préoccupants dans les sols agricoles icaunais, reflet d'une agriculture conventionnelle intensive sur les plateaux calcaires. Le département compte plusieurs dizaines de sites BASOL (ex-sites pollués recensés par GéoRisques), héritage d'activités industrielles et artisanales notamment dans la vallée de l'Yonne et autour d'Auxerre et Sens. Le risque radon reste modéré à faible sur la majeure partie du département, les formations géologiques calcaires du Bassin parisien présentant une faible émanation, contrairement aux socles granitiques. La part de SAU en agriculture biologique reste inférieure à la moyenne nationale (environ 10% au niveau national), avec un retard notable de conversion dans ce département à tradition céréalière.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quelques dizaines de sites BASOL, pression industrielle modérée (Auxerre, Sens)"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Résidus pesticides élevés, grandes cultures céréalières dominantes sur plateaux"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon faible, formations calcaires du Bassin parisien peu émettrices"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "Part SAU bio inférieure à moyenne nationale, département à tradition céréalière"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de la région : géologie calcaire sédimentaire dominant l'est du Bassin parisien (IRSN)",
+    "Quelques sites BASOL en cours de traitement ou réhabilités, réduisant le passif industriel actif (GéoRisques 2024)",
+    "Absence de grande concentration industrielle lourde limitant la contamination diffuse des sols sur la majeure partie du territoire",
+    "Dynamique de conversion bio en progression, portée par la filière maraîchère et les exploitations du Morvan icaunais (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Contamination diffuse aux pesticides (herbicides notamment) sur les grandes plaines céréalières : transfert potentiel vers les nappes phréatiques sous-jacentes",
+    "Érosion hydrique des sols sur les pentes des vallées (Yonne, Armançon, Serein) accentuée par les événements pluvieux intenses, tendance à la hausse avec le changement climatique (Climadiag 2030-2060)",
+    "Artificialisation des sols en progression autour des pôles urbains (Auxerre, Sens, Joigny) : consommation de terres agricoles estimée à plusieurs centaines d'hectares par décennie (CEREMA/SIAF)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~58%",
+      "label": "Part SAU / superficie totale"
+    },
+    {
+      "valeur": "~7-8%",
+      "label": "SAU certifiée bio (est. 2023)"
+    },
+    {
+      "valeur": "Modéré-faible",
+      "label": "Niveau risque radon IRSN"
+    },
+    {
+      "valeur": "30-50 sites",
+      "label": "Sites pollués recensés BASOL"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (2024)",
+    "INRAE – Résidus pesticides sols agricoles (2023)",
+    "IRSN – Cartographie risque radon",
+    "Agence Bio – Données régionales BFC (2023)"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites réhabilités des sites en surveillance active, rendant difficile l'évaluation du risque résiduel réel pour l'Yonne",
+    "La cartographie INRAE sur les résidus pesticides dans les sols manque de granularité à l'échelle communale icaunaise, limitant l'identification des zones les plus exposées",
+    "La part de SAU bio départementale est calculée à partir des déclarations PAC et peut sous-estimer les pratiques agroécologiques non certifiées, notamment en polyculture-élevage morvanaise"
+  ]
+}

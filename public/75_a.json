@@ -1,0 +1,65 @@
+{
+  "synthese": "Paris (75) affiche l'une des qualités de l'air les plus dégradées de France en raison de sa densité exceptionnelle de trafic motorisé et d'activités urbaines concentrées sur 105 km². Les concentrations moyennes annuelles de NO₂ atteignent 28–35 µg/m³ dans l'intramuros selon Airparif (2023), dépassant significativement la valeur guide OMS 2021 fixée à 10 µg/m³. Les particules fines PM2,5 affichent des moyennes de 12–15 µg/m³ (Airparif 2022), au-delà de la recommandation OMS de 5 µg/m³, exposant près de 2,2 millions d'habitants à un risque chronique élevé. Le secteur des transports représente plus de 55 % des émissions de NOx parisiennes (Citepa/Airparif 2022), tandis que le chauffage résidentiel contribue fortement aux pics hivernaux de PM2,5. En revanche, l'absence quasi-totale d'agriculture et d'industrie lourde constitue le seul facteur favorable, limitant les émissions d'ammoniac (NH₃) et de certains polluants industriels.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 2.0,
+      "note": "PM2,5 ~13 µg/m³, dépasse seuil OMS 5 µg/m³, très élevé urbain"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 2.0,
+      "note": "NO₂ 28–35 µg/m³, triple la valeur guide OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Quasi-absence d'industrie lourde intramuros, tissu tertiaire dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 9.0,
+      "note": "Agriculture inexistante, émissions NH₃ négligeables à Paris"
+    }
+  ],
+  "points_forts": [
+    "Absence d'industrie lourde émettrice : aucun site Seveso ni installation ICPE majeure industrielle dans Paris intramuros",
+    "Extension de la Zone à Faibles Émissions (ZFE) depuis 2021 couvrant tout Paris, réduisant progressivement les véhicules les plus polluants (Airparif 2023)",
+    "Réseau de surveillance dense : 15 stations Airparif couvrent Paris, permettant un suivi en temps réel de haute résolution",
+    "Émissions NH₃ quasi nulles : absence d'élevage et d'agriculture, contribution agricole à la pollution atmosphérique marginale (Citepa 2022)"
+  ],
+  "vigilances": [
+    "Dépassements chroniques de NO₂ proches du boulevard périphérique (>50 µg/m³ ponctuellement) exposant ~300 000 riverains à un risque cardiovasculaire et respiratoire accru (Airparif 2023)",
+    "Pics hivernaux de PM2,5 liés au chauffage au bois résidentiel et aux inversions thermiques, avec des épisodes dépassant 25 µg/m³ prévus en hausse avec la précarité énergétique",
+    "Ozone (O₃) en progression estivale : les épisodes de canicule amplifiés par le changement climatique (scénario DRIAS 2060) risquent de multiplier les dépassements du seuil d'information 180 µg/m³"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13 µg/m³",
+      "label": "Concentration moyenne PM2,5 (2022)"
+    },
+    {
+      "valeur": "28–35 µg/m³",
+      "label": "Concentration moyenne NO₂ intramuros"
+    },
+    {
+      "valeur": "55 %",
+      "label": "Part transports dans émissions NOx parisiennes"
+    },
+    {
+      "valeur": "2,2 M",
+      "label": "Habitants exposés au-dessus seuils OMS"
+    }
+  ],
+  "sources": [
+    "Airparif – Bilan de la qualité de l'air en Île-de-France 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2022",
+    "Mairie de Paris – Bilan ZFE et plan Air-Climat-Énergie 2023"
+  ],
+  "limites": [
+    "Les données Airparif reflètent les stations fixes ; la pollution de proximité (micro-rues, cours d'école) est sous-estimée dans les moyennes départementales",
+    "Paris intramuros étant entouré de la petite couronne, une partie significative de la pollution provient des flux entrants (transits, périphérique) non imputables aux seules émissions parisiennes",
+    "L'absence totale d'agriculture gonfle artificiellement le sous-score NH₃ à la hausse, créant un biais favorable qui masque la gravité réelle de la pollution urbaine aux NOx et PM"
+  ]
+}

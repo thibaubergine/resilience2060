@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée affiche une qualité de l'air globalement satisfaisante, bénéficiant de sa position littorale atlantique qui favorise une bonne dispersion des polluants par les vents dominants d'ouest. Les concentrations moyennes en PM2,5 restent inférieures à 10 µg/m³ dans la majorité du département, proches mais au-dessus du seuil OMS 2021 de 5 µg/m³, selon les données ATMO Pays de la Loire 2022. Le NO₂ demeure à des niveaux modérés, avec des concentrations urbaines autour de 15-20 µg/m³ à La Roche-sur-Yon, très en deçà du seuil réglementaire européen de 40 µg/m³ (ATMO Pays de la Loire, 2023). En revanche, le secteur agricole, dominant en Vendée avec plus de 50 % des surfaces en terres agricoles, génère des émissions d'ammoniac (NH₃) significatives liées à l'élevage porcin et avicole intensif, plaçant le département parmi les émetteurs agricoles notables de la région (Citepa 2022). La faible densité industrielle et l'absence de grands sites classés Seveso II émetteurs de polluants atmosphériques majeurs constituent un atout structurel pour la qualité de l'air vendéen.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 <10 µg/m³ moyen; au-dessus seuil OMS 5 µg/m³ mais faible"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain modéré ~15-20 µg/m³; bien sous seuil 40 µg/m³ UE"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries émettrices majeures; pas de site Seveso II pollutant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevages porcins/avicoles importants; NH₃ agricole élevé région"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de la région Pays de la Loire, ~15 µg/m³ à La Roche-sur-Yon (ATMO PDL 2023)",
+    "Ventilation naturelle efficace : vents dominants atlantiques d'ouest facilitent la dispersion des polluants toute l'année",
+    "Absence de grande agglomération très dense limitant les émissions liées aux transports urbains (densité pop. 68 hab/km²)",
+    "Faible nombre de sites industriels classés émetteurs de polluants atmosphériques ; pas d'industrie lourde (DREAL Pays de la Loire 2023)"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricoles structurellement élevées liées à l'élevage intensif (porcs, volailles) : risque de formation de particules secondaires (PM2,5) en hausse avec intensification agricole projetée",
+    "Épisodes de pollution aux particules fines lors de pics anticycloniques hivernaux et de brûlages agricoles, de plus en plus fréquents avec le changement climatique (ATMO PDL, rapport annuel 2022)",
+    "Développement de l'urbanisation littorale et augmentation du trafic routier saisonnier (fréquentation touristique +30 % en été) pouvant dégrader localement la qualité de l'air côtier"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8 µg/m³",
+      "label": "Concentration moy. PM2,5 (ATMO PDL 2022)"
+    },
+    {
+      "valeur": "~17 µg/m³",
+      "label": "NO₂ moy. La Roche-sur-Yon"
+    },
+    {
+      "valeur": ">50 %",
+      "label": "Surfaces agricoles utilisées (SAU/superficie)"
+    },
+    {
+      "valeur": "68 hab/km²",
+      "label": "Densité de population départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Pays de la Loire – Bilan qualité de l'air 2022-2023",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Citepa – Inventaire national émissions NH₃ 2022",
+    "DREAL Pays de la Loire – Installations classées 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est peu dense en Vendée rurale ; les données disponibles reposent principalement sur La Roche-sur-Yon, sous-représentant les zones agricoles intérieures",
+    "Les émissions diffuses d'ammoniac liées à l'épandage sont difficiles à mesurer précisément à l'échelle communale, induisant une incertitude sur les estimations NH₃ locales",
+    "L'absence de station de mesure des HAP (hydrocarbures aromatiques polycycliques) en zone rurale vendéenne limite l'évaluation des risques liés aux brûlages agricoles et domestiques"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Var présente une qualité de l'air globalement satisfaisante au regard de la moyenne nationale, bénéficiant d'une faible densité industrielle et de vents méditerranéens (mistral) qui favorisent le renouvellement des masses d'air. Selon AtmoSud, les concentrations annuelles en PM2,5 oscillent entre 8 et 12 µg/m³ sur la plupart du territoire, dépassant toutefois le seuil OMS 2021 (5 µg/m³) notamment dans les zones périurbaines de Toulon et Fréjus. Le NO₂ reste limité en zone rurale mais atteint localement 25 à 35 µg/m³ sur les axes routiers du littoral varois, sous l'effet d'une pression touristique et automobile intense (plus de 2 millions de véhicules/jour sur l'A8 en été, source AtmoSud 2022). Les émissions agricoles d'ammoniac (NH₃) demeurent modérées, l'agriculture varoise étant dominée par la viticulture (55 000 ha de vignes, premier vignoble AOC rosé mondial) peu émettrice, selon les inventaires Citepa 2021.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 8-12 µg/m³, au-dessus seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ jusqu'à 35 µg/m³ sur axes littoraux touristiques saturés"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible tissu industriel émetteur, pas de grande zone pétrochimique"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Viticulture dominante peu émettrice, élevage marginal mais présent"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ urbain globalement sous le seuil européen (40 µg/m³) y compris à Toulon (AtmoSud 2022)",
+    "Effet de dilution du mistral et des brises marines réduisant les pics de pollution, particulièrement efficace en arrière-pays",
+    "Absence de grande zone industrielle pétrochimique ou sidérurgique : faibles émissions de SO₂ et de métaux lourds (Citepa 2021)",
+    "Viticulture dominante (55 000 ha) très peu émettrice en NH₃, contrairement aux départements d'élevage intensif du Grand Ouest"
+  ],
+  "vigilances": [
+    "Pics d'ozone (O₃) récurrents en été : le Var dépasse régulièrement 180 µg/m³ (seuil information) avec projection d'aggravation liée au réchauffement climatique d'ici 2050 (AtmoSud/DRIAS)",
+    "Saturation estivale du trafic routier littoural (A57, RN98, A8) générant des épisodes locaux de NO₂ et PM10 lors des pics touristiques (juillet-août)",
+    "Risque de feux de forêt croissant (40% du département en zone à risque très élevé) émettant massivement des particules fines et COV lors des épisodes, amenés à s'intensifier selon Climadiag 2023"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-12 µg/m³",
+      "label": "PM2,5 annuel moyen (AtmoSud)"
+    },
+    {
+      "valeur": "<40 µg/m³",
+      "label": "NO₂ max urban Toulon 2022"
+    },
+    {
+      "valeur": "55 000 ha",
+      "label": "Vignoble varois (faibles NH₃)"
+    },
+    {
+      "valeur": ">180 µg/m³",
+      "label": "Seuils O₃ dépassés en été"
+    }
+  ],
+  "sources": [
+    "AtmoSud – Bilan de la qualité de l'air PACA 2022",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2021",
+    "Climadiag Var – Météo-France/DRIAS 2023"
+  ],
+  "limites": [
+    "La surveillance AtmoSud est davantage concentrée sur Toulon et le littoral, laissant l'arrière-pays varois (Haut-Var) avec peu de stations de mesure représentatives",
+    "Les émissions liées aux feux de forêt ne sont pas intégrées de façon continue dans les bilans annuels de qualité de l'air, sous-estimant l'exposition réelle de la population certaines années",
+    "L'essor des résidences secondaires et du tourisme nautique (bateaux à moteur, ports varois) génère des émissions diffuses de COV et particules peu documentées à l'échelle départementale"
+  ]
+}

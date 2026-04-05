@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Vienne (86) présente une situation contrastée en matière de qualité des sols, avec un score de 5,5/10, reflétant des pressions agricoles significatives sur un territoire à dominante céréalière et viticole. La base de données ex-BASOL recense environ 45 sites pollués ou potentiellement pollués dans le département, principalement liés à d'anciennes activités industrielles autour de Poitiers et Châtellerault (GéoRisques/ex-BASOL 2023). La pression phytosanitaire reste élevée : la Vienne figure parmi les départements à usage intensif de pesticides, notamment en grandes cultures (blé, maïs, tournesol) qui occupent plus de 70% de la SAU d'environ 450 000 ha (INRAE 2023). Le risque radon constitue une préoccupation notable, plusieurs communes du nord et de l'est du département étant classées en zone à potentiel radon élevé (catégorie 3) sur substrat granitique (IRSN). La part de l'agriculture biologique, bien qu'en progression, reste inférieure à la moyenne nationale avec environ 7% de la SAU certifiée bio (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 45 sites ex-BASOL, concentration autour de Poitiers-Châtellerault"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée, grandes cultures dominantes sur 70% SAU"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Zones granit nord-est classées radon catégorie 3, risque modéré à fort"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "Environ 7% SAU bio, progression notable mais sous moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "La SAU bio dépasse 31 000 ha en 2023, en progression de +12% sur cinq ans (Agence Bio 2023)",
+    "Présence de prairies permanentes dans les zones bocagères du Loudunais, limitant l'érosion des sols (PAC 2023)",
+    "Nombre de sites industriels pollués maîtrisé (≈45 sites ex-BASOL) pour un département de taille moyenne",
+    "Dynamique de contractualisation MAEC (mesures agro-environnementales et climatiques) active, réduisant les intrants sur périmètres sensibles"
+  ],
+  "vigilances": [
+    "Contamination diffuse aux pesticides (glyphosate, métolachlore) détectée dans les horizons superficiels des sols de plaine céréalière, risque de transfert vers les nappes (INRAE 2023)",
+    "Tassement et érosion des sols limoneux de la Champagne poitevine sous pression mécanique agricole, accentués par les événements climatiques extrêmes projetés à l'horizon 2050 (DRIAS 2023)",
+    "Plusieurs communes du nord-est classées zone 3 radon (IRSN) : sous-information des populations et insuffisance de diagnostics dans l'habitat ancien"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "~7%",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": ">70%",
+      "label": "SAU en grandes cultures"
+    },
+    {
+      "valeur": "Zone 3",
+      "label": "Communes à risque radon élevé (nord-est)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base ex-BASOL 2023",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "Agence Bio – Statistiques départementales 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie fine et actualisée de la contamination des sols agricoles en Vienne limite l'évaluation précise des résidus phytosanitaires à l'échelle parcellaire",
+    "Les données ex-BASOL ne couvrent pas les sites industriels anciens non recensés ni les pollutions diffuses d'origine agricole historique (vergers, viticulture)",
+    "La part SAU bio déclarée ne rend pas compte de la qualité réelle des pratiques sur les exploitations en conversion ni de la contamination résiduelle des parcelles reconverties"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Tarn-et-Garonne (82) présente une vulnérabilité climatique notable à l'horizon 2060, caractérisée par une position géographique de plaine garonnaise exposée aux dynamiques méditerranéennes et atlantiques. Selon les projections Climadiag (Météo-France, 2023), le département pourrait connaître une augmentation de +2,5 à +3,5°C des températures moyennes annuelles d'ici 2060 sous scénario RCP8.5, avec une multiplication par 3 du nombre de jours de canicule (dépassant 35°C). L'altitude moyenne faible du département (environ 170 m), dominée par les plaines et coteaux de la Garonne et du Tarn, limite fortement les effets de tampon thermique (DRIAS, 2023). Les projections AP3C pour l'Occitanie indiquent une intensification des épisodes de sécheresse estivale et une réduction des précipitations printanières pouvant atteindre -15 à -20%, aggravant les tensions hydrologiques sur la Garonne déjà déficitaire. Par ailleurs, si le risque incendie reste modéré comparé au Var ou aux Landes, il tend à s'accroître significativement sur les coteaux boisés du Quercy Blanc (TRACC, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude moyenne ~170 m, plaines dominantes, tampon thermique quasi inexistant"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+2,8°C projeté d'ici 2060, triplement des jours caniculaires sous RCP8.5"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux modéré mais croissant sur coteaux boisés Quercy Blanc et Lomagne"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Garonne et Tarn : zones inondables étendues, PPRI couvrant nombreuses communes"
+    }
+  ],
+  "points_forts": [
+    "Absence de façade littorale éliminant tout risque de submersion marine et érosion côtière",
+    "Réseau de surveillance climatique régional AP3C opérationnel, permettant une adaptation planifiée des pratiques agricoles (AP3C Occitanie, 2023)",
+    "Couverture forestière modérée (~15% du territoire) limitant l'ampleur potentielle des grands feux de forêt comparativement aux départements voisins",
+    "Diversité des microclimats locaux (vallées du Tarn, Aveyron, Garonne) offrant quelques refuges thermiques ponctuels pour la biodiversité et l'agriculture"
+  ],
+  "vigilances": [
+    "Multiplication par 3 des jours de chaleur extrême (>35°C) projetée d'ici 2060 selon DRIAS/RCP8.5, avec impact sévère sur la santé des populations âgées (part des +65 ans : 22% en 2021, INSEE)",
+    "Risque d'assèchement structurel de la Garonne en été : débit d'étiage déjà critique, aggravé par -20% de précipitations estivales projetées (Explore2, 2023), menaçant l'agriculture irriguée",
+    "Extension progressive du risque incendie aux coteaux de la Lomagne et du Quercy Blanc avec allongement de la saison à risque de 30 à 45 jours supplémentaires d'ici 2050 (TRACC, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse température moyenne projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "×3",
+      "label": "Multiplication jours canicule >35°C d'ici 2060"
+    },
+    {
+      "valeur": "~15%",
+      "label": "Part du territoire boisé (risque feux modéré)"
+    },
+    {
+      "valeur": "170 m",
+      "label": "Altitude moyenne départementale (faible tampon thermique)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (projections climatiques)",
+    "AP3C Occitanie 2023",
+    "TRACC 2023 (trajectoire réchauffement)",
+    "Explore2 2023 (hydrologie future)"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à l'échelle régionale Occitanie et manquent de granularité infra-départementale pour le Tarn-et-Garonne, masquant les disparités locales entre plaines garonnaises et coteaux",
+    "L'évaluation du risque incendie repose sur des modèles forestiers qui n'intègrent pas encore pleinement la dynamique d'embroussaillement des coteaux agricoles abandonnés du Quercy Blanc",
+    "Les données de vulnérabilité aux inondations (PPRI) ne sont pas toujours actualisées pour tenir compte de l'évolution des régimes hydrologiques projetés à 2060 sur les affluents secondaires de la Garonne"
+  ]
+}

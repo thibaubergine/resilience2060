@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne présente un profil alimentaire solide, porté par une agriculture diversifiée sur environ 280 000 ha de SAU (Agreste 2023), avec une orientation marquée vers l'élevage bovin et ovin qui soutient une autonomie alimentaire relative. Le département bénéficie de plusieurs signes officiels de qualité reconnus, dont le Bœuf de Haute-Vienne IGP et l'Agneau du Limousin IGP, attestant d'une valorisation territoriale des productions locales (INAO 2024). La part de la surface agricole en agriculture biologique atteint environ 12 % de la SAU départementale, soit un niveau supérieur à la moyenne nationale de 10,7 % (Agence Bio 2023), témoignant d'une dynamique de conversion active. Les circuits courts et structures de vente directe se développent progressivement, avec plusieurs dizaines d'AMAP recensées et des marchés de producteurs bien implantés autour de Limoges (ZAVA 2024), bien que la structuration reste inférieure à certains départements périurbains. L'indice ZAVA positionne la Haute-Vienne dans une capacité de couverture alimentaire correcte pour les productions animales, mais plus limitée pour les fruits et légumes frais.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Forte production bovine/ovine couvrant beaucoup de besoins protéiques locaux"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs IGP/AOP reconnues : Bœuf, Agneau, Pommes du Limousin"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~12% SAU bio, au-dessus moyenne nationale, progression continue"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif autour Limoges, marchés producteurs bien développés"
+    }
+  ],
+  "points_forts": [
+    "Environ 12 % de la SAU départementale certifiée en agriculture biologique, soit ~33 600 ha, dépassant la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Plusieurs indications géographiques solides : IGP Bœuf de Haute-Vienne, IGP Agneau du Limousin, AOP Pommes du Limousin, assurant une valorisation économique locale (INAO 2024)",
+    "Capacité d'autonomie alimentaire élevée pour les protéines animales grâce à un cheptel bovin et ovin significatif (~280 000 ha SAU, Agreste 2023)",
+    "Réseau de circuits courts structuré autour de Limoges : marchés de producteurs, AMAP, points de vente collectifs, avec soutien actif du Conseil Départemental"
+  ],
+  "vigilances": [
+    "Dépendance aux importations pour fruits et légumes frais : la production maraîchère locale reste insuffisante pour couvrir les besoins de la population (~370 000 hab.), exposant le territoire aux ruptures logistiques",
+    "Vieillissement des exploitants agricoles (âge moyen ~52 ans, Agreste 2023) et difficultés de transmission menacent la pérennité des filières de qualité et des conversions bio en cours",
+    "Pression économique sur les éleveurs face à la hausse des coûts de production et à la concurrence des marchés européens, risquant de freiner les démarches de labellisation et de circuits courts à horizon 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "3",
+      "label": "IGP/AOP alimentaires actives"
+    },
+    {
+      "valeur": "~280 000 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "~370 000 hab.",
+      "label": "Population à nourrir"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024",
+    "Agreste - recensement agricole 2020/2023",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale Nouvelle-Aquitaine pour certains produits, rendant l'évaluation précise au niveau Haute-Vienne partielle",
+    "La part de SAU bio est issue d'estimations régionales ventilées, sans comptage exhaustif certifié spécifiquement au niveau départemental 87",
+    "L'absence de référentiel national standardisé sur la densité de circuits courts/AMAP par département rend les comparaisons inter-départementales approximatives"
+  ]
+}

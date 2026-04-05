@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie bénéficie d'une qualité de l'air globalement favorable grâce à son relief montagnard qui favorise la dispersion des polluants, avec des concentrations moyennes annuelles en PM2,5 estimées entre 8 et 12 µg/m³ selon les zones (ATMO Auvergne-Rhône-Alpes, 2023), restant souvent en deçà du seuil OMS 2021 de 5 µg/m³ en altitude mais dépassant ce seuil dans les vallées. Les agglomérations d'Annecy et de la Vallée de l'Arve constituent des points de vigilance majeurs : la vallée de l'Arve figure parmi les zones les plus polluées aux particules fines de France en raison du trafic de transit alpin et du chauffage au bois (ATMO AuRA, 2022). Les émissions de NO₂ restent modérées à l'échelle départementale mais des pics sont enregistrés à proximité des axes autoroutiers A40 et A41 (Citepa, 2023). L'agriculture de montagne génère des émissions d'ammoniac (NH₃) relativement limitées comparées aux grandes plaines céréalières, faisant de ce critère un point fort relatif du département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 en vallée de l'Arve dépasse nettement seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain modéré sauf axes A40/A41 à fort trafic alpin"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle lourde, tissu PME dominant en montagne"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Élevage extensif montagnard, émissions NH₃ faibles vs grandes plaines"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air en altitude excellente : concentrations PM2,5 < 5 µg/m³ sur les massifs du Mont-Blanc et des Aravis (ATMO AuRA, 2023)",
+    "Absence de grande industrie polluante majeure : aucun site classé SEVESO seuil haut à émissions atmosphériques significatives dans le département (GéoRisques, 2023)",
+    "Réseau de surveillance dense avec ATMO AuRA : 12 stations de mesure actives en Haute-Savoie permettant un suivi fin des épisodes de pollution",
+    "Émissions agricoles NH₃ parmi les plus faibles de la région grâce à l'élevage bovin laitier extensif d'alpage (Citepa, 2023)"
+  ],
+  "vigilances": [
+    "La vallée de l'Arve reste une zone de dépassement chronique des valeurs guides OMS pour les PM2,5 et PM10, affectant ~80 000 habitants (ATMO AuRA, plan de protection de l'atmosphère 2022-2027)",
+    "Le trafic routier et poids-lourd sur l'A40 (tunnel du Mont-Blanc : ~900 000 poids-lourds/an) génère des émissions de NOₓ et particules persistantes en fond de vallée encaissée",
+    "Le chauffage au bois non-performant représente jusqu'à 70 % des émissions de PM2,5 locales en hiver dans certaines communes de vallée, avec des pics lors d'inversions thermiques (PPA Arve, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "Concentration moy. PM2,5 vallées (ATMO AuRA 2023)"
+    },
+    {
+      "valeur": "~900 000",
+      "label": "Poids-lourds/an tunnel Mont-Blanc (ATMB 2023)"
+    },
+    {
+      "valeur": "70%",
+      "label": "Part chauffage bois dans émissions PM2,5 hivernales"
+    },
+    {
+      "valeur": "12",
+      "label": "Stations surveillance ATMO actives en Haute-Savoie"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes 2023",
+    "Citepa – Inventaire national des émissions 2023",
+    "Plan de Protection de l'Atmosphère Vallée de l'Arve 2022-2027",
+    "OMS Guidelines qualité de l'air 2021"
+  ],
+  "limites": [
+    "Les données PM2,5 disponibles manquent de granularité pour les communes rurales et stations de ski de haute altitude, créant des zones grises d'évaluation",
+    "Le PPA Vallée de l'Arve couvre un périmètre restreint : les communes hors périmètre PPA bénéficient d'un suivi moins systématique malgré des problématiques similaires",
+    "L'impact des pollens allergènes (en forte augmentation avec le réchauffement climatique alpin) n'est pas intégré dans les scores qualité de l'air standard, sous-estimant la charge sanitaire réelle"
+  ]
+}

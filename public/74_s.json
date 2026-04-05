@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie présente un profil pédologique contrasté, marqué par la prédominance de sols montagnards peu propices à l'agriculture intensive mais exposés à des risques naturels significatifs. Le département recense environ 80 sites pollués ou potentiellement pollués répertoriés dans la base GéoRisques (ex-BASOL/BASIAS), concentrés notamment dans les vallées industrialisées de l'Arve et du Fier (agglomérations d'Annecy et Cluses). Le niveau de contamination des sols agricoles par les résidus de pesticides reste modéré à faible en raison de la dominante d'élevage et de prairies permanentes (INRAE 2023), mais des pressions existent dans les zones de grandes cultures de la plaine du Chablais. Le risque radon est élevé sur une large portion du territoire en raison de la nature granitique et cristalline des sous-sols alpins (IRSN), classant une majorité des communes en zone 3 (risque significatif). La part de SAU en agriculture biologique atteint environ 12-14% en Haute-Savoie (Agence Bio 2023), supérieure à la moyenne nationale, portée par les filières fromagères AOC/AOP.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 80 sites BASOL/BASIAS, vallées industrielles Arve et Fier concernées"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Pression pesticides faible, dominante élevage-prairies, quelques cultures Chablais"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Majorité communes en zone radon 3, sous-sols granitiques alpins étendus"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio ~13%, portée par filières fromagères AOP, au-dessus moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU biologique estimée à ~13% (Agence Bio 2023), supérieure à la moyenne nationale (~10,7%), soutenue par les cahiers des charges AOP Abondance, Reblochon et Tome des Bauges",
+    "Faible pression en résidus de pesticides sur sols agricoles : la dominante prairiale et d'élevage (plus de 70% de la SAU en herbe) limite fortement l'usage de phytosanitaires (INRAE 2023)",
+    "Sols forestiers et d'altitude en bon état structural général, avec peu d'artificialisation en zones de montagne protégées (forêts domaniales, réserves naturelles)",
+    "Dynamique de conversion bio en progression, notamment dans les Aravis et le Haut-Chablais, avec accompagnement des CIVAM et chambres d'agriculture régionales"
+  ],
+  "vigilances": [
+    "Risque radon élevé structurel : plus de 60% des communes classées en zone 3 (IRSN), exposant potentiellement des dizaines de milliers de résidents en zones rurales et périurbaines à un risque de cancer du poumon",
+    "Contamination des sols en vallée de l'Arve par métaux lourds et hydrocarbures liée à l'industrie du décolletage (Cluses, Bonneville) ; des friches industrielles héritées restent sous surveillance active GéoRisques",
+    "Artificialisation progressive des sols en zones périurbaines (Annecy, Thonon-les-Bains, Annemasse) : la Haute-Savoie figure parmi les départements alpins à forte pression foncière, avec un rythme de consommation d'espaces naturels et agricoles à surveiller dans le cadre du ZAN (Zéro Artificialisation Nette) d'ici 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites BASOL/BASIAS recensés"
+    },
+    {
+      "valeur": ">60%",
+      "label": "Communes en zone radon 3 (IRSN)"
+    },
+    {
+      "valeur": "~13%",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": ">70%",
+      "label": "SAU en prairies permanentes"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL-BASIAS (BRGM)",
+    "INRAE – Enquête pratiques agricoles et résidus pesticides 2023",
+    "IRSN – Cartographie du potentiel radon des formations géologiques",
+    "Agence Bio – Baromètre bio régional Auvergne-Rhône-Alpes 2023"
+  ],
+  "limites": [
+    "Les données BASIAS/BASOL recensent les sites connus mais de nombreuses contaminations diffuses liées à l'industrie historique du décolletage en vallée de l'Arve restent probablement sous-évaluées faute d'investigations exhaustives",
+    "L'absence de surveillance systématique des sols agricoles de montagne (prairies d'altitude, alpages) par les réseaux nationaux de suivi pédologique (RMQS-INRAE) limite la connaissance fine de l'état des sols d'estive en Haute-Savoie",
+    "La forte hétérogénéité pédologique et altitudinale du département (de 300 m à 4 807 m) rend difficile toute agrégation statistique représentative à l'échelle départementale pour les indicateurs sols"
+  ]
+}

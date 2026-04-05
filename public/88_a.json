@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Vosges (88) affiche une qualité de l'air globalement satisfaisante, bénéficiant d'un contexte rural et forestier dominant (forêts couvrant près de 43 % du territoire) qui limite l'accumulation des polluants (ATMO Grand Est, 2023). Les concentrations annuelles moyennes en PM2,5 se situent autour de 8-10 µg/m³, en deçà de la valeur guide OMS 2021 (5 µg/m³) mais parmi les meilleures performances régionales (ATMO Grand Est, 2023). Le NO₂ reste faible hors des axes routiers structurants (N57/A31 en périphérie), avec des valeurs urbaines inférieures à 15 µg/m³ à Épinal, loin du seuil OMS de 10 µg/m³ (Citepa/ATMO 2022). Toutefois, les émissions hivernales de particules fines liées au chauffage au bois restent un enjeu local identifié, représentant plus de 50 % des émissions de PM2,5 du département certaines années (ATMO Grand Est, 2022). L'agriculture vosgienne, moins intensive qu'en plaine, génère des émissions d'ammoniac NH₃ modérées, contribuant à un bilan aérien globalement favorable pour le département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~9 µg/m³, supérieur norme OMS 5 µg/m³, mais parmi meilleurs du Grand Est"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ Épinal <15 µg/m³, bien sous seuil OMS 10 µg/m³ urbain"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle; industrie textile/papeterie en déclin historique"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevage bovin vosgien génère NH₃ modéré mais non négligeable localement"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de la région Grand Est, <15 µg/m³ à Épinal (ATMO Grand Est, 2023)",
+    "Couverture forestière de 43 % du territoire jouant un rôle de puits et de tampon sur la diffusion des polluants atmosphériques",
+    "Absence d'industrie lourde majeure émettrice (sidérurgie, pétrochimie) depuis la reconversion économique du département",
+    "Faibles émissions de NOₓ liées au trafic routier hors axes N57/A31, grâce à une densité de population limitée (~62 hab/km²)"
+  ],
+  "vigilances": [
+    "Chauffage au bois résidentiel représente >50 % des émissions locales de PM2,5 en hiver, risque accru avec la hausse du coût de l'énergie (ATMO Grand Est, 2022)",
+    "Phénomènes d'accumulation de particules en vallées encaissées (vallée de la Moselle, vallée de la Vologne) lors d'épisodes d'inversion thermique hivernale",
+    "Émissions agricoles de NH₃ susceptibles d'augmenter avec l'intensification de l'élevage laitier dans certaines zones de piémont vosgien"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "Concentration NO₂ Épinal"
+    },
+    {
+      "valeur": "43 %",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": ">50 %",
+      "label": "Part chauffage bois dans émissions PM2,5"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2022-2023",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2022",
+    "ATMO Grand Est – Cadastre des émissions Grand Est 2022"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO est peu dense dans les Vosges rurales, limitant la représentativité spatiale des données pour les zones de montagne et les vallées isolées",
+    "Les émissions diffuses liées au chauffage individuel au bois sont estimées par modélisation et non mesurées directement, introduisant une incertitude notable sur les PM2,5 hivernales",
+    "L'absence de station de mesure permanente dédiée aux particules fines en milieu rural vosgien empêche une caractérisation fine des pics saisonniers locaux"
+  ]
+}

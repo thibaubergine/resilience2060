@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines (78), département de grande couronne francilienne, présentent une vulnérabilité climatique notable à l'horizon 2060, avec une altitude moyenne faible (environ 150 m) offrant peu de tampon thermique face aux hausses de températures projetées. Selon Climadiag (DRIAS 2023), le département pourrait connaître jusqu'à 35 à 40 jours de vague de chaleur annuels à l'horizon 2060 sous scénario RCP 8.5, contre une moyenne historique de 5 à 8 jours. L'urbanisation dense de l'est du département (axe Versailles–Saint-Germain-en-Laye) amplifie l'effet d'îlot de chaleur urbain, aggravant l'exposition des populations aux pics thermiques (TRACC 2023). Les massifs forestiers de Rambouillet et de Saint-Germain représentent une ressource de fraîcheur mais aussi un risque croissant d'incendies, avec une extension de l'aléa feux vers le nord francilien documentée par l'ONF. Le risque inondation reste structurel le long de la Seine et de ses affluents (Mauldre, Bièvre), classant plusieurs communes en zone de risque majeur (PPRI, Géorisques).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude faible ~150m, absence de relief tampon significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "35-40 jours canicule/an projetés 2060, îlots chaleur urbains importants"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Forêt Rambouillet exposée, aléa feux en extension vers nord"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Inondations Seine et affluents, nombreuses communes en PPRI"
+    }
+  ],
+  "points_forts": [
+    "Massif forestier de Rambouillet (21 000 ha) constitue un puits de carbone et régulateur thermique local significatif",
+    "Présence de corridors verts structurés limitant partiellement l'effet d'îlot de chaleur (SRCE Île-de-France)",
+    "Réseau hydrographique dense favorisant des microclimats locaux tamponnant les pics thermiques",
+    "Engagement de plusieurs EPCI (Saint-Germain Boucles de Seine, CASQY) dans des PCAET intégrant l'adaptation climatique 2050"
+  ],
+  "vigilances": [
+    "Projections DRIAS 2023 : +3,5°C à +4°C de température moyenne estivale à horizon 2060 sous RCP 8.5, dépassant la moyenne nationale",
+    "Risque incendie en forte progression : la forêt de Rambouillet figure dans les scénarios ONF d'extension de l'aléa feux hors zones méditerranéennes d'ici 2050",
+    "Risque inondation majeur sur la Seine : crue centennale type 1910 affecterait des dizaines de communes densément peuplées (Géorisques, PPRI 78)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~150 m",
+      "label": "Altitude moyenne département"
+    },
+    {
+      "valeur": "+3,5 à +4°C",
+      "label": "Hausse température estivale 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "35-40 j/an",
+      "label": "Jours de canicule projetés à 2060"
+    },
+    {
+      "valeur": "21 000 ha",
+      "label": "Surface forêt de Rambouillet"
+    }
+  ],
+  "sources": [
+    "Climadiag / DRIAS 2023 (Météo-France)",
+    "TRACC – Trajectoire de Réchauffement de Référence (ONERC 2023)",
+    "Géorisques / PPRI Seine Yvelines (DRIEAT)",
+    "ONF – Rapport extension aléa feux 2022"
+  ],
+  "limites": [
+    "Les projections DRIAS sont données à maille régionale (8 km), masquant les hétérogénéités intra-départementales entre zones urbaines denses et espaces ruraux des Yvelines",
+    "L'indice de vulnérabilité canicule ne prend pas encore pleinement en compte l'effet différentiel des îlots de chaleur urbains à l'échelle communale pour ce département",
+    "Les données sur l'évolution du risque feux en zone nord-francilienne restent prospectives et peu consolidées, l'historique d'incendies de forêt étant encore limité dans les Yvelines"
+  ]
+}

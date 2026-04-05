@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme présente une vulnérabilité climatique significative pour 2060, combinant une position littorale exposée sur 80 km de côte Manche avec un territoire majoritairement plat (altitude médiane inférieure à 50 m) offrant un tampon thermique quasi nul face aux vagues de chaleur (Climadiag 2023). Les projections DRIAS 2023 indiquent une augmentation de +2,5°C à +3°C en été à l'horizon 2060 selon le scénario RCP 8.5, avec un passage de 5 jours de canicule par an actuellement à plus de 20 jours annuels projetés. Le département subit également une submersion côtière croissante avec une élévation du niveau marin estimée à +30-60 cm d'ici 2060, menaçant les zones basses de la Baie de Somme et les polders picards (TRACC/SHOM 2023). Les inondations par remontée de nappes phréatiques, récurrentes depuis l'épisode catastrophique de 2001, restent une menace structurelle accentuée par les projections de précipitations hivernales intenses (AP3C Hauts-de-France).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Territoire plat, altitude médiane <50 m, tampon thermique très faible"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+20 jours de canicule/an projetés à 2060 selon DRIAS RCP8.5"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts peu étendues (<12% territoire), risque feux structurellement limité"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 3.0,
+      "note": "80 km de côte, submersion +60 cm, inondations nappes récurrentes"
+    }
+  ],
+  "points_forts": [
+    "Risque incendie de forêt parmi les plus faibles du nord de la France, avec seulement 11,8% de couverture forestière (IFN 2022), limitant l'aléa feux de forêt à horizon 2060",
+    "Températures estivales actuelles modérées (moyenne juillet : 18°C à Amiens), offrant un point de départ moins sévère que les départements méridionaux (Météo-France 2023)",
+    "Réseau Vigil'Inondation et PPRI actifs sur les bassins versants Somme et Authie, avec plans de gestion des inondations (PGRI 2022-2027) en place",
+    "Littoral en partie protégé par le Parc naturel régional Baie de Somme, limitant l'urbanisation des zones les plus vulnérables à la submersion"
+  ],
+  "vigilances": [
+    "Submersion marine et érosion côtière en accélération : recul du trait de côte estimé à -0,5 à -1,5 m/an sur certains secteurs (Cayeux-sur-Mer, Ault), aggravé par +30 à +60 cm de hausse du niveau marin projetée à 2060 (SHOM/TRACC)",
+    "Inondations par remontée de nappes : la nappe de la Craie, très réactive, a inondé plus de 5 000 habitations en 2001 ; les hivers plus humides projetés (+10% de précipitations hivernales selon DRIAS) augmentent la récurrence de cet aléa",
+    "Vagues de chaleur et santé publique : population vieillissante (23% de +60 ans dans la Somme, INSEE 2023) particulièrement vulnérable aux +20 jours de canicule/an projetés, avec risque accru de surmortalité estivale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<50 m",
+      "label": "Altitude médiane du territoire"
+    },
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse température été 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "80 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "+20 j/an",
+      "label": "Jours de canicule projetés 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes – Météo-France 2023",
+    "DRIAS 2023 – Projections climatiques RCP8.5",
+    "TRACC/SHOM – Élévation niveau marin 2023",
+    "AP3C Hauts-de-France – Adaptation agriculture et territoires"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent incertaines pour les aléas côtiers spécifiques à la Baie de Somme, dont la morphologie complexe (estuaire macrotidal) n'est pas pleinement capturée par les modèles régionaux",
+    "Le risque inondation par remontée de nappe de la Craie est difficile à modéliser précisément à 2060 faute de scénarios hydrogéologiques locaux intégrant les changements de recharge hivernale",
+    "L'absence de données fine-grain sur l'adaptation des infrastructures côtières (digues, polders) rend difficile l'évaluation réelle de la résilience du territoire à la submersion marine projetée"
+  ]
+}

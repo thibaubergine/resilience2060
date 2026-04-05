@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres affichent un profil alimentaire solide (7,0/10, rang estimé dans le tiers supérieur national), porté par une agriculture diversifiée couvrant environ 510 000 ha de SAU sur 599 500 ha de superficie totale, soit un taux d'occupation agricole parmi les plus élevés de Nouvelle-Aquitaine (Agreste 2023). Le département bénéficie d'une Zone à Autonomie Vivrière Alimentaire (ZAVA 2024) favorable grâce à sa forte production céréalière, laitière et avicole, qui lui confère une capacité de couverture alimentaire locale au-dessus de la moyenne nationale. Les Deux-Sèvres comptent plusieurs Indications Géographiques Protégées notables, dont le Beurre Charentes-Poitou AOP et le Chabichou du Poitou AOP, signe d'une valorisation qualitative ancrée territorialement (INAO 2024). La part de la SAU en agriculture biologique avoisine 8 à 9 % (Agence Bio 2023), restant en deçà de la moyenne nationale de 10,7 % mais en progression constante. Le maillage en circuits courts et AMAP demeure intermédiaire, avec une dynamique portée par les projets alimentaires territoriaux (PAT) engagés notamment autour de Niort et Parthenay.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Forte production laitière, céréalière, avicole assurant bonne couverture locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Beurre Charentes-Poitou AOP, Chabichou du Poitou AOP présents"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Environ 8-9 % SAU bio, progression réelle mais sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "PAT actifs à Niort et Parthenay, réseau AMAP bien développé"
+    }
+  ],
+  "points_forts": [
+    "Forte densité agricole avec ~510 000 ha de SAU, assurant une production vivrière locale robuste (Agreste 2023)",
+    "Présence du Beurre Charentes-Poitou AOP et du Chabichou du Poitou AOP, signes de valorisation qualitative reconnue (INAO 2024)",
+    "Projets Alimentaires Territoriaux (PAT) actifs sur les bassins de Niort et Parthenay, structurant les circuits de proximité",
+    "Dynamisme de la filière lait et aviculture contribuant à l'autonomie protéique départementale (ZAVA 2024)"
+  ],
+  "vigilances": [
+    "Part bio à ~8-9 % encore inférieure à la cible nationale de 18 % en 2030 fixée par le Plan Bio (Agence Bio 2023)",
+    "Dépendance aux grandes cultures intensives exposant les sols à des risques d'érosion et de compaction impactant la durabilité alimentaire (INRAE 2023)",
+    "Tension sur la ressource en eau en période estivale (conflits irrigation/usage), susceptible de limiter les rendements agricoles à horizon 2040 (Explore2/DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~510 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "8-9 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "2 AOP",
+      "label": "Signes officiels qualité présents"
+    },
+    {
+      "valeur": "3 PAT",
+      "label": "Projets Alimentaires Territoriaux actifs"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio",
+    "INAO 2024",
+    "Agreste Nouvelle-Aquitaine 2023",
+    "INRAE 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour les Deux-Sèvres, l'autonomie alimentaire fine par filière n'étant pas publiée à l'échelle infra-régionale",
+    "La couverture des circuits courts et AMAP manque de recensement exhaustif et actualisé à l'échelle des 79 cantons",
+    "Les projections d'impact climatique sur les rendements agricoles locaux (stress hydrique estival) sont encore peu spécifiques au département à l'horizon 2050-2060"
+  ]
+}

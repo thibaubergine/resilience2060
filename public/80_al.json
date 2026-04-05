@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme présente un profil alimentaire contrasté, porté par une agriculture céréalière et betteravière très productive mais peu diversifiée sur le plan alimentaire local. Avec environ 543 000 hectares de SAU représentant près de 87 % du territoire départemental, la Somme figure parmi les premiers départements agricoles français en surface, dominée par les grandes cultures industrielles (blé, betterave sucrière, pomme de terre) destinées principalement à l'export ou à l'industrie agro-alimentaire (Agreste 2023). La part de la SAU conduite en agriculture biologique reste modeste, autour de 3,5 % en 2023, soit nettement en dessous de la moyenne nationale de 10,7 % (Agence Bio 2024). Le département dispose d'un nombre limité de signes officiels de qualité INAO (AOP/IGP), reflet d'une agriculture standardisée peu tournée vers les produits de terroir valorisés, même si la pomme de terre de la Manche et les haricots de Soissons voisins rappellent un potentiel régional. Les circuits courts et AMAP restent peu développés au regard de la taille du territoire, avec une dynamique urbaine concentrée essentiellement sur Amiens (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Grande SAU productive mais orientée export/industrie, faible autoconsommation locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 3.0,
+      "note": "Très peu d'AOP/IGP actives; agriculture standardisée, peu de produits terroir valorisés"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Bio à 3,5% SAU en 2023, sous moyenne nationale de 10,7% (Agence Bio 2024)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP en croissance autour d'Amiens; marchés fermiers et vente directe actifs"
+    }
+  ],
+  "points_forts": [
+    "Une SAU exceptionnelle (~543 000 ha, 87 % du territoire) garantissant une forte capacité de production alimentaire brute (Agreste 2023)",
+    "La filière pomme de terre représente un atout structurant : la Somme est l'un des premiers producteurs français avec plus de 80 000 ha cultivés en Hauts-de-France",
+    "Développement progressif des circuits courts autour d'Amiens avec plus d'une dizaine d'AMAP recensées et plusieurs marchés de producteurs locaux actifs",
+    "Présence d'une industrie agro-alimentaire locale (sucreries, féculeries) assurant une transformation partielle de la production sur le territoire"
+  ],
+  "vigilances": [
+    "La dépendance aux grandes cultures industrielles (betterave, blé) expose le système alimentaire local à une forte vulnérabilité climatique avec des projections de stress hydrique accru d'ici 2060 (DRIAS 2024)",
+    "La faible part du bio (3,5 % contre 10,7 % en France) et le retard en conversion risquent de marginaliser le département face aux objectifs Farm to Fork (25 % bio d'ici 2030)",
+    "La raréfaction des exploitations (perte de 30 % des fermes en 20 ans selon Agreste) menace la diversité des systèmes alimentaires et la viabilité des circuits courts à moyen terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~87%",
+      "label": "Part SAU/territoire"
+    },
+    {
+      "valeur": "3,5%",
+      "label": "SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "~10",
+      "label": "AMAP recensées (Amiens et agglomération)"
+    },
+    {
+      "valeur": "<5",
+      "label": "Signes qualité AOP/IGP actifs"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2024 – Observatoire national de l'agriculture biologique",
+    "INAO 2024 – Registre des signes officiels de qualité",
+    "Agreste 2023 – Recensement agricole Hauts-de-France",
+    "ZAVA 2024 – Zones à dominante agricole et vente directe"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur les circuits courts restent partielles pour la Somme, sous-estimant probablement la vente directe à la ferme hors AMAP formalisées",
+    "L'indicateur d'autonomie alimentaire ne distingue pas la production destinée à la consommation humaine locale de celle orientée vers l'industrie ou l'export, biaisant positivement le score",
+    "L'absence de données territoriales fines sur la diversité des cultures vivrières rend difficile l'évaluation réelle de la résilience alimentaire du département face aux chocs climatiques projetés"
+  ]
+}

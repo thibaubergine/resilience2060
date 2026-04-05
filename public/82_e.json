@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn-et-Garonne (82) est traversé par trois cours d'eau majeurs — le Tarn, la Garonne et l'Aveyron — qui structurent un réseau hydrographique dense mais soumis à des pressions croissantes. Le département figure parmi les territoires les plus exposés au stress hydrique estival en Occitanie, avec des projections Explore2 anticipant une réduction des débits d'étiage de 30 à 50 % à l'horizon 2060 sur ces bassins versants. La qualité des eaux superficielles est dégradée par une agriculture intensive (fruits, légumes, grandes cultures) : 68 % des masses d'eau superficielles du bassin Garonne-Adour-Dordogne n'atteignent pas le bon état chimique selon l'état des lieux DCE 2022 de l'Agence de l'eau Adour-Garonne. Les teneurs en nitrates restent préoccupantes dans plusieurs captages, avec certaines communes dépassant ponctuellement le seuil réglementaire de 50 mg/L (ARS Occitanie, 2023). La présence de PFAS dans les eaux brutes commence à être documentée sur le département, s'ajoutant aux contaminations historiques aux pesticides déjà surveillées par l'ARS.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité ARS correcte mais dépassements ponctuels nitrates/pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits étiage Tarn-Garonne en baisse de 30-50 % projetée (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Pressions agricoles intenses ; seuil 50 mg/L dépassé localement"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS émergents détectés ; surveillance insuffisante à ce stade"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (Garonne, Tarn, Aveyron, Gimone) offrant une ressource en eau de surface abondante hors étiage",
+    "Taux de conformité moyen de l'eau distribuée supérieur à 95 % pour les paramètres microbiologiques (ARS Occitanie, bilan 2022)",
+    "Présence de zones humides alluviales classées en bon état écologique sur certains tronçons du Tarn et de l'Aveyron (DCE 2022)",
+    "Engagement du Schéma d'Aménagement et de Gestion des Eaux (SAGE) Tarn-amont et dispositifs de surveillance renforcée des captages prioritaires"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 30 à 50 % à l'horizon 2060 (Explore2), menaçant l'irrigation agricole et l'alimentation en eau potable des 260 000 habitants",
+    "Contamination diffuse aux pesticides (métolachlore, S-métolachlore, prosulfocarbe) persistante dans les eaux souterraines, avec plusieurs captages en zone de vigilance (Agence de l'eau Adour-Garonne, état des lieux 2022)",
+    "Émergence des PFAS et micropolluants dans les eaux brutes sans cadre de surveillance systématique à l'échelle départementale, risque d'impact sur les filières de production d'eau potable"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-30 à -50 %",
+      "label": "Baisse débit étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "68 %",
+      "label": "Masses d'eau n'atteignant pas bon état chimique"
+    },
+    {
+      "valeur": "95 %",
+      "label": "Conformité microbiologique eau distribuée"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé ponctuellement"
+    }
+  ],
+  "sources": [
+    "Agence de l'eau Adour-Garonne – État des lieux DCE 2022",
+    "ARS Occitanie – Bilan qualité eaux distribuées 2022-2023",
+    "Explore2 – Projections hydrologiques 2060, INRAE/OFB 2023",
+    "BRGM – Surveillance eaux souterraines et captages prioritaires Tarn-et-Garonne"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques au Tarn-et-Garonne restent partielles, la campagne nationale de mesure systématique (ANSES 2023-2024) n'ayant pas encore livré tous ses résultats à l'échelle départementale",
+    "Le score de stress hydrique futur repose sur des modèles agrégés à l'échelle du bassin Adour-Garonne, avec une incertitude importante sur la variabilité locale intra-départementale",
+    "La surveillance des petites unités de distribution d'eau potable (UDI rurales, communes de moins de 500 habitants) reste moins exhaustive, introduisant un biais potentiel dans les taux de conformité affichés"
+  ]
+}

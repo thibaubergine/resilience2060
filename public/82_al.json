@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn-et-Garonne (82) affiche une dimension alimentaire solide (7,5/10, rang estimé top 30 national), portée par une vocation agricole fruitière et maraîchère historique : premier département français pour la production de chasselas (AOP Chasselas de Moissac) et major dans les fruits à noyau (pêches, prunes, melons). La Surface Agricole Utile (SAU) représente environ 55 % du territoire départemental, avec une orientation nettement tournée vers les cultures spécialisées à haute valeur ajoutée (Agreste 2023). La part de la SAU conduite en agriculture biologique atteignait 8,2 % en 2022, légèrement en dessous de la moyenne nationale (9,7 %) mais en progression de +18 % sur cinq ans (Agence Bio 2023). Les circuits courts et marchés de producteurs sont bien développés, avec plusieurs dizaines d'AMAP actives et une tradition maraîchère structurante autour de Montauban (DRAAF Occitanie 2023). L'autonomie alimentaire du territoire reste cependant fragilisée par une forte spécialisation arboricole exposée aux aléas climatiques (gel, sécheresse) et une dépendance aux intrants importés (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Bonne production fruitière locale, spécialisation arboricole limite diversification alimentaire"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "AOP Chasselas Moissac, IGP Melon Quercy, plusieurs signes reconnus INAO"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "8,2 % SAU bio 2022, progression notable mais sous moyenne nationale 9,7 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Nombreuses AMAP Montauban, marchés producteurs, tradition maraîchère structurée"
+    }
+  ],
+  "points_forts": [
+    "L'AOP Chasselas de Moissac, seul raisin de table AOP français, représente une identité alimentaire nationale forte (INAO 2023)",
+    "Le département figure parmi les premiers producteurs de fruits à noyau en France, avec plus de 12 000 ha dédiés à l'arboriculture (Agreste 2022)",
+    "Une dynamique bio en progression de +18 % sur cinq ans, avec plus de 350 exploitations certifiées (Agence Bio 2023)",
+    "La présence de l'IGP Melon du Quercy et d'autres signes de qualité diversifie l'offre en produits à haute valeur territoriale reconnue (INAO 2023)"
+  ],
+  "vigilances": [
+    "La spécialisation arboricole expose le département à des risques croissants de gel tardif et de sécheresse estivale, avec des pertes estimées à -30 % certaines années (Chambre Agriculture 82, 2022)",
+    "La part de SAU en bio (8,2 %) reste inférieure à la moyenne nationale et régionale occitane (~12 %), signalant un retard de conversion à surveiller (Agence Bio 2023)",
+    "La dépendance aux intrants externes (engrais, phytosanitaires) pour les cultures fruitières intensives fragilise l'autonomie alimentaire réelle du territoire (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,2 %",
+      "label": "SAU en agriculture biologique (2022)"
+    },
+    {
+      "valeur": "+18 %",
+      "label": "Progression bio sur 5 ans"
+    },
+    {
+      "valeur": "12 000 ha",
+      "label": "Surface arboricole départementale"
+    },
+    {
+      "valeur": "350+",
+      "label": "Exploitations bio certifiées"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste / DRAAF Occitanie 2023",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale, rendant difficile une évaluation fine du niveau départemental du 82",
+    "L'absence d'observatoire local des circuits courts structuré limite la quantification précise du poids réel des AMAP et ventes directes en Tarn-et-Garonne",
+    "Les projections climatiques à horizon 2060 (DRIAS/Climadiag) sur l'impact arboricole ne sont pas encore intégrées dans les plans alimentaires territoriaux (PAT) locaux"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie présente un profil alimentaire contrasté, caractéristique des territoires alpins à forte pression foncière. Avec seulement 57 500 ha de Surface Agricole Utile (SAU) sur 451 600 ha de superficie totale, le département souffre d'une faible autonomie alimentaire structurelle, compensée par une identité fromagère exceptionnelle reconnue au niveau européen (ZAVA 2024). Le département compte 5 appellations fromagères d'envergure — Reblochon, Abondance, Beaufort, Tome des Bauges et Emmental de Savoie — représentant une valeur économique estimée à plus de 300 M€/an (INAO 2023). L'agriculture biologique progresse régulièrement, avec environ 12 % de la SAU certifiée bio en 2022, soit un niveau légèrement supérieur à la moyenne nationale de 10,5 % (Agence Bio 2023). Les circuits courts et les AMAP se développent activement autour d'Annecy et du Genevois haut-savoyard, portés par une population urbaine dense et solvable, bien que la concurrence foncière avec le tourisme et le résidentiel reste un frein majeur à la conversion agricole locale.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "SAU limitée (57 500 ha), forte dépendance alimentaire extérieure structurelle"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "5 AOP/IGP fromagères majeures, Reblochon et Beaufort leaders nationaux"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "~12 % SAU bio, au-dessus moyenne nationale, progression régulière confirmée"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Réseaux AMAP actifs autour Annecy, mais foncier contraint freine développement"
+    }
+  ],
+  "points_forts": [
+    "5 appellations fromagères AOP/IGP parmi les plus emblématiques de France, générant plus de 300 M€ de valeur annuelle (INAO 2023)",
+    "Environ 12 % de la SAU certifiée en agriculture biologique, au-dessus de la moyenne nationale de 10,5 % (Agence Bio 2023)",
+    "Forte dynamique des circuits courts portée par le bassin d'Annecy et le Genevois, avec une population urbaine à fort pouvoir d'achat et sensibilité environnementale élevée",
+    "Systèmes agropastoraux d'altitude (alpages, estives) préservés, garants de la qualité et de la typicité des productions fromagères AOP"
+  ],
+  "vigilances": [
+    "Pression foncière agricole critique : artificialisation accélérée autour d'Annecy et du Genevois estimée à +1 200 ha/décennie, menaçant directement la SAU disponible (DRAAF AuRA 2022)",
+    "Changement climatique sur les alpages : remontée de la limite pâturables compromise d'ici 2060, risque de réduction des surfaces d'estive de 15 à 20 % selon scénarios DRIAS",
+    "Dépendance quasi-totale aux importations pour les grandes cultures et légumes, rendant le territoire vulnérable aux crises d'approvisionnement alimentaire (autonomie alimentaire inférieure à 25 % hors fromages)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "57 500 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "12 %",
+      "label": "SAU certifiée bio"
+    },
+    {
+      "valeur": "5",
+      "label": "AOP/IGP fromagères"
+    },
+    {
+      "valeur": "300 M€",
+      "label": "Valeur filières AOP/IGP"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agreste",
+    "INAO 2023",
+    "Agence Bio 2023",
+    "DRAAF Auvergne-Rhône-Alpes 2022"
+  ],
+  "limites": [
+    "La part élevée d'alpages et estives dans la SAU fausse la comparaison inter-départements sur l'autonomie alimentaire réelle, les surfaces fourragères d'altitude n'étant pas mobilisables pour les cultures vivrières",
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale ne distinguent pas précisément la production fromagère (exportée à 80 %) de la consommation locale réelle du département",
+    "La forte attractivité touristique (>12 millions de nuitées/an) génère une demande alimentaire saisonnière difficile à intégrer dans les calculs d'autonomie et de circuits courts, biaisant les indicateurs de couverture locale"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Paris (75), département le plus densément peuplé d'Europe avec plus de 20 000 habitants/km², présente une biodiversité sévèrement appauvrie par l'urbanisation quasi-totale de son territoire (environ 2 500 ha d'espaces verts, soit seulement ~16% de la surface départementale selon la Ville de Paris). La couverture Natura 2000 y est pratiquement nulle, aucun site n'étant désigné au sein des limites strictement intramuros (INPN, 2024). L'INPN recense environ 1 500 espèces végétales et 270 espèces d'oiseaux sur Paris, chiffres bien inférieurs aux départements ruraux comparables, reflétant une faune cantonnée aux parcs, cimetières et berges de Seine. Les corridors écologiques sont fragmentés par un réseau viaire de plus de 1 800 km de voies, rendant la Trame Verte et Bleue (TVB) parisienne très discontinue malgré les efforts du Plan Biodiversité municipal 2018-2024 (OFB, 2024). La Seine, seul corridor aquatique structurant, offre un refuge limité mais réel pour quelques espèces piscicoles et avifaune associée (LPO Île-de-France, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 1,
+      "note": "Aucun site Natura 2000 désigné sur le territoire parisien intramuros"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 1,
+      "note": "Zéro parc national ou PNR ; quelques réserves urbaines ponctuelles"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 3.0,
+      "note": "~270 espèces d'oiseaux recensées, faune urbaine adaptée présente"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 3.0,
+      "note": "Corridors très fragmentés ; TVB discontinue malgré Plan Biodiversité 2018"
+    }
+  ],
+  "points_forts": [
+    "Réseau de parcs et squares représentant ~2 500 ha d'espaces verts, soit ~16% du territoire (Ville de Paris, 2023)",
+    "Présence de la Réserve Naturelle Régionale de la Forêt de Sénart en périphérie proche, accessible aux Parisiens (INPN)",
+    "Programme « Végétalisation de Paris » ayant planté plus de 170 000 arbres d'alignement depuis 2014, renforçant les refuges urbains",
+    "La Seine accueille 32 espèces de poissons recensées, signe d'une recolonisation progressive après décennies de pollution (AESN, 2022)"
+  ],
+  "vigilances": [
+    "Imperméabilisation des sols à plus de 80% du territoire compromet toute renaturation significative et accentue l'effet d'îlot de chaleur défavorable à la biodiversité (CEREMA, 2023)",
+    "Espèces exotiques envahissantes (Renouée du Japon, Perruche à collier : +15%/an LPO IdF) menacent les espèces natives dans les rares espaces verts",
+    "Pollution lumineuse nocturne parmi les plus élevées de France (SkyGlow map, 2022), perturbant les cycles biologiques des insectes pollinisateurs et oiseaux migrateurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~16%",
+      "label": "Part espaces verts/surface"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites Natura 2000 intramuros"
+    },
+    {
+      "valeur": "32",
+      "label": "Espèces poissons Seine"
+    },
+    {
+      "valeur": "270",
+      "label": "Espèces oiseaux recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire national biodiversité",
+    "INPN – Inventaire national patrimoine naturel",
+    "LPO Île-de-France 2023",
+    "Ville de Paris – Plan Biodiversité 2018-2024"
+  ],
+  "limites": [
+    "L'absence quasi-totale de milieux naturels rend les indicateurs Natura 2000 et aires protégées structurellement inapplicables à Paris, faussant la comparaison nationale",
+    "Les données d'inventaire floristique et faunistique intramuros restent incomplètes, notamment pour les invertébrés et champignons urbains peu prospectés",
+    "Le périmètre administratif très réduit de Paris (105 km²) amplifie mécaniquement les scores défavorables ; une analyse à l'échelle de l'Unité Urbaine serait plus représentative des dynamiques écologiques réelles"
+  ]
+}

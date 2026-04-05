@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente une qualité de l'air dégradée, pénalisée par la concentration exceptionnelle d'industries pétrochimiques et chimiques sur l'axe Seine-estuaire (plateforme de Port-Jérôme-sur-Seine, raffinerie de Gonfreville-l'Orcher), faisant de ce département l'un des plus grands émetteurs industriels de NOx et SO₂ de France (Citepa 2023). Les niveaux de PM2,5 atteignent 10 à 13 µg/m³ en moyenne annuelle dans les zones urbanisées et industrielles, dépassant la valeur guide OMS 2021 fixée à 5 µg/m³ (ATMO Normandie 2023). Le NO₂ urbain reste préoccupant à Rouen, où les concentrations avoisinent 25-30 µg/m³ en bordure d'axe routier, proche du seuil européen de 40 µg/m³ (ATMO Normandie 2022). Les émissions de NH₃ agricoles s'ajoutent à la pression industrielle, l'agriculture intensive couvrant plus de 60 % du territoire départemental et contribuant significativement à la formation de particules secondaires (Citepa/INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 10-13 µg/m³, dépasse nettement la norme OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 4.0,
+      "note": "NO₂ urbain Rouen 25-30 µg/m³, pression routière et industrielle persistante"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 2.0,
+      "note": "Forte densité pétrochimique estuaire Seine, parmi les premiers émetteurs nationaux"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole significatif, mais moins intense que grandes plaines céréalières nord"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance dense : ATMO Normandie opère plus de 20 stations de mesure en Seine-Maritime, assurant un suivi fin des polluants",
+    "Tendance à la baisse des émissions de SO₂ industriel : –60 % entre 2000 et 2022 grâce aux normes IED (Citepa 2023)",
+    "Les zones rurales du Pays de Bray et du Pays de Caux présentent une qualité de l'air correcte, PM2,5 < 8 µg/m³",
+    "Engagement du Port de Rouen dans la réduction des émissions de poussières portuaires via le plan HAROPA 2023-2027"
+  ],
+  "vigilances": [
+    "L'estuaire de Seine concentre plusieurs ICPE majeures (Lubrizol, TotalEnergies) : risque d'épisodes aigus de pollution industrielle, rappelé par l'incendie Lubrizol 2019 qui avait exposé 200 000 habitants à des fumées toxiques",
+    "Les particules fines PM2,5 et PM10 restent chroniquement au-dessus des seuils OMS 2021 en agglomération rouennaise, avec un risque de surmortalité cardiovasculaire estimé à +5 % (Santé Publique France 2021)",
+    "Le changement climatique devrait augmenter la fréquence des épisodes d'ozone estival (O₃) de 15 à 25 % à horizon 2050 (DRIAS/ATMO Normandie), aggravant l'exposition des populations vulnérables"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-13 µg/m³",
+      "label": "PM2,5 moyen zones urbaines"
+    },
+    {
+      "valeur": "25-30 µg/m³",
+      "label": "NO₂ Rouen axes routiers"
+    },
+    {
+      "valeur": "~20",
+      "label": "Stations ATMO en Seine-Maritime"
+    },
+    {
+      "valeur": "-60 %",
+      "label": "Baisse SO₂ industriel 2000-2022"
+    }
+  ],
+  "sources": [
+    "ATMO Normandie 2022-2023",
+    "Citepa inventaire national 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Santé Publique France – impact sanitaire PM2,5 2021"
+  ],
+  "limites": [
+    "Les données ATMO couvrent principalement Rouen et Le Havre ; les zones rurales intermédiaires restent sous-instrumentées, limitant l'évaluation précise de l'exposition rurale",
+    "L'incident Lubrizol (2019) a révélé des lacunes dans la modélisation des pics de pollution industrielle accidentelle, non intégrés dans les scores annuels moyens",
+    "Les émissions diffuses des zones portuaires (HAROPA) sont difficiles à quantifier précisément, créant une incertitude sur la contribution réelle du trafic maritime à la charge en PM et NOx"
+  ]
+}

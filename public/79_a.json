@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres affichent une qualité de l'air globalement satisfaisante au regard du contexte rural dominant, avec des concentrations moyennes en PM2,5 estimées entre 8 et 11 µg/m³ selon les zones, inférieures au seuil OMS 2021 (5 µg/m³) mais conformes aux valeurs européennes intermédiaires (ATMO Nouvelle-Aquitaine, 2023). Le département ne compte aucune grande agglomération industrielle majeure, ce qui maintient les niveaux de NO₂ urbain parmi les plus bas de la région, avec des valeurs inférieures à 15 µg/m³ à Niort, loin du seuil OMS de 10 µg/m³ (ATMO NA, 2022). En revanche, la vocation agricole intensive du département — premier producteur français de chèvres avec plus de 300 000 têtes et un cheptel bovin significatif — génère des émissions d'ammoniac (NH₃) parmi les plus élevées de Nouvelle-Aquitaine, contribuant à la formation de particules secondaires (Citepa, inventaire OMINEA 2022). La densité industrielle émettrice reste modérée, avec quelques sites classés ICPE à Niort et ses environs, sans source majeure de polluants atmosphériques lourds répertoriée (GéoRisques/DREAL NA, 2023). Le bilan aérien du département est ainsi tiré vers le bas principalement par la pression agricole azotée, qui constitue le principal levier d'amélioration identifié.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³, au-dessus OMS 2021 mais acceptable"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ Niort sous 15 µg/m³, très faible pression urbaine industrielle"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu de sites industriels émetteurs majeurs, tissu économique tertiaire"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ élevé : 300 000 chèvres + bovins, émissions agricoles dominantes"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air urbaine satisfaisante à Niort : NO₂ moyen inférieur à 15 µg/m³, bien en deçà du seuil réglementaire européen de 40 µg/m³ (ATMO Nouvelle-Aquitaine, 2023)",
+    "Absence de grande installation industrielle lourde émettrice de polluants atmosphériques majeurs (DREAL Nouvelle-Aquitaine, 2023)",
+    "Faible densité de trafic routier hors axe A10/N11, limitant les pics de pollution aux oxydes d'azote en zones rurales",
+    "Couverture végétale et bocagère résiduelle favorable à l'absorption locale de certains polluants et à la régulation thermique"
+  ],
+  "vigilances": [
+    "Émissions agricoles de NH₃ parmi les plus importantes de la région : contribution majeure à la formation de particules fines secondaires (PM2,5), avec un risque de dégradation si l'élevage intensif se renforce (Citepa, OMINEA 2022)",
+    "Épisodes de pollution aux particules au printemps liés aux brûlages agricoles et à la proximité de zones de grandes cultures, pouvant dépasser ponctuellement 25 µg/m³ (ATMO NA, alertes 2021-2023)",
+    "Pesticides atmosphériques : détection croissante de résidus phytosanitaires dans l'air ambiant rural des Deux-Sèvres, notamment fongicides et herbicides, signalés dans les campagnes ATMO NA sur la région viticole et céréalière adjacente"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 estimée"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ moyen Niort"
+    },
+    {
+      "valeur": "300 000+",
+      "label": "Têtes caprines (1er dept. France)"
+    },
+    {
+      "valeur": "~85%",
+      "label": "Part agricole des émissions NH₃"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2022-2023",
+    "Citepa – Inventaire OMINEA 2022 (émissions NH₃ secteur agricole)",
+    "OMS – Lignes directrices qualité de l'air 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³)",
+    "DREAL Nouvelle-Aquitaine – Registre ICPE et sites émetteurs 2023"
+  ],
+  "limites": [
+    "Absence de station de mesure fixe ATMO en zone rurale profonde des Deux-Sèvres : les données de PM2,5 reposent sur des modélisations spatiales et non sur des mesures directes continues",
+    "Les émissions de pesticides atmosphériques ne font pas l'objet d'un suivi systématique et réglementaire dans le département, rendant l'évaluation de cette pression incomplète",
+    "La contribution des élevages caprins et bovins aux particules secondaires via le NH₃ est difficile à quantifier précisément à l'échelle départementale faute d'inventaire local spécifique récent"
+  ]
+}

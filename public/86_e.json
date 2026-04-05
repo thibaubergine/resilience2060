@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Vienne (86) présente une situation hydrique contrastée, avec des ressources en eau superficielle structurées autour du bassin de la Vienne et du Clain, mais soumises à des pressions agricoles significatives liées aux grandes cultures céréalières et à l'élevage intensif. La qualité des eaux souterraines est affectée par des teneurs en nitrates préoccupantes dans plusieurs masses d'eau, notamment sur les plateaux du Poitou, avec des concentrations dépassant localement 40 mg/L (ARS Nouvelle-Aquitaine, 2022). Les projections du programme Explore2 (2023) indiquent une réduction des débits moyens annuels de l'ordre de 20 à 40 % à l'horizon 2060 sur les cours d'eau du département, accentuant les tensions sur les usages agricoles et les étiages estivaux. La présence de PFAS a été détectée dans certains captages d'alimentation en eau potable du département, conformément aux premières campagnes nationales de surveillance lancées en 2023 (DGS/ARS). Le taux de conformité des eaux distribuées reste globalement satisfaisant à 94,5 %, mais des disparités persistent entre communes rurales et urbaines (ARS Nouvelle-Aquitaine, rapport annuel 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Taux conformité AEP 94,5 %, quelques dépassements communes rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits -20 à -40 % horizon 2060, étiages sévères attendus (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Nitrates >40 mg/L locaux sur plateaux poitevins, zones vulnérables actives"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement, campagnes 2023 en cours, impact limité"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité des eaux potables de 94,5 %, au-dessus de la moyenne nationale (ARS Nouvelle-Aquitaine, 2022)",
+    "Réseau hydrographique dense avec la Vienne, le Clain et la Gartempe, offrant des capacités de recharge non négligeables",
+    "Existence de périmètres de protection de captages opérationnels couvrant les principales prises d'eau potable du département",
+    "Engagement de plusieurs collectivités dans des contrats territoriaux milieux aquatiques (CTMA) pour la restauration des cours d'eau"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits de 20 à 40 % à l'horizon 2060 (Explore2, 2023), menaçant l'alimentation en eau potable et l'irrigation agricole en période estivale",
+    "Contamination aux nitrates persistante sur les plateaux agricoles du Poitou, avec plusieurs masses d'eau souterraine en mauvais état chimique au sens de la DCE",
+    "Premières détections de PFAS dans des captages AEP en 2023, nécessitant un suivi renforcé et potentiellement des investissements coûteux de traitement"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94,5 %",
+      "label": "Conformité eaux distribuées (AEP)"
+    },
+    {
+      "valeur": "-30 % (médiane)",
+      "label": "Réduction débits prévue 2060 (Explore2)"
+    },
+    {
+      "valeur": "40 mg/L",
+      "label": "Seuil nitrates dépassé localement"
+    },
+    {
+      "valeur": "~120 captages AEP",
+      "label": "Captages surveillés département"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Rapport qualité eaux 2022",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "DCE – État des masses d'eau, rapportage 2022 (Agence de l'eau Loire-Bretagne)",
+    "DGS/ARS – Campagne nationale surveillance PFAS 2023"
+  ],
+  "limites": [
+    "Les données PFAS pour la Vienne restent partielles, les campagnes nationales de 2023-2024 n'ayant pas encore produit de bilan départemental consolidé",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle des petits bassins versants locaux, rendant difficile une planification fine par sous-territoire",
+    "L'état chimique des eaux souterraines est évalué par masse d'eau large, masquant des hétérogénéités locales importantes entre communes du département"
+  ]
+}

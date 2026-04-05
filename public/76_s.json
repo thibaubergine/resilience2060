@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente une situation préoccupante pour la qualité des sols, reflet de son passé industriel dense et de son agriculture intensive. Le département concentre plus de 400 sites répertoriés dans la base BASOL/SIS (Sites et Sols Pollués), principalement localisés dans les agglomérations de Rouen et du Havre, héritage des industries pétrochimiques, métallurgiques et chimiques (GéoRisques 2024). Les sols agricoles montrent des niveaux significatifs de résidus phytosanitaires liés à la polyculture céréalière dominante, avec la Seine-Maritime figurant parmi les départements à pression phytosanitaire élevée en Normandie (INRAE 2023). Le risque radon reste modéré à faible sur l'essentiel du territoire, les formations géologiques crayeuses du pays de Caux présentant peu d'émanations naturelles significatives (IRSN). Enfin, la part de surface agricole utile en agriculture biologique demeure nettement inférieure à la moyenne nationale, avec environ 4,5 % de SAU bio contre 10,7 % au niveau national (Agence Bio 2023), témoignant d'une transition agroécologique encore timide malgré les enjeux de préservation des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 3.0,
+      "note": "Plus de 400 sites BASOL/SIS, forte empreinte pétrochimique Rouen-Le Havre"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression phytosanitaire élevée, céréaliculture intensive pays de Caux"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Sous-sol crayeux peu émissif en radon, risque modéré à faible"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio ~4,5%, nettement sous moyenne nationale de 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon structurellement faible sur 80% du territoire grâce aux formations crayeuses du Pays de Caux (IRSN)",
+    "Existence d'un réseau de surveillance et de dépollution actif sur les friches industrielles portuaires du Havre (GéoRisques 2024)",
+    "Dynamique de conversion bio en hausse de +12% entre 2020 et 2023, même si le niveau de base reste bas (Agence Bio 2023)",
+    "Dispositifs de préservation des bocages et haies en Seine-Maritime contribuant à la limitation de l'érosion des sols agricoles"
+  ],
+  "vigilances": [
+    "Pollution historique persistante aux HAP et métaux lourds autour de Rouen-Petit-Quevilly, avec risques de transfert vers les nappes phréatiques",
+    "Érosion hydrique des plateaux limoneux du Pays de Caux estimée à 5-10 t/ha/an, accentuée par les événements de ruissellement-coulées de boue croissants (BRGM)",
+    "Maintien d'une pression phytosanitaire élevée sans réduction notable des IFT (Indicateurs de Fréquence de Traitement) en grandes cultures, menaçant la biodiversité édaphique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "400+",
+      "label": "Sites BASOL/SIS recensés"
+    },
+    {
+      "valeur": "4,5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Niveau de risque radon départemental"
+    },
+    {
+      "valeur": "5-10 t/ha/an",
+      "label": "Érosion hydrique plateaux limoneux"
+    }
+  ],
+  "sources": [
+    "GéoRisques/SIS 2024",
+    "INRAE Diagnostic phytosanitaire 2023",
+    "IRSN Cartographie radon",
+    "Agence Bio Observatoire 2023"
+  ],
+  "limites": [
+    "L'inventaire BASOL/SIS ne couvre pas l'intégralité des sites potentiellement pollués, notamment les petites friches artisanales diffuses en milieu rural seine-maritime",
+    "Les données INRAE sur les résidus de pesticides dans les sols sont agrégées à l'échelle régionale Normandie, masquant les disparités intra-départementales entre Pays de Caux et Pays de Bray",
+    "L'absence de cartographie pédologique fine et systématique à l'échelle du département limite l'évaluation précise de la dégradation organique des sols agricoles hors zones d'étude pilotes"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Vosges (88) présentent un profil alimentaire intermédiaire (6,5/10, rang 49/96), caractérisé par une agriculture diversifiée occupant environ 185 000 ha de SAU, dont une part bio encore modeste autour de 6,5% (Agence Bio, 2023), légèrement inférieure à la moyenne nationale de 10,7%. Le département dispose de quelques indications géographiques reconnues, notamment le Munster-Géromé AOP et la Mirabelle de Lorraine IGP, mais la densité de signes de qualité reste limitée comparée à d'autres territoires français (INAO, 2023). L'autonomie alimentaire locale est fragilisée par la prédominance des grandes cultures et de l'élevage orienté vers des filières longues, avec une dépendance aux marchés régionaux et nationaux estimée (ZAVA, 2024). En revanche, le tissu de circuits courts se développe progressivement, porté par les marchés de producteurs et quelques AMAP actives, notamment autour d'Épinal et de Saint-Dié-des-Vosges. La géographie montagnarde du massif vosgien, favorable aux prairies permanentes et à l'élevage extensif, constitue un atout structurel pour une alimentation de qualité et résiliente.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Autonomie partielle, filières longues dominantes, dépendance marchés régionaux"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Munster-Géromé AOP et Mirabelle IGP, palette limitée signes qualité"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Environ 6,5% SAU bio, sous la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Circuits courts actifs autour Épinal; marchés producteurs bien implantés"
+    }
+  ],
+  "points_forts": [
+    "Munster-Géromé AOP : fromage emblématique à forte notoriété nationale, ancré dans l'élevage extensif vosgien (INAO, 2023)",
+    "Mirabelle de Lorraine IGP couvrant une partie du département, production fruitière identitaire valorisée à l'export",
+    "Prairies permanentes représentant une part significative de la SAU montagnarde, favorisant l'élevage bovin herbager de qualité",
+    "Réseau de marchés de producteurs et d'AMAP en développement autour des pôles urbains d'Épinal et de Saint-Dié, renforçant la résilience alimentaire locale (ZAVA, 2024)"
+  ],
+  "vigilances": [
+    "Part du bio (≈6,5% SAU) nettement inférieure à la moyenne nationale : risque de retard structurel si les conversions ne s'accélèrent pas d'ici 2030 (Agence Bio, 2023)",
+    "Dépendance aux filières longues pour les grandes cultures (céréales, maïs) : vulnérabilité aux ruptures logistiques et à la volatilité des prix agricoles mondiaux",
+    "Changement climatique projeté (Climadiag 2060) : modification des régimes hydriques en altitude pouvant affecter les prairies et la production laitière AOP à l'horizon 2040-2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "185 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "6,5%",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "2",
+      "label": "Signes officiels qualité majeurs (AOP/IGP)"
+    },
+    {
+      "valeur": "~15",
+      "label": "Marchés de producteurs actifs recensés"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à Autonomie Vivrière Alimentaire)",
+    "INAO 2023 (registre AOP/IGP)",
+    "Agence Bio – Observatoire national 2023",
+    "Chambre d'Agriculture des Vosges – Diagnostic agricole territorial"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire vosgienne restent des estimations agrégées, sans granularité infra-départementale fiable pour distinguer plaine et massif vosgien",
+    "La part de SAU bio peut varier selon les millésimes et les abandons de conversion post-subvention, rendant la tendance pluriannuelle incertaine pour ce département de taille moyenne",
+    "L'inventaire des circuits courts et AMAP actifs dans les Vosges n'est pas exhaustivement centralisé, ce qui peut conduire à sous-estimer ou surestimer le dynamisme local réel"
+  ]
+}

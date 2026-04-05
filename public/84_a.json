@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente une qualité de l'air globalement moyenne à l'échelle nationale, avec des concentrations en PM2,5 oscillant entre 10 et 14 µg/m³ dans les zones urbaines comme Avignon, dépassant la valeur guide OMS 2021 de 5 µg/m³ (ATMO Sud, 2023). Le couloir rhodanien et l'axe A7 génèrent des pics de NO₂ récurrents à Avignon, où les concentrations peuvent atteindre 25-30 µg/m³ en période hivernale, proches de la valeur limite européenne de 40 µg/m³ (ATMO Sud, rapport annuel 2022). Le département bénéficie d'une dilution naturelle favorable grâce au mistral, vent dominant qui assure un brassage régulier des masses d'air et limite l'accumulation des polluants (ATMO Sud). En revanche, l'agriculture intensive du Vaucluse — premier département maraîcher et arboricole français — génère des émissions d'ammoniac (NH₃) significatives, estimées à plus de 4 000 tonnes/an, contribuant à la formation de particules secondaires (Citepa, 2022). L'épisode caniculaire et la sécheresse accentuent par ailleurs la formation d'ozone troposphérique, avec des dépassements du seuil d'information (180 µg/m³) enregistrés plusieurs jours par an dans la plaine du Comtat Venaissin (ATMO Sud).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 10-14 µg/m³ ; dépasse guide OMS 5 µg/m³ modérément"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 6.0,
+      "note": "NO₂ Avignon 25-30 µg/m³ ; proche limite européenne en hiver"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Faible densité industrielle lourde ; axe rhodanien reste préoccupant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Agriculture intensive : NH₃ >4 000 t/an, premier rang maraîcher national"
+    }
+  ],
+  "points_forts": [
+    "Le mistral assure un brassage atmosphérique régulier, limitant l'accumulation des polluants et plaçant Vaucluse en position favorable vs bassins sédimentaires du nord (ATMO Sud, 2023)",
+    "Faible densité industrielle émettrice : absence de grande industrie lourde comparable à l'étang de Berre (Bouches-du-Rhône), parc industriel limité autour de Courtine/Avignon",
+    "Réseau de surveillance dense avec 7 stations ATMO Sud actives en Vaucluse, permettant un suivi fin des épisodes de pollution (ATMO Sud, 2023)",
+    "Taux de boisement et espaces naturels (Luberon, Ventoux) représentant ~35 % du territoire, contribuant à la séquestration et filtration locale des polluants"
+  ],
+  "vigilances": [
+    "Dépassements récurrents de l'ozone troposphérique (O₃) : projections DRIAS 2060 indiquent une augmentation des journées caniculaires (+30 jours/an), aggravant la formation photochimique de l'ozone dans la plaine du Comtat",
+    "Émissions NH₃ agricoles en hausse potentielle avec l'intensification maraîchère et l'expansion sous serres, favorisant la formation de particules secondaires nitratées (PM2,5 secondaires)",
+    "Axe autoroutier A7/N7 et trafic de transit Avignon : congestion chronique générant des pics locaux de NO₂ et particules diesel, risque aggravé par l'urbanisation croissante autour de l'agglomération avironaise"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "PM2,5 zone urbaine Avignon"
+    },
+    {
+      "valeur": "25-30 µg/m³",
+      "label": "NO₂ pic hivernal Avignon"
+    },
+    {
+      "valeur": ">4 000 t/an",
+      "label": "Émissions NH₃ agricoles"
+    },
+    {
+      "valeur": "7 stations",
+      "label": "Réseau surveillance ATMO Sud"
+    }
+  ],
+  "sources": [
+    "ATMO Sud – Bilan de la qualité de l'air Vaucluse 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2022",
+    "DRIAS / Météo-France – Projections climatiques régionales PACA 2060"
+  ],
+  "limites": [
+    "Les données PM2,5 restent insuffisamment spatialisées en milieu rural vauclusien (Luberon, Ventoux), limitant l'évaluation de l'exposition réelle des populations hors agglomération d'Avignon",
+    "L'inventaire NH₃ agricole du Citepa manque de granularité infra-départementale, rendant difficile l'identification précise des bassins émetteurs à l'échelle des cantons maraîchers (Comtat, Durance)",
+    "L'absence de station de mesure dédiée aux pesticides atmosphériques en Vaucluse — pourtant premier département phytosanitaire français — constitue un angle mort majeur pour l'évaluation complète de la qualité de l'air"
+  ]
+}

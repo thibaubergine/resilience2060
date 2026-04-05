@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente une biodiversité contrastée, avec des milieux remarquables comme les falaises crayeuses du Pays de Caux et les estuaires de la Seine et de la Bresle, mais fortement fragilisés par une pression agricole et industrielle intense. Le réseau Natura 2000 couvre environ 7,8 % du territoire départemental (INPN 2024), un taux inférieur à la moyenne nationale de 12,5 %, reflétant la prédominance des grandes cultures au détriment des habitats naturels. Le département accueille le Parc Naturel Régional des Boucles de la Seine Normande, couvrant environ 82 000 ha, offrant une trame verte et bleue structurée autour des méandres de la Seine et des forêts alluviales (OFB 2024). Néanmoins, la fragmentation des corridors écologiques par les infrastructures (A13, A29, axes ferroviaires) et l'étalement urbain autour de Rouen et du Havre compromet la connectivité des habitats, avec une artificialisation estimée à 10,4 % de la surface départementale (Observatoire des territoires 2023). La LPO Normandie signale un déclin significatif des oiseaux des plaines agricoles, avec des populations d'alouettes des champs et de perdrix grises en recul de plus de 30 % depuis 2000.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Couverture Natura 2000 à 7,8%, sous la moyenne nationale de 12,5%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Boucles de la Seine Normande, 82 000 ha, structurant mais limité"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 5.0,
+      "note": "Déclin avifaune plaines agricoles, -30% alouettes depuis 2000"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors fragmentés par A13, A29 et urbanisation Rouen-Le Havre"
+    }
+  ],
+  "points_forts": [
+    "Estuaire de la Seine classé Natura 2000, habitat critique pour 250 000 oiseaux migrateurs annuels (LPO Normandie 2023)",
+    "PNR des Boucles de la Seine Normande : 82 000 ha protégés, forêts alluviales et mares forestières remarquables (OFB 2024)",
+    "Falaises crayeuses de Normandie abritant des colonies de fulmars boréaux et de guillemots de Troïl, espèces emblématiques suivies par le GEOCA",
+    "Réseau de zones humides littorales (baie de Seine, embouchure de la Bresle) reconnu par l'inventaire ZNIEFF comme secteur d'importance régionale majeure (INPN 2024)"
+  ],
+  "vigilances": [
+    "Artificialisation croissante : +10,4 % de surfaces imperméabilisées, projection de perte de 500 ha d'espaces naturels supplémentaires d'ici 2030 si le rythme actuel se maintient (Observatoire des territoires 2023)",
+    "Contamination des zones humides estuariennes par les effluents industriels portuaires du Havre, affectant les frayères et habitats piscicoles de l'estuaire de la Seine (Agence de l'eau Seine-Normandie 2023)",
+    "Régression des haies bocagères estimée à -40 % depuis 1980 en Pays de Caux, détruisant les corridors écologiques et aggravant les phénomènes d'érosion des sols (DRAAF Normandie 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "7,8%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "82 000 ha",
+      "label": "Surface PNR Seine Normande"
+    },
+    {
+      "valeur": "250 000",
+      "label": "Oiseaux migrateurs estuaire/an"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Déclin alouettes des champs depuis 2000"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Normandie 2023",
+    "Agence de l'eau Seine-Normandie 2023",
+    "DRAAF Normandie 2022"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 ne distinguent pas toujours la qualité écologique réelle des zones désignées de leur simple périmètre administratif en Seine-Maritime",
+    "Le suivi des populations d'espèces sauvages repose largement sur des réseaux de bénévoles (LPO, GEOCA) dont la couverture territoriale est inégale sur le département",
+    "L'impact réel des corridors écologiques inscrits au SRCE Normandie sur la connectivité effective des habitats en Seine-Maritime reste peu évalué quantitativement à ce jour"
+  ]
+}

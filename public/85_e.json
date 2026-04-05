@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée présente une situation hydrique préoccupante, avec un département structurellement déficitaire en eau : les prélèvements agricoles représentent environ 80 % des usages, principalement pour l'irrigation du maïs et des cultures maraîchères (BNPE/OFB). Les eaux superficielles et souterraines affichent des teneurs en nitrates élevées, avec plusieurs masses d'eau classées en mauvais état chimique au titre de la Directive Cadre sur l'Eau (DCE 2022), notamment dans le bassin versant de la Vie et du Lay. Le projet Explore2 (2023) anticipe une baisse des débits moyens annuels de 10 à 30 % à l'horizon 2050-2070 sur les principaux cours d'eau vendéens, aggravant les tensions estivales déjà récurrentes. La qualité de l'eau potable reste globalement satisfaisante grâce aux investissements des syndicats d'eau (SIEAV, Vendée Eau), bien que des dépassements ponctuels de pesticides soient signalés dans certaines UDI (ARS Pays de la Loire, 2023). La contamination aux PFAS, bien que moins documentée qu'en Loire-Aval, fait l'objet d'une surveillance accrue depuis le plan national 2023.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité eau potable globalement bonne, dépassements ponctuels pesticides (ARS 2023)"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse de débit projetée 10–30 % à 2050, tensions estivales récurrentes (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Nitrates élevés, plusieurs masses d'eau en mauvais état chimique (DCE 2022)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Contamination PFAS peu documentée, surveillance renforcée plan national 2023"
+    }
+  ],
+  "points_forts": [
+    "Vendée Eau assure une desserte à ~680 000 habitants avec un taux de conformité bactériologique supérieur à 98 % (ARS Pays de la Loire, 2023)",
+    "Réseau de retenues collinaires dense (~60 retenues) permettant un stockage hivernal pour l'irrigation et réduisant les prélèvements directs en étiage (Chambre Agriculture 85)",
+    "Schéma Directeur d'Aménagement et de Gestion des Eaux (SDAGE Loire-Bretagne 2022-2027) encadrant strictement les volumes prélevables",
+    "Faible présence industrielle lourde limitant la contamination chimique des nappes souterraines par rapport à d'autres départements"
+  ],
+  "vigilances": [
+    "Stress hydrique estival structurel : arrêtés de restriction d'eau pris chaque année depuis 2017, avec des étiages sévères prévus en augmentation de fréquence sous +2°C (Explore2/DRIAS 2023)",
+    "Contamination persistante aux nitrates et pesticides dans les bassins versants agricoles (Vie, Lay, Boulogne) : objectif bon état DCE 2027 compromis pour plusieurs masses d'eau",
+    "Risque de contamination aux PFAS sous-évalué : absence de cartographie exhaustive des sources industrielles et agricoles en Vendée, lacune identifiée dans le bilan ANSES 2023"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 %",
+      "label": "Part prélèvements agricoles"
+    },
+    {
+      "valeur": "10–30 %",
+      "label": "Baisse débit projetée 2050"
+    },
+    {
+      "valeur": ">98 %",
+      "label": "Conformité bactériologique eau potable"
+    },
+    {
+      "valeur": "~60",
+      "label": "Retenues collinaires stockage"
+    }
+  ],
+  "sources": [
+    "ARS Pays de la Loire 2023",
+    "Explore2 BRGM/OFB 2023",
+    "DCE Rapport état des masses d'eau 2022",
+    "SDAGE Loire-Bretagne 2022-2027"
+  ],
+  "limites": [
+    "Les données de contamination PFAS sont fragmentaires en Vendée : aucune cartographie départementale complète n'est disponible à ce jour, rendant l'évaluation partielle",
+    "Les volumes prélevés déclarés au BNPE sont sous-estimés pour les petits irrigants et les prélèvements en nappe non connectée, biaisant l'analyse du stress hydrique réel",
+    "L'état écologique et chimique de certaines masses d'eau côtières vendéennes (marais breton, baie de Bourgneuf) est évalué à une fréquence insuffisante pour établir des tendances robustes"
+  ]
+}

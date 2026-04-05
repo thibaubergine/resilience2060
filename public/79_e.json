@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres présentent une situation hydrique contrastée, avec un département structurellement soumis à des tensions sur la ressource en eau douce : le bassin versant de la Sèvre Niortaise concentre des conflits d'usage majeurs entre agriculture irriguée et maintien des débits écologiques, illustrés par la controverse autour des bassines de substitution (projet de 16 réserves, dont certaines déjà opérationnelles à Mauzé-sur-le-Mignon). La qualité des eaux superficielles reste dégradée, avec 45 % des masses d'eau en bon état écologique selon l'état des lieux DCE 2019 du bassin Loire-Bretagne, en deçà de la moyenne nationale. Les nitrates constituent une pression chronique : plusieurs captages sont classés prioritaires Grenelle, et les teneurs dépassent ponctuellement 50 mg/L dans les secteurs de grande culture du nord du département (ARS Nouvelle-Aquitaine). Les projections Explore2 (2022) anticipent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2050–2070 sur les cours d'eau locaux, aggravant le stress hydrique estival déjà marqué. La qualité de l'eau potable distribuée demeure globalement conforme, avec plus de 94 % de la population alimentée par une eau respectant les limites réglementaires (ARS 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "94% conformité eau potable, quelques captages prioritaires nitrés"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction débits étiage -20 à -40% horizon 2050 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Dépassements 50 mg/L nitrates secteurs nord; captages Grenelle classés"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Peu de sites industriels PFAS historiques identifiés dans le département"
+    }
+  ],
+  "points_forts": [
+    "Plus de 94 % de la population desservie par une eau potable conforme aux limites réglementaires (ARS Nouvelle-Aquitaine 2022)",
+    "Déploiement progressif des réserves de substitution (projet multi-usage bassin Sèvre Niortaise) visant à réduire les prélèvements en période d'étiage",
+    "Réseau de surveillance des masses d'eau structuré via le SDAGE Loire-Bretagne, permettant un suivi régulier des tendances",
+    "Faible densité de sites industriels PFAS historiques, limitant la contamination diffuse de la ressource souterraine"
+  ],
+  "vigilances": [
+    "Stress hydrique sévère attendu : Explore2 (2022) projette -20 à -40 % de débit d'étiage d'ici 2050-2070 sur la Sèvre Niortaise et ses affluents",
+    "Contamination nitrates persistante dans les eaux souterraines et superficielles du nord du département, avec plusieurs captages classés prioritaires Grenelle toujours sous pression agricole",
+    "Conflits d'usage eau vifs (agriculture irriguée vs milieux naturels zones humides), illustrés par la polémique nationale autour des bassines de Mauzé-sur-le-Mignon, sans arbitrage stable à long terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "45%",
+      "label": "Masses d'eau en bon état écologique (DCE 2019)"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Réduction débit étiage médiane 2050 (Explore2)"
+    },
+    {
+      "valeur": "16",
+      "label": "Réserves substitution projetées (Sèvre Niortaise)"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques INRAE/OFB 2022",
+    "DCE/SDAGE Loire-Bretagne – État des lieux masses d'eau 2019",
+    "Agence de l'eau Loire-Bretagne – Captages prioritaires Grenelle"
+  ],
+  "limites": [
+    "L'état des lieux DCE 2019 est antérieur aux derniers étiages sévères (2022, 2023) ; la situation réelle des masses d'eau peut être plus dégradée qu'indiqué",
+    "Les données PFAS départementales restent partielles : le plan national de surveillance PFAS (2023-2024) n'avait pas encore produit de résultats consolidés pour les Deux-Sèvres au moment de cette analyse",
+    "Les projections Explore2 s'appliquent à des bassins versants régionaux et leur déclinaison fine à l'échelle des sous-bassins deux-sévriens comporte des incertitudes liées aux modèles hydrologiques"
+  ]
+}

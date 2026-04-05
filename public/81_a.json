@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et d'un relief favorisant la dispersion des polluants. Selon ATMO Occitanie, les concentrations moyennes annuelles en PM2,5 oscillent entre 8 et 12 µg/m³, demeurant proches mais encore supérieures à la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ urbain reste modéré, avec des niveaux mesurés à Albi et Castres inférieurs à 20 µg/m³ en moyenne annuelle, largement en deçà du seuil réglementaire européen de 40 µg/m³ (ATMO Occitanie, 2023). Le tissu industriel tarnais, comprenant notamment la chimie et la tannerie à Mazamet, génère des émissions localisées surveillées par le registre CITEPA, sans dépasser les seuils critiques à l'échelle départementale. En revanche, l'activité agricole intensive, notamment l'élevage ovin et bovin, contribue aux émissions d'ammoniac (NH₃), plaçant le Tarn dans une situation de vigilance modérée sur ce polluant spécifique.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-12 µg/m³, supérieur guide OMS 5 µg/m³ mais modéré"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain Albi-Castres inférieur à 20 µg/m³, bien en dessous seuil européen"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Industrie tannerie-chimie localisée, émissions maîtrisées sans dépassement critique"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage bovin-ovin générateur NH₃, pression agricole modérée mais présente"
+    }
+  ],
+  "points_forts": [
+    "PM2,5 moyen annuel inférieur à 12 µg/m³ sur la majorité du territoire, parmi les meilleurs niveaux d'Occitanie (ATMO Occitanie, 2023)",
+    "NO₂ urbain à Albi et Castres sous les 20 µg/m³, soit 50 % en dessous du seuil réglementaire européen de 40 µg/m³",
+    "Faible densité de circulation automobile hors axes Albi-Castres, limitant les pics de pollution photochimique estivale",
+    "Relief vallonné (Montagne Noire, Sidobre) favorisant la ventilation naturelle et la dispersion des polluants atmosphériques"
+  ],
+  "vigilances": [
+    "Épisodes de pollution aux particules PM10 en hiver liés au chauffage au bois résidentiel, en hausse avec la précarité énergétique croissante (ATMO Occitanie 2022-2023)",
+    "Émissions d'ammoniac agricoles susceptibles d'augmenter avec l'intensification de l'élevage, contribuant à la formation de particules secondaires",
+    "Zones industrielles de Mazamet (tanneries) et périphérie d'Albi présentant des émissions de COV et métaux lourds à surveiller selon registre CITEPA 2021"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-12 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "NO₂ moyen Albi-Castres"
+    },
+    {
+      "valeur": "40 µg/m³",
+      "label": "Seuil réglementaire NO₂ (UE)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2023",
+    "OMS – Lignes directrices mondiales qualité de l'air 2021",
+    "CITEPA – Registre national des émissions 2021",
+    "ATMO Occitanie – Inventaire émissions NH₃ et COV Tarn 2022"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure dans le Tarn est peu dense hors agglomérations d'Albi et Castres, laissant les zones rurales peu documentées",
+    "Les données NH₃ agricoles reposent sur des modélisations à l'échelle régionale, peu précises à l'échelle des cantons tarnais",
+    "L'absence de station de mesure fixe dans la Montagne Noire et le Sidobre rend difficile l'évaluation de la qualité de l'air en altitude et dans les zones touristiques"
+  ]
+}

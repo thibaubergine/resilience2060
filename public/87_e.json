@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne bénéficie d'une ressource en eau globalement favorable, structurée autour du bassin versant de la Vienne et de ses affluents (Gartempe, Combade), avec un réseau hydrographique dense couvrant environ 4 500 km de cours d'eau. La qualité des eaux distribuées est satisfaisante : selon l'ARS Nouvelle-Aquitaine (2023), plus de 95 % de la population desservie reçoit une eau conforme aux exigences bactériologiques et physico-chimiques. La pression agricole reste modérée comparée aux bassins céréaliers du nord de la France, limitant la contamination aux nitrates (teneurs généralement inférieures à 25 mg/L dans les masses d'eau souterraines, DCE 2022). Cependant, les projections Explore2 (2023) signalent une baisse probable des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 sur les cours d'eau du Massif Central occidental, fragilisant les usages estivaux. La présence de PFAS, encore peu documentée localement, constitue un point de surveillance émergent, notamment en aval de zones industrielles limousiennes.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "95 % eau distribuée conforme ARS Nouvelle-Aquitaine 2023"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Baisse étiage 10-30 % projetée Explore2 2050-2070"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Nitrates faibles <25 mg/L, pression agricole modérée DCE"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS peu documentés, surveillance industrielle Limoges en cours"
+    }
+  ],
+  "points_forts": [
+    "Plus de 95 % de la population reçoit une eau potable conforme aux normes bactériologiques et physico-chimiques (ARS Nouvelle-Aquitaine, 2023)",
+    "Faible pression agricole en élevage extensif limitant les apports azotés : teneurs en nitrates généralement sous 25 mg/L dans les eaux souterraines (DCE, 2022)",
+    "Réseau hydrographique dense (~4 500 km), soutenant la recharge des nappes et la continuité écologique des cours d'eau (OFB, 2023)",
+    "Bon état écologique et chimique de plusieurs masses d'eau du bassin Vienne, en conformité avec les objectifs de la Directive Cadre sur l'Eau"
+  ],
+  "vigilances": [
+    "Projection Explore2 (2023) : réduction des débits d'étiage de 10 à 30 % sur les affluents du Massif Central d'ici 2050-2070, risque de tensions estivales sur les usages agricoles et domestiques",
+    "Contamination émergente aux PFAS : absence de cartographie exhaustive locale, nécessitant un renforcement du suivi en aval des zones industrielles et artisanales de Limoges",
+    "Dégradation morphologique de certains cours d'eau agricoles (berges, ripisylve fragmentée) pouvant affecter la qualité biologique et l'atteinte du bon état DCE d'ici 2027"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">95 %",
+      "label": "Eau potable conforme (ARS 2023)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Baisse étiage projetée 2050-2070"
+    },
+    {
+      "valeur": "~4 500 km",
+      "label": "Linéaire hydrographique départemental"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eaux 2023",
+    "Explore2 – Projections hydrologiques INRAE/OFB 2023",
+    "DCE – État des masses d'eau bassin Loire-Bretagne/Adour-Garonne 2022",
+    "OFB – Continuité écologique et morphologie cours d'eau 2023"
+  ],
+  "limites": [
+    "Les données PFAS pour la Haute-Vienne restent partielles : la campagne nationale de surveillance (ANSES/DGS) n'a pas encore produit de résultats exhaustifs à l'échelle départementale",
+    "Les projections Explore2 présentent des incertitudes élevées à l'échelle des sous-bassins versants locaux, limitant la précision des scénarios d'étiage pour les petits cours d'eau",
+    "L'état chimique des masses d'eau souterraines profondes est peu renseigné en Haute-Vienne, faute de points de suivi piézométrique suffisamment denses dans certaines zones rurales"
+  ]
+}

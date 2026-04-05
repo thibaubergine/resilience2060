@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Vienne (86), situé en Nouvelle-Aquitaine à des altitudes majoritairement basses (50-200 m), présente une vulnérabilité climatique croissante selon les projections DRIAS 2024, avec une hausse des températures moyennes annuelles estimée entre +2,1°C et +3,4°C à l'horizon 2060 selon les scénarios SSP2 et SSP5. Les projections Climadiag indiquent une augmentation significative du nombre de jours de canicule, passant d'une moyenne actuelle de 8 jours/an à 25-40 jours/an d'ici 2060, plaçant la Vienne parmi les départements intérieurs du bassin aquitain fortement exposés. Le territoire est également concerné par une extension de la période de stress hydrique estival, avec un déficit pluviométrique projeté de -15 à -25% en été (TRACC/AP3C), affectant durablement l'agriculture et les écosystèmes. Si la Vienne ne présente pas de façade littorale, les vallées de la Vienne, du Clain et de la Creuse la rendent vulnérable aux inondations fluviales, un risque que le changement climatique devrait intensifier selon les projections Explore2.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Relief plat à légèrement vallonné, faible tampon thermique altitudinal"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "25 à 40 jours de canicule/an projetés à 2060, exposition forte"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux modéré, zones bocagères peu conductrices mais en hausse"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Pas de littoral, mais vallées Vienne/Clain à risque inondation fluviale"
+    }
+  ],
+  "points_forts": [
+    "Absence totale de façade littorale, éliminant tout risque de submersion marine et d'érosion côtière",
+    "Le réseau bocager et les zones humides du nord du département constituent un tampon thermique local non négligeable (OFB 2024)",
+    "Les forêts de feuillus dominantes (chênaies) présentent une résilience supérieure au feu comparativement aux pinèdes landaises voisines (IFN/IGN)",
+    "Topographie douce et absence de risques naturels majeurs de type avalanche ou glissement de terrain significatif (GéoRisques)"
+  ],
+  "vigilances": [
+    "Augmentation projetée des jours de canicule à 25-40 jours/an d'ici 2060 (scénario SSP3-7.0, DRIAS), avec impact sanitaire fort sur les populations âgées et les travailleurs agricoles",
+    "Extension de la période de déficit hydrique estival (-15 à -25% de précipitations en été selon AP3C/TRACC), menaçant les nappes et les cours d'eau dont l'étiage de la Vienne et du Clain",
+    "Risque accru d'inondations fluviales printanières couplé à des sécheresses estivales extrêmes, renforçant la vulnérabilité des zones péri-urbaines de Poitiers et Châtellerault"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,1°C à +3,4°C",
+      "label": "Hausse température projetée 2060"
+    },
+    {
+      "valeur": "25-40 j/an",
+      "label": "Jours canicule projetés 2060"
+    },
+    {
+      "valeur": "-15 à -25%",
+      "label": "Déficit pluviométrique estival"
+    },
+    {
+      "valeur": "~200 m max",
+      "label": "Altitude plafond département"
+    }
+  ],
+  "sources": [
+    "DRIAS 2024 (scénarios SSP)",
+    "Climadiag Commune – Météo-France 2023",
+    "TRACC / AP3C Nouvelle-Aquitaine",
+    "Explore2 – BRGM/OFB 2023"
+  ],
+  "limites": [
+    "Les projections climatiques localisées à l'échelle communale restent incertaines pour l'horizon 2060, notamment sur la variabilité interannuelle des précipitations en Vienne",
+    "L'absence de station météorologique de référence longue durée dans certaines parties du département limite la calibration fine des modèles DRIAS locaux",
+    "Le risque feux de forêt est encore peu documenté spécifiquement pour la Vienne dans les rapports nationaux, les études se concentrant davantage sur les Landes et la Gironde voisines"
+  ]
+}

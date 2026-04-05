@@ -1,0 +1,65 @@
+{
+  "synthese": "La Vendée (85) présente un profil climatique 2060 intermédiaire, caractérisé par une façade atlantique qui lui confère un effet tampon thermique relatif mais une vulnérabilité côtière structurelle significative. Selon les projections Climadiag (Météo-France, 2023), le département devrait connaître entre 20 et 30 jours de vagues de chaleur supplémentaires par an à l'horizon 2060 sous scénario RCP 8.5, contre une moyenne actuelle inférieure à 5 jours. Le littoral vendéen, avec 250 km de côtes et des zones de marais rétro-littoraux (marais Poitevin, baie de Bourgneuf), est particulièrement exposé à la montée du niveau marin estimée entre +40 et +80 cm d'ici 2100 (GIEC AR6, 2021). Les massifs forestiers de Vendée, notamment la forêt de Mervent-Vouvant et les pinèdes côtières, voient leur risque incendie progresser selon les projections DRIAS, avec une extension prévisible des zones à aléa fort. L'altitude très basse du département (point culminant ~287 m, Puy Crapaud) limite toute capacité d'adaptation par refuge altitudinal face au réchauffement.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Relief plat (<287 m), légère influence océanique atténue extrêmes thermiques"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "20-30 jours caniculaires supplémentaires projetés horizon 2060 (RCP 8.5)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Pinèdes côtières et massifs intérieurs à risque incendie croissant (DRIAS)"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "250 km côtes exposées, marais rétro-littoraux vulnérables, submersion marine"
+    }
+  ],
+  "points_forts": [
+    "Influence océanique atlantique modératrice : la proximité de l'Atlantique maintient des températures estivales moyennes inférieures de 1 à 2°C aux départements continentaux comparables (Météo-France, 2023)",
+    "Réseau de zones humides littorales (marais Poitevin, ~100 000 ha) jouant un rôle de tampon hydrologique et climatique reconnu (OFB 2024)",
+    "Faible densité urbaine sur une grande partie du territoire (7e département moins dense des Pays de la Loire), limitant l'effet d'îlot de chaleur urbain",
+    "Politique de PPRL (Plans de Prévention des Risques Littoraux) relativement avancée post-Xynthia 2010, couvrant les principales communes côtières exposées"
+  ],
+  "vigilances": [
+    "Montée du niveau marin estimée entre +40 et +80 cm d'ici 2100 (GIEC AR6) menaçant directement les 30 000 ha de terres agricoles sous le niveau de la mer dans le marais vendéen",
+    "Risque de sécheresse agricole structurelle croissant : les projections DRIAS indiquent une baisse de 15 à 25 % des précipitations estivales à l'horizon 2060, fragilisant l'élevage bocager dominant",
+    "Extension prévisible des zones à risque incendie vers les massifs de pins maritimes intérieurs (Mervent-Vouvant), avec multiplication des épisodes de danger extrême selon les scénarios AP3C Pays de la Loire"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "287 m",
+      "label": "Altitude maximale (Puy Crapaud)"
+    },
+    {
+      "valeur": "250 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "+1,8°C",
+      "label": "Réchauffement moyen déjà observé 1960-2020"
+    },
+    {
+      "valeur": "20-30 j",
+      "label": "Jours de canicule supplémentaires/an à 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS-2020 scénarios RCP 4.5 et 8.5",
+    "GIEC AR6 2021 (montée des eaux)",
+    "AP3C Pays de la Loire / TRACC 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à maille régionale Pays de la Loire et nécessitent une désagrégation locale pour la Vendée, introduisant une incertitude sur les valeurs départementales précises",
+    "L'effet tampon océanique est difficile à quantifier finement à l'horizon 2060, les modèles divergeant sur l'évolution du régime des vents d'ouest et de la circulation thermohaline atlantique",
+    "Les données sur la vulnérabilité des systèmes de digues (>300 km linéaires post-Xynthia) restent partiellement confidentielles, limitant l'évaluation publique exhaustive du risque de submersion résiduel"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente une situation des sols préoccupante, avec une pression agricole intensive sur les terres de la plaine du Comtat Venaissin, historiquement parmi les plus traitées aux pesticides de France métropolitaine (INRAE 2023). Le département recense plusieurs dizaines de sites pollués ou anciennement pollués répertoriés dans la base BASOL/Géorisques, héritage d'activités industrielles et agro-chimiques concentrées autour d'Avignon, Apt et Pertuis. Le risque radon est classé en catégorie modérée à significative sur les secteurs du Luberon et du Ventoux, les formations géologiques granitiques et cristallines concernant environ 20 % du territoire (IRSN). En revanche, la dynamique de conversion à l'agriculture biologique progresse : la part de la SAU en bio atteint environ 18 % en Vaucluse, supérieure à la moyenne nationale (~11 %), portée notamment par les filières maraîchères et arboricoles (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL autour d'Avignon, héritage agro-industriel"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Plaine du Comtat parmi zones à résidus pesticides les plus élevés (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon modéré à significatif sur massifs Luberon-Ventoux (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "~18 % SAU bio, nettement au-dessus moyenne nationale ~11 % (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU certifiée bio d'environ 18 %, soit parmi les 20 premiers départements français (Agence Bio 2023)",
+    "Dynamique de conversion bio soutenue : +3 points en 5 ans, portée par le maraîchage et l'arboriculture",
+    "Des programmes agri-environnementaux actifs (MAEC) sur les zones sensibles du Luberon et des Alpilles",
+    "Présence de zones agricoles protégées (ZAP) autour des périmètres maraîchers du Comtat pour limiter l'artificialisation"
+  ],
+  "vigilances": [
+    "Contamination résiduelle aux pesticides dans les sols de la plaine du Comtat : certains polluants organochlorés persistants détectés (INRAE 2023), dégradation lente projetée sur plusieurs décennies",
+    "Artificialisation des terres agricoles autour d'Avignon et de Carpentras : perte de sols fertiles estimée à plusieurs dizaines d'hectares/an (CEREMA, Observatoire des territoires)",
+    "Risque radon non négligeable sur les communes des massifs cristallins (Luberon, Ventoux) : exposition intérieure insuffisamment surveillée dans le bâti ancien"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18 %",
+      "label": "Part SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Catégorie 2-3",
+      "label": "Risque radon (IRSN, massifs Luberon-Ventoux)"
+    },
+    {
+      "valeur": "Dizaines de sites",
+      "label": "Sites BASOL/Géorisques recensés"
+    },
+    {
+      "valeur": "Plaine du Comtat",
+      "label": "Zone à forte pression pesticides (INRAE 2023)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du risque radon par commune",
+    "Agence Bio – Observatoire national de l'agriculture biologique 2023"
+  ],
+  "limites": [
+    "Les données BASOL/Géorisques ne couvrent pas les pollutions diffuses agricoles historiques, très présentes dans la plaine du Comtat mais non cartographiées en tant que sites ponctuels",
+    "Le suivi des résidus de pesticides dans les sols agricoles vauclusiens repose sur un réseau de mesures national peu dense, avec une représentativité territoriale limitée à l'échelle parcellaire",
+    "La conversion bio enregistrée par l'Agence Bio ne garantit pas l'absence de contamination résiduelle dans les sols nouvellement convertis, héritage des pratiques conventionnelles antérieures"
+  ]
+}

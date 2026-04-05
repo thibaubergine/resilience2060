@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente une situation hydrique préoccupante, alimentée à plus de 80% par les eaux souterraines issues du massif du Mont Ventoux et du plateau d'Albion, ressources soumises à des pressions croissantes (ARS PACA 2023). Le département est classé en zone de répartition des eaux (ZRE) pour plusieurs bassins versants, dont la Durance et le Calavon, témoignant d'un déséquilibre structurel entre prélèvements et recharge naturelle. Les projections Explore2 (2023) indiquent une baisse des débits d'étiage de 20 à 40% à l'horizon 2060 sur les cours d'eau vauclusiens, aggravant les tensions estivales déjà critiques. La contamination agricole reste significative, avec des dépassements ponctuels de pesticides et de nitrates relevés dans plusieurs captages du Comtat Venaissin, zone de maraîchage intensif (DCE/ADES 2022). La qualité des masses d'eau superficielles du Rhône et de ses affluents est jugée en état écologique moyen à médiocre pour près de 45% des masses d'eau du département (Agence de l'Eau RMC 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Conformité eau potable correcte mais captages sous pression pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse débits étiage 20-40% prévue horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Nitrates élevés Comtat Venaissin, maraîchage intensif, dépassements ponctuels"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Contamination PFAS détectée mais niveaux inférieurs à certains départements industriels"
+    }
+  ],
+  "points_forts": [
+    "Alimentation en eau potable assurée à plus de 80% par ressources souterraines karstiques de qualité naturelle satisfaisante (Mont Ventoux, Albion)",
+    "Réseau de surveillance des captages ARS PACA parmi les plus denses de la région, avec contrôles réguliers (ARS PACA 2023)",
+    "Présence de la Durance canalisée par le réseau SCP (Société du Canal de Provence) permettant une redistribution organisée de la ressource",
+    "Classement en ZRE de plusieurs bassins : mesure de gestion préventive favorisant la limitation des prélèvements excessifs"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40% des débits d'étiage à l'horizon 2060 sur la Durance et le Calavon (Explore2, 2023), menaçant l'alimentation en eau potable estivale",
+    "Contamination persistante par pesticides (chlorpyrifos, métolachlore) et nitrates dans les captages du Comtat Venaissin, zone de maraîchage et viticulture intensive (ADES/DCE 2022)",
+    "Risque de conflits d'usage accrus entre agriculture irriguée (55% des prélèvements), eau potable et soutien des milieux aquatiques en période estivale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "80%",
+      "label": "Part eaux souterraines AEP"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Baisse débit étiage 2060 (médiane Explore2)"
+    },
+    {
+      "valeur": "45%",
+      "label": "Masses d'eau état écologique moyen/médiocre"
+    },
+    {
+      "valeur": "ZRE",
+      "label": "Durance, Calavon classés zone répartition eaux"
+    }
+  ],
+  "sources": [
+    "Explore2 2023 (BRGM/OFB)",
+    "ARS PACA – Bilan qualité eau potable 2023",
+    "Agence de l'Eau Rhône-Méditerranée-Corse – État DCE 2022",
+    "ADES – Base nationale eaux souterraines 2022"
+  ],
+  "limites": [
+    "Les données PFAS sur les eaux souterraines vauclusiennes restent partielles, les campagnes de mesure systématiques étant récentes (post-2023) et incomplètes pour les petits captages ruraux",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle infra-départementale, notamment pour les aquifères karstiques dont le comportement est difficile à modéliser",
+    "L'état écologique des masses d'eau intègre des critères biologiques et chimiques dont les fréquences de mesure sont insuffisantes sur certains petits cours d'eau du département (Ouvèze, Nesque)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Paris (75) présente le score alimentaire le plus faible de France métropolitaine (1,5/10, rang ~95/96), reflet d'une réalité structurelle : le département est quasi intégralement urbanisé avec une Surface Agricole Utile (SAU) inférieure à 100 ha, soit moins de 0,1 % de sa superficie totale (ZAVA 2024). L'autonomie alimentaire est pratiquement nulle, Paris dépendant à plus de 99 % de ses approvisionnements extérieurs, notamment via le marché de Rungis qui traite environ 2,4 millions de tonnes de denrées par an pour toute l'Île-de-France (Rungis International 2023). Aucune appellation d'origine protégée (AOP) ou indication géographique protégée (IGP) agricole n'est rattachée au territoire parisien, et la surface certifiée agriculture biologique y est statistiquement nulle (Agence Bio 2023). Les circuits courts et AMAP existent à l'échelle intra-muros mais restent très marginaux en volume, avec moins d'une dizaine d'AMAP actives recensées pour 2,1 millions d'habitants (RnSAP 2023), ce qui place Paris en dernière position nationale pour la densité de ces dispositifs rapportée à la population agricole productrice locale.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 1,
+      "note": "SAU < 100 ha ; dépendance alimentaire totale, quasi 100 % extérieure"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 1,
+      "note": "Aucune AOP/IGP agricole rattachée au territoire parisien"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 1,
+      "note": "Surface bio certifiée statistiquement nulle, SAU inexistante"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 2.0,
+      "note": "Quelques AMAP actives intra-muros, volumes marginaux pour 2,1 M hab."
+    }
+  ],
+  "points_forts": [
+    "Présence du marché de Rungis (en petite couronne) structurant l'approvisionnement régional avec 2,4 Mt/an et 1 200 entreprises, garantissant une logistique alimentaire robuste",
+    "Dynamique urbaine croissante : plus de 100 projets de jardins partagés et fermes urbaines recensés à Paris en 2023 (Mairie de Paris / UrbanFarm)",
+    "Stratégie « Paris Food 2030 » portée par la Ville, visant à doubler la part des produits locaux et bio dans la restauration collective municipale d'ici 2030",
+    "Fort tissu associatif et coopératif (La Louve, SuperQuinquin antenne, épiceries coopératives) favorisant une consommation alimentaire responsable pour une part croissante de la population"
+  ],
+  "vigilances": [
+    "Hyper-dépendance logistique : toute rupture d'approvisionnement (grève, crise climatique, pandémie) fragilise immédiatement 2,1 millions d'habitants sans aucun recours local possible",
+    "Pression foncière extrême (prix moyen du foncier > 10 000 €/m²) rendant toute reconversion agricole structurelle impossible à l'échelle départementale, pérennisant la vulnérabilité alimentaire",
+    "Risque de précarité alimentaire aggravé : 18 % des Parisiens sous le seuil de pauvreté (INSEE 2022), population vulnérable à la hausse des prix alimentaires accentuée par les dérèglements climatiques projetés à horizon 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 100 ha",
+      "label": "SAU totale Paris (75)"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP agricoles locales"
+    },
+    {
+      "valeur": "~0 %",
+      "label": "Part SAU certifiée bio"
+    },
+    {
+      "valeur": "< 10",
+      "label": "AMAP actives intra-muros"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à Vocation Agricole)",
+    "Agence Bio – Observatoire national 2023",
+    "INAO – Registre AOP/IGP 2023",
+    "Mairie de Paris – Stratégie Paris Food 2030 / RnSAP 2023"
+  ],
+  "limites": [
+    "L'absence quasi totale de SAU rend les indicateurs agricoles standards (SAU bio, ZAVA, circuits courts producteurs) inopérants et non comparables avec les 95 autres départements",
+    "Les initiatives de fermes urbaines et toitures maraîchères, bien que visibles médiatiquement, ne produisent qu'une infime fraction des besoins caloriques parisiens et ne figurent pas dans les statistiques agricoles officielles",
+    "Le rattachement fonctionnel au marché de Rungis (situé en Val-de-Marne, 94) crée un biais statistique : les performances logistiques et la diversité d'approvisionnement de Paris ne sont pas captées par les indicateurs départementaux stricts"
+  ]
+}

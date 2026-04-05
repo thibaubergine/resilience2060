@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne présente un profil de biodiversité globalement favorable, avec environ 12,5 % de sa superficie couverte par des sites Natura 2000 (INPN 2024), soit près de 87 000 ha, incluant des zones humides remarquables liées aux landes et tourbières du plateau de Millevaches en limite orientale. Le département est intégré au Parc Naturel Régional (PNR) de Millevaches en Limousin, qui couvre une fraction significative de l'est du territoire et constitue un réservoir de biodiversité pour les espèces forestières et aquatiques (OFB 2024). La LPO Haute-Vienne recense plus de 220 espèces d'oiseaux nicheurs ou hivernants, dont le Milan royal et la Loutre d'Europe, indicateurs d'une qualité écologique élevée des milieux humides et bocagers (LPO 87/INPN). Le réseau bocager dense, estimé à plus de 45 000 km de haies avant les grandes restructurations agricoles, constitue encore un maillage fonctionnel pour les corridors écologiques, bien que soumis à une pression d'arrachage progressive. Des efforts de restauration des continuités écologiques sont documentés dans le SRCE Nouvelle-Aquitaine et le SRADDET régional 2021.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "12,5% superficie en Natura 2000, soit ~87 000 ha couverts"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Millevaches intégré; absence de Parc National stricto sensu"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Milan royal, Loutre, Écrevisse pieds-blancs: espèces patrimoniales présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Bocage dense mais haies en régression; corridors TVB partiellement fonctionnels"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 de ~12,5 % du territoire (87 000 ha), supérieure à la moyenne nationale (~12 %) avec des habitats de landes et tourbières de haute valeur écologique (INPN 2024)",
+    "Présence du PNR de Millevaches en Limousin, l'un des plus vastes PNR de France (~314 000 ha au total), garant d'une gestion concertée de la biodiversité sur l'est du département (OFB 2024)",
+    "Populations reproductrices de Loutre d'Europe et de Desman des Pyrénées documentées, indiquant une qualité élevée des cours d'eau (LPO/INPN)",
+    "Réseau bocager encore structurant avec plus de 40 000 km de haies estimés, favorable aux chiroptères, passereaux et pollinisateurs (Observatoire du bocage Nouvelle-Aquitaine)"
+  ],
+  "vigilances": [
+    "Régression du bocage par arrachage agricole et sylviculture intensive de résineux (douglas), estimée à -1 à -2 % de linéaire de haies par an, fragilisant les corridors écologiques (SRCE Nouvelle-Aquitaine)",
+    "Vulnérabilité des zones humides et tourbières face aux sécheresses projetées à l'horizon 2050-2060 (scénario RCP 4.5, DRIAS), menaçant des espèces patrimoniales inféodées à ces milieux",
+    "Pression des espèces exotiques envahissantes (Renouée du Japon, Jussie, Écrevisse signal) en expansion sur les cours d'eau et zones humides, documentée par l'Observatoire régional des EEE (OFB/CBNSA)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~87 000 ha",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "220+",
+      "label": "Espèces oiseaux recensées (LPO 87)"
+    },
+    {
+      "valeur": "314 000 ha",
+      "label": "Surface PNR Millevaches (total)"
+    },
+    {
+      "valeur": "~12,5 %",
+      "label": "Part territoire en Natura 2000"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Haute-Vienne / LPO France",
+    "SRCE / SRADDET Nouvelle-Aquitaine 2021",
+    "CBNSA / Observatoire EEE Nouvelle-Aquitaine"
+  ],
+  "limites": [
+    "Les données de linéaire de haies sont estimées par modélisation (IGN/Observatoire bocage) et non issues d'un inventaire exhaustif récent à l'échelle du département 87",
+    "L'état de conservation réel des sites Natura 2000 n'est pas uniformément documenté : certains habitats sont évalués sans suivi terrain régulier faute de moyens (INPN/OFB)",
+    "L'absence de Parc National sur le territoire limite la disponibilité de données standardisées de suivi long terme de la biodiversité comparables aux départements mieux dotés en protection stricte"
+  ]
+}

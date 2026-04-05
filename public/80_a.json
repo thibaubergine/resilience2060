@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme présente une qualité de l'air globalement médiocre, pénalisée par la conjonction d'une agriculture intensive majeure émettrice d'ammoniac (NH₃) et d'une situation géographique exposée aux flux de pollution transfrontaliers depuis la Belgique et les Pays-Bas. Selon ATMO Hauts-de-France, les concentrations moyennes annuelles de PM2,5 atteignent 10 à 12 µg/m³, dépassant le seuil OMS 2021 fixé à 5 µg/m³. Les émissions d'ammoniac agricoles placent la Somme parmi les 10 départements les plus émetteurs nationaux, avec environ 20 000 à 22 000 tonnes de NH₃/an issues principalement des élevages porcins et bovins et des épandages azotés (Citepa 2022). Le NO₂ reste relativement contenu en zone urbaine amiennoise (25-30 µg/m³ selon ATMO 2023), mais les particules fines constituent la première source de risque sanitaire chronique pour les 570 000 habitants du département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 moyen ~11 µg/m³, dépasse nettement seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 6.0,
+      "note": "NO₂ Amiens ~25-28 µg/m³, en-dessous seuil OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Densité industrielle modérée, quelques sites SEVESO sur axe Amiens-Abbeville"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "Emissions NH₃ très élevées, ~21 000 t/an, 10e rang national Citepa"
+    }
+  ],
+  "points_forts": [
+    "NO₂ urbain sous le seuil européen de 40 µg/m³ en agglomération amiénoise, tendance à la baisse depuis 2018 (ATMO Hauts-de-France 2023)",
+    "Faible densité de grands sites industriels classés ICPE-A comparé aux départements du Nord ou du Pas-de-Calais, limitant les pics de pollution industrielle",
+    "Réseau de surveillance ATMO Hauts-de-France bien maillé avec stations fixes à Amiens, Abbeville et Albert, permettant une détection précoce des épisodes",
+    "Absence de zone à fortes émissions de SO₂ industriel, le département ayant achevé la reconversion de ses anciens sites thermiques"
+  ],
+  "vigilances": [
+    "Les PM2,5 chroniques (~11 µg/m³) exposent l'ensemble de la population à un risque cardiovasculaire et respiratoire significatif, avec un coût sanitaire estimé supérieur à 500 M€/an en Hauts-de-France (Santé Publique France 2021)",
+    "Les épandages printaniers de lisiers et engrais azotés génèrent des pics saisonniers d'ammoniac pouvant former des particules secondaires (PM2,5 inorganique), phénomène aggravé par les conditions anticycloniques fréquentes en mars-avril",
+    "L'exposition aux pesticides atmosphériques reste peu surveillée : les cultures de betterave, pomme de terre et lin représentent des sources potentielles de dérive de produits phytosanitaires mal quantifiées à ce jour (plan ECOPHYTO II+)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "~21 000 t/an",
+      "label": "Émissions NH₃ agricoles (Citepa 2022)"
+    },
+    {
+      "valeur": "25-28 µg/m³",
+      "label": "NO₂ moyen Amiens (ATMO 2023)"
+    },
+    {
+      "valeur": "~15 sites",
+      "label": "ICPE soumises à autorisation air (Somme)"
+    }
+  ],
+  "sources": [
+    "ATMO Hauts-de-France – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire national des émissions 2022 (NH₃, PM)",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Santé Publique France – Impact sanitaire de la pollution atmosphérique 2021"
+  ],
+  "limites": [
+    "L'unique station urbaine fixe d'Amiens ne rend pas compte de l'exposition réelle des populations rurales de la Haute-Somme et du Vimeu, potentiellement plus exposées aux émissions agricoles diffuses",
+    "Les données NH₃ du Citepa sont des estimations modélisées à l'échelle nationale, avec une incertitude spatiale élevée pour un département de grande taille agricole comme la Somme",
+    "Aucune campagne de mesure systématique des pesticides atmosphériques n'est conduite en Somme, rendant impossible l'évaluation de l'exposition chronique aux produits phytosanitaires pour les riverains de zones cultivées"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines présentent une situation préoccupante pour la qualité des sols, héritée d'une longue histoire industrielle et d'une agriculture intensifiée en grande couronne parisienne. Le département recense plus de 200 sites et sols pollués référencés dans la base BASOL/Géorisques, concentrés notamment autour des zones urbaines et industrielles de Poissy, Vélizy-Villacoublay et Mantes-la-Jolie (Géorisques, 2023). Les analyses INRAE (2023) révèlent des résidus de pesticides préoccupants dans les sols agricoles de la plaine de Versailles et du Vexin yvelinois, où la céréaliculture intensive domine avec des IFT (Indicateurs de Fréquence de Traitement) supérieurs à la moyenne nationale. La part de la Surface Agricole Utile (SAU) conduite en agriculture biologique reste très faible dans les Yvelines, estimée à environ 4,5% (Agence Bio, 2023), loin des objectifs du plan Écophyto et de la trajectoire nationale à 25% en 2030. Le risque radon, bien que classé en zone 1 (potentiel faible) sur la majeure partie du territoire, ne constitue pas le facteur aggravant principal, contrairement à la pression foncière et à l'artificialisation qui menacent les sols agricoles et naturels restants.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 3.0,
+      "note": "Plus de 200 sites BASOL recensés, pression industrielle et périurbaine forte"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "IFT élevés en plaine céréalière, résidus pesticides détectés fréquemment (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Zone radon 1 majoritaire, potentiel faible sur presque tout le département"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio ~4,5%, bien en-deçà de la moyenne nationale (~10%) (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon classé en zone 1 (potentiel faible) sur la quasi-totalité du département (IRSN)",
+    "Présence de la Plaine de Versailles classée site patrimonial, limitant localement les intrants chimiques",
+    "Quelques démarches de dépollution avancées sur d'anciens sites industriels de la vallée de Seine (Géorisques 2023)",
+    "Maintien d'environ 85 000 ha de SAU offrant un potentiel de transition vers des pratiques moins polluantes (Agreste 2022)"
+  ],
+  "vigilances": [
+    "Artificialisation des sols en progression : les Yvelines perdent environ 400 ha de surfaces agricoles et naturelles par an (DRIEAT Île-de-France), menaçant les terres les plus fertiles",
+    "Contamination aux métaux lourds et HAP persistants sur les friches industrielles de Poissy et Mantes-la-Jolie, avec risques de migration vers les nappes phréatiques sous-jacentes",
+    "Faible dynamique de conversion en agriculture biologique malgré la proximité du marché francilien : trajectoire insuffisante pour atteindre les 25% de SAU bio fixés par la loi EGalim à horizon 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">200",
+      "label": "Sites BASOL/sols pollués recensés"
+    },
+    {
+      "valeur": "~4,5%",
+      "label": "Part SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Zone 1",
+      "label": "Classement radon IRSN (potentiel faible)"
+    },
+    {
+      "valeur": "~85 000 ha",
+      "label": "Surface Agricole Utile totale (Agreste 2022)"
+    }
+  ],
+  "sources": [
+    "Géorisques / ex-BASOL 2023",
+    "INRAE - Résidus pesticides sols agricoles 2023",
+    "IRSN - Cartographie radon 2022",
+    "Agence Bio - Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL sous-estiment potentiellement la contamination diffuse des sols péri-urbains yvelinois, non inventoriés en tant que sites formellement pollués",
+    "L'absence de cartographie fine des résidus pesticides à l'échelle parcellaire dans les Yvelines limite l'évaluation précise de l'exposition réelle des sols agricoles",
+    "La part de SAU bio calculée par l'Agence Bio peut fluctuer selon les années en raison des entrées/sorties en conversion, rendant les comparaisons interannuelles incertaines pour ce département de taille intermédiaire"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne affiche l'une des qualités d'air les plus satisfaisantes de Nouvelle-Aquitaine, avec des concentrations moyennes en PM2,5 inférieures à 8 µg/m³ selon les données ATMO Nouvelle-Aquitaine 2022, bien en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ mais nettement favorables à l'échelle nationale. Le département bénéficie d'une faible densité industrielle lourde et d'une topographie favorisant la dispersion des polluants, Limoges étant la seule agglomération significative avec environ 130 000 habitants. Les niveaux de NO₂ urbain restent modérés sur l'agglomération limougeaude, les stations ATMO enregistrant des moyennes annuelles autour de 15-20 µg/m³, loin du seuil réglementaire de 40 µg/m³ (directive européenne 2008/50/CE). Les émissions agricoles d'ammoniac (NH₃) constituent le principal levier de vigilance, liées à l'élevage bovin dominant sur ce territoire d'herbages, représentant une part significative des émissions territoriaux selon le CITEPA. La qualité d'air globalement préservée est confirmée par l'absence d'épisodes de pollution persistants et un indice ATMO régulièrement classé « bon » ou « très bon » plus de 300 jours par an.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 moyen <8 µg/m³, favorable malgré seuil OMS 5 µg/m³ dépassé"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain Limoges ~15-20 µg/m³, très inférieur au seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Faible tissu industriel lourd, peu de sites émetteurs classés ICPE"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Élevage bovin dominant génère émissions NH₃ agricoles significatives"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de Nouvelle-Aquitaine, inférieures à 8 µg/m³ en moyenne annuelle (ATMO Nouvelle-Aquitaine, 2022)",
+    "NO₂ urbain très maîtrisé à Limoges avec des niveaux ~15-20 µg/m³, soit 2 à 3 fois sous le seuil réglementaire européen de 40 µg/m³",
+    "Faible densité de sites industriels émetteurs : absence de grands pôles pétrochimiques ou métallurgiques lourds sur le territoire (DREAL Nouvelle-Aquitaine)",
+    "Indice ATMO classé « bon » ou « très bon » plus de 300 jours par an, parmi les meilleurs scores régionaux, grâce à une topographie ouverte favorisant la dispersion"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac (NH₃) liées à l'élevage bovin extensif restent la principale source de pollution azotée locale et contribuent à la formation de particules secondaires, avec un risque d'aggravation si les pratiques agricoles ne s'adaptent pas aux plans climat (CITEPA 2023)",
+    "La combustion de bois énergie, très répandue en habitat rural en Haute-Vienne, génère des pics saisonniers de PM2,5 et de HAP en période hivernale, particulièrement dans les vallées encaissées et lors d'épisodes anticycloniques",
+    "Le dépassement structurel de la valeur guide OMS 2021 pour les PM2,5 (5 µg/m³) reste effectif malgré des niveaux modestes, impliquant un risque sanitaire résiduel à long terme pour les populations vulnérables"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<8 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "~15-20 µg/m³",
+      "label": "NO₂ moyen Limoges (station urbaine)"
+    },
+    {
+      "valeur": ">300 jours/an",
+      "label": "Indice ATMO « bon » ou « très bon »"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil guide OMS 2021 PM2,5"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "CITEPA – Inventaire national des émissions 2023",
+    "DREAL Nouvelle-Aquitaine – Registre ICPE et émissions industrielles"
+  ],
+  "limites": [
+    "Le réseau de surveillance ATMO en Haute-Vienne est concentré sur l'agglomération de Limoges, laissant les zones rurales et périurbaines sans mesures continues, ce qui peut sous-estimer les expositions locales liées à l'élevage ou au chauffage au bois",
+    "Les données NH₃ agricoles reposent sur des modélisations à l'échelle nationale (CITEPA) et non sur des mesures terrain localisées en Haute-Vienne, introduisant une incertitude sur les hotspots réels",
+    "L'absence de station de mesure des HAP (hydrocarbures aromatiques polycycliques) en zone rurale ne permet pas d'évaluer précisément l'impact de la combustion de biomasse résidentielle hors agglomération"
+  ]
+}

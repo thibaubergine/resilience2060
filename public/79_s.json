@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres présentent une qualité des sols fragilisée par une agriculture intensifiée sur ses plaines bocagères et ses zones céréalières, avec des taux de résidus phytosanitaires élevés dans les sols agricoles, particulièrement dans le bassin du Marais poitevin et les secteurs grandes cultures (INRAE 2023). Le département recense environ 45 sites BASOL (ex-sites pollués ou en cours de traitement) selon GéoRisques, un chiffre modéré à l'échelle nationale mais révélateur d'un passé industriel et agro-industriel non négligeable. Le risque radon reste limité en Deux-Sèvres, les formations géologiques dominantes (calcaires, tuffeau) étant peu émettrices comparées aux socles granitiques du Massif central (IRSN, carte nationale). La part de SAU en agriculture biologique atteignait environ 9 à 10% en 2023, soit une valeur dans la moyenne nationale mais en progression constante, portée notamment par des dynamiques filières autour de Niort et du bocage bressuirais (Agence Bio 2024).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 45 sites BASOL, niveau modéré pour un département rural"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression phytosanitaire forte, grandes cultures céréalières et viticoles"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Géologie calcaire, faible potentiel radon départemental confirmé IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~9-10%, dans la moyenne nationale, progression régulière"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de Nouvelle-Aquitaine grâce aux formations calcaires dominantes (IRSN)",
+    "Agriculture biologique en progression : ~10% de la SAU en 2023, avec des filières structurées autour du bocage bressuirais (Agence Bio 2024)",
+    "Nombre de sites BASOL contenu (~45) rapporté à la superficie agricole du département",
+    "Présence du Marais poitevin, zone humide classée dont les sols tourbeux constituent un puits de carbone et un patrimoine pédologique remarquable"
+  ],
+  "vigilances": [
+    "Contamination des sols agricoles par les pesticides (fongicides céréaliers, herbicides maïs) : résidus détectés dans plus de 60% des sites de surveillance grandes cultures INRAE 2023, avec risque d'accumulation à horizon 2030",
+    "Érosion des sols bocagers accélérée par la disparition des haies : perte estimée de plusieurs milliers de km de bocage depuis 1970, fragilisant la structure des sols (Observatoire bocager Deux-Sèvres)",
+    "Risque de tassement et dégradation de la structure des sols lié aux pratiques d'irrigation intensives dans le périmètre du marais mouillé et des zones de grandes cultures sous contrainte hydrique croissante (Climadiag 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~10%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Potentiel radon (IRSN)"
+    },
+    {
+      "valeur": ">60%",
+      "label": "Sites agricoles avec résidus pesticides"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTES)",
+    "INRAE – Observatoire des résidus phytosanitaires dans les sols 2023",
+    "IRSN – Cartographie nationale du risque radon",
+    "Agence Bio – Rapport annuel 2024"
+  ],
+  "limites": [
+    "L'absence de cartographie pédologique fine et exhaustive des Deux-Sèvres limite l'évaluation précise de la dégradation des sols agricoles à l'échelle parcellaire",
+    "Les données BASOL ne capturent pas les pollutions diffuses d'origine agricole (nitrates, pesticides), sous-estimant la pression réelle sur les sols du département",
+    "La part de SAU bio déclarée masque des disparités territoriales fortes entre le bocage bressuirais (dynamique) et les plaines du Mellois ou du Thouarsais plus en retard sur la transition agroécologique"
+  ]
+}

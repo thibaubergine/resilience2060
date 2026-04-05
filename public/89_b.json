@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne (89) présente un profil de biodiversité intermédiaire à légèrement favorable, avec environ 12 % de son territoire couvert par des zones Natura 2000, soit près de 86 000 ha intégrant des habitats forestiers, des prairies humides et des vallées alluviales (INPN 2024). Le département est concerné par le Parc Naturel Régional du Morvan sur sa frange sud-ouest, offrant un cadre de protection partielle à des écosystèmes forestiers riches (OFB 2024). La LPO Bourgogne-Franche-Comté y recense des espèces emblématiques comme le Milan royal, la Pie-grièche écorcheur et plusieurs espèces de chauves-souris en contexte agro-pastoral (LPO 2023). Les corridors écologiques identifiés dans le SRCE Bourgogne restent cependant fragilisés par la fragmentation agricole intensive et l'urbanisation linéaire le long des axes routiers (DREAL BFC 2022). Des pressions significatives s'exercent sur les zones humides de la plaine icaunaise, avec des pertes estimées à plus de 50 % des surfaces historiques depuis 1960 (Agence de l'Eau Seine-Normandie).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Environ 12% du territoire en Natura 2000, soit ~86 000 ha classés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR du Morvan en bordure, couverture protégée partielle du département"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Milan royal, Pie-grièche écorcheur, chauves-souris présentes et suivies"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "SRCE identifie corridors actifs mais fragilisés par agriculture intensive"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 d'environ 86 000 ha incluant des zones humides alluviales et forêts de feuillus (INPN 2024)",
+    "Présence du Milan royal nicheur, espèce emblématique en expansion dans le nord-Bourgogne selon LPO BFC 2023",
+    "Réseau de vallées (Yonne, Armançon, Serein) formant des corridors bleus fonctionnels pour la faune aquatique et semi-aquatique",
+    "Maintien de prairies permanentes dans le bocage du Morvan représentant un réservoir de biodiversité floristique notable"
+  ],
+  "vigilances": [
+    "Régression des zones humides estimée à plus de 50 % depuis 1960, menaçant amphibiens et odonates (Agence de l'Eau Seine-Normandie)",
+    "Intensification agricole sur la plaine céréalière icaunaise fragilise les populations d'oiseaux des champs, en déclin de 35 % depuis 1990 (STOC/LPO)",
+    "Fragmentation des corridors écologiques par l'A6, l'A77 et les routes nationales réduisant la connectivité pour les grands mammifères (DREAL BFC 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~86 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "12%",
+      "label": "Part territoire protégé N2000"
+    },
+    {
+      "valeur": ">50%",
+      "label": "Perte zones humides depuis 1960"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Déclin oiseaux agricoles (1990-2023)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Bourgogne-Franche-Comté 2023",
+    "DREAL BFC – SRCE 2022",
+    "Agence de l'Eau Seine-Normandie"
+  ],
+  "limites": [
+    "Les données de suivi des espèces reposent sur des inventaires participatifs (LPO, INPN) dont la couverture spatiale reste inégale sur le territoire icaunais",
+    "L'état réel des corridors écologiques n'est pas réévalué depuis le SRCE de 2015, limitant la précision des tendances récentes",
+    "L'absence de Parc National ou de Réserve Naturelle Nationale majeure sur le cœur du département réduit la disponibilité de données de suivi standardisées à long terme"
+  ]
+}

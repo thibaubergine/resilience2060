@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne (89) présente une situation hydrique contrastée, avec des ressources en eaux souterraines issues principalement des aquifères calcaires du Bassin de Paris (nappe de la Craie et calcaires jurassiques), globalement bien renouvelées mais vulnérables aux pollutions agricoles diffuses (ARS Bourgogne-Franche-Comté, 2022). La qualité de l'eau potable distribuée est globalement satisfaisante, avec environ 95 % de la population alimentée par une eau conforme aux exigences bactériologiques et physico-chimiques, bien que des dépassements ponctuels en nitrates soient enregistrés sur certaines captages du nord du département (ARS, 2022). Les projections Explore2 (2023) indiquent une baisse des débits moyens des cours d'eau icaunais de l'ordre de 10 à 30 % à l'horizon 2050-2070, avec un étiage de l'Yonne et du Serein particulièrement aggravé en période estivale. La contamination aux nitrates reste préoccupante sur les zones à dominante agricole (céréaliculture intensive), avec plusieurs captages classés en zones de vigilance nitrates dans le cadre de la Directive Cadre sur l'Eau (DCE/AELB, 2021). La présence de PFAS dans les eaux de surface et souterraines commence à être documentée mais les données restent partielles à l'échelle départementale (ANSES, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "95 % population eau conforme; quelques captages en dépassement nitrates"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse débits 10–30 % horizon 2060; étiages Yonne/Serein aggravés (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Zones de vigilance nitrates actives; céréaliculture intensive au nord du département"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Données PFAS partielles; contaminations émergentes détectées sur cours d'eau"
+    }
+  ],
+  "points_forts": [
+    "Environ 95 % de la population icaunaise alimentée en eau potable conforme aux normes bactériologiques et physico-chimiques (ARS BFC, 2022)",
+    "Aquifères calcaires jurassiques et crétacés offrent des réserves souterraines globalement bien renouvelées grâce aux précipitations actuelles (~750 mm/an)",
+    "Réseau hydrographique dense (rivières Yonne, Serein, Armançon, Cure) assurant un soutien naturel aux débits d'étiage",
+    "Démarches de protection des captages AEP avancées dans plusieurs communes avec périmètres de protection bien établis (AELB, 2021)"
+  ],
+  "vigilances": [
+    "Baisse projetée de 20 à 30 % des débits d'étiage estivaux sur l'Yonne et le Serein à l'horizon 2060, menaçant usages agricoles et alimentation en eau potable (Explore2, 2023)",
+    "Plusieurs captages prioritaires classés en zones de vigilance nitrates dépassant ou approchant le seuil de 50 mg/L, liés à l'agriculture céréalière intensive du nord du département (DCE/AELB, 2021)",
+    "Contaminations émergentes aux PFAS insuffisamment documentées à l'échelle départementale, avec risques potentiels liés aux activités industrielles passées et aux épandages agricoles (ANSES, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "95 %",
+      "label": "Population eau potable conforme (ARS 2022)"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Baisse débits projetée 2050-2070 (Explore2)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates, captages en vigilance (DCE)"
+    },
+    {
+      "valeur": "750 mm/an",
+      "label": "Précipitations moyennes actuelles (Météo-France)"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté 2022",
+    "Explore2 BRGM-OFB 2023",
+    "Agence de l'Eau Loire-Bretagne (AELB) DCE 2021",
+    "ANSES Rapport PFAS 2023"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques à l'Yonne restent fragmentaires, les campagnes de mesure systématiques sur les eaux souterraines étant encore incomplètes en 2023-2024",
+    "Les projections Explore2 présentent une incertitude importante à l'échelle des petits bassins versants icaunais, rendant difficile la planification locale précise",
+    "Les statistiques de conformité AEP agrègent communes rurales et urbaines, masquant potentiellement des situations critiques dans les petites collectivités rurales du département"
+  ]
+}

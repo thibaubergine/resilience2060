@@ -1,0 +1,67 @@
+{
+  "synthese": "Le Var présente un profil alimentaire contrasté, bénéficiant d'une tradition agricole méditerranéenne reconnue par plusieurs indications géographiques, notamment en viticulture (premier département rosé mondial avec environ 170 000 hl/an) et en huile d'olive (IGP Huile d'olive de Provence). La Surface Agricole Utile (SAU) représente environ 68 000 ha, soit 14 % du territoire départemental, un taux relativement modeste qui traduit la forte pression foncière liée à l'urbanisation littorale et touristique (AGRESTE 2023). L'agriculture biologique progresse avec près de 22 % de la SAU certifiée bio, plaçant le Var dans le peloton de tête régional (Agence Bio 2023). Cependant, le taux d'autonomie alimentaire reste structurellement faible, le département important massivement fruits, légumes et produits laitiers pour satisfaire une population résidente de 1,1 million d'habitants, gonflée par 5 à 6 millions de touristes annuels (ZAVA 2024). Les circuits courts se développent via les marchés provençaux et une centaine d'AMAP recensées, mais restent insuffisants au regard des besoins globaux du territoire.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Forte dépendance import, tourisme amplifie le déficit alimentaire structurel"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs AOP/IGP actives : rosé Provence, olive, miel, agneau"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "~22% SAU en bio, parmi les meilleurs scores nationaux"
+    },
+    {
+      "label": "5",
+      "score": 5.0,
+      "note": "Réseau AMAP actif mais couverture insuffisante face à la population"
+    }
+  ],
+  "points_forts": [
+    "Premier département producteur de vin rosé en France avec ~170 000 hl/an, exporté dans 150 pays (CIVP 2023)",
+    "Taux de SAU biologique de ~22%, nettement supérieur à la moyenne nationale (10,7%) (Agence Bio 2023)",
+    "Présence de plusieurs signes de qualité reconnus : AOP Bandol, AOP Palette, IGP Méditerranée, IGP Huile d'olive de Provence (INAO 2023)",
+    "Réseau de marchés provençaux dense et tradition de vente directe producteur-consommateur ancrée culturellement"
+  ],
+  "vigilances": [
+    "Pression foncière croissante sur les terres agricoles : perte estimée à 300-400 ha/an au profit de l'urbanisation littorale (SAFER PACA 2022)",
+    "Vulnérabilité hydrique majeure : l'irrigation agricole menacée par les projections de déficit estival de -30% des ressources en eau d'ici 2060 (DRIAS 2023), impactant les cultures maraîchères",
+    "Dépendance touristique structurelle : l'afflux saisonnier de millions de visiteurs crée une pression alimentaire que la production locale ne peut absorber, fragilisant la résilience du système alimentaire territorial"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~22%",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "170 000 hl",
+      "label": "Production vin rosé annuelle"
+    },
+    {
+      "valeur": "68 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "6+",
+      "label": "Signes AOP/IGP actifs (INAO 2023)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à Valeur Alimentaire)",
+    "Agence Bio 2023",
+    "INAO 2023 (Registre AOP/IGP)",
+    "AGRESTE PACA 2023",
+    "CIVP (Conseil Interprofessionnel des Vins de Provence) 2023",
+    "SAFER PACA 2022"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du Var intègrent mal l'effet saisonnier touristique, sous-estimant le déficit réel en période estivale",
+    "La SAU bio déclarée peut inclure des exploitations viticoles en conversion dont l'impact sur la souveraineté alimentaire directe (alimentation de base) est limité",
+    "L'absence de données locales précises sur les volumes échangés en circuits courts rend difficile l'évaluation de leur part réelle dans l'alimentation des ménages varois"
+  ]
+}

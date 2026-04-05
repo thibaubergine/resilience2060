@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Maritime présente une situation hydrique préoccupante, marquée par la vulnérabilité de ses aquifères crayeux karstiques qui alimentent 80 % de la population en eau potable mais s'avèrent particulièrement sensibles aux contaminations de surface (ARS Normandie, 2023). Les teneurs en nitrates dépassent régulièrement 40 mg/L dans plusieurs captages du plateau du Pays de Caux, classé en zone vulnérable depuis les premières directives nitrates (DCE/AESN). Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins côtiers normands, accentuant la pression sur des ressources déjà sollicitées par l'agglomération rouennaise et les activités industrielles de l'axe Seine. La présence de PFAS a été détectée dans plusieurs captages à proximité des zones industrielles de la vallée de Seine, notamment autour de Rouen, à des concentrations préoccupantes au regard des nouvelles normes européennes applicables dès 2026 (ANSES, 2023). L'accident industriel de Lubrizol (2019) a également soulevé des questions durables sur la contamination potentielle des eaux souterraines du secteur.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 4.0,
+      "note": "Captages karstiques vulnérables ; dépassements nitrates fréquents en Pays de Caux"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse étiage 20-40 % prévue 2060 ; ressources côtières sous tension modérée"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Nombreuses zones vulnérables nitrates ; plateau cauchois fortement concerné"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "PFAS détectés vallée de Seine ; périmètres industriels Rouen sous surveillance active"
+    }
+  ],
+  "points_forts": [
+    "Débit moyen de la Seine soutenu : apport amont significatif limitant les pénuries immédiates en période normale",
+    "Réseau de surveillance ARS dense avec contrôle de plus de 1 200 points de captage départementaux (ARS Normandie, 2023)",
+    "Investissements importants en stations de traitement : l'usine de Bapeaume-lès-Rouen traite jusqu'à 100 000 m³/j avec filtration avancée",
+    "Agence de l'Eau Seine-Normandie finance activement les programmes de reconquête de la qualité sur les aires d'alimentation de captages prioritaires"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage à l'horizon 2060 (Explore2, 2023), menaçant l'alimentation en eau potable des 1,3 million d'habitants du département",
+    "Contamination croissante aux PFAS dans les captages de la vallée de Seine : normes européennes abaissées à 0,1 µg/L en 2026 risquant de déclasser plusieurs unités de distribution (ANSES, 2023)",
+    "Prolifération de cyanobactéries en recrudescence sur les retenues et plans d'eau normands lors des étés chauds, incompatible avec les usages eau potable et loisirs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "80 %",
+      "label": "Population alimentée par aquifère crayeux"
+    },
+    {
+      "valeur": "40 mg/L",
+      "label": "Seuil nitrates dépassé dans captages Pays de Caux"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage projetée 2060 (Explore2)"
+    },
+    {
+      "valeur": "100 000 m³/j",
+      "label": "Capacité usine traitement Bapeaume-lès-Rouen"
+    }
+  ],
+  "sources": [
+    "ARS Normandie 2023",
+    "Explore2 BRGM/OFB 2023",
+    "Agence de l'Eau Seine-Normandie",
+    "ANSES – PFAS eaux 2023"
+  ],
+  "limites": [
+    "Les données de contamination PFAS restent partielles pour Seine-Maritime : le maillage de mesure est encore incomplet hors des zones industrielles connues de la vallée de Seine",
+    "L'impact résiduel de l'accident Lubrizol (2019) sur les eaux souterraines n'est pas pleinement documenté publiquement, rendant l'évaluation du risque chronique difficile",
+    "Les projections Explore2 sont données par grand bassin versant et manquent de résolution à l'échelle des aquifères côtiers normands, introduisant une incertitude sur les valeurs locales"
+  ]
+}

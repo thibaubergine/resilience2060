@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie (74) bénéficie d'une altitude moyenne élevée (~1 200 m sur les reliefs alpins) qui constitue un tampon thermique significatif face aux vagues de chaleur, les zones de montagne enregistrant des températures estivales bien inférieures aux plaines françaises. Toutefois, selon Climadiag (Météo-France, 2023), le département connaîtra une hausse des températures moyennes de +2,5 à +3,5°C à l'horizon 2060 sous scénario RCP8.5, avec une multiplication des journées chaudes même en altitude. Le recul des glaciers alpins est spectaculaire : le glacier du Mont-Blanc a perdu plus de 30 % de sa surface depuis 1900, avec une accélération post-2000 (CNRS/Glacioclim). Les projections DRIAS indiquent une réduction de l'enneigement de 20 à 40 % sous 1 500 m à l'horizon 2060, fragilisant les bassins versants et l'alimentation en eau des rivières. Le risque d'inondations torrentielles et de mouvements de terrain reste élevé, classant la Haute-Savoie parmi les départements les plus exposés aux aléas hydroclimatiques montagnards (GéoRisques/TRACC).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude alpine élevée, moyenne >1 200 m, tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Hausse +3°C prévue, canicules rares mais en progression marquée"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux limité par humidité, hausse sensible sous 1 000 m"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Torrents, crues glaciaires et glissements fréquents; risque fort"
+    }
+  ],
+  "points_forts": [
+    "L'altitude moyenne élevée du département maintient des températures estivales significativement inférieures à la moyenne nationale, offrant une résilience thermique naturelle (Climadiag, Météo-France 2023)",
+    "Le risque canicule en zone de montagne (>1 500 m) reste très faible à l'horizon 2060, avec moins de 5 jours de chaleur extrême projetés par an (DRIAS 2023)",
+    "La couverture forestière dense (~46 % du territoire) et l'humidité climatique maintiennent un risque incendie inférieur à la moyenne des départements alpins méridionaux",
+    "La présence de nombreux glaciers et zones humides d'altitude constitue un patrimoine hydrique et climatique reconnu, contribuant à la régulation thermique locale"
+  ],
+  "vigilances": [
+    "Recul glaciaire accéléré : perte projetée de 80 % du volume glaciaire alpin d'ici 2100 sous RCP8.5, menaçant l'alimentation en eau estivale des vallées (CNRS/Glacioclim)",
+    "Multiplication des événements extrêmes : crues torrentielles, laves torrentielles et glissements de terrain en augmentation avec l'intensification des pluies convectives (GéoRisques/TRACC 2022)",
+    "Déstabilisation du permafrost au-dessus de 2 500 m entraînant des chutes de blocs et effondrements rocheux, phénomène documenté sur le massif du Mont-Blanc depuis 2010"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse T° projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Réduction enneigement <1 500 m"
+    },
+    {
+      "valeur": "46%",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "80%",
+      "label": "Perte volume glaciaire projetée 2100"
+    }
+  ],
+  "sources": [
+    "Météo-France / Climadiag 2023",
+    "DRIAS 2023 (projections climatiques)",
+    "CNRS / Glacioclim (suivi glaciaires)",
+    "GéoRisques / TRACC 2022"
+  ],
+  "limites": [
+    "La forte hétérogénéité altitudinale du département (300 m à 4 808 m) rend les projections climatiques moyennées peu représentatives des réalités locales de chaque vallée",
+    "Les modèles climatiques à maille large (DRIAS ~8 km) peinent à restituer les effets de versant, d'exposition et de foehn propres aux vallées alpines haut-savoyardes",
+    "L'impact du recul glaciaire sur la disponibilité en eau estivale à l'horizon 2060 est encore entaché d'incertitudes importantes selon les scénarios d'émissions retenus"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme (80) présente une situation hydrique préoccupante malgré l'apparente abondance de ses ressources en eaux souterraines (nappe de la Craie, principal aquifère régional). La qualité de l'eau potable est fortement compromise par des teneurs en nitrates dépassant régulièrement 50 mg/L dans plusieurs captages du plateau picard, classant le département parmi les plus exposés aux pollutions agricoles (ARS Hauts-de-France, 2023). Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 20 à 40 % d'ici 2060 sur les bassins versants de la Somme et de l'Authie, accentuant un stress hydrique estival déjà perceptible lors des sécheresses de 2019-2022. La contamination aux PFAS est documentée dans plusieurs communes proches de zones industrielles et militaires (Airbus, bases OTAN), avec des signalements dans les eaux brutes (DCE/ADES, 2022-2023). Le score eau de 4,5/10 reflète un département agricole intensif soumis à des pressions cumulées sur ses masses d'eau superficielles et souterraines.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Captages en zones vulnérables nitrates ; conformité partielle ARS 2023"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse débits étiage 20-40 % prévue ; Explore2 horizon 2060"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 3.0,
+      "note": "Plateau picard en zone vulnérable ; dépassements 50 mg/L fréquents"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "Contaminations PFAS détectées près sites industriels et bases militaires"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (Somme, Authie, Bresle) assurant un débit de base soutenu en conditions normales",
+    "La nappe de la Craie constitue un réservoir stratégique reconnu, alimentant plus de 80 % de la production d'eau potable départementale (ARS Hauts-de-France)",
+    "Des périmètres de protection de captage (PPC) sont opérationnels sur plusieurs captages prioritaires, avec actions agri-environnementales engagées (Agence de l'Eau Artois-Picardie)",
+    "Présence de zones humides (baies de Somme et Authie, étangs de la Haute-Somme) jouant un rôle de régulation et filtration naturelle reconnu (OFB 2024)"
+  ],
+  "vigilances": [
+    "Dégradation persistante des masses d'eau souterraines : la nappe de la Craie est classée en mauvais état chimique sur une grande partie du département en raison des nitrates et pesticides (DCE 2022, objectif bon état reporté post-2027)",
+    "Projections Explore2 (2023) indiquant une réduction des recharges hivernales de la nappe de la Craie de 15 à 30 % à horizon 2060, menaçant l'alimentation en eau potable de 570 000 habitants",
+    "Risque de contamination croisée PFAS/nitrates sur des captages déjà fragiles, sans filières de traitement systématiquement déployées à l'échelle départementale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">50 mg/L",
+      "label": "Nitrates : dépassements sur captages prioritaires"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage prévue (Explore2, 2060)"
+    },
+    {
+      "valeur": "80 %",
+      "label": "Part eau potable issue nappe de la Craie"
+    },
+    {
+      "valeur": "Mauvais état",
+      "label": "Statut DCE nappe Craie (chimique, 2022)"
+    }
+  ],
+  "sources": [
+    "ARS Hauts-de-France – Bilan qualité eau potable 2023",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "Agence de l'Eau Artois-Picardie – État des masses d'eau DCE 2022",
+    "ADES/BRGM – Surveillance PFAS eaux souterraines 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS dans les eaux brutes de la Somme restent partielles : tous les captages n'ont pas encore fait l'objet d'analyses systématiques en 2023-2024",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle locale (maille bassin versant) ; les impacts sur la nappe de la Craie spécifiquement à la Somme nécessitent des modélisations affinées",
+    "L'état réel des petites masses d'eau superficielles (ruisseaux, fossés agricoles) est sous-documenté faute de points de surveillance DCE suffisants sur l'ensemble du territoire départemental"
+  ]
+}

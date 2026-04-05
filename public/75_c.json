@@ -1,0 +1,65 @@
+{
+  "synthese": "Paris (75), département le plus densément peuplé de France avec 20 900 hab/km², présente une vulnérabilité climatique exceptionnellement élevée à l'horizon 2060. Les projections DRIAS 2023 indiquent que Paris pourrait connaître entre 30 et 50 jours de canicule annuels d'ici 2060 sous scénario RCP8.5, contre 5 à 7 jours en moyenne actuelle. L'effet d'îlot de chaleur urbain (ICU), documenté par Météo-France et Apur, génère déjà un différentiel de +3 à +5°C entre le centre parisien et sa périphérie végétalisée lors des épisodes caniculaires. La Seine traverse le département sur 13 km, exposant environ 830 000 habitants à un risque d'inondation centennale estimé à 35 milliards d'euros de dommages (rapport OCDE 2014, actualisé CatNat 2022). L'imperméabilisation quasi-totale des sols (plus de 80 % de surfaces artificialisées selon Corine Land Cover 2018) réduit drastiquement toute capacité de régulation thermique naturelle du territoire.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 2.0,
+      "note": "Altitude moyenne 35 m, aucun tampon orographique, ICU sévère"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 2.0,
+      "note": "30 à 50 jours canicule/an projetés en 2060, ICU +5°C (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux quasi nul, territoire 99% urbanisé, absence forêts"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 2.0,
+      "note": "Seine traversante, 830 000 habitants en zone inondable centennale"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt quasi inexistant : moins de 1 % de surface boisée dans le département (IGN 2022), réduisant ce facteur de vulnérabilité climatique spécifique",
+    "Réseau de météorologie urbaine dense avec 17 stations Météo-France permettant un suivi fin des îlots de chaleur (Observatoire Parisien de l'Environnement)",
+    "Plan Canopée de la Ville de Paris vise +170 000 arbres d'ici 2026, soit +20 % du patrimoine arboré actuel",
+    "Présence du PLUIH \"Paris en Commun\" intégrant des prescriptions climatiques et des obligations de végétalisation en toiture depuis 2023"
+  ],
+  "vigilances": [
+    "Canicules et surmortalité : la canicule de 2003 a causé près de 4 800 décès en excès en Île-de-France dont une majorité à Paris ; les projections 2060 sous RCP8.5 indiquent une intensification et une multiplication des épisodes (Santé Publique France / Climadiag 2023)",
+    "Inondation majeure de la Seine : une crue centennale de type 1910 inonderait 55 000 km de réseaux souterrains et paralyserait la métropole pour plusieurs semaines ; probabilité d'occurrence estimée à 1 % par an (EPTB Seine Grands Lacs / OCDE)",
+    "Imperméabilisation et ruissellement urbain : avec 80 % de sols imperméables, le moindre épisode pluvieux intense génère des inondations locales par ruissellement, risque aggravé par l'augmentation des précipitations extrêmes projetée (DRIAS/Explore2)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3 à +5°C",
+      "label": "Différentiel ICU centre/périphérie"
+    },
+    {
+      "valeur": "30-50 j/an",
+      "label": "Jours canicule projetés 2060 (RCP8.5)"
+    },
+    {
+      "valeur": ">80%",
+      "label": "Part de sols imperméabilisés"
+    },
+    {
+      "valeur": "35 Md€",
+      "label": "Coût estimé crue centennale Seine"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France Climadiag",
+    "OCDE & EPTB Seine Grands Lacs – Rapport inondation 2014/2022",
+    "Corine Land Cover 2018 – IGN / Apur",
+    "Santé Publique France – Surmortalité canicules / OPE Paris"
+  ],
+  "limites": [
+    "L'absence quasi totale d'espace rural dans Paris intra-muros rend inopérants les indicateurs climatiques standards conçus pour des départements mixtes urbain-rural",
+    "Les projections DRIAS sont calibrées à l'échelle régionale Île-de-France et peuvent sous-estimer les effets hyperlocalaux de l'ICU parisien, non capturés par les mailles de modélisation de 8 km",
+    "Le score Climat 2060 ne reflète pas les capacités d'adaptation institutionnelle et financière de Paris, qui dispose de moyens budgétaires bien supérieurs à la quasi-totalité des autres départements français pour financer des solutions de résilience"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente une vulnérabilité climatique significative à l'horizon 2060, caractérisée par une augmentation projetée des températures de +2,5°C à +3,5°C selon les scénarios RCP4.5 et RCP8.5 (DRIAS/Météo-France). Le département enregistre déjà en moyenne 15 à 20 jours de canicule par an, un chiffre qui pourrait tripler d'ici 2060 selon Climadiag, plaçant le territoire parmi les plus exposés de France métropolitaine. Le massif du Luberon et le Mont Ventoux (1 912 m) offrent un tampon thermique partiel pour les zones d'altitude, mais la plaine du Comtat Venaissin et la vallée du Rhône restent très vulnérables aux vagues de chaleur extrêmes (TRACC/AP3C). Le risque feux de forêt est élevé : plus de 40 % du territoire est classé en aléa fort à très fort (GéoRisques), avec des saisons ignifuges qui s'allongent selon les projections régionales PACA 2060. Les inondations constituent également une menace majeure, notamment via les crues du Rhône et de la Durance, cours d'eau dont les régimes hydrologiques seront profondément modifiés (Explore2/TRACC).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Mont Ventoux (1912m) et Luberon offrent tampon thermique partiel limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "+3,5°C projeté RCP8.5 ; nombre jours canicule triplé d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 4.0,
+      "note": "40% territoire en aléa feux fort à très fort ; saison ignifuge allongée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Pas de façade côtière ; crues Rhône/Durance maîtrisées partiellement"
+    }
+  ],
+  "points_forts": [
+    "Présence du Mont Ventoux (1 912 m) et du massif du Luberon constituant des refuges climatiques d'altitude pour la biodiversité et les populations",
+    "Absence totale de façade maritime, éliminant tout risque de submersion côtière et de montée des eaux (source : TRACC)",
+    "Infrastructure de protection contre les crues du Rhône renforcée après les inondations historiques, avec digues classées Rhône-Saône",
+    "Réseau de surveillance météorologique dense en région PACA (AP3C) permettant une anticipation opérationnelle des épisodes extrêmes"
+  ],
+  "vigilances": [
+    "Multiplication par 2 à 3 du nombre de jours de canicule d'ici 2060 (scénario RCP8.5, Climadiag) : jusqu'à 45-60 jours/an en plaine du Comtat, avec impacts sanitaires majeurs sur les populations âgées",
+    "Extension de la saison à risque feux de forêt sur 5 à 6 mois contre 3 actuellement, avec progression de l'aléa vers des massifs jusqu'ici épargnés (Luberon nord, Ventoux)",
+    "Modification profonde des régimes hydrologiques de la Durance et du Rhône : étiages estivaux plus sévères et crues méditerranéennes plus intenses selon Explore2, menaçant alimentation en eau et agriculture"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse T° projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "~45 j/an",
+      "label": "Jours canicule projetés 2060"
+    },
+    {
+      "valeur": "40%",
+      "label": "Territoire en aléa feux fort/très fort"
+    },
+    {
+      "valeur": "1 912 m",
+      "label": "Altitude Mont Ventoux (tampon thermique)"
+    }
+  ],
+  "sources": [
+    "DRIAS / Météo-France 2023",
+    "Climadiag Communes – Météo-France 2023",
+    "TRACC / ADEME – AP3C PACA",
+    "GéoRisques – DREAL PACA / Explore2 BRGM 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à l'échelle communale mais leur agrégation départementale masque les fortes disparités entre plaine du Comtat (très vulnérable) et zones d'altitude du Luberon ou du Ventoux",
+    "L'indice de risque feux repose sur des modèles végétation actuels, ne prenant pas encore pleinement en compte les évolutions futures des peuplements forestiers sous stress hydrique en Vaucluse",
+    "Les données sur la vulnérabilité aux inondations fluviales (Rhône, Durance) intègrent imparfaitement les interactions entre changement climatique et gestion des ouvrages hydrauliques (barrages EDF sur la Durance)"
+  ]
+}

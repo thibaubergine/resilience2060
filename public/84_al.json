@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente un profil alimentaire contrasté, porté par une agriculture méditerranéenne diversifiée mais soumise à de fortes tensions structurelles. Le département compte plus de 15 appellations AOP/IGP dont les célèbres vins des Côtes-du-Rhône, le Ventoux, le luberon et les fruits (cerise de Venasque, melon du Quercy), faisant de lui l'un des territoires les mieux dotés en signes officiels de qualité (INAO, 2023). La Surface Agricole Utile (SAU) en agriculture biologique représente environ 18 % du total départemental, au-dessus de la moyenne nationale de 10,7 % (Agence Bio, 2023), reflétant une dynamique de conversion notable dans les filières maraîchage et arboriculture. L'autonomie alimentaire reste cependant limitée : la zone d'autonomie alimentaire (ZAVA) du Vaucluse révèle une forte dépendance aux importations pour les céréales et les protéines animales, la SAU étant majoritairement orientée vers les cultures d'exportation et le vignoble (ZAVA, 2024). Les circuits courts et AMAP sont relativement développés autour d'Avignon et d'Apt, mais la pression foncière agricole et l'étalement urbain fragilisent les exploitations péri-urbaines (Chambre d'Agriculture PACA, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Forte dépendance aux importations céréales et protéines animales (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Plus de 15 AOP/IGP, vignobles et fruits reconnus, parmi les premiers départements"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "18 % SAU bio, au-dessus moyenne nationale 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Circuits courts actifs Avignon/Apt, pression foncière limite le développement"
+    }
+  ],
+  "points_forts": [
+    "Plus de 15 AOP/IGP recensées en Vaucluse, dont AOC Côtes-du-Rhône, Ventoux, Luberon et IGP fruits (INAO, 2023)",
+    "18 % de la SAU en agriculture biologique, soit presque le double de la moyenne nationale (Agence Bio, 2023)",
+    "Réseau de marchés de producteurs dense avec plus de 50 marchés hebdomadaires répertoriés, notamment autour d'Avignon, Carpentras et Apt",
+    "Filières maraîchage et arboriculture (cerises, fraises, melons, asperges) contribuant à une production locale diversifiée et à forte valeur ajoutée"
+  ],
+  "vigilances": [
+    "Pression foncière agricole croissante autour d'Avignon et de l'axe rhodanien : perte estimée à plus de 500 ha/an de SAU (DRAAF PACA, 2022), menaçant la production maraîchère péri-urbaine",
+    "Vulnérabilité climatique des filières fruitières et viticoles face aux épisodes de gel tardif, grêle et canicule, dont la fréquence augmente selon les projections DRIAS 2060 (pertes de récolte +30 à +50 % possibles d'ici 2050)",
+    "Autonomie protéique quasi nulle : absence de filière locale structurée en légumineuses et élevage, renforçant la dépendance alimentaire territoriale malgré la richesse des signes de qualité (ZAVA, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "15+",
+      "label": "Appellations AOP/IGP recensées"
+    },
+    {
+      "valeur": "18 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "500 ha/an",
+      "label": "Perte SAU estimée (DRAAF PACA)"
+    },
+    {
+      "valeur": "50+",
+      "label": "Marchés de producteurs hebdomadaires"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre des signes officiels de qualité",
+    "Agence Bio 2023 – Statistiques nationales et départementales",
+    "ZAVA 2024 – Zones d'autonomie alimentaire",
+    "DRAAF PACA 2022 – Recensement agricole et foncier"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour le Vaucluse : la méthodologie de calcul de l'autonomie alimentaire ne capture pas les flux réels de commercialisation locale vs exportation des productions AOP/IGP",
+    "Le taux de SAU en bio intègre des exploitations en conversion récente dont la pérennité économique reste incertaine, pouvant surestimer la robustesse de la filière biologique vauclusienne",
+    "L'absence de données harmonisées sur la densité et le chiffre d'affaires des AMAP à l'échelle départementale empêche une évaluation précise du poids réel des circuits courts dans l'alimentation des habitants"
+  ]
+}

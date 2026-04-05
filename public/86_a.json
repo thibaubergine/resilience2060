@@ -1,0 +1,65 @@
+{
+  "synthese": "La qualité de l'air dans le département de la Vienne (86) est globalement satisfaisante, bénéficiant d'une faible densité urbaine et d'un tissu industriel limité autour de Poitiers et Châtellerault. Les concentrations annuelles en PM2,5 y restent modérées, estimées entre 8 et 11 µg/m³ selon ATMO Nouvelle-Aquitaine (2022), en deçà de la valeur limite réglementaire européenne (25 µg/m³) mais dépassant la nouvelle recommandation OMS 2021 fixée à 5 µg/m³. Le dioxyde d'azote (NO₂) reste sous le seuil critique en zones péri-urbaines, bien que l'axe Poitiers-Châtellerault concentre les émissions liées au trafic (A10/N10). En revanche, l'agriculture intensive (élevage bovin, grandes cultures) génère des émissions d'ammoniac (NH₃) non négligeables, le département figurant parmi les émetteurs agricoles significatifs de la région selon les inventaires CITEPA 2021. La note de 6,5/10 reflète une situation meilleure que la moyenne nationale, pénalisée par la pression agricole diffuse.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³, inférieur limite EU, dépasse seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ faible hors Poitiers, trafic A10 localisé, niveaux acceptables"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle, quelques sites Châtellerault sans impact majeur"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole élevé, élevage bovin et cultures intensives, pression diffuse"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à la moyenne nationale (~13 µg/m³), estimées à 8-11 µg/m³ (ATMO Nouvelle-Aquitaine, 2022)",
+    "Absence d'industrie lourde polluante majeure : aucun site ICPE A de grande envergure émetteur atmosphérique sur le territoire (DREAL NA, 2022)",
+    "NO₂ urbain sous les seuils réglementaires (40 µg/m³) y compris à Poitiers, favorable par rapport aux métropoles régionales",
+    "Couverture forestière et espaces naturels (Forêt de Moulière, vallées) contribuant à la dispersion et l'absorption des polluants locaux"
+  ],
+  "vigilances": [
+    "Les émissions agricoles d'ammoniac (NH₃) dépassent les niveaux préoccupants et participent à la formation de particules secondaires PM2,5, un risque peu visible mais documenté (CITEPA 2021)",
+    "L'axe autoroutier A10 traversant le département génère des pics locaux de NO₂ et particules, avec risques sanitaires pour les communes riveraines (Vouneuil, Beaumont)",
+    "Le changement climatique (scénarios DRIAS 2060) devrait intensifier les épisodes d'ozone estival (O₃), pour lesquels la Vienne présente déjà des dépassements ponctuels du seuil d'information (180 µg/m³)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "<40 µg/m³",
+      "label": "NO₂ urbain Poitiers"
+    },
+    {
+      "valeur": "~15% superficie",
+      "label": "Part zones agricoles émettrices NH₃"
+    },
+    {
+      "valeur": "6,5/10",
+      "label": "Score Air départemental"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine 2022",
+    "CITEPA Inventaire national 2021",
+    "OMS Guidelines qualité de l'air 2021",
+    "DREAL Nouvelle-Aquitaine ICPE 2022"
+  ],
+  "limites": [
+    "Réseau de mesure ATMO peu dense en Vienne rurale : peu de stations fixes hors agglomération poitevine, données interpolées sur 80% du territoire",
+    "Les émissions NH₃ agricoles sont estimées par modélisation, sans mesures directes locales fiables, introduisant une incertitude significative sur les niveaux réels",
+    "Absence de données récentes (post-2022) sur l'évolution des concentrations en ozone O₃ estival spécifiques au département, limitant l'évaluation du risque climatique à court terme"
+  ]
+}

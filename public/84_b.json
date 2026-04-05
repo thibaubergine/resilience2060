@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Vaucluse présente une biodiversité remarquable grâce à la présence du Parc Naturel Régional du Luberon et du Mont Ventoux, classé Réserve de Biosphère UNESCO depuis 1990, couvrant environ 65 000 ha. Le département abrite plus de 2 500 espèces végétales inventoriées (INPN 2024), représentant une diversité floristique exceptionnelle liée aux gradients altitudinaux et aux milieux méditerranéens. Les zones Natura 2000 couvrent environ 28 % du territoire départemental, comprenant 29 sites désignés (ZSC et ZPS) pour des habitats prioritaires comme les pelouses sèches et les forêts de chênes (OFB 2024). Cependant, la fragmentation des habitats par les axes routiers (A7, A9) et l'étalement urbain autour d'Avignon et de Carpentras fragilisent les continuités écologiques identifiées dans le SRCE PACA. La pression agricole intensive (viticulture, maraîchage) sur le plateau de Coustellet et la plaine du Comtat génère des impacts significatifs sur les pollinisateurs et la faune des sols (LPO PACA 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "28% du territoire en Natura 2000, 29 sites ZSC/ZPS désignés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Luberon, Ventoux Réserve Biosphère UNESCO, nombreuses réserves"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Aigle de Bonelli, grand tétras, loup, flore méditerranéenne exceptionnelle"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Fragmentation marquée A7/étalement urbain Avignon, TVB dégradée"
+    }
+  ],
+  "points_forts": [
+    "Réserve de Biosphère UNESCO du Mont Ventoux (65 000 ha) reconnue pour sa biodiversité altitudinale exceptionnelle (UNESCO/OFB 2024)",
+    "29 sites Natura 2000 couvrant ~28 % du département, parmi les mieux dotés de PACA (INPN 2024)",
+    "Présence de l'Aigle de Bonelli (Aquila fasciata), espèce emblématique avec 4-5 couples nicheurs suivis par la LPO PACA 2023",
+    "PNR du Luberon abritant plus de 1 800 espèces animales et 2 000 espèces végétales recensées, dont 24 espèces protégées prioritaires"
+  ],
+  "vigilances": [
+    "Régression des pollinisateurs sauvages estimée à -30 % en 15 ans dans la plaine agricole du Comtat Venaissin, liée aux traitements phytosanitaires (LPO PACA 2023)",
+    "Risque incendie croissant : 60 % des forêts du Vaucluse classées en aléa fort à très fort, menaçant les habitats à reptiles et petits mammifères (DRAAF PACA 2023)",
+    "Espèces exotiques envahissantes (Jussie, Renouée du Japon, Frelon asiatique) en progression sur les berges de la Durance et du Rhône, perturbant les écosystèmes rivulaires (INPN/CEN PACA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "29",
+      "label": "Sites Natura 2000 (ZSC+ZPS)"
+    },
+    {
+      "valeur": "65 000 ha",
+      "label": "Réserve Biosphère Ventoux"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces végétales recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO PACA 2023",
+    "CEN PACA 2024",
+    "UNESCO / PNR Luberon"
+  ],
+  "limites": [
+    "Les inventaires INPN restent partiels sur les zones agricoles intensives du Comtat, sous-estimant la pression réelle sur la faune des sols",
+    "L'état de conservation réel des habitats Natura 2000 n'est pas actualisé annuellement ; certaines évaluations datent de 2015-2018 pour le Vaucluse",
+    "Les corridors écologiques du SRCE PACA (2014) n'ont pas fait l'objet d'une révision récente intégrant l'urbanisation post-2020 autour d'Avignon"
+  ]
+}

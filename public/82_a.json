@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn-et-Garonne affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle qui limite les émissions de polluants primaires. Les concentrations en PM2,5 mesurées par ATMO Occitanie se situent autour de 10–12 µg/m³ en moyenne annuelle, proches mais légèrement supérieures à la valeur guide OMS 2021 de 5 µg/m³, avec des pics hivernaux liés au chauffage au bois résidentiel. Le NO₂ urbain reste modéré à Montauban, chef-lieu du département, avec des niveaux inférieurs à 25 µg/m³ (seuil OMS : 10 µg/m³), sans dépassement de la valeur limite européenne de 40 µg/m³ (ATMO Occitanie, 2022–2023). La principale pression identifiée demeure les émissions d'ammoniac (NH₃) d'origine agricole, le département étant un territoire d'élevage et de grandes cultures intensives générant une part significative des émissions régionales (Citepa, inventaire 2021). La vallée de la Garonne et les abords de la RN20 constituent des zones de vigilance en termes d'exposition aux polluants de trafic.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~10–12 µg/m³, au-dessus OMS 5 µg/m³, sous seuil UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ Montauban <25 µg/m³, bien sous valeur limite 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible tissu industriel, peu d'ICPE émettrices majeures identifiées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole élevé, élevage et grandes cultures, pression persistante"
+    }
+  ],
+  "points_forts": [
+    "Aucun dépassement de la valeur limite européenne NO₂ (40 µg/m³) enregistré à Montauban (ATMO Occitanie, 2023)",
+    "Faible densité d'ICPE classées AS (Autorisation Spéciale) émettant des polluants atmosphériques majeurs, inférieure à la moyenne régionale",
+    "Bonnes conditions de dispersion des polluants grâce aux vents dominants du couloir Garonne et à la topographie ouverte du département",
+    "Amélioration tendancielle des PM10 et PM2,5 sur la dernière décennie, conformément à la trajectoire régionale Occitanie (-15 % en 10 ans, ATMO Occitanie)"
+  ],
+  "vigilances": [
+    "Les émissions de NH₃ agricoles représentent plus de 85 % des émissions totales d'ammoniac départementales et contribuent à la formation de particules secondaires (PM2,5 secondaires), tendance non réductrice à court terme (Citepa, 2021)",
+    "Les épisodes de brumes hivernales dans la plaine garonnaise favorisent l'accumulation de particules fines liées au chauffage au bois, avec des pics PM2,5 pouvant dépasser 25 µg/m³ lors d'inversions thermiques",
+    "Le développement logistique et routier autour de la RN20/A20 (axe Montauban–Cahors) expose des populations riveraines à des niveaux croissants de NO₂ et de particules liées au trafic poids lourds"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ urbain Montauban"
+    },
+    {
+      "valeur": ">85 %",
+      "label": "Part NH₃ d'origine agricole"
+    },
+    {
+      "valeur": "0",
+      "label": "Dépassements valeur limite NO₂ UE"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "OMS Guidelines qualité de l'air 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³)",
+    "Citepa – Inventaire national des émissions, format Secten 2021",
+    "Préfecture 82 / DREAL Occitanie – Recensement ICPE 2023"
+  ],
+  "limites": [
+    "La couverture du réseau de stations de mesure ATMO en Tarn-et-Garonne est limitée (principalement Montauban), rendant difficile l'évaluation fine de la qualité de l'air en zones rurales et périurbaines",
+    "L'absence de station de mesure NH₃ en continu sur le territoire contraint à des estimations modélisées pour les émissions agricoles, avec une incertitude notable sur les valeurs réelles d'exposition",
+    "Les données sur l'exposition aux pesticides atmosphériques (dérive de pulvérisation en zone arboricole et maraîchère, secteur important du 82) restent parcellaires et non intégrées aux indices officiels de qualité de l'air"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn présente un profil pédologique contrasté, avec une mosaïque de sols allant des terres argilo-calcaires du Lauragais aux sols acides et granitiques de la Montagne Noire et du Massif du Sidobre. Le département recense environ 85 sites ou sols pollués référencés dans la base BASIAS/ex-BASOL (GéoRisques), héritage notamment de l'industrie textile (Mazamet), minière et chimique. Concernant la contamination par les pesticides, les sols agricoles du Tarn subissent une pression modérée liée aux grandes cultures céréalières du Ségala et aux vignobles de Gaillac, avec des résidus détectés dans 30 à 40 % des échantillons analysés selon le réseau INRAE 2023. Le risque radon est significatif sur les zones granitiques et métamorphiques du sud-ouest du département, classées en potentiel radon catégorie 3 (IRSN). L'agriculture biologique représente environ 9,5 % de la SAU départementale (Agence Bio 2023), un taux légèrement inférieur à la moyenne occitane (~15 %), limitant l'amélioration de la qualité des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 85 sites BASIAS/ex-BASOL, héritage industries textile et minière"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Pression pesticides modérée, vignobles Gaillac et céréales Ségala concernés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Zones granitiques Montagne Noire classées potentiel radon catégorie 3 (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "Bio ~9,5% SAU, progression notable mais sous moyenne occitane (~15%)"
+    }
+  ],
+  "points_forts": [
+    "La SAU bio atteint environ 9,5 % (Agence Bio 2023), soit une progression de +35 % en 5 ans dans le département",
+    "La diversité pédologique (argilo-calcaires, granites, schistes) favorise une grande diversité agronomique et des pratiques culturales variées",
+    "Les Monts de Lacaune et la Montagne Noire conservent des sols forestiers peu artificialisés, avec une faible pression agricole intensive",
+    "L'artificialisation des sols reste contenue à environ 6,8 % du territoire, inférieure à la moyenne nationale (~9,3 %), selon le Cerema 2022"
+  ],
+  "vigilances": [
+    "L'héritage industriel (tanneries de Mazamet, mines de Carmaux) génère des risques de pollution résiduelle aux métaux lourds (plomb, chrome) sur plusieurs friches non encore dépollues",
+    "La pression viticole autour de Gaillac et l'usage de produits phytosanitaires exposent les sols à des contaminations chroniques aux fongicides et herbicides, avec détection possible dans les eaux superficielles (DCE)",
+    "Le changement climatique d'ici 2060 (scénario DRIAS) accentuera les phénomènes d'érosion hydrique sur les coteaux argilo-calcaires, aggravant la dégradation structurelle des horizons superficiels"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~85",
+      "label": "Sites BASIAS/ex-BASOL recensés"
+    },
+    {
+      "valeur": "9,5%",
+      "label": "Part SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "6,8%",
+      "label": "Taux d'artificialisation des sols"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Potentiel radon zones granitiques (IRSN)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Réseau de Mesure de la Qualité des Sols 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas l'ensemble des pollutions diffuses historiques liées aux tanneries artisanales, nombreuses dans le bassin mazamétain",
+    "L'absence d'un réseau de surveillance pédologique départemental dense rend difficile la cartographie précise des résidus de pesticides à l'échelle fine du Tarn",
+    "Les indicateurs de qualité biologique des sols (vers de terre, microbiote) ne font pas l'objet d'un suivi systématique à l'échelle départementale, limitant l'évaluation de la santé globale des écosystèmes pédologiques"
+  ]
+}

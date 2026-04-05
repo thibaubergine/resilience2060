@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Yonne (89), département de plaine et de plateaux calcaires du nord de la Bourgogne, présente une vulnérabilité climatique modérée à l'horizon 2060, pénalisée par sa position en zone de transition entre le bassin parisien et le Massif Central, sans relief protecteur significatif. Selon les projections Climadiag (Météo-France, 2023), le département pourrait connaître une augmentation de +2,3°C à +3,1°C en température moyenne estivale d'ici 2060, avec un nombre de jours de canicule multiplié par 3 à 4 par rapport à la période de référence 1981-2010. Le scénario DRIAS SSP5-8.5 indique que l'Yonne passerait de 5 jours de vagues de chaleur annuelles en moyenne à plus de 20 jours en fin de siècle, affectant particulièrement l'axe de l'Yonne et de l'Armançon. Les risques d'inondations restent préoccupants, notamment dans les vallées de l'Yonne et du Serein, classées en territoire à risque important d'inondation (TRI) par la DREAL Bourgogne-Franche-Comté (2022), avec des épisodes de crues centennales susceptibles d'être plus intenses en raison de la modification des régimes pluviométriques (TRACC, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Plateaux calcaires à 200-400m, tampon thermique modéré, sans massif protecteur"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Projections DRIAS : +20 jours canicule/an à horizon 2060, exposition forte"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Faible taux boisement résineux, risque feux limité mais en progression notable"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Vallées Yonne et Serein classées TRI, crues fréquentes, plaines inondables étendues"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 250 m et topographie de plateaux calcaires offrant un léger tampon thermique par rapport aux plaines du bassin parisien",
+    "Faible couverture en forêts résineuses (moins de 15% du couvert forestier), limitant structurellement le risque incendie selon l'Inventaire Forestier National (IGN, 2023)",
+    "Réseau hydrographique dense (Yonne, Serein, Armançon, Cure) maintenant des corridors de fraîcheur potentiels dans les vallées en période estivale",
+    "Tradition viticole adaptative (Chablis, Irancy) démontrant une capacité historique d'ajustement aux variations climatiques interannuelles"
+  ],
+  "vigilances": [
+    "Augmentation projetée du nombre de jours de vague de chaleur à plus de 20 jours/an à horizon 2060 (scénario SSP3-7.0, DRIAS 2023), avec un département peu équipé en infrastructures de rafraîchissement urbain",
+    "Risque d'étiage sévère de la rivière Yonne en été, avec des débits d'étiage susceptibles de baisser de 30 à 40% selon le scénario Explore2 (BRGM/OFB, 2023), menaçant l'alimentation en eau potable de secteurs ruraux",
+    "Intensification des crues rapides sur les affluents du Serein et de l'Armançon, avec des épisodes cévenols remontants plus fréquents projetés par les modèles AP3C (2023), accentuant la vulnérabilité des communes riveraines déjà inscrites au TRI Sens-Joigny-Auxerre"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,7°C",
+      "label": "Hausse température estivale 2060 (SSP3-7.0)"
+    },
+    {
+      "valeur": "~20 j/an",
+      "label": "Jours de vague de chaleur projetés 2060"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Baisse débit étiage Yonne (Explore2)"
+    },
+    {
+      "valeur": "3 TRI",
+      "label": "Territoires à Risque Inondation identifiés"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 – scénarios SSP3-7.0 et SSP5-8.5",
+    "Explore2 BRGM/OFB 2023",
+    "TRACC & AP3C Bourgogne-Franche-Comté 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag disponibles pour l'Yonne reposent sur des mailles de 8 km ne permettant pas de différencier les microclimats locaux (fonds de vallées vs. plateaux calcaires exposés)",
+    "L'absence d'un Plan Climat-Air-Énergie Territorial (PCAET) finalisé et opposable pour l'ensemble des intercommunalités du département limite la disponibilité de données d'adaptation locales actualisées",
+    "Les scénarios de risque feux de forêt pour l'Yonne restent peu documentés à l'échelle départementale fine, les outils nationaux (DFCI, ONF) étant principalement calibrés pour les massifs méditerranéens et landais"
+  ]
+}

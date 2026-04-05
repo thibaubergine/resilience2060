@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie présente un patrimoine naturel exceptionnel grâce à ses écosystèmes alpins et lacustres : le département abrite plus de 28 % de sa superficie couverte par le réseau Natura 2000, englobant des habitats montagnards d'altitude et des zones humides remarquables (INPN, 2024). Avec la présence du Parc National de la Vanoise en limite departementale, du Parc Naturel Régional du Massif des Bauges et du Massif des Bornes, les espaces sous protection forte ou contractuelle représentent une part significative du territoire (OFB, 2024). Le département recense plus de 2 500 espèces végétales et accueille des espèces emblématiques comme le tétras-lyre, le lynx boréal, le gypaète barbu et la lamproie de Planer dans ses cours d'eau (LPO Haute-Savoie, 2023). Les corridors écologiques alpins restent globalement fonctionnels mais subissent une pression croissante liée à l'urbanisation des vallées et à la fréquentation touristique intensive, notamment dans les secteurs de Chamonix-Mont-Blanc et des Aravis (SRCE Auvergne-Rhône-Alpes).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "Environ 28% de superficie Natura 2000, bien au-dessus de la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Bauges, PNR Bornes-Aravis, proximité Vanoise ; bonne couverture contractuelle"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Lynx, gypaète barbu, tétras-lyre, lamproie ; richesse spécifique alpine exceptionnelle"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors alpins fonctionnels mais urbanisation des vallées fragilise les connexions"
+    }
+  ],
+  "points_forts": [
+    "Plus de 28 % du territoire classé en zones Natura 2000, soit environ 185 000 ha (INPN, 2024)",
+    "Présence du PNR Massif des Bauges et du PNR Chartreuse-Bornes, offrant une gestion concertée de la biodiversité sur des milliers d'hectares",
+    "Espèce emblématique du gypaète barbu en reconquête active avec 3 à 5 couples nicheurs suivis annuellement dans les Alpes savoisiennes (LPO, 2023)",
+    "Réseau hydrographique dense (lac Léman, Arve, Fier, Giffre) abritant des espèces patrimoniales dont l'écrevisse à pattes blanches et la truite fario (INPN, 2024)"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques dans les vallées urbanisées (Arve, Annecy) : l'artificialisation des sols progresse à +1,2 % par an, menaçant les connexions inter-massifs (SRCE AuRA)",
+    "Pression touristique intense (plus de 10 millions de nuitées/an) générant piétinement, dérangement de la faune alpine et érosion des zones humides d'altitude (Observatoire des Alpes)",
+    "Régression des zones humides estimée à -30 % sur 30 ans au niveau régional, menaçant les habitats tourbeux et les espèces inféodées (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "2 PNR",
+      "label": "Aires protégées majeures"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Zones humides perdues (30 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Tableau de bord biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Haute-Savoie 2023 – Atlas des espèces",
+    "SRCE Auvergne-Rhône-Alpes – Schéma Régional de Cohérence Écologique"
+  ],
+  "limites": [
+    "Les données Natura 2000 reflètent une désignation administrative et non l'état écologique réel des habitats, certains sites étant dégradés par la fréquentation touristique",
+    "L'inventaire des espèces reste incomplet pour les groupes taxonomiques peu étudiés (invertébrés souterrains, champignons alpins), sous-estimant la richesse réelle du département",
+    "Les indicateurs de connectivité écologique (corridors) sont issus de modélisations régionales et ne capturent pas finement les obstacles locaux liés aux infrastructures routières et stations de ski"
+  ]
+}

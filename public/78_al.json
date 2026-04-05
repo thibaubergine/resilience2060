@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines présentent un profil alimentaire faible malgré une surface agricole utile (SAU) de 64 000 ha, soit environ 34 % du territoire départemental, mais largement dominée par les grandes cultures céréalières peu valorisées localement (Agreste 2023). La zone à vocation agricole (ZAVA 2024) classe le département parmi les moins autonomes d'Île-de-France, avec une production alimentaire captée massivement par les circuits longs et l'export. L'agriculture biologique ne couvre que 3,4 % de la SAU yvelinoise, très en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). Les indications géographiques sont quasi inexistantes sur le territoire, et malgré un tissu d'AMAP actif en zone péri-urbaine (une cinquantaine recensée), la couverture des besoins alimentaires locaux reste structurellement insuffisante face à une population de 1,47 million d'habitants (INSEE 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "SAU importante mais autonomie alimentaire très faible, dépendance circuits longs"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 3.0,
+      "note": "Quasiment aucune AOP/IGP alimentaire référencée sur le département"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Agriculture bio à 3,4% SAU, sous moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Une cinquantaine d'AMAP actives, dynamisme péri-urbain notable en Île-de-France"
+    }
+  ],
+  "points_forts": [
+    "Environ 50 AMAP recensées dans les Yvelines, l'un des réseaux péri-urbains les plus denses d'Île-de-France",
+    "SAU de 64 000 ha représentant 34 % du territoire, potentiel foncier agricole significatif (Agreste 2023)",
+    "Présence de projets de circuits courts soutenus par le Conseil départemental dans les cantines scolaires (loi EGAlim)",
+    "Quelques exploitations maraîchères bio en développement autour de Rambouillet et Mantes-la-Jolie, contribuant à la relocalisation"
+  ],
+  "vigilances": [
+    "Artificialisation continue des terres agricoles : perte estimée de 300 à 500 ha/an dans le Grand Paris, menaçant la SAU yvelinoise à horizon 2030 (DRIEAT 2023)",
+    "Concentration des exploitations en grandes cultures céréalières (blé, colza) très peu orientées vers l'alimentation de proximité, renforçant la dépendance alimentaire",
+    "Absence quasi totale de signes officiels de qualité (AOP/IGP) limitant la valorisation économique locale et la lisibilité pour les consommateurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "64 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "3,4 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "~50",
+      "label": "AMAP actives recensées"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP alimentaires départementales"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "Agreste Île-de-France 2023",
+    "ZAVA 2024",
+    "INAO registre officiel AOP/IGP"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire ne distinguent pas toujours les filières à l'échelle infra-régionale, limitant la précision yvelinoise",
+    "Le nombre d'AMAP est difficile à stabiliser faute de recensement officiel exhaustif et actualisé annuellement",
+    "La part de SAU en bio peut sous-estimer les pratiques agroécologiques non certifiées présentes dans certaines exploitations du département"
+  ]
+}

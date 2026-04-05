@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn-et-Garonne (82) présente un profil de biodiversité intermédiaire-favorable, avec environ 8,5 % de son territoire couvert par le réseau Natura 2000, notamment les zones humides de la vallée de la Garonne et les coteaux de Quercy (INPN, 2024). Le département abrite des espèces emblématiques remarquables comme le Vison d'Europe (*Neovison lutreola*), espèce en danger critique, et la Cistude d'Europe dans les milieux aquatiques de la Garonne et de ses affluents (LPO Occitanie, 2023). La Trame Verte et Bleue départementale identifie des corridors fonctionnels majeurs le long des rivières Aveyron, Tarn et Garonne, mais ceux-ci restent fragmentés par l'agriculture intensive des grandes plaines alluviales (SRCE Occitanie, 2023). L'OFB recense 214 espèces végétales et animales protégées sur le département, dont plusieurs populations d'oiseaux migrateurs en halte sur les gravières de la Garonne, soulignant l'importance des zones humides résiduelles (OFB, 2024). Malgré des efforts de restauration écologique, la pression agricole sur plus de 60 % de la Surface Agricole Utile en grandes cultures constitue le principal facteur limitant pour la biodiversité ordinaire.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "8,5 % du territoire classé Natura 2000, zones humides garonnaises incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Aucun Parc National ; un PNR Causses du Quercy partiel en bordure nord"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Vison d'Europe, Cistude, Lamproie marine présents ; populations fragilisées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors TVB identifiés le long Garonne/Tarn/Aveyron, fragmentés en plaines"
+    }
+  ],
+  "points_forts": [
+    "Réseau Natura 2000 couvrant ~8,5 % du territoire, incluant les sites FR7300929 (Garonne) et FR7301631 (Coteaux de Quercy) (INPN, 2024)",
+    "Présence du Vison d'Europe, l'un des mammifères les plus menacés d'Europe, avec noyaux de population en vallée de la Garonne (LPO Occitanie, 2023)",
+    "Zones humides des gravières garonnaises accueillant des haltes migratoires significatives pour l'avifaune, avec plus de 180 espèces d'oiseaux recensées",
+    "Réseau dense de haies et ripisylves en vallée de l'Aveyron, contribuant à la connectivité écologique (SRCE Occitanie, 2023)"
+  ],
+  "vigilances": [
+    "Régression continue des zones humides alluviales : plus de 40 % des zones humides historiques du département ont disparu depuis 1950, accentuant la vulnérabilité des espèces aquatiques (OFB, 2024)",
+    "Intensification agricole sur les plaines de la Garonne et du Tarn menaçant la biodiversité ordinaire, avec un indice d'abondance des oiseaux des plaines agricoles en recul de -30 % en Occitanie depuis 2000 (STOC/LPO)",
+    "Risque accru de mortalité des corridors aquatiques sous effet conjugué des étiages sévères liés au changement climatique (projection Climadiag 2060 : +15 à +20 jours d'étiage) et des prélèvements agricoles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "214",
+      "label": "Espèces protégées recensées"
+    },
+    {
+      "valeur": ">180",
+      "label": "Espèces d'oiseaux observées"
+    },
+    {
+      "valeur": "40 %",
+      "label": "Zones humides historiques perdues"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Occitanie 2023",
+    "SRCE Occitanie 2023",
+    "Climadiag / DRIAS 2024"
+  ],
+  "limites": [
+    "L'absence de Parc Naturel Régional ou National couvrant significativement le département limite les outils de gestion concertée à grande échelle de la biodiversité",
+    "Les données sur l'état réel des populations de Vison d'Europe et de Cistude restent parcellaires, rendant difficile une évaluation précise des tendances à l'échelle départementale",
+    "La pression agricole intense sur les grandes cultures irriguées (plus de 60 % de la SAU) génère des effets cumulatifs sur la biodiversité ordinaire qui restent sous-documentés à l'échelle du Tarn-et-Garonne spécifiquement"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "synthese": "La Vienne (86) affiche une performance alimentaire solide (7,0/10, rang estimé ~30/96) portée par un tissu agricole diversifié couvrant environ 370 000 ha de SAU, soit près de 57 % du territoire départemental (Agreste 2023). Le département bénéficie de plusieurs signes officiels de qualité reconnus par l'INAO, dont le Chapon de Vouillé (IGP), le Beurre Charentes-Poitou (AOP) et diverses IGP viticoles du Poitou, témoignant d'une valorisation locale structurée. La part de la SAU conduite en agriculture biologique atteignait environ 9,5 % en 2022 (Agence Bio 2023), légèrement en dessous de la moyenne nationale (10,7 %), mais avec une dynamique de conversion soutenue sur la période 2018-2022. L'indice ZAVA (Zones à Vocation Alimentaire Viable) 2024 positionne la Vienne dans la moyenne haute des départements français pour l'autonomie alimentaire, grâce à la polyculture-élevage et à une production céréalière et maraîchère significative. Le réseau de circuits courts et d'AMAP reste en développement mais dense pour un département semi-rural, avec plus de 300 points de vente directe recensés (RDR3/DRAAF Nouvelle-Aquitaine 2022).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "SAU étendue, polyculture-élevage, autonomie alimentaire au-dessus de la moyenne nationale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs AOP/IGP reconnues : Beurre Charentes-Poitou, Chapon Vouillé, IGP viticoles"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Bio à 9,5 % SAU en 2022, progression réelle mais sous la moyenne nationale (10,7 %)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 300 points vente directe, réseau AMAP actif en Vienne"
+    }
+  ],
+  "points_forts": [
+    "SAU departementale de ~370 000 ha (57 % du territoire), base solide d'autonomie alimentaire (Agreste 2023)",
+    "3 signes officiels de qualité majeurs (AOP Beurre Charentes-Poitou, IGP Chapon de Vouillé, IGP Poitou) reconnus par l'INAO",
+    "Plus de 300 points de vente en circuits courts recensés, parmi les mieux dotés de Nouvelle-Aquitaine (DRAAF 2022)",
+    "Dynamique de conversion bio soutenue : +40 % de surfaces converties entre 2018 et 2022 (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Risque de pression sur les surfaces bio en cas de retrait des aides PAC post-2027, fragilisant les exploitations en conversion récente",
+    "Dépendance aux grandes cultures céréalières (blé, maïs) exposées aux aléas climatiques projetés à horizon 2060 (sécheresses accrues, DRIAS 2024)",
+    "Concurrence foncière croissante entre urbanisation (pression périurbaine de Poitiers) et maintien de terres agricoles à vocation alimentaire (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "370 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "9,5 %",
+      "label": "Part SAU en bio (2022)"
+    },
+    {
+      "valeur": "300+",
+      "label": "Points vente circuits courts"
+    },
+    {
+      "valeur": "3",
+      "label": "Signes qualité AOP/IGP majeurs"
+    }
+  ],
+  "sources": [
+    "Agreste 2023 – Recensement agricole Vienne",
+    "Agence Bio 2023 – Observatoire national",
+    "INAO 2024 – Registre AOP/IGP",
+    "DRAAF Nouvelle-Aquitaine 2022 – Circuits courts RDR3",
+    "ZAVA 2024 – Diagnostic alimentaire territorial"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sont agrégées à l'échelle régionale pour certains indicateurs, limitant la précision infra-départementale pour la Vienne",
+    "La part de SAU en bio peut inclure des surfaces en première année de conversion, surestimant légèrement la production bio effective commercialisée localement",
+    "L'inventaire des circuits courts (300+ points) repose sur des déclarations volontaires, susceptibles de sous-estimer ou surestimer la réalité du maillage territorial"
+  ]
+}

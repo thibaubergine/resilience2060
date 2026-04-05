@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Var présente une situation des sols contrastée, avec une pression foncière et industrielle marquée sur le littoral densément urbanisé (communes de Toulon, Fréjus, La Seyne-sur-Mer), tandis que l'arrière-pays conserve des sols naturels globalement préservés. Le département recense environ 80 sites pollués ou en cours de réhabilitation dans la base BASOL/Géorisques, héritage d'activités industrielles, navales et militaires concentrées autour de la rade de Toulon. Les teneurs en résidus de pesticides dans les sols agricoles varois restent préoccupantes dans les zones viticoles, la viticulture occupant environ 22 000 ha et représentant l'essentiel de la SAU, avec des intrants phytosanitaires significatifs malgré les efforts de conversion (INRAE 2023). Le risque radon est classé en catégorie 2 à 3 sur une partie du département, notamment sur les massifs cristallins des Maures et de l'Estérel, exposant des populations rurales à des niveaux d'émanation modérés à élevés (IRSN). La part de SAU certifiée en agriculture biologique atteint environ 12 %, légèrement au-dessus de la moyenne nationale (10,3 %), portée par la filière viticole et arboricole (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "~80 sites BASOL; pollutions navales/militaires majeures autour Toulon"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Viticulture intensive; résidus pesticides sols viticoles préoccupants"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Massifs Maures/Estérel en zone radon modéré à élevé (catégorie 2-3)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~12% SAU bio; filière viticole bio dynamique au-dessus moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique d'environ 12 %, supérieure à la moyenne nationale de 10,3 % (Agence Bio 2023), tirée par la viticulture bio en plein essor",
+    "L'arrière-pays varois (haut Var, Verdon) conserve des sols naturels peu anthropisés, préservés par le faible peuplement et les espaces naturels protégés (Parc naturel régional du Verdon)",
+    "Des programmes de dépollution des sites industriels littoraux sont actifs, notamment autour de La Seyne-sur-Mer, avec des financements ADEME et collectivités locales",
+    "La faible densité agricole hors viticulture limite la contamination diffuse des sols dans les zones rurales de l'arrière-pays"
+  ],
+  "vigilances": [
+    "Pollution chronique des sols et sédiments de la rade de Toulon par métaux lourds (plomb, TBT) liée aux activités militaires et navales, avec des risques de transfert vers les eaux souterraines estimés persistants au-delà de 2040",
+    "Pression pesticides en zones viticoles en augmentation relative malgré la conversion bio partielle : les sols de certaines AOC (Bandol, Côtes-de-Provence) présentent des accumulations de cuivre issues des traitements fongicides",
+    "Risque d'érosion des sols accentué par les incendies répétés (le Var est le département le plus touché de France métropolitaine, ~12 000 ha brûlés en 2021) et les épisodes orageux méditerranéens intenses (épisodes cévenols)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites BASOL répertoriés"
+    },
+    {
+      "valeur": "12%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "22 000 ha",
+      "label": "Surface viticole varoise"
+    },
+    {
+      "valeur": "Catégorie 2-3",
+      "label": "Zonage radon IRSN"
+    }
+  ],
+  "sources": [
+    "Géorisques/BASOL 2023",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Carte du potentiel radon 2022",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "L'inventaire BASOL ne couvre pas l'ensemble des sites militaires sous gestion directe de la Défense nationale, sous-estimant la contamination réelle autour de la rade de Toulon",
+    "Les données de résidus de pesticides dans les sols agricoles varois sont peu granulaires à l'échelle parcellaire, rendant difficile la cartographie précise des zones les plus exposées",
+    "Le risque radon est mesuré par commune mais la variabilité géologique intra-communale (contact calcaire/cristallin) peut conduire à des sous-estimations locales dans les massifs des Maures et de l'Estérel"
+  ]
+}

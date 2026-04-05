@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres abritent environ 8,5 % de leur superficie en zones Natura 2000, couvrant notamment les marais du Poitevin (site Ramsar transdépartemental) et les vallées de la Sèvre niortaise et du Thouet (INPN/OFB 2024). Le département est partiellement inclus dans le Parc Naturel Régional du Marais poitevin, classé depuis 2014, offrant un cadre de gestion favorable à la biodiversité des zones humides mais dont la restauration reste incomplète après les assèchements massifs du XXe siècle. La LPO recense plusieurs espèces emblématiques nichant dans le département, dont l'Outarde canepetière (population estimée à 15-20 % de l'effectif national), le Busard cendré et le Vison d'Europe, espèce prioritaire en danger critique (LPO/OFB 2024). Les corridors écologiques des bocages deux-sévriens subissent une pression persistante liée au remembrement agricole, avec une perte estimée de 30 à 40 % des haies depuis les années 1960, fragilisant la trame verte et bleue régionale (SRCE Nouvelle-Aquitaine).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Environ 8,5% du territoire en Natura 2000, marais poitevin inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Marais poitevin actif, couverture partielle du département concerné"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Outarde canepetière, Vison d'Europe, Busard cendré : espèces rares présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Bocage fragilisé, perte haies estimée 30-40% depuis années 1960"
+    }
+  ],
+  "points_forts": [
+    "Présence de l'Outarde canepetière avec 15 à 20 % de l'effectif national nichant dans le département (LPO 2024)",
+    "Site Ramsar du Marais poitevin, zone humide d'importance internationale reconnue pour ses fonctions écologiques",
+    "PNR Marais poitevin classé depuis 2014, structurant une gouvernance de préservation sur les zones humides",
+    "Réseau dense de cours d'eau (Sèvre niortaise, Thouet, Argenton) constituant des corridors bleus fonctionnels pour les espèces aquatiques (INPN)"
+  ],
+  "vigilances": [
+    "Le Vison d'Europe, présent sur quelques cours d'eau deux-sévriens, est en danger critique d'extinction ; toute dégradation des berges menace sa survie locale (OFB 2024)",
+    "La régression des zones humides du Marais poitevin se poursuit malgré les protections : plus de 100 000 ha asséchés depuis le XXe siècle, restauration très partielle",
+    "Les effets du changement climatique (sécheresses plus fréquentes d'ici 2060 selon Climadiag) risquent d'aggraver la disparition des mares bocagères, refuges de batraciens et d'insectes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "1 PNR",
+      "label": "Parc naturel régional présent"
+    },
+    {
+      "valeur": "15-20%",
+      "label": "Part nationale Outarde canepetière"
+    },
+    {
+      "valeur": "-30 à -40%",
+      "label": "Perte haies depuis 1960"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Nouvelle-Aquitaine",
+    "SRCE Nouvelle-Aquitaine",
+    "PNR Marais poitevin / Convention Ramsar"
+  ],
+  "limites": [
+    "Les données de suivi des espèces sont partielles : l'atlas de biodiversité des Deux-Sèvres n'est pas exhaustif pour les invertébrés et les champignons",
+    "La superficie réelle des haies bocagères restantes n'est pas précisément cartographiée à l'échelle communale, rendant difficile l'évaluation fine des corridors",
+    "Les indicateurs de continuités écologiques (TVB) ne font pas l'objet d'un bilan actualisé annuel pour ce département, limitant le suivi dynamique"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn (81) présente un profil climatique intermédiaire en Occitanie, bénéficiant d'une topographie variée avec le massif de la Montagne Noire et le plateau du Sidobre (altitudes jusqu'à 1 267 m au Pic de Nore) qui offrent un tampon thermique partiel face aux projections de réchauffement (Climadiag 2023). Selon les scénarios DRIAS RCP8.5, le département devrait connaître une augmentation de +3,0°C à +3,8°C d'ici 2071-2100 par rapport à la période de référence 1976-2005, avec une multiplication des jours de vague de chaleur passant de 5 à environ 25-30 jours/an d'ici 2060 (Météo-France/DRIAS 2022). Le risque de feux de forêt s'intensifie sur les zones de garrigues et pinèdes du sud-ouest du département, avec une extension attendue de l'aléa vers le nord selon les projections AP3C Occitanie 2023. Les épisodes cévenols et les crues de l'Agout, du Thoré et du Dadou exposent des secteurs urbanisés à un risque inondation récurrent, classé parmi les aléas majeurs dans le PGRI Adour-Garonne (TRACC 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Montagne Noire et Sidobre offrent tampon thermique altitudinal significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+30 jours de canicule projetés/an à l'horizon 2060 en plaine tarnaise"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Extension du risque feux vers pinèdes nord, actuellement modéré-élevé"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Crues Agout/Dadou récurrentes, pas d'exposition côtière, PPRI actifs"
+    }
+  ],
+  "points_forts": [
+    "Relief protecteur : la Montagne Noire culmine à 1 267 m (Pic de Nore), maintenant des zones fraîches et refuges climatiques pour les populations et la biodiversité",
+    "Couverture forestière significative (~30% du territoire) limitant les îlots de chaleur ruraux (IFN/IGN 2022)",
+    "Absence totale d'exposition au risque de submersion marine, contrairement à 30% des départements d'Occitanie littorale",
+    "Réseau de cours d'eau (Agout, Thoré) alimentant des zones humides tampons qui modèrent les extrêmes thermiques locaux (SDAGE Adour-Garonne 2022)"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +3,5°C en moyenne d'ici 2071-2100 (scénario intermédiaire RCP6.0, DRIAS 2022), avec des étés extrêmes dès 2050 affectant l'agriculture et la santé",
+    "Risque feux de forêt en forte progression : les scénarios AP3C Occitanie projettent une extension de 40 à 60% des surfaces à risque élevé d'ici 2060 sur les massifs du sud tarnais",
+    "Aléa inondation persistant sur les bassins de l'Agout et du Thoré, aggravé par des précipitations intenses plus fréquentes et des sols plus secs en inter-saison (PGRI Adour-Garonne 2022-2027)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Réchauffement moyen projeté 2071-2100 (RCP6.0)"
+    },
+    {
+      "valeur": "~30 j/an",
+      "label": "Jours de canicule supplémentaires projetés à 2060"
+    },
+    {
+      "valeur": "1 267 m",
+      "label": "Altitude maximale (Pic de Nore, Montagne Noire)"
+    },
+    {
+      "valeur": "30%",
+      "label": "Part du territoire en forêt (IFN 2022)"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes – Météo-France 2023",
+    "DRIAS 2022 – Portail des scénarios climatiques français",
+    "AP3C Occitanie – Adaptation au changement climatique 2023",
+    "PGRI Adour-Garonne 2022-2027 – TRACC/DREAL Occitanie"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent incertaines pour les zones de relief complexe comme la Montagne Noire, avec des biais possibles dans la modélisation locale",
+    "L'indice de risque feux repose sur des modèles nationaux (IFM) peu calibrés pour les pinèdes mixtes spécifiques au Tarn central, pouvant sous-estimer l'aléa réel",
+    "Les données de vulnérabilité aux inondations du Tarn ne distinguent pas toujours les crues rapides (éclair) des crues lentes, nuançant l'évaluation du risque pour les zones urbanisées de l'Agout"
+  ]
+}

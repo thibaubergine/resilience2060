@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Yvelines (78) présentent une situation hydrique préoccupante, tiraillées entre une forte pression démographique (1,45 million d'habitants) et une ressource en eau sous tension. Le département s'approvisionne majoritairement en eau potable via la Seine et ses nappes alluviales, exposées aux pollutions agricoles et industrielles de l'amont francilien, avec des taux de nitrates dépassant ponctuellement 50 mg/L sur certains captages du plateau de Beynes (ARS Île-de-France, 2022). Les projections Explore2 (2023) anticipent une baisse de 20 à 30 % des débits estivaux sur la Seine et ses affluents yvelinois (Mauldre, Vaucouleurs) à horizon 2060, aggravant les conflits d'usage entre agriculture, industrie et alimentation en eau potable. La contamination aux PFAS constitue une menace émergente documentée sur plusieurs captages du département, en lien avec les zones industrielles et aéroportuaires de la plaine de Versailles et de Poissy (ANSES, 2023). Le score de 4,5/10 reflète ces vulnérabilités structurelles malgré des efforts de gestion portés par le SAGE Mauldre et les contrats de bassin Seine-Normandie.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Captages Seine exposés aux pollutions urbaines et agricoles amont"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Baisse débits estivaux -20 à -30% prévue (Explore2, 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Nitrates >50 mg/L sur captages plateau de Beynes (ARS, 2022)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "PFAS détectés, zones industrielles Poissy-Versailles concernées"
+    }
+  ],
+  "points_forts": [
+    "SAGE Mauldre et Ru des Clos actif depuis 2011 : gouvernance locale structurée sur les bassins versants yvelinois",
+    "Réseau de suivi ARS dense avec contrôles conformes à 94 % des prélèvements pour les paramètres bactériologiques (ARS IDF, 2022)",
+    "Présence de zones humides fonctionnelles en vallée de la Seine et de la Mauldre contribuant à la régulation naturelle des crues",
+    "Effort de restauration hydromorphologique engagé sur plusieurs affluents dans le cadre du SDAGE Seine-Normandie 2022-2027"
+  ],
+  "vigilances": [
+    "Stress hydrique estival structurel : débits d'étiage de la Mauldre et de la Vaucouleurs projetés en baisse de 25-30 % à horizon 2060 (Explore2), menaçant l'alimentation en eau potable de secteurs ruraux",
+    "Contamination PFAS croissante sur captages prioritaires du département, sans réglementation contraignante pleinement opérationnelle avant 2026 (directive eaux potables UE transposée)",
+    "Pression agricole persistante sur les nappes du Mantois et du plateau de Houdan, avec risque de dépassement durable du seuil de 50 mg/L de nitrates sur plusieurs unités de distribution"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "1 450 000 hab.",
+      "label": "Population desservie en eau potable"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Baisse débit estival Seine/Mauldre (Explore2 2060)"
+    },
+    {
+      "valeur": "94 %",
+      "label": "Conformité bactériologique eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé sur captages Beynes"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France – Bilan qualité eaux potables 2022",
+    "Explore2 – Projections hydrologiques France métropolitaine 2023 (INRAE/OFB)",
+    "SDAGE Seine-Normandie 2022-2027 – Agence de l'Eau Seine-Normandie",
+    "ANSES – Campagne nationale PFAS eaux destinées à la consommation humaine 2023"
+  ],
+  "limites": [
+    "Les données PFAS sur captages yvelinois restent partielles : la campagne nationale ANSES 2023 ne couvre pas exhaustivement toutes les unités de distribution du département",
+    "Les projections Explore2 sont établies à l'échelle des grands bassins versants et leur déclinaison aux petits affluents yvelinois (Ru de Gally, Vaucouleurs) comporte une incertitude significative",
+    "L'absence d'un observatoire départemental unifié de la ressource en eau limite la comparaison temporelle fine des données de qualité et de quantité à l'échelle des 262 communes des Yvelines"
+  ]
+}

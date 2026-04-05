@@ -1,0 +1,65 @@
+{
+  "synthese": "La Somme présente une biodiversité contrastée, avec des zones humides d'importance internationale comme la Baie de Somme (classée Ramsar depuis 1994, 6 647 ha) et les étangs de la Haute Somme, mais soumise à une pression agricole intense (77 % du territoire en SAU, Agreste 2023). Le département accueille environ 8,5 % de sa superficie en sites Natura 2000 (INPN 2024), soit une couverture inférieure à la moyenne nationale de 12,8 %, reflétant la domination des grandes cultures au détriment des habitats naturels. La LPO Hauts-de-France signale un déclin marqué des oiseaux des plaines agricoles, avec une réduction de 30 à 40 % des populations de vanneau huppé et d'alouette des champs depuis 2000. Les corridors écologiques sont fortement fragmentés par le réseau routier dense et les remembrements successifs, compromettant la connectivité entre le littoral picard, les vallées alluviales et les plateaux agricoles (SRCE Hauts-de-France, 2020).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Environ 8,5% du territoire en Natura 2000, sous la moyenne nationale (12,8%)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Baie de Somme Ramsar + PNR Baie de Somme Picardie maritime, couverture partielle"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Déclin avéré avifaune agricole ; limicoles et phoques gris en baie remarquables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors fragmentés par remembrement agricole et infrastructure routière dense"
+    }
+  ],
+  "points_forts": [
+    "La Baie de Somme, site Ramsar depuis 1994 (6 647 ha), accueille la plus grande colonie de phoques gris de France avec plus de 2 500 individus recensés (OFB 2023)",
+    "Le PNR Baie de Somme – Picardie maritime créé en 2022 constitue un levier de protection structurant sur 83 communes",
+    "Les étangs de la Haute Somme et les marais de la Moyenne Somme abritent des roselières remarquables, refuges pour le butor étoilé et la loutre d'Europe (LPO Hauts-de-France)",
+    "Le département compte plusieurs ZNIEFF de type I et II couvrant les vallées alluviales, préservant des habitats hygrophiles rares en contexte agricole intensif (INPN 2024)"
+  ],
+  "vigilances": [
+    "L'intensification agricole sur les plateaux (77 % de SAU) entraîne un effondrement continu des populations d'oiseaux des plaines : -35 % pour l'alouette des champs depuis 2000 (LPO/Stoc)",
+    "La montée du niveau marin et l'érosion côtière (recul estimé à 1–2 m/an sur certains secteurs du Vimeu) menacent les habitats littoraux de la Baie de Somme à horizon 2050 (DREAL Hauts-de-France)",
+    "La fragmentation des corridors écologiques entre la vallée de la Somme et les plateaux agricoles limite la dispersion des espèces et accroît la vulnérabilité face aux chocs climatiques (SRCE Hauts-de-France 2020)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Phoques gris Baie de Somme"
+    },
+    {
+      "valeur": "77 %",
+      "label": "SAU/territoire départemental"
+    },
+    {
+      "valeur": "6 647 ha",
+      "label": "Site Ramsar Baie de Somme"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Hauts-de-France / STOC",
+    "SRCE Hauts-de-France 2020",
+    "DREAL Hauts-de-France / Ramsar"
+  ],
+  "limites": [
+    "Les données de suivi des populations faunistiques en Somme sont incomplètes hors zones Natura 2000, limitant l'évaluation précise de la biodiversité ordinaire des plateaux agricoles",
+    "L'efficacité réelle du PNR Baie de Somme–Picardie maritime, créé seulement en 2022, est encore difficile à mesurer faute de recul temporel suffisant",
+    "Les inventaires ZNIEFF ne reflètent pas les dynamiques récentes d'effondrement de la biodiversité liées aux changements de pratiques culturales et au changement climatique"
+  ]
+}

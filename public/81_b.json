@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn (81) présente une biodiversité remarquable, portée par la diversité de ses paysages entre Massif Central (Montagne Noire, Sidobre, Monts de Lacaune) et plaines agricoles du Lauragais. Le département compte environ 18 % de sa superficie couverte par des zones Natura 2000, soit près de 115 000 hectares répartis sur 42 sites (INPN, 2024), abritant des habitats d'intérêt communautaire comme les pelouses sèches, les hêtraies-sapinières et les rivières à invertébrés rares. Le Parc Naturel Régional du Haut-Languedoc, partagé avec l'Hérault et couvrant environ 260 000 ha dont une part significative dans le Tarn, constitue un refuge pour des espèces emblématiques telles que le Milan royal, la Loutre d'Europe et la Cistude d'Europe (LPO, OFB 2024). Les corridors écologiques du Tarn s'appuient sur la trame verte et bleue régionale (SRCE Occitanie), avec des rivières comme le Tarn, l'Agout et le Thoré jouant un rôle fonctionnel majeur, bien que les pressions agricoles et routières fragmentent certains continuums. L'indice de qualité des milieux naturels reste supérieur à la moyenne nationale, positionnant le département au rang 24/96 sur l'ensemble des dimensions environnementales.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18 % du territoire en Natura 2000, 42 sites, 115 000 ha (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Haut-Languedoc couvre large portion du Tarn, cadre protecteur fort"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Milan royal, Loutre, Cistude présents ; pressions sur populations fragmentées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Rivières Tarn/Agout fonctionnelles ; fragmentation agricole et routière persistante"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 significative : 42 sites représentant ~18 % du territoire départemental (INPN, 2024), bien au-dessus de la moyenne nationale (~13 %)",
+    "Le PNR du Haut-Languedoc (~260 000 ha inter-départemental) offre un cadre de gestion durable des milieux naturels avec des plans de conservation actifs (Charte PNR 2022-2037)",
+    "Présence de 3 espèces patrimoniales majeures inscrites en annexe II de la Directive Habitats : Loutre d'Europe, Cistude d'Europe et Écrevisse à pattes blanches (OFB, 2024)",
+    "Réseau hydrographique dense (Tarn, Agout, Thoré, Vère) assurant des corridors bleus fonctionnels pour la faune aquatique et semi-aquatique (LPO / INPN)"
+  ],
+  "vigilances": [
+    "Régression des pelouses sèches calcaires (habitats prioritaires Natura 2000) liée à la déprise agricole et à la fermeture des milieux ; perte estimée à 30 % en 30 ans en Occitanie (INRAE, 2023)",
+    "Pression croissante sur les populations de Milan royal et de Busard Saint-Martin : collisions éoliennes et pesticides agricoles restent des menaces documentées (LPO 81, 2023)",
+    "Fragmentation écologique par les axes routiers (RN126, A68) et l'artificialisation progressive des terres en périphérie d'Albi, risquant de rompre des corridors de la TVB régionale d'ici 2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "42 sites",
+      "label": "Zones Natura 2000 recensées"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "Superficie en Natura 2000"
+    },
+    {
+      "valeur": "260 000 ha",
+      "label": "Surface PNR Haut-Languedoc"
+    },
+    {
+      "valeur": "3 espèces",
+      "label": "Espèces Dir. Habitats annexe II majeures"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Tarn 2023",
+    "PNR Haut-Languedoc – Charte 2022-2037",
+    "INRAE 2023 – Milieux ouverts Occitanie"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 ne reflètent pas la qualité réelle des habitats ni leur état de conservation effectif dans le Tarn",
+    "L'absence d'observatoire départemental unifié de la biodiversité limite la consolidation des données sur les tendances d'évolution des espèces à l'échelle du 81",
+    "Les corridors écologiques identifiés dans le SRCE Occitanie n'ont pas tous fait l'objet d'un diagnostic terrain récent, rendant difficile l'évaluation précise de leur fonctionnalité actuelle"
+  ]
+}

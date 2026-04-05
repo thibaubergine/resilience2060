@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Deux-Sèvres, département de plaine du Poitou à altitude modeste (moyenne ~130 m), présente une exposition climatique future préoccupante selon les projections Climadiag 2023 : le nombre de jours de canicule pourrait tripler d'ici 2060, passant de 5-8 jours/an actuellement à 15-25 jours/an sous scénario SSP3-7.0 (DRIAS 2023). La hausse des températures estivales (+2,5 à +3,5°C projetée) combinée à un déficit pluviométrique estival estimé à -20 à -30% fragilise ce territoire agricole déjà soumis à des sécheresses récurrentes (2019, 2020, 2022). Le risque inondation reste significatif, avec environ 18% de la superficie en zone inondable potentielle, notamment dans les vals de Sèvre Niortaise et du Thouet (TRACC/PPRI). L'absence de relief protecteur et la faible part boisée (~18% de surface forestière) limitent les capacités d'amortissement thermique et de résilience climatique du département (IGN/IFN 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude moyenne ~130 m, plaine ouverte, faible tampon thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "15-25 jours canicule/an projetés 2060, forte hausse SSP3 (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Faible taux boisement 18%, risque feux limité mais croissant"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "18% superficie inondable, vals Sèvre et Thouet vulnérables"
+    }
+  ],
+  "points_forts": [
+    "Faible exposition aux feux de forêt grâce à une couverture boisée limitée (~18%) et une dominante bocagère et agricole",
+    "Absence de façade littorale supprimant tout risque de submersion marine et d'érosion côtière (IGN)",
+    "Réseau bocager partiellement préservé jouant un rôle de tampon thermique local et de corridors de fraîcheur",
+    "Températures hivernales encore modérées permettant une période de gel réduite, favorable aux transitions agricoles"
+  ],
+  "vigilances": [
+    "Multiplication des épisodes caniculaires : jusqu'à 25 jours/an projetés en 2060 contre 6 jours/an en moyenne 1981-2010 (DRIAS/Climadiag 2023), avec impact fort sur santé et agriculture",
+    "Déficit hydrique estival croissant (-20 à -30% précipitations juin-août à horizon 2060), aggravant la pression sur les nappes peu profondes déjà en tension",
+    "Risque inondations maintenu voire accru par des épisodes pluviométriques intenses en automne-hiver, 18% de la superficie concernée par des PPRI actifs (GéoRisques 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~130 m",
+      "label": "Altitude moyenne département"
+    },
+    {
+      "valeur": "+3°C",
+      "label": "Hausse T° estivale projetée 2060"
+    },
+    {
+      "valeur": "18%",
+      "label": "Surface en zone inondable"
+    },
+    {
+      "valeur": "18%",
+      "label": "Taux de boisement"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Climadiag Météo-France",
+    "TRACC / PPRI GéoRisques 2023",
+    "IGN-IFN Inventaire forestier 2022",
+    "AP3C Nouvelle-Aquitaine / ORCCA"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles couvrent des mailles de 8 km, insuffisantes pour capter les microclimats locaux des vallées des Deux-Sèvres",
+    "L'indicateur \"risque feux\" sous-estime l'évolution future : avec le réchauffement, les prairies sèches et haies bocagères pourraient devenir combustibles d'ici 2060",
+    "L'absence de station climatologique dense dans le nord du département limite la fiabilité des données de référence locales pour les projections long terme"
+  ]
+}

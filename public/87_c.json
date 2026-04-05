@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne (87), département du Massif central occidental culminant entre 250 et 700 m d'altitude (point culminant au Mont Gargan, 731 m), bénéficie d'un effet tampon thermique notable lié à son relief et à sa continentalité modérée (Climadiag 2024). Selon les projections DRIAS 2023 (scénario RCP 8.5), le département devrait connaître une augmentation de +2,5 à +3°C des températures moyennes annuelles d'ici 2060, avec une multiplication par 3 des jours de canicule (de 5 à 15 jours/an en moyenne). Le risque feux de forêt est en progression significative : la forêt couvre environ 44 % du territoire (IGN 2022), et les projections AP3C/DRAAF Nouvelle-Aquitaine indiquent une remontée vers le nord du risque incendie estival, jusqu'alors concentré sur le littoral girondin. Le département est peu exposé aux risques côtiers mais reste vulnérable aux crues de la Vienne et de ses affluents, avec des zones inondables concernant environ 25 000 habitants selon le PPRI actualisé (GéoRisques 2023). L'altitude et la couverture nuageuse caractéristique du Limousin constituent des atouts climatiques relatifs, justifiant un score intermédiaire de 6,5/10 à l'horizon 2060.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude 250-731 m offre tampon thermique notable en été"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15 jours de canicule/an projetés d'ici 2060 scénario RCP8.5"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "44% de forêts, risque feux croissant, remontée vers nord confirmée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Pas de risque côtier; crues Vienne touchant ~25 000 habitants"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne élevée (~400 m) assurant un rafraîchissement naturel nocturne, réduisant les îlots de chaleur urbains à Limoges",
+    "Couverture nuageuse persistante du Limousin limitant l'intensité des épisodes caniculaires (Climadiag Météo-France 2024)",
+    "Absence totale d'exposition aux risques côtiers et submersion marine, contrairement à 30 % des départements de Nouvelle-Aquitaine",
+    "Réseau hydrographique dense (Vienne, Gartempe, Combade) assurant une régulation thermique locale favorable aux milieux naturels (OFB 2024)"
+  ],
+  "vigilances": [
+    "Risque feux de forêt en forte hausse : les projections AP3C 2023 prévoient une extension du niveau de risque \"élevé à très élevé\" à l'ensemble du département d'ici 2050, contre seulement le sud actuellement",
+    "Augmentation des crues rapides sur la Vienne et ses affluents : retour des crues centennales potentiellement accéléré sous l'effet du changement climatique (TRACC 2023), avec un coût assurantiel en hausse de 40 % sur 10 ans",
+    "Stress hydrique estival croissant menaçant l'agriculture bocagère et les élevages bovins emblématiques du Limousin, avec des étés 2050-2060 comparables aux conditions actuelles du Lot-et-Garonne (DRIAS scénario intermédiaire)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse température moyenne projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "731 m",
+      "label": "Point culminant Mont Gargan (tampon thermique)"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Part du territoire en forêt (IGN 2022)"
+    },
+    {
+      "valeur": "~25 000",
+      "label": "Habitants en zone inondable (GéoRisques 2023)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2024",
+    "DRIAS 2023 (scénarios RCP 4.5 et 8.5)",
+    "AP3C / DRAAF Nouvelle-Aquitaine 2023",
+    "GéoRisques – PPRI Haute-Vienne 2023"
+  ],
+  "limites": [
+    "Les modèles DRIAS à l'échelle départementale présentent une résolution spatiale insuffisante pour capturer les microclimats liés aux vallées encaissées du relief limousin",
+    "L'indice de risque feux de forêt est encore peu documenté pour la Haute-Vienne, historiquement hors zone prioritaire, ce qui crée une sous-estimation potentielle du risque émergent",
+    "Les données de vulnérabilité aux inondations ne sont pas systématiquement croisées avec les évolutions démographiques et d'imperméabilisation des sols à l'horizon 2060, limitant la précision des projections d'exposition humaine"
+  ]
+}

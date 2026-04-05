@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-et-Marne (77), plus grand département d'Île-de-France avec 5 915 km², présente une biodiversité contrastée : ses milieux naturels couvrent environ 48 % du territoire (forêts, zones humides, plaines agricoles), mais restent soumis à une pression urbaine et agricole intense liée à la proximité francilienne (OFB 2024). Le département abrite 12 sites Natura 2000 couvrant environ 8 % de sa superficie, un taux relativement modeste comparé à la moyenne nationale de 12,5 % (INPN 2023). La Seine-et-Marne compte plusieurs espèces patrimoniales remarquables, dont le Râle des genêts, le Grand Murin et la Loutre d'Europe en reconquête sur certains cours d'eau (LPO Île-de-France 2023). Les corridors écologiques identifiés dans le Schéma Régional de Cohérence Écologique (SRCE) francilien restent fortement fragmentés par les axes routiers (A4, A6, N36) et l'étalement urbain du Grand Paris, compromettant la connectivité entre massifs forestiers de Fontainebleau, Trois-Pignons et Brie (DRIEAT 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "12 sites Natura 2000, ~8% du territoire, inférieur moyenne nationale 12,5%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Gâtinais français partiellement, forêt Fontainebleau classée UNESCO"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 5.0,
+      "note": "Râle des genêts, Grand Murin, Loutre en reconquête partielle"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors fragmentés par A4, A6, étalement urbain Grand Paris"
+    }
+  ],
+  "points_forts": [
+    "Forêt de Fontainebleau : 25 000 ha classés, Réserve de Biosphère UNESCO, biodiversité fongique et entomologique exceptionnelle",
+    "12 sites Natura 2000 identifiés (INPN 2023), dont les massifs forestiers de Bière et les marais de la Bassée",
+    "Reconquête active de la Loutre d'Europe sur la Lunain et le Lunain, espèce disparue depuis 40 ans (LPO Île-de-France 2022)",
+    "Présence de zones humides remarquables en vallée de la Seine et de la Bassée, refuges pour l'avifaune migratrice"
+  ],
+  "vigilances": [
+    "Artificialisation des sols : +1 200 ha/an en moyenne sur 2011-2021 (CEREMA 2023), menaçant directement les corridors identifiés au SRCE",
+    "Déclin documenté des oiseaux agricoles (Alouette des champs, Perdrix grise) : -35 % en 20 ans sur les plaines de Brie (STOC/MNHN 2023)",
+    "Risque de déconnexion écologique accrue avec les grands projets d'infrastructure (Grand Paris Express, ZAC périurbaines) d'ici 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "25 000 ha",
+      "label": "Forêt Fontainebleau"
+    },
+    {
+      "valeur": "12",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Oiseaux agricoles (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN 2023 – Inventaire National du Patrimoine Naturel",
+    "LPO Île-de-France 2022-2023",
+    "DRIEAT – SRCE Île-de-France 2022"
+  ],
+  "limites": [
+    "La couverture Natura 2000 à 8 % repose sur des périmètres anciens non révisés depuis 2015, sous-estimant potentiellement certains habitats prioritaires récents",
+    "Les données sur les corridors écologiques proviennent du SRCE de 2013 (révisé 2022) avec une granularité insuffisante à l'échelle communale pour mesurer l'effectivité réelle des connexions",
+    "L'absence d'un atlas de biodiversité communale (ABC) exhaustif sur l'ensemble du département limite la connaissance fine des populations d'espèces hors sites protégés"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn-et-Garonne (82) présente une situation intermédiaire pour la qualité des sols, avec un score de 6,0/10 reflétant des pressions agricoles significatives sur un territoire à dominante agraire (SAU représentant environ 63% de la superficie départementale). Le département est l'un des premiers producteurs français de fruits et légumes (pommes, pêches, melons), ce qui engendre une pression pesticide notable détectée dans les analyses de résidus INRAE 2023 sur sols agricoles. La base de données ex-BASOL recense une trentaine de sites pollués ou potentiellement pollués par des activités industrielles passées, concentration relativement modérée au regard de la taille du département. Le risque radon demeure faible à modéré sur la majeure partie du territoire, les formations géologiques sédimentaires du bassin aquitain dominant le sous-sol tarnais-et-garonnais. La part de la SAU conduite en agriculture biologique reste en-dessous de la moyenne nationale (~11% en France en 2023), avec environ 7 à 8% pour le département (Agence Bio, 2023), limitant la transition vers des pratiques moins impactantes pour les sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 30 sites ex-BASOL recensés, pression industrielle modérée"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Forte pression pesticides liée arboriculture et maraîchage intensifs"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Sous-sol sédimentaire aquitain, risque radon faible à modéré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "Part SAU bio ~7-8%, légèrement sous la moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles d'Occitanie, formations géologiques sédimentaires protectrices (IRSN, catégorie risque faible sur 80% du territoire)",
+    "Nombre de sites BASOL contenu (~30 sites), reflétant un tissu industriel historiquement limité (GéoRisques 2024)",
+    "Progression de l'agriculture biologique : +15% de surfaces certifiées entre 2020 et 2023 (Agence Bio Occitanie)",
+    "Présence de zones alluviales de la Garonne et du Tarn offrant des sols à forte capacité agronomique et tampon naturel"
+  ],
+  "vigilances": [
+    "Contamination des sols par les pesticides : le département figure parmi les zones à forte intensité d'application en arboriculture fruitière, avec des résidus multi-molécules détectés dans les eaux de surface et les sols (INRAE 2023), risque d'accumulation à horizon 2030",
+    "Érosion et artificialisation des sols agricoles : le département connaît une consommation foncière soutenue liée à la périurbanisation (axe Montauban–Toulouse), avec perte estimée de terres agricoles de qualité",
+    "Vulnérabilité des sols alluviaux aux inondations et aux dépôts de polluants lors des crues de la Garonne et du Tarn, fragilisant la qualité pédologique à long terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~30",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "7-8%",
+      "label": "SAU conduite en bio (2023)"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Niveau risque radon dominant"
+    },
+    {
+      "valeur": "63%",
+      "label": "Part SAU dans superficie totale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Résidus pesticides sols agricoles 2023",
+    "IRSN – Carte radon départementale",
+    "Agence Bio – Chiffres clés Occitanie 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas les pollutions diffuses agricoles, sous-estimant l'impact réel des intrants sur les sols en zone arboricole",
+    "L'absence de cartographie pédologique fine à l'échelle parcellaire limite l'évaluation précise de la dégradation des sols en Tarn-et-Garonne",
+    "Les statistiques bio départementales sont agrégées avec des départements voisins dans certains rapports régionaux, rendant les comparaisons intercommunales difficiles"
+  ]
+}

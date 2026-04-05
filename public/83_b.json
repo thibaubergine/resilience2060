@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Var présente une biodiversité remarquable, avec environ 28% de sa superficie couverte par le réseau Natura 2000, soit l'un des taux les plus élevés de France métropolitaine (INPN 2024). Le département abrite le Parc National de Port-Cros, premier parc national marin français créé en 1963, et le Parc Naturel Régional du Verdon, offrant une protection significative d'écosystèmes méditerranéens diversifiés (OFB 2024). La flore varoise compte plus de 2 800 espèces végétales et la faune inclut des espèces emblématiques comme le Grand Dauphin, le Puffin de Méditerranée ou le Loup gris revenu dans l'arrière-pays (LPO PACA 2023). Les massifs forestiers (forêt des Maures, massif de l'Estérel, Sainte-Baume) structurent des corridors écologiques essentiels bien qu'exposés aux incendies récurrents, comme le dramatique incendie de la plaine des Maures en août 2021 qui a ravagé 7 400 ha d'habitats prioritaires (INPN/OFB 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "28% superficie en Natura 2000, parmi les plus élevés nationalement"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "Port-Cros (PN marin) et PNR Verdon, couverture protégée significative"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Grand Dauphin, Puffin, Tortue d'Hermann, Loup présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragilisés par incendies majeurs et urbanisation littorale intense"
+    }
+  ],
+  "points_forts": [
+    "Près de 28% du territoire varois classé Natura 2000, soit environ 178 000 ha de zones protégées (INPN 2024)",
+    "Parc National de Port-Cros : première aire marine protégée de Méditerranée française, abritant 800 espèces de faune marine (OFB 2024)",
+    "Présence de la Tortue d'Hermann (Testudo hermanni), espèce emblématique dont le Var héberge la principale population française dans la plaine des Maures",
+    "PNR du Verdon et massif de la Sainte-Baume offrant des corridors continus entre Alpes et littoral, favorisant la reconnexion des populations de grands mammifères (LPO PACA 2023)"
+  ],
+  "vigilances": [
+    "L'incendie d'août 2021 dans la plaine des Maures a détruit 7 400 ha d'habitats prioritaires, menaçant durablement la population de Tortue d'Hermann estimée à 4 000-6 000 individus (OFB/INPN 2022)",
+    "L'urbanisation littorale intensive (le Var est parmi les 5 départements les plus artificialisés du littoral méditerranéen) fragmente les corridors écologiques côtiers (CEREMA 2023)",
+    "Le changement climatique prévu à l'horizon 2060 accentue le risque d'incendies récurrents (+40% de surfaces brûlables selon DRIAS 2023) et favorise l'expansion d'espèces exotiques envahissantes comme la Tortue de Floride ou la Jussie"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28%",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "7 400 ha",
+      "label": "Brûlés incendie 2021 (Maures)"
+    },
+    {
+      "valeur": "2 800+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "1963",
+      "label": "Création PN Port-Cros"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO PACA 2023",
+    "DRIAS 2023 / Climadiag",
+    "CEREMA 2023"
+  ],
+  "limites": [
+    "Les données de suivi des populations de Tortue d'Hermann post-incendie 2021 restent partielles, rendant difficile l'évaluation précise du rétablissement de l'espèce",
+    "L'état écologique des fonds marins du littoral varois (entre urbanisation touristique et mouillages) est insuffisamment renseigné dans les bases nationales accessibles",
+    "Les inventaires faunistiques de l'arrière-pays varois (haut-Var, gorges du Verdon) demeurent lacunaires pour certains groupes taxonomiques (invertébrés, champignons), sous-estimant potentiellement la richesse réelle"
+  ]
+}

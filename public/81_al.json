@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Tarn (81) affiche un profil alimentaire solide avec un score de 7,5/10 (rang estimé dans le premier tiers des départements français), porté par une agriculture diversifiée couvrant environ 280 000 ha de SAU (Agreste 2023). Le département bénéficie d'une reconnaissance géographique notable avec plusieurs AOP/IGP emblématiques dont le Roquefort (AOP, production en caves de Combalou, Millau étant la capitale mais les laits provenant du Tarn), le Gaillac AOC pour les vins et le Pastel du Tarn comme produit d'identité territoriale. La part de la SAU en agriculture biologique atteint environ 11,5% dans le Tarn (Agence Bio 2023), légèrement au-dessus de la moyenne nationale de 10,7%, traduisant une dynamique de conversion soutenue. Les circuits courts sont bien représentés avec une densité d'AMAP et de marchés de producteurs significative, notamment autour des pôles urbains d'Albi et Castres (réseau AMAP Occitanie 2023). La zone ZAVA (Zone à fort potentiel d'Autonomie Alimentaire Végétale et Animale) du Tarn révèle une capacité alimentaire locale supérieure à la moyenne, avec un territoire rural structuré autour de filières céréalières, bovines et maraîchères complémentaires (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Autonomie alimentaire ZAVA bonne, élevage et céréales bien représentés"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Gaillac AOC, Roquefort AOP, plusieurs IGP reconnues sur territoire"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "11,5% SAU bio, légèrement au-dessus moyenne nationale (10,7%)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Réseau AMAP dense, marchés producteurs actifs Albi et Castres"
+    }
+  ],
+  "points_forts": [
+    "AOC Gaillac historique (plus ancienne appellation viticole française, attestée 1271) avec environ 2 200 ha de vignes produisant vins blancs, rouges et perlés distinctifs",
+    "Part de SAU en agriculture biologique à 11,5% en 2023 (Agence Bio), avec une dynamique de conversion de +4% sur 3 ans, supérieure à la moyenne Occitanie",
+    "Autonomie alimentaire élevée grâce à une polyculture-élevage diversifiée (bovins viande, ovin lait pour Roquefort, grandes cultures) sur 280 000 ha de SAU (Agreste 2023)",
+    "Réseau de circuits courts structuré avec plus de 25 AMAP actives et des marchés de producteurs hebdomadaires dans les principales communes (réseau AMAP Occitanie 2023)"
+  ],
+  "vigilances": [
+    "Pression climatique croissante sur la viticulture gaillacoise avec hausse des températures projetée à +2,5°C d'ici 2060 (Climadiag 2024), risquant de modifier profondément les cépages historiques",
+    "Dépendance partielle aux intrants extérieurs pour les grandes cultures céréalières, fragilisant l'autonomie alimentaire réelle en cas de perturbation des chaînes d'approvisionnement",
+    "Vieillissement de la population agricole (âge moyen des exploitants : 51 ans, Agreste 2020) et difficultés de transmission risquant de réduire la densité d'exploitations en circuits courts d'ici 2035"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "280 000 ha",
+      "label": "SAU totale Tarn"
+    },
+    {
+      "valeur": "11,5%",
+      "label": "Part SAU en bio"
+    },
+    {
+      "valeur": "2 200 ha",
+      "label": "Vignoble Gaillac AOC"
+    },
+    {
+      "valeur": "25+",
+      "label": "AMAP actives département"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO / registre AOP-IGP 2024",
+    "ZAVA 2024 (autonomie alimentaire)",
+    "Agreste Occitanie 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent agrégées à l'échelle régionale pour certains indicateurs, rendant l'estimation de l'autonomie alimentaire strictement tarnaise approximative",
+    "La part de SAU bio est déclarative (Agence Bio) et peut surestimer la surface réellement certifiée par rapport aux surfaces en conversion longue",
+    "L'inventaire des circuits courts et AMAP manque de données consolidées et récentes à l'échelle départementale fine, les chiffres reposant sur des remontées réseau partielles"
+  ]
+}

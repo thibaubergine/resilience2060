@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Vienne présente un profil pédologique contrasté, dominé par des sols granitiques et métamorphiques naturellement pauvres en bases mais peu soumis à la pression agricole intensive. Le département compte environ 80 sites recensés dans la base de données ex-BASOL liée aux activités industrielles historiques, notamment autour de Limoges et de ses anciennes industries céramiques et de tanneries (GéoRisques/ex-BASOL). Le risque radon constitue la principale fragilité sol de ce territoire : la Haute-Vienne figure parmi les départements français les plus exposés avec plus de 60 % des communes classées en zone à potentiel radon fort (niveau 3), conséquence directe des sous-sols granitiques uranifères (IRSN). En matière de résidus de pesticides dans les sols, la dominante élevage bovin (lait et viande) et la relative faiblesse des grandes cultures limitent la pression pesticides par rapport aux départements céréaliers, avec des teneurs modérées mesurées par les réseaux RMQS-INRAE 2023. La part de la SAU en agriculture biologique atteignait environ 11-12 % en 2022, légèrement au-dessus de la moyenne nationale (Agence Bio 2023), reflétant une dynamique de conversion encore insuffisante au regard du potentiel pastoral du territoire.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.5,
+      "note": "~80 sites ex-BASOL, héritage céramique et tanneries Limoges"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.5,
+      "note": "Dominante élevage bovin, faible pression pesticides sols"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 3.5,
+      "note": ">60% communes zone radon niveau 3, granites uranifères IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.5,
+      "note": "~12% SAU bio 2022, au-dessus moyenne nationale (Agence Bio)"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique d'environ 12 % (2022), supérieure à la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Faible intensification agricole : dominante élevage herbager limitant les apports en pesticides et intrants chimiques sur les sols",
+    "Sols granitiques naturellement filtrants, avec une bonne capacité de rétention organique dans les prairies permanentes abondantes",
+    "Réseau de surveillance des sols (RMQS-INRAE) montrant des teneurs en contaminants organiques modérées comparativement aux départements céréaliers voisins"
+  ],
+  "vigilances": [
+    "Risque radon très élevé : plus de 60 % des communes classées niveau 3 (potentiel fort), exposition chronique des habitants via les sols granitiques uranifères (IRSN), premier facteur de cancer du poumon après le tabac",
+    "Sites ex-BASOL liés aux anciennes activités de porcelaine, tannerie et traitement de surface à Limoges pouvant générer des pollutions résiduelles aux métaux lourds (chrome, plomb) non totalement dépollués",
+    "Acidification structurelle des sols granitiques combinée à une possible baisse de la matière organique sous l'effet du réchauffement climatique prévu d'ici 2050-2060 (Climadiag), menaçant la fertilité des prairies"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 sites",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Communes zone radon niveau 3"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "SAU en agriculture biologique (2022)"
+    },
+    {
+      "valeur": "6.5/10",
+      "label": "Score sols (rang ~50/96 radon pénalisant)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (MTES)",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "INRAE – Réseau de Mesures de la Qualité des Sols (RMQS) 2023",
+    "Agence Bio – Chiffres bio par département 2023"
+  ],
+  "limites": [
+    "La base ex-BASOL ne recense pas l'intégralité des sites potentiellement pollués (BRGM/SIS non fusionnés), sous-estimant possiblement la contamination réelle autour de Limoges",
+    "Aucune donnée départementale spécifique et actualisée sur les teneurs en pesticides des sols agricoles de Haute-Vienne n'est disponible en open data ; les estimations s'appuient sur des données régionales RMQS agrégées Nouvelle-Aquitaine",
+    "La cartographie IRSN du radon repose sur le potentiel géologique et non sur des mesures réelles dans les bâtiments, ce qui peut surestimer ou sous-estimer l'exposition effective des habitants selon la qualité du bâti local"
+  ]
+}

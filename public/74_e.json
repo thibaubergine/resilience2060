@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Savoie bénéficie d'une ressource en eau exceptionnelle grâce au massif alpin, avec plus de 1 500 mm de précipitations annuelles et la présence du lac Léman, premier réservoir d'eau douce d'Europe occidentale (89 km³) (ARS AuRA). La qualité de l'eau potable est globalement satisfaisante, avec 94,5 % de la population desservie par une eau conforme aux normes bactériologiques et physico-chimiques en 2022 (ARS 2023). Le département est peu exposé aux pressions agricoles intensives comparé à la plaine française, ce qui limite les contaminations aux nitrates : les teneurs moyennes restent inférieures à 25 mg/L dans la quasi-totalité des captages (DCE/BNPE). Toutefois, les projections Explore2 signalent une réduction significative des débits estivaux des torrents alpins d'ici 2060 liée au retrait glaciaire accéléré, et des détections de PFAS ont été enregistrées dans plusieurs captages proches des zones périurbaines et industrielles du Chablais (ARS 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "94,5% conformité eau potable; ressource lacustre et alpine abondante"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits estivaux en baisse; recul glaciaire accélère stress saisonnier"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Nitrates <25 mg/L; faible pression agricole intensive en zone montagne"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Détections PFAS localisées Chablais; captages périurbains sous surveillance"
+    }
+  ],
+  "points_forts": [
+    "Lac Léman : 89 km³ de réserve d'eau douce, premier réservoir d'Europe occidentale, ressource stratégique pour le département",
+    "Précipitations abondantes (1 500 à 2 500 mm/an selon altitude) assurant une recharge naturelle soutenue des aquifères (Météo-France)",
+    "Faible contamination aux nitrates : plus de 90 % des masses d'eau souterraine en bon état chimique sur ce paramètre (DCE 2022)",
+    "Réseau de suivi dense via le SILA et les syndicats intercommunaux assurant une gestion intégrée du bassin lémanique"
+  ],
+  "vigilances": [
+    "Retrait glaciaire accéléré (-30 % de surface glaciaire depuis 1985) menaçant les débits d'étiage estivaux des torrents alimentant les captages d'altitude (Explore2 2023)",
+    "Détections de PFAS dans plusieurs captages du Chablais et de la vallée de l'Arve, sans seuil réglementaire national opposable avant 2026 (ARS AuRA 2023)",
+    "Pression touristique intense (stations de ski, 4,5 millions de nuitées/an) générant des pics de consommation et des risques de pollution diffuse sur les captages de montagne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "89 km³",
+      "label": "Volume lac Léman"
+    },
+    {
+      "valeur": "94,5 %",
+      "label": "Conformité eau potable (2022)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates captages majoritaires"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Recul glaciaire depuis 1985"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes 2023",
+    "Explore2 / OFB 2023",
+    "DCE – Directive Cadre sur l'Eau 2022",
+    "Météo-France / DRIAS 2023"
+  ],
+  "limites": [
+    "Les données PFAS restent partielles : les campagnes de mesure ARS ne couvrent pas encore l'ensemble des captages ruraux de montagne en Haute-Savoie",
+    "Le suivi de la qualité des eaux de torrents glaciaires est moins systématique que celui des grandes masses d'eau, créant des angles morts dans l'évaluation DCE",
+    "La forte hétérogénéité altitudinale du département (300 m à 4 808 m) rend difficile toute extrapolation départementale des stress hydriques projetés par Explore2"
+  ]
+}
