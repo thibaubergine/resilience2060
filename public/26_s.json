@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme présente un profil pédologique contrasté, avec des sols agricoles de haute valeur dans la plaine de la Valdaine et les coteaux rhodaniens, mais exposés à une pression phytosanitaire notable liée aux cultures de noix, lavande et arboriculture intensive (INRAE 2023). Le département recense environ 45 sites BASOL (anciens sites industriels et pollués) majoritairement concentrés dans le couloir rhodanien et autour de Romans-sur-Isère et Valence, un héritage industriel non négligeable (GéoRisques 2024). Le risque radon est modéré à élevé sur les secteurs granitiques et volcaniques du Vercors et du Diois, classant une partie du territoire en priorité 3 selon l'IRSN. En revanche, la Drôme figure parmi les départements les plus dynamiques en agriculture biologique, avec environ 15 % de la SAU certifiée bio, soit l'un des taux les plus élevés d'Auvergne-Rhône-Alpes (Agence Bio 2023), ce qui constitue un levier fort de préservation de la qualité des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "~45 sites BASOL, couloir rhodanien et Romans industriels concentrés"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Pression phytosanitaire élevée : noix, lavande, arboriculture intensive"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon modéré à élevé sur massifs Vercors-Diois, zones granitiques"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "~15 % SAU bio, parmi les plus élevés d'Auvergne-Rhône-Alpes"
+    }
+  ],
+  "points_forts": [
+    "Taux de SAU en agriculture biologique parmi les plus élevés de la région (~15 %), limitant le recours aux intrants chimiques (Agence Bio 2023)",
+    "Diversité pédologique remarquable (argilo-calcaires, limons, alluvions) favorisant une agriculture variée et résiliente",
+    "Engagement territorial fort via le label « Drôme, Terre d'Agriculture Biologique » porté par le Conseil départemental",
+    "Présence significative de prairies permanentes dans le Diois et le Vercors, facteur de séquestration carbone et de protection structurale des sols"
+  ],
+  "vigilances": [
+    "Contamination résiduelle des sols en HAP et métaux lourds autour des anciens sites industriels rhodaniens (Romans, Portes-lès-Valence), avec des plans de gestion encore partiels (GéoRisques 2024)",
+    "Intensification de l'érosion hydrique sur les coteaux viticoles et arboricoles sous l'effet des épisodes méditerranéens, projetée en hausse avec le changement climatique (DRIAS 2060)",
+    "Pression croissante des pesticides sur les sols des plaines céréalières et noyeraies, avec des résidus persistants détectés dans les horizons superficiels (INRAE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~15 %",
+      "label": "SAU certifiée bio"
+    },
+    {
+      "valeur": "Priorité 3 IRSN",
+      "label": "Zones radon Vercors-Diois"
+    },
+    {
+      "valeur": "6,7 %",
+      "label": "SAU bio France (référence nationale)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie radon 2023",
+    "Agence Bio – Statistiques départementales 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours l'état réel de dépollution des sites « traités » des sites simplement surveillés, sous-estimant potentiellement les risques résiduels en Drôme rhodanienne",
+    "L'observatoire des résidus de pesticides dans les sols (INRAE) repose sur un réseau de points de mesure limité, peu représentatif de la diversité des systèmes culturaux drômois (lavande, noix, vigne)",
+    "L'absence d'un observatoire départemental unifié des sols agricoles en Drôme rend difficile le suivi longitudinal de la qualité biologique (teneur en matière organique, activité microbienne) à l'échelle fine"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Creuse figure parmi les départements français les mieux dotés en matière de biodiversité, avec environ 18 % de son territoire couvert par des zones Natura 2000 (INPN, 2024), incluant des habitats de landes, tourbières et rivières à écrevisses à pattes blanches. Le département abrite plusieurs espèces emblématiques en bon état de conservation, dont la loutre d'Europe, le vison d'Europe et la pie-grièche écorcheur, attestant de la qualité des continuités écologiques (OFB, 2024). La Creuse bénéficie d'une pression anthropique faible liée à sa faible densité de population (22 hab/km²), favorisant le maintien de corridors fonctionnels entre les massifs de Millevaches et les vallées creusantes. Le Parc Naturel Régional de Millevaches en Limousin, qui recouvre environ 30 % de la superficie départementale, constitue un socle de gouvernance territoriale pour la préservation des espèces et des habitats (PNR Millevaches, 2023). Des fragilités subsistent néanmoins avec la déprise agricole accélérée et la fermeture progressive des milieux ouverts, menaçant certaines espèces des prairies et bocages.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18 % du territoire classé Natura 2000, tourbières et rivières incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Millevaches couvrant ~30 % du département, gouvernance solide"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Loutre, vison d'Europe, pie-grièche, populations bien établies"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors fonctionnels mais fermeture milieux ouverts en progression"
+    }
+  ],
+  "points_forts": [
+    "Environ 18 % du territoire en zones Natura 2000 (INPN, 2024), parmi les taux les plus élevés de Nouvelle-Aquitaine",
+    "Présence confirmée du vison d'Europe (*Neovison lutreola*), espèce parmi les plus menacées d'Europe (LPO/OFB, 2024)",
+    "PNR de Millevaches en Limousin couvrant ~300 000 ha, référence nationale pour la gestion des tourbières et landes",
+    "Densité de population parmi les plus faibles de France (22 hab/km²), limitant les pressions d'artificialisation et de fragmentation"
+  ],
+  "vigilances": [
+    "Fermeture progressive des milieux ouverts (prairies, landes) due à la déprise agricole : réduction estimée de 15 % des surfaces de prairies permanentes en 20 ans (Agreste, 2023), menaçant passereaux et insectes des milieux ouverts",
+    "Réchauffement climatique prévu (hausse de +2,5 °C à horizon 2060 selon Climadiag) pouvant dégrader les tourbières d'altitude, habitats spécialisés et irremplaçables du plateau de Millevaches",
+    "Pression croissante des espèces exotiques envahissantes (jussie, renouée du Japon) sur les cours d'eau creusois, menaçant la biodiversité aquatique indigène (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~300 000 ha",
+      "label": "Surface PNR Millevaches"
+    },
+    {
+      "valeur": "22 hab/km²",
+      "label": "Densité population"
+    },
+    {
+      "valeur": "~15 %",
+      "label": "Recul prairies permanentes (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Nouvelle-Aquitaine",
+    "PNR Millevaches en Limousin 2023",
+    "Agreste Recensement Agricole 2020-2023"
+  ],
+  "limites": [
+    "Les données INPN sur l'état de conservation des espèces en Creuse restent partielles, avec des lacunes d'inventaire sur les invertébrés et champignons",
+    "L'évaluation de l'état fonctionnel des corridors écologiques repose sur des modélisations nationales (TVB/Trame Verte et Bleue) peu actualisées à l'échelle infra-départementale",
+    "L'impact réel de la déprise agricole sur la biodiversité des milieux semi-ouverts est difficile à quantifier précisément en l'absence de suivis continus standardisés sur le département"
+  ]
+}

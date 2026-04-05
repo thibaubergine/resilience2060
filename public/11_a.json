@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aude affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité industrielle et d'une exposition aux vents dominants (tramontane et cers) qui favorisent la dispersion des polluants. Les concentrations moyennes en PM2,5 restent inférieures à 10 µg/m³ sur la majorité du territoire selon ATMO Occitanie (2023), bien qu'elles dépassent la valeur guide OMS de 5 µg/m³. Les niveaux de NO₂ demeurent modestes, avec des pics localisés autour de Carcassonne et de l'axe A61, sans franchissement régulier du seuil réglementaire de 40 µg/m³ (ATMO Occitanie 2022). Le secteur agricole constitue la principale source de pression via les émissions d'ammoniac (NH₃), issues notamment des élevages ovins et des cultures viticoles, représentant une part significative des émissions totales du département (Citepa 2022). Le territoire dispose d'un réseau de surveillance air limité mais renforcé depuis 2021, offrant une couverture acceptable pour un département majoritairement rural.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~8–10 µg/m³ ; dépasse OMS (5 µg/m³), conforme seuil UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain faible ; Carcassonne bien en-dessous du seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Faible tissu industriel ; quasi-absence de sites émetteurs majeurs"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole notable ; viticulture et élevage ovin contribuent significativement"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air parmi les meilleures d'Occitanie : PM2,5 moyennes inférieures à 10 µg/m³ sur 90 % du territoire (ATMO Occitanie 2023)",
+    "Effet mécanique des vents dominants (tramontane, cers) assurant une dispersion naturelle efficace des polluants atmosphériques",
+    "Absence de grande zone industrielle émettrice : aucun site classé SEVESO seuil haut générant des rejets atmosphériques majeurs dans le département",
+    "Conformité réglementaire UE maintenue pour le NO₂ et les PM10 sur l'ensemble des stations de mesure audoises (ATMO Occitanie 2022)"
+  ],
+  "vigilances": [
+    "Les concentrations en PM2,5 restent au-dessus de la valeur guide OMS 2021 (5 µg/m³) : risque sanitaire chronique non nul, notamment pour les personnes vulnérables de Carcassonne et Narbonne",
+    "Émissions agricoles d'ammoniac (NH₃) en hausse potentielle avec l'intensification viticole et la pression sur l'élevage ; contribution à la formation de particules secondaires (PM2,5 secondaires)",
+    "Réseau de mesure insuffisant en zone rurale et littorale (secteur Narbonnais) : sous-estimation possible des expositions locales, notamment aux polluants saisonniers liés aux incendies de forêt en augmentation"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8–10 µg/m³",
+      "label": "Concentration PM2,5 moyenne (ATMO 2023)"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ max urbain Carcassonne (ATMO 2022)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS PM2,5 (2021)"
+    },
+    {
+      "valeur": "~60–70 %",
+      "label": "Part du secteur agricole dans émissions NH₃ locales"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2022",
+    "Préfecture de l'Aude – Plan de Protection de l'Atmosphère (PPA) Carcassonne"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est concentré sur Carcassonne et Narbonne, laissant de larges zones rurales et montagneuses (Corbières, Montagne Noire) sans données directes",
+    "Les émissions liées aux feux de végétation, en augmentation avec le changement climatique, ne sont pas encore intégrées de façon systématique dans les bilans annuels départementaux",
+    "L'absence de Plan de Protection de l'Atmosphère (PPA) actif sur l'ensemble du département limite la portée des politiques de réduction des émissions agricoles et des transports routiers (axe A61)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne affiche un profil alimentaire remarquable, s'appuyant sur une tradition agricole diversifiée et une forte identité gastronomique reconnue nationalement. Avec près de 330 000 hectares de SAU (Agreste 2023), le département figure parmi les territoires les plus agricoles de Nouvelle-Aquitaine, combinant polyculture-élevage, arboriculture et production de foie gras. La Dordogne concentre un nombre significatif de signes officiels de qualité, avec plus d'une quinzaine d'AOP/IGP actives (INAO 2024), dont la Noix du Périgord IGP, les truffes, le Cabécou et plusieurs vins de Bergerac, conférant une densité de labels parmi les plus élevées à l'échelle nationale. La part de la SAU en agriculture biologique atteint environ 8,5 % (Agence Bio 2023), en progression constante mais encore inférieure à la moyenne régionale Nouvelle-Aquitaine (~12 %). L'indicateur ZAVA (Zone à Vocation Alimentaire, 2024) positionne le département avec une autonomie alimentaire supérieure à la moyenne nationale, grâce à la diversité des productions locales et à un tissu de circuits courts dynamique, avec plus de 200 points de vente directe recensés sur le territoire (RNM/DRAAF 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Autonomie alimentaire solide, polyculture-élevage diversifiée, ZAVA favorable"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Plus de 15 AOP/IGP actives, Noix Périgord, Bergerac, Cabécou"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "8,5% SAU bio, progression lente, sous moyenne régionale Nouvelle-Aquitaine"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 200 points vente directe, AMAP actives, marchés producteurs dynamiques"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de signes de qualité : plus de 15 AOP/IGP (INAO 2024), dont la Noix du Périgord IGP et les AOC Bergerac/Pécharmant, référence nationale",
+    "Autonomie alimentaire élevée grâce à une SAU de ~330 000 ha et une polyculture-élevage structurée (Agreste 2023), bien classée selon l'indicateur ZAVA 2024",
+    "Réseau de circuits courts dynamique avec plus de 200 points de vente directe recensés et des marchés de producteurs emblématiques (Sarlat, Périgueux) (DRAAF NA 2023)",
+    "Filière foie gras et canard gras structurée représentant une part significative de l'économie agricole locale, avec Label Rouge et IGP associés (CIFOG 2023)"
+  ],
+  "vigilances": [
+    "Vulnérabilité climatique des filières emblématiques : la truffe noire du Périgord pourrait voir sa production chuter de 30 à 50 % d'ici 2050 sous l'effet des sécheresses estivales répétées (INRAE/Climadiag 2023)",
+    "Dépendance économique aux filières canard/foie gras exposées aux crises sanitaires récurrentes (influenza aviaire) : 3 épisodes majeurs depuis 2016 avec pertes supérieures à 50 M€ en Dordogne (DGAL 2022)",
+    "Progression lente de l'agriculture biologique (~8,5 % SAU) face aux objectifs nationaux de 18 % en 2027 (Plan Ambition Bio), risque de décrochage sur les marchés premium"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~330 000 ha",
+      "label": "Surface Agricole Utile (SAU)"
+    },
+    {
+      "valeur": "15+",
+      "label": "AOP/IGP actives recensées"
+    },
+    {
+      "valeur": "8,5%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "200+",
+      "label": "Points de vente directe"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre AOP/IGP",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones à Vocation Alimentaire",
+    "Agreste/DRAAF Nouvelle-Aquitaine 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour certaines filières spécialisées périgourdines (truffe, foie gras), sous-estimant potentiellement l'autonomie réelle du territoire",
+    "La part de SAU en bio est calculée sur les exploitations certifiées uniquement, excluant les pratiques agroécologiques non labellisées, nombreuses en Dordogne rurale",
+    "Les circuits courts sont recensés via des bases déclaratives (RNM, DRAAF) qui ne captent pas exhaustivement les ventes à la ferme informelles, très présentes dans ce département rural"
+  ]
+}

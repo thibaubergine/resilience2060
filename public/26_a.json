@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme présente une qualité de l'air globalement favorable, bénéficiant d'une topographie diversifiée qui favorise la dispersion des polluants sur une grande partie du territoire. Les concentrations en PM2,5 restent modérées, avec des valeurs moyennes annuelles estimées entre 10 et 14 µg/m³ selon les zones (ATMO Auvergne-Rhône-Alpes, 2023), proches mais parfois dépassant le seuil OMS 2021 fixé à 5 µg/m³. Le NO₂ urbain reste limité hors de l'agglomération valentinoise, avec des niveaux inférieurs à 25 µg/m³ dans la majorité des communes (ATMO AuRA, 2022). Le secteur agricole, notamment l'élevage et les cultures maraîchères intensives de la Drôme des collines, constitue la principale source d'émissions d'ammoniac (NH₃), représentant près de 65 % des émissions totales départementales (Citepa/Inventaire ATMO, 2022). L'absence de grande métropole industrielle lourde sur le territoire préserve le département d'une pollution chronique sévère, même si la plateforme chimique de Pont-de-l'Isère constitue un point de vigilance localisé.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 10-14 µg/m³, dépassant seuil OMS 5 µg/m³ mais modéré nationalement"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain faible hors Valence, largement sous seuil OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie chimique localisée Pont-de-l'Isère, densité émettrice modérée globalement"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "NH₃ agricole significatif mais territoire peu intensif vs grandes plaines céréalières"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air globalement satisfaisante : plus de 85 % des stations ATMO AuRA enregistrent des PM2,5 sous 15 µg/m³ en moyenne annuelle (ATMO AuRA, 2023)",
+    "NO₂ très bas en zone rurale et semi-rurale, avec moins de 2 % de la population exposée à des dépassements de la valeur guide OMS (10 µg/m³) hors axe Valence-Romans",
+    "Absence de grande zone industrielle lourde polluante : pas de site Seveso émetteur majeur de SOx ou NOx en dehors de secteurs localisés (Géorisques/DREAL AuRA, 2023)",
+    "Vents fréquents du couloir rhodanien (mistral) assurant une bonne dilution naturelle des polluants sur la plaine de Valence, réduisant les épisodes d'accumulation"
+  ],
+  "vigilances": [
+    "Épisodes hivernaux de pollution aux particules (PM10, PM2,5) liés au chauffage au bois résidentiel en vallées encaissées (Drôme alpine, Diois), avec des dépassements ponctuels pouvant atteindre 50 µg/m³/jour (ATMO AuRA, 2022-2023)",
+    "Émissions agricoles d'ammoniac en hausse potentielle avec l'intensification des cultures sous serre et de l'arboriculture fruitière dans la Drôme provençale, risque d'accroissement de la formation de particules secondaires",
+    "Axe A7/RN7 et voies ferrées à fort trafic : exposition chronique au NO₂ et aux particules diesel pour les populations riveraines de Valence et Montélimar, risque aggravé par les projections de trafic à +15 % d'ici 2035 (SDES, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ urbain Valence"
+    },
+    {
+      "valeur": "~65 %",
+      "label": "Part agricole émissions NH₃"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS PM2,5 2021"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes 2022-2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa / Inventaire national des émissions 2022",
+    "DREAL AuRA / Géorisques 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur Valence et Romans-sur-Isère, laissant de larges zones rurales (Diois, Baronnies) sans station fixe, ce qui limite la représentativité des données départementales",
+    "Les émissions agricoles de NH₃ sont estimées par modélisation et non mesurées in situ dans la Drôme, introduisant une incertitude significative sur les niveaux réels",
+    "L'impact des pollens et des composés organiques volatils (COV) d'origine végétale, élevé dans ce département à forte biodiversité végétale, n'est pas intégré dans les indices de qualité de l'air standard ATMO"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Côtes-d'Armor affiche une qualité de l'air globalement satisfaisante, bénéficiant de sa façade maritime atlantique et de l'absence de grands pôles industriels lourds. Les concentrations en PM2,5 restent en deçà de la moyenne nationale avec des niveaux estimés entre 8 et 11 µg/m³ selon ATMO Bretagne (2022-2023), proches mais encore supérieurs au seuil OMS 2021 de 5 µg/m³. Le NO₂ urbain demeure faible, les principales agglomérations (Saint-Brieuc, Lannion, Guingamp) ne dépassant pas 15 µg/m³ en moyenne annuelle, très en dessous du seuil réglementaire européen de 40 µg/m³ (ATMO Bretagne, 2023). En revanche, le territoire se distingue défavorablement pour les émissions d'ammoniac (NH₃) d'origine agricole : avec une densité d'élevages porcins et avicoles parmi les plus élevées de France, les Côtes-d'Armor contribuent significativement aux émissions bretonnes de NH₃, estimées à environ 30 000 tonnes/an pour la région Bretagne (Citepa, 2022), pesant sur la qualité de l'air rural et la formation de particules secondaires.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³; au-dessus OMS 5 µg/m³ mais correct nationalement"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain faible, Saint-Brieuc sous 15 µg/m³, loin du seuil réglementaire"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries lourdes émettrices; tissu industriel diffus et limité"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole élevé; élevages porcins et avicoles très denses, émissions significatives"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de France, inférieures à 15 µg/m³ en zone urbaine (ATMO Bretagne, 2023), sans dépassement réglementaire",
+    "Absence de site industriel classé majeur émetteur de polluants atmosphériques primaires (SOx, NOx industriels), contrairement à des départements portuaires ou pétrochimiques",
+    "Effet de dilution et de ventilation des masses d'air par la façade maritime atlantique, limitant l'accumulation de polluants en épisodes de stagnation",
+    "Qualité de l'air à Saint-Brieuc conforme aux normes européennes pour l'ensemble des polluants réglementés selon le bilan annuel ATMO Bretagne 2022"
+  ],
+  "vigilances": [
+    "Les émissions agricoles de NH₃ contribuent à la formation de particules secondaires (PM2,5) et pourraient augmenter avec l'intensification des élevages, alors que les seuils OMS 2021 (5 µg/m³ PM2,5) restent encore dépassés localement",
+    "Les épisodes de pollution aux particules liés aux pratiques de fertilisation (épandages printaniers) génèrent des pics locaux de NH₃ et d'odeurs, avec un impact santé sous-estimé en milieu rural (ANSES, 2021)",
+    "L'évolution climatique (augmentation des épisodes de chaleur et de sécheresse projetée par Climadiag 2060) pourrait favoriser la formation d'ozone troposphérique (O₃), polluant secondaire en progression dans les zones rurales bretonnes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 moyenne (ATMO Bretagne 2022-2023)"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ max urbain Saint-Brieuc"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS 2021 PM2,5 (référence)"
+    },
+    {
+      "valeur": "~30 000 t/an",
+      "label": "Émissions NH₃ Bretagne (Citepa 2022)"
+    }
+  ],
+  "sources": [
+    "ATMO Bretagne – Bilan de la qualité de l'air 2022-2023",
+    "Citepa – Inventaire national des émissions 2022 (NH₃, secteur agricole)",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "ANSES – Rapport sur les émissions agricoles et la santé respiratoire 2021"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe d'ATMO Bretagne est peu dense en zone rurale des Côtes-d'Armor, limitant la représentativité des données pour les secteurs à forte pression agricole (Centre-Bretagne, Trégor intérieur)",
+    "Les concentrations en NH₃ ne font pas l'objet d'une surveillance réglementaire aussi systématique que les PM ou le NO₂, ce qui sous-estime potentiellement l'exposition réelle des populations rurales",
+    "L'absence de station de mesure de l'ozone troposphérique (O₃) en continu sur l'ensemble du territoire costarmoricain rend difficile l'évaluation précise des pics estivaux, en contexte de réchauffement climatique progressif"
+  ]
+}

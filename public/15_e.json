@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal présente une situation hydrique parmi les plus favorables de France métropolitaine, bénéficiant d'un réseau hydrographique dense issu du massif volcanique avec plus de 3 500 km de cours d'eau (Agence de l'Eau Loire-Bretagne). La qualité des eaux superficielles et souterraines est globalement très bonne, avec 87 % des masses d'eau en bon état écologique selon l'évaluation DCE 2022, un des meilleurs taux nationaux. La pression agricole reste modérée grâce à une dominance de l'élevage extensif allaitant (bovins Salers et Aubrac), limitant les apports en nitrates : la quasi-totalité du territoire n'est pas classée en zone vulnérable nitrates (BNVD/DRAAF 2023). Les projections Explore2 (2022) indiquent toutefois une réduction probable des débits d'étiage de 10 à 30 % à horizon 2060 sur les bassins de la Truyère et de la Dordogne supérieure, constituant un signal de vigilance pour les usages futurs. La contamination aux PFAS demeure à des niveaux faibles, sans signalement majeur dans les captages ARS 15, positionnant le Cantal favorablement dans les comparaisons nationales émergentes sur ce polluant.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "87% masses d'eau bon état DCE; captages conformes ARS quasi-totalité"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Réduction étiages -10 à -30% horizon 2060 (Explore2); Truyère sous pression"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Territoire hors zone vulnérable nitrates; élevage extensif dominant"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 9.0,
+      "note": "Aucun captage signalé hors normes PFAS; industrie lourde quasi-absente"
+    }
+  ],
+  "points_forts": [
+    "87 % des masses d'eau du Cantal classées en bon état écologique (DCE 2022), l'un des meilleurs taux des départements français",
+    "Quasi-absence de zones vulnérables aux nitrates : aucune commune classée en 6e programme d'action nitrates (DRAAF Auvergne-Rhône-Alpes 2023)",
+    "Réseau hydrographique exceptionnel avec plus de 3 500 km de cours d'eau alimentés par les sources volcaniques du massif du Cantal, garantissant des débits soutenus",
+    "Absence de pollution industrielle historique majeure aux PFAS ou solvants chlorés dans les captages ARS 15, préservant la ressource en eau potable"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 10 à 30 % sur la Truyère et la Dordogne supérieure à horizon 2060 (Explore2, 2022), menaçant les usages agricoles et hydroélectriques",
+    "Pression estivale sur certains captages en altitude liée à l'augmentation des épisodes de sécheresse : 3 arrêtés de restriction d'eau recensés en été 2022 (Préfecture du Cantal)",
+    "Surveillance renforcée nécessaire sur les petits captages ruraux isolés desservant des communes de moins de 500 habitants, où les contrôles ARS sont moins fréquents et la vulnérabilité aux événements pluvieux intenses est accrue"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "87%",
+      "label": "Masses d'eau en bon état écologique (DCE 2022)"
+    },
+    {
+      "valeur": "0",
+      "label": "Communes en zone vulnérable nitrates"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Réduction débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "3 500 km",
+      "label": "Linéaire cours d'eau département"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Loire-Bretagne – État des masses d'eau DCE 2022",
+    "ARS Auvergne-Rhône-Alpes – Bilan qualité eaux potables 2023",
+    "BRGM/INRAE – Explore2, projections hydrologiques 2050-2070, 2022",
+    "DRAAF AuRA – Arrêté zones vulnérables nitrates, 6e programme d'action 2023"
+  ],
+  "limites": [
+    "Les données PFAS pour le Cantal sont encore partielles : le plan national de surveillance PFAS dans les eaux (2023-2024) n'a pas encore produit de résultats exhaustifs pour tous les captages du département",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle de petits bassins versants montagnards du Cantal, où la variabilité locale (enneigement, karst volcanique) est mal restituée par les modèles",
+    "L'état écologique des petits cours d'eau (rang 1 et 2) n'est pas systématiquement évalué dans le cadre DCE, ce qui peut surestimer le bon état global affiché pour le département"
+  ]
+}

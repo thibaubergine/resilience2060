@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal présente un profil pédologique remarquable dominé par des sols volcaniques (andosols et cambisols) issus du Massif cantalien, naturellement riches en matière organique et peu exposés aux pollutions industrielles historiques (GéoRisques/BASOL 2023). Avec seulement 8 sites BASOL recensés sur l'ensemble du département, la pression anthropique sur les sols reste parmi les plus faibles de France métropolitaine, reflet d'un tissu industriel très limité. L'agriculture cantalienne, dominée à 85 % par l'élevage extensif sur prairies permanentes, génère une contamination par résidus de pesticides très inférieure à la moyenne nationale, les grandes cultures traitées chimiquement ne représentant qu'une fraction marginale de la SAU de 180 000 ha (Agreste 2023). En revanche, la géologie volcanique du département classe plus de 60 % de son territoire en zone à potentiel radon significatif ou élevé, constituant le principal facteur de dégradation de ce score (IRSN). La part de la SAU conduite en agriculture biologique atteint environ 12 %, supérieure à la moyenne nationale de 10,7 %, témoignant d'une dynamique de conversion favorable (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 9.0,
+      "note": "Seulement ~8 sites BASOL, densité industrielle très faible"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 9.0,
+      "note": "Élevage extensif dominant, très faible usage pesticides cultures"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Plus 60% territoire en zone radon significatif ou élevé (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "SAU bio ~12%, supérieure moyenne nationale 10,7% (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Densité de sites pollués (BASOL) parmi les plus faibles de France : ~8 sites pour 5 726 km², soit 0,14 site/100 km²",
+    "Sols volcaniques andosoliques naturellement riches en matière organique (>4 % MO), favorisant la séquestration carbone (INRAE 2023)",
+    "Usage de pesticides très limité : les grandes cultures traitées couvrent moins de 5 % de la SAU cantalienne (Agreste 2023)",
+    "Part de SAU en agriculture biologique (~12 %) supérieure à la moyenne nationale, avec une dynamique de conversion soutenue (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plus de 60 % du territoire classé en zone 3 (potentiel radon significatif), avec exposition domestique chronique sous-estimée (IRSN)",
+    "Compaction et érosion des sols prairiaux sous pression du pâturage intensif en zones de bas-fonds, aggravée par les événements pluviométriques intenses projetés à l'horizon 2050 (DRIAS 2023)",
+    "Acidification progressive de certains andosols liée aux retombées atmosphériques historiques et au changement climatique, risquant de mobiliser des métaux traces naturellement présents dans les roches volcaniques"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~8 sites",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "SAU conduite en bio"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Territoire en zone radon élevée"
+    },
+    {
+      "valeur": ">4 % MO",
+      "label": "Teneur MO sols volcaniques"
+    }
+  ],
+  "sources": [
+    "GéoRisques / BASOL 2023",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Carte potentiel radon 2023",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique départemental dense limite la connaissance fine de l'état des sols cantaliens hors sites BASOL",
+    "Les données BASOL ne couvrent pas les pollutions diffuses agricoles historiques (intrants anciens, boues d'épandage), peu documentées à l'échelle parcellaire dans ce département rural",
+    "La cartographie radon de l'IRSN repose sur des mailles régionales pouvant masquer des hétérogénéités locales liées à la complexité géologique volcanique du Cantal"
+  ]
+}

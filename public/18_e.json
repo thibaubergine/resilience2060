@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Cher (18) présente une situation hydrique contrastée, avec un réseau hydrographique structuré autour du Cher, de l'Arnon et de l'Yèvre, mais soumis à des pressions agricoles significatives sur la qualité des eaux souterraines. Selon les données ARS Centre-Val de Loire, environ 85 % de la population du Cher est alimentée par une eau conforme aux normes bactériologiques et physico-chimiques, mais des dépassements ponctuels en nitrates sont relevés dans plusieurs captages du nord du département, en lien avec l'agriculture céréalière intensive (ARS 2022). Les projections Explore2 (2023) anticipent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins versants du Cher et de ses affluents, menaçant l'alimentation en eau potable et les usages agricoles. La contamination aux PFAS, bien que moins documentée que dans d'autres départements, fait l'objet d'une surveillance accrue depuis la circulaire de 2022, avec des analyses en cours sur plusieurs captages prioritaires (ARS/ANSES). Le territoire compte plusieurs zones de répartition des eaux (ZRE), témoignant d'un déséquilibre structurel entre ressources disponibles et prélèvements, particulièrement marqué en période estivale.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "85 % conformité eau potable, dépassements nitrates ponctuels nord département"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages -20 à -40 % horizon 2060, ZRE existantes (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Agriculture céréalière intensive, captages sous pression, quelques dépassements"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Surveillance PFAS engagée, peu de contaminations avérées détectées à ce jour"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité bactériologique de l'eau potable supérieur à 95 % pour la majorité des unités de distribution (ARS Centre-Val de Loire, 2022)",
+    "Réseau hydrographique dense (Cher, Arnon, Yèvre, Auron) offrant une ressource en eau de surface globalement disponible hors étiage",
+    "Présence de zones humides et de prairies alluviales contribuant à la recharge des nappes et à la régulation des débits",
+    "Engagement de plusieurs collectivités dans des programmes de protection de captages AEP avec périmètres de protection réglementaires opérationnels"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2060 (Explore2, 2023), menaçant la sécurisation de l'alimentation en eau potable estivale",
+    "Pression nitrates persistante sur les eaux souterraines dans les zones de grande culture du nord du département, avec des captages classés « prioritaires » au titre de la DCE",
+    "Contamination aux pesticides (herbicides céréaliers notamment) détectée dans plusieurs masses d'eau souterraines, nécessitant un suivi renforcé des teneurs résiduelles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "85 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction étiages 2060 (Explore2)"
+    },
+    {
+      "valeur": "3 ZRE",
+      "label": "Zones répartition des eaux actives"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé sur captages nord"
+    }
+  ],
+  "sources": [
+    "ARS Centre-Val de Loire 2022",
+    "Explore2 BRGM/OFB 2023",
+    "DCE/Eaufrance masses d'eau",
+    "ANSES/Circulaire PFAS 2022"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques au Cher restent partielles, les campagnes de mesure étant encore en cours sur plusieurs captages prioritaires du département",
+    "L'état quantitatif précis des nappes phréatiques locales (Berry calcaire, alluvions du Cher) manque de données publiques consolidées à maille fine",
+    "Les projections Explore2 s'appliquent à des bassins versants larges, rendant difficile la déclinaison précise des impacts à l'échelle des petits affluents du département"
+  ]
+}

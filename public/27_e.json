@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure (27) présente une situation hydrique contrastée, marquée par une forte pression agricole sur les masses d'eau souterraines et superficielles. Les nitrates constituent la principale menace : 67 % du territoire est classé en zone vulnérable nitrates (programme d'action nitrates, ARS Normandie 2023), avec des dépassements réguliers de la norme de 50 mg/L sur plusieurs captages de la plaine de Neubourg. Le projet Explore2 (2023) projette une baisse des débits d'étiage de 20 à 40 % sur les rivières normandes à horizon 2050-2070, plaçant les affluents de l'Eure et de la Risle en situation de stress hydrique accru. La contamination aux PFAS reste préoccupante, avec des détections signalées sur des unités de distribution dans la vallée de la Seine et autour de zones industrielles de Pont-de-l'Arche (ARS Normandie, rapport 2023). La qualité globale des eaux de surface reste dégradée, avec seulement 38 % des masses d'eau en bon état écologique selon l'état des lieux DCE 2019 (Agence de l'Eau Seine-Normandie).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "38% masses d'eau bon état; captages vulnérables plaine Neubourg"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits étiage -20 à -40% projetés horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "67% territoire zone vulnérable nitrates; dépassements 50mg/L fréquents"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Détections PFAS localisées; zones industrielles Seine concernées"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense : la rivière Eure, la Risle et leurs affluents assurent une recharge naturelle des nappes alluviales non négligeable",
+    "Efforts de reconquête des captages prioritaires engagés : 12 captages Grenelle identifiés font l'objet de plans d'action spécifiques (Agence de l'Eau Seine-Normandie, SDAGE 2022-2027)",
+    "Pluviométrie normande encore excédentaire (800-900 mm/an en moyenne) limitant à court terme le stress hydrique chronique",
+    "Des zones humides préservées en fond de vallée contribuent à l'auto-épuration et au soutien d'étiage (Conservatoire d'Espaces Naturels de Normandie)"
+  ],
+  "vigilances": [
+    "Baisse projetée de 20 à 40 % des débits d'étiage à horizon 2060 (Explore2 2023) menaçant l'alimentation en eau potable de plusieurs collectivités rurales dépendantes de captages superficiels",
+    "Contamination nitrates structurelle sur la plaine du Neubourg et le Vexin normand : dépassements récurrents de 50 mg/L malgré les programmes d'action, remettant en cause la viabilité de plusieurs captages",
+    "Présence de PFAS détectée dans plusieurs unités de distribution en périphérie industrielle (Pont-de-l'Arche, vallée de Seine) sans cadre réglementaire de traitement pleinement opérationnel avant 2026 (directive eau potable transposée)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "38%",
+      "label": "Masses d'eau bon état écologique (DCE 2019)"
+    },
+    {
+      "valeur": "67%",
+      "label": "Territoire classé zone vulnérable nitrates"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débit étiage projetée 2060 (Explore2)"
+    },
+    {
+      "valeur": "12",
+      "label": "Captages Grenelle prioritaires identifiés"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Seine-Normandie – SDAGE 2022-2027 & état des lieux DCE 2019",
+    "ARS Normandie – Rapports qualité eau potable et PFAS 2023",
+    "Explore2 – Projections hydrologiques France métropolitaine 2023 (INRAE/OFB)",
+    "Programme d'Action Régional Nitrates Normandie 2022 (DRAAF)"
+  ],
+  "limites": [
+    "Les données PFAS pour l'Eure restent partielles : le maillage de surveillance est encore incomplet en 2023-2024, sous-estimant potentiellement l'étendue réelle de la contamination",
+    "L'état des lieux DCE 2019 constitue la référence disponible la plus récente pour les masses d'eau, mais ne reflète pas les évolutions post-2020 liées aux sécheresses successives",
+    "Les projections Explore2 sont données à l'échelle de grands bassins versants normands et ne permettent pas de distinguer finement les sous-bassins intra-départementaux de l'Eure"
+  ]
+}

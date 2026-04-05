@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal présente l'un des patrimoines naturels les plus remarquables de France métropolitaine, avec près de 47 % de sa surface couverte par des sites Natura 2000 (INPN, 2024), plaçant le département dans le premier décile national. Le Parc Naturel Régional des Volcans d'Auvergne, qui englobe une large portion du territoire cantilien, constitue le plus grand PNR de France métropolitaine avec 395 000 ha, offrant des habitats d'exception pour des espèces emblématiques comme le Milan royal, le Loup (recolonisation confirmée depuis 2020) et la Loutre d'Europe (LPO/OFB, 2024). Les tourbières, estives et forêts de hêtres-sapins hébergent plus de 2 800 espèces végétales recensées, dont plusieurs endémiques du Massif Central (INPN, 2023). Les corridors écologiques cantaliens s'intègrent dans la Trame Verte et Bleue régionale AURA, avec des continuités bocagères relativement bien préservées grâce à une pression agricole extensive et une densité humaine parmi les plus faibles de France (26 hab/km²).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.5,
+      "note": "47 % du territoire en sites Natura 2000, parmi les meilleurs nationaux"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.5,
+      "note": "PNR Volcans d'Auvergne, plus grand PNR métropolitain (395 000 ha)"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.5,
+      "note": "Milan royal, Loup, Loutre, espèces emblématiques bien présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.5,
+      "note": "Bocage et estives préservés, corridors TVB fonctionnels identifiés"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 exceptionnelle : ~47 % du département classé (INPN 2024), soit plus de 3× la moyenne nationale (~13 %)",
+    "Le PNR des Volcans d'Auvergne, premier PNR de France métropolitaine par la superficie (395 000 ha), structure la gouvernance biodiversité locale (Fédération des PNR, 2023)",
+    "Recolonisation naturelle du Loup confirmée depuis 2020 et population de Loutres d'Europe parmi les mieux portantes du Massif Central (OFB, 2024)",
+    "Bocage cantilien parmi les mieux conservés d'Auvergne, avec un maillage de haies estimé à plus de 80 000 km linéaires contribuant activement aux corridors écologiques (DRAAF AURA, 2022)"
+  ],
+  "vigilances": [
+    "Déprise agricole et fermeture des milieux ouverts (estives, pelouses subalpines) menacent des habitats à haute valeur floristique ; projection d'une perte de 15 à 20 % des surfaces ouvertes d'ici 2040 sans mesures agri-environnementales renforcées (INRAE, 2023)",
+    "Changement climatique : remontée altitudinale des espèces et risque de disparition locale des tourbières boréales, particulièrement vulnérables à l'augmentation des températures estivales (+2 °C projetés à l'horizon 2060, Climadiag)",
+    "Fragmentation croissante des habitats forestiers liée à l'intensification des coupes sylvicoles (résineux) et aux dégâts de tempêtes, réduisant la connectivité pour les grands mammifères (LPO/OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~47 %",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "395 000 ha",
+      "label": "PNR Volcans d'Auvergne"
+    },
+    {
+      "valeur": "2 800+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "80 000 km",
+      "label": "Linéaire de haies estimé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Auvergne-Rhône-Alpes",
+    "Fédération des PNR de France 2023",
+    "DRAAF AURA 2022 / INRAE 2023"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont partielles pour les invertébrés et champignons cantaliens, groupes largement sous-prospectés malgré leur rôle fonctionnel clé",
+    "L'état de conservation réel des habitats Natura 2000 n'est pas évalué de manière systématique à l'échelle parcellaire, rendant difficile la mesure précise de la qualité (et pas seulement de la surface) protégée",
+    "L'impact des pratiques sylvicoles intensives (monocultures de résineux en expansion) sur la biodiversité forestière reste insuffisamment documenté dans les rapports officiels disponibles pour le Cantal"
+  ]
+}

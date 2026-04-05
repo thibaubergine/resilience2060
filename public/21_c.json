@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or (21) présente un profil climatique contrasté à l'horizon 2060, marqué par une altitude moyenne modérée (~400 m sur le plateau de Langres et la Côte viticole) offrant un tampon thermique partiel mais insuffisant face aux projections de réchauffement. Selon Climadiag (Météo-France 2023), le département devrait connaître une augmentation de +2,5 à +3°C de ses températures moyennes annuelles d'ici 2060 sous scénario intermédiaire RCP4.5, avec une multiplication par 2 à 3 du nombre de jours de canicule. Les projections DRIAS indiquent une intensification des épisodes de sécheresse estivale, pesant directement sur la viticulture bourguignonne et les ressources en eau du bassin versant Saône-Rhône. Le risque feux de forêt, encore modéré actuellement, est en forte progression selon le diagnostic AP3C Bourgogne-Franche-Comté (2022), les massifs forestiers du Morvan et de la Côte étant de plus en plus exposés. L'absence de façade côtière préserve le département des risques littoraux, mais les inondations fluviales (vallée de l'Ouche, Saône) constituent une vulnérabilité climatique croissante identifiée par GéoRisques.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Plateau de Langres et reliefs offrent tampon thermique réel mais limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+2,5 à +3°C projetés d'ici 2060, multiplication canicules par 2-3"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant sur massifs Morvan/Côte, encore modéré actuellement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Pas de façade côtière ; inondations Ouche et Saône en hausse projetée"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne élevée sur le plateau de Langres (~500 m) offrant un atténuateur thermique notable par rapport aux plaines voisines",
+    "Absence totale de vulnérabilité côtière, écartant un risque climatique majeur affectant ~20 départements français (source : GéoRisques)",
+    "Couverture forestière significative (~30 % du territoire) jouant un rôle de régulation thermique locale (source : IGN 2022)",
+    "Traditions d'adaptation agro-viticole anciennes permettant une résilience culturelle face aux aléas thermiques (source : BIVB / AP3C BFC 2022)"
+  ],
+  "vigilances": [
+    "Multiplication par 2 à 3 du nombre annuel de jours de canicule (>35°C) à l'horizon 2060 sous RCP4.5, menaçant santé publique et viticulture (DRIAS/Climadiag 2023)",
+    "Progression du risque feux de forêt sur les massifs boisés du Morvan et de la Côte, avec remontée vers le nord de l'aléa incendie prévu dès 2040-2050 (AP3C BFC 2022)",
+    "Augmentation de la fréquence et de l'intensité des crues éclair et inondations dans les vallées de l'Ouche et de la Saône, en lien avec des épisodes pluviométriques extrêmes plus fréquents (TRACC / GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3°C",
+      "label": "Hausse température projetée 2060"
+    },
+    {
+      "valeur": "×2 à ×3",
+      "label": "Multiplication jours canicule (RCP4.5)"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Couverture forestière du département"
+    },
+    {
+      "valeur": "500 m",
+      "label": "Altitude moyenne plateau de Langres"
+    }
+  ],
+  "sources": [
+    "Climadiag / Météo-France 2023",
+    "DRIAS 2023 – Projections climatiques régionales",
+    "AP3C Bourgogne-Franche-Comté 2022",
+    "GéoRisques / TRACC MTECT"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à l'échelle régionale BFC et peuvent masquer des disparités intra-départementales importantes entre la plaine de Saône et le plateau de Langres",
+    "L'indice de risque feux de forêt repose sur des modèles nationaux pas encore pleinement calibrés pour les forêts feuillues continentales du nord de la Bourgogne",
+    "La vulnérabilité aux inondations fluviales est mal captée par les indicateurs climatiques agrégés, nécessitant des études locales PPRI à l'échelle des bassins versants de l'Ouche et de la Tille"
+  ]
+}

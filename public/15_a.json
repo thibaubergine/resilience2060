@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal affiche l'une des meilleures qualités d'air de France métropolitaine, bénéficiant d'une très faible densité industrielle et d'une situation géographique montagnarde favorisant la dispersion des polluants. Les concentrations moyennes en PM2,5 y restent inférieures à 8 µg/m³ (ATMO Auvergne-Rhône-Alpes, 2023), soit bien en-deçà de la valeur guide OMS 2021 fixée à 5 µg/m³, et parmi les plus basses du territoire national. Le NO₂ urbain à Aurillac, seule agglomération significative du département, demeure sous les 15 µg/m³ annuels (ATMO AuRA, 2022-2023), très inférieur à la limite réglementaire de 40 µg/m³. Toutefois, l'élevage bovin extensif intensif — avec un cheptel d'environ 320 000 bovins (Agreste 2022) — génère des émissions d'ammoniac (NH₃) agricoles non négligeables qui constituent le principal facteur de nuance dans cette excellente performance globale. Le département enregistre un score Air de 9,0/10, classant le Cantal parmi les 5 meilleurs départements français sur cette dimension.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 < 8 µg/m³, nettement sous seuil OMS, meilleur quintile national"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.5,
+      "note": "NO₂ Aurillac < 15 µg/m³, très faible trafic urbain, aucun dépassement"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.5,
+      "note": "Quasi-absence d'industrie lourde émettrice, tissu économique pastoral"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "NH₃ élevé lié aux 320 000 bovins, premier polluant agricole local"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de France : < 8 µg/m³ en moyenne annuelle (ATMO AuRA, 2023), territoire rural préservé",
+    "Aucun dépassement réglementaire en NO₂, O₃ ou PM10 enregistré à Aurillac depuis 2018 (ATMO Auvergne-Rhône-Alpes, bilan annuel 2023)",
+    "Densité industrielle quasi nulle : aucun site classé SEVESO et moins de 5 installations ICPE de rang A dans le département (DREAL AuRA, 2023)",
+    "Couvert forestier et bocager (42 % du territoire) jouant un rôle de filtre naturel et de puits de polluants atmosphériques (IGN, 2022)"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac (NH₃) agricoles structurellement élevées liées au cheptel bovin : risque de formation de particules secondaires (PM2,5 secondaires) en hausse projetée si intensification de l'élevage (Citepa 2023)",
+    "Épisodes d'ozone (O₃) estivaux en augmentation avec le réchauffement climatique : dépassement du seuil d'information (180 µg/m³) possible lors de canicules, tendance haussière régionale confirmée (ATMO AuRA, été 2022-2023)",
+    "Combustion de bois domestique en zone de montagne : source locale de PM2,5 et HAP sous-estimée dans les vallées encaissées, notamment autour d'Aurillac et Saint-Flour (ADEME, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 8 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "< 15 µg/m³",
+      "label": "NO₂ urbain Aurillac"
+    },
+    {
+      "valeur": "~320 000",
+      "label": "Bovins (cheptel Cantal)"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites SEVESO dans le département"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes – Bilan qualité de l'air 2023",
+    "OMS Guidelines 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³)",
+    "Citepa – Inventaire national des émissions NH₃ 2023",
+    "Agreste – Recensement agricole Cantal 2022"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est limité à Aurillac pour le Cantal ; les zones rurales de montagne sont couvertes par modélisation et non par capteurs fixes, ce qui peut sous-estimer des micro-pollutions locales",
+    "Les émissions NH₃ agricoles sont calculées par extrapolation des effectifs animaux et facteurs d'émission nationaux, sans mesures terrain spécifiques au Cantal",
+    "L'impact de la combustion de bois résidentiel en vallées encaissées reste mal quantifié faute de stations de mesure dédiées aux particules fines en zone rurale de montagne"
+  ]
+}

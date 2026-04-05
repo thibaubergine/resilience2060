@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme présente une situation hydrique contrastée, tiraillée entre les ressources alpines du bassin du Rhône et de ses affluents (Isère, Drôme, Roubion) et une vulnérabilité croissante des bassins versants méridionaux soumis à l'influence méditerranéenne. Selon les projections Explore2 (2023), les débits d'étiage des cours d'eau drômois pourraient diminuer de 30 à 50 % d'ici 2070 sur les bassins versants du Sud du département, classant la Drôme parmi les territoires à risque hydrique élevé en France. La qualité de l'eau potable est globalement satisfaisante : 94 % de la population drômoise est alimentée par une eau conforme aux normes bactériologiques et physico-chimiques (ARS AuRA, 2022), bien que des dépassements ponctuels persistent sur certaines unités de distribution rurales. La contamination par les nitrates reste modérée dans la plaine de Valence et le Tricastin (30–40 mg/L en moyenne), sans atteindre le seuil réglementaire de 50 mg/L, grâce à une pression agricole relativement moindre qu'en grandes plaines céréalières (Agence de l'eau RMC, 2023). La présence de PFAS constitue une vigilance émergente, notamment en aval de certaines zones industrielles et d'activités aéroportuaires du nord du département (ANSES, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "94 % conformité eau potable ; dépassements ponctuels communes rurales isolées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Étiage -30 à -50 % prévu 2070 ; bassins sud très exposés"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Nitrates 30–40 mg/L plaine Valence ; seuil 50 mg/L non atteint"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés aval zones industrielles nord Drôme ; surveillance renforcée"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité eau potable de 94 % pour les paramètres microbiologiques et chimiques (ARS AuRA, 2022), supérieur à la moyenne nationale de 91 %",
+    "Réseau hydrographique dense (Rhône, Drôme, Isère, Eygues) assurant des réserves en eau superficielle significatives en partie nord du département",
+    "Faibles teneurs en nitrates dans la majorité des masses d'eau souterraines (<25 mg/L dans le nord et les reliefs), grâce à une agriculture diversifiée et une forte part de surfaces en herbe et forêt (Agence de l'eau RMC, 2023)",
+    "Programmes de reconquête de la qualité de l'eau sur les zones vulnérables nitrates engagés via le SDAGE Rhône-Méditerranée 2022-2027, avec objectifs de bon état écologique"
+  ],
+  "vigilances": [
+    "Stress hydrique sévère projeté sur les bassins versants méridionaux (Roubion, Jabron, Eygues) : débits d'étiage pouvant baisser de 40 à 50 % à l'horizon 2070 selon Explore2, menaçant les usages agricoles et les écosystèmes aquatiques",
+    "Contamination émergente aux PFAS détectée dans plusieurs captages et cours d'eau du nord du département (secteur Romans-sur-Isère / Tain-l'Hermitage), nécessitant un suivi renforcé suite à la directive européenne 2020/2184 et aux recommandations ANSES 2023",
+    "Conflits d'usage de l'eau en période estivale croissants : irrigation agricole intensive (arboriculture, maraîchage) en plaine de Valence et Tricastin face aux besoins en eau potable et aux exigences environnementales des débits réservés (arrêtés sécheresse récurrents depuis 2017)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94 %",
+      "label": "Conformité eau potable (ARS, 2022)"
+    },
+    {
+      "valeur": "-30 à -50 %",
+      "label": "Baisse étiage projetée 2070 (Explore2)"
+    },
+    {
+      "valeur": "30–40 mg/L",
+      "label": "Teneur moyenne nitrates plaine Valence"
+    },
+    {
+      "valeur": "PFAS détectés",
+      "label": "Captages nord Drôme sous surveillance"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques France 2023 (INRAE/BRGM)",
+    "Agence de l'eau Rhône-Méditerranée-Corse – SDAGE 2022-2027 & état des masses d'eau",
+    "ANSES – Campagne nationale PFAS eaux destinées à la consommation humaine 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS pour la Drôme restent partielles : la campagne nationale ANSES 2022-2023 ne couvre pas exhaustivement tous les captages ruraux du département, laissant des zones d'ombre sur l'exposition réelle de la population",
+    "Les projections Explore2 présentent une incertitude élevée sur les bassins versants de taille intermédiaire (Drôme, Eygues) en raison du manque de stations hydrométriques de longue durée pour la calibration des modèles",
+    "L'évaluation de la qualité des eaux souterraines profondes (aquifères du Tricastin, alluvions du Rhône) est limitée par la densité insuffisante du réseau piézométrique départemental et le délai de mise à jour des données DCE disponibles publiquement"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente (16) présente une qualité des sols globalement intermédiaire, avec un score de 6,0/10, reflétant des tensions entre héritage industriel localisé et pression agricole intense. Le département compte environ 80 sites et sols pollués recensés dans la base BASOL/Géorisques, concentration modérée à l'échelle nationale, liée notamment aux anciennes activités de traitement du bois, de métallurgie et d'imprimeries dans le bassin d'Angoulême. La plaine charentaise, dominée par les grandes cultures céréalières et la viticulture (cognac représentant ~40 000 ha de vignes), génère des résidus phytosanitaires préoccupants détectés dans les sols par les réseaux RMQS de l'INRAE (2023), avec des molécules comme le glyphosate et le chlorpyrifos fréquemment retrouvées. Le risque radon est classé en catégorie 2 (risque faible à moyen, IRSN), les formations géologiques du département étant majoritairement sédimentaires calcaires peu émettrices. La part de SAU en agriculture biologique reste modeste (~5,5% en 2023 selon l'Agence Bio), inférieure à la moyenne régionale Nouvelle-Aquitaine (~8%), limitant la restauration naturelle des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "~80 sites BASOL, concentration modérée, secteur Angoulême prédominant"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Viticulture cognac et céréales: résidus glyphosate fréquents, RMQS INRAE"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Formations calcaires sédimentaires: risque radon faible, catégorie 2 IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~5,5%, inférieure moyenne régionale Nouvelle-Aquitaine (~8%)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de Nouvelle-Aquitaine grâce aux substrats calcaires dominants (IRSN, catégorie 2)",
+    "Nombre de sites BASOL contenu (~80 sites) pour un département à histoire industrielle ancienne (Géorisques 2023)",
+    "Dynamique de conversion bio en progression (+1,2% de SAU entre 2020 et 2023), portée par les filières maraîchères et légumineuses (Agence Bio)",
+    "Sols calcaires du Jurassique présentant une bonne capacité tampon limitant la mobilité de certains polluants métalliques"
+  ],
+  "vigilances": [
+    "Contamination phytosanitaire des sols viticoles (40 000 ha cognac) : accumulation chronique de cuivre (jusqu'à 300 kg/ha sur parcelles centenaires) menaçant la microbiologie des sols (INRAE 2023)",
+    "Érosion hydrique croissante dans les plaines céréalières, aggravée par les projections climatiques 2060 (intensification des pluies printanières, DRIAS) et la diminution des couverts hivernaux",
+    "Friches industrielles et pollution aux hydrocarbures en périphérie d'Angoulême : plusieurs sites BASOL en phase de surveillance active sans dépollution complète engagée (Géorisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "5,5%",
+      "label": "SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "40 000 ha",
+      "label": "Vignoble cognac (pression phyto)"
+    },
+    {
+      "valeur": "Catégorie 2",
+      "label": "Risque radon IRSN"
+    }
+  ],
+  "sources": [
+    "Géorisques / Base BASOL 2023",
+    "INRAE – Réseau de Mesure de la Qualité des Sols (RMQS) 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Chiffres régionaux 2023"
+  ],
+  "limites": [
+    "L'inventaire BASOL ne couvre pas les pollutions diffuses agricoles, sous-estimant la contamination réelle des sols viticoles charentais",
+    "Les données RMQS de l'INRAE disposent d'une maille de 16×16 km insuffisante pour cartographier finement les hotspots de contamination dans le vignoble du cognac",
+    "L'absence d'observatoire départemental spécifique des sols en Charente limite le suivi temporel des teneurs en matière organique et en polluants émergents (microplastiques, résidus médicamenteux)"
+  ]
+}

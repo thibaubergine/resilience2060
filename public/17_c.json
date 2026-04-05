@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime présente un profil climatique 2060 contrasté, marqué par une position littorale atlantique qui constitue simultanément un atout thermique et une vulnérabilité structurelle. Selon les projections DRIAS 2023 (scénario SSP3-7.0), le département pourrait connaître entre 20 et 35 jours de canicule supplémentaires par an à l'horizon 2060, soit une multiplication par 3 à 4 par rapport à la période de référence 1976-2005. L'élévation du niveau marin estimée entre +30 et +60 cm d'ici 2060 (rapport IPCC AR6) menace directement les 463 km de côtes charentaises et les zones basses de l'estuaire de la Gironde et des marais de Brouage (Climadiag 2023). Le risque incendie s'intensifie significativement, avec une extension de la saison à risque et des surfaces forestières vulnérables dans les massifs de la Double et du Médoc charentais (DFCI 2023). L'altitude très faible du département (point culminant à 175 m, altitude moyenne inférieure à 50 m) offre peu de tampon thermique face aux vagues de chaleur projetées (AP3C/TRACC 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude moyenne <50 m, aucun tampon thermique montagnard disponible"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "20-35 jours canicule supplémentaires projetés en 2060 (DRIAS SSP3)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque incendie croissant, massifs forestiers étendus mais humidité littorale atténuante"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "463 km côtes exposées, submersion marine +30-60 cm projetée, marais vulnérables"
+    }
+  ],
+  "points_forts": [
+    "Façade atlantique assurant un effet régulateur thermique estival : températures maximales inférieures de 2 à 3°C à l'intérieur des terres pour le littoral direct (Météo-France 2022)",
+    "Réseau de zones humides et marais (marais poitevin, Brouage, île d'Oléron) offrant une résilience naturelle et un stockage hydrique reconnu par l'OFB 2024",
+    "Ensoleillement élevé (2 200 h/an) favorisant la transition vers les énergies renouvelables solaires, atout d'adaptation systémique (ADEME 2023)",
+    "Tradition et savoir-faire ostréicoles et viticoles (AOC Cognac, Pineau) favorisant l'adaptation agricole progressive aux nouveaux régimes thermiques"
+  ],
+  "vigilances": [
+    "Submersion marine et érosion côtière : 30 à 40 % des communes littorales classées en aléa fort selon le PPRL, avec des zones habitées sous le niveau marin centennal projeté (GéoRisques 2023)",
+    "Sécheresse estivale aggravée : déficit hydrique estival projeté en hausse de 15 à 25 % à l'horizon 2060 sur la Charente, menaçant l'agriculture irriguée et la conchyliculture (Explore2/DRIAS 2023)",
+    "Intensification du risque incendie : classement en zone à risque très élevé pour la moitié sud-est du département, saison à risque allongée de 3 à 5 semaines selon les projections TRACC 2022"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "463 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "+30 à +60 cm",
+      "label": "Élévation mer projetée 2060"
+    },
+    {
+      "valeur": "35 jours",
+      "label": "Canicule supplémentaires/an en 2060"
+    },
+    {
+      "valeur": "<50 m",
+      "label": "Altitude moyenne départementale"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "TRACC / AP3C 2022",
+    "GéoRisques / PPRL littoral",
+    "Climadiag Commune 2023 / IPCC AR6"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles à l'échelle départementale masquent de fortes hétérogénéités entre le littoral régulé thermiquement et l'intérieur des terres plus continental (Saintonge)",
+    "L'évaluation du risque de submersion marine ne prend pas toujours en compte les effets cumulés tempête + surcote + élévation du niveau marin dans les modèles locaux actuels",
+    "Le risque incendie est encore sous-estimé dans les secteurs de bocage et de marais qui n'entrent pas dans les cartographies DFCI traditionnelles, pourtant en assèchement progressif"
+  ]
+}

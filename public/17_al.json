@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime présente un profil alimentaire solide (7,0/10), porté par un tissu agricole diversifié couvrant environ 280 000 ha de Surface Agricole Utile (SAU), soit près de 54 % du territoire départemental (Agreste 2023). Le département bénéficie d'une richesse remarquable en signes officiels de qualité, notamment le Cognac (AOP), le Pineau des Charentes (AOP), le Jambon de Vendée (IGP) ou encore le Beurre Charentes-Poitou (AOP), positionnant la Charente-Maritime parmi les départements à forte densité AOP/IGP de la façade atlantique (INAO 2024). La part de la SAU conduite en agriculture biologique atteignait 8,2 % en 2023, légèrement en deçà de la moyenne nationale (10,4 %), mais en progression de +18 % sur cinq ans (Agence Bio 2023). Les circuits courts et les AMAP connaissent un développement dynamique, avec plus de 120 points de vente directe recensés et une trentaine d'AMAP actives, notamment autour de La Rochelle et Saintes (RNT 2024/ZAVA 2024). La dépendance aux cultures céréalières et viticoles, fortement exposées aux aléas climatiques (sécheresses récurrentes depuis 2020), constitue néanmoins une fragilité structurelle pour l'autonomie alimentaire locale.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie alimentaire partielle ; dépendance céréalière et viticole marquée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Cognac, Pineau, Beurre Charentes-Poitou, multiples AOP/IGP reconnus"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "8,2 % SAU en bio 2023, progression +18 % sur cinq ans"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.5,
+      "note": "120+ points vente directe, ~30 AMAP actives, réseau en expansion"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de signes de qualité : 4 AOP majeures (Cognac, Pineau des Charentes, Beurre et Chabichou du Poitou) et plusieurs IGP actives (INAO 2024)",
+    "SAU départementale de ~280 000 ha représentant 54 % du territoire, base agricole large (Agreste 2023)",
+    "Réseau de circuits courts dynamique avec plus de 120 points de vente directe recensés, dont marchés de producteurs et drives fermiers (ZAVA 2024)",
+    "Progression de l'agriculture biologique de +18 % en cinq ans, avec 8,2 % de la SAU certifiée bio en 2023 (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Expositions climatiques croissantes (sécheresses 2020-2023) menaçant les rendements viticoles et céréaliers, avec projection de -15 à -25 % de rendements blé à horizon 2050 (DRIAS/Climadiag)",
+    "Part de SAU bio (8,2 %) encore inférieure à la moyenne nationale (10,4 %), avec risque de déconversions lié à la crise des prix et des débouchés (Agence Bio 2023)",
+    "Concentration excessive sur quelques filières à haute valeur ajoutée (viticulture Cognac ~75 000 ha) fragilisant la diversité et l'autonomie alimentaire locale en cas de crise sectorielle"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "280 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "8,2 %",
+      "label": "Part SAU en bio (2023)"
+    },
+    {
+      "valeur": "4 AOP",
+      "label": "Appellations majeures actives"
+    },
+    {
+      "valeur": "120+",
+      "label": "Points de vente directe"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024",
+    "Agreste 2023",
+    "ZAVA/RNT 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent partielles pour la Charente-Maritime, sans distinction claire entre production destinée à l'export (Cognac) et consommation locale réelle",
+    "La progression du bio est mesurée en surface certifiée mais ne renseigne pas sur les volumes effectivement commercialisés en circuits locaux ni sur les pratiques agroécologiques non certifiées",
+    "La densité AOP/IGP est calculée sur des critères de nombre et de réputation, sans pondération par les tonnages produits ni par l'accès réel des habitants à ces productions locales"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or présente un patrimoine naturel remarquable avec environ 18 % de sa superficie couverte par le réseau Natura 2000, soit quelque 130 000 hectares répartis sur 47 sites (INPN, 2024), reflétant la diversité de ses milieux allant des massifs forestiers du Morvan aux zones humides de la plaine de la Saône. Le département bénéficie de la présence du Parc Naturel Régional du Morvan en partie sur son territoire, ainsi que de réserves naturelles nationales comme celle de la Combe Lavaux-Jean Roland, habitat d'espèces remarquables telles que l'Écrevisse à pattes blanches et le Grand Murin (OFB, 2024). La LPO Côte-d'Or recense plus de 250 espèces d'oiseaux nicheurs ou migrateurs, dont le Milan royal et le Faucon pèlerin, témoignant de la richesse avifaunistique du département (LPO, 2023). Les corridors écologiques identifiés dans le SRCE Bourgogne-Franche-Comté montrent toutefois des fragmentations significatives le long des axes routiers (A6, A31) et dans les zones viticoles de la Côte viticole, pesant sur la connectivité entre massifs forestiers (DREAL BFC, 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Environ 18 % du territoire en Natura 2000, 47 sites référencés INPN"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Morvan partiel, réserves naturelles nationales dont Combe Lavaux"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Plus de 250 espèces oiseaux, Milan royal, Écrevisse pattes blanches présente"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors fragmentés par A6, A31 et vignoble de la Côte"
+    }
+  ],
+  "points_forts": [
+    "Réseau Natura 2000 dense : 47 sites couvrant ~130 000 ha, soit 18 % du département (INPN, 2024)",
+    "Présence de la Réserve Naturelle Nationale Combe Lavaux-Jean Roland, site exceptionnel pour les chauves-souris (12 espèces recensées) (OFB, 2024)",
+    "Plus de 250 espèces d'oiseaux nicheurs ou de passage, dont des rapaces emblématiques comme le Faucon pèlerin et le Milan royal (LPO Côte-d'Or, 2023)",
+    "Massifs forestiers couvrant environ 35 % du territoire, constituant un réservoir de biodiversité majeur pour la faune sylvicole (IFN/IGN, 2022)"
+  ],
+  "vigilances": [
+    "Fragmentation croissante des corridors écologiques par l'infrastructure autoroutière (A6, A31) et l'extension de la viticulture : risque d'isolement génétique de populations faunistiques d'ici 2040 (DREAL BFC, 2022)",
+    "Pression viticole sur les zones tampon Natura 2000 : usage intensif de produits phytosanitaires impactant les pollinisateurs et l'entomofaune des coteaux (INPN/OFB, 2024)",
+    "Déclin observé des zones humides de la plaine de la Saône, avec réduction estimée de 30 % depuis 1950, menaçant amphibiens et oiseaux paludicoles (INRAE, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "47 sites",
+      "label": "Réseau Natura 2000"
+    },
+    {
+      "valeur": "~130 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "250+ espèces",
+      "label": "Oiseaux recensés LPO"
+    },
+    {
+      "valeur": "35 %",
+      "label": "Couverture forestière"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Côte-d'Or 2023",
+    "DREAL Bourgogne-Franche-Comté 2022",
+    "INRAE 2023 / IGN-IFN 2022"
+  ],
+  "limites": [
+    "Les données sur l'état réel de conservation des espèces en Côte-d'Or restent partielles : les atlas communaux LPO ne couvrent pas uniformément l'ensemble du territoire",
+    "L'évaluation de l'efficacité des corridors écologiques identifiés dans le SRCE n'a pas fait l'objet d'une révision actualisée depuis 2022, limitant la précision du diagnostic",
+    "L'impact des pratiques viticoles sur la biodiversité des coteaux est difficile à quantifier précisément, faute d'inventaires entomologiques systématiques et récents sur l'ensemble de la Côte viticole"
+  ]
+}

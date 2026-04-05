@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle qui limite les émissions de polluants atmosphériques. Les concentrations moyennes en PM2,5 restent inférieures à 10 µg/m³ sur la majorité du territoire, proches du seuil OMS 2021 de 5 µg/m³ mais nettement en dessous de la valeur limite européenne de 25 µg/m³ (ATMO Nouvelle-Aquitaine, 2023). Le NO₂ demeure à des niveaux très bas en dehors de l'agglomération périgandinoise, avec des valeurs annuelles inférieures à 15 µg/m³ en zone rurale (ATMO NA, 2023). Le couvert forestier important (plus de 44 % du territoire) joue un rôle tampon notable, bien que les émissions de COV biogéniques et les feux de forêt constituent une source non négligeable. Les émissions d'ammoniac (NH₃) d'origine agricole représentent le principal facteur de vigilance, en lien avec l'élevage bovin et porcin présent sur le département (Citepa, inventaire 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 moyen <10 µg/m³; dépasse seuil OMS 5 µg/m³ mais faible"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ très bas <15 µg/m³; pas de grande agglomération émettrice"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Très peu d'industries lourdes; tissu industriel dispersé et modeste"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole significatif; élevage bovin-porcin dominant en Dordogne"
+    }
+  ],
+  "points_forts": [
+    "Concentration moyenne annuelle en PM2,5 inférieure à 10 µg/m³ sur l'ensemble du territoire, parmi les plus faibles de Nouvelle-Aquitaine (ATMO NA, 2023)",
+    "Absence de grande zone industrielle émettrice : aucun site classé SEVESO seuil haut en activité intensive sur le département (GéoRisques, 2024)",
+    "Niveaux de NO₂ très contenus (<15 µg/m³ en moyenne annuelle) grâce à une densité de trafic routier modérée et l'absence de rocades urbaines saturées",
+    "Couvert forestier de 44 % du territoire assurant une filtration naturelle et une dilution favorable des polluants locaux (IGN, 2022)"
+  ],
+  "vigilances": [
+    "Les émissions de NH₃ agricole issues de l'élevage bovin et porcin représentent un risque persistant de formation de particules secondaires, avec une tendance à la stagnation des réductions malgré les engagements du Plan national de réduction des émissions (Citepa, 2022)",
+    "Les épisodes de pollution aux particules fines liés aux feux de forêt et au brûlage agricole sont appelés à s'intensifier sous l'effet du changement climatique, avec une saison à risque élargie d'ici 2050 (Météo-France/DRIAS, scénario RCP8.5)",
+    "La pollution aux oxydes d'azote et particules sur l'axe Périgueux–Bergerac (RN21, A89) pourrait s'accentuer avec l'augmentation du trafic de transit, en l'absence de contournement ou de report modal structurel"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Moyenne PM2,5 annuelle"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "Moyenne NO₂ annuelle rurale"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Part forêts/territoire"
+    },
+    {
+      "valeur": "0 site",
+      "label": "SEVESO seuil haut actif"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine 2023",
+    "OMS Lignes directrices qualité air 2021",
+    "Citepa Inventaire émissions 2022",
+    "IGN Inventaire forestier national 2022"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO est peu dense en Dordogne (quelques stations concentrées sur Périgueux), ce qui limite la représentativité des données pour les zones rurales profondément isolées",
+    "Les émissions de COV biogéniques forestiers (isoprène, terpènes) ne sont pas intégrées dans les indices de qualité de l'air courants, sous-estimant leur contribution à la formation d'ozone estival",
+    "L'absence de données spatialisées fines sur les pratiques de brûlage agricole et résiduel rend difficile la quantification précise des apports particulaires diffus sur le département"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les sols des Côtes-d'Armor présentent une situation contrastée, pénalisée par une pression agricole historiquement élevée liée à l'élevage intensif breton. Les résidus de pesticides et la contamination nitrique des sols constituent une préoccupation majeure : le département est classé en zone vulnérable nitrates sur la quasi-totalité de son territoire (directive Nitrates, DRAAF Bretagne). Le nombre de sites et sols pollués recensés reste modéré (ex-base BASOL, désormais Géorisques), avec environ 60 sites recensés, reflet d'un tissu industriel moins dense que d'autres départements. Le risque radon est notable dans les zones granitiques du centre et du nord du département, l'IRSN classant une fraction significative des communes en catégorie 3 (risque significatif). La progression de l'agriculture biologique, bien qu'en hausse (environ 9 % de la SAU en 2023 selon Agence Bio), reste inférieure à la moyenne bretonne et nationale.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 60 sites BASOL recensés, tissu industriel limité"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée, zones vulnérables nitrates généralisées"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Zones granitiques classées radon catégorie 3 (IRSN), risque partiel"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "~9 % SAU bio en 2023, progression constante (Agence Bio)"
+    }
+  ],
+  "points_forts": [
+    "Nombre de sites pollués (ex-BASOL) modéré (~60 sites), parmi les plus faibles de la façade atlantique",
+    "Progression de l'agriculture biologique : ~9 % de la SAU certifiée bio en 2023 (Agence Bio), en hausse de 15 % sur 5 ans",
+    "Absence de grande friche industrielle historique majeure limitant la contamination des sols profonds",
+    "Dynamique agro-écologique active avec plusieurs GIEE (Groupements d'Intérêt Économique et Environnemental) engagés sur la réduction des intrants"
+  ],
+  "vigilances": [
+    "Contamination chronique des sols agricoles aux pesticides et nitrates : 95 % du territoire en zone vulnérable nitrates, avec accumulation de résidus détectés dans les sols superficiels (INRAE 2023)",
+    "Risque radon sous-estimé dans les communes granitiques (Trégor, Penthièvre) : environ 30 % des communes classées en catégorie 3 IRSN, dépistage insuffisant dans le bâti ancien",
+    "Érosion des sols côtiers et agricoles en progression sous l'effet conjugué de la déstructuration des haies (bocage fragilisé) et des événements pluvieux intenses projetés à l'horizon 2050 (DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~60 sites",
+      "label": "Sites pollués recensés (Géorisques)"
+    },
+    {
+      "valeur": "9 %",
+      "label": "Part SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "95 %",
+      "label": "Territoire en zone vulnérable nitrates"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Communes en zone radon catégorie 3 (IRSN)"
+    }
+  ],
+  "sources": [
+    "Géorisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Chiffres régionaux Bretagne 2023"
+  ],
+  "limites": [
+    "Les données BASOL/Géorisques ne recensent que les sites ayant fait l'objet d'une procédure administrative, sous-estimant la pollution diffuse agricole des Côtes-d'Armor",
+    "L'absence de réseau de surveillance pédologique systématique à l'échelle départementale rend difficile le suivi précis de l'accumulation des résidus dans les horizons profonds",
+    "La carte radon de l'IRSN repose sur la géologie régionale et non sur des mesures in situ généralisées, créant une incertitude sur les niveaux réels dans les communes frontalières de zones granitiques"
+  ]
+}

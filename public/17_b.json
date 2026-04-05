@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime affiche un profil de biodiversité remarquable, soutenu par une façade atlantique de 463 km de littoral abritant des écosystèmes estuariens, marais et zones humides d'importance internationale. Le site de Marais Poitevin-Pertuis Charentais et l'estuaire de la Gironde constituent des réservoirs biologiques majeurs, avec près de 22 % de la surface départementale couverte par des zones Natura 2000 (INPN, 2024). Le département abrite plus de 350 espèces d'oiseaux recensées, dont des populations significatives de spatules blanches et de cigognes blanches suivies par la LPO Charente-Maritime. Le réseau de marais littoraux (marais de Brouage, marais de Rochefort) totalise environ 100 000 hectares de zones humides fonctionnelles, classées parmi les plus étendues du littoral atlantique français (OFB, 2024). Toutefois, la pression anthropique liée à la conchyliculture intensive, à l'urbanisation côtière et aux effets du changement climatique menace progressivement la qualité de ces habitats emblématiques.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "22 % du territoire en Natura 2000, forte représentation littorale et estuarienne"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Marais Poitevin partiellement inclus, nombreuses ZNIEFF de type I et II"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "350+ espèces d'oiseaux, spatule blanche, vison d'Europe, grand dauphin"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors humides fonctionnels mais fragmentés par axes routiers et urbanisation"
+    }
+  ],
+  "points_forts": [
+    "Environ 22 % du département couvert par des zones Natura 2000, score parmi les meilleurs du littoral atlantique (INPN, 2024)",
+    "Marais de Brouage et marais de Rochefort : environ 100 000 ha de zones humides littorales fonctionnelles, vitales pour l'avifaune migratrice (OFB, 2024)",
+    "LPO Charente-Maritime recense plus de 350 espèces d'oiseaux, dont des espèces patrimoniales comme la spatule blanche et l'avocette élégante",
+    "Présence du vison d'Europe (Mustela lutreola), l'un des mammifères les plus menacés d'Europe, sur les corridors fluviaux charentais (INPN)"
+  ],
+  "vigilances": [
+    "Érosion côtière et montée des eaux : d'ici 2060, jusqu'à 15 000 ha de zones humides littorales menacés de submersion ou de salinisation accélérée (DRIAS/Climadiag)",
+    "Prolifération des espèces exotiques envahissantes (jussie, ragondins, crépidule en mer) dégradant progressivement les habitats des marais et estrans ostréicoles (OFB)",
+    "Artificialisation des sols côtiers : pression touristique et résidentielle sur le littoral entraîne une fragmentation croissante des corridors écologiques entre marais et bocage intérieur"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "22 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~100 000 ha",
+      "label": "Zones humides littorale"
+    },
+    {
+      "valeur": "350+",
+      "label": "Espèces d'oiseaux recensées"
+    },
+    {
+      "valeur": "463 km",
+      "label": "Linéaire côtier protégé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Charente-Maritime – Atlas ornithologique",
+    "Climadiag/DRIAS – Projections climatiques littorales"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont partiellement issues de données participatives, avec une couverture inégale entre le littoral (bien prospecté) et l'intérieur bocager du département",
+    "L'évaluation de l'état de conservation des habitats Natura 2000 n'est pas systématiquement mise à jour au rythme requis par la directive Habitats, limitant la fiabilité du suivi temporel",
+    "L'impact réel de la conchyliculture intensive sur la biodiversité marine côtière reste sous-documenté à l'échelle fine du département, faute de suivis benthiques réguliers et exhaustifs"
+  ]
+}

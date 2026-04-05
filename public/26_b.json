@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme figure parmi les départements français les mieux dotés en biodiversité, avec près de 28 % de son territoire couvert par le réseau Natura 2000, représentant 34 sites (ZSC et ZPS) référencés à l'INPN. Le département abrite le Parc Naturel Régional du Vercors (partiellement) et le Parc Naturel Régional des Baronnies Provençales, couvrant ensemble plus de 180 000 ha, soit environ 30 % de la surface départementale (OFB 2024). La Drôme recense plus de 2 800 espèces végétales et accueille des espèces emblématiques à fort enjeu comme le Vautour percnoptère, l'Aigle de Bonelli, la Cistude d'Europe et le Castor d'Europe, témoignant de la richesse des gradients bioclimatiques du nord au sud (LPO Drôme). Les corridors écologiques structurent un continuum remarquable entre les Alpes, le Massif central et la plaine rhodanienne, intégré dans le SRCE Auvergne-Rhône-Alpes révisé, bien que les zones agricoles intensives de la plaine de Valence exercent une pression fragmentante persistante (INPN/DREAL AuRA).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "28 % du territoire en Natura 2000, 34 sites ZSC/ZPS référencés INPN"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "Deux PNR (Vercors, Baronnies) couvrant ~30 % superficie départementale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Aigle de Bonelli, Vautour percnoptère, Cistude, Castor présents et suivis LPO"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Continuum alpin-rhodanien solide mais fragmenté par plaine agricole intensive"
+    }
+  ],
+  "points_forts": [
+    "Réseau Natura 2000 étendu : 34 sites couvrant ~28 % du territoire, au-dessus de la moyenne nationale (~12 %) (INPN 2024)",
+    "Deux Parcs Naturels Régionaux actifs (Vercors et Baronnies Provençales) offrant une gouvernance territoriale de la biodiversité (OFB 2024)",
+    "Présence de l'Aigle de Bonelli avec 3 à 4 couples nicheurs suivis annuellement par la LPO Drôme, espèce parmi les plus rares de France",
+    "Richesse floristique exceptionnelle (~2 800 espèces végétales) liée aux gradients bioclimatiques continentaux, méditerranéens et alpins"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques en plaine de Valence : extension urbaine et agriculture intensive menacent les connexions entre Vercors et Ardèche (SRCE AuRA)",
+    "Pression du changement climatique sur les espèces d'altitude : remontée des isothermes de +1,5 à +2°C projetée d'ici 2050 (DRIAS 2023), avec risque de contraction des habitats subalpins",
+    "Prolifération des espèces exotiques envahissantes (Jussie, Renouée du Japon, Frelon asiatique) le long des corridors fluviaux Rhône et Drôme, déstabilisant les écosystèmes ripicoles (OFB/CBN)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "34 sites",
+      "label": "Réseau Natura 2000"
+    },
+    {
+      "valeur": "~28 %",
+      "label": "Couverture N2000 territoire"
+    },
+    {
+      "valeur": "2 PNR",
+      "label": "Vercors & Baronnies"
+    },
+    {
+      "valeur": "~2 800 spp.",
+      "label": "Richesse floristique"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Drôme – Suivis espèces emblématiques",
+    "DREAL Auvergne-Rhône-Alpes – SRCE/TVB"
+  ],
+  "limites": [
+    "Les données de suivi des espèces sont hétérogènes selon les secteurs : le massif préalpin est bien documenté mais la plaine drômoise reste sous-prospectée par les naturalistes (INPN)",
+    "L'efficacité réelle des corridors écologiques identifiés dans le SRCE n'est pas évaluée à l'échelle parcellaire faute d'indicateurs de perméabilité standardisés en Drôme",
+    "Les pressions agricoles sur la biodiversité ordinaire (insectes pollinisateurs, oiseaux des plaines) sont mal quantifiées localement, les données STOC/STELI étant insuffisamment maillées sur le département"
+  ]
+}

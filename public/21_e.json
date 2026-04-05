@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or présente une situation hydrique contrastée, avec des ressources en eau souterraine globalement bien préservées dans les aquifères de la Côte viticole et du plateau dijonnais, mais des pressions agricoles marquées sur les bassins versants de l'Ouche, de la Vingeanne et de la Tille (Agence de l'Eau Rhône-Méditerranée-Corse, 2022). La qualité des eaux distribuées reste satisfaisante pour environ 92 % de la population alimentée en eau conforme aux limites de qualité (ARS Bourgogne-Franche-Comté, 2023), bien que des dépassements ponctuels en nitrates et pesticides affectent certaines captages ruraux. Les projections Explore2 (2023) indiquent une réduction des débits moyens annuels de 10 à 25 % sur les cours d'eau côte-d'oriens à l'horizon 2050-2070, avec des étiages estivaux plus sévères et prolongés menaçant l'alimentation en eau potable de petites communes. La contamination diffuse aux nitrates concerne principalement les zones de grandes cultures de la plaine de Saône (masses d'eau en mauvais état chimique dans environ 30 % des cas, DCE/SDAGE 2022-2027), tandis que la détection de PFAS dans plusieurs captages souterrains reste un sujet de surveillance accrue depuis les campagnes nationales de 2022-2023.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "92% population eau conforme; dépassements ponctuels captages ruraux"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Réduction débits -10 à -25% horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "30% masses d'eau mauvais état chimique; plaine Saône sous pression"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés mais concentrations majoritairement sous seuils d'alerte"
+    }
+  ],
+  "points_forts": [
+    "92 % de la population côte-d'orienne alimentée par une eau conforme aux limites de qualité en 2023 (ARS BFC)",
+    "Les aquifères karstiques de la Côte et du plateau de Langres bénéficient d'une recharge satisfaisante et d'une faible pression industrielle (SDAGE RMC 2022-2027)",
+    "Le SDAGE Rhône-Méditerranée-Corse classe plusieurs masses d'eau souterraines du département en bon état quantitatif, témoignant d'une gestion équilibrée des prélèvements",
+    "La mise en place de périmètres de protection autour des captages prioritaires progresse, avec plus de 60 captages grenelle identifiés et en cours de sécurisation (Agence de l'Eau RMC)"
+  ],
+  "vigilances": [
+    "Les projections Explore2 (2023) anticipent une baisse de 15 à 25 % des débits d'étiage de l'Ouche et de la Tille d'ici 2060, menaçant l'alimentation en eau potable de plusieurs communes rurales en période estivale",
+    "La pression en nitrates et pesticides (métolachlore, S-métolachlore interdits mais persistants) sur les captages de la plaine de Saône place environ 30 % des masses d'eau souterraines en mauvais état chimique (DCE, état des lieux 2022)",
+    "La détection de PFAS dans plusieurs captages souterrains lors des campagnes nationales 2022-2023 (ANSES/DGS) impose une surveillance renforcée, les seuils réglementaires européens devenant plus stricts dès 2026"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "92 %",
+      "label": "Eau potable conforme (ARS 2023)"
+    },
+    {
+      "valeur": "-15 à -25 %",
+      "label": "Baisse étiages projetée 2060 (Explore2)"
+    },
+    {
+      "valeur": "30 %",
+      "label": "Masses d'eau mauvais état chimique (DCE 2022)"
+    },
+    {
+      "valeur": "60+",
+      "label": "Captages grenelle sous protection (AE RMC)"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté – Bilan qualité eaux 2023",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "SDAGE Rhône-Méditerranée-Corse 2022-2027 – État des lieux DCE",
+    "ANSES/DGS – Campagne nationale PFAS eaux souterraines 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS disponibles pour la Côte-d'Or restent parcellaires : la campagne nationale 2022-2023 ne couvre pas l'ensemble des captages du département, laissant des zones grises sur l'étendue réelle de la contamination",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle des petits bassins versants côte-d'oriens, rendant difficile la planification fine de l'adaptation pour les communes rurales isolées",
+    "L'état chimique des masses d'eau souterraines est évalué sur des cycles DCE de 6 ans, introduisant un décalage temporel significatif entre la réalité de terrain et les données officielles mobilisables pour ce scoring"
+  ]
+}

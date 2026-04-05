@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône présentent un profil alimentaire contrasté, avec une SAU limitée à environ 95 000 ha (moins de 15 % du territoire), sous forte pression urbaine et périurbaine autour de la métropole Aix-Marseille-Provence (ZAVA 2024). Le département bénéficie d'un tissu d'indications géographiques notable, notamment l'huile d'olive AOC Vallée des Baux, le riz de Camargue IGP ou encore l'agneau de Sisteron IGP, valorisant des terroirs emblématiques (INAO 2023). La part de la SAU en agriculture biologique atteint environ 11 % en 2022, légèrement inférieure à la moyenne régionale PACA (~15 %), mais le dynamisme des AMAP et marchés de producteurs dans l'aire métropolitaine constitue un levier notable (Agence Bio 2023). L'autonomie alimentaire reste structurellement faible : le département, avec 2,1 millions d'habitants, importe l'essentiel de ses besoins céréaliers et protéiques, la production locale ne couvrant qu'une fraction marginale des besoins caloriques globaux (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "Autonomie alimentaire très faible, SAU insuffisante face à 2,1 M habitants"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs AOP/IGP emblématiques : huile d'olive, riz Camargue, agneau"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "Bio à ~11% SAU, dynamique réelle mais sous moyenne PACA (~15%)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Réseau AMAP dense en zone métropolitaine, circuits courts actifs"
+    }
+  ],
+  "points_forts": [
+    "Présence de 6+ signes INAO (AOP/IGP) dont l'huile d'olive AOC Vallée des Baux-de-Provence et le Riz de Camargue IGP, valorisant des filières identitaires (INAO 2023)",
+    "Réseau d'AMAP parmi les plus denses de France rapporté à la population urbaine, avec plus de 80 AMAP recensées dans la métropole Aix-Marseille-Provence (Réseau AMAP PACA)",
+    "La Camargue représente une zone de production rizicole unique en France métropolitaine, avec environ 15 000 ha cultivés, contribuant à la souveraineté alimentaire nationale (Syndicat des riziculteurs de France)",
+    "Dynamique de Projets Alimentaires Territoriaux (PAT) : la Métropole Aix-Marseille-Provence et le Pays d'Arles portent des PAT reconnus nationalement, structurant les filières locales (MAA 2023)"
+  ],
+  "vigilances": [
+    "L'artificialisation des terres agricoles progresse fortement autour de la métropole : perte estimée à plusieurs centaines d'hectares par an, menaçant les zones maraîchères périurbaines (Observatoire des espaces naturels agricoles et forestiers PACA)",
+    "Le changement climatique d'ici 2060 (scénario SSP3-7.0, Climadiag) expose les cultures arboricoles et maraîchères à des sécheresses estivales accrues et à des épisodes de canicule prolongés, réduisant les rendements potentiels",
+    "La dépendance aux eaux d'irrigation (Canal de Provence, Durance) pour l'essentiel des productions légumières et fruitières fragilise la résilience alimentaire locale en cas de tensions hydriques croissantes (Explore2 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "95 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "~11 %",
+      "label": "Part SAU en bio (2022)"
+    },
+    {
+      "valeur": "6+",
+      "label": "Signes AOP/IGP actifs (INAO)"
+    },
+    {
+      "valeur": "80+",
+      "label": "AMAP recensées (métropole AMP)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zones à dominante agricole et alimentaire)",
+    "INAO 2023 (Registre AOP/IGP)",
+    "Agence Bio 2023 (chiffres clés régionaux)",
+    "MAA 2023 (Projets Alimentaires Territoriaux reconnus)"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour les Bouches-du-Rhône, le périmètre métropolitain complexifiant le calcul d'autonomie alimentaire réelle à l'échelle strictement départementale",
+    "La diversité des micro-terroirs (Camargue, Alpilles, littoral) rend difficile toute agrégation statistique homogène sur la SAU productive et les rendements moyens",
+    "L'absence de données consolidées et publiques sur les volumes réels échangés en circuits courts empêche une évaluation précise de la part des approvisionnements locaux dans la consommation totale du département"
+  ]
+}

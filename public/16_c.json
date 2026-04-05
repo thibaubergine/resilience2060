@@ -1,0 +1,66 @@
+{
+  "synthese": "La Charente (16), département continental du sud-ouest français, se situe dans une zone de transition climatique atlantique-continentale, avec une altitude moyenne modeste d'environ 150 m, offrant peu de tampon thermique face aux vagues de chaleur (Climadiag 2023). Les projections DRIAS 2060 indiquent une augmentation de +2,5°C à +3,5°C des températures estivales moyennes, portant le nombre de jours de canicule annuels de 5 à 25-30 jours d'ici 2050-2060 selon le scénario RCP 8.5. Le département est concerné par une hausse significative du risque feux de forêt, notamment sur les franges méridionales et occidentales, avec un indice FWI projeté en forte hausse selon Météo-France/AP3C Nouvelle-Aquitaine. Les inondations fluviales constituent une vulnérabilité structurelle, la Charente et ses affluents ayant historiquement généré des crues importantes (PPRi couvrant plus de 200 communes), sans risque côtier direct mais avec une aggravation attendue des épisodes de sécheresse (TRACC 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne ~150 m, tampon thermique faible, relief peu marqué"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "25 à 30 jours canicule/an projetés horizon 2060, RCP8.5 DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Risque feux croissant, franges sud-ouest, IFM en hausse Météo-France"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Réseau Charente dense, 200+ communes en PPRi, crues historiques fréquentes"
+    }
+  ],
+  "points_forts": [
+    "Absence de vulnérabilité côtière directe : département enclavé, sans littoral exposé à la submersion marine",
+    "Réseau de surveillance climatique régional AP3C (Adaptation et Protection des cultures en Charente) actif et structuré pour l'anticipation agricole",
+    "Couverture forestière modérée (~22 % du territoire) limitant l'exposition maximale aux îlots de chaleur urbains comparée aux Landes voisines",
+    "Engagement dans le PCAET de Charente (Plan Climat-Air-Énergie Territorial) avec objectifs de réduction de 40 % des GES d'ici 2030 (Communauté d'Agglomération du Grand Angoulême)"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +3°C en été à horizon 2060 (scénario intermédiaire DRIAS), avec doublement des nuits tropicales sur Angoulême, fragilisant les populations âgées (18 % de plus de 65 ans, INSEE 2023)",
+    "Extension du risque feux de forêt : la tempête Klaus (2009) et les incendies girondins de 2022 ont mis en évidence la propagation possible vers la Charente ; les PPFCI sont en révision sur le département",
+    "Sécheresses agricoles récurrentes : déficits hydriques estivaux en hausse, nappes phréatiques en tension (niveau BRGM \"vigilance\" sur 60 % des points de suivi en été 2022-2023), menaçant la viticulture charentaise (Cognac, IGP)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3,5°C",
+      "label": "Hausse T° estivale 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "~25-30 jours",
+      "label": "Jours canicule/an projetés 2060"
+    },
+    {
+      "valeur": "22 %",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "200+",
+      "label": "Communes en PPRi (risque inondation)"
+    }
+  ],
+  "sources": [
+    "Climadiag / DRIAS 2023 – Météo-France",
+    "TRACC – SGPE 2023",
+    "AP3C Nouvelle-Aquitaine – Chambres d'agriculture",
+    "PPFCI & PPRi – Préfecture Charente / GéoRisques",
+    "BRGM – Tableau de bord eaux souterraines 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale restent soumises à des incertitudes importantes selon les scénarios RCP retenus, rendant difficile la comparaison précise entre 96 départements sur les indicateurs canicule",
+    "L'indice de risque feux de forêt en Charente est en cours de révision réglementaire (extension des zones DFCI post-2022), les données consolidées ne sont pas encore disponibles à l'échelle fine",
+    "La vulnérabilité aux inondations fluviales est bien documentée mais les modèles intègrent insuffisamment les effets combinés sécheresse/crue-éclair liés au changement climatique sur les bassins versants charentais"
+  ]
+}

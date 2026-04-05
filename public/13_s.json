@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône présentent une situation préoccupante pour les sols, reflet d'une industrialisation historique intensive et d'une pression agricole et urbaine combinée. Le département concentre l'un des stocks les plus élevés de France en sites et sols pollués, avec plus de 300 sites recensés dans la base BASOL/Géorisques, héritage des complexes pétrochimiques de l'étang de Berre et du port de Marseille-Fos. Les résidus de pesticides dans les sols agricoles restent préoccupants, notamment dans les zones maraîchères de la Crau et du pourtour de l'étang de Berre, où les cultures intensives génèrent des pressions phytosanitaires persistantes (INRAE 2023). La part de la SAU conduite en agriculture biologique demeure modeste malgré une progression récente, avec environ 8 % de la SAU certifiée bio (Agence Bio 2023), inférieure à la moyenne régionale PACA qui dépasse 15 %. Le risque radon reste faible à modéré sur l'essentiel du département compte tenu de la nature géologique principalement sédimentaire et calcaire du territoire, ce qui constitue l'un des rares points positifs de cette dimension (IRSN).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 2.0,
+      "note": "Plus de 300 sites BASOL recensés, forte densité industrielle Fos-Berre"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pressions phytosanitaires élevées en zones maraîchères Crau et Berre"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Socle géologique calcaire sédimentaire, risque radon faible à modéré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio ~8%, nettement sous la moyenne régionale PACA (15%)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France grâce au substrat calcaire dominant (IRSN, catégorie 1-2)",
+    "Progression de l'agriculture biologique +12% en surface certifiée entre 2020 et 2023 (Agence Bio)",
+    "Engagement de certaines communes dans des plans de désimperméabilisation des sols urbains (Métropole Aix-Marseille-Provence)",
+    "Présence de la plaine de la Crau, seule steppe alluviale de France, aux sols remarquables préservés partiellement par des protections réglementaires"
+  ],
+  "vigilances": [
+    "La zone industrialo-portuaire de Fos-sur-Mer concentre des contaminations aux métaux lourds et hydrocarbures affectant des milliers d'hectares, avec des coûts de dépollution projetés très élevés à horizon 2040",
+    "L'imperméabilisation des sols progresse rapidement avec l'extension urbaine de la métropole marseillaise, menaçant les fonctions hydrauliques et biologiques des sols périurbains",
+    "La contamination diffuse aux pesticides dans les zones maraîchères de la Crau risque de s'aggraver avec l'intensification climatique et l'augmentation de la fréquence des traitements contre les nouveaux ravageurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "300+",
+      "label": "Sites BASOL répertoriés"
+    },
+    {
+      "valeur": "8%",
+      "label": "SAU certifiée bio"
+    },
+    {
+      "valeur": "Catégorie 1-2",
+      "label": "Risque radon IRSN"
+    },
+    {
+      "valeur": "Rang 86/96",
+      "label": "Score sols national"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "La base BASOL ne recense que les sites faisant l'objet d'une action publique ; la contamination diffuse industrielle autour de l'étang de Berre est probablement sous-estimée",
+    "Les données INRAE sur les résidus de pesticides dans les sols sont disponibles à maille régionale et non à l'échelle fine de chaque zone agricole du département",
+    "L'indicateur SAU bio ne reflète pas la qualité intrinsèque des sols non certifiés bio, ni les pratiques agroécologiques intermédiaires adoptées par certains agriculteurs conventionnels du département"
+  ]
+}

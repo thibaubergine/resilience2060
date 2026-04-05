@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Calvados présente une qualité de l'air globalement satisfaisante au regard des standards nationaux, avec des concentrations moyennes en PM2,5 estimées entre 8 et 11 µg/m³ selon les zones (ATMO Normandie, 2023), restant sous le seuil réglementaire européen (25 µg/m³) mais dépassant la recommandation OMS 2021 fixée à 5 µg/m³. Le département bénéficie d'une situation géographique favorable avec une façade maritime générant des vents dominants d'ouest qui dispersent efficacement les polluants atmosphériques, limitant les phénomènes d'accumulation. Toutefois, l'agglomération caennaise concentre les émissions de NO₂ liées au trafic routier dense (axes A13/N13), avec des niveaux ponctuellement proches de 30 µg/m³ en proximité routière (ATMO Normandie). L'agriculture normande, pilier économique du Calvados (1er département laitier français), génère des émissions d'ammoniac (NH₃) significatives issues des élevages bovins et des épandages, représentant une fraction importante des émissions agricoles régionales (Citepa, inventaire INERIS 2022). La densité industrielle reste modérée, avec quelques sites ICPE émetteurs localisés autour de Caen et de la vallée de l'Orne.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³ ; dépasse OMS (5 µg/m³), conforme UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ caennais ~30 µg/m³ ; inférieur seuil réglementaire 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie modérée ; quelques ICPE émetteurs secteur Caen/Orne"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevages bovins laitiers intenses ; NH₃ agricole élevé, 1er laitier français"
+    }
+  ],
+  "points_forts": [
+    "Vents marins dominants d'ouest assurant une dispersion naturelle efficace des polluants, limitant les pics de pollution (ATMO Normandie 2023)",
+    "PM2,5 moyen départemental (~9-10 µg/m³) parmi les plus bas de la façade atlantico-normande, loin du seuil réglementaire européen de 25 µg/m³",
+    "Absence de grande métropole industrielle lourde : pas de sidérurgie ni de pétrochimie majeure contrairement à d'autres départements normands (Seine-Maritime)",
+    "Plan de Protection de l'Atmosphère (PPA) de l'agglomération caennaise actif, avec mesures de réduction des émissions routières et industrielles en cours"
+  ],
+  "vigilances": [
+    "Les émissions agricoles de NH₃ restent structurellement élevées en lien avec le cheptel bovin laitier (plus de 400 000 bovins dans le Calvados) et pourraient augmenter sous pression productive, contribuant à la formation de particules secondaires",
+    "L'agglomération de Caen (220 000 habitants) connaît des dépassements ponctuels de NO₂ en proximité routière (A13, rocade), susceptibles de s'aggraver avec l'étalement urbain et la croissance du trafic",
+    "Le changement climatique devrait augmenter la fréquence des épisodes de canicule et d'anticyclones bloquants, réduisant la dispersion atmosphérique habituelle et favorisant des pics d'ozone (O₃) plus fréquents d'ici 2050 (DRIAS 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9-10 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "~30 µg/m³",
+      "label": "NO₂ max proximité routière Caen"
+    },
+    {
+      "valeur": ">400 000",
+      "label": "Bovins (émissions NH₃)"
+    },
+    {
+      "valeur": "6.5/10",
+      "label": "Score Air départemental"
+    }
+  ],
+  "sources": [
+    "ATMO Normandie – Bilan qualité de l'air 2023",
+    "OMS Guidelines 2021 (PM2,5 : 5 µg/m³ ; NO₂ : 10 µg/m³)",
+    "Citepa / INERIS – Inventaire national des émissions 2022",
+    "Plan de Protection de l'Atmosphère Caen Métropole (DREAL Normandie)"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO Normandie dans le Calvados reste insuffisant en zones rurales et périurbaines, créant des angles morts dans la cartographie réelle de l'exposition aux PM2,5 et NH₃",
+    "Les données d'émissions agricoles (NH₃) reposent sur des modèles d'estimation plutôt que sur des mesures directes terrain, introduisant une incertitude sur les niveaux réels d'exposition des populations rurales",
+    "L'absence de données récentes infra-communales sur les expositions cumulées (multi-polluants) limite l'évaluation précise des inégalités environnementales de santé au sein du département"
+  ]
+}

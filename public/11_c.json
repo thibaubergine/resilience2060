@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aude (11) présente un profil climatique 2060 contrasté, marqué par une vulnérabilité significative aux effets du réchauffement dans un territoire déjà soumis à des extrêmes méditerranéens. Selon les projections DRIAS 2023, le département devrait connaître une hausse des températures moyennes de +2,5 à +3,5°C à l'horizon 2060 sous scénario SSP3, avec une multiplication par 2 à 3 du nombre de jours de canicule (Climadiag Communes, Météo-France). Le massif des Corbières et les hautes terres du Pays de Sault offrent un tampon altitudinal limité pour la grande majorité de la population concentrée en plaine et sur le littoral. Le département est régulièrement frappé par des épisodes cévenols et des crues torrentielles majeures — l'épisode d'octobre 2018 ayant causé 15 victimes et plus de 200 M€ de dégâts (Préfecture de l'Aude/Météo-France) — illustrant une vulnérabilité hydrologique structurelle. Les projections AP3C (Agroclim) confirment une intensification du risque feux de forêt sur les zones résineux/garrigue des Corbières et du Minervois, avec une saison à risque étendue à 8-9 mois d'ici 2060.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Relief modéré; Corbières limités, vastes plaines sans tampon thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Projections DRIAS: +30 jours de canicule/an horizon 2060, SSP3"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Garrigue et pinèdes des Corbières; saison feux étendue à 9 mois"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Épisodes cévenols majeurs; littoral audois et zones basses inondables"
+    }
+  ],
+  "points_forts": [
+    "Le massif des Corbières et le Pays de Sault culminant à 1 800 m (pic de Madrès) offrent des refuges climatiques locaux pour la faune et les activités pastorales",
+    "La façade méditerranéenne bénéficie d'un ensoleillement élevé (2 600 h/an, Météo-France), favorable aux EnR et réduisant les besoins en chauffage hivernal",
+    "Le PCAET de l'Agglomération du Grand Narbonne prévoit une réduction de 40% des émissions GES d'ici 2030 avec des actions d'adaptation intégrées",
+    "Le département dispose d'un Plan de Gestion des Risques Inondation (PGRI) Rhône-Méditerranée actualisé en 2022, intégrant les projections climatiques"
+  ],
+  "vigilances": [
+    "Intensification des épisodes de pluies méditerranéennes extrêmes : retour d'événements type octobre 2018 (200 mm en quelques heures) estimé 2 fois plus fréquent d'ici 2060 (Météo-France/TRACC)",
+    "Extension géographique et temporelle du risque feux de forêt vers le Minervois et la Montagne Noire audoise, surfaces boisées à risque passant de 120 000 à potentiellement 180 000 ha (AP3C/DFCI Occitanie)",
+    "Submersion marine et érosion du Lido de Gruissan-Narbonne : recul du trait de côte estimé à 1-2 m/an, avec risque accru de submersion de zones urbaines et touristiques (CEREMA 2023/DREAL Occitanie)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse température moyenne 2060 (SSP3, DRIAS)"
+    },
+    {
+      "valeur": "+30 j",
+      "label": "Jours de canicule supplémentaires/an à 2060"
+    },
+    {
+      "valeur": "200 M€",
+      "label": "Dégâts épisode cévenol octobre 2018"
+    },
+    {
+      "valeur": "2 600 h",
+      "label": "Ensoleillement annuel moyen (Météo-France)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France Climadiag",
+    "TRACC – Trajectoire de Réchauffement de Référence 2023",
+    "AP3C / DFCI Occitanie – Risque feux 2023",
+    "CEREMA – Observatoire du trait de côte 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent des disparités internes importantes entre le littoral, la plaine narbonnaise et les zones de montagne (Pays de Sault, Montagne Noire)",
+    "L'indicateur \"risque feux\" repose sur des modèles de végétation actuels qui n'intègrent pas les dynamiques d'adaptation forestière spontanée ni les effets des politiques DFCI locales",
+    "La vulnérabilité côtière est sous-évaluée faute de données précises sur les infrastructures exposées et les populations résidentes en zone de submersion potentielle à l'horizon 2060 dans l'Aude"
+  ]
+}

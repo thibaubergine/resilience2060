@@ -1,0 +1,65 @@
+{
+  "synthese": "La Creuse bénéficie d'une position géographique en altitude (moyenne ~550 m, points culminants à 977 m sur le plateau de Millevaches) qui constitue un tampon thermique significatif face au réchauffement climatique, plaçant le département parmi les territoires les plus résilients du Massif central (Climadiag 2023). Selon les projections DRIAS 2023 (scénario RCP8.5), la hausse des températures moyennes estivales atteindrait +3,5°C à +4°C à l'horizon 2060, restant toutefois inférieure aux projections du Bassin aquitain voisin (+4,5°C). Le nombre de jours de canicule annuels passerait de 3-4 jours actuellement à 15-20 jours en 2060, soit une multiplication par cinq, mais sensiblement moindre que dans les départements de plaine (AP3C Nouvelle-Aquitaine, 2022). L'absence de littoral et la faible densité de forêts de résineux en plaine limitent les risques côtiers et atténuent partiellement le risque incendie, bien que la progression des sécheresses estivales préoccupe les services de l'État (TRACC 2023). La vulnérabilité aux inondations fluviales reste modérée, concentrée sur les vallées de la Creuse et du Cher, avec des épisodes de crues centennales documentés mais un aléa sécheresse des sols en forte progression (+30 % de jours en déficit hydrique d'ici 2060, INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne 550 m, plateau Millevaches, tampon thermique efficace"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "15-20 jours canicule/an projetés 2060, moindre qu'en plaine aquitaine"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque incendie croissant avec sécheresses, forêts mixtes exposées"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Inondations fluviales modérées, zéro risque côtier, retrait-gonflement argiles"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 550 m et plateau de Millevaches (977 m) assurant un écart thermique de -2°C à -3°C par rapport aux plaines voisines (Climadiag 2023)",
+    "Absence totale de risque de submersion marine et d'érosion côtière, facteur de résilience structurel (TRACC 2023)",
+    "Projection de jours de canicule (15-20 j/an en 2060) parmi les plus faibles de Nouvelle-Aquitaine, loin derrière la Gironde ou les Landes (DRIAS/AP3C 2022)",
+    "Faible imperméabilisation des sols (densité urbaine réduite : 22 hab/km²) limitant les îlots de chaleur urbains et favorisant la recharge hydrique"
+  ],
+  "vigilances": [
+    "Augmentation significative des sécheresses des sols : +30 % de jours en déficit hydrique projetés à l'horizon 2060 (scénario RCP4.5, INRAE 2023), menaçant l'élevage bovin extensif dominant",
+    "Progression du risque incendie de forêt : l'extension vers le nord des conditions propices aux feux est confirmée par les modèles DRIAS, avec la forêt creusoise (105 000 ha) de plus en plus exposée aux étés secs consécutifs",
+    "Vulnérabilité thermique de la population vieillissante (25 % de plus de 65 ans, INSEE 2023) face à la multiplication des épisodes de chaleur intense, dans un département au réseau de soins déjà sous tension"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "977 m",
+      "label": "Point culminant (Millevaches)"
+    },
+    {
+      "valeur": "+3,8°C",
+      "label": "Hausse T° estivale projetée 2060"
+    },
+    {
+      "valeur": "~15-20 j",
+      "label": "Jours canicule/an horizon 2060"
+    },
+    {
+      "valeur": "105 000 ha",
+      "label": "Superficie forestière exposée"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2023 – scénarios RCP4.5 et RCP8.5",
+    "AP3C Nouvelle-Aquitaine – Adaptation au changement climatique 2022",
+    "TRACC (Trajectoire de Réchauffement de Référence pour l'Adaptation au Changement Climatique) 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent imprécises pour les reliefs complexes du plateau de Millevaches, sous-estimant possiblement les effets d'altitude locaux",
+    "L'absence de station météorologique dense sur le département creusois limite la finesse des modèles régionaux DRIAS appliqués localement",
+    "Le risque feux de forêt en territoire de moyenne montagne humide est encore peu documenté spécifiquement pour la Creuse, les modèles étant davantage calibrés sur les Landes et la côte méditerranéenne"
+  ]
+}

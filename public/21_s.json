@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or présente un profil pédologique contrasté, marqué par la diversité de ses substrats géologiques entre la Côte viticole, le plateau calcaire et la plaine alluviale de la Saône. Le département recense environ 180 sites recensés dans la base BASOL/SIS (Sites et Sols Pollués), héritage d'une activité industrielle et extractive historique concentrée autour de Dijon et des vallées de l'Ouche et du Suzon (GéoRisques, 2023). La viticulture bourguignonne intensive, notamment sur la Côte de Nuits et la Côte de Beaune, génère des niveaux de résidus phytosanitaires dans les sols parmi les plus élevés de la région, avec des teneurs en cuivre particulièrement préoccupantes liées aux traitements fongicides répétés (INRAE, 2023). Le risque radon demeure modéré à potentiellement fort sur les secteurs granitiques et métamorphiques du Morvan, classés en zone 2 par l'IRSN. Avec environ 6,5 % de la SAU en agriculture biologique (Agence Bio, 2023), la Côte-d'Or reste en deçà de la moyenne nationale (10,7 %), bien que la progression soit notable dans les secteurs herbagers du nord du département.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "~180 sites BASOL/SIS, concentration autour de Dijon et vallées industrielles"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Viticulture intensive, résidus cuivre et fongicides élevés sur Côte viticole"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon modéré, zone 2 localisée au Morvan granitique"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "6,5 % SAU bio, progression notable en zones herbagères nord du département"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement maîtrisé sur 80 % du territoire départemental classé en zone 1 (IRSN, 2022)",
+    "Progression de l'agriculture biologique : +12 % de surfaces certifiées entre 2020 et 2023 (Agence Bio 2023)",
+    "Diversité pédologique favorable à une polyculture résiliente sur les terres de la plaine dijonnaise et du Châtillonnais",
+    "Présence de terroirs viticoles sous labels stricts (AOP Grand Cru, Bourgogne) favorisant des cahiers des charges encadrés sur l'usage des intrants"
+  ],
+  "vigilances": [
+    "Accumulation de cuivre dans les sols viticoles : dépassements potentiels des seuils réglementaires (>100 mg/kg) sur certaines parcelles de la Côte de Nuits d'ici 2030 (INRAE 2023)",
+    "Imperméabilisation progressive des sols péri-urbains dijonnais : +4 % de surfaces artificialisées entre 2012 et 2023 (Corine Land Cover / Cerema), réduisant les capacités d'infiltration",
+    "Pollution historique de certains sites industriels en friches dans l'agglomération de Dijon et à Montbard susceptible de contaminer les nappes alluviales superficielles (GéoRisques 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~180",
+      "label": "Sites BASOL/SIS recensés"
+    },
+    {
+      "valeur": "6,5 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Zone 1-2",
+      "label": "Classement radon IRSN majoritaire"
+    },
+    {
+      "valeur": ">100 mg/kg",
+      "label": "Seuil cuivre sols viticoles (risque)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base SIS-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides sols 2023",
+    "IRSN – Carte du risque radon 2022",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie systématique des teneurs en cuivre parcelle par parcelle sur la Côte viticole rend difficile l'évaluation précise de la contamination réelle des sols viticoles",
+    "Les données BASOL/SIS sous-estiment potentiellement les sites pollués non encore identifiés, notamment dans les anciennes zones artisanales rurales du département",
+    "La part SAU bio masque des disparités infra-départementales majeures entre la Côte viticole (très faible conversion) et les zones d'élevage du nord-ouest plus favorables au bio"
+  ]
+}

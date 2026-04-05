@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Cher (18) présente une qualité de l'air globalement satisfaisante, bénéficiant de sa faible densité urbaine et de l'absence de grande agglomération industrielle majeure, avec Bourges comme seul pôle urbain significatif (~65 000 habitants). Les concentrations moyennes annuelles en PM2,5 restent inférieures au seuil réglementaire européen de 25 µg/m³, oscillant entre 8 et 12 µg/m³ selon les stations ATMO Centre-Val de Loire, mais demeurent supérieures au nouveau guide OMS 2021 fixé à 5 µg/m³. Les émissions de dioxyde d'azote (NO₂) urbain à Bourges restent modérées, sans dépassement chronique des valeurs limites annuelles (40 µg/m³), ce qui le place favorablement par rapport aux départements plus urbanisés (ATMO CVL, 2023). Toutefois, le territoire souffre d'émissions d'ammoniac (NH₃) significatives liées à son agriculture céréalière et d'élevage intensive, classant le Cher parmi les départements à vigilance modérée sur ce polluant (Citepa, inventaire 2022). Le bilan aérien du Cher reste parmi les meilleurs du quart nord de la France, avec un score de 6,5/10 reflétant cette dualité entre faible pollution urbaine et pression agricole diffuse.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-12 µg/m³, au-dessus seuil OMS 2021 de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain Bourges modéré, pas de dépassement chronique 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle, pas de site Seveso majeur émetteur atmosphérique"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "Émissions NH₃ élevées, agriculture céréalière et élevage intensifs dominants"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures à 25 µg/m³ en moyenne annuelle à Bourges, bien en deçà du seuil réglementaire européen de 40 µg/m³ (ATMO Centre-Val de Loire, 2023)",
+    "Absence de grande zone industrielle lourde génératrice de polluants atmosphériques primaires majeurs, contrairement aux départements limitrophes comme l'Indre-et-Loire",
+    "Faible densité de population (~71 hab/km²) limitant structurellement les émissions liées aux transports et au chauffage résidentiel collectif",
+    "Bonne couverture forestière et végétale (forêt de Tronçais, vallée du Cher) contribuant à une capacité naturelle d'absorption partielle des polluants locaux"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricoles parmi les plus élevées de la région Centre-Val de Loire, contribuant à la formation de particules secondaires (PM2,5 secondaires) ; tendance stable malgré les plans d'action nitrates (Citepa 2022)",
+    "Qualité de l'air intérieur et brûlage de végétaux en zones rurales peu surveillés, avec un réseau de stations de mesure limité à quelques points fixes autour de Bourges, réduisant la représentativité territoriale",
+    "Risque de dégradation de la qualité de l'air lors des épisodes de canicule projetés à la hausse d'ici 2050 (Climadiag 2023), favorisant la formation d'ozone troposphérique (O₃) dans ce département déjà exposé aux pics estivaux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-12 µg/m³",
+      "label": "Concentration PM2,5 annuelle (ATMO CVL 2023)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ moyen annuel Bourges"
+    },
+    {
+      "valeur": "~71 hab/km²",
+      "label": "Densité population Cher"
+    }
+  ],
+  "sources": [
+    "ATMO Centre-Val de Loire, bilan qualité de l'air 2023",
+    "OMS, lignes directrices qualité de l'air 2021",
+    "Citepa, inventaire national des émissions 2022",
+    "Climadiag Cher, DRIAS/Météo-France 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est concentré autour de Bourges, laissant les zones rurales du Cher (soit la majorité du territoire) sans données de qualité de l'air représentatives et fiables",
+    "Les émissions agricoles diffuses de NH₃ et de particules liées aux épandages sont sous-estimées dans les inventaires locaux, faute de mesures terrain suffisamment maillées sur ce vaste département",
+    "L'absence de station de mesure de l'ozone (O₃) en milieu rural dans le Cher empêche d'évaluer précisément l'exposition des populations et des cultures aux pics d'ozone estivaux, pourtant en augmentation projetée"
+  ]
+}

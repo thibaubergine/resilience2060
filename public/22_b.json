@@ -1,0 +1,66 @@
+{
+  "synthese": "Les Côtes-d'Armor disposent d'un réseau Natura 2000 couvrant environ 12,5 % du territoire départemental, incluant des sites remarquables comme la baie de Saint-Brieuc (ZPS) et l'archipel des Sept-Îles, l'une des plus importantes colonies de fous de Bassan en France avec plus de 20 000 couples (OFB 2024). Le département abrite le Parc Naturel Régional d'Armorique (partiellement) et bénéficie de la présence de la Réserve Naturelle Nationale des Sept-Îles, gérée par la LPO, qui protège des espèces emblématiques comme le macareux moine et le fou de Bassan (INPN). La Trame Verte et Bleue costarmoricaine s'appuie sur un réseau de haies bocagères estimé à plus de 50 000 km, bien que fragilisé par l'intensification agricole, constituant des corridors écologiques essentiels entre les massifs forestiers et le littoral (SRCE Bretagne). Cependant, la pression agricole intensive, notamment l'élevage porcin et avicole, génère des impacts significatifs sur la qualité des milieux humides et la biodiversité terrestre, avec près de 30 % des zones humides dégradées ou disparues depuis les années 1970 (INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "12,5% territoire en Natura 2000, baie Saint-Brieuc et Sept-Îles incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "Réserve Naturelle Sept-Îles, PNR Armorique, ZPS littorales remarquables"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Fou de Bassan, macareux moine, loutre, 20 000 couples nicheurs Sept-Îles"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Bocage fragilisé, zones humides dégradées, pression agricole intensive persistante"
+    }
+  ],
+  "points_forts": [
+    "Réserve Naturelle des Sept-Îles : plus de 20 000 couples de fous de Bassan, 1ère colonie française (LPO/OFB 2024)",
+    "Réseau Natura 2000 couvrant ~12,5% du département, dont 8 ZSC et 4 ZPS d'importance nationale (INPN)",
+    "Plus de 50 000 km de haies bocagères inventoriées, soutenant la connectivité écologique terrestre (SRCE Bretagne)",
+    "Présence de la loutre d'Europe sur plusieurs cours d'eau, indicateur d'une bonne qualité des milieux aquatiques"
+  ],
+  "vigilances": [
+    "Régression continue du bocage : perte estimée à 2 % du linéaire de haies par an, menaçant les corridors écologiques (INRAE 2023)",
+    "Dégradation des zones humides côtières par eutrophisation liée aux nitrates agricoles, impactant avifaune et amphibiens",
+    "Pression croissante des espèces exotiques envahissantes (jussie, renouée du Japon) sur les milieux rivulaires du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "50 000 km",
+      "label": "Linéaire bocager"
+    },
+    {
+      "valeur": "20 000 couples",
+      "label": "Fous de Bassan Sept-Îles"
+    },
+    {
+      "valeur": "30%",
+      "label": "Zones humides dégradées depuis 1970"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Bretagne – Rapports colonie Sept-Îles",
+    "SRCE Bretagne – Trame Verte et Bleue",
+    "INRAE 2023 – Zones humides françaises"
+  ],
+  "limites": [
+    "Les données sur l'état réel de conservation des habitats Natura 2000 en Côtes-d'Armor restent partielles, les évaluations DOCOB n'étant pas toutes actualisées post-2020",
+    "L'estimation du linéaire bocager repose sur des inventaires hétérogènes selon les communes, rendant les comparaisons temporelles incertaines",
+    "L'impact réel des pratiques agricoles intensives (élevage hors-sol) sur la biodiversité des sols et des milieux humides est insuffisamment documenté à l'échelle départementale fine"
+  ]
+}

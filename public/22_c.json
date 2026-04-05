@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Côtes-d'Armor bénéficient d'un climat océanique tempéré qui constitue un tampon thermique significatif face aux projections de réchauffement : selon Climadiag (Météo-France, 2023), le département devrait connaître une hausse de température moyenne de +2,1°C à l'horizon 2060 sous scénario intermédiaire SSP2-4.5, restant en deçà de la moyenne nationale (+2,4°C). Le nombre de jours de canicule devrait passer de moins de 2 jours/an actuellement à 8-12 jours/an en 2060 (DRIAS 2023), ce qui reste parmi les valeurs les plus faibles de France métropolitaine. En revanche, la façade maritime du département (350 km de côtes) expose fortement certaines communes au risque de submersion marine et d'érosion côtière, avec une élévation du niveau marin projetée entre +20 et +60 cm d'ici 2060 selon les scénarios RCP (AP3C/TRACC). Le programme régional AP3C (Anticiper et Planifier le changement Climatique en Bretagne) identifie le département comme modérément exposé aux risques climatiques globaux, avec une résilience océanique notable mais une vigilance accrue sur le trait de côte et les épisodes de précipitations extrêmes.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Altitude modeste mais effet tampon océanique efficace, températures régulées"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 8.0,
+      "note": "Moins de 12 jours de canicule projetés en 2060, parmi les plus faibles nationaux"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 9.0,
+      "note": "Forêts rares et humides, risque feux quasi nul selon DRIAS/Prométhée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 3.0,
+      "note": "350 km de côtes exposées, submersion et érosion côtière en forte progression"
+    }
+  ],
+  "points_forts": [
+    "Climat océanique régulateur : température maximale estivale moyenne inférieure de 3 à 4°C à la moyenne nationale (Météo-France, normales 1991-2020)",
+    "Parmi les départements les moins exposés aux canicules en 2060 : moins de 12 jours/an projetés sous SSP2-4.5 contre plus de 40 dans le Sud-Est (DRIAS 2023)",
+    "Risque incendie de forêt quasi inexistant : humidité relative élevée et couverture végétale dominée par landes et bocages humides (Prométhée / SDIS 22)",
+    "Engagement territorial fort via le programme AP3C et le PCAET du Syndicat Mixte Côtes-d'Armor Territoires, avec stratégie d'adaptation formalisée depuis 2021"
+  ],
+  "vigilances": [
+    "Submersion marine et érosion côtière : 42 communes littorales concernées, élévation du niveau marin projetée de +20 à +60 cm d'ici 2060 (AP3C / TRACC 2023)",
+    "Intensification des épisodes de précipitations extrêmes et crues soudaines : le département a subi 3 événements majeurs entre 2018 et 2023 (Pluic'Flash / DREAL Bretagne)",
+    "Stress hydrique agricole émergent en été : déficit hydrique projeté en hausse de 15 à 25 % en juillet-août à l'horizon 2060, menaçant l'élevage intensif dominant (Explore2 / Chambre d'Agriculture 22)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,1°C",
+      "label": "Hausse température projetée 2060 (SSP2-4.5)"
+    },
+    {
+      "valeur": "~10 jours",
+      "label": "Jours de canicule projetés/an en 2060"
+    },
+    {
+      "valeur": "350 km",
+      "label": "Linéaire côtier exposé submersion/érosion"
+    },
+    {
+      "valeur": "42",
+      "label": "Communes littorales à risque submersion marine"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS-2017/2020 projections climatiques",
+    "AP3C Bretagne – Anticiper et Planifier le changement Climatique",
+    "TRACC – Trajectoire de Référence pour l'Adaptation au Changement Climatique 2023"
+  ],
+  "limites": [
+    "Les modèles climatiques régionaux (DRIAS) présentent une incertitude accrue sur la façade Manche-Atlantique en raison de la variabilité des circulations atmosphériques ouest-européennes",
+    "L'exposition côtière est hétérogène selon les secteurs (baie de Saint-Brieuc vs Côte de Granit Rose) et nécessite des modélisations locales plus fines que les données départementales disponibles",
+    "Le risque de stress hydrique agricole est sous-documenté à l'échelle du département 22, les études Explore2 se concentrant davantage sur les grands bassins versants régionaux"
+  ]
+}

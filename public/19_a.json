@@ -1,0 +1,66 @@
+{
+  "synthese": "La Corrèze (19) affiche une qualité de l'air parmi les meilleures de France métropolitaine, bénéficiant d'une faible densité industrielle et d'une couverture forestière exceptionnelle (61% du territoire, INPN 2023) qui favorise l'absorption des polluants. Les concentrations moyennes annuelles en PM2,5 restent inférieures à 8 µg/m³, nettement en deçà du seuil OMS 2021 (5 µg/m³ visé, mais bien loin des valeurs des zones urbaines denses), selon les données ATMO Nouvelle-Aquitaine 2022. Le NO₂ demeure marginal en milieu urbain, Tulle et Brive-la-Gaillarde ne dépassant pas 15 µg/m³ en moyenne annuelle, contre 40 µg/m³ de valeur limite réglementaire (ATMO NA, 2023). Les émissions ammoniacales agricoles constituent le principal signal de vigilance, liées à l'élevage bovin extensif dominant (plus de 200 000 bovins, Agreste 2020), générant des dépôts azotés ponctuels sur les zones sensibles. Le département se classe ainsi dans le top 10 national pour la qualité de l'air, avec un score de 8,5/10 (rang ~5-10/96).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 <8 µg/m³, très inférieur aux moyennes nationales urbaines"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ <15 µg/m³ à Tulle/Brive, loin du seuil réglementaire 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Très peu de sites industriels émetteurs classés ICPE A en Corrèze"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage bovin dense (200 000 têtes) génère NH₃ agricole notable"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 8 µg/m³ en moyenne annuelle, parmi les plus faibles de France (ATMO Nouvelle-Aquitaine, 2023)",
+    "NO₂ urbain à Brive-la-Gaillarde et Tulle inférieur à 15 µg/m³, très en deçà de la valeur limite européenne de 40 µg/m³ (ATMO NA, 2023)",
+    "Couverture forestière de 61% du territoire assurant une capacité naturelle d'absorption et de filtration des polluants atmosphériques (INPN 2023)",
+    "Absence d'industrie lourde émettrice (sidérurgie, chimie lourde, cimenterie) classée parmi les principales sources CITEPA en région"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac (NH₃) liées à l'élevage bovin extensif (>200 000 bovins, Agreste 2020) pourraient s'intensifier avec les aléas climatiques 2030-2060 (stress thermique, modifications des pratiques fourragères)",
+    "La combustion de bois en chauffage résidentiel (fort taux d'équipement en poêles et inserts dans le département rural) génère des pics hivernaux de PM2,5 et PM10 localisés, susceptibles de progresser avec la hausse du coût de l'énergie",
+    "Le trafic routier sur l'axe A89 (Bordeaux–Clermont-Ferrand) traverse le département et constitue une source linéaire de NOx et particules, avec une pression croissante liée au développement du trafic de transit"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<8 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "<15 µg/m³",
+      "label": "NO₂ urbain (Brive/Tulle)"
+    },
+    {
+      "valeur": "61%",
+      "label": "Couverture forestière"
+    },
+    {
+      "valeur": ">200 000",
+      "label": "Bovins (source NH₃)"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine 2023",
+    "OMS Guidelines 2021 (PM2,5 / NO₂)",
+    "CITEPA Inventaire national 2022",
+    "Agreste Corrèze 2020",
+    "INPN / IGN Corine Land Cover 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO en Corrèze est peu dense (territoire rural), limitant la représentativité spatiale fine des données de qualité de l'air hors agglomérations",
+    "Les émissions diffuses liées au chauffage au bois résidentiel sont estimées par modélisation et non par mesure directe, introduisant une incertitude sur les pics hivernaux locaux de PM2,5",
+    "L'absence de données récentes (post-2022) sur les concentrations en ozone (O₃) estival en zones forestières corrèziennes constitue un angle mort, alors que les épisodes de chaleur et les émissions de COV forestiers (terpènes) augmentent ce risque"
+  ]
+}

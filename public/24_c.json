@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne (24), département continental du Périgord, présente une vulnérabilité climatique modérée à horizon 2060, avec un score de 6,5/10 reflétant des tensions croissantes malgré l'absence de façade littorale. Selon Climadiag (Météo-France, 2023), le département devrait connaître une hausse de température moyenne de +2,5 à +3,5°C d'ici 2060 selon les scénarios RCP4.5 à RCP8.5, avec une augmentation significative du nombre de jours de canicule (passant de 4 jours/an en référence à plus de 20 jours/an en scenario médian). Le massif forestier périgourdin, couvrant environ 44 % du territoire (560 000 ha), constitue à la fois un atout de régulation thermique et un facteur de risque incendie majeur, le département étant classé en vigilance renforcée par le SDIS 24 avec une extension prévisible des périodes à risque. Les projections DRIAS 2023 indiquent une augmentation de la sécheresse estivale structurelle, avec un déficit hydrique croissant susceptible d'affecter l'agriculture et les zones humides de la Vallée de la Dordogne, territoire Ramsar. L'altitude modeste (moyenne ~130 m, points culminants à 490 m dans le Périgord Vert) offre un tampon thermique limité face aux projections de réchauffement à moyen terme (AP3C, ADEME Nouvelle-Aquitaine).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne ~130 m, tampon thermique faible à modéré"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+20 jours canicule/an projetés en 2060, scénario médian DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "44 % de forêt, risque incendie croissant, SDIS 24 vigilance renforcée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Pas de littoral ; inondations fluviales localisées, exposition limitée"
+    }
+  ],
+  "points_forts": [
+    "Absence totale de vulnérabilité côtière : département 100 % continental, aucun risque de submersion marine à l'horizon 2060",
+    "Couverture forestière importante (~44 % du territoire, source IGN 2022) jouant un rôle de régulation thermique locale et de puits de carbone",
+    "Altitude du Périgord Vert (nord-ouest, jusqu'à 490 m) offrant des zones refuges climatiques relatives par rapport aux plaines girondines voisines",
+    "Réseau hydrographique dense (Dordogne, Vézère, Isle) assurant une inertie thermique locale et des ressources en eau encore disponibles selon Explore2/BRGM"
+  ],
+  "vigilances": [
+    "Augmentation projetée des jours de canicule : de 4 jours/an (référence 1976-2005) à plus de 20 jours/an en 2060 (scénario RCP4.5, Climadiag Météo-France 2023), menaçant les populations âgées (18,7 % de +65 ans, INSEE 2021)",
+    "Risque incendie de forêt en forte extension : la zone à risque « feux de forêt » devrait progresser vers le nord du département à l'horizon 2050-2060 (TRACC/MTECT), avec une saison à risque allongée de 2 à 3 mois supplémentaires",
+    "Sécheresse agricole et hydraulique structurelle : les projections DRIAS 2023 indiquent une réduction des débits d'étiage de la Dordogne pouvant atteindre -30 % en été à horizon 2060, menaçant l'irrigation et les usages AEP"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C",
+      "label": "Hausse T° moyenne projetée 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Couverture forestière du territoire (IGN 2022)"
+    },
+    {
+      "valeur": "20 j/an",
+      "label": "Jours canicule projetés 2060 (vs 4 actuellement)"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Réduction débit estival Dordogne projeté 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes – Météo-France 2023",
+    "DRIAS 2023 – Projections climatiques régionales (RCP4.5/8.5)",
+    "AP3C – ADEME Nouvelle-Aquitaine, adaptation agriculture",
+    "TRACC – Trajectoire nationale d'adaptation au changement climatique, MTECT 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag/DRIAS à l'échelle communale restent incertaines pour un département aussi hétérogène que la Dordogne, avec de fortes disparités entre Périgord Noir (sud-est plus chaud) et Périgord Vert (nord, plus tempéré)",
+    "L'évaluation du risque incendie repose sur des modèles nationaux (DFCI, SDIS) dont la résolution spatiale ne capture pas finement les interfaces forêt-agriculture propres au bocage périgourdin",
+    "Les données socio-économiques de vulnérabilité (populations exposées, capacité d'adaptation des communes rurales) sont insuffisamment intégrées dans les indicateurs climatiques standards, or la Dordogne est un territoire rural vieillissant avec une capacité d'adaptation limitée"
+  ]
+}

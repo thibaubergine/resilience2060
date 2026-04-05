@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Cher (18), situé au cœur du Bassin parisien à une altitude moyenne de 200-250 m, présente une vulnérabilité climatique modérée mais croissante selon les projections DRIAS 2023. Les scénarios RCP 8.5 prévoient une hausse des températures moyennes de +3,5°C à +4°C d'ici 2060, avec une augmentation significative des jours de canicule passant de 5-7 jours/an actuellement à 20-30 jours/an en milieu de siècle (Climadiag 2023). Le territoire, dépourvu de reliefs protecteurs significatifs, est exposé aux vagues de chaleur continentales, comme l'ont illustré les épisodes de 2019 et 2022 où les températures ont dépassé 40°C à Bourges. La forêt de Tronçais et les massifs bocagers du sud du département font face à un risque feux émergent, tandis que la Vallée du Cher et ses affluents maintiennent un risque inondation structurel documenté par les PPRI en vigueur (TRACC/AP3C Centre-Val de Loire).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude modeste 200-250m, faible tampon thermique continental"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "20-30 jours canicule/an projetés horizon 2060 (RCP 8.5 DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Forêt de Tronçais 10 000 ha, risque feux émergent mais limité"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Vallée du Cher inondable, PPRI actifs, pas d'exposition côtière"
+    }
+  ],
+  "points_forts": [
+    "Absence totale de vulnérabilité côtière : le Cher est un département enclavé à 400 km des façades maritimes, éliminant les risques d'érosion et de submersion marine",
+    "Risque feux de forêt encore modéré : la surface boisée représente environ 140 000 ha (20% du territoire), avec des peuplements feuillus majoritaires moins inflammables que les résineux méditerranéens (IFN/ONF)",
+    "Réseau hydrographique structuré avec le Cher, l'Arnon et l'Yèvre offrant des corridors de fraîcheur et une ressource en eau potentiellement tampon pour les épisodes chauds",
+    "Initiatives d'adaptation locales portées par la Région Centre-Val de Loire via le programme AP3C, incluant des diagnostics de vulnérabilité communaux en cours"
+  ],
+  "vigilances": [
+    "Augmentation drastique des jours de canicule projetés : de 5-7 jours/an actuellement à 20-30 jours/an à horizon 2060 selon le scénario RCP 8.5 (DRIAS/Climadiag 2023), impactant la santé des populations âgées (21% de +65 ans dans le Cher)",
+    "Risque émergent d'incendie de forêt sur la forêt de Tronçais (10 000 ha de chênes sessiles) et les landes du sud Berry, avec extension probable de la zone de vigilance feux d'ici 2050 (MTECT 2023)",
+    "Aggravation des étiages sévères sur le Cher et ses affluents : les débits d'étiage ont déjà reculé de 20-30% sur les 30 dernières années, menaçant l'agriculture irriguée et la biodiversité aquatique (Explore2 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5 à +4°C",
+      "label": "Hausse T° projetée 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "20-30 j/an",
+      "label": "Jours canicule projetés 2060"
+    },
+    {
+      "valeur": "140 000 ha",
+      "label": "Surface boisée départementale"
+    },
+    {
+      "valeur": "21%",
+      "label": "Part population +65 ans (vulnérabilité chaleur)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Climadiag Météo-France",
+    "TRACC & AP3C Centre-Val de Loire",
+    "ONF / IFN – Inventaire Forestier National",
+    "Explore2 2023 – INRAE/OFB"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles pour le Cher reposent sur des mailles de 8 km, insuffisantes pour différencier la plaine berrichonne du Val de Loire et les collines du sud, créant une incertitude locale significative",
+    "L'absence d'observatoire climatique départemental dédié dans le Cher limite la production de données de suivi locales indépendantes des stations Météo-France de Bourges et Vierzon, peu représentatives des zones rurales",
+    "Le risque feux de forêt est encore sous-documenté pour le Berry : peu d'études de sensibilité locales existent comparativement aux départements méditerranéens, rendant les projections d'extension de l'aléa particulièrement incertaines à l'horizon 2060"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Doubs présente une qualité de l'air globalement intermédiaire à l'échelle nationale, marquée par des épisodes de pollution hivernale caractéristiques des vallées encaissées du massif jurassien. L'agglomération bisontine (Besançon, ~130 000 hab.) constitue le principal foyer de pollution au NO₂ et aux particules fines, avec des concentrations en PM2,5 atteignant 11–14 µg/m³ en moyenne annuelle, au-dessus de la valeur guide OMS 2021 fixée à 5 µg/m³ (ATMO Bourgogne-Franche-Comté, 2023). Le relief jurassien favorise des phénomènes d'inversion thermique piégeant les polluants dans les vallées de la Loue, du Doubs et de l'Allan, aggravant ponctuellement les pics de particules. L'agriculture bocagère et fromagère génère des émissions d'ammoniac (NH₃) modérées liées aux élevages bovins laitiers (production Comté AOC), contribuant à la formation de particules secondaires (Citepa, inventaire 2022). Le réseau de surveillance ATMO BFC couvre correctement le territoire avec plusieurs stations fixes, mais les zones rurales montagnardes restent sous-instrumentées.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 ~12 µg/m³, dépassement norme OMS, conforme réglementation EU"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ urbain Besançon modéré, sous seuil réglementaire 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Tissu industriel limité, quelques sites métallurgie et plasturgie"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Élevages bovins laitiers denses, émissions NH₃ modérées à significatives"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures au seuil réglementaire européen (40 µg/m³) sur l'ensemble de l'agglomération bisontine (ATMO BFC, 2023)",
+    "Faible densité industrielle lourde : absence de grandes industries chimiques ou sidérurgiques majeures, limitant les émissions de polluants primaires",
+    "Part significative de forêts (44 % du territoire) contribuant à l'absorption de certains polluants atmosphériques et à la qualité de l'air rural (IGN, 2022)",
+    "Réseau de surveillance ATMO Bourgogne-Franche-Comté opérationnel avec stations fixes à Besançon permettant un suivi en temps réel des épisodes de pollution"
+  ],
+  "vigilances": [
+    "Épisodes de pollution particulaire hivernale récurrents en fond de vallée (Doubs, Loue, Allan) liés aux inversions thermiques et au chauffage au bois : PM10 pouvant dépasser 50 µg/m³ lors des pics (ATMO BFC, 2022–2023)",
+    "Émissions d'ammoniac agricoles significatives issues des 3 500+ exploitations d'élevage bovin du territoire, participant à la formation de particules secondaires fines (nitrates d'ammonium) difficilement contrôlables à court terme",
+    "Sous-couverture du réseau de surveillance en zone rurale et montagnarde : les communes du Haut-Doubs (plateau des Mille Étangs, vallées du Dessoubre) manquent de données fiables, rendant l'évaluation de l'exposition réelle des populations incomplète"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12 µg/m³",
+      "label": "PM2,5 moyenne annuelle (Besançon)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "<40 µg/m³",
+      "label": "NO₂ urbain Besançon (conforme UE)"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Part forêts département Doubs"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté, bilan qualité de l'air 2023",
+    "OMS, lignes directrices qualité de l'air 2021",
+    "Citepa, inventaire national des émissions 2022",
+    "IGN, occupation des sols Doubs 2022"
+  ],
+  "limites": [
+    "L'absence de station de mesure permanente dans les vallées rurales du Haut-Doubs empêche une évaluation précise de l'exposition des populations aux PM2,5 d'origine agricole et de chauffage individuel",
+    "Les données de pollution aux particules fines secondaires (nitrates, sulfates issus du NH₃ agricole) restent peu décomposées à l'échelle départementale, limitant l'attribution précise des sources d'émissions locales",
+    "La saisonnalité marquée des épisodes de pollution (inversions hivernales jurassiques) rend les moyennes annuelles peu représentatives des pics d'exposition réels vécus par les habitants des fonds de vallée"
+  ]
+}

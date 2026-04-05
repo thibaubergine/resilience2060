@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corrèze figure parmi les départements français les mieux dotés en matière de biodiversité, avec environ 23 % de son territoire couvert par le réseau Natura 2000, soit plus de 135 000 hectares classés en zones de protection spéciale ou sites d'intérêt communautaire (INPN, 2024). Le département abrite le Parc Naturel Régional de Millevaches en Limousin, qui couvre près de 314 000 ha à cheval sur trois départements dont une large part en Corrèze, constituant l'un des principaux réservoirs de biodiversité du Massif Central. La LPO recense en Corrèze plus de 250 espèces d'oiseaux nicheurs ou de passage, dont des espèces emblématiques comme le Faucon pèlerin, la Loutre d'Europe et le Sonneur à ventre jaune, témoignant d'une qualité écologique remarquable des milieux (OFB, 2024). Les corridors écologiques corréziens, portés par le Schéma Régional de Cohérence Écologique (SRCE) Nouvelle-Aquitaine, bénéficient d'une trame verte et bleue dense grâce au réseau hydrographique de la Dordogne et de la Vézère, avec des continuités forestières parmi les mieux préservées de la région (INPN/DREAL NA, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "23 % du territoire en Natura 2000, soit ~135 000 ha classés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Millevaches couvre largement la Corrèze, réservoir majeur"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "250+ espèces oiseaux, Loutre, Sonneur ventre jaune présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Trames verte et bleue denses, réseau hydrographique continu"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 exceptionnelle : ~23 % du territoire classé, bien au-dessus de la moyenne nationale (~13 %) (INPN, 2024)",
+    "PNR de Millevaches en Limousin : 314 000 ha protégés offrant continuités forestières et tourbières d'altitude remarquables (Charte PNR, 2020)",
+    "Présence de la Loutre d'Europe sur la quasi-totalité des cours d'eau principaux, indicateur fort de qualité écologique (OFB, 2024)",
+    "Réseau hydrographique Dordogne-Vézère-Corrèze formant des corridors aquatiques fonctionnels pour les espèces migratrices (SRCE Nouvelle-Aquitaine)"
+  ],
+  "vigilances": [
+    "Progression des espèces exotiques envahissantes (Renouée du Japon, Jussie) sur les berges des cours d'eau corréziens, menaçant les habitats riverains (OFB, 2024)",
+    "Fermeture des milieux ouverts (landes, prairies) par enfrichement suite à la déprise agricole, réduisant les habitats favorables aux espèces de plaine et de lisière",
+    "Impact du changement climatique sur les tourbières du plateau de Millevaches, avec assèchement progressif projeté à l'horizon 2060 affectant les espèces hygrophiles (DRIAS, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~23 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "314 000 ha",
+      "label": "Surface PNR Millevaches"
+    },
+    {
+      "valeur": "250+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "135 000 ha",
+      "label": "Surface Natura 2000 Corrèze"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Corrèze",
+    "DREAL Nouvelle-Aquitaine / SRCE",
+    "PNR Millevaches en Limousin"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont exhaustives pour les vertébrés mais lacunaires pour les invertébrés et la flore mycologique en Corrèze",
+    "Le suivi de l'état de conservation des habitats Natura 2000 corréziens reste partiel, certains sites manquant d'évaluation récente post-2020",
+    "L'efficacité réelle des corridors écologiques identifiés dans le SRCE n'est pas encore évaluée quantitativement à l'échelle départementale"
+  ]
+}

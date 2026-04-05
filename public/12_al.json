@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Aveyron se distingue comme l'un des départements français les plus performants en matière alimentaire, porté par une agriculture identitaire forte et des filières de qualité reconnues mondialement. Le département compte 7 appellations AOP/IGP majeures dont le Roquefort (AOP depuis 1925), l'Agneau de l'Aubrac ou le Bœuf de Charolles aveyronnais, plaçant l'Aveyron parmi les 5 premiers départements français pour la densité de signes officiels de qualité (INAO, 2023). La Surface Agricole Utile représente environ 520 000 ha, soit 55% du territoire départemental, avec une part en agriculture biologique atteignant 12,4% des exploitations certifiées (Agence Bio, 2023), dépassant la moyenne nationale de 10,2%. Le diagnostic ZAVA 2024 identifie l'Aveyron comme zone à forte autonomie alimentaire potentielle, notamment sur les filières herbivores (bovins, ovins lait et viande) qui structurent l'économie rurale de 274 communes. Les circuits courts se développent progressivement avec plus de 45 AMAP recensées et un réseau dense de marchés fermiers hebdomadaires, consolidant un tissu agro-alimentaire résilient face aux aléas climatiques.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Zone ZAVA favorable, filières herbivores structurées sur 274 communes rurales"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "7 AOP/IGP majeures dont Roquefort, top 5 national densité signes qualité"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "12,4% SAU certifiée bio, supérieur moyenne nationale 10,2% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "45+ AMAP actives, marchés fermiers hebdomadaires couvrant tout le territoire"
+    }
+  ],
+  "points_forts": [
+    "Roquefort AOP, première AOP fromagère française en valeur export (70 000 t/an, INAO 2023), ancre économique et identitaire majeur",
+    "7 signes officiels de qualité (INAO 2023) : Fin Gras du Mézenc, Agneau de l'Aubrac, Veau de l'Aveyron et du Ségala, Estofinado, plaçant le département dans le top 5 national",
+    "12,4% des exploitations certifiées bio (Agence Bio 2023), progression de +18% en 5 ans, portée par les prairies permanentes favorables à la conversion",
+    "Autonomie fourragère élevée : les élevages bovins et ovins couvrent 80% de leurs besoins alimentaires en herbe locale, limitant la dépendance aux intrants extérieurs (Chambre d'Agriculture 12, 2023)"
+  ],
+  "vigilances": [
+    "Dépendance aux filières longues d'export (Roquefort exporté à 70% hors France) : vulnérabilité aux crises logistiques ou sanitaires mondiales",
+    "Vieillissement des exploitants agricoles : 42% des chefs d'exploitation ont plus de 55 ans en Aveyron (Agreste 2020), risque de déprise agricole à horizon 2030-2035 menaçant la SAU",
+    "Pression climatique croissante sur les prairies : les projections DRIAS 2060 anticipent une réduction de 15 à 20% de la productivité herbagère sur le Ségala et l'Aubrac, fragilisant l'autonomie fourragère des élevages"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "7",
+      "label": "AOP/IGP recensées (INAO 2023)"
+    },
+    {
+      "valeur": "12,4%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "520 000 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "45+",
+      "label": "AMAP et points vente directe"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Signes officiels qualité",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones à autonomie alimentaire",
+    "Agreste 2020 – Recensement agricole",
+    "Chambre d'Agriculture Aveyron 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour l'Aveyron, l'indice d'autonomie alimentaire ne distinguant pas suffisamment filières export (Roquefort) et circuits réellement locaux",
+    "La part de SAU en bio intègre des prairies extensives peu productives en calories, pouvant surestimer la contribution réelle à l'alimentation humaine locale directe",
+    "L'absence de recensement systématique des AMAP et ventes directes en milieu rural aveyronnais conduit à une probable sous-estimation du maillage réel en circuits courts"
+  ]
+}

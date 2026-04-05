@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne bénéficie d'une ressource en eau globalement favorable, structurée autour du bassin versant de la Dordogne et de ses affluents (Isle, Vézère, Dronne), couvrant un réseau hydrographique de plus de 7 000 km (Agence de l'Eau Adour-Garonne). La qualité des eaux distribuées est satisfaisante, avec 94,5 % de la population alimentée par une eau conforme aux critères bactériologiques et physicochimiques en 2022 (ARS Nouvelle-Aquitaine). La pression agricole reste modérée comparée aux départements du bassin parisien, avec des teneurs en nitrates généralement inférieures à 25 mg/L dans les eaux souterraines, bien qu'une vigilance s'impose sur certaines zones de polyculture-élevage (Agence de l'Eau Adour-Garonne, état des lieux DCE 2022). Les projections Explore2 signalent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2050-2070 sur les cours d'eau périgourdins, exposant le territoire à des conflits d'usage accrus en période estivale. La contamination aux PFAS reste peu documentée à l'échelle départementale, mais des campagnes de mesure nationales (2022-2023) n'ont pas identifié de points noirs majeurs en Dordogne.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "94,5 % conformité eau potable; rares dépassements zones rurales isolées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Étiages -20 à -40 % horizon 2060; Vézère et Isle vulnérables"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Nitrates <25 mg/L majorité masses d'eau; pression agricole modérée"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Aucun point noir PFAS majeur identifié; surveillance nationale en cours"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense de plus de 7 000 km offrant une résilience naturelle de la ressource en eau (Agence de l'Eau Adour-Garonne)",
+    "94,5 % de conformité de l'eau distribuée aux critères sanitaires en 2022, supérieure à la moyenne nationale (ARS Nouvelle-Aquitaine)",
+    "Faible pression agricole intensive : teneurs en nitrates inférieures à 25 mg/L sur la majorité des masses d'eau souterraine (DCE 2022)",
+    "Absence de site industriel majeur historiquement contaminant aux PFAS, limitant la pollution émergente des captages AEP"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2060 (Explore2), fragilisant l'alimentation en eau potable en zones rurales et l'irrigation agricole estivale",
+    "Multiplication des arrêtés de restriction d'eau en été : la Dordogne a subi des niveaux de crise hydrologique répétés en 2022 et 2023, tendance amenée à s'aggraver",
+    "Petites unités de distribution (UDI) rurales isolées présentant des difficultés récurrentes de conformité et de sécurisation de l'alimentation (ARS Nouvelle-Aquitaine, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "7 000 km",
+      "label": "Réseau hydrographique"
+    },
+    {
+      "valeur": "94,5 %",
+      "label": "Conformité eau potable (2022)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Débit étiage projeté 2060"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Adour-Garonne – État des lieux DCE 2022",
+    "ARS Nouvelle-Aquitaine – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques 2050-2070 (INRAE/BRGM 2023)",
+    "Campagne nationale PFAS eaux brutes et traitées 2022-2023 (DGS/Anses)"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques à la Dordogne restent parcellaires, la campagne nationale 2022-2023 ne couvrant pas l'intégralité des captages AEP ruraux du département",
+    "L'état qualitatif des petites masses d'eau souterraines locales (nappes alluviales de l'Isle et de la Dronne) est insuffisamment suivi faute de points de mesure en densité suffisante",
+    "Les projections Explore2 présentent une fourchette d'incertitude élevée à l'échelle du sous-bassin versant, rendant difficile la planification territoriale fine des usages de l'eau à horizon 2060"
+  ]
+}

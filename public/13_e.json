@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône présentent une situation hydrique structurellement déficitaire, avec un département classé en zone de répartition des eaux (ZRE) sur plusieurs bassins versants, traduisant une demande chroniquement supérieure aux ressources disponibles. La Durance et le Rhône constituent les deux piliers de l'alimentation en eau potable, mais le projet Explore2 (BRGM/OFB 2023) anticipe une réduction des débits d'étiage de 10 à 40 % d'ici 2050-2070 sur ces cours d'eau méditerranéens. La qualité des eaux superficielles est dégradée dans plusieurs secteurs industrialo-portuaires (étang de Berre classé masse d'eau fortement modifiée, DCE 2022), avec un déficit de bon état écologique affectant plus de 40 % des masses d'eau du département. La contamination aux PFAS est documentée à proximité de la zone industrielle de Fos-sur-Mer et de l'aéroport de Marignane, avec des concentrations détectées dans des captages AEP (ARS PACA 2023). La pression démographique (+1 % an, 2,08 millions d'habitants) conjuguée à l'irrigation agricole de la Crau amplifie les tensions sur une ressource déjà sous stress climatique prononcé.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 4.0,
+      "note": "Etang de Berre et secteurs industriels dégradent plusieurs captages AEP"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Explore2 projette -10 à -40 % débits étiage Durance-Rhône d'ici 2070"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Nitrates modérés hors périmètres irrigués Crau; quelques dépassements locaux"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "PFAS détectés près Fos-sur-Mer et Marignane; captages AEP concernés ARS 2023"
+    }
+  ],
+  "points_forts": [
+    "Réseau Canal de Provence couvre ~50 % de l'alimentation en eau potable départementale avec un maillage sécurisé",
+    "Double ressource Durance/Rhône offre une redondance relative (SCP/SMEREB), limitant les ruptures d'approvisionnement",
+    "Taux de conformité bactériologique de l'eau du robinet supérieur à 97 % en zone urbaine dense (ARS PACA 2022)",
+    "Faibles concentrations en nitrates dans les eaux souterraines de la Crau profonde (<25 mg/L), aquifère bien protégé (BRGM)"
+  ],
+  "vigilances": [
+    "Réduction anticipée de 20 à 40 % des apports en eau de la Durance d'ici 2060 (Explore2 2023), menaçant directement 1,5 million d'habitants alimentés via le Canal de Provence",
+    "Étang de Berre : masse d'eau fortement modifiée, bon état écologique non atteint malgré 20 ans de directive-cadre sur l'eau, rejets industriels de Fos et EDF Martigues persistants",
+    "Contamination PFAS croissante dans les eaux souterraines autour de Fos-sur-Mer et de l'aéroport Marseille-Provence, avec risque de transfert vers captages AEP non encore pleinement cartographié"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "2,08 M hab.",
+      "label": "Population desservie eau potable"
+    },
+    {
+      "valeur": ">40 %",
+      "label": "Masses d'eau hors bon état DCE"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines Crau"
+    },
+    {
+      "valeur": "-10 à -40 %",
+      "label": "Réduction débit étiage projetée 2070"
+    }
+  ],
+  "sources": [
+    "Explore2 BRGM/OFB 2023",
+    "ARS PACA – Bilan qualité eaux 2022-2023",
+    "DCE / Agence de l'eau RMC – État des masses d'eau 2022",
+    "BRGM – Aquifère de la Crau"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages AEP des Bouches-du-Rhône restent partielles : la cartographie exhaustive de l'ARS PACA n'était pas finalisée fin 2023, sous-estimant potentiellement l'exposition réelle",
+    "L'état écologique de l'étang de Berre est suivi mais les bilans interannuels de Gipreb manquent de résolution spatiale fine pour distinguer les sous-bassins les plus dégradés",
+    "Les projections Explore2 s'appliquent à des bassins versants régionaux et leur déclinaison à l'échelle des sous-bassins locaux (Huveaune, Arc, Touloubre) reste incertaine, limitant la planification fine de l'adaptation"
+  ]
+}

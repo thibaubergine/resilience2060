@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Calvados bénéficie d'une pluviométrie annuelle relativement favorable, autour de 700 à 900 mm/an selon les secteurs, alimentant des nappes phréatiques en général bien rechargées, notamment la nappe de la craie qui constitue la ressource majeure du département (ARS Normandie, 2023). Toutefois, la pression agricole intensive — le Calvados compte environ 60 % de sa surface agricole utile en grandes cultures et prairies — génère une contamination chronique aux nitrates dans plusieurs masses d'eau souterraines et superficielles, avec des teneurs dépassant régulièrement 40 mg/L dans certaines captages du Pays d'Auge et du Bessin (DCE/Agence de l'eau Seine-Normandie, 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 sur les principaux cours d'eau (Orne, Dives, Seulles), fragilisant l'alimentation en eau potable de plusieurs territoires ruraux. La présence de PFAS a été détectée dans plusieurs unités de distribution, notamment à proximité de zones industrielles et d'anciens sites militaires, sans atteindre systématiquement les seuils d'alerte mais signalant une vigilance croissante (ANSES/ARS, 2023-2024). La qualité globale de l'eau distribuée reste satisfaisante pour 85 % de la population desservie, mais 15 % des captages présentent des dépassements ponctuels de normes (ARS Normandie, bilan 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "85% population avec eau conforme; captages ruraux parfois déclassés"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits étiage -10 à -30% horizon 2060 (Explore2, bassins Orne/Dives)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Teneurs nitrates >40 mg/L sur Pays d'Auge et Bessin; zone vulnérable"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement; pas de dépassement systématique des seuils"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie annuelle favorable (700-900 mm/an) assurant une bonne recharge de la nappe crayeuse, ressource principale du département",
+    "85 % de la population calvadosienne desservie par une eau potable conforme aux normes en vigueur (ARS Normandie, bilan 2022)",
+    "Réseau hydrographique dense (Orne, Dives, Seulles, Touques) offrant des capacités de dilution et de régulation hydrique appréciables",
+    "Engagements actifs de l'Agence de l'eau Seine-Normandie sur les aires d'alimentation de captage (AAC) prioritaires du Calvados, avec mesures agro-environnementales financées"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 (Explore2, 2023), menaçant l'alimentation en eau potable des territoires ruraux de l'intérieur",
+    "Contamination chronique aux nitrates dans les bassins versants du Pays d'Auge et du Bessin, avec dépassements ponctuels du seuil réglementaire de 50 mg/L sur plusieurs captages prioritaires (DCE, 2022)",
+    "Présence de PFAS détectée dans plusieurs unités de distribution à proximité de zones industrialo-portuaires et d'anciens terrains militaires, nécessitant une surveillance renforcée à mesure que les valeurs guide européennes s'abaissent (directive 2020/2184)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "700-900 mm/an",
+      "label": "Pluviométrie moyenne départementale"
+    },
+    {
+      "valeur": "85 %",
+      "label": "Population avec eau potable conforme"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Réduction débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "40-50 mg/L",
+      "label": "Teneurs nitrates captages sensibles"
+    }
+  ],
+  "sources": [
+    "ARS Normandie – Bilan qualité eaux 2022",
+    "Agence de l'eau Seine-Normandie – DCE / AAC 2022",
+    "Explore2 – Projections hydrologiques France 2023",
+    "ANSES/ARS – Campagne nationale PFAS eaux potables 2023-2024"
+  ],
+  "limites": [
+    "Les données PFAS restent parcellaires sur le Calvados, la campagne nationale n'ayant pas encore couvert l'intégralité des unités de distribution au moment de la publication des résultats 2023-2024",
+    "Les projections Explore2 sur les débits présentent une incertitude significative à l'échelle des petits bassins versants côtiers calvadosiens, peu documentés individuellement",
+    "L'état des masses d'eau souterraines profondes (calcaires jurassiques du Bessin) est insuffisamment renseigné dans les bilans publics récents, limitant l'évaluation précise du risque de surexploitation future"
+  ]
+}

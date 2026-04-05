@@ -1,0 +1,67 @@
+{
+  "synthese": "L'Aude dispose d'une surface agricole utile (SAU) de 222 000 hectares, représentant environ 45 % du territoire départemental, avec une dominante viticole marquée autour des AOC Corbières, Minervois et Fitou (INAO, 2023). Le département compte 13,2 % de sa SAU en agriculture biologique, soit nettement au-dessus de la moyenne nationale (10,3 %), avec 820 exploitations certifiées bio recensées (Agence Bio, 2023). La zone à autonomie alimentaire villageoise et agro-alimentaire (ZAVA 2024) positionne l'Aude dans une capacité d'autosuffisance relative mais fragilisée par la monoculture viticole qui limite la diversification des productions alimentaires locales. Les circuits courts se développent progressivement avec une quarantaine d'AMAP actives et plusieurs marchés de producteurs soutenus par la Chambre d'Agriculture de l'Aude, bien que la couverture reste inégale sur le territoire. La forte exposition aux aléas climatiques méditerranéens (sécheresses, épisodes cévenols) constitue une pression croissante sur les systèmes de production alimentaire locaux (Climadiag, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie limitée par monoculture viticole, productions maraîchères insuffisantes localement"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.5,
+      "note": "13 AOC/IGP viticoles et agroalimentaires parmi les plus denses de France"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.5,
+      "note": "13,2% SAU bio, 820 exploitations certifiées, au-dessus moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 5.5,
+      "note": "Quarantaine AMAP, maillage territorial inégal, zones rurales peu couvertes"
+    }
+  ],
+  "points_forts": [
+    "Forte densité d'appellations d'origine : 13 AOC/IGP recensées (Corbières, Minervois, Fitou, Blanquette de Limoux, etc.), parmi les mieux dotés hors Bourgogne (INAO, 2023)",
+    "Part de SAU en agriculture biologique à 13,2 %, soit +2,9 points au-dessus de la moyenne nationale (Agence Bio, 2023)",
+    "Vignoble audois couvrant près de 70 000 hectares, premier secteur économique agricole structurant avec export vers 80 pays (Chambre d'Agriculture 11, 2022)",
+    "Développement des AMAP et marchés de producteurs soutenu par le PAT (Projet Alimentaire Territorial) du Grand Narbonne, opérationnel depuis 2021"
+  ],
+  "vigilances": [
+    "Vulnérabilité extrême de la viticulture au changement climatique : hausse de 1,8°C déjà enregistrée depuis 1960, risque d'inadaptation des cépages actuels d'ici 2050-2060 (Climadiag Aude, 2023)",
+    "Dépendance alimentaire structurelle aux importations pour les produits maraîchers et céréaliers, la SAU hors vigne couvrant insuffisamment les besoins locaux (ZAVA, 2024)",
+    "Érosion du nombre d'exploitations agricoles : -18 % entre 2010 et 2020 (Recensement agricole 2020, Agreste), menaçant la viabilité des circuits courts à moyen terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "222 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "13,2 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "13",
+      "label": "AOC/IGP recensées"
+    },
+    {
+      "valeur": "~40",
+      "label": "AMAP actives dans le département"
+    }
+  ],
+  "sources": [
+    "INAO 2023 (registre AOC/IGP)",
+    "Agence Bio 2023 (observatoire national)",
+    "Agreste – Recensement agricole 2020",
+    "ZAVA 2024 (zones autonomie alimentaire)",
+    "Chambre d'Agriculture Aude 2022",
+    "Climadiag Aude – Météo-France 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent expérimentales pour l'Aude et ne distinguent pas finement les bassins de vie internes au département (littoral/piémont/montagne)",
+    "La forte prépondérance viticole dans les statistiques agricoles audoises peut masquer la fragilité des filières maraîchères et céréalières locales, sous-représentées dans les bases nationales",
+    "Le maillage des AMAP et circuits courts repose sur des données déclaratives partielles : l'Aude ne dispose pas encore d'un observatoire territorial consolidé des circuits alimentaires de proximité"
+  ]
+}

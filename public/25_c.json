@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Doubs bénéficie d'une position géographique montagnarde favorable face au changement climatique, avec des altitudes atteignant 1 461 m au Mont d'Or, offrant un tampon thermique significatif par rapport aux plaines françaises (Climadiag 2024). Selon les projections DRIAS 2023, le département devrait connaître une augmentation de +2,1°C à +3,4°C d'ici 2060 selon les scénarios RCP4.5 à RCP8.5, avec une intensification des épisodes de gel tardif au printemps menaçant les écosystèmes forestiers jurassiens. Le nombre de jours de canicule restera néanmoins limité comparé aux départements méridionaux, avec une projection de 5 à 12 jours supplémentaires par an d'ici 2050-2060 (TRACC/AP3C). Les forêts couvrant environ 44 % du territoire (IGN 2023) constituent à la fois un atout de régulation thermique et une vulnérabilité face aux sécheresses répétées, notamment pour l'épicéa déjà fragilisé par les scolytes. Le risque d'inondations torrentielles dans les vallées du Doubs et du Dessoubre représente un enjeu croissant, avec des crues centennales susceptibles de s'intensifier selon les projections Explore2 2023.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne élevée (~700m), tampon thermique jurassien marqué et durable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Canicules modérées projetées, +8 jours/an d'ici 2060 selon DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux faible, forêts humides mais sécheresses scolytes en hausse"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Crues Doubs/Dessoubre fréquentes, vallées encaissées très exposées aux inondations"
+    }
+  ],
+  "points_forts": [
+    "Altitude protectrice : 44 % du territoire au-dessus de 600 m, limitant les extrêmes thermiques estivaux (IGN 2023)",
+    "Risque incendie parmi les plus faibles de France (indice DFCI bas), grâce à des précipitations annuelles de 1 200 à 1 800 mm sur le massif jurassien (Météo-France)",
+    "Absence de vulnérabilité côtière et densité urbaine modérée (Besançon ~120 000 hab.) réduisant l'effet d'îlot de chaleur à l'échelle départementale",
+    "Couverture forestière de 44 % assurant une régulation climatique locale et un stockage carbone estimé à 8,5 Mt CO₂ eq. (IGN/INRAE 2023)"
+  ],
+  "vigilances": [
+    "Dépérissement forestier accéléré : 30 à 40 % des épicéas du Doubs affectés par les scolytes depuis 2018, risque d'aggravation avec les sécheresses projetées (DSF/DRAAF BFC 2023)",
+    "Inondations en hausse : la ville de Besançon classée zone à risque important d'inondation (TRI), avec des crues du Doubs pouvant dépasser la crue de référence 1910 d'ici 2060 (PPRI/Explore2)",
+    "Gel tardif printanier et alternances gel/dégel plus fréquentes projetées, menaçant les filières agricoles (fruits, fourrage) et la biodiversité des zones humides karstiques (TRACC 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,1 à +3,4°C",
+      "label": "Hausse température projetée 2060"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "1 200-1 800 mm",
+      "label": "Précipitations annuelles massif jurassien"
+    },
+    {
+      "valeur": "5-12 jours",
+      "label": "Jours de canicule supplémentaires /an 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2024 / DRIAS 2023",
+    "TRACC & AP3C Bourgogne-Franche-Comté",
+    "IGN Inventaire Forestier National 2023",
+    "Explore2 / PPRI Préfecture Doubs"
+  ],
+  "limites": [
+    "Les projections Climadiag/DRIAS à l'échelle communale restent incertaines pour les microclimats karstiques spécifiques au Doubs (gouffres, résurgences), mal représentés dans les modèles régionaux",
+    "L'indice de vulnérabilité aux inondations ne distingue pas suffisamment les crues rapides torrentielles (Dessoubre, Loue) des crues lentes, pouvant sous-estimer le risque réel sur certaines vallées encaissées",
+    "L'évaluation du tampon thermique altitudinal ne prend pas en compte les inversions thermiques hivernales fréquentes dans les combes jurassiennes, qui peuvent localement aggraver les épisodes de froid extrême"
+  ]
+}

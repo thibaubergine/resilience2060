@@ -1,0 +1,67 @@
+{
+  "synthese": "La Charente affiche un profil alimentaire solide (7,5/10, rang ~25/96), porté par une agriculture diversifiée sur 330 000 ha de SAU représentant environ 60 % du territoire départemental (Agreste 2023). Le département est historiquement structuré autour de la viticulture cognaçaise, avec une AOC Cognac qui génère plus de 3,5 milliards d'euros à l'export annuellement et confère une densité remarquable en signes de qualité (INAO 2024). L'agriculture biologique couvre environ 8,5 % de la SAU charentaise, légèrement en deçà de la moyenne nationale de 10,7 % mais en progression constante depuis 2018 (Agence Bio 2023). Les circuits courts se développent activement avec une trentaine d'AMAP recensées et plusieurs marchés de producteurs labellisés « Bienvenue à la Ferme », témoignant d'une dynamique locale croissante (Chambre d'Agriculture Charente 2023). L'autonomie alimentaire reste néanmoins contrainte par la forte spécialisation viticole et la dépendance aux productions céréalières exportées plutôt que transformées localement (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "SAU étendue mais spécialisation viticole limite l'autonomie alimentaire locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "AOC Cognac, Pineau des Charentes, IGP Charolais : densité exceptionnelle reconnue"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "8,5 % SAU bio, progression réelle mais sous moyenne nationale de 10,7 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Trentaine d'AMAP, marchés producteurs actifs, réseau Bienvenue à la Ferme structuré"
+    }
+  ],
+  "points_forts": [
+    "AOC Cognac : 1ère eau-de-vie française à l'export, 3,5 Md€/an, rayonnement mondial (BNIC 2023)",
+    "Pineau des Charentes AOP et plusieurs IGP (Charolais, volailles) assurent une densité de signes de qualité parmi les plus élevées de France (INAO 2024)",
+    "SAU de 330 000 ha (~60 % du territoire) offrant un potentiel de production alimentaire diversifié (Agreste 2023)",
+    "Dynamique bio en hausse : +18 % de surfaces certifiées bio entre 2018 et 2022, avec filières maraîchères et grandes cultures en développement (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Forte dépendance à la monoculture viticole : la vigne occupe ~40 % de la SAU, fragilisant la résilience alimentaire face aux aléas climatiques projetés (sécheresses estivales en hausse selon Climadiag 2060)",
+    "Part bio (8,5 %) encore inférieure à la moyenne nationale, avec risque de déconversions lié à la crise économique de la filière bio en 2023-2024 (Agence Bio)",
+    "Pression foncière et fragmentation des exploitations maraîchères de proximité pouvant freiner le développement des circuits courts face à l'urbanisation de l'axe Angoulême-Cognac"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "330 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part SAU en bio"
+    },
+    {
+      "valeur": "3,5 Md€",
+      "label": "Export Cognac annuel"
+    },
+    {
+      "valeur": "~30",
+      "label": "AMAP recensées (16)"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre AOP/IGP",
+    "Agence Bio 2023 – Observatoire national",
+    "Agreste 2023 – Recensement agricole Charente",
+    "BNIC 2023 – Bilan Cognac export",
+    "ZAVA 2024 – Zones à vocation agricole",
+    "Chambre d'Agriculture Charente 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire charentaise restent partielles, la méthodologie ne distinguant pas suffisamment les productions à destination locale des flux exportés (Cognac notamment)",
+    "La part SAU en bio est issue d'estimations régionales Agence Bio ventilées à l'échelle départementale, avec une marge d'incertitude de ±1 point",
+    "L'indicateur circuits courts / AMAP repose sur des recensements déclaratifs non exhaustifs : certaines initiatives de vente directe hors AMAP formalisées échappent aux bases de données disponibles"
+  ]
+}

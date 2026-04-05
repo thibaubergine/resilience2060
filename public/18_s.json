@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Cher (18) présente une situation contrastée en matière de qualité des sols, avec un score de 5,5/10 reflétant les pressions agricoles intenses sur un territoire à dominante céréalière (la SAU représente environ 65% du territoire, soit ~430 000 ha). Les résidus de pesticides constituent une préoccupation majeure : l'INRAE (2023) identifie les grandes plaines berrichonnes comme des zones à forte pression phytosanitaire, liée à la monoculture céréalière et oléoprotéagineuse. La base de données ex-BASOL recense une quarantaine de sites et sols pollués dans le département, concentration modérée mais incluant des friches industrielles héritées de l'activité sidérurgique de Bourges. En revanche, le Cher bénéficie d'un potentiel radon limité sur la majorité de son territoire (zones de priorité 1 et 2 selon l'IRSN), les formations géologiques argileuses et calcaires du Berry offrant une exposition moindre que les socles granitiques voisins. La part de SAU en agriculture biologique reste inférieure à la moyenne nationale (~8% contre 10,7% en France en 2023 selon l'Agence Bio), limitant la dynamique de reconquête de la qualité des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites pollués ex-BASOL, concentration modérée, héritages industriels Bourges"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Forte pression pesticides, plaines céréalières berrichonnes très exposées selon INRAE 2023"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Majorité territoire en zone radon priorité 1-2, géologie argilo-calcaire protectrice IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~8%, inférieure moyenne nationale 10,7%, progression lente Agence Bio 2023"
+    }
+  ],
+  "points_forts": [
+    "Risque radon faible à modéré sur plus de 80% du territoire, grâce aux formations argilo-calcaires du Berry (IRSN)",
+    "Nombre de sites pollués ex-BASOL contenu (~40 sites), parmi les densités les plus faibles du quart nord de la France (GéoRisques 2024)",
+    "Présence d'un réseau de surveillance des sols agricoles (RMQS - Réseau de Mesure de la Qualité des Sols, INRAE) avec stations de référence dans le Cher",
+    "Terroirs viticoles de Sancerre et Quincy préservant des pratiques culturales diversifiées favorables à la structure des sols"
+  ],
+  "vigilances": [
+    "Contamination chronique des sols agricoles aux herbicides (glyphosate, métazachlore) sur les 430 000 ha de grandes cultures, avec risque de transfert vers les nappes selon INRAE 2023",
+    "Érosion hydrique des sols limoneux du nord du département estimée à plus de 2 t/ha/an sur certaines parcelles, aggravée par les projections de précipitations intenses à l'horizon 2060 (DRIAS)",
+    "Reconversion agricole lente vers l'agriculture biologique (<8% SAU) limitant la restauration de la vie biologique des sols et la réduction des intrants chimiques (Agence Bio 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 sites",
+      "label": "Sites pollués ex-BASOL recensés"
+    },
+    {
+      "valeur": "~8%",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "65%",
+      "label": "Part du territoire en SAU (~430 000 ha)"
+    },
+    {
+      "valeur": "Zones 1-2",
+      "label": "Niveau de priorité radon IRSN majoritaire"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Résidus pesticides & RMQS 2023",
+    "IRSN – Cartographie radon 2022",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "Absence de cartographie fine et récente de la contamination des sols agricoles du Cher par les pesticides à l'échelle parcellaire, rendant les estimations départementales peu précises",
+    "Les données ex-BASOL ne couvrent pas les pollutions diffuses des sols ruraux, sous-estimant potentiellement l'impact des pratiques agricoles historiques en Berry",
+    "La part de SAU bio départementale est agrégée à l'échelle régionale dans certaines publications, introduisant une incertitude sur la valeur exacte pour le seul département du Cher"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente (16) affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle qui limite les émissions de polluants primaires. Les concentrations en PM2,5 restent en dessous de la moyenne nationale, avec des valeurs estimées entre 8 et 11 µg/m³ selon les stations ATMO Nouvelle-Aquitaine, comparées au seuil OMS 2021 fixé à 5 µg/m³ — valeur encore dépassée mais modérément. Le NO₂ urbain demeure peu préoccupant à Angoulême, chef-lieu, dont la taille modérée (environ 41 000 habitants) génère un trafic routier limité par rapport aux métropoles régionales (Bordeaux, source ATMO NA 2022). En revanche, la pression agricole — grande culture céréalière et élevage bovin — génère des émissions d'ammoniac (NH₃) non négligeables, classant la Charente parmi les départements à vigilance modérée sur ce paramètre (Citepa, inventaire OMINEA 2022). L'absence de grand complexe industriel émetteur classe la Charente favorablement au niveau national, justifiant un score Air de 7,0/10.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³, au-dessus seuil OMS 5 µg/m³ mais faible"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ faible à Angoulême, ville moyenne, trafic limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries lourdes émettrices, tissu économique dispersé"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevage bovin et grandes cultures génèrent émissions NH₃ notables"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de Nouvelle-Aquitaine, estimées à ~9 µg/m³ (ATMO NA, 2022), nettement inférieures aux agglomérations bordelaises",
+    "Absence de site industriel classé Seveso seuil haut à fort impact sur la qualité de l'air dans le département (GéoRisques / DREAL NA 2023)",
+    "Angoulême, principale agglomération, ne dépasse pas les valeurs guides en NO₂ (< 25 µg/m³ annuel) selon les mesures ATMO Nouvelle-Aquitaine",
+    "Couverture forestière et bocagère significative (forêts sur ~19 % du territoire) jouant un rôle de puits et limitant la dispersion de particules fines localement"
+  ],
+  "vigilances": [
+    "Les émissions agricoles d'ammoniac (NH₃), liées à l'élevage bovin charentais et aux épandages d'engrais azotés, contribuent à la formation de particules secondaires PM2,5, avec une tendance à la hausse si les pratiques ne sont pas adaptées (Citepa, OMINEA 2022)",
+    "Les épisodes de pollution printanière à l'ozone (O₃) affectent régulièrement la Charente lors de conditions anticycloniques prolongées, avec des dépassements du seuil d'information (180 µg/m³) observés certaines années (ATMO NA)",
+    "La combustion de bois résidentielle, pratique répandue en milieu rural charentais, constitue une source croissante de particules fines en période hivernale, risquant de dégrader la qualité de l'air local avec le vieillissement du parc d'appareils de chauffage"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "< 25 µg/m³",
+      "label": "NO₂ annuel Angoulême"
+    },
+    {
+      "valeur": "0 site",
+      "label": "Seveso seuil haut émetteur air"
+    },
+    {
+      "valeur": "~19 %",
+      "label": "Couverture forestière département"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2022",
+    "OMS – Lignes directrices qualité de l'air mondiales 2021",
+    "Citepa – Inventaire OMINEA 2022 (émissions NH₃)",
+    "DREAL Nouvelle-Aquitaine – Registre installations classées 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO en Charente est peu dense (stations concentrées sur Angoulême), laissant les zones rurales sans données fines de qualité de l'air",
+    "Les émissions agricoles de NH₃ sont estimées par modélisation et non mesurées in situ, introduisant une incertitude sur les valeurs réelles à l'échelle départementale",
+    "L'absence de données longitudinales publiées pour la Charente spécifiquement (hors agglomération d'Angoulême) rend difficile l'analyse de tendances fines sur 10 ans"
+  ]
+}

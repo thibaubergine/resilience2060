@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Doubs bénéficie d'une ressource en eau globalement abondante grâce à son réseau karstique dense et au massif jurassien, alimentant des cours d'eau majeurs comme le Doubs et la Loue (débit moyen du Doubs à Besançon : ~100 m³/s, DREAL BFC). La qualité de l'eau potable est satisfaisante pour environ 90 % de la population desservie par des eaux conformes aux normes bactériologiques et physico-chimiques (ARS Bourgogne-Franche-Comté, 2022). Cependant, la vulnérabilité des aquifères karstiques aux contaminations agricoles et microbiologiques constitue un défi structurel, avec plusieurs captages classés prioritaires au titre de la DCE. Les projections Explore2 (2024) indiquent une réduction potentielle des débits d'étiage de 20 à 35 % à l'horizon 2070 sur les sous-bassins comtois, menaçant les usages estivaux et la biodiversité aquatique. La présence de PFAS détectée dans certains cours d'eau et captages franc-comtois (ANSES/études régionales 2023) représente une vigilance émergente pour la qualité des eaux distribuées.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "90 % population alimentée en eau conforme ARS BFC 2022"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Réduction étiages -20 à -35 % horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Faible pression agricole céréalière; karst vulnérable localement"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement; niveaux sous seuils alerte ANSES"
+    }
+  ],
+  "points_forts": [
+    "Ressource hydrique abondante : réseau karstique jurassien et pluviométrie élevée (1 200 à 1 800 mm/an selon altitude, Météo-France)",
+    "Taux de conformité de l'eau potable supérieur à 90 % pour les paramètres bactériologiques (ARS Bourgogne-Franche-Comté, 2022)",
+    "Faible intensité de la pression agricole en nitrates comparée aux départements de plaine : pas de zone vulnérable nitrates généralisée",
+    "Présence de zones de protection de captages actives et de périmètres de protection sur les sources stratégiques (Fontaine de Vaucluse du Doubs, sources de la Loue)"
+  ],
+  "vigilances": [
+    "Vulnérabilité structurelle des aquifères karstiques aux contaminations rapides : temps de transfert court (heures à jours), risque microbiologique accru en période de crues",
+    "Projections Explore2 (2024) : réduction des débits d'étiage de 20 à 35 % d'ici 2070, menaçant les prises d'eau, la pisciculture et les écosystèmes aquatiques (Loue, Dessoubre déjà en tension)",
+    "Détection de PFAS dans des captages et cours d'eau franc-comtois (campagnes ANSES/ARS 2022-2023), nécessitant une surveillance renforcée avant fixation des normes définitives"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~100 m³/s",
+      "label": "Débit moyen Doubs (Besançon)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -35 %",
+      "label": "Réduction étiages 2070 (Explore2)"
+    },
+    {
+      "valeur": "1 200–1 800 mm",
+      "label": "Pluviométrie annuelle départementale"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté 2022",
+    "Explore2 BRGM/OFB 2024",
+    "DREAL BFC – données hydrologiques",
+    "ANSES/campagnes PFAS 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages du Doubs restent partielles et les seuils réglementaires définitifs (directive eau potable 2020/2184) ne sont pas encore pleinement intégrés dans le suivi ARS",
+    "La modélisation Explore2 présente des incertitudes élevées à l'échelle sous-départementale, notamment sur les bassins karstiques dont la dynamique diffère des modèles hydrologiques classiques",
+    "L'absence d'un observatoire unifié de la qualité des eaux souterraines karstiques à maille fine limite la détection précoce des pollutions émergentes (pesticides métabolites, médicaments)"
+  ]
+}

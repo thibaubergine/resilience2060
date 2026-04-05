@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme présente un profil climatique contrasté à l'horizon 2060 : si son relief préalpin (Vercors, Diois) constitue un tampon thermique non négligeable avec des altitudes culminant à plus de 2 000 m (Climadiag, 2023), les projections DRIAS indiquent une hausse des températures estivales de +2,5 à +3,5°C d'ici 2060 pour les scénarios intermédiaires (SSP2-4.5), exposant fortement la plaine valentinoise et la Drôme provençale. Le nombre de jours de vague de chaleur devrait doubler, passant de 15 à 30 jours par an en moyenne sur le territoire drômois d'ici 2050-2060 (TRACC/AP3C, 2023). Le risque incendie est en forte progression : la surface forestière exposée à un aléa feux élevé pourrait augmenter de 40% d'ici 2060 dans le sud du département (INRAE/ONF, 2023), notamment sur le plateau du Tricastin et les garrigues de Drôme provençale. Les épisodes cévenols intensifiés et les crues de l'Isère, du Rhône et de la Drôme exposent par ailleurs plusieurs milliers d'habitants aux inondations (GéoRisques, 2023), renforçant la vulnérabilité globale du département face aux aléas climatiques.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Relief préalpin et Vercors offrent tampon thermique significatif jusqu'à 2000m"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Plaine valentinoise et Drôme provençale très exposées aux canicules futures"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque feux croissant au sud, garrigue et forêts méditerranéennes vulnérables"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Crues Rhône/Isère/Drôme récurrentes, milliers d'habitants en zone inondable"
+    }
+  ],
+  "points_forts": [
+    "Relief préalpin protecteur : le Vercors et le Diois maintiennent des zones refuges climatiques au-dessus de 1 000 m, offrant des îlots de fraîcheur durables à l'horizon 2060 (Climadiag, 2023)",
+    "Enneigement résiduel maintenu en altitude sur le massif du Vercors, permettant une recharge partielle des nappes même en scénario SSP2-4.5 (DRIAS, 2023)",
+    "Gradient climatique fort (continental/méditerranéen) conférant une diversité d'habitats et de conditions qui limite une exposition uniforme du territoire",
+    "Engagement du département dans le PCAET Drôme et des démarches d'adaptation territoriale portées par la Région Auvergne-Rhône-Alpes via AP3C"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +2,5 à +3,5°C des températures estivales d'ici 2060 en plaine drômoise, avec doublement des nuits tropicales (DRIAS/SSP2-4.5, 2023)",
+    "Extension du risque incendie vers le nord du département : surfaces forestières en aléa fort pourraient progresser de 40% d'ici 2060 incluant les forêts du Royans (INRAE/ONF, 2023)",
+    "Intensification des épisodes de crues cévenoles sur la rivière Drôme et ses affluents, avec des débits de crue centennale potentiellement majorés de 20 à 30% selon les projections Explore2 (2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse temp. estivale 2060 (scénario médian)"
+    },
+    {
+      "valeur": "~30 j/an",
+      "label": "Jours de vague de chaleur projetés vers 2060"
+    },
+    {
+      "valeur": "+40%",
+      "label": "Surfaces forestières en aléa feux élevé (2060)"
+    },
+    {
+      "valeur": ">15 000",
+      "label": "Habitants en zone inondable (Rhône/Isère/Drôme)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Climadiag Météo-France",
+    "TRACC & AP3C Auvergne-Rhône-Alpes 2023",
+    "INRAE / ONF – Risque incendie 2023",
+    "GéoRisques / PPRI Drôme 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent la forte hétérogénéité interne entre la Drôme provençale (profil méditerranéen) et le Diois/Vercors (profil montagnard), rendant les moyennes peu opérationnelles pour l'adaptation locale",
+    "L'indice de vulnérabilité aux canicules ne prend pas encore suffisamment en compte la démographie vieillissante de certaines communes rurales de la Drôme provençale, sous-estimant potentiellement le risque sanitaire réel",
+    "Les scénarios de risque incendie disponibles pour la Drôme restent peu affinés pour les étages sub-méditerranéens et les forêts de chênes pubescents du piémont, créant une incertitude sur l'évolution réelle du front de feu"
+  ]
+}

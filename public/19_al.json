@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corrèze affiche un profil alimentaire remarquable (8,0/10, rang 5/96), porté par une agriculture de qualité ancrée dans des terroirs préservés. Le département compte 7 signes officiels de qualité et d'origine reconnus par l'INAO, dont la Pomme du Limousin AOP, le Veau de Corrèze IGP et le Bœuf de Corrèze IGP, attestant d'une densité exceptionnelle de labels pour un département de 241 000 habitants. La part de la SAU en agriculture biologique atteignait 12,8% en 2023 (Agence Bio), soit près du double de la moyenne nationale (~7%), reflétant une dynamique de conversion soutenue par la Région Nouvelle-Aquitaine. Les zones à vocation alimentaire (ZAVA 2024) soulignent une autonomie alimentaire locale élevée, avec une SAU de 290 000 ha couvrant 64% du territoire, dominée par l'élevage bovin allaitant (Charolais, Limousin) et les prairies permanentes. Le maillage de circuits courts reste cependant perfectible malgré la présence d'une cinquantaine d'AMAP et de marchés de producteurs structurés (Agreste Nouvelle-Aquitaine 2022).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.5,
+      "note": "SAU 290 000 ha, élevage bovin dominant, forte capacité d'autoapprovisionnement locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "7 AOP/IGP actives : Pomme Limousin, Veau, Bœuf, Agneau, Noix…"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "12,8% SAU bio 2023, quasi double moyenne nationale, conversions en hausse"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.5,
+      "note": "Circuits courts limités, ~50 AMAP, offre marchés locaux encore insuffisamment maillée"
+    }
+  ],
+  "points_forts": [
+    "7 signes officiels de qualité (AOP/IGP) actifs recensés par l'INAO, parmi les plus denses en France rurale",
+    "Part de SAU biologique à 12,8% en 2023 (Agence Bio), nettement supérieure à la moyenne nationale de 7,1%",
+    "SAU totale de ~290 000 ha (64% du territoire), garantissant une base d'autonomie alimentaire structurellement solide (ZAVA 2024)",
+    "Élevage bovin Limousin patrimoine génétique reconnu mondialement : plus de 80 000 bovins en race Limousine en Corrèze (Institut de l'Élevage 2022)"
+  ],
+  "vigilances": [
+    "Dépendance marquée à l'élevage bovin allaitant, secteur exposé aux aléas climatiques (sécheresses 2022-2050) et aux pressions réglementaires sur les émissions de méthane",
+    "Faible structuration des circuits courts (densité AMAP inférieure à la Haute-Vienne et à la Dordogne), limitant la valorisation locale des productions de qualité",
+    "Risque de déprise agricole : vieillissement des agriculteurs corréziens (âge moyen 54 ans, MSA 2021), avec 30% des exploitations sans repreneur identifié à horizon 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,8%",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "7",
+      "label": "Labels AOP/IGP actifs (INAO)"
+    },
+    {
+      "valeur": "290 000 ha",
+      "label": "Surface agricole utile totale"
+    },
+    {
+      "valeur": "~50",
+      "label": "AMAP et points de vente directe recensés"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Observatoire national de l'AB",
+    "INAO 2024 – Registre des signes de qualité",
+    "ZAVA 2024 – Zones à vocation alimentaire, INRAE",
+    "Agreste Nouvelle-Aquitaine 2022 – Recensement agricole et circuits courts"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent à maille régionale pour certains indicateurs, pouvant surestimer l'autonomie alimentaire réelle à l'échelle corrézienne",
+    "Le nombre précis d'AMAP actives en Corrèze n'est pas consolidé dans un registre officiel unique, rendant la comparaison interdépartementale incertaine",
+    "La conversion bio déclarée ne garantit pas une commercialisation locale effective : une part significative des productions biologiques est exportée hors département sans valorisation de proximité"
+  ]
+}

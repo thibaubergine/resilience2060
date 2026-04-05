@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Doubs présente un patrimoine naturel remarquable, avec environ 13,5 % de sa superficie couverte par des zones Natura 2000, incluant des habitats caractéristiques du massif jurassien tels que les tourbières, pelouses calcaires et forêts de hêtres-sapins (INPN/OFB 2024). Le Parc Naturel Régional du Doubs Horloger, créé en 2021, renforce la protection des corridors transfrontaliers franco-suisses sur plus de 2 600 km², constituant un axe majeur pour la connectivité écologique (PNR Doubs Horloger 2023). La rivière Doubs, classée en liste 1 au titre de la continuité écologique, abrite des espèces emblématiques comme la Bouvière, l'Écrevisse à pattes blanches et la Loutre d'Europe, témoignant d'une qualité écologique élevée des milieux aquatiques (AFB/OFB 2024). La trame verte et bleue départementale identifie néanmoins des ruptures de corridors dans les zones périurbaines de Besançon et dans les secteurs agricoles intensifs de la plaine, fragilisant la connectivité entre massifs forestiers (SRCE Bourgogne-Franche-Comté 2022). Avec environ 44 % de surface boisée, le Doubs figure parmi les départements les plus forestiers de France, offrant un réservoir de biodiversité significatif (IGN 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "13,5 % surface en Natura 2000, tourbières et pelouses jurassiennes incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Doubs Horloger 2021, 2 600 km², corridors transfrontaliers Franco-suisses"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Loutre, Écrevisse pattes blanches, Bouvière ; espèces indicatrices milieux sains"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors fragmentés zones périurbaines Besançon et plaines agricoles intensives"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 de 13,5 % de la superficie départementale, supérieure à la moyenne nationale (~12,5 %), protégeant habitats tourbeux et pelouses calcicoles (INPN 2024)",
+    "Création du PNR Doubs Horloger en 2021 renforçant la gouvernance écologique transfrontalière sur 2 600 km² en lien avec la Suisse (PNR Doubs Horloger)",
+    "Présence de la Loutre d'Europe en expansion sur le réseau hydrographique du Doubs, espèce bio-indicatrice du bon état écologique des cours d'eau (LPO/OFB 2024)",
+    "Surface forestière de 44 % du territoire (IGN 2023), parmi les plus élevées de France, favorisant réservoirs et continuités écologiques dans le massif jurassien"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques dans les secteurs périurbains de Besançon (Doubs urbanisé) et les zones d'agriculture intensive de la plaine, risquant d'isoler des populations faunistiques d'ici 2035 (SRCE BFC 2022)",
+    "Pression croissante des espèces exotiques envahissantes (Renouée du Japon, Écrevisse signal) sur les milieux riverains du Doubs et de ses affluents, menaçant la biodiversité indigène (OFB 2024)",
+    "Vulnérabilité des tourbières et zones humides jurassiennes face au changement climatique : hausse des températures projetée de +2,5°C à +3,5°C à l'horizon 2060 risquant d'assécher des habitats tourbeux irremplaçables (Climadiag 2024/DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "13,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "44 %",
+      "label": "Surface boisée départementale"
+    },
+    {
+      "valeur": "2 600 km²",
+      "label": "Surface PNR Doubs Horloger"
+    },
+    {
+      "valeur": "~85",
+      "label": "Espèces patrimoniales recensées INPN"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Bourgogne-Franche-Comté",
+    "SRCE BFC 2022",
+    "IGN Inventaire forestier 2023"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces patrimoniales du Doubs restent incomplètes pour les invertébrés et champignons, sous-estimant potentiellement la richesse spécifique réelle",
+    "L'efficacité réelle des corridors écologiques identifiés dans le SRCE n'a pas fait l'objet d'un suivi systématique et quantifié à l'échelle départementale",
+    "Les indicateurs de fragmentation des habitats ne prennent pas encore pleinement en compte l'impact des infrastructures routières (RN57, A36) sur la perméabilité des milieux naturels du Doubs"
+  ]
+}

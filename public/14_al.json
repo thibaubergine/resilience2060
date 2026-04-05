@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Calvados (14) affiche un profil alimentaire solide, porté par une identité agricole et agro-alimentaire forte en Normandie. Le département compte 6 AOP/IGP reconnues parmi les plus emblématiques de France (Camembert de Normandie, Livarot, Pont-l'Évêque, Calvados, Cidre de Normandie, Pommeau de Normandie), témoignant d'une densité de signes de qualité supérieure à la moyenne nationale (INAO, 2023). La Surface Agricole Utile (SAU) représente environ 58 % du territoire départemental, avec une part bio en progression atteignant 8,2 % de la SAU en 2022, légèrement en deçà de la moyenne nationale de 10,7 % (Agence Bio, 2023). Les circuits courts connaissent un développement dynamique, avec plus de 25 AMAP recensées et un réseau de marchés de producteurs bien structuré dans l'aire caennaise et le Pays d'Auge (RnPAT, 2023). L'autonomie alimentaire reste cependant partielle, la production étant fortement orientée vers les filières bovines laitières et cidricoles, avec une dépendance aux imports pour les fruits et légumes (ZAVA, 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Bonne autonomie laitière/cidricole, déficit fruits-légumes notable (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "6 AOP/IGP emblématiques, densité parmi les plus élevées nationalement (INAO)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "8,2 % SAU bio en 2022, progression régulière sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "25+ AMAP actives, marchés producteurs dynamiques autour de Caen"
+    }
+  ],
+  "points_forts": [
+    "6 AOP/IGP reconnues dont Camembert de Normandie, Livarot, Pont-l'Évêque et Calvados AOC, parmi les plus connues mondialement (INAO, 2023)",
+    "Filière laitière normande ultra-structurée : le Calvados est l'un des premiers départements français pour la collecte de lait de vache, avec plus de 1,5 milliard de litres annuels (Agreste Normandie, 2022)",
+    "Part de SAU bio en progression constante (+1,2 point entre 2020 et 2022), avec 450 exploitations bio recensées (Agence Bio, 2023)",
+    "Réseau de circuits courts bien développé : 25+ AMAP, présence d'un PAT (Projet Alimentaire Territorial) porté par Caen la Mer, favorisant les approvisionnements locaux en restauration collective (RnPAT, 2023)"
+  ],
+  "vigilances": [
+    "La part de SAU en bio (8,2 %) reste inférieure à l'objectif national de 18 % à l'horizon 2027 fixé par le Plan Ambition Bio, avec un risque de déconversions dans un contexte économique tendu",
+    "La spécialisation herbagère et laitière rend le système alimentaire local vulnérable aux aléas climatiques projetés (sécheresses estivales plus fréquentes à l'horizon 2050-2060, Climadiag 2023), menaçant la disponibilité fourragère",
+    "La dépendance aux imports pour les fruits et légumes frais fragilise l'autonomie alimentaire locale et expose les ménages à la volatilité des prix, dans un département où la précarité alimentaire concerne environ 13 % de la population (INSEE, 2021)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,2 %",
+      "label": "Part SAU bio (2022)"
+    },
+    {
+      "valeur": "6",
+      "label": "AOP/IGP reconnues"
+    },
+    {
+      "valeur": "25+",
+      "label": "AMAP actives"
+    },
+    {
+      "valeur": "58 %",
+      "label": "SAU/superficie totale"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre des signes officiels de qualité",
+    "Agence Bio 2023 – Observatoire national de l'agriculture biologique",
+    "ZAVA 2024 – Zones à autonomie alimentaire",
+    "RnPAT 2023 – Réseau national des PAT",
+    "Agreste Normandie 2022 – Statistiques agricoles régionales"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent des estimations modélisées ; l'autonomie alimentaire réelle à l'échelle départementale est difficile à mesurer précisément faute de suivi des flux agroalimentaires infrarégionaux",
+    "La part de SAU bio est déclarée à l'échelle régionale et répartie par département de façon approximative, ce qui peut induire des écarts avec la réalité locale",
+    "L'évaluation des circuits courts repose sur des recensements partiels (AMAP, marchés) qui ne capturent pas l'ensemble des ventes directes à la ferme ou via plateformes numériques, sous-estimant potentiellement l'ancrage territorial réel"
+  ]
+}

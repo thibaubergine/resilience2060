@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aveyron présente un profil pédologique remarquable, caractérisé par la diversité de ses substrats géologiques (granits du Massif Central, calcaires des Grands Causses, schistes du Rouergue) qui confèrent aux sols une qualité intrinsèque élevée et une faible contamination chimique. Le département recense un nombre très limité de sites pollués ou en surveillance : seuls 12 sites BASOL actifs sont répertoriés (GéoRisques 2023), parmi les plus faibles densités nationale rapportée à la surface (8 735 km²). La pression agricole en termes de pesticides y est modérée grâce à une orientation dominante vers l'élevage extensif herbager (bovins viande, ovins lait pour le Roquefort), limitant structurellement les apports phytosanitaires comparativement aux grandes plaines céréalières (INRAE 2023). Le radon constitue toutefois le principal point de vigilance pédologique, les formations granitiques et métamorphiques du nord-est aveyronnais plaçant plusieurs communes en zone à potentiel radon significatif (catégorie 3 IRSN). La part de la SAU conduite en agriculture biologique atteignait 14,2 % en 2022 (Agence Bio), nettement supérieure à la moyenne nationale de 10,7 %, témoignant d'une dynamique de préservation des sols engagée.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.5,
+      "note": "Seulement 12 sites BASOL actifs pour 8 735 km², densité très faible"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Élevage extensif dominant, faibles apports pesticides vs plaines céréalières nationales"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.5,
+      "note": "Formations granitiques nord-aveyronnaises classées zone radon catégorie 3 IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "SAU bio à 14,2 % en 2022, nettement au-dessus de la moyenne nationale 10,7 %"
+    }
+  ],
+  "points_forts": [
+    "Densité de sites pollués parmi les plus faibles de France : 12 sites BASOL actifs pour 8 735 km² (GéoRisques 2023)",
+    "Part de SAU en agriculture biologique à 14,2 % (Agence Bio 2022), +3,5 points au-dessus de la moyenne nationale",
+    "Sols peu soumis aux intrants chimiques grâce à la vocation pastorale et herbagère dominante (plus de 70 % de la SAU en prairies permanentes)",
+    "Diversité pédologique (calcaires caustiques, granits, schistes) offrant une résilience naturelle et des écosystèmes édaphiques variés préservés"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plusieurs communes du Lévézou et du Carladez en zone 3 IRSN (granites), potentiellement sous-détecté dans l'habitat rural ancien non diagnostiqué",
+    "Érosion des sols sur les versants des vallées incisées (Lot, Truyère, Dourdou) accentuée par les projections climatiques de précipitations intenses à l'horizon 2060 (DRIAS 2023)",
+    "Pression foncière et retournement de prairies permanentes vers cultures ou artificialisation, menaçant les stocks de carbone organique accumulés dans les sols herbagers"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12",
+      "label": "Sites BASOL actifs (2023)"
+    },
+    {
+      "valeur": "14,2 %",
+      "label": "SAU conduite en bio (2022)"
+    },
+    {
+      "valeur": ">70 %",
+      "label": "SAU en prairies permanentes"
+    },
+    {
+      "valeur": "Zone 3 IRSN",
+      "label": "Communes à potentiel radon élevé"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Chiffres clés 2022"
+  ],
+  "limites": [
+    "L'absence de réseau dense de surveillance pédologique en milieu rural aveyronnais limite la connaissance fine de la qualité réelle des sols agricoles hors périmètres BASOL",
+    "Les données INRAE sur les résidus de pesticides reposent sur des échantillonnages partiels, sous-représentant les zones d'élevage peu étudiées par rapport aux bassins céréaliers",
+    "Le potentiel radon est cartographié à l'échelle communale mais la variabilité intra-communale est forte sur les massifs cristallins, rendant difficile une évaluation précise à l'échelle du bâti individuel"
+  ]
+}

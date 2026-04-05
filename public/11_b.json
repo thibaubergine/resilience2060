@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aude figure parmi les départements français les mieux dotés en termes de biodiversité, avec environ 28 % de son territoire couvert par des zones Natura 2000, soit plus de 200 000 hectares répartis sur 62 sites (INPN/OFB 2024). Le département abrite une diversité écosystémique exceptionnelle, combinant milieux méditerranéens, garrigues, zones humides littorales (étangs de Leucate, Bages-Sigean, Gruissan) et massifs pyrénéens, accueillant plus de 2 500 espèces végétales recensées (INPN). La présence du Parc Naturel Régional de la Narbonnaise en Méditerranée (82 000 ha) et des réserves naturelles nationales (Coussouls de Crau, sites corbières) renforce le maillage de protection. La LPO Aude recense plus de 300 espèces d'oiseaux nicheurs ou migrateurs sur le département, dont le Flamant rose et l'Aigle de Bonelli, espèces emblématiques à fort enjeu de conservation (LPO/OFB 2024). Les corridors écologiques identifiés dans le SRCE Occitanie connectent les massifs pyrénéens aux plaines littorales, bien que leur état de conservation reste hétérogène selon les secteurs.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "~28% territoire en Natura 2000, 62 sites, >200 000 ha couverts"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Narbonnaise 82 000 ha, réserves naturelles nationales présentes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": ">300 espèces oiseaux, Aigle de Bonelli, Flamant rose, flore méditerranéenne riche"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors SRCE Occitanie identifiés, connectivité pyrénées-littoral partiellement fonctionnelle"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France : 62 sites couvrant environ 28 % du territoire départemental (INPN 2024)",
+    "PNR de la Narbonnaise en Méditerranée (82 000 ha) reconnu pour la gestion exemplaire des étangs littoraux et des zones humides méditerranéennes (OFB 2024)",
+    "Plus de 300 espèces d'oiseaux recensées, dont des rapaces emblématiques (Aigle de Bonelli, Circaète Jean-le-Blanc) et des colonies de Flamants roses sur les étangs (LPO Aude)",
+    "Richesse floristique exceptionnelle avec plus de 2 500 espèces végétales, notamment des orchidées sauvages et espèces endémiques des Corbières et des Pyrénées audoises (INPN)"
+  ],
+  "vigilances": [
+    "Pression croissante du changement climatique sur les zones humides littorales : élévation du niveau marin projetée à +30-60 cm d'ici 2100 menaçant les étangs de Bages-Sigean et Leucate (DRIAS 2023)",
+    "Fragmentation des corridors écologiques par l'urbanisation littorale et le développement des infrastructures (A9, RN113), réduisant la connectivité entre massifs et plaine (SRCE Occitanie)",
+    "Prolifération d'espèces exotiques envahissantes (Jussie, Griffes de sorcière, Frelon asiatique) dans les milieux humides et garrigues, menaçant la biodiversité indigène (OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "62 sites",
+      "label": "Zones Natura 2000"
+    },
+    {
+      "valeur": "~28 %",
+      "label": "Surface Natura 2000 / territoire"
+    },
+    {
+      "valeur": "82 000 ha",
+      "label": "PNR Narbonnaise"
+    },
+    {
+      "valeur": "+300 sp.",
+      "label": "Oiseaux recensés LPO"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Aude – Atlas des oiseaux",
+    "SRCE Occitanie – Schéma Régional de Cohérence Écologique"
+  ],
+  "limites": [
+    "Les données de suivi de l'état de conservation des habitats Natura 2000 audois restent partielles et inégalement actualisées selon les sites (dernier état complet INPN 2019)",
+    "L'évaluation de l'état réel des corridors écologiques repose sur le SRCE régional (2015, non révisé), sans cartographie fine à l'échelle départementale",
+    "Les inventaires d'espèces dépendent fortement de l'effort de prospection bénévole (LPO, naturalistes), créant des biais géographiques avec sous-représentation des zones rurales et montagnards des Pyrénées audoises"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synthese": "Le département du Doubs présente un profil pédologique contrasté, marqué par la prédominance de sols calcaires jurassiques et de sols forestiers acides, couvrant plus de 45 % du territoire sous forêt (source : IGN 2023). La contamination industrielle héritée reste préoccupante avec plusieurs dizaines de sites répertoriés dans l'ex-base BASOL, liés notamment aux activités horlogères, de traitement de surfaces et métallurgiques historiquement concentrées dans le Pays de Montbéliard et la vallée du Doubs. Le recours aux pesticides demeure modéré en comparaison des grandes régions céréalières, grâce à une agriculture dominée par l'élevage bovin laitier pour la filière Comté (INRAE 2023), bien que des résidus soient détectés dans les sols de prairies intensifiées. Le potentiel radon est élevé sur une large partie du département, en raison de la nature géologique granitique et schisteuse du massif jurassien (IRSN), classant le Doubs parmi les zones à risque significatif à l'échelle nationale. La dynamique de conversion en agriculture biologique reste modeste avec environ 8 à 9 % de la SAU en bio (Agence Bio 2023), en deçà de la moyenne nationale de 10,7 %.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Plusieurs dizaines de sites ex-BASOL ; industrie horlogère et métallurgie historiques"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Agriculture herbagère dominante ; faible pression pesticides, résidus modérés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Géologie granitique/schisteuse ; large zonage IRSN niveau 3 (risque élevé)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "~8-9 % SAU bio ; filière fromagère AOP favorable aux pratiques extensives"
+    }
+  ],
+  "points_forts": [
+    "Agriculture herbagère et sylvopastorale dominante limitant l'érosion des sols et les intrants chimiques (IGN/Agreste 2023)",
+    "Filière Comté (AOP) couvrant 65 000 ha de prairies, imposant des cahiers des charges limitant les pesticides et favorisant la matière organique des sols (INAO 2023)",
+    "Couverture forestière importante (>45 % du territoire) assurant une protection naturelle contre l'érosion et le lessivage des sols (IGN 2023)",
+    "Pression céréalière faible : moins de 15 % de la SAU en grandes cultures, réduisant l'exposition aux herbicides et insecticides (Agreste 2022)"
+  ],
+  "vigilances": [
+    "Risque radon élevé sur plus de 60 % du territoire (zones prioritaires IRSN niveau 3) : exposition chronique des populations dans les habitations mal ventilées, premier facteur de risque pulmonaire après le tabac",
+    "Contamination résiduelle des sols industriels en métaux lourds (chrome, nickel, cadmium) dans les secteurs de Montbéliard et Besançon, avec plusieurs sites BASOL en surveillance active ou en cours de réhabilitation (GéoRisques 2023)",
+    "Intensification progressive de certaines prairies et retournement pour augmenter la production fourragère, menaçant les stocks de carbone et la biodiversité pédologique dans les zones de plaine (INRAE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45 %",
+      "label": "Couverture forestière du territoire"
+    },
+    {
+      "valeur": "~8-9 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Niveau 3 IRSN",
+      "label": "Zonage radon prioritaire (majorité du dpt)"
+    },
+    {
+      "valeur": ">60 sites",
+      "label": "Anciens sites industriels ex-BASOL recensés"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM) 2023",
+    "INRAE – Observatoire des résidus pesticides sols 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Chiffres clés 2023",
+    "INAO – Données filière Comté 2023",
+    "Agreste Bourgogne-Franche-Comté 2022"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance systématique des sols agricoles dans le Doubs rend difficile la quantification précise des teneurs en polluants organiques et métaux lourds à l'échelle parcellaire",
+    "Les données ex-BASOL ne couvrent pas les sites industriels abandonnés non répertoriés, potentiellement nombreux dans les vallées industrielles du Doubs et du Pays de Montbéliard",
+    "La part de SAU bio locale peut masquer des hétérogénéités importantes entre les zones AOP Comté (plus extensives) et les secteurs d'élevage intensif ou de grandes cultures en plaine de Bresse comtoise"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corrèze bénéficie d'une position altitudinale favorable (altitude moyenne ~600 m, points culminants dépassant 900 m sur le plateau de Millevaches) qui constitue un tampon thermique significatif face au réchauffement climatique projeté. Selon les projections DRIAS 2023 (scénario RCP8.5), le département connaîtra une hausse moyenne de +3,2°C à l'horizon 2071-2100, avec une augmentation du nombre de jours de canicule passant de 5 à environ 25-30 jours/an d'ici 2060, restant toutefois inférieure aux projections des départements du littoral aquitain ou méditerranéen. Le risque feux de forêt s'intensifie notablement sur les massifs résineux (pin douglas, épicéa) qui couvrent plus de 45% de la surface départementale, avec une extension de la saison à risque de 2 à 3 mois supplémentaires selon Climadiag 2023. L'absence de façade littorale protège la Corrèze de la montée des eaux, mais le risque d'inondations torrentielles sur les vallées de la Dordogne, de la Vézère et de la Corrèze reste significatif, avec des débits de crue susceptibles d'augmenter en intensité selon les projections Explore2 2023. Le département affiche ainsi une résilience climatique relative mais non exempte de vulnérabilités croissantes à moyen terme.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne 600 m, plateau Millevaches >900 m, tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "25-30 jours canicule/an projetés 2060, inférieur aux plaines aquitaines"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "45% forêts résineuses, risque feux croissant, saison étendue +2-3 mois"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Aucun littoral, inondations torrentielles ponctuelles Dordogne/Vézère/Corrèze"
+    }
+  ],
+  "points_forts": [
+    "Altitude protectrice : altitude moyenne ~600 m limitant les pics thermiques extrêmes, avec des nuits fraîches persistantes même en été (DRIAS 2023)",
+    "Pas de vulnérabilité côtière, aucun territoire soumis à la submersion marine ou à l'érosion du trait de côte (GéoRisques / SHOM)",
+    "Nombre de jours de canicule projetés à horizon 2060 parmi les plus faibles de Nouvelle-Aquitaine (~25 j/an vs 40+ sur le littoral girondin) selon Climadiag",
+    "Ressources en eau actuellement abondantes (réservoirs du Doustre, de la Triouzoune, Lac de Vassivière) offrant une réserve stratégique face aux sécheresses futures"
+  ],
+  "vigilances": [
+    "Risque feux de forêt en forte hausse : les massifs de douglas et d'épicéa (>280 000 ha boisés) sont de plus en plus exposés, avec une saison à risque s'allongeant de juin à octobre d'ici 2050 (Climadiag 2023 / INRAE)",
+    "Intensification des épisodes pluvieux extrêmes et crues soudaines sur les bassins de la Dordogne et de la Vézère, avec des temps de retour des crues centennales réduits de 20 à 30% selon les projections Explore2 2023",
+    "Stress hydrique estival croissant menaçant l'agriculture bovine (1er département français pour les bovins allaitants) : réduction projetée de la recharge des nappes de -15 à -25% à l'horizon 2050-2070 (Explore2 / BRGM)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~600 m",
+      "label": "Altitude moyenne départementale"
+    },
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse T° projetée 2071-2100 (RCP8.5)"
+    },
+    {
+      "valeur": "~25 j/an",
+      "label": "Jours de canicule projetés 2060"
+    },
+    {
+      "valeur": ">280 000 ha",
+      "label": "Surface forestière (45% du territoire)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 (projections climatiques RCP8.5)",
+    "Climadiag Corrèze – Météo-France 2023",
+    "Explore2 – BRGM/OFB 2023 (hydrologie future)",
+    "GéoRisques / SHOM (aléas littoraux et inondations)"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale masquent une forte hétérogénéité interne entre la haute Corrèze (Millevaches, >800 m) et les vallées basses (Brive, ~140 m), très différentes en termes d'exposition aux canicules",
+    "Le risque feux de forêt est encore mal modélisé localement pour les essences résineuses de montagne (douglas, épicéa), peu documentées dans les référentiels historiques nationaux d'aléa feux",
+    "L'absence de réseau dense de stations météorologiques de haute précision sur le plateau de Millevaches limite la fiabilité des projections hydrologiques locales à fine échelle (Explore2 / BRGM)"
+  ]
+}

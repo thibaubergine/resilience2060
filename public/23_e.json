@@ -1,0 +1,66 @@
+{
+  "synthese": "La Creuse bénéficie d'une ressource en eau globalement préservée, alimentée par les plateaux du Massif central et un réseau hydrographique dense (Creuse, Vienne, Taurion) couvrant environ 3 200 km de cours d'eau (INPN). La qualité des eaux brutes est relativement satisfaisante, avec un faible recours aux intrants agricoles lié à la dominance de l'élevage extensif, limitant la pression en nitrates (taux moyen inférieur à 10 mg/L sur la majorité des captages selon ARS Nouvelle-Aquitaine). Toutefois, le projet Explore2 signale une baisse potentielle des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 sur les bassins versants creusois, fragilisant l'alimentation en eau potable de certaines communes rurales isolées. La présence de PFAS reste peu documentée à l'échelle départementale, bien que des campagnes nationales de screening (Anses 2023) aient identifié des traces dans quelques captages de Nouvelle-Aquitaine. Avec seulement 115 000 habitants et une pression anthropique faible, la Creuse maintient une des empreintes hydriques les plus légères de France métropolitaine.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "Conformité AEP élevée, majorité captages sous 10 mg/L nitrates"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Baisse débits étiage 10-30% horizon 2060, bassins Creuse et Vienne"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Élevage extensif dominant, faible pression nitrates, ZAP limitées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Peu d'industries PFAS, screening partiel, contaminations faibles détectées"
+    }
+  ],
+  "points_forts": [
+    "Qualité des eaux souterraines parmi les meilleures de Nouvelle-Aquitaine : taux de nitrates inférieur à 10 mg/L sur ~80 % des captages AEP (ARS 2022)",
+    "Réseau hydrographique abondant avec plus de 3 200 km de cours d'eau classés, soutenant des débits hivernaux élevés (INPN/OFB 2024)",
+    "Faible densité industrielle et agricole intensive : aucune zone vulnérable nitrates classée sur le département au titre de la Directive Nitrates (Ministère Agriculture 2023)",
+    "Pression de prélèvement très basse : volume prélevé en eau potable parmi les plus faibles métropolitains, environ 12 Mm³/an pour 115 000 habitants (Agence de l'Eau Loire-Bretagne)"
+  ],
+  "vigilances": [
+    "Réduction anticipée des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 sur les principaux bassins versants selon Explore2, menaçant l'alimentation en eau potable de petites communes rurales déjà fragiles",
+    "Vieillissement des réseaux d'eau potable communaux : rendement moyen des réseaux creusois estimé à 68 % (SISPEA 2022), générant des pertes importantes dans un contexte de ressources futures contraintes",
+    "Surveillance PFAS insuffisante : peu de points de mesure systématiques dans ce département peu industrialisé, risque de contamination diffuse non encore caractérisée (Anses 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 mg/L",
+      "label": "Nitrates médians captages AEP"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Baisse débit étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "68%",
+      "label": "Rendement réseau eau potable"
+    },
+    {
+      "valeur": "3 200 km",
+      "label": "Linéaire cours d'eau classés"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine 2022 – Bilan qualité eaux potables",
+    "Explore2 2023 – Projections hydrologiques France métropolitaine",
+    "SISPEA 2022 – Données services eau et assainissement",
+    "OFB/INPN 2024 – Référentiel hydrographique national",
+    "Anses 2023 – Screening PFAS eaux destinées à la consommation humaine"
+  ],
+  "limites": [
+    "Données PFAS très parcellaires pour la Creuse : le faible nombre de captages surveillés ne permet pas de conclure à une absence de contamination, seulement à une absence de mesure systématique",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle départementale pour des petits bassins versants de tête comme ceux de la Creuse, avec des fourchettes larges (±15 %)",
+    "L'absence de zone vulnérable nitrates ne garantit pas l'absence locale de hot spots de contamination agricole diffuse non captés par le réseau de surveillance ARS actuel"
+  ]
+}

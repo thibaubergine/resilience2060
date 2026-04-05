@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Eure (27) présente une qualité de l'air globalement intermédiaire, caractéristique d'un territoire à dominante rurale et agricole mais traversé par des axes routiers majeurs et ponctué de zones industrielles. Les concentrations en PM2,5 oscillent entre 9 et 13 µg/m³ selon les zones (ATMO Normandie 2022-2023), dépassant encore le seuil OMS 2021 fixé à 5 µg/m³ mais restant sous la valeur guide européenne de 25 µg/m³. Le NO₂ demeure contenu hors des corridors routiers (A13, A154), avec des pics locaux autour de Louviers et Vernon, zones à densité de trafic plus élevée. L'agriculture intensive, couvrant environ 75 % de la surface du département, génère des émissions d'ammoniac (NH₃) significatives estimées à plus de 8 000 tonnes/an (CITEPA 2022), plaçant l'Eure parmi les contributeurs notables de Normandie pour ce polluant. La présence de quelques grandes installations industrielles (plateforme de Port-Jérôme-sur-Seine en limite de département, chimie et pharmacie en vallée de Seine) contribue également à des émissions de polluants spécifiques (COV, particules) (ATMO Normandie/IREP 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 9-13 µg/m³, supérieur au seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ faible hors axes A13/Vernon, milieu rural préservé"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 5.0,
+      "note": "Quelques sites industriels (vallée Seine, chimie), émissions modérées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "NH₃ agricole élevé, ~8 000 t/an, céréaliculture et élevage intensifs"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air rurale satisfaisante : 80 % du territoire présente des niveaux de NO₂ inférieurs à 10 µg/m³ (ATMO Normandie 2023)",
+    "Absence de dépassement des valeurs limites réglementaires européennes pour les PM10 et PM2,5 sur l'ensemble des stations fixes du département (ATMO Normandie 2022)",
+    "Faible densité urbaine limitant les pics de pollution photochimique ; aucune agglomération de plus de 60 000 habitants dans le département",
+    "Tendance à la baisse des émissions industrielles de SO₂ et NOx grâce aux plans de modernisation des sites classés SEVESO (IREP/DREAL Normandie 2021)"
+  ],
+  "vigilances": [
+    "Les émissions agricoles d'ammoniac (NH₃ > 8 000 t/an) participent à la formation de particules secondaires (PM2,5) et restent structurellement élevées sans plan de réduction spécifique à l'échelle départementale",
+    "L'axe de la vallée de la Seine et les zones périurbaines de Louviers/Val-de-Reuil concentrent trafic routier et activités industrielles, avec risque de dépassement ponctuel des seuils d'information en O₃ lors des épisodes caniculaires projetés à la hausse d'ici 2040 (DRIAS 2023)",
+    "La pollution aux pesticides atmosphériques reste insuffisamment surveillée : seules 2 stations de mesure des produits phytosanitaires dans l'air sont actives en Normandie (ATMO Normandie), sous-représentant un territoire à très forte pression agricole"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "9-13 µg/m³",
+      "label": "Concentration PM2,5 (ATMO Normandie 2023)"
+    },
+    {
+      "valeur": "~8 000 t/an",
+      "label": "Émissions NH₃ agricoles (CITEPA 2022)"
+    },
+    {
+      "valeur": "75 %",
+      "label": "Surface agricole utile du département"
+    },
+    {
+      "valeur": "<10 µg/m³",
+      "label": "NO₂ moyen zones rurales (ATMO Normandie 2023)"
+    }
+  ],
+  "sources": [
+    "ATMO Normandie – Bilan de la qualité de l'air 2022-2023",
+    "CITEPA – Inventaire national des émissions 2022",
+    "DREAL Normandie / IREP – Registre des émissions industrielles 2021",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe de la qualité de l'air dans l'Eure est peu dense (stations concentrées sur Louviers/Val-de-Reuil), laissant les zones rurales et bocagères sans données en temps réel",
+    "Les émissions de pesticides atmosphériques et de polluants agricoles spécifiques (amines, H₂S) ne font pas l'objet d'un suivi systématique à l'échelle du département",
+    "L'absence de Plan de Protection de l'Atmosphère (PPA) propre à l'Eure (couverture partielle via le PPA de Rouen) limite la gouvernance locale et la disponibilité de données territoriales consolidées"
+  ]
+}

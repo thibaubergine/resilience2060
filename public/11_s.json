@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aude présente une situation des sols contrastée, avec une pression agricole intense liée à la viticulture qui couvre environ 60 000 ha sur les 350 000 ha de Surface Agricole Utile (SAU), générant une contamination résiduelle notable aux fongicides et herbicides (INRAE 2023). On recense 47 sites BASOL (pollutions industrielles et minières avérées ou potentielles) sur le territoire, héritage notamment de l'activité minière des Corbières et des industries chimiques de Carcassonne (GéoRisques). L'Aude bénéficie d'un risque radon globalement faible à modéré, avec une grande partie du territoire classée en zone 1 à 2 par l'IRSN, à l'exception des massifs cristallins du Haut-Languedoc. En revanche, le département affiche une progression encourageante de l'agriculture biologique avec 13,5 % de la SAU convertie en bio en 2023, au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023), portée par la filière vitivinicole bio dynamique.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "47 sites BASOL recensés, héritage minier et industriel modéré"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Forte pression fongicide/herbicide viticole, résidus sols significatifs"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Majorité du territoire en zone radon faible à modéré (zones 1-2)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "13,5% SAU bio, au-dessus moyenne nationale, filière viticole dynamique"
+    }
+  ],
+  "points_forts": [
+    "13,5 % de la SAU audoise certifiée en agriculture biologique en 2023, soit +3 points au-dessus de la moyenne nationale (Agence Bio 2023)",
+    "Risque radon globalement faible sur les plaines et piémonts, avec plus de 70 % de la superficie classée en zone 1-2 (IRSN)",
+    "Dynamique viticole bio en progression constante : l'Aude figure parmi les 5 premiers départements français en surface viticole bio",
+    "Réseau de surveillance des sols agricoles RMQS (Réseau de Mesures de la Qualité des Sols) partiellement déployé, permettant un suivi de référence"
+  ],
+  "vigilances": [
+    "Contamination des sols viticoles aux métaux lourds (cuivre accumulé via traitements fongicides), avec des teneurs pouvant dépasser 100 mg/kg dans les parcelles anciennes (INRAE 2023)",
+    "47 sites BASOL dont plusieurs en cours de traitement actif dans la plaine de Carcassonne et les zones minières des Corbières, avec risque de transfert vers les nappes",
+    "Érosion hydrique des sols en forte progression sous l'effet du changement climatique : intensification des pluies méditerranéennes automnales susceptible d'accentuer les pertes en terre estimées à 5-10 t/ha/an sur les versants viticoles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "47",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "13,5%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Zone 1-2",
+      "label": "Risque radon dominant"
+    },
+    {
+      "valeur": ">100 mg/kg",
+      "label": "Teneur cuivre sols viticoles anciens"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (BRGM)",
+    "INRAE - Qualité des sols agricoles 2023",
+    "IRSN - Cartographie du risque radon 2022",
+    "Agence Bio - Statistiques nationales 2023"
+  ],
+  "limites": [
+    "La base BASOL ne couvre que les sites industriels identifiés ; la pollution diffuse des sols agricoles viticoles (cuivre, soufre) reste sous-évaluée faute de cartographie systématique à l'échelle parcellaire dans l'Aude",
+    "Les données RMQS nationales offrent une maille kilométrique insuffisante pour caractériser finement l'hétérogénéité des sols audois entre plaines alluviales, garrigues et Corbières",
+    "L'évolution de la SAU bio masque des disparités intra-départementales importantes entre le Lauragais, le Narbonnais et les zones de montagne, rendant l'indicateur peu représentatif de la pression réelle sur les sols"
+  ]
+}

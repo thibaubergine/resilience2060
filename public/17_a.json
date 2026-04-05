@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime affiche une qualité de l'air globalement satisfaisante, bénéficiant de sa position littorale atlantique qui favorise la dispersion des polluants par des vents dominants d'ouest soutenus (vitesse moyenne ~4,5 m/s). Selon ATMO Nouvelle-Aquitaine (2023), les concentrations annuelles en PM2,5 restent inférieures à 10 µg/m³ sur la majorité du territoire, bien que le seuil OMS 2021 (5 µg/m³) soit systématiquement dépassé. Le NO₂ urbain demeure modéré, avec des valeurs autour de 15-20 µg/m³ à La Rochelle, nettement en deçà du seuil réglementaire européen (40 µg/m³). En revanche, l'agriculture intensive, notamment la viticulture charentaise et l'élevage bovin, génère des émissions d'ammoniac (NH₃) significatives, classant le département parmi les émetteurs modérément élevés du bassin Nouvelle-Aquitaine (CITEPA 2022). L'absence de grande industrie lourde constitue un atout structurel majeur pour la qualité de l'air départemental.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 <10 µg/m³ en moyenne ; seuil OMS 5 µg/m³ toutefois dépassé"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ La Rochelle ~15-20 µg/m³, bien sous seuil européen 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industrie lourde ; tissu économique dominé par tourisme et agroalimentaire"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ élevé : viticulture, élevage bovin et céréaliculture contributeurs majeurs"
+    }
+  ],
+  "points_forts": [
+    "Ventilation atlantique efficace : vents d'ouest dominants à ~4,5 m/s limitent l'accumulation des polluants en fond de vallée (Météo-France)",
+    "Absence de site industriel classé Seveso seuil haut majeur émetteur atmosphérique dans le cœur du département (DREAL Nouvelle-Aquitaine 2023)",
+    "Qualité de l'air jugée « bonne » ou « très bonne » plus de 70 % des jours de l'année selon l'indice ATMO Nouvelle-Aquitaine (2023)",
+    "La Rochelle engagée dans un Plan de Mobilité exemplaire (réseau de vélos en libre-service, ZFE expérimentale) réduisant les émissions de NOₓ urbains"
+  ],
+  "vigilances": [
+    "Épisodes d'ozone (O₃) estivaux en hausse : le littoral charentais enregistre des dépassements du seuil d'information (180 µg/m³) en juillet-août, tendance aggravée par le réchauffement climatique projeté à +2°C d'ici 2050 (DRIAS/ATMO NA)",
+    "Ammoniac agricole : les émissions NH₃ liées à la viticulture (sulfatages) et aux effluents d'élevage restent un levier de dégradation de la qualité de l'air rural insuffisamment régulé",
+    "Développement portuaire et trafic maritime à La Rochelle-Pallice : augmentation des émissions de soufre (SOₓ) et particules fines issues des navires de croisière et ferrys, enjeu croissant d'ici 2030"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<10 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "~17 µg/m³",
+      "label": "NO₂ annuel La Rochelle (urbain)"
+    },
+    {
+      "valeur": ">70 %",
+      "label": "Jours/an indice ATMO « bon » ou « très bon »"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS 2021 PM2,5 (référence)"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2023",
+    "CITEPA – Inventaire national des émissions 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "DREAL Nouvelle-Aquitaine – Installations classées 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO est concentré sur La Rochelle et Saintes, laissant les zones rurales et littorales (Île de Ré, Île d'Oléron) sans capteurs permanents, ce qui sous-estime potentiellement les expositions locales",
+    "Les données sur les émissions viticoles de NH₃ et de COV (solvants phytosanitaires) sont peu disaggrégées à l'échelle communale, rendant l'évaluation fine difficile",
+    "L'impact du trafic saisonnier (doublement estival de la population sur le littoral) sur les pics de pollution n'est pas intégré dans les moyennes annuelles officielles"
+  ]
+}

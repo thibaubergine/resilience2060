@@ -1,0 +1,68 @@
+{
+  "synthese": "Les Côtes-d'Armor constituent un département agricole majeur de Bretagne, avec une Surface Agricole Utile (SAU) de 349 000 hectares représentant environ 62 % du territoire (Agreste 2023), dominée par les grandes filières d'élevage porcin, avicole et laitier. L'autonomie alimentaire reste relative malgré cette production intensive : le département exporte massivement ses productions animales tout en important une part significative de ses intrants alimentaires végétaux (ZAVA 2024). La part de la SAU en agriculture biologique atteignait 8,2 % en 2022, légèrement en deçà de la moyenne bretonne (9,1 %), mais en progression constante avec 680 exploitations certifiées (Agence Bio 2023). Les indications géographiques restent peu nombreuses comparativement à d'autres départements français, bien que la filière légumière des Côtes-d'Armor — premier producteur national de choux-fleurs et de brocolis — bénéficie d'une reconnaissance croissante des circuits de proximité (Chambres d'Agriculture Bretagne 2023). Le réseau d'AMAP et de vente directe se développe, avec plus de 85 AMAP recensées dans le département, positionnant les Côtes-d'Armor favorablement sur les circuits courts à l'échelle nationale (RnAMAP 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Production agricole importante mais dépendance aux intrants extérieurs notable"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 5.0,
+      "note": "Peu d'AOP/IGP ; filière légumière non certifiée malgré notoriété nationale"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "8,2 % SAU bio, 680 exploitations, progression régulière confirmée"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 9.0,
+      "note": "85+ AMAP actives, réseau vente directe dense, dynamique bretonne forte"
+    }
+  ],
+  "points_forts": [
+    "Premier département breton producteur de légumes frais : 1er rang national pour le chou-fleur et le brocoli (Agreste 2023)",
+    "Réseau AMAP dense avec plus de 85 structures actives, parmi les mieux dotés de France par habitant (RnAMAP 2023)",
+    "680 exploitations certifiées bio en 2022, représentant 8,2 % de la SAU, en hausse de +12 % sur 5 ans (Agence Bio 2023)",
+    "Forte présence de marchés de producteurs et de magasins de producteurs (plus de 40 points de vente collectifs recensés en 2023, Chambres d'Agriculture Bretagne)"
+  ],
+  "vigilances": [
+    "Dépendance structurelle aux filières intensives (porc, volaille) fragilisant la résilience alimentaire locale face aux crises sanitaires et climatiques (ZAVA 2024)",
+    "Faible diversification des signes de qualité AOP/IGP : le territoire reste très exposé à la concurrence internationale sans protection géographique de ses productions emblématiques",
+    "Pression sur les terres agricoles liée à l'artificialisation côtière : projection de perte de 2 000 ha de SAU d'ici 2040 selon les tendances actuelles (DRAAF Bretagne 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "349 000 ha",
+      "label": "SAU totale (62 % territoire)"
+    },
+    {
+      "valeur": "8,2 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "85+",
+      "label": "AMAP actives recensées"
+    },
+    {
+      "valeur": "680",
+      "label": "Exploitations bio certifiées"
+    }
+  ],
+  "sources": [
+    "Agreste Bretagne 2023",
+    "Agence Bio 2023",
+    "ZAVA 2024",
+    "RnAMAP 2023",
+    "Chambres d'Agriculture Bretagne 2023",
+    "DRAAF Bretagne 2022",
+    "INAO 2023"
+  ],
+  "limites": [
+    "L'indicateur ZAVA 2024 mesure l'autonomie alimentaire à l'échelle régionale Bretagne et non spécifiquement au niveau du département 22, limitant la précision infraterritoriale",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, induisant une probable sous-estimation du réseau réel dans les zones rurales isolées des Côtes-d'Armor",
+    "L'absence d'AOP/IGP structurantes propres aux Côtes-d'Armor rend difficile la comparaison homogène avec des départements viticoles ou fromagers sur le critère \"densité signes de qualité\""
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Calvados (14) présente une biodiversité contrastée, marquée par la richesse des milieux littoraux normands et la pression agricole intensive sur les terres intérieures. Le département compte environ 8,5 % de sa superficie couverte par des sites Natura 2000, soit près de 59 000 ha, incluant les sites emblématiques de la baie des Veys et du littoral du Bessin (INPN, 2024). Le Parc Naturel Régional Normandie-Maine effleure marginalement le territoire, mais le Calvados bénéficie surtout de la présence du PNR des Marais du Cotentin et du Bessin, partagé avec la Manche, abritant des zones humides d'importance internationale (Ramsar). La LPO Normandie recense une avifaune riche avec plus de 280 espèces observées dont plusieurs en déclin marqué (vanneau huppé, courlis cendré), reflétant la dégradation des bocages et zones humides agricoles. Les corridors écologiques restent fragmentés par un réseau routier dense et une artificialisation croissante des espaces péri-urbains autour de Caen, avec une perte nette estimée à plusieurs centaines d'hectares de zones naturelles par décennie (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "8,5% superficie en Natura 2000 ; littoral et marais bien couverts"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Marais Cotentin-Bessin partagé ; littoral protégé significatif"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "280 espèces d'oiseaux ; courlis et vanneau en fort déclin"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Bocage partiellement préservé ; corridors fragmentés périphérie caennaise"
+    }
+  ],
+  "points_forts": [
+    "Environ 59 000 ha classés Natura 2000, couvrant les habitats littoraux, dunaires et humides emblématiques du Bessin (INPN, 2024)",
+    "Le PNR des Marais du Cotentin et du Bessin protège des zones humides d'importance internationale reconnues par la Convention Ramsar, abritant des amphibiens et oiseaux migrateurs remarquables",
+    "La baie des Veys constitue un site d'hivernage majeur pour plusieurs milliers d'oiseaux limicoles et anatidés, classé ZICO (LPO Normandie)",
+    "Le maintien partiel du bocage sur le plateau du Pays d'Auge favorise une continuité écologique pour la faune mammalienne (hérisson, chiroptères) et les pollinisateurs sauvages"
+  ],
+  "vigilances": [
+    "Déclin documenté des espèces agricoles : le courlis cendré a perdu plus de 50 % de ses effectifs en Normandie en 20 ans, menacé par la destruction des prairies humides (LPO, 2023)",
+    "L'artificialisation des sols autour de Caen-la-Mer progresse, fragmentant les corridors entre le plateau du Calvados et le littoral, avec un risque d'effet d'isolement génétique pour plusieurs populations faunistiques",
+    "Le réchauffement climatique projeté à +2°C d'ici 2060 (DRIAS) menace les zones humides côtières par la remontée du niveau marin, avec une perte potentielle de plusieurs centaines d'hectares de prés salés et marais dunaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~59 000 ha",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part territoire protégé N2000"
+    },
+    {
+      "valeur": "280 sp.",
+      "label": "Oiseaux recensés (LPO)"
+    },
+    {
+      "valeur": "-50 %",
+      "label": "Déclin courlis cendré (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Normandie 2023",
+    "DRIAS / Climadiag 2024",
+    "PNR Marais Cotentin-Bessin"
+  ],
+  "limites": [
+    "L'état de conservation réel des habitats Natura 2000 du Calvados est peu documenté à l'échelle infra-départementale, rendant difficile l'évaluation de l'efficacité des protections",
+    "Les données sur les espèces invertébrées (insectes pollinisateurs, coléoptères saproxyliques) sont très lacunaires pour le territoire calvadosien, sous-estimant potentiellement la richesse ou le déclin de ces taxons",
+    "L'absence d'un observatoire départemental unifié de la biodiversité limite la comparabilité des données dans le temps et avec les autres départements normands"
+  ]
+}

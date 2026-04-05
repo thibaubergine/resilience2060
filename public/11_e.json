@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Aude présente une situation hydrique sous forte tension, caractéristique des territoires méditerranéens d'Occitanie. Le projet Explore2 (BRGM/OFB, 2023) projette une réduction des débits moyens annuels des cours d'eau audois de -20 à -40 % à l'horizon 2050-2070, affectant particulièrement l'Aude, l'Orbieu et le Fresquel. La qualité des eaux souterraines est dégradée dans les zones viticoles : 38 % des masses d'eau souterraines du département présentent un mauvais état chimique selon l'état des lieux DCE 2022 (Agence de l'Eau Rhône-Méditerranée-Corse). Les contrôles ARS 2022 indiquent que 91 % de la population est desservie par une eau conforme aux exigences réglementaires en bactériologie et chimie, score inférieur à la moyenne nationale (95 %), avec des difficultés persistantes sur les petites UDI rurales. La contamination aux pesticides et aux nitrates reste préoccupante dans les plaines alluviales du Lauragais et du Narbonnais, zones de grandes cultures et de viticulture intensive.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "91% conformité ARS 2022 ; petites UDI rurales en difficulté persistante"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Réduction débit -20 à -40% horizon 2070 ; territoire très vulnérable Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Contamination nitrates modérée ; plaines Lauragais et Narbonnais exposées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Faible densité industrielle PFAS ; peu de sites émetteurs identifiés Aude"
+    }
+  ],
+  "points_forts": [
+    "Faible pression industrielle en matière de PFAS : le département ne compte qu'un nombre limité de sites industriels historiquement émetteurs, préservant les nappes profondes (BRGM, 2023)",
+    "Bon état écologique partiel : 52 % des masses d'eau de surface atteignent un bon ou très bon état écologique selon l'état des lieux DCE 2022 (Agence de l'Eau RMC)",
+    "Réseau de surveillance dense : l'Aude bénéficie d'un suivi piézométrique et hydrométrique renforcé dans le cadre du Plan de Gestion des Étiages (PGE) Aude",
+    "Engagement territorial : le SDAGE Rhône-Méditerranée 2022-2027 prévoit des mesures spécifiques de restauration morphologique des cours d'eau audois"
+  ],
+  "vigilances": [
+    "Stress hydrique structurel aggravé : Explore2 projette des étiages sévères récurrents dès 2040, menaçant l'alimentation en eau potable de 50 000 habitants ruraux et l'irrigation agricole (55 000 ha irrigués dans le département)",
+    "Dégradation chimique des eaux souterraines : 38 % des masses d'eau souterraines en mauvais état chimique (DCE 2022), principalement due aux pesticides viticoles (glyphosate, AMPA) et aux nitrates dans les zones de grandes cultures",
+    "Conflits d'usage amplifiés : la conjonction de la baisse des ressources et du maintien de la demande agricole, touristique et domestique génère des tensions croissantes, avec plusieurs arrêtés de restriction d'eau déjà actifs chaque été depuis 2019"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction débits à 2070 (Explore2)"
+    },
+    {
+      "valeur": "91 %",
+      "label": "Conformité eau potable ARS 2022"
+    },
+    {
+      "valeur": "38 %",
+      "label": "Masses d'eau souterraines en mauvais état chimique"
+    },
+    {
+      "valeur": "52 %",
+      "label": "Masses d'eau surface en bon état écologique (DCE 2022)"
+    }
+  ],
+  "sources": [
+    "Explore2 BRGM/OFB 2023",
+    "ARS Occitanie – Bilan qualité eau potable 2022",
+    "État des lieux DCE 2022 – Agence de l'Eau Rhône-Méditerranée-Corse",
+    "SDAGE Rhône-Méditerranée 2022-2027"
+  ],
+  "limites": [
+    "Les données PFAS dans les eaux de l'Aude restent parcellaires : la campagne nationale ANSES/DGS de recherche systématique n'est pas encore exhaustive pour toutes les UDI du département en 2023-2024",
+    "L'état des lieux DCE 2022 présente des lacunes de surveillance sur certains petits cours d'eau cévenols et corbièrens, sous-représentés dans le réseau de mesures",
+    "Les projections Explore2 présentent une incertitude élevée sur les débits d'étiage locaux à l'échelle des sous-bassins versants audois, notamment pour les cours d'eau côtiers à régime torrentiel"
+  ]
+}

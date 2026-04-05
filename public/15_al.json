@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal présente un profil alimentaire exceptionnel à l'échelle nationale, porté par une tradition agro-pastorale millénaire et une identité gastronomique reconnue. Le département compte 5 AOP fromagères majeures (Cantal, Salers, Laguiole, Fourme d'Ambert partagée, Bleu d'Auvergne partagé) et plusieurs IGP, plaçant sa densité d'indications géographiques parmi les plus élevées de France (INAO, 2023). Avec environ 320 000 hectares de Surface Agricole Utile (SAU) sur 585 000 ha de superficie totale, soit plus de 54 % du territoire, le Cantal dispose d'une base productive solide favorisant une autonomie alimentaire élevée, estimée parmi les meilleures des zones à vocation agropastorale (ZAVA 2024). La part de la SAU conduite en agriculture biologique atteint environ 12 % (Agence Bio, 2023), en progression constante mais encore inférieure aux objectifs nationaux de 18 % visés pour 2027. Les circuits courts et AMAP restent limités par la faible densité de population (26 hab/km²), bien que des initiatives locales dynamiques émergent autour d'Aurillac et Saint-Flour.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 9.0,
+      "note": "Forte SAU, autonomie agropastorale élevée, classement ZAVA excellent"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 10,
+      "note": "5 AOP fromagères emblématiques, densité nationale parmi les plus fortes"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "12% SAU bio (Agence Bio 2023), progression réelle mais objectifs non atteints"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Circuits courts actifs autour Aurillac, limités par faible densité démographique"
+    }
+  ],
+  "points_forts": [
+    "5 AOP fromagères (Cantal, Salers, Laguiole, Fourme d'Ambert, Bleu d'Auvergne) parmi les plus denses de France (INAO 2023)",
+    "SAU représentant 54 % du territoire (320 000 ha), garantissant une autonomie alimentaire structurelle élevée (ZAVA 2024)",
+    "Filière bovine allaitante robuste avec plus de 200 000 têtes de bovins, soutenant l'économie alimentaire locale (Agreste 2023)",
+    "Progression de l'agriculture biologique de +3 points en 5 ans, atteignant ~12 % de la SAU (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "Dépendance forte à l'élevage bovin, vulnérable aux aléas climatiques et aux crises sanitaires (sécheresse 2022 : -25 % de fourrage)",
+    "Faible densité de population (26 hab/km²) limitant le développement des débouchés locaux et des circuits courts à grande échelle",
+    "Vieillissement des exploitants agricoles : 42 % ont plus de 55 ans (Agreste 2023), risque de déprise agricole et de perte de savoir-faire AOP"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "5 AOP",
+      "label": "Appellations fromagères actives"
+    },
+    {
+      "valeur": "54 %",
+      "label": "Part SAU / superficie totale"
+    },
+    {
+      "valeur": "12 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "200 000+",
+      "label": "Bovins (têtes, Agreste 2023)"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre AOP/IGP",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones à vocation agropastorale",
+    "Agreste 2023 – Recensement agricole Cantal"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale et manquent de granularité départementale fine pour le Cantal",
+    "La part de SAU en bio est estimée par interpolation des données Agence Bio, les chiffres définitifs du recensement 2023 n'étant pas encore consolidés au niveau départemental",
+    "L'évaluation des circuits courts et AMAP repose sur des recensements partiels (DRAAF AURA), sans exhaustivité des ventes directes informelles très présentes en milieu rural cantalien"
+  ]
+}

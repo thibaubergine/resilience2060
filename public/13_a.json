@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône figurent parmi les départements français les plus exposés à la pollution atmosphérique, en raison de la conjonction d'un tissu industriel majeur (complexe pétrochimique de Fos-sur-Mer, premier pôle industriel de Méditerranée) et d'une agglomération marseillaise très dense générant un trafic routier intense. Les concentrations moyennes en PM2,5 dépassent régulièrement les nouvelles valeurs guides OMS 2021 fixées à 5 µg/m³, avec des niveaux oscillant entre 10 et 14 µg/m³ mesurés par AtmoSud sur les stations urbaines et périurbaines. Le NO₂ urbain atteint des pics significatifs à Marseille, avec des dépassements ponctuels du seuil réglementaire de 40 µg/m³ sur les axes à fort trafic (AtmoSud, 2023). La zone industrielle de l'Étang de Berre concentre des émissions de SO₂, COV et particules industrielles parmi les plus élevées de France métropolitaine, classant le département en situation critique sur la densité d'émetteurs industriels (Citepa, 2022). La combinaison du mistral, qui joue un rôle dispersif, et des épisodes d'inversion thermique estivale crée une forte variabilité spatiale et saisonnière de la qualité de l'air.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 3.0,
+      "note": "PM2,5 entre 10-14 µg/m³, très supérieur au seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ marseillais dépasse 40 µg/m³ sur axes à fort trafic"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 2.0,
+      "note": "Fos-sur-Mer et Étang de Berre, 1er pôle industriel méditerranéen"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Émissions NH₃ agricoles modérées, agriculture peu intensive localement"
+    }
+  ],
+  "points_forts": [
+    "Le mistral assure une dispersion naturelle fréquente des polluants, réduisant les pics de pollution sur une part significative de l'année",
+    "AtmoSud déploie un réseau de surveillance dense (plus de 40 stations dans le département), permettant une détection précoce des épisodes (AtmoSud, 2023)",
+    "Les émissions d'ammoniac agricole (NH₃) restent relativement contenues grâce à une dominante d'agriculture méditerranéenne extensive (oliviers, vignes) peu émettrice",
+    "Le Plan de Protection de l'Atmosphère (PPA) des Bouches-du-Rhône est l'un des plus anciens et des plus structurés de France, avec des révisions régulières intégrant les industriels de Fos-Berre"
+  ],
+  "vigilances": [
+    "La zone industrielle de Fos-sur-Mer émet plus de 30 000 tonnes de SO₂/an et reste classée parmi les sites les plus émetteurs de France (Registre IREP/Citepa 2022), exposant les populations riveraines à des risques chroniques documentés",
+    "Les épisodes de pollution aux particules fines et à l'ozone s'intensifient avec le réchauffement climatique ; les projections DRIAS anticipent une augmentation de la fréquence des canicules favorisant la formation d'ozone troposphérique d'ici 2050",
+    "Le trafic maritime intense (port de Marseille, 1er port français de croisière) génère des émissions de soufre et de particules en zones portuaires insuffisamment régulées, malgré l'obligation SECA en Méditerranée depuis 2025"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "PM2,5 moyen urbain (AtmoSud 2023)"
+    },
+    {
+      "valeur": ">40 µg/m³",
+      "label": "NO₂ axes trafic marseillais"
+    },
+    {
+      "valeur": "~30 000 t SO₂/an",
+      "label": "Émissions zone Fos-sur-Mer"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS PM2,5 (2021)"
+    }
+  ],
+  "sources": [
+    "AtmoSud – Bilan qualité de l'air 2023",
+    "Citepa – Inventaire des émissions 2022",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Registre français des émissions polluantes (IREP) 2022"
+  ],
+  "limites": [
+    "La forte hétérogénéité spatiale du département (Marseille urbaine, Fos industriel, Camargue rurale) rend toute note synthétique réductrice de situations très contrastées",
+    "Les données du trafic maritime portuaire sont partiellement intégrées dans les inventaires départementaux, sous-estimant l'impact réel des émissions en zone côtière",
+    "Les mesures aux stations AtmoSud ne couvrent pas toutes les zones industrielles périphériques et certaines communes rurales, créant des angles morts dans l'évaluation de l'exposition réelle des populations"
+  ]
+}

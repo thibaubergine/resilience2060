@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime présente une situation hydrique contrastée, avec une qualité de l'eau potable globalement satisfaisante mais fragilisée par une pression agricole significative, notamment sur les captages du bassin de la Charente et des marais littoraux (ARS Nouvelle-Aquitaine, 2023). Le département est classé en zone de répartition des eaux (ZRE) pour plusieurs bassins versants, reflétant un déséquilibre structurel entre prélèvements et ressources disponibles, particulièrement en été lors des étiages sévères de la Charente et de la Boutonne (Agence de l'eau Adour-Garonne). Les projections Explore2 indiquent une réduction des débits d'étiage pouvant atteindre -30 à -40% à l'horizon 2060 sur les cours d'eau charentais, menaçant l'alimentation en eau potable de plusieurs communes rurales. La contamination aux nitrates affecte environ 35% des masses d'eau souterraines du département, avec des concentrations dépassant 50 mg/L dans certaines zones de grandes cultures du nord du département (DCE/BNPE). Des traces de PFAS ont été détectées dans plusieurs unités de distribution d'eau potable, notamment à proximité de zones industrielles et portuaires de La Rochelle (ANSES, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Conformité eau potable >95% globale, tensions sur captages ruraux"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages -30 à -40% horizon 2060, ZRE actives"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "35% masses d'eau souterraines dépassant seuils nitrates, zones nord"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Traces PFAS détectées secteur La Rochelle, niveaux encore faibles"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable supérieur à 95% pour les paramètres bactériologiques (ARS Nouvelle-Aquitaine, 2023)",
+    "Réseau de suivi DCE actif sur 42 masses d'eau de surface et souterraines, permettant une surveillance renforcée (Agence de l'eau Adour-Garonne)",
+    "Présence de marais côtiers et zones humides (Marais Poitevin, marais de Rochefort) jouant un rôle tampon hydrologique reconnu",
+    "Engagement du département dans des contrats de milieu et SAGE actifs (SAGE Charente, SAGE Boutonne) favorisant la gestion concertée"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de -30 à -40% à l'horizon 2060 (Explore2), menaçant l'alimentation en eau potable de communes rurales dépendantes de la Charente et de la Boutonne",
+    "Pression agricole intense (viticulture, grandes cultures) maintenant 35% des masses d'eau souterraines au-delà des seuils nitrates réglementaires, avec risque de dégradation accrue en période de sécheresse",
+    "Vulnérabilité des captages littoraux aux intrusions salines liées à la montée du niveau marin (+30 à +60 cm attendus d'ici 2060), menaçant les ressources en eau douce des îles de Ré et d'Oléron"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">95%",
+      "label": "Conformité eau potable (bactério.)"
+    },
+    {
+      "valeur": "-35%",
+      "label": "Réduction débit étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "35%",
+      "label": "Masses d'eau souterraines >50 mg/L nitrates"
+    },
+    {
+      "valeur": "42",
+      "label": "Masses d'eau suivies réseau DCE"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine 2023",
+    "Explore2 / BRGM 2023",
+    "Agence de l'eau Adour-Garonne – DCE",
+    "ANSES – campagne nationale PFAS 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS en Charente-Maritime restent partielles, la campagne nationale ANSES (2022-2023) n'ayant pas couvert l'ensemble des unités de distribution du département, notamment les plus rurales",
+    "Le suivi de la qualité des eaux souterraines est inégal selon les secteurs : les zones insulaires (Ré, Oléron) disposent de moins de points de mesure piézométrique que le continent, limitant l'évaluation du risque d'intrusion saline",
+    "Les projections Explore2 présentent une incertitude élevée pour les petits bassins versants côtiers charentais, les modèles hydrologiques étant davantage calibrés sur les grands fleuves que sur les cours d'eau côtiers de faible débit"
+  ]
+}

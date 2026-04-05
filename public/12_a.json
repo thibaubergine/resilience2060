@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aveyron bénéficie d'une qualité de l'air parmi les meilleures de France métropolitaine, grâce à sa faible densité urbaine (32 hab/km²) et l'absence quasi-totale d'industrie lourde émettrice. Les concentrations moyennes en PM2,5 sont estimées inférieures à 8 µg/m³ selon les mesures ATMO Occitanie, soit en-deçà du seuil OMS 2021 (15 µg/m³) et très largement sous la valeur limite réglementaire européenne (25 µg/m³). Le NO₂ reste marginal, les stations de Rodez affichant des moyennes annuelles inférieures à 12 µg/m³ (seuil OMS : 10 µg/m³), caractéristiques d'une agglomération de taille modeste sans axe autoroutier majeur à fort trafic. Le principal bémol concerne les émissions d'ammoniac (NH₃) liées à l'élevage ovin et bovin intensif, l'Aveyron étant l'un des premiers départements français pour les cheptels, générant des émissions NH₃ significatives inventoriées par le CITEPA. La combustion de la biomasse en chauffage résidentiel constitue également une source ponctuelle de PM2,5 en période hivernale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.5,
+      "note": "PM2,5 < 8 µg/m³, très inférieur au seuil OMS 2021 de 15 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.5,
+      "note": "NO₂ Rodez < 12 µg/m³, agglomération peu dense, trafic limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.5,
+      "note": "Quasi-absence d'industrie lourde ; aucun site SEVESO seuil haut majeur"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.5,
+      "note": "Élevage bovin-ovin intensif génère NH₃ élevé, parmi top départements"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 estimées sous 8 µg/m³ en moyenne annuelle, parmi les plus faibles du territoire national (ATMO Occitanie)",
+    "NO₂ bien inférieur au seuil OMS (10 µg/m³) à Rodez, reflétant l'absence de congestion urbaine chronique et de trafic lourd dense",
+    "Densité industrielle émettrice quasi nulle : aucune installation SEVESO seuil haut recensée comme émetteur atmosphérique majeur (DREAL Occitanie)",
+    "Vastes espaces ruraux et forestiers (forêts couvrant ~22 % du territoire) agissant comme puits de polluants et favorisant la dispersion atmosphérique naturelle"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac (NH₃) issues des élevages bovins et ovins : l'Aveyron concentre un cheptel parmi les plus importants de France (~900 000 ovins, ~200 000 bovins), contribuant significativement aux dépôts d'azote réactif et à la formation de particules secondaires (CITEPA)",
+    "Combustion de biomasse résidentielle (bois-énergie) susceptible de générer des pics locaux de PM2,5 et de HAP en hiver, dans les vallées encaissées où la dispersion est réduite lors d'épisodes de stabilité atmosphérique",
+    "Tendance au développement de trafic agricole et d'activités agro-industrielles (abattoirs, coopératives) pouvant accroître les émissions locales de poussières et d'odeurs à l'horizon 2030 si non encadrées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 8 µg/m³",
+      "label": "Concentration PM2,5 annuelle estimée"
+    },
+    {
+      "valeur": "< 12 µg/m³",
+      "label": "NO₂ moyen annuel à Rodez"
+    },
+    {
+      "valeur": "~900 000",
+      "label": "Ovins (source élevage, NH₃)"
+    },
+    {
+      "valeur": "22 %",
+      "label": "Couverture forestière départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "CITEPA – Inventaire national des émissions NH₃ par département",
+    "OMS 2021 – Lignes directrices mondiales sur la qualité de l'air",
+    "DREAL Occitanie – Registre SEVESO et installations classées"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur Rodez ; les zones rurales isolées du Larzac ou de l'Aubrac ne disposent pas de stations fixes, rendant les estimations sur ces secteurs moins fiables",
+    "Les émissions NH₃ agricoles sont issues de modélisations nationales (CITEPA) et non de mesures terrain localisées, ce qui peut sous-estimer les pics de concentration à proximité des exploitations",
+    "L'impact réel des épisodes de combustion de biomasse hivernale reste difficile à quantifier faute de mesures continues en milieu rural aveyronnais, limitant l'évaluation du risque sanitaire associé"
+  ]
+}

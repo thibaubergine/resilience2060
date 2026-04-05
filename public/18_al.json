@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cher présente un profil alimentaire légèrement supérieur à la moyenne nationale (6,5/10), porté par une agriculture céréalière et oléoprotéagineuse dominante qui structure une forme d'autonomie alimentaire en matières premières (SAU de 562 000 ha, soit 63% du territoire, Agreste 2023). Le département bénéficie de plusieurs indications géographiques notables, dont l'AOP Crottin de Chavignol et le Sancerre en appellation viticole, qui ancrent une identité alimentaire reconnue (INAO 2024). La part de surfaces agricoles en agriculture biologique atteint environ 5,2% de la SAU, soit un niveau légèrement inférieur à la moyenne nationale de 10,7%, révélant un retard de conversion malgré des dynamiques locales (Agence Bio 2023). Les circuits courts et AMAP restent modestes avec une quarantaine de structures recensées, concentrées autour de Bourges, dans un territoire à faible densité de population (72 hab/km²) qui limite mécaniquement le développement des marchés de proximité (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Grande SAU céréalière assurant bonne autonomie en matières premières agricoles"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "AOP Crottin de Chavignol, Sancerre, Menetou-Salon bien valorisées"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "5,2% SAU bio, nettement sous la moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseaux circuits courts actifs autour de Bourges, AMAP en croissance"
+    }
+  ],
+  "points_forts": [
+    "SAU de 562 000 ha (63% du territoire) assurant une production agricole abondante en céréales et oléagineux (Agreste 2023)",
+    "3 appellations viticoles reconnues (Sancerre, Menetou-Salon, Quincy) et l'AOP Crottin de Chavignol figurant parmi les fromages de chèvre les plus exportés de France (INAO 2024)",
+    "Présence d'une filière caprine structurée dans le Berry contribuant à la diversification alimentaire locale et à l'emploi agricole",
+    "Initiatives de projets alimentaires territoriaux (PAT) en cours autour de Bourges Métropole, favorisant les synergies entre producteurs et collectivités (ZAVA 2024)"
+  ],
+  "vigilances": [
+    "Faible taux de conversion bio (5,2% SAU) avec risque de décrochage face aux objectifs régionaux 18% à horizon 2030 (Plan Bio Centre-Val de Loire)",
+    "Dépendance aux grandes cultures céréalières exposant le système alimentaire local aux aléas climatiques et aux fluctuations des marchés mondiaux (projection DRIAS 2060 : +2°C en été)",
+    "Réseau de circuits courts limité par la faible densité démographique, avec risque de maintien d'une alimentation désertique dans les zones rurales éloignées de Bourges"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "562 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "5,2%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "3",
+      "label": "Appellations viticoles AOP/IGP"
+    },
+    {
+      "valeur": "~40",
+      "label": "Structures circuits courts/AMAP"
+    }
+  ],
+  "sources": [
+    "Agreste 2023 – Recensement agricole Cher",
+    "INAO 2024 – Registre AOP/IGP France",
+    "Agence Bio 2023 – Baromètre national bio",
+    "ZAVA 2024 – Zones à valeur alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du Cher restent agrégées à l'échelle régionale Centre-Val de Loire, limitant la précision départementale",
+    "Le recensement des AMAP et circuits courts est partiel, certaines initiatives informelles ou récentes n'étant pas encore intégrées aux bases officielles",
+    "L'évaluation de la sécurité alimentaire locale ne prend pas en compte les flux d'exportation céréalière, qui peuvent masquer une dépendance réelle pour les denrées de consommation directe"
+  ]
+}

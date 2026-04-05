@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure (27) présente une qualité des sols fragilisée par une agriculture intensive dominante, avec une surface agricole utile (SAU) représentant environ 70% du territoire, majoritairement en grandes cultures céréalières et oléagineuses (Agreste 2023). Les résidus de pesticides dans les sols y sont préoccupants, héritage d'une pression phytosanitaire chronique dans ce bassin de production normand, confirmée par les travaux de l'INRAE sur les sols agricoles français (2023). Le département recense plusieurs dizaines de sites BASOL (anciens sites industriels et miniers pollués), notamment liés à l'industrie verrière, chimique et aux dépôts de carburants historiques dans la vallée de la Seine (GéoRisques). En revanche, le risque radon reste modéré à faible sur la majeure partie du territoire, les sous-sols essentiellement sédimentaires calcaires et argileux du Bassin parisien étant peu émetteurs de ce gaz radioactif naturel (IRSN). La part du bio dans la SAU demeure inférieure à la moyenne nationale (3,4% environ contre 6,8% nationalement, Agence Bio 2023), reflétant une transition agroécologique encore limitée.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL, industrie verrière et chimique présents"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée, grandes cultures céréalières dominantes, sols impactés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Sous-sols sédimentaires calcaires, faible émission radon en grande majorité"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 4.0,
+      "note": "SAU bio ~3,4%, nettement sous la moyenne nationale de 6,8%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon faible à modéré sur 80% du territoire grâce aux substrats calcaires et argileux du Bassin parisien (IRSN)",
+    "Réseau de surveillance des sols en développement dans le cadre du programme RMQS (Réseau de Mesures de la Qualité des Sols, INRAE)",
+    "Présence d'espaces forestiers significatifs (~20% du territoire) contribuant à la séquestration carbone et à la structuration des sols",
+    "Initiatives locales de réduction des intrants dans certaines exploitations en lien avec la PAC 2023-2027 (Chambre d'Agriculture de l'Eure)"
+  ],
+  "vigilances": [
+    "Contamination diffuse aux pesticides (glyphosate, AMPA, fongicides) détectée dans les sols agricoles, risque de transfert vers les eaux souterraines selon INRAE 2023",
+    "Nombre de sites BASOL en surveillance active pouvant augmenter avec la requalification de friches industrielles le long de la vallée de la Seine (GéoRisques)",
+    "Faible dynamique de conversion en agriculture biologique risquant de maintenir une pression chimique durable sur les sols à horizon 2030, en l'absence d'incitations renforcées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~70%",
+      "label": "SAU sur superficie totale"
+    },
+    {
+      "valeur": "~3,4%",
+      "label": "Part SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Faible-modéré",
+      "label": "Niveau risque radon (IRSN)"
+    },
+    {
+      "valeur": "40+",
+      "label": "Sites BASOL recensés (GéoRisques)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Cartographie radon départements",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites réhabilités des sites en surveillance active, rendant l'évaluation du risque résiduel incertaine pour l'Eure",
+    "L'absence de cartographie fine des résidus de pesticides à l'échelle parcellaire limite la précision du diagnostic pour ce département à dominante agricole",
+    "La part de SAU bio peut varier significativement d'une année à l'autre selon les entrées/sorties en certification, rendant la comparaison interannuelle délicate"
+  ]
+}

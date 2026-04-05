@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Calvados bénéficie d'un climat océanique tempéré qui constitue un atout thermique relatif face aux projections climatiques, avec des températures moyennes actuelles de 11°C et des écarts estivaux modérés comparés à l'intérieur du territoire français (Climadiag/Météo-France). Toutefois, les projections DRIAS pour 2050-2070 indiquent une augmentation des températures estivales de +2°C à +3,5°C selon les scénarios RCP, avec une multiplication des épisodes de chaleur intense, encore rares aujourd'hui dans ce département. La façade littorale, longue de 120 km, expose le département à une vulnérabilité côtière croissante : la montée du niveau marin (projection +30 à +80 cm d'ici 2100, IPCC AR6) menace les plages, falaises et zones basses de la plaine de Caen (TRACC/Cerema). Le risque de feux de forêt reste parmi les plus faibles de France métropolitaine compte tenu du couvert végétal humide et des précipitations annuelles moyennes de 750 à 900 mm, mais des épisodes de sécheresse agricole se multiplient depuis 2018 (AP3C Normandie). Le score Climat 2060 de 6,0/10 reflète une position intermédiaire : le département est mieux protégé que le Sud de la France mais reste exposé à des risques côtiers et hydrologiques non négligeables.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Altitude faible mais effet tampon océanique atténue les extrêmes thermiques"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Augmentation de +2 à +3,5°C estival projetée d'ici 2070 (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Précipitations 750-900 mm/an et végétation humide limitent fortement le risque"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "120 km de côtes exposées, falaises recul 20-50 cm/an, submersion plaines basses"
+    }
+  ],
+  "points_forts": [
+    "Climat océanique tempéré avec température moyenne annuelle de 11°C, limitant les extrêmes thermiques par rapport aux départements continentaux ou méditerranéens",
+    "Risque incendie très faible : indice Feux Météo-France parmi les plus bas de France, corroboré par l'absence de grands feux historiques (Prométhée/BDIFF)",
+    "Pluviométrie régulière de 750 à 900 mm/an réduisant le stress hydrique aigu des écosystèmes (AP3C Normandie)",
+    "Faible densité de jours de canicule actuelle (< 3 jours/an en moyenne), offrant une marge d'adaptation avant les seuils critiques de 2060 (Climadiag Calvados)"
+  ],
+  "vigilances": [
+    "Montée du niveau marin projetée entre +30 et +80 cm d'ici 2100 menaçant les zones basses de la baie de l'Orne, de Cabourg et les polders (Cerema/TRACC)",
+    "Multiplication des sécheresses agricoles : 2018, 2019, 2022 ont entraîné des pertes fourragères de 30 à 50 % sur certaines exploitations normandes (Chambre d'agriculture Normandie)",
+    "Recul accéléré des falaises crayeuses (Pays d'Auge, côte Fleurie) : vitesse d'érosion de 20 à 50 cm/an susceptible de s'intensifier avec la hausse des tempêtes hivernales (BRGM/Géorisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2 à +3,5°C",
+      "label": "Hausse temp. estivale 2070 (RCP8.5)"
+    },
+    {
+      "valeur": "120 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "750-900 mm",
+      "label": "Précipitations annuelles moyennes"
+    },
+    {
+      "valeur": "<3 j/an",
+      "label": "Jours de canicule actuels (moyenne)"
+    }
+  ],
+  "sources": [
+    "Climadiag / Météo-France 2023",
+    "DRIAS 2.0 – projections climatiques IPSL/CNRM",
+    "TRACC / Cerema – vulnérabilité littorale",
+    "AP3C Normandie – suivi agronomique régional"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle département lissent les disparités locales entre le littoral exposé et le bocage intérieur du Calvados",
+    "L'absence d'observatoire dédié au recul du trait de côte en temps réel limite la précision des données d'érosion sur l'ensemble des 120 km de façade",
+    "Les scénarios de submersion marine restent sensibles aux hypothèses de fonte des glaces polaires, introduisant une incertitude importante sur les projections post-2060"
+  ]
+}

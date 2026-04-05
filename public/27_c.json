@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Eure (27), situé en plaine normande à faible altitude moyenne (environ 100 m), présente une vulnérabilité climatique modérée mais croissante selon les projections DRIAS 2023, avec une hausse des températures estivales estimée à +2,5°C à +4°C d'ici 2060 sous scénario RCP8.5. Le nombre de jours de canicule pourrait tripler dans la vallée de la Seine, passant d'une moyenne historique de 3-5 jours/an à 15-20 jours/an selon Climadiag Commune (Météo-France, 2023). L'Eure est traversée par plusieurs rivières (Seine, Eure, Risle, Iton) dont les débits estivaux devraient baisser de 20 à 40% selon Explore2, accentuant la pression sur l'agriculture céréalière dominante (65% de la SAU). Le risque de feux de forêt reste limité malgré une progression attendue des zones de vulnérabilité vers le nord (TRACC, 2022), tandis que les inondations fluviales constituent le risque principal avec 60% des communes eureoises concernées par un Plan de Prévention des Risques Inondation (PPRI) selon GéoRisques.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude faible (~100 m) mais plaine offrant peu de tampon thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15-20 jours canicule/an projetés d'ici 2060 selon Climadiag Météo-France"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts peu étendues, risque feux faible mais progression attendue vers nord"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "60% communes en PPRI, vallée de Seine très exposée aux inondations fluviales"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt structurellement faible : couverture forestière limitée (~16% du territoire) et climat océanique encore humide",
+    "Faible densité urbaine hors agglomération d'Évreux, réduisant l'effet d'îlot de chaleur urbain (ADEME, 2022)",
+    "Réseau bocager partiellement préservé dans le Pays d'Ouche, constituant un tampon microclimatique local",
+    "Pas d'exposition côtière directe : le département est intérieur, sans risque de submersion marine ni d'érosion littorale"
+  ],
+  "vigilances": [
+    "Multiplication des épisodes de sécheresse agricole : déficit hydrique estival projeté en hausse de 30-40% d'ici 2060 (DRIAS/Explore2), menaçant les grandes cultures céréalières",
+    "Inondations fluviales récurrentes : les crues de la Seine et de l'Eure (épisodes 2016, 2018, 2021) pourraient s'intensifier en fréquence et magnitude sous l'effet des pluies intenses hivernales croissantes",
+    "Accélération de l'érosion des sols limoneux sous l'effet des pluies intenses printanières combinées à des sols desséchés en surface, fragilisant les bassins versants agricoles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse T° estivale médiane 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "~15-20 j",
+      "label": "Jours de canicule/an projetés 2060"
+    },
+    {
+      "valeur": "60%",
+      "label": "Communes avec PPRI (inondations)"
+    },
+    {
+      "valeur": "16%",
+      "label": "Couverture forestière départementale"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune – Météo-France 2023",
+    "DRIAS 2023 – Projections climatiques régionales",
+    "TRACC – Trajectoire de Réchauffement de Référence 2022",
+    "GéoRisques – Base PPRI / MTEECT 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à l'échelle communale mais reposent sur des modèles à résolution ~8 km, insuffisante pour capter les microclimats des vallées (Seine, Risle, Eure)",
+    "L'absence d'un observatoire climatique territorial propre à l'Eure limite le suivi fin des indicateurs locaux de stress thermique et hydrique",
+    "Le scénario RCP8.5 utilisé comme référence constitue un cas haut : la fourchette d'incertitude entre scénarios (RCP4.5 vs RCP8.5) reste large et conditionne fortement les projections à 2060"
+  ]
+}

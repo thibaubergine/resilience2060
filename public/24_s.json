@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne présente un profil pédologique globalement favorable, caractérisé par une diversité géologique marquée (calcaires du Périgord, argiles, alluvions de l'Isle et de la Dordogne) qui confère des sols à forte valeur agronomique. Le département compte un nombre limité de sites pollués ou à surveiller recensés dans la base BASOL/Géorisques (environ 15 sites), reflet d'un tissu industriel historiquement peu dense. Les résidus de pesticides dans les sols restent préoccupants dans les zones de polyculture-élevage et de cultures céréalières du Bergeracois, avec des détections d'herbicides (glyphosate, métolachlore) documentées par les suivis INRAE 2023. La Dordogne affiche en revanche une progression notable de l'agriculture biologique, avec environ 12 % de la SAU en bio (Agence Bio 2023), au-dessus de la moyenne nationale (~10,7 %), et un risque radon modéré à élevé sur les secteurs granitiques du nord-Périgord (Nontronnais), classé en zone 2-3 par l'IRSN.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.0,
+      "note": "Environ 15 sites BASOL recensés, faible densité industrielle historique"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Détections glyphosate/métolachlore dans zones céréalières Bergeracois (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon modéré à élevé sur granites du Nontronnais (IRSN zones 2-3)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~12 % SAU bio, au-dessus moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Faible nombre de sites pollués recensés (~15 sites BASOL/Géorisques), bien en dessous de la moyenne nationale des départements ruraux",
+    "Part de SAU conduite en agriculture biologique atteignant ~12 % (Agence Bio 2023), en progression de +2 pts depuis 2020",
+    "Diversité pédologique élevée (calcaires, argilo-calcaires, alluvions) offrant un potentiel agronomique varié et résilient",
+    "Absence de grande zone industrielle lourde historique préservant les sols de contaminations métalliques massives"
+  ],
+  "vigilances": [
+    "Contamination diffuse par pesticides (glyphosate, S-métolachlore classé cancérogène probable) en progression dans les bassins céréaliers du Bergeracois et des Double-Landais",
+    "Risque radon dans les sols granitiques du Nontronnais (nord Dordogne) avec potentiel d'exposition dans les bâtiments anciens, concernant plusieurs dizaines de communes en zone 3 (IRSN)",
+    "Érosion hydrique des sols sur coteaux viticoles et pentes calcaires, aggravée par les projections climatiques DRIAS 2060 (intensification des pluies hivernales +15 %)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~15 sites",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Zones 2-3",
+      "label": "Classement radon IRSN (Nontronnais)"
+    },
+    {
+      "valeur": ">300 000 ha",
+      "label": "SAU totale départementale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTES)",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Statistiques départementales 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense en Dordogne limite la connaissance précise de la contamination diffuse des sols agricoles hors périmètres de suivi RMQS (Réseau de Mesure de la Qualité des Sols)",
+    "Les données BASOL ne reflètent pas nécessairement les pollutions historiques non déclarées liées à d'anciennes activités artisanales rurales (tanneries, forges) présentes en Périgord",
+    "La cartographie radon à l'échelle communale reste insuffisamment précise pour évaluer l'exposition réelle au niveau des parcelles bâties dans les secteurs granitiques du nord du département"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure présente une biodiversité contrastée, avec environ 8,5 % de son territoire couvert par des zones Natura 2000 (INPN 2024), valeur inférieure à la moyenne nationale de 12,6 %, reflétant une pression agricole intensive sur les plateaux céréaliers du Vexin normand et du Pays d'Ouche. Le département abrite néanmoins des écosystèmes remarquables le long de la vallée de la Seine et de l'Eure, accueillant des espèces emblématiques comme la Loutre d'Europe et le Martin-pêcheur, dont les populations restent fragiles (LPO Normandie 2023). La Trame Verte et Bleue (TVB) régionale identifie des ruptures significatives de continuités écologiques sur les plateaux agricoles, où la densité de haies a chuté de près de 40 % en 40 ans (DREAL Normandie 2022). L'Eure ne dispose d'aucun Parc National et sa couverture en Parc Naturel Régional reste partielle, avec seulement la frange occidentale intégrée au PNR des Boucles de la Seine Normande (OFB 2024). Les zones humides, pourtant nombreuses dans les vallées alluviales, subissent une dégradation continue liée aux pratiques agricoles et à l'urbanisation diffuse.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "8,5 % territoire Natura 2000, sous la moyenne nationale de 12,6 %"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 4.0,
+      "note": "Aucun PN ; fraction du PNR Boucles Seine Normande uniquement"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Loutre, Martin-pêcheur présents ; populations fragiles mais confirmées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Vallées de l'Eure et Seine fonctionnelles ; plateaux céréaliers très fragmentés"
+    }
+  ],
+  "points_forts": [
+    "Vallée de la Seine : corridor écologique majeur, zones humides classées Natura 2000 (FR2300121), refuge pour l'avifaune migratrice (LPO Normandie 2023)",
+    "Présence confirmée de la Loutre d'Europe sur plusieurs cours d'eau de l'Eure, espèce bio-indicatrice de bonne qualité aquatique (OFB 2024)",
+    "Forêt de Breteuil et massifs forestiers du Pays d'Ouche : habitats boisés continus, environ 18 % de surface boisée départementale (IGN 2022)",
+    "Réseau de mares bocagères dans le Lieuvin et le Roumois, supports de biodiversité amphibienne remarquable (INPN 2024)"
+  ],
+  "vigilances": [
+    "Érosion accélérée du linéaire de haies : perte estimée à 40 % depuis 1980, fragilisant fortement les corridors agro-écologiques (DREAL Normandie 2022)",
+    "Pression agricole intense sur les plateaux : utilisation élevée de produits phytosanitaires menaçant les pollinisateurs et l'entomofaune (Agreste 2023)",
+    "Artificialisation des zones humides alluviales : projection d'une perte de 15 à 20 % supplémentaire d'ici 2040 si les tendances actuelles d'urbanisation diffuse se maintiennent (SRADDET Normandie 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "1 PNR partiel",
+      "label": "Aires protégées"
+    },
+    {
+      "valeur": "-40 % en 40 ans",
+      "label": "Perte de haies"
+    },
+    {
+      "valeur": "18 %",
+      "label": "Surface boisée départementale"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Normandie 2023",
+    "DREAL Normandie 2022",
+    "IGN 2022 / SRADDET Normandie"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces protégées de l'Eure présentent des lacunes d'inventaire sur les plateaux agricoles, sous-représentés par rapport aux vallées",
+    "L'état réel des corridors écologiques du département repose sur des cartographies TVB régionales agrégées, peu précises à l'échelle infra-départementale",
+    "L'absence d'observatoire départemental dédié à la biodiversité ordinaire limite le suivi temporel des tendances et la comparabilité interdépartementale"
+  ]
+}

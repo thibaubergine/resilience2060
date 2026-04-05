@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente (16) présente une situation hydrique intermédiaire mais fragilisée, avec des ressources en eaux souterraines fortement sollicitées, notamment dans les aquifères du Crétacé et du Jurassique qui alimentent 85 % de la population en eau potable (ARS Nouvelle-Aquitaine, 2022). Le département est classé en zone de répartition des eaux (ZRE) sur plusieurs bassins versants dont la Charente et ses affluents, témoignant d'une tension structurelle entre prélèvements agricoles (irrigation viticole et céréalière représentant ~75 % des volumes prélevés) et disponibilité naturelle. Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 20 à 40 % à l'horizon 2060 sur le bassin versant de la Charente, aggravant les conflits d'usage déjà documentés lors des étés 2022 et 2023 avec des arrêtés sécheresse de niveau crise. La contamination aux nitrates concerne environ 28 % des masses d'eau souterraines du département en mauvais état chimique (DCE/Agence de l'Eau Adour-Garonne, 2022), liée aux pratiques viticoles et céréalières intensives. La recherche de PFAS dans les eaux potables charentiaises reste partielle, avec des premiers résultats préoccupants dans quelques captages proches de zones industrielles de l'agglomération d'Angoulême (ARS, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "85 % alimentation souterraine, qualité globalement satisfaisante mais vigilance captages"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse étiage -20 à -40 % horizon 2060, ZRE sur bassins principaux"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "28 % masses d'eau souterraines en mauvais état chimique nitrates"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Données partielles, quelques captages périurbains d'Angoulême sous surveillance"
+    }
+  ],
+  "points_forts": [
+    "Ressources en eaux souterraines abondantes dans les aquifères calcaires du Jurassique et Crétacé, couvrant 85 % de l'alimentation en eau potable du département (ARS NA, 2022)",
+    "Taux de conformité bactériologique des eaux distribuées supérieur à 97 % sur l'ensemble des réseaux charentais (Bilan ARS 2022)",
+    "Démarches de contractualisation territoriale engagées via le SAGE Charente, couvrant l'intégralité du bassin versant (EPTB Charente)",
+    "Présence de zones humides fonctionnelles le long de la Charente contribuant à la régulation naturelle des débits et à l'autoépuration"
+  ],
+  "vigilances": [
+    "Projections Explore2 (2023) : réduction des débits d'étiage de 20 à 40 % à l'horizon 2060, avec risques accrus de rupture d'approvisionnement estival pour les communes rurales les plus dépendantes",
+    "Pression agricole persistante : les prélèvements d'irrigation (viticulture AOC Cognac + grandes cultures) représentent ~75 % des volumes prélevés, générant des conflits d'usage récurrents et des arrêtés de crise chaque été depuis 2019",
+    "Contamination diffuse aux nitrates et produits phytosanitaires (dont métabolites de chlorothalonil) dans les eaux souterraines, avec 28 % des masses d'eau en mauvais état chimique et risque de non-atteinte du bon état DCE 2027"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "85 %",
+      "label": "Population alimentée par eaux souterraines"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "28 %",
+      "label": "Masses d'eau souterraines mauvais état chimique"
+    },
+    {
+      "valeur": "97 %",
+      "label": "Conformité bactériologique eau distribuée"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eaux 2022",
+    "Explore2 BRGM/OFB 2023 – Projections hydrologiques",
+    "Agence de l'Eau Adour-Garonne – État DCE masses d'eau 2022",
+    "EPTB Charente – SAGE Charente, état des lieux révisé"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages charentais sont encore très partielles en 2023-2024, la campagne nationale de surveillance systématique n'étant pas encore totalement déployée sur tous les points de prélèvement du département",
+    "L'état chimique des masses d'eau de surface reste difficile à évaluer précisément du fait d'un réseau de suivi DCE peu dense sur les petits affluents charentais, sous-représentés dans les bilans officiels",
+    "Les projections Explore2 comportent une incertitude élevée à l'échelle infra-départementale, notamment sur les aquifères karstiques du Jurassique dont le comportement sous stress climatique est mal modélisé"
+  ]
+}

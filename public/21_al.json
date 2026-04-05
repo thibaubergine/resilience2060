@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or affiche un profil alimentaire solide (7,0/10, rang ~33/96), porté par une exceptionnelle richesse en appellations d'origine protégée viticoles et fromagères reconnues mondialement, avec plus de 50 AOP/IGP recensées sur le territoire (INAO, 2024). La Surface Agricole Utile (SAU) départementale couvre environ 285 000 hectares, dominée par les grandes cultures céréalières et la viticulture sur les côtes bourguignonnes, avec une part bio estimée à 9,5 % de la SAU (Agence Bio, 2023), légèrement inférieure à la moyenne nationale de 10,7 %. L'autonomie alimentaire territoriale reste partielle selon les indicateurs ZAVA 2024, le département produisant davantage de matières premières agricoles (céréales, vins) qu'il ne valorise en circuits locaux de proximité. Les circuits courts et AMAP se développent notamment autour de Dijon, métropole structurante qui concentre la majorité des points de vente directs du département (environ 180 structures recensées, RNM/DRAAF Bourgogne-Franche-Comté, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "ZAVA 2024 : autonomie partielle, excédent céréalier et viticole exporté"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Plus de 50 AOP/IGP actives, viticulture mondiale et fromages AOC"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Environ 9,5 % SAU bio, légèrement sous moyenne nationale (10,7 %)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "~180 structures circuits courts, dynamique dijonnaise notable"
+    }
+  ],
+  "points_forts": [
+    "Densité d'AOP/IGP exceptionnelle : plus de 50 appellations actives (Bourgogne, Époisses, Moutarde de Bourgogne…), parmi les plus élevées de France (INAO, 2024)",
+    "Surface viticole sous appellation d'environ 30 000 ha, générant une valeur ajoutée agricole départementale parmi les 10 premières nationales (Agreste, 2022)",
+    "Réseau de circuits courts en développement autour de la métropole dijonnaise, avec une trentaine d'AMAP actives et plusieurs marchés de producteurs labellisés (DRAAF BFC, 2023)",
+    "Dynamique de conversion bio en progression, avec +12 % de surfaces certifiées entre 2021 et 2023 (Agence Bio, 2023)"
+  ],
+  "vigilances": [
+    "Dépendance aux intrants dans les grandes cultures céréalières (blé, maïs) qui dominent la SAU hors vignes, fragilisant l'autonomie protéique locale face aux tensions d'approvisionnement",
+    "Vulnérabilité climatique croissante du vignoble bourguignon : gel tardif, grêle et sécheresse estivale pourraient réduire les rendements AOP de 15 à 30 % à horizon 2050 (Climadiag/DRIAS 2060)",
+    "Stagnation relative de la part bio sous la moyenne nationale, avec un risque de déconversions si les aides PAC restent insuffisantes pour compenser les surcoûts en contexte inflationniste"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "50+",
+      "label": "AOP/IGP actives (INAO 2024)"
+    },
+    {
+      "valeur": "9,5 %",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "285 000 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "~180",
+      "label": "Structures circuits courts recensées"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre national des appellations",
+    "Agence Bio 2023 – Observatoire national agriculture biologique",
+    "DRAAF Bourgogne-Franche-Comté 2023 – Recensement circuits courts",
+    "ZAVA 2024 – Zones d'autonomie alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour la Côte-d'Or, ne distinguant pas toujours la production viticole (non alimentaire directement) de la production alimentaire stricto sensu, ce qui surestime potentiellement l'autonomie réelle",
+    "La part de SAU bio de 9,5 % masque de fortes disparités spatiales : les zones viticoles des Côtes sont quasi-absentes de la conversion bio, concentrée dans le nord céréalier du département",
+    "L'absence de données consolidées sur les volumes effectivement consommés localement (vs exportés) empêche une évaluation précise de la résilience alimentaire territoriale dijonnaise"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Creuse présente un profil pédologique globalement favorable, caractérisé par des sols acides granitiques et métamorphiques peu exposés aux contaminations industrielles historiques, avec seulement 8 sites répertoriés dans la base BASOL (ancienne base de sites et sols pollués), ce qui en fait l'un des départements les moins touchés de France (GéoRisques, 2023). La pression agricole en pesticides y est significativement inférieure à la moyenne nationale grâce à la prédominance de l'élevage extensif bovin sur une SAU de 285 000 ha, réduisant le recours aux intrants phytosanitaires (INRAE, 2023). En revanche, le sous-sol granitique du Massif Central expose la population creusoise à un risque radon élevé, le département étant classé en zone 3 (risque fort) par l'IRSN, concernant l'ensemble de son territoire. La part de SAU en agriculture biologique atteint environ 12,5 % (Agence Bio, 2023), supérieure à la moyenne nationale de 10,7 %, témoignant d'une dynamique de conversion positive mais encore perfectible pour un département aussi pastoral.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.5,
+      "note": "Seulement 8 sites BASOL recensés, densité parmi les plus faibles"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Élevage extensif dominant, faible recours aux herbicides et fongicides"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 3.5,
+      "note": "Totalité du département en zone radon 3 (risque fort), socle granitique"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio ~12,5%, au-dessus de la moyenne nationale (10,7%)"
+    }
+  ],
+  "points_forts": [
+    "Faible contamination industrielle des sols : seulement 8 sites BASOL actifs ou traités, soit l'un des ratios les plus bas de France rapporté à la surface (GéoRisques, 2023)",
+    "Pression phytosanitaire réduite grâce à 75 % de la SAU dédiée aux prairies permanentes et temporaires, limitant structurellement les résidus (Agreste, 2022)",
+    "Part de SAU en agriculture biologique à 12,5 %, en progression constante (+2 points depuis 2020), reflétant un tissu agricole sensible aux pratiques durables (Agence Bio, 2023)",
+    "Sols peu artificialisés : taux d'imperméabilisation parmi les plus faibles de France, estimé à moins de 3 % de la surface totale (CEREMA/Observatoire de l'artificialisation, 2023)"
+  ],
+  "vigilances": [
+    "Risque radon structurel majeur : 100 % du territoire classé en zone 3 par l'IRSN, avec des concentrations intérieures pouvant dépasser 300 Bq/m³ dans les bâtiments anciens sur socle granitique, nécessitant des diagnostics systématiques",
+    "Acidification naturelle des sols granitiques pouvant être aggravée par les dépôts azotés atmosphériques et les pratiques de fertilisation, réduisant la disponibilité de certains nutriments à long terme",
+    "Risque d'érosion hydrique localisé sur les versants déboisés et les zones de polyculture-élevage en transition, estimé entre 1 et 3 t/ha/an sur les parcelles sensibles (INRAE, données Massif Central)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "12,5 %",
+      "label": "SAU en bio (2023)"
+    },
+    {
+      "valeur": "100 %",
+      "label": "Territoire en zone radon 3"
+    },
+    {
+      "valeur": "285 000 ha",
+      "label": "SAU totale départementale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du risque radon 2022",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "Absence de réseau de surveillance pédologique dense en Creuse : les données RMQS (Réseau de Mesure de la Qualité des Sols, INRAE) reposent sur un maillage de 16×16 km insuffisant pour détecter les contaminations localisées",
+    "Les données BASOL ne couvrent pas les sites orphelins ou les pollutions diffuses historiques liées aux anciennes activités minières (exploitation de kaolin, uranium mineur) non systématiquement cartographiées",
+    "La mesure de la part bio ne rend pas compte de la qualité réelle des sols biologiques creusois, faute d'indicateurs standardisés sur la biodiversité microbienne et le taux de matière organique à l'échelle départementale"
+  ]
+}

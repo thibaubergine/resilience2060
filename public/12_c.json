@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aveyron bénéficie d'une position topographique exceptionnelle avec des altitudes moyennes comprises entre 700 et 1 400 m sur les plateaux du Massif Central (Aubrac, Lévézou, Causse), offrant un tampon thermique naturel significatif face au réchauffement climatique projeté (DRIAS 2023). Selon Climadiag, le département devrait connaître une hausse de température de +2,1 à +2,8°C d'ici 2060 selon les scénarios SSP2-4.5 et SSP3-7.0, nettement atténuée par rapport aux départements mériditerranéens de plaine. Le nombre de jours de canicule devrait passer de 4 jours/an en moyenne actuelle à 15-20 jours/an à l'horizon 2060, valeur encore modérée comparée aux 35-45 jours projetés dans l'Hérault voisin (TRACC 2023). L'absence de littoral et la faible proportion de forêts méditerranéennes inflammables limitent structurellement les risques de feux de grande ampleur, même si les causses et la vallée du Lot restent à surveiller (AP3C Occitanie 2024). Le département reste cependant exposé aux épisodes cévenols intenses et aux crues torrentielles, notamment dans les vallées du Lot, de l'Aveyron et du Dourdou (GéoRisques 2024).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude 700-1400m (Aubrac, Causse) offre tampon thermique exceptionnel"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "15-20 jours canicule/an projetés en 2060, modéré vs Sud Occitanie"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Faible couvert méditerranéen inflammable ; causses et vallée du Lot surveillées"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Crues torrentielles Lot/Aveyron ; épisodes cévenols intenses récurrents"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne des plateaux (700-1 400 m) parmi les plus élevées des 96 départements, générant un différentiel thermique de -3 à -5°C par rapport aux plaines du Languedoc (DRIAS 2023)",
+    "Nombre de jours de canicule projeté à l'horizon 2060 parmi les 10 plus faibles d'Occitanie, avec 15-20 jours/an contre 40+ dans l'Hérault (Climadiag Commune 2024)",
+    "Risque feux de forêt classé modéré à faible sur 80% du territoire, grâce à la dominance de landes, prairies et forêts atlantiques peu inflammables (AP3C Occitanie 2024)",
+    "Aucune exposition côtière et relief structurant limitant les phénomènes de chaleur urbaine ; densité de population faible (32 hab/km²) réduisant l'effet d'îlot de chaleur (INSEE 2023)"
+  ],
+  "vigilances": [
+    "Intensification des épisodes cévenols et crues soudaines dans les vallées du Lot, de l'Aveyron et du Dourdou : la crue centennale pourrait voir sa période de retour divisée par deux d'ici 2060 (GéoRisques / TRACC 2023)",
+    "Extension progressive du risque feux vers les causses et forêts de la vallée du Lot sous scénario SSP3-7.0, avec une saison à risque allongée de 30 jours supplémentaires à horizon 2060 (AP3C Occitanie 2024)",
+    "Stress hydrique estival croissant sur les zones d'élevage de l'Aubrac et du Lévézou : réduction de 15-25% des débits d'étiage projetée, menaçant la disponibilité en eau pastorale (Explore2 / DRIAS 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,4°C",
+      "label": "Hausse température médiane projetée 2060 (SSP2-4.5)"
+    },
+    {
+      "valeur": "15-20 j",
+      "label": "Jours canicule/an projetés à horizon 2060"
+    },
+    {
+      "valeur": "700-1400 m",
+      "label": "Altitude plateaux (Aubrac, Causse, Lévézou)"
+    },
+    {
+      "valeur": "-20%",
+      "label": "Réduction débit étiage estival projetée 2060"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "Climadiag Commune 2024 / ADEME",
+    "AP3C Occitanie 2024 / Chambre Agriculture",
+    "TRACC 2023 / SGPE-GéoRisques"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à maille communale mais leur résolution reste insuffisante pour capturer les micro-variations climatiques entre vallées encaissées et plateaux aveyronnais",
+    "L'Aveyron manque encore de stations météorologiques denses en altitude, introduisant une incertitude sur les modèles thermiques locaux de l'Aubrac et du Lévézou",
+    "Les scénarios de risque feux ne sont pas encore pleinement adaptés aux écosystèmes de causses et de landes subatlantiques, sous-représentés dans les modèles nationaux calibrés sur le pourtour méditerranéen"
+  ]
+}

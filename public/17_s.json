@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente-Maritime présente une situation contrastée pour la qualité des sols, avec un score de 5,5/10 traduisant des pressions agricoles significatives sur un territoire majoritairement agricole et viticole. Le département recense environ 80 sites BASOL (sites pollués ou potentiellement pollués), héritage d'activités industrielles et portuaires concentrées autour de La Rochelle et Rochefort (GéoRisques/BASOL 2023). La forte présence viticole du Cognac et des cultures céréalières intensives génère des niveaux de résidus phytosanitaires parmi les plus préoccupants de la région Nouvelle-Aquitaine, avec des pesticides détectés dans plus de 70 % des points de surveillance sols du département (INRAE 2023). En revanche, le département bénéficie d'un niveau de risque radon très faible à nul, lié à la nature calcaire et sédimentaire des sous-sols charentais, ce qui constitue un avantage sanitaire notable (IRSN). La part de surface agricole utile (SAU) en agriculture biologique reste inférieure à la moyenne nationale, autour de 8 %, malgré une progression régulière enregistrée depuis 2018 (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Environ 80 sites BASOL, pression industrialo-portuaire La Rochelle-Rochefort"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Viticulture et céréales intenses, résidus pesticides élevés, 70 % points contaminés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 9.0,
+      "note": "Sous-sols calcaires sédimentaires, risque radon quasi nul en Charente-Maritime"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~8 %, en progression mais sous moyenne nationale et régionale"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France, lié à la géologie calcaire du département (IRSN)",
+    "Progression constante de l'agriculture biologique : +3 % de SAU bio entre 2018 et 2023 (Agence Bio 2023)",
+    "Absence de sites miniers majeurs, limitant les contaminations métalliques diffuses des sols",
+    "Initiatives de dépollution actives sur les friches portuaires de Rochefort dans le cadre des reconversions urbaines"
+  ],
+  "vigilances": [
+    "Contamination des sols viticoles par le cuivre (fongicides) : accumulation estimée à plus de 100 kg/ha sur certaines parcelles du vignoble charentais (INRAE 2023)",
+    "Érosion côtière et submersion marine accentuées par le changement climatique, menaçant les sols agricoles de la façade atlantique et des îles (Ré, Oléron) d'ici 2050 (DRIAS 2023)",
+    "Pression foncière et artificialisation des sols en forte hausse autour de La Rochelle : taux d'artificialisation parmi les plus élevés de Nouvelle-Aquitaine, avec une perte nette estimée à 350 ha/an (Cerema 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~8 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Très faible",
+      "label": "Risque radon (IRSN)"
+    },
+    {
+      "valeur": "350 ha/an",
+      "label": "Artificialisation estimée"
+    }
+  ],
+  "sources": [
+    "GéoRisques / BASOL 2023",
+    "INRAE – Qualité des sols agricoles 2023",
+    "IRSN – Cartographie radon",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne couvrent pas les sites à pollution diffuse agricole, sous-estimant la contamination réelle des sols viticoles charentais",
+    "La cartographie IRSN du radon est établie à l'échelle communale et peut masquer des micro-anomalies locales liées à des poches géologiques spécifiques",
+    "L'indicateur SAU bio ne reflète pas la diversité des pratiques agroécologiques intermédiaires (HVE, bas intrants) qui concernent une part croissante des exploitations du département"
+  ]
+}

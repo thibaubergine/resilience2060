@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corrèze bénéficie d'une ressource en eau particulièrement abondante, portée par un réseau hydrographique dense (~6 000 km de cours d'eau) alimenté par les précipitations élevées du Massif central (900 à 1 500 mm/an selon l'altitude). La qualité des eaux de surface est globalement satisfaisante : selon le bilan DCE 2022, environ 60 % des masses d'eau superficielles atteignent le bon état écologique, un taux supérieur à la moyenne nationale. Les eaux destinées à la consommation humaine présentent une conformité élevée aux paramètres bactériologiques (>98 %) et physico-chimiques (>96 %) d'après les données ARS Nouvelle-Aquitaine 2022. La contamination par les nitrates reste faible, le département étant classé en zone non vulnérable dans sa grande majorité, avec des teneurs généralement inférieures à 10 mg/L dans les cours d'eau (DCE/Agence de l'eau Adour-Garonne). Les projections Explore2 signalent toutefois une réduction des débits d'étiage de 20 à 40 % à l'horizon 2050-2070, faisant peser un stress hydrique saisonnier croissant sur certains affluents de la Dordogne et de la Vézère.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "Conformité eau potable >97 % bactério et physico-chimique (ARS 2022)"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Débits étiage -20 à -40 % horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Nitrates <10 mg/L, hors zone vulnérable, agriculture peu intensive"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Peu d'industries historiques lourdes, PFAS détectés ponctuellement"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique exceptionnel : ~6 000 km de cours d'eau, précipitations 900–1 500 mm/an garantissant une recharge robuste",
+    "60 % des masses d'eau en bon état écologique DCE 2022, au-dessus de la moyenne nationale (~45 %), selon l'Agence de l'eau Adour-Garonne",
+    "Contamination nitrates très faible (concentrations généralement <10 mg/L), département majoritairement hors zone vulnérable (directive Nitrates)",
+    "Conformité eau potable élevée : >97 % des analyses bactériologiques et >96 % physico-chimiques conformes (ARS Nouvelle-Aquitaine, bilan 2022)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2050–2070 (Explore2), menaçant l'alimentation en eau potable de petites communes rurales et les usages agricoles estivaux",
+    "Présence ponctuelle de PFAS détectée dans certains captages et cours d'eau corréziens, nécessitant une surveillance accrue dans le cadre du plan national PFAS 2023–2027",
+    "Vieillissement des réseaux d'eau potable : taux de pertes en réseau supérieurs à 30 % dans certaines collectivités rurales, aggravant la vulnérabilité en période d'étiage (SISPEA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~6 000 km",
+      "label": "Linéaire cours d'eau"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Masses d'eau bon état (DCE 2022)"
+    },
+    {
+      "valeur": ">97 %",
+      "label": "Conformité eau potable bactério (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Débits étiage 2070 (Explore2)"
+    }
+  ],
+  "sources": [
+    "Agence de l'eau Adour-Garonne – Bilan DCE 2022",
+    "ARS Nouvelle-Aquitaine – Qualité eaux destinées consommation humaine 2022",
+    "Explore2 – Projections hydrologiques France 2022",
+    "SISPEA – Rendement réseau eau potable 2022"
+  ],
+  "limites": [
+    "Les données PFAS sur les eaux souterraines et de surface en Corrèze restent partielles, le programme national de surveillance exhaustif étant encore en déploiement (plan PFAS 2023–2027)",
+    "Le bon état DCE est évalué à l'échelle des masses d'eau, masquant des disparités locales sur des petits cours d'eau de tête de bassin non classés",
+    "Les projections Explore2 présentent une incertitude importante à l'horizon 2070 selon les scénarios climatiques (RCP4.5 vs RCP8.5), rendant difficile la planification précise des usages de l'eau"
+  ]
+}

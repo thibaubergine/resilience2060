@@ -1,0 +1,65 @@
+{
+  "synthese": "La Côte-d'Or présente une qualité de l'air globalement satisfaisante, bénéficiant d'un tissu industriel modéré et d'une faible densité urbaine en dehors de l'agglomération dijonnaise. Les concentrations moyennes annuelles de PM2,5 sont estimées entre 9 et 11 µg/m³ selon ATMO Bourgogne-Franche-Comté (2022), dépassant légèrement le seuil OMS 2021 fixé à 5 µg/m³ mais restant inférieures à la valeur limite européenne de 25 µg/m³. Le NO₂ urbain à Dijon affiche des niveaux autour de 20-25 µg/m³ en zone trafic (ATMO BFC, 2022), en-deçà du seuil réglementaire de 40 µg/m³ mais proches du guide OMS de 10 µg/m³. Les émissions d'ammoniac (NH₃) d'origine agricole constituent le principal facteur de pression, la Côte-d'Or étant un département à forte vocation viticole et céréalière, contribuant significativement aux émissions régionales inventoriées par le CITEPA. L'épisode de pollution aux particules reste un risque saisonnier, notamment en périodes de brûlage agricole et de conditions anticycloniques hivernales.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 9-11 µg/m³, au-dessus du seuil OMS 2021 (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ dijonnais ~20-25 µg/m³, sous seuil européen 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Tissu industriel limité hors corridor A31, faibles émissions industrielles"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole élevé, viticulture et grandes cultures intensives présentes"
+    }
+  ],
+  "points_forts": [
+    "Concentrations de PM2,5 inférieures à la moyenne nationale (~12 µg/m³), avec des zones rurales proches de 8 µg/m³ (ATMO BFC, 2022)",
+    "Absence de grande zone industrielle émettrice majeure hors agglomération dijonnaise, limitant les pics de pollution (CITEPA 2022)",
+    "Qualité de l'air dijonnaise parmi les meilleures des préfectures régionales françaises de taille comparable (ATMO BFC)",
+    "Couverture forestière significative (environ 32% du territoire) contribuant à l'absorption locale des polluants atmosphériques"
+  ],
+  "vigilances": [
+    "Les émissions d'ammoniac agricole restent préoccupantes : le secteur agricole représente plus de 90% des émissions de NH₃ à l'échelle régionale (CITEPA 2022), avec un risque de formation de particules secondaires",
+    "L'axe autoroutier A6/A31 traversant le département génère des pics de NO₂ et de particules localisés, impactant les populations riveraines et les communes péri-dijonnaises",
+    "Les épisodes de brûlage de résidus viticoles, bien que progressivement encadrés, contribuent ponctuellement à des pics de PM10 dépassant 50 µg/m³ en automne (ATMO BFC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "9-11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "~22 µg/m³",
+      "label": "NO₂ urbain Dijon (zone trafic)"
+    },
+    {
+      "valeur": ">90%",
+      "label": "Part agriculture dans émissions NH₃ régionales"
+    },
+    {
+      "valeur": "32%",
+      "label": "Couverture forestière départementale"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté – Bilan qualité de l'air 2022",
+    "CITEPA – Inventaire national des émissions atmosphériques 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Airparif/ATMO France – Cartographie nationale PM2,5 et NO₂"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO BFC comporte peu de stations fixes en Côte-d'Or rurale, limitant la précision des données pour les zones viticoles de la Côte de Nuits et Beaune",
+    "Les données sur les émissions liées aux pratiques viticoles spécifiques (produits phytosanitaires volatils, cuivre) restent insuffisamment documentées à l'échelle départementale",
+    "L'absence de modélisation fine à l'échelle communale pour les polluants secondaires (ozone, particules secondaires issues du NH₃) rend difficile l'évaluation précise de l'exposition réelle des populations rurales"
+  ]
+}

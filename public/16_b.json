@@ -1,0 +1,65 @@
+{
+  "synthese": "La Charente présente une biodiversité globalement préservée, avec environ 8,5 % de son territoire couvert par des zones Natura 2000, soit près de 60 000 hectares répartis entre zones spéciales de conservation (ZSC) et zones de protection spéciale (ZPS) (INPN, 2024). Le département abrite des milieux remarquables variés : vallées alluviales de la Charente et de ses affluents, pelouses calcicoles, forêts de feuillus et bocages, favorisant une faune et flore diversifiées dont des espèces d'intérêt communautaire comme la Cistude d'Europe, le Grand Rhinolophe et la Loutre d'Europe (OFB, 2024). La LPO, particulièrement active en Charente, recense plus de 250 espèces d'oiseaux nicheurs ou de passage, dont le Busard cendré et l'Outarde canepetière, espèces emblématiques des plaines céréalières charentaises (LPO Charente, 2023). Les continuités écologiques sont cependant fragilisées par la pression agricole intensive, notamment la viticulture et les grandes cultures, qui occupent plus de 60 % de la surface agricole utile et génèrent une fragmentation des habitats (INRAE, 2023). Le Schéma Régional de Cohérence Écologique (SRCE) Nouvelle-Aquitaine identifie des ruptures de corridors prioritaires à restaurer dans le nord-est du département.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Environ 8,5 % du territoire en Natura 2000, soit ~60 000 ha (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Absence de Parc National ; PNR Périgord-Limousin en bordure nord-est seulement"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Cistude, Loutre, Outarde canepetière, Grand Rhinolophe, +250 espèces oiseaux (LPO)"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors vallées Charente bien fonctionnels ; bocages interstitiels fragilisés"
+    }
+  ],
+  "points_forts": [
+    "Présence de la Loutre d'Europe sur la quasi-totalité du linéaire de la Charente et ses affluents, indicateur fiable d'une qualité aquatique et écologique maintenue (OFB, 2024)",
+    "Plus de 60 000 ha classés en Natura 2000, incluant des habitats prioritaires comme les pelouses calcicoles à Orchidées et les forêts alluviales résiduelles (INPN, 2024)",
+    "Population significative d'Outarde canepetière dans les plaines de Charente, l'un des derniers bastions nationaux de l'espèce avec des mesures agro-environnementales (MAEc) actives (LPO Charente, 2023)",
+    "Réseau de zones humides associées à la vallée de la Charente jouant un rôle tampon hydrologique et de réservoir de biodiversité reconnu dans le SDAGE Adour-Garonne"
+  ],
+  "vigilances": [
+    "Déclin des populations d'oiseaux des plaines agricoles estimé à -30 % en 20 ans sur le territoire charentais, lié à l'intensification viticole et céréalière (LPO/Stoc, 2023)",
+    "Fragmentation croissante des corridors bocagers : le linéaire de haies a diminué de près de 40 % depuis 1950, menaçant la connectivité entre massifs forestiers et zones Natura 2000 (INRAE, 2023)",
+    "Risque d'invasion par des espèces exotiques envahissantes (Jussie, Renouée du Japon, Frelon asiatique) en expansion sur les cours d'eau et lisières forestières, fragilisant les habitats autochtones (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~60 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part territoire protégé"
+    },
+    {
+      "valeur": "+250 espèces",
+      "label": "Oiseaux recensés (LPO)"
+    },
+    {
+      "valeur": "-40 %",
+      "label": "Perte haies depuis 1950"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Charente 2023 / Stoc",
+    "INRAE 2023 / SRCE Nouvelle-Aquitaine",
+    "SDAGE Adour-Garonne 2022-2027"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 en Charente reflètent les périmètres désignés mais pas l'état de conservation réel des habitats au sein de ces zones, souvent dégradé par les pratiques agricoles adjacentes",
+    "Le suivi des espèces emblématiques repose largement sur les données participatives de la LPO, dont la couverture territoriale reste inégale entre zones rurales isolées et secteurs bien prospectés",
+    "L'évaluation des corridors écologiques est issue du SRCE régional (2015, non révisé), dont la résolution spatiale est insuffisante pour rendre compte des dynamiques locales de fragmentation en cours"
+  ]
+}

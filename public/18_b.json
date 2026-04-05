@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Cher (18) présente une biodiversité d'intérêt notable, avec environ 12,8 % de son territoire couvert par des zones Natura 2000, incluant des habitats emblématiques comme les prairies alluviales de la vallée du Cher et les pelouses calcicoles du Berry (INPN, 2024). Le département abrite la Réserve Naturelle Nationale de Chérine (adjacente, en Indre) et bénéficie du PNR du Berry, mais l'absence d'un parc national propre limite la protection stricte (OFB, 2024). La LPO Centre-Val de Loire recense plusieurs espèces patrimoniales dans le Cher, dont le Courlis cendré, l'Outarde canepetière et la Pie-grièche écorcheur, espèces emblématiques des plaines agricoles berrichonnes menacées par l'intensification agricole. Les corridors écologiques, structurés autour des vallées alluviales (Cher, Arnon, Yèvre) et du massif de Tronçais — plus grande chênaie d'Europe de plaine (~10 600 ha) —, constituent des trames vertes et bleues majeures mais fragilisées par l'agriculture intensive qui occupe 75 % du territoire (Agreste, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "12,8 % territoire en Natura 2000 ; vallées alluviales et pelouses calcicoles"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Berry partiel ; pas de PN ; quelques RNN périphériques"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Outarde canepetière, Courlis cendré, Pie-grièche ; massif de Tronçais remarquable"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Vallées structurantes mais 75 % territoire agricole fragilise les corridors"
+    }
+  ],
+  "points_forts": [
+    "Massif forestier de Tronçais : ~10 600 ha de chênaie sessiliflore, plus grande d'Europe de plaine, classé site Natura 2000 (INPN, 2024)",
+    "Présence de l'Outarde canepetière, espèce emblématique des plaines berrichonnes, l'une des populations les mieux maintenues en région Centre-Val de Loire (LPO, 2023)",
+    "Réseau de zones humides alluviales (vallée du Cher, étangs de la Sologne bourbonnaise) classées ZNIEFF type I et II, favorables aux amphibiens et oiseaux d'eau",
+    "Environ 12,8 % du territoire en zones Natura 2000, soit un taux supérieur à la moyenne nationale des départements à dominante agricole (INPN, 2024)"
+  ],
+  "vigilances": [
+    "Régression des populations d'Outarde canepetière et d'Œdicnème criard corrélée à la simplification des assolements ; projections défavorables sous PAC post-2027 sans mesures agri-environnementales renforcées",
+    "Fragmentation des corridors écologiques par l'infrastructure routière (A71, RN151) et l'urbanisation diffuse autour de Bourges, réduisant la connectivité entre massif de Tronçais et vallée du Cher",
+    "Assèchement progressif des zones humides et étangs sous effet conjugué du changement climatique (Climadiag 2060 : +2°C à +3°C en été) et des prélèvements agricoles, menaçant les habitats d'amphibiens et de limicoles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,8 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "10 600 ha",
+      "label": "Forêt de Tronçais (chênaie)"
+    },
+    {
+      "valeur": "75 %",
+      "label": "Surface agricole utile / territoire"
+    },
+    {
+      "valeur": "~180",
+      "label": "Espèces ZNIEFF remarquables recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Tableau de bord biodiversité",
+    "INPN – Inventaire Natura 2000 & ZNIEFF Centre-Val de Loire",
+    "LPO Centre-Val de Loire – Atlas des oiseaux nicheurs 2023",
+    "Agreste 2023 – Recensement agricole Cher"
+  ],
+  "limites": [
+    "Les données de suivi des populations d'espèces patrimoniales (Outarde, Courlis) reposent sur des inventaires LPO bénévoles, avec couverture spatiale inégale sur le territoire du Cher",
+    "L'état de conservation des habitats Natura 2000 n'est pas renseigné site par site de façon actualisée post-2022, limitant l'évaluation précise de l'efficacité des protections",
+    "L'absence d'un observatoire départemental unifié de la biodiversité dans le Cher rend difficile la consolidation des données issues de multiples opérateurs (LPO, CBN, CBNBP, communes)"
+  ]
+}

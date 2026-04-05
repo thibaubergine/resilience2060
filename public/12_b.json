@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Aveyron figure parmi les départements français les mieux dotés en biodiversité, avec près de 38 % de sa superficie couverte par des zones Natura 2000, soit environ 3 200 km² sur 8 771 km² de territoire (INPN/OFB 2024). Le département abrite le Parc National des Cévennes en limite est et le Parc Naturel Régional des Grands Causses, créé en 1995, qui protège plus de 327 000 ha de causses, gorges et pelouses calcaires à haute valeur patrimoniale. La richesse faunistique est exceptionnelle : l'Aveyron accueille l'une des plus importantes populations françaises de vautours fauves (plus de 600 couples nicheurs dans les gorges de la Jonte et du Tarn, LPO 2023), ainsi que des espèces remarquables comme la loutre d'Europe, le desman des Pyrénées et plusieurs espèces de chauves-souris prioritaires. Les corridors écologiques sont globalement bien préservés grâce à la faible densité de population (33 hab/km²) et à l'importance des systèmes agropastoraux extensifs, qui maintiennent des habitats ouverts favorables à de nombreuses espèces (SRCE Occitanie/OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "38 % superficie en Natura 2000, parmi les plus élevés de France"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Grands Causses 327 000 ha; proximité Parc National Cévennes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Vautours fauves, desman, loutre, chauves-souris prioritaires présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 9.0,
+      "note": "Faible densité humaine, agropastoralisme extensif préserve corridors"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 exceptionnelle : ~38 % du territoire, 3e rang national parmi les départements métropolitains (INPN 2024)",
+    "Population nicheuse de vautours fauves parmi les plus importantes d'Europe continentale : 600+ couples dans les gorges de la Jonte et du Tarn (LPO 2023)",
+    "PNR des Grands Causses : 327 000 ha de paysages caussenards préservés, habitats d'intérêt communautaire prioritaires (pelouses à orchidées, forêts de ravins)",
+    "Réseau hydrographique dense (Aveyron, Lot, Truyère, Dourdou) abritant des espèces piscicoles patrimoniales : loutre d'Europe et desman des Pyrénées confirmés sur plusieurs bassins (OFB 2024)"
+  ],
+  "vigilances": [
+    "Fermeture des milieux par déprise agricole progressive : les pelouses calcaires des Grands Causses (habitats prioritaires) régressent sous l'effet de l'embroussaillement, menaçant à terme les espèces steppiques (outarde, pie-grièche)",
+    "Impact du changement climatique sur les espèces d'altitude et de milieux froids : le desman des Pyrénées est classé \"en danger\" (UICN France) et sa distribution devrait se contracter de 20 à 40 % d'ici 2060 (TRACC/OFB)",
+    "Pression croissante du tourisme de nature non régulé sur des sites fragiles (gorges du Tarn, plateau du Larzac) pouvant dégrader les habitats rupestres et déranger les colonies de rapaces nicheurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~38 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "327 000 ha",
+      "label": "Surface PNR Grands Causses"
+    },
+    {
+      "valeur": "600+ couples",
+      "label": "Vautours fauves nicheurs"
+    },
+    {
+      "valeur": "33 hab/km²",
+      "label": "Densité de population"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO – Bilan nicheurs 2023",
+    "PNR Grands Causses",
+    "SRCE Occitanie / OFB 2024"
+  ],
+  "limites": [
+    "Les données INPN sur les espèces sont tributaires de l'effort d'inventaire, inégalement réparti sur le territoire aveyronnais (zones de plaine moins prospectées que les gorges)",
+    "L'état de conservation réel des habitats Natura 2000 n'est pas systématiquement réévalué : les formulaires standard de données peuvent être partiellement obsolètes pour certains sites",
+    "Les impacts de l'intensification localisée de l'élevage (zones de plaine, vallées) sur la biodiversité des sols et des cours d'eau sont peu documentés à l'échelle départementale fine"
+  ]
+}

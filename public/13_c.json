@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône figurent parmi les départements français les plus exposés au changement climatique à l'horizon 2060, cumulant plusieurs facteurs de vulnérabilité majeurs. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de +2,5°C à +3°C de sa température moyenne annuelle d'ici 2060 sous scénario RCP4.5, avec une multiplication par trois des journées de canicule (plus de 35°C). Le littoral, qui s'étend sur environ 280 km, est particulièrement vulnérable à l'élévation du niveau marin projetée entre +30 et +60 cm d'ici 2100 (IPCC AR6), menaçant des zones urbaines denses comme Martigues, Port-de-Bouc et les zones humides de Camargue limitrophe. Le massif des Calanques et les espaces naturels de Provence souffrent d'un risque incendie exacerbé, avec une extension prévisible des zones à risque feux de forêt de 30 à 50% selon les projections DRIAS/Tracc. L'altitude moyenne très basse du département (inférieure à 200 m sur la majeure partie du territoire) ne procure aucun tampon thermique significatif face aux vagues de chaleur croissantes.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 3.0,
+      "note": "Altitude moyenne <200 m, aucun tampon thermique, plaine littorale dominante"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 2.0,
+      "note": "+35 jours de canicule supplémentaires projetés d'ici 2060 (Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 4.0,
+      "note": "Risque incendie très élevé, 280 000 ha de végétation combustible classés"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "280 km de côtes, submersion modérée mais urbanisation littorale dense"
+    }
+  ],
+  "points_forts": [
+    "Présence du Parc National des Calanques offrant une résilience écologique partielle sur 5 200 ha terrestres",
+    "Le Plan Régional d'Adaptation au Changement Climatique (PRACC PACA) est l'un des plus avancés de France, structurant l'adaptation territoriale depuis 2013",
+    "La Métropole Aix-Marseille-Provence a adopté un Plan Climat-Air-Énergie Territorial (PCAET) avec objectif de neutralité carbone à 2050",
+    "Existence d'un réseau de surveillance et d'alerte canicule structuré via le Système d'alerte canicule et santé (SACS) de Santé Publique France, opérationnel sur l'ensemble du département"
+  ],
+  "vigilances": [
+    "Projection d'une augmentation de +2,5 à +3°C d'ici 2060 (RCP4.5, Climadiag), avec risque de dépasser +4°C en scénario haut RCP8.5, plaçant Marseille parmi les métropoles françaises les plus exposées aux îlots de chaleur urbains",
+    "Extension du risque feux de forêt : les surfaces potentiellement combustibles pourraient augmenter de 30 à 50% d'ici 2050 selon DRIAS, avec des épisodes de feux hors saison déjà documentés (incendies de décembre 2022)",
+    "Submersion marine et érosion côtière menaçant directement les zones urbaines et industrielles du pourtour de l'Étang de Berre et du delta de la Camargue, avec un recul du trait de côte estimé à 0,5–1 m/an sur certains secteurs sableux (Cerema 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse température projetée 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "×3",
+      "label": "Multiplication jours canicule d'ici 2060"
+    },
+    {
+      "valeur": "280 km",
+      "label": "Linéaire côtier exposé submersion"
+    },
+    {
+      "valeur": "30–50%",
+      "label": "Extension surface à risque feux 2050"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS/TRACC projections climatiques régionales",
+    "Cerema – Observatoire national de l'érosion côtière 2022",
+    "PRACC PACA / AP3C Provence-Alpes-Côte d'Azur"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à l'échelle communale mais leur agrégation départementale masque les fortes disparités entre le littoral urbanisé de Marseille et les massifs intérieurs (Sainte-Victoire, Étoile), limitant la précision du diagnostic",
+    "Le risque feux de forêt est modélisé selon des scénarios de végétation statiques, sans intégrer pleinement les dynamiques de recolonisation post-incendie ni les effets de la politique de débroussaillement obligatoire (DFCI), pouvant surestimer ou sous-estimer localement le risque",
+    "La vulnérabilité côtière est partiellement sous-évaluée en l'absence d'un recensement exhaustif des infrastructures critiques en zone de submersion dans le périmètre du Grand Port Maritime de Marseille et de la zone industrielle de Fos-sur-Mer"
+  ]
+}

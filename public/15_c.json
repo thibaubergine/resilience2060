@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Cantal bénéficie d'une position géographique exceptionnelle au cœur du Massif Central, avec une altitude moyenne de 950 m (la plus élevée des départements français), ce qui lui confère un tampon thermique naturel significatif face au réchauffement climatique (Climadiag 2023). Les projections DRIAS 2050 indiquent une hausse des températures moyennes de +1,8°C à +2,4°C selon les scénarios RCP, soit une amplitude moindre que les plaines environnantes où l'on anticipe +2,5°C à +3,2°C. Le nombre de jours de canicule devrait passer de 2-3 jours/an actuellement à 8-12 jours/an à l'horizon 2060, un chiffre nettement inférieur à la moyenne nationale de 20-25 jours projetés (TRACC/AP3C Auvergne). Le risque incendie, bien que croissant, reste modéré par rapport aux départements méditerranéens, avec une végétation composée à 30% de forêts et une pluviométrie encore soutenue de 800 à 1 800 mm/an selon l'altitude (Météo-France station Aurillac).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude moyenne 950 m, tampon thermique majeur vs plaines françaises"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "8-12 jours canicule/an projetés 2060, contre 20-25 moyenne nationale"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque incendie croissant mais limité par humidité et altitude élevées"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Pas de littoral; crues torrentielles Truyère/Rhue en hausse projetée"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne de 950 m (record national départemental) assurant un effet tampon thermique estimé à -2°C vs plaines (Climadiag 2023)",
+    "Projections DRIAS : seulement 8 à 12 jours de canicule/an à horizon 2060, soit 2 à 3 fois moins que la moyenne métropolitaine",
+    "Absence totale de vulnérabilité côtière et submersion marine ; département continental enclavé dans le massif volcanique",
+    "Pluviométrie annuelle de 800 à 1 800 mm/an selon l'altitude, maintenant une résilience hydrique et végétale supérieure à la moyenne nationale (Météo-France Aurillac)"
+  ],
+  "vigilances": [
+    "Amplification des épisodes de précipitations intenses et crues torrentielles sur les vallées de la Truyère et de la Rhue : +15 à +25% de débit de pointe projeté à 2060 (Explore2/DRIAS)",
+    "Progression du risque incendie de forêt avec l'allongement de la saison sèche estivale : indice FFMC en hausse de 12% sur la période 2000-2023 (Prométhée/MTECT)",
+    "Menace sur les prairies permanentes d'altitude (estives) par déplacement altitudinal des zones climatiques : réduction possible de 20-30% de la surface utilisable en estive d'ici 2060 (AP3C Auvergne)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "950 m",
+      "label": "Altitude moyenne départementale"
+    },
+    {
+      "valeur": "+2,1°C",
+      "label": "Hausse température projetée 2060 (scénario intermédiaire)"
+    },
+    {
+      "valeur": "10 jours/an",
+      "label": "Jours de canicule projetés à 2060"
+    },
+    {
+      "valeur": "1 200 mm",
+      "label": "Pluviométrie annuelle moyenne"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS-2014/DRIAS-2050 (IPSL/CNRM)",
+    "TRACC & AP3C Auvergne 2022",
+    "Explore2 – Hydrologie future France (OFB/BRGM 2023)"
+  ],
+  "limites": [
+    "Les modèles Climadiag et DRIAS sont calés sur des mailles de 8 km, insuffisantes pour capter la forte variabilité altitudinale intra-départementale du Cantal (de 600 m à 1 855 m au Plomb du Cantal)",
+    "L'absence de station météorologique de référence à haute altitude limite la validation locale des projections thermiques pour les estives et zones sommitales",
+    "Les scénarios de risque incendie (Prométhée) sont historiquement construits sur des données méditerranéennes et sous-estiment potentiellement la dynamique émergente propre aux massifs montagnards atlantiques comme le Cantal"
+  ]
+}

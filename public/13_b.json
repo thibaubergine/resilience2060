@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Bouches-du-Rhône présentent un patrimoine naturel d'exception avec plus de 30 % du territoire classé en zones Natura 2000 (INPN, 2024), couvrant des habitats remarquables comme la Camargue, les Calanques et la Crau, qui abritent des espèces endémiques rares. Le département bénéficie de la présence du Parc National des Calanques (créé en 2012, ~85 000 ha terrestres et marins) et du Parc Naturel Régional de Camargue (~93 000 ha), conférant une densité d'aires protégées supérieure à la moyenne nationale (OFB, 2024). Cependant, la pression urbaine et industrielle exercée par l'agglomération marseillaise et le complexe de Fos-sur-Mer fragmente sévèrement les corridors écologiques, avec une artificialisation des sols estimée à plus de 18 % du territoire (INRAE, 2023), l'une des plus élevées de France. La LPO PACA recense plus de 350 espèces d'oiseaux sur le département, mais signale un déclin de 25 à 30 % des populations d'oiseaux des milieux agricoles de la plaine de la Crau depuis 2000 (LPO, 2024). L'état de conservation des zones humides camarguaises reste préoccupant face à la remontée du niveau marin et à la salinisation croissante des étangs (SNPN/Tour du Valat, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Plus de 30 % du territoire en zones Natura 2000 (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PN Calanques + PNR Camargue, couverture protégée exceptionnelle"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "350+ espèces d'oiseaux, mais déclin notable faune steppique Crau"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 3.0,
+      "note": "Corridors fortement fragmentés par urbanisation et axes industriels"
+    }
+  ],
+  "points_forts": [
+    "Plus de 30 % du territoire classé Natura 2000, bien au-dessus de la moyenne nationale (~13 %), couvrant Camargue, Crau et Calanques (INPN, 2024)",
+    "Parc National des Calanques : premier parc national périurbain d'Europe, ~85 000 ha marins et terrestres, biodiversité méditerranéenne unique (OFB, 2024)",
+    "PNR de Camargue (~93 000 ha) : site Ramsar et Réserve de Biosphère UNESCO, zone humide d'importance internationale pour les oiseaux migrateurs",
+    "Plaine de la Crau : dernier écosystème de steppe à coussous de France, habitat d'espèces protégées comme le Ganga cata et le Rollier d'Europe (LPO PACA, 2024)"
+  ],
+  "vigilances": [
+    "Déclin de 25 à 30 % des oiseaux des milieux agricoles en plaine de Crau depuis 2000, menacé par extension des cultures irriguées et dérangements (LPO, 2024)",
+    "Remontée du niveau marin (+60 cm projetés d'ici 2100) menaçant l'équilibre hydraulique et la biodiversité des étangs camarguais par salinisation accrue (Tour du Valat, 2023)",
+    "Fragmentation des corridors écologiques par l'urbanisation marseillaise et les infrastructures industrielles de Fos-sur-Mer, limitant les échanges de populations faunistiques entre massifs (INRAE, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "30 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "85 000 ha",
+      "label": "Surface PN Calanques"
+    },
+    {
+      "valeur": "350+",
+      "label": "Espèces d'oiseaux recensées"
+    },
+    {
+      "valeur": "18 %",
+      "label": "Taux artificialisation sols"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN 2024",
+    "LPO PACA 2024",
+    "Tour du Valat / SNPN 2023"
+  ],
+  "limites": [
+    "La coexistence d'un patrimoine naturel exceptionnel et d'une des plus fortes pressions urbaines de France rend difficile toute évaluation globale homogène de l'état de la biodiversité départementale",
+    "Les données de suivi des espèces marines autour des Calanques restent partielles et peu standardisées, limitant l'évaluation précise de l'état de conservation des habitats sous-marins",
+    "Les indicateurs de connectivité écologique (TVB/trames vertes et bleues) ne sont pas encore systématiquement renseignés à l'échelle départementale, rendant l'évaluation des corridors approximative"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Doubs présente un profil alimentaire intermédiaire (6,5/10, rang 35/96), porté par une identité fromagère forte avec le Comté, le Morbier et le Mont d'Or en AOP, représentant une filière laitière structurante sur plus de 180 000 ha de prairies permanentes (INAO, 2023). La Zone à Autonomie Alimentaire (ZAVA 2024) révèle une dépendance partielle aux approvisionnements extérieurs pour les céréales et les légumes, la SAU du département étant dominée à 85 % par les prairies, limitant la diversification alimentaire locale. La part de la SAU conduite en agriculture biologique atteint environ 9,5 % (Agence Bio, 2023), légèrement en dessous de la moyenne nationale de 10,7 %, avec une progression ralentie depuis 2021 en raison de difficultés économiques de conversion. Les circuits courts et AMAP restent en développement modéré, avec une quarantaine de points de vente collectifs et marchés de producteurs recensés, mais des inégalités d'accès marquées entre l'agglomération bisontine et les zones rurales montagnardes (Chambre d'Agriculture du Doubs, 2022).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Dépendance forte pour céréales et légumes, prairies dominantes à 85%"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Comté, Morbier, Mont d'Or AOP : filière laitière emblématique dense"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "SAU bio à 9,5%, progression ralentie depuis 2021, sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Quarantaine circuits courts, concentration sur Besançon, zones rurales défavorisées"
+    }
+  ],
+  "points_forts": [
+    "Filière AOP fromagère exceptionnelle : Comté (1ère AOP fromagère française, ~70 000 t/an), Morbier et Mont d'Or structurent le territoire agricole doubiste (INAO, 2023)",
+    "Plus de 180 000 ha de prairies permanentes maintenant un lien fort entre agriculture et territoire, garant de la qualité des productions fromagères (Agreste, 2022)",
+    "Présence d'une plateforme logistique de circuits courts à Besançon et d'un réseau actif de AMAP (environ 15 groupes actifs) animé par le réseau AMAP Bourgogne-Franche-Comté",
+    "Dynamique de préservation des savoir-faire fromagers artisanaux avec plus de 140 fruitières (caves d'affinage coopératives) maintenant un tissu agroalimentaire local dense et résilient"
+  ],
+  "vigilances": [
+    "Vulnérabilité climatique de la filière laitière AOP : les projections DRIAS 2060 anticipent une réduction des rendements prairiaux de 15 à 25 % dans le Massif jurassien, menaçant les cahiers des charges AOP liés à l'herbe",
+    "Faible diversification des productions locales : la mono-orientation laitière expose le département à des risques systémiques en cas de crise de filière ou d'effondrement des prix du lait (ZAVA 2024)",
+    "Progression de l'agriculture biologique en stagnation depuis 2021 avec des cessations de conversion enregistrées, fragilisant l'objectif régional de 18 % de SAU bio en 2030 fixé par la stratégie BFC"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "6,5/10",
+      "label": "Score alimentation (rang 35/96)"
+    },
+    {
+      "valeur": "~9,5%",
+      "label": "SAU conduite en bio (Agence Bio, 2023)"
+    },
+    {
+      "valeur": "3 AOP",
+      "label": "Comté, Morbier, Mont d'Or (INAO, 2023)"
+    },
+    {
+      "valeur": "~70 000 t",
+      "label": "Production annuelle Comté (1ère AOP fromagère France)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Agreste)",
+    "INAO – Registre des AOP/IGP 2023",
+    "Agence Bio – Panorama régional BFC 2023",
+    "Chambre d'Agriculture du Doubs – Rapport circuits courts 2022"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 ne permettent pas de désagréger finement l'autonomie alimentaire à l'échelle infra-départementale (distinction Besançon vs zones montagnardes du Haut-Doubs)",
+    "La part de SAU en bio peut varier selon la méthode de comptabilisation (surfaces en conversion incluses ou non), rendant les comparaisons inter-départementales partiellement biaisées",
+    "L'absence de suivi systématique des AMAP et points de vente directe en milieu rural doubiste limite l'évaluation précise du maillage réel en circuits courts sur l'ensemble du territoire"
+  ]
+}

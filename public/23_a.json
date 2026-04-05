@@ -1,0 +1,65 @@
+{
+  "synthese": "La Creuse affiche l'une des qualités d'air les meilleures de France métropolitaine, bénéficiant d'une très faible densité industrielle et d'un trafic routier limité sur son territoire rural (23 hab./km²). Les concentrations annuelles en PM2,5 restent nettement inférieures à la valeur guide OMS 2021 fixée à 5 µg/m³, avec des mesures enregistrées autour de 7-8 µg/m³ par ATMO Nouvelle-Aquitaine, contre une moyenne nationale dépassant 11 µg/m³. Le NO₂ urbain à Guéret, seule ville notable du département (~14 000 hab.), demeure très en deçà du seuil réglementaire de 40 µg/m³ (environ 10-12 µg/m³ relevés). Le principal signal de vigilance porte sur les émissions d'ammoniac (NH₃) liées à l'élevage bovin extensif, secteur dominant de l'agriculture creusoise, représentant une pression diffuse non négligeable dans le bilan régional (CITEPA 2023). L'absence de grands sites industriels classés SEVESO et la couverture forestière importante (~35% du territoire) contribuent structurellement à la très bonne performance de ce département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 ~7-8 µg/m³, bien sous seuil OMS 5 µg/m³ national"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ Guéret ~10-12 µg/m³, très inférieur au seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 10,
+      "note": "Aucun site SEVESO, quasi-absence d'industrie émettrice lourde"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage bovin extensif dominant, émissions NH₃ diffuses notables"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de France (~7-8 µg/m³), inférieures à la moyenne nationale de 11 µg/m³ (ATMO Nouvelle-Aquitaine)",
+    "Aucun site industriel classé SEVESO sur le territoire, densité industrielle quasi nulle (DREAL Nouvelle-Aquitaine)",
+    "NO₂ urbain à Guéret estimé à 10-12 µg/m³, soit moins du tiers du seuil réglementaire européen de 40 µg/m³",
+    "Couverture forestière de ~35% du territoire jouant un rôle de puits de polluants et tampon atmosphérique favorable (IGN 2023)"
+  ],
+  "vigilances": [
+    "Émissions agricoles de NH₃ en légère hausse tendancielle avec l'intensification partielle de l'élevage bovin ; NH₃ représente le principal polluant sectoriel du département (CITEPA 2023)",
+    "Épisodes de pollution par les particules fines en hiver liés au chauffage au bois résidentiel, en progression avec la hausse du coût de l'énergie (ATMO NA, 2022-2023)",
+    "Risque d'absence de suivi en temps réel : faible densité de stations de mesure fixe en Creuse, limitant la détection d'épisodes ponctuels locaux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7-8 µg/m³",
+      "label": "Concentration PM2,5 annuelle"
+    },
+    {
+      "valeur": "~10-12 µg/m³",
+      "label": "NO₂ urbain Guéret"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites SEVESO recensés"
+    },
+    {
+      "valeur": "35%",
+      "label": "Couverture forestière département"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine (rapports qualité air 2022-2023)",
+    "CITEPA – Inventaire national des émissions 2023",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "IGN – Inventaire forestier national 2023"
+  ],
+  "limites": [
+    "Très faible densité de stations de mesure fixes en Creuse, rendant les estimations partiellement extrapolées depuis les modèles régionaux ATMO",
+    "Absence de données spécifiques et récentes sur les polluants issus du chauffage au bois à l'échelle infra-départementale",
+    "Les émissions agricoles de NH₃ sont estimées par modélisation à partir des cheptels déclarés, avec une incertitude notable sur les pratiques réelles d'épandage"
+  ]
+}

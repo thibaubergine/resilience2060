@@ -1,0 +1,65 @@
+{
+  "synthese": "La Creuse présente un profil alimentaire solide (7,5/10, rang 13/96), porté par une vocation agropastorale historique dominée par l'élevage bovin extensif, avec environ 85 000 bovins recensés sur le territoire pour une SAU d'environ 270 000 hectares (Agreste 2020). Le département bénéficie d'une Zone à Alimentation à Vocation Agricole (ZAVA) favorable, avec un taux d'autonomie alimentaire local supérieur à la moyenne nationale, notamment grâce à la production bovine et ovine (ZAVA 2024). La part des surfaces en agriculture biologique atteint environ 8,5% de la SAU, en progression constante, légèrement en deçà de la moyenne nationale de 10% mais portée par une dynamique de conversion soutenue (Agence Bio 2023). Les circuits courts et AMAP restent cependant limités par la faible densité de population (18 hab/km², le plus faible de France métropolitaine), contraignant les débouchés locaux et la viabilité des filières de proximité.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Forte autonomie bovine/ovine, SAU étendue, excédent protéique local"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques IGP bovines présentes, densité AOP/IGP modeste comparativement"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "8,5% SAU bio, dynamique de conversion positive, légèrement sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Circuits courts dynamiques malgré faible densité, marchés fermiers nombreux"
+    }
+  ],
+  "points_forts": [
+    "Cheptel bovin important (~85 000 têtes) assurant une forte autonomie protéique locale (Agreste 2020)",
+    "Part de l'agriculture biologique en hausse constante, atteignant 8,5% de la SAU creusoise (Agence Bio 2023)",
+    "Tradition pastorale extensive favorisant une alimentation de qualité et une faible pression phytosanitaire sur les produits locaux",
+    "Réseau de marchés fermiers et de vente directe dynamique malgré une densité de population parmi les plus faibles de France (18 hab/km²)"
+  ],
+  "vigilances": [
+    "Dépendance quasi-exclusive à l'élevage bovin : vulnérabilité en cas de crise sanitaire (type FCO) ou de chute des prix de la viande, avec projection de réduction du cheptel sous pression climatique d'ici 2040 (Climadiag)",
+    "Désertification rurale et vieillissement des exploitants (âge moyen > 52 ans) menaçant la transmission des fermes et la pérennité des circuits courts (Agreste 2020)",
+    "Faible diversification des cultures vivrières (légumes, céréales alimentaires) rendant le territoire dépendant d'approvisionnements extérieurs pour une large part du panier alimentaire quotidien"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~85 000",
+      "label": "Bovins recensés (têtes)"
+    },
+    {
+      "valeur": "8,5%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "18 hab/km²",
+      "label": "Densité population (la plus faible métropole)"
+    },
+    {
+      "valeur": "270 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    }
+  ],
+  "sources": [
+    "Agreste Recensement Agricole 2020",
+    "Agence Bio – Observatoire national 2023",
+    "ZAVA (Zones à Alimentation à Vocation Agricole) 2024",
+    "INAO – Registre des signes de qualité 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent à l'échelle régionale Nouvelle-Aquitaine et ne permettent pas une déclinaison fine au niveau départemental creusois",
+    "La faible densité de population rend difficile la mesure précise du taux de consommation locale effective par habitant, faute d'enquêtes spécifiques au niveau 23",
+    "L'absence de filière maraîchère ou céréalière alimentaire structurée en Creuse limite l'évaluation de la diversité de l'autonomie alimentaire au-delà de la viande bovine"
+  ]
+}

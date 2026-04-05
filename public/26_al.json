@@ -1,0 +1,65 @@
+{
+  "synthese": "La Drôme affiche un profil alimentaire remarquable, figurant parmi les départements les plus performants de France avec un score de 7,5/10 (rang estimé 15-20/96). Le département concentre une densité exceptionnelle de signes officiels de qualité : 23 AOP/IGP/STG reconnues, dont le Poulet de Bresse, la Clairette de Die, l'Olive de Nyons et les Noix de Grenoble (INAO, 2024), faisant de la Drôme l'un des territoires les plus dotés en appellations par km². L'agriculture biologique y est particulièrement développée, avec environ 20 % de la SAU engagée en bio, soit plus du double de la moyenne nationale de 9,7 % (Agence Bio, 2023), portée notamment par la Biovallée de la Drôme. Les circuits courts sont structurellement ancrés : le département compte plus de 80 AMAP actives et de nombreux marchés de producteurs, avec un maillage dense de points de vente directe (ZAVA, 2024). La zone agro-alimentaire (ZAVA) place la Drôme dans le premier quartile national pour l'autonomie alimentaire régionale, grâce à la diversité de ses productions maraîchères, arboricoles et d'élevage.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Zone ZAVA favorable, productions diversifiées maraîchères et arboricoles locales"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "23 AOP/IGP/STG, parmi les plus denses nationalement (INAO 2024)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~20% SAU en bio, Biovallée pionnière, double moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "80+ AMAP actives, marchés producteurs bien maillés sur territoire"
+    }
+  ],
+  "points_forts": [
+    "Densité exceptionnelle de 23 AOP/IGP/STG reconnues, dont Clairette de Die, Olive de Nyons AOC, Noix de Grenoble IGP (INAO, 2024)",
+    "Environ 20 % de la SAU engagée en agriculture biologique, contre 9,7 % de moyenne nationale (Agence Bio, 2023)",
+    "La Biovallée de la Drôme constitue un territoire de référence national pour la transition agro-écologique, regroupant plus de 400 fermes bio",
+    "Plus de 80 AMAP actives et un réseau dense de points de vente directe garantissant des circuits courts fonctionnels (ZAVA, 2024)"
+  ],
+  "vigilances": [
+    "La pression climatique croissante (hausse de +2°C à horizon 2060 selon DRIAS) menace les appellations viticoles et l'arboriculture, secteurs emblématiques du département",
+    "La concentration foncière et l'attractivité résidentielle du département exercent une pression sur les terres agricoles, risquant de réduire la SAU disponible pour les circuits courts",
+    "La dépendance aux ressources en eau d'irrigation (Rhône, nappes alluviales) pour les cultures maraîchères et fruitières pourrait fragiliser l'autonomie alimentaire en période de sécheresse prolongée (Explore2, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "23",
+      "label": "AOP/IGP/STG recensées"
+    },
+    {
+      "valeur": "20%",
+      "label": "SAU engagée en bio"
+    },
+    {
+      "valeur": "80+",
+      "label": "AMAP actives"
+    },
+    {
+      "valeur": "7,5/10",
+      "label": "Score alimentation départemental"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre des signes de qualité",
+    "Agence Bio 2023 – Observatoire national agriculture biologique",
+    "ZAVA 2024 – Zones à vocation alimentaire",
+    "Réseau AMAP Auvergne-Rhône-Alpes 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale et ne permettent pas une ventilation fine infra-départementale pour la Drôme",
+    "Le pourcentage de SAU en bio est une estimation interpolée depuis les données Agence Bio 2023 ; une part des exploitations déclarées bio peut pratiquer une commercialisation hors circuits locaux",
+    "La densité d'AMAP et de circuits courts est difficile à quantifier précisément faute de registre exhaustif national, les chiffres disponibles pouvant sous-estimer ou surestimer la réalité locale"
+  ]
+}

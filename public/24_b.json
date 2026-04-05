@@ -1,0 +1,65 @@
+{
+  "synthese": "La Dordogne présente un patrimoine naturel exceptionnel avec environ 18% de son territoire couvert par des zones Natura 2000, soit près de 170 000 ha intégrés dans des sites d'importance communautaire (INPN, 2024). Le département abrite une mosaïque de milieux remarquables — forêts de chênes pédonculés, vallées alluviales de la Dordogne et de la Vézère, landes et pelouses calcaires — favorisant une biodiversité parmi les plus riches du Massif aquitain. Le PNR Périgord-Limousin, partiellement localisé sur le département, constitue un levier structurant pour la gestion des espaces naturels, complété par plusieurs réserves naturelles régionales (OFB, 2024). La LPO Nouvelle-Aquitaine recense sur ce territoire des populations significatives de grands rapaces (Milan royal, Cigogne noire) et d'espèces aquatiques sensibles comme la Loutre d'Europe et le Vison d'Europe (LPO, 2023). Les corridors écologiques identifiés dans le SRCE Nouvelle-Aquitaine restent globalement fonctionnels, bien que localement fragilisés par l'intensification agricole et la progression de l'urbanisation diffuse.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "~18% territoire en Natura 2000, soit ~170 000 ha couverts (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Périgord-Limousin + plusieurs réserves naturelles régionales actives"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Vison d'Europe, Loutre, Cigogne noire, Milan royal présents (LPO 2023)"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "SRCE corridors fonctionnels, pression diffuse urbanisation et agriculture"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 significative : ~170 000 ha classés en ZSC et ZPS, parmi les départements les mieux dotés de Nouvelle-Aquitaine (INPN, 2024)",
+    "Présence du Vison d'Europe (Neovison vison exclu, Mustela lutreola), espèce parmi les plus menacées d'Europe, avec des noyaux de population en vallée de la Dronne (LPO/OFB, 2023)",
+    "Réseau hydrographique dense (Dordogne, Vézère, Isle, Dronne) offrant des habitats aquatiques et ripisylves de grande valeur écologique, favorable aux poissons migrateurs (INPN)",
+    "Mosaïque agro-forestière périgordine (forêts de chênes, truffières, prairies) constituant un réservoir de biodiversité favorisant les espèces de lisière et les pollinisateurs sauvages"
+  ],
+  "vigilances": [
+    "Régression des populations de Vison d'Europe : espèce classée \"En danger critique\" en France, menacée par la destruction des ripisylves, les pièges non sélectifs et le dérangement (Plan national d'actions OFB 2022-2031)",
+    "Pression croissante de l'agriculture intensive et de la sylviculture monospécifique sur les zones humides et haies, avec une perte estimée de 30% des haies bocagères en Dordogne depuis 1990 (DRAAF Nouvelle-Aquitaine)",
+    "Vulnérabilité climatique projetée (Climadiag 2060) : assèchement estival accru des rivières susceptible de fragmenter les habitats aquatiques et de compromettre les espèces à faible capacité de dispersion"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~170 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "18%",
+      "label": "Part territoire Natura 2000"
+    },
+    {
+      "valeur": "1 PNR",
+      "label": "Périgord-Limousin (partiel)"
+    },
+    {
+      "valeur": "4",
+      "label": "Grandes vallées à valeur écologique"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Nouvelle-Aquitaine 2023",
+    "SRCE Nouvelle-Aquitaine / DREAL",
+    "DRAAF Nouvelle-Aquitaine / Plan national Vison d'Europe OFB 2022"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 ne renseignent pas l'état de conservation effectif des habitats au sein des périmètres classés en Dordogne, limitant l'évaluation qualitative réelle",
+    "L'absence d'observatoire départemental unifié de la biodiversité rend difficile le suivi temporel précis des populations d'espèces emblématiques à l'échelle du département",
+    "Les pressions agricoles diffuses (pesticides, drainage) sur les zones humides périphériques aux sites Natura 2000 sont sous-documentées faute de monitoring systématique en Dordogne"
+  ]
+}

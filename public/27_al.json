@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de l'Eure (27) présente un profil alimentaire intermédiaire avec un score de 6,0/10, reflétant une agriculture productive mais encore peu tournée vers les circuits de proximité et le bio. La Surface Agricole Utile (SAU) représente environ 65 % du territoire eurois, dominée par les grandes cultures céréalières et oléoprotéagineuses (blé, colza, betterave), caractéristiques du plateau du Neubourg et du Vexin normand (Agreste Normandie, 2023). La part de SAU en agriculture biologique reste modeste, autour de 5,2 % en 2023, soit en deçà de la moyenne nationale de 10,4 % (Agence Bio, 2023). Le département bénéficie de quelques signes de qualité reconnus (INAO), notamment dans les filières cidricoles et fromagères normandes, mais leur densité demeure limitée comparée aux départements du sud de la France. Les circuits courts et AMAP se développent progressivement, avec une dynamique portée par la proximité de l'Île-de-France et la plateforme ZAVA 2024 recensant une autonomie alimentaire territoriale encore partielle.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "SAU élevée (65%) mais dominée grandes cultures peu diversifiées"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques AOP/IGP normandes (cidre, fromages) mais densité limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "Part bio ~5,2% SAU, nettement sous la moyenne nationale (10,4%)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Proximité IdF stimule circuits courts, AMAP en développement notable"
+    }
+  ],
+  "points_forts": [
+    "Une SAU très étendue (~65 % du territoire), offrant un potentiel de production alimentaire local important (Agreste Normandie, 2023)",
+    "Bénéfice des AOP/IGP normandes partagées : Camembert de Normandie, Calvados, Cidre de Normandie (INAO, 2023)",
+    "Dynamique circuits courts portée par la proximité de l'agglomération parisienne, avec plusieurs marchés de producteurs actifs dans la vallée de la Seine",
+    "Présence de filières maraîchères et horticoles dans les vallées (Epte, Andelle), diversifiant l'offre alimentaire locale"
+  ],
+  "vigilances": [
+    "La dépendance aux grandes cultures céréalières (blé, colza) fragilise l'autonomie protéique et maraîchère locale face aux aléas climatiques projetés à horizon 2060 (Climadiag, 2024)",
+    "La faible part de SAU en bio (5,2 %) limite la résilience des systèmes alimentaires et expose les consommateurs à des résidus phytosanitaires dans les eaux et sols (Agence Bio / ARS, 2023)",
+    "La pression foncière exercée par l'urbanisation et la logistique (axe Seine, A13/A154) menace la pérennité des exploitations maraîchères et la viabilité des circuits courts sur le long terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "65%",
+      "label": "Part SAU/territoire"
+    },
+    {
+      "valeur": "5,2%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "~8",
+      "label": "Signes qualité AOP/IGP actifs"
+    },
+    {
+      "valeur": "+12%",
+      "label": "Croissance circuits courts 2020-2023"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Agreste Normandie 2023",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire de l'Eure restent agrégées à l'échelle régionale Normandie, rendant difficile une lecture strictement départementale",
+    "La densité AOP/IGP est partagée avec d'autres départements normands (Calvados, Manche), ce qui surestime potentiellement la richesse propre à l'Eure",
+    "L'absence d'un observatoire local des circuits courts spécifique à l'Eure limite la fiabilité des données sur les AMAP et ventes directes, qui reposent sur des recensements partiels"
+  ]
+}

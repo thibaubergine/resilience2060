@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Côtes-d'Armor présentent une situation hydrique contrastée : si la pluviométrie atlantique (900 à 1 200 mm/an selon les secteurs) assure une recharge globalement satisfaisante des nappes, la pression agricole intensive génère une contamination nitrique structurelle dans les eaux superficielles et souterraines, avec plus de 60 % des masses d'eau en état écologique insuffisant selon l'état des lieux DCE 2022 (Agence de l'Eau Loire-Bretagne). Les teneurs en nitrates dépassent régulièrement 50 mg/L dans plusieurs bassins versants du Penthièvre et de la Lieue de Grève, classés en zones vulnérables au titre de la directive nitrates. Le projet Explore2 (2023) projette une baisse des débits d'étiage de -10 à -30 % à l'horizon 2050-2070 sur les petits cours d'eau côtiers bretons, accentuant les tensions en période estivale. La qualité de l'eau potable distribuée reste globalement conforme aux normes, mais nécessite des traitements poussés sur environ 30 % des captages ARS Bretagne, en raison de la pression nitrique et phytosanitaire. La présence de PFAS dans certains captages côtiers commence à être documentée, bien que les données départementales restent partielles (ARS Bretagne, campagnes 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Eau distribuée conforme à ~70% des captages, traitements requis ailleurs"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Étiages -10 à -30% prévus d'ici 2060 sur cours d'eau côtiers (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": ">60% masses d'eau dégradées; nitrates >50 mg/L fréquents en zones agricoles"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "PFAS détectés ponctuellement; données encore partielles, impact limité documenté"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie élevée (900-1 200 mm/an) assurant une recharge hydrique annuelle globalement favorable par rapport à la moyenne nationale",
+    "Déploiement de zones tampons et haies bocagères dans le cadre du programme Breizh Bocage, contribuant à la filtration des intrants agricoles (Région Bretagne / Agence de l'Eau Loire-Bretagne)",
+    "Taux de conformité de l'eau potable distribuée supérieur à 95 % sur les paramètres bactériologiques (ARS Bretagne 2022)",
+    "Engagement actif dans les contrats de bassins versants et plans d'action zones vulnérables nitrates, avec plusieurs territoires en dynamique de reconquête de la qualité de l'eau"
+  ],
+  "vigilances": [
+    "Contamination chronique aux nitrates : plusieurs bassins versants (Lieue de Grève, Ic, Gouët) dépassent 50 mg/L avec risque de déclassement définitif DCE à l'horizon 2027",
+    "Stress hydrique estival en progression : les projections Explore2 anticipent des baisses de débits d'étiage de -20 à -30 % sur les petits fleuves côtiers à l'horizon 2060, menaçant l'alimentation en eau potable de certaines communes rurales",
+    "Contamination émergente aux PFAS : premières campagnes ARS Bretagne (2022-2023) révèlent des détections sur certains captages littoraux, sans cartographie exhaustive disponible à ce stade"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">60%",
+      "label": "Masses d'eau en état écologique insuffisant (DCE 2022)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé sur plusieurs bassins versants"
+    },
+    {
+      "valeur": "-20 à -30%",
+      "label": "Baisse débits étiage projetée à 2060 (Explore2)"
+    },
+    {
+      "valeur": "95%",
+      "label": "Conformité bactériologique eau potable distribuée (ARS 2022)"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Loire-Bretagne – État des lieux DCE 2022",
+    "ARS Bretagne – Bilan qualité eau potable 2022-2023",
+    "Explore2 BRGM/OFB 2023 – Projections hydrologiques",
+    "Directive Nitrates – Zones vulnérables Bretagne / DRAAF 2022"
+  ],
+  "limites": [
+    "Les données sur la présence de PFAS dans les eaux souterraines et superficielles des Côtes-d'Armor sont encore très parcellaires, les campagnes de mesure systématiques n'étant pas finalisées à l'échelle départementale",
+    "L'état écologique des masses d'eau souterraines reste moins bien documenté que celui des eaux de surface, avec des lacunes de suivi piézométrique sur les aquifères de socle breton",
+    "Les projections de stress hydrique (Explore2) présentent une incertitude significative à l'échelle des petits bassins côtiers, rendant difficile la planification territoriale fine de la ressource en eau à l'horizon 2060"
+  ]
+}

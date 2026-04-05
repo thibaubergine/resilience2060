@@ -1,0 +1,65 @@
+{
+  "synthese": "La Corrèze présente un profil pédologique globalement favorable, caractérisé par des sols cristallins granitiques et schisteux du Massif Central, naturellement pauvres en métaux lourds d'origine industrielle. Le département ne compte qu'un faible nombre de sites pollués recensés (base ex-BASOL/Géorisques), reflet d'une industrialisation historiquement limitée. En revanche, la géologie granitique expose une part significative du territoire à un risque radon élevé, la Corrèze figurant parmi les départements français les plus concernés (IRSN, potentiel radon catégorie 3 sur plus de 60 % des communes). La part de la SAU en agriculture biologique atteint environ 12-14 %, supérieure à la moyenne nationale (~10 %), témoignant d'une dynamique agri-environnementale positive (Agence Bio 2023). Les résidus de pesticides dans les sols restent contenus grâce à la dominance de l'élevage extensif bovin, qui limite le recours aux intrants phytosanitaires (INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 9.0,
+      "note": "Très peu de sites BASOL ; faible héritage industriel polluant en Corrèze"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Élevage extensif dominant ; usage pesticides modéré versus grandes cultures"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Géologie granitique : potentiel radon catégorie 3 sur majorité des communes"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "Part SAU bio ~13 %, supérieure à la moyenne nationale de 10 %"
+    }
+  ],
+  "points_forts": [
+    "Très faible densité de sites pollués recensés (ex-BASOL) : moins de 5 sites actifs, reflet d'une industrialisation limitée",
+    "Agriculture biologique en progression : ~13 % de la SAU certifiée bio, au-dessus de la moyenne nationale de 10 % (Agence Bio 2023)",
+    "Sols peu exposés aux résidus de pesticides grâce à la dominance de l'élevage bovin extensif (cheptel allaitant parmi les premiers de France)",
+    "Absence de grandes cultures intensives (maïs, colza à grande échelle) limitant la pression phytosanitaire sur les sols corréziens"
+  ],
+  "vigilances": [
+    "Risque radon élevé : plus de 60 % des communes en catégorie 3 IRSN, avec des concentrations intérieures potentiellement > 300 Bq/m³ dans l'habitat ancien",
+    "Érosion des sols forestiers et agricoles en hausse projetée avec l'augmentation des événements pluviaux intenses liés au changement climatique (DRIAS 2060)",
+    "Pression sur les sols liée aux coupes forestières intensifiées post-scolytes et tempêtes, risquant un tassement et une dégradation de la structure pédologique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<5 sites",
+      "label": "Sites ex-BASOL actifs"
+    },
+    {
+      "valeur": "~13 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": ">60 % communes",
+      "label": "Potentiel radon catégorie 3 (IRSN)"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Niveau de risque radon majoritaire"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "Agence Bio – Statistiques régionales 2023",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance systématique des sols agricoles corréziens rend difficile la quantification précise des résidus de pesticides à l'échelle parcellaire",
+    "La cartographie radon IRSN est établie à l'échelle géologique communale et ne reflète pas les concentrations réelles à l'intérieur des bâtiments, nécessitant des mesures individuelles",
+    "Les données ex-BASOL peuvent sous-estimer la contamination diffuse liée aux anciennes activités minières (mines d'uranium du Limousin) non toujours intégrées dans ce référentiel"
+  ]
+}

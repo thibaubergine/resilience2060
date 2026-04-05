@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Calvados présente un profil pédologique contrasté, dominé par des limons argileux fertiles du Bessin et du Pays d'Auge, mais soumis à une pression agricole intensive caractéristique de la Normandie herbagère et céréalière. Le département comptabilise environ 180 sites recensés dans la base de données des anciens sites industriels et activités de service (ex-BASOL/BASIAS), principalement concentrés dans l'agglomération caennaise et les zones portuaires (GéoRisques, 2023). La contamination des sols agricoles par les résidus de pesticides reste préoccupante : les analyses INRAE (2023) placent la Normandie parmi les régions à pression phytosanitaire élevée, notamment pour les fongicides utilisés en grandes cultures et en arboriculture cidricole. Le risque radon est classé en catégorie 1 (faible) pour la majorité du département, à l'exception de quelques secteurs sur socle ancien dans le Bocage normand (IRSN). La part de Surface Agricole Utile en agriculture biologique reste modeste, autour de 6,5 % en 2023, légèrement en dessous de la moyenne nationale de 10,3 % (Agence Bio, 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 180 sites ex-BASOL, concentration autour de Caen et zones portuaires"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Pression fongicides/herbicides élevée, arboriculture cidricole et céréales"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Risque radon majoritairement faible (catégorie 1), sauf Bocage normand"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~6,5 %, inférieure à la moyenne nationale de 10,3 %"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible sur 80 % du territoire départemental (IRSN, catégorie 1)",
+    "Sols limoneux et argilo-calcaires du Bessin reconnus pour leur haute fertilité naturelle, limitant les intrants minéraux",
+    "Présence de filières bio structurées autour des produits laitiers et cidricoles avec 6,5 % de SAU bio (Agence Bio, 2023)",
+    "Absence de contamination radioactive ou de grande friche industrielle étendue hors périmètre caennais"
+  ],
+  "vigilances": [
+    "Accumulation de résidus de cuivre dans les sols viticoles et arboricoles (vergers cidricoles) : les apports répétés depuis des décennies peuvent atteindre 100–150 kg/ha en cumulé (INRAE, 2023), risque d'inhibition microbienne",
+    "Érosion hydrique des sols limoneux accentuée par les changements climatiques : ruissellements et coulées boueuses en hausse prévue de 15–20 % à l'horizon 2060 (DRIAS/Climadiag)",
+    "Pollution résiduelle des zones portuaires et industrielles de Caen–Ouistreham (métaux lourds, HAP) avec des réhabilitations incomplètes sur plusieurs sites ex-BASOL (GéoRisques, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~180",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "6,5 %",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "Catégorie 1",
+      "label": "Risque radon dominant"
+    },
+    {
+      "valeur": "~580 000 ha",
+      "label": "SAU totale du département"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie radon 2023",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas les contaminations diffuses agricoles, nombreuses dans un département à forte pression phytosanitaire comme le Calvados",
+    "L'absence d'un réseau de surveillance des sols agricoles à maille fine en Normandie rend difficile la cartographie précise des accumulations de cuivre et de métaux lourds",
+    "La part de SAU bio déclarée ne reflète pas les pratiques réelles sur la totalité des exploitations, notamment les conversions partielles ou les démarches HVE qui restent peu tracées"
+  ]
+}
