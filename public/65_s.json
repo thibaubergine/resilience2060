@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées présentent un profil pédologique globalement favorable, avec une pression agricole modérée liée à une SAU relativement limitée (environ 130 000 ha, soit 28% du territoire départemental). La part de l'agriculture biologique y est significative, atteignant environ 15% de la SAU, au-dessus de la moyenne nationale de 10,7% (Agence Bio, 2023). Le département recense un nombre restreint de sites pollués ou en surveillance issus de l'ancienne base BASOL, reflet d'un tissu industriel historiquement peu dense, ce qui préserve les sols de contaminations industrielles majeures (GéoRisques, 2024). En revanche, le territoire est classé en zone à potentiel radon significatif, avec une large portion de son sous-sol granitique pyrénéen générant des émanations naturelles préoccupantes pour les bâtiments (IRSN, catégorie 3 partielle). Les résidus de pesticides dans les sols restent à des niveaux contenus, l'agriculture de montagne limitant l'usage intensif de produits phytosanitaires, même si les zones de piémont restent surveillées (INRAE, 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.0,
+      "note": "Peu de sites BASOL recensés, tissu industriel historiquement limité"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Agriculture montagnarde, faible usage phytosanitaire, piémont surveillé"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Sous-sol granitique pyrénéen, potentiel radon élevé en zones montagneuses"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "Environ 15% SAU bio, au-dessus moyenne nationale de 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique d'environ 15%, nettement supérieure à la moyenne nationale (10,7%) selon l'Agence Bio 2023",
+    "Nombre très limité de sites pollués répertoriés dans la base GéoRisques (ex-BASOL), reflet d'une industrialisation historique modeste",
+    "Pression phytosanitaire réduite grâce à la dominance des systèmes d'élevage extensif et de l'agriculture de montagne (INRAE, 2023)",
+    "Sols agricoles de piémont globalement peu contaminés, avec des pratiques agropastorales traditionnelles préservant la structure pédologique"
+  ],
+  "vigilances": [
+    "Risque radon naturel élevé : une large fraction du département classée en catégorie 3 (IRSN), nécessitant des diagnostics systématiques dans les bâtiments sur socle granitique",
+    "Érosion des sols en zones de montagne accentuée par le changement climatique, avec projection d'intensification des épisodes de précipitations intenses d'ici 2050 (DRIAS 2023)",
+    "Pression touristique et urbanisation diffuse en zones de piémont pouvant fragmenter et artificialiser des surfaces agricoles et naturelles à enjeu pédologique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~15%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "Catégorie 3 (partielle)",
+      "label": "Potentiel radon IRSN"
+    },
+    {
+      "valeur": "<10 sites",
+      "label": "Sites GéoRisques ex-BASOL"
+    },
+    {
+      "valeur": "130 000 ha",
+      "label": "Surface agricole utilisée (SAU)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2024",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du potentiel radon 2023",
+    "Agence Bio – Statistiques nationales 2023"
+  ],
+  "limites": [
+    "Les données de résidus de pesticides dans les sols de montagne restent peu renseignées dans les bases INRAE, les stations de mesure étant principalement localisées en plaine",
+    "La cartographie radon de l'IRSN repose sur des mailles communales larges, masquant potentiellement des hétérogénéités locales liées aux formations géologiques pyrénéennes complexes",
+    "L'absence de réseau départemental systématique de surveillance de la qualité des sols agricoles (hors RMQS national à maille lâche) limite la détection précoce de contaminations diffuses sur le territoire des Hautes-Pyrénées"
+  ]
+}

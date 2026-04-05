@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées affichent une qualité de l'air parmi les meilleures de France métropolitaine, bénéficiant d'un effet de balayage permanent par les flux atmosphériques pyrénéens et d'une densité industrielle très faible. Les concentrations moyennes annuelles en PM2,5 relevées par ATMO Occitanie restent inférieures à 8 µg/m³ sur la majeure partie du territoire, bien en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ pour les zones les plus exposées, et proches de celle-ci dans les vallées encaissées. Le NO₂ urbain à Tarbes, seule agglomération significative (environ 40 000 habitants), demeure inférieur à 20 µg/m³ en moyenne annuelle (ATMO Occitanie 2022), très loin du seuil réglementaire européen de 40 µg/m³. Le département présente cependant une problématique agricole non négligeable : les émissions d'ammoniac (NH₃) liées à l'élevage bovin et ovin des piémonts contribuent aux dépôts azotés sur les écosystèmes d'altitude (CITEPA 2023). Les épisodes de pollution hivernale par les particules, notamment dans les vallées encaissées comme celle de la Barousse ou du Pays Toy, constituent le principal facteur de vigilance local (ATMO Occitanie, bilan 2022-2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 < 8 µg/m³ en moyenne ; vallées encaissées légèrement plus exposées"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ Tarbes < 20 µg/m³ ; très loin du seuil réglementaire 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Très faible tissu industriel ; absence de sites Seveso majeurs émetteurs atmosphériques"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevages bovins/ovins piémont génèrent des émissions NH₃ notables (CITEPA 2023)"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 8 µg/m³ en moyenne annuelle sur la quasi-totalité du département (ATMO Occitanie 2022), parmi les plus faibles d'Occitanie",
+    "Aucun dépassement du seuil réglementaire NO₂ (40 µg/m³) enregistré à Tarbes depuis plus de 10 ans (ATMO Occitanie, bilan 2023)",
+    "Densité industrielle parmi les plus faibles des 96 départements : aucun site industriel classé Seveso seuil haut à émissions atmosphériques majeures recensé (DREAL Occitanie 2023)",
+    "Topographie pyrénéenne et vents de foehn favorisant un renouvellement fréquent des masses d'air et une dispersion naturelle efficace des polluants"
+  ],
+  "vigilances": [
+    "Accumulation de particules fines (PM2,5 et PM10) dans les vallées fermées en hiver lors d'épisodes d'inversion thermique, notamment dans le Pays Toy (Luz-Saint-Sauveur) et la vallée de la Barousse, phénomène susceptible de s'intensifier avec le changement climatique",
+    "Émissions agricoles d'ammoniac (NH₃) en piémont générant des dépôts azotés sur les écosystèmes d'altitude sensibles (pelouses subalpines, tourbières) avec risque d'eutrophisation (CITEPA 2023 ; OFB)",
+    "Augmentation tendancielle du trafic touristique saisonnier (stations de ski, Pic du Midi, grottes) pouvant dégrader localement la qualité de l'air sur les axes routiers de montagne, notamment la RD921 et la RD935"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 8 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "< 20 µg/m³",
+      "label": "NO₂ moyen annuel Tarbes"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites Seveso haut émetteurs atmosphériques"
+    },
+    {
+      "valeur": "~8 µg/m³",
+      "label": "Pic PM2,5 épisodes hivernaux vallées"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "OMS Guidelines qualité de l'air 2021 (seuils PM2,5, NO₂)",
+    "CITEPA – Inventaire national émissions NH₃ 2023",
+    "DREAL Occitanie – Registre sites classés ICPE 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe d'ATMO Occitanie est très peu dense dans les Hautes-Pyrénées (stations concentrées sur Tarbes), laissant les vallées d'altitude et les zones rurales de montagne sans données continues fiables",
+    "Les émissions liées au chauffage au bois individuel en zone rurale et dans les villages de montagne sont difficiles à quantifier précisément à l'échelle infra-départementale",
+    "Les effets de la pollution transfrontalière en provenance d'Espagne (axe du tunnel de Bielsa, vallée de l'Aragon) ne font l'objet d'aucune surveillance bilatérale systématique publiée à ce jour"
+  ]
+}

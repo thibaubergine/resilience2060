@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Rhône (69) présente une biodiversité contrastée, avec une pression urbaine très forte liée à l'agglomération lyonnaise (2,2 millions d'habitants dans la métropole) qui fragmente considérablement les habitats naturels. La couverture en zones Natura 2000 reste modeste, représentant environ 8 à 10 % du territoire départemental, bien en deçà de la moyenne nationale de 12,6 % (INPN 2024). Le département bénéficie toutefois de la présence du Parc Naturel Régional du Pilat en limite sud-ouest, ainsi que des corridors alluviaux du Rhône et de la Saône, qui constituent des axes de biodiversité majeurs pour l'avifaune et les poissons migrateurs (OFB 2024). La LPO Rhône recense plus de 280 espèces d'oiseaux, dont plusieurs rapaces patrimoniaux comme le Milan royal ou la Bondrée apivore, témoignant d'une richesse spécifique réelle malgré l'artificialisation galopante (LPO AuRA 2023). L'état des corridors écologiques demeure préoccupant : la Trame Verte et Bleue régionale identifie de nombreuses ruptures autour de Lyon, aggravées par le réseau autoroutier dense (A6, A7, A43) qui isole plusieurs réservoirs de biodiversité (SRADDET AuRA 2022).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Couverture Natura 2000 ~8-10%, inférieure à la moyenne nationale 12,6%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Pilat en bordure; absence de Parc National sur le territoire strict"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Plus de 280 espèces d'oiseaux; Milan royal, Castor européen présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors Rhône-Saône fonctionnels mais ruptures majeures autour de Lyon"
+    }
+  ],
+  "points_forts": [
+    "Corridors alluviaux du Rhône et de la Saône classés en réservoirs de biodiversité TVB, accueillant le Castor européen (Castor fiber) en expansion",
+    "Plus de 280 espèces d'oiseaux recensées par la LPO Rhône, dont le Milan royal et la Bondrée apivore (LPO AuRA 2023)",
+    "Présence du PNR du Pilat (65 000 ha) aux portes du département, offrant des habitats forestiers et prairiaux de qualité",
+    "Politiques locales actives : le SCOT de la Métropole de Lyon intègre 20 000 ha de zones naturelles et agricoles préservées en ceinture verte"
+  ],
+  "vigilances": [
+    "Artificialisation des sols parmi les plus élevées de France : la Métropole de Lyon consomme en moyenne 300 à 400 ha/an, menaçant directement les lisières et zones humides périurbaines",
+    "Fragmentation des habitats par le réseau autoroutier (A6, A7, A43, A46) : le SRADDET AuRA 2022 identifie plus de 15 points noirs de rupture de corridors écologiques dans le Rhône",
+    "Pression sur les zones humides alluviales : 50 % des zones humides rhodaniennes ont disparu depuis 1950 (OFB 2024), accélérant la perte de biodiversité aquatique et amphibienne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "280+",
+      "label": "Espèces d'oiseaux (LPO)"
+    },
+    {
+      "valeur": "65 000 ha",
+      "label": "Surface PNR Pilat"
+    },
+    {
+      "valeur": "20 000 ha",
+      "label": "Zones naturelles SCOT Métropole"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO AuRA 2023",
+    "SRADDET AuRA 2022",
+    "SCOT Métropole de Lyon"
+  ],
+  "limites": [
+    "La couverture Natura 2000 du Rhône strict est difficile à dissocier des données fusionnées avec la Métropole de Lyon (69M), créant des biais statistiques dans les comparaisons interdépartementales",
+    "Les inventaires de biodiversité sont très concentrés sur la zone périurbaine lyonnaise, laissant des lacunes de connaissance sur le nord du département (Beaujolais, Dombes rhodanienne)",
+    "L'état réel des corridors écologiques dépend de méthodes d'évaluation hétérogènes entre la Métropole et le département, rendant toute agrégation en un score unique réductrice"
+  ]
+}

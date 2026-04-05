@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées bénéficient d'une ressource en eau exceptionnelle grâce à leur massif montagnard, avec un réseau hydrographique dense alimenté par 115 lacs glaciaires et plus de 450 km de cours d'eau classés en très bon état écologique selon la DCE (Directive Cadre sur l'Eau). La qualité de l'eau potable est globalement très satisfaisante : 96,8 % de la population est desservie par une eau conforme aux critères bactériologiques et physico-chimiques (ARS Occitanie, 2023). Le département présente l'une des plus faibles pressions agricoles en azote de la région Occitanie, avec des concentrations en nitrates inférieures à 10 mg/L dans la quasi-totalité des masses d'eau souterraines (Agence de l'Eau Adour-Garonne, 2022). Néanmoins, les projections Explore2 (2023) signalent une réduction des débits estivaux des rivières pyrénéennes pouvant atteindre -30 % à horizon 2050-2070, sous l'effet combiné du recul glaciaire et de l'augmentation de l'évapotranspiration. La contamination aux PFAS reste à un niveau modéré comparativement aux départements industrialisés, mais des détections ponctuelles ont été recensées autour de zones d'activités dans la plaine de Tarbes (DREAL Occitanie, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "96,8 % eau potable conforme; lacs glaciaires, faible pression industrielle"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Débits estivaux -30 % horizon 2070; recul glaciaire accéléré (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Nitrates <10 mg/L quasi-totalité masses d'eau; faible pression agricole azotée"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Détections PFAS ponctuelles autour zone industrielle plaine de Tarbes"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique exceptionnel : 115 lacs glaciaires et 450 km de cours d'eau en très bon état écologique (DCE/Agence de l'Eau Adour-Garonne)",
+    "Taux de conformité de l'eau potable de 96,8 % (bactériologique et physico-chimique), parmi les meilleurs d'Occitanie (ARS Occitanie, 2023)",
+    "Contamination aux nitrates parmi les plus faibles de France : concentrations < 10 mg/L dans les eaux souterraines, reflet d'une agriculture extensive en altitude",
+    "Abondance de la ressource hydrique en conditions actuelles : pluviométrie annuelle dépassant 1 200 mm sur les contreforts pyrénéens, alimentant un stock nival et glaciaire significatif"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage estivaux de -25 à -30 % à l'horizon 2050-2070 sous scénario SSP3, menaçant l'alimentation en eau potable de certaines communes de piémont (Explore2, 2023)",
+    "Recul glaciaire irréversible : les glaciers pyrénéens ont perdu ~50 % de leur surface depuis 1850, accélérant la pression sur les débits d'étiage à moyen terme",
+    "Contaminations ponctuelles aux PFAS et micropolluants détectées dans la plaine de Tarbes, nécessitant une surveillance renforcée des captages AEP en aval (DREAL Occitanie, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "96,8 %",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "< 10 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Débit estival projeté 2070 (Explore2)"
+    },
+    {
+      "valeur": "115",
+      "label": "Lacs glaciaires répertoriés"
+    }
+  ],
+  "sources": [
+    "ARS Occitanie 2023 – Bilan qualité eaux destinées à la consommation humaine",
+    "Agence de l'Eau Adour-Garonne – État des masses d'eau DCE 2022",
+    "Explore2 (INRAE/OFB) 2023 – Projections hydrologiques France",
+    "DREAL Occitanie 2023 – Surveillance PFAS eaux superficielles et souterraines"
+  ],
+  "limites": [
+    "Les données PFAS restent partielles pour les Hautes-Pyrénées, la surveillance systématique des captages AEP montagnards étant encore incomplète à l'échelle communale",
+    "Les projections Explore2 sur les débits sont établies à l'échelle des bassins versants régionaux et manquent de résolution fine pour les petits cours d'eau pyrénéens de haute altitude",
+    "L'état écologique de nombreuses masses d'eau de montagne n'est évalué que par des indicateurs biologiques partiels, sous-représentant les pressions diffuses liées au pastoralisme et au tourisme hivernal"
+  ]
+}

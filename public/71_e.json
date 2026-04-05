@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire (71) présente une situation hydrique globalement moyenne au sein des 96 départements français, reflétant des contrastes marqués entre un réseau hydrographique dense (la Saône et ses affluents couvrant un bassin versant de plus de 30 000 km²) et des pressions agricoles significatives sur la qualité des masses d'eau. Les données DCE 2022 indiquent que seulement 38 % des masses d'eau de surface atteignent le bon état écologique, en dessous de la moyenne nationale (44 %), notamment en raison de pressions diffuses agricoles dans les zones de plaine. La contamination aux nitrates reste préoccupante dans le secteur de la Bresse chalonnaise, avec des teneurs dépassant ponctuellement 40 mg/L dans certaines captages (ARS Bourgogne-Franche-Comté, 2023). Les projections Explore2 anticipent une réduction des débits d'étiage de la Saône de -20 à -30 % à l'horizon 2060 sous scénario médian, aggravant les conflits d'usage entre agriculture irriguée, industrie et alimentation en eau potable. La présence de PFAS, détectée dans plusieurs captages du département lors des campagnes nationales de 2022-2023 (ANSES/ARS), constitue un signal de vigilance émergent.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "38% masses d'eau bon état; conformité AEP globalement satisfaisante"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Étiages Saône -20 à -30% horizon 2060 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates >40 mg/L ponctuels en Bresse; zone vulnérable partielle"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés mais concentrations sous seuils réglementaires 2023"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique abondant : la Saône draine un bassin de plus de 30 000 km², garantissant des réserves en eau globalement importantes",
+    "Taux de conformité de l'eau potable distribuée supérieur à 95 % pour les paramètres bactériologiques (ARS BFC, bilan 2022)",
+    "Présence de zones humides préservées en vallée de Saône, jouant un rôle de tampon hydraulique et de filtration naturelle (OFB 2024)",
+    "Efforts de protection des captages : plusieurs Aires d'Alimentation de Captage (AAC) sous démarche de reconquête qualité engagée depuis 2018 (Agence de l'Eau RMC)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de -20 à -30 % à l'horizon 2060 (Explore2), menaçant l'alimentation en eau potable et les usages agricoles en période estivale",
+    "Contamination aux nitrates persistante en zone de Bresse et Chalonnais, avec des dépassements ponctuels du seuil de 50 mg/L dans certains captages (ARS BFC, 2023)",
+    "Détection de PFAS dans plusieurs unités de distribution d'eau potable lors des campagnes nationales 2022-2023 (ANSES), nécessitant une surveillance renforcée avec l'entrée en vigueur des nouvelles normes européennes 2026"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "38%",
+      "label": "Masses d'eau surface bon état écologique (DCE 2022)"
+    },
+    {
+      "valeur": "-25%",
+      "label": "Réduction débit étiage Saône attendue à 2060 (Explore2)"
+    },
+    {
+      "valeur": ">95%",
+      "label": "Conformité bactériologique eau potable distribuée (ARS 2022)"
+    },
+    {
+      "valeur": "40 mg/L",
+      "label": "Teneurs nitrates max ponctuelles certains captages (ARS 2023)"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté – Bilan qualité eaux 2022-2023",
+    "Explore2 – Projections hydrologiques France 2060 (INRAE/OFB)",
+    "DCE – État des masses d'eau de surface, tableau de bord 2022",
+    "ANSES – Campagne nationale détection PFAS eaux potables 2022-2023"
+  ],
+  "limites": [
+    "Les données DCE sur l'état des masses d'eau sont agrégées à l'échelle du bassin Rhône-Méditerranée-Corse, rendant difficile l'isolation précise des résultats propres au seul département 71",
+    "La surveillance PFAS dans les eaux souterraines du département reste incomplète, les campagnes 2022-2023 n'ayant pas couvert l'intégralité des captages prioritaires de Saône-et-Loire",
+    "Les projections Explore2 présentent une incertitude significative à l'échelle infra-départementale, notamment pour les sous-bassins des affluents de la Saône (Grosne, Dheune, Arconce)"
+  ]
+}

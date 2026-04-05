@@ -1,0 +1,65 @@
+{
+  "synthese": "La Nièvre présente un profil de biodiversité remarquable, avec environ 18% de sa superficie couverte par des zones Natura 2000, reflétant la richesse écologique de ses massifs forestiers (Morvan) et de ses vallées alluviales (Loire, Aron, Nièvre) (INPN/OFB 2024). Le Parc Naturel Régional du Morvan, qui couvre une large portion du département, constitue un réservoir de biodiversité majeur abritant des espèces forestières patrimoniales telles que le Pic noir, la Loutre d'Europe et la Rosalie des Alpes (LPO Bourgogne-Franche-Comté). La Nièvre dispose de corridors écologiques fonctionnels grâce à son réseau hydrographique dense et à la continuité de ses massifs boisés couvrant plus de 40% du territoire départemental (IFN/IGN 2023). Néanmoins, la fragmentation liée aux infrastructures routières et à l'agriculture intensive dans les plaines du nord du département constitue une pression sur ces continuités (Trame Verte et Bleue, SRCE Bourgogne-Franche-Comté). Le département abrite également plusieurs ZNIEFF de type I et II couvrant des milieux variés, des tourbières du Morvan aux prairies alluviales de la Loire classée réserve de biosphère UNESCO.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18% superficie en Natura 2000, vallées Loire et Morvan incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Morvan couvre ~290 000 ha, structurant la protection locale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Loutre, Rosalie des Alpes, Pic noir, espèces patrimoniales bien présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Réseau hydrographique dense, continuités forestières mais fragmentation nord"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 élevée : environ 18% du département, bien au-dessus de la moyenne nationale (~13%) (INPN 2024)",
+    "PNR du Morvan structurant : ~290 000 ha classés, offrant une gouvernance active de la biodiversité (Charte PNR 2022-2037)",
+    "Loire classée réserve de biosphère UNESCO et site Natura 2000, avec des populations de castors et loutres en expansion (LPO/OFB 2024)",
+    "Massifs forestiers couvrant >40% du territoire, favorisant les espèces forestières spécialisées et les continuités boisées (IGN/IFN 2023)"
+  ],
+  "vigilances": [
+    "Réchauffement climatique projeté (+2,5°C à +3,5°C d'ici 2060, Climadiag) menaçant les tourbières du Morvan et les espèces d'altitude, habitats irremplaçables",
+    "Intensification agricole dans les plaines du nord (Bazois, Nivernais) fragmentant les corridors prairiaux et réduisant les populations d'insectes pollinisateurs",
+    "Prolifération d'espèces exotiques envahissantes (Renouée du Japon, Jussie) le long des cours d'eau, compromettant la biodiversité des ripisylves (UICN/OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "290 000 ha",
+      "label": "Surface PNR Morvan"
+    },
+    {
+      "valeur": ">40%",
+      "label": "Couverture forestière"
+    },
+    {
+      "valeur": "~120",
+      "label": "ZNIEFF recensées (I & II)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Bourgogne-Franche-Comté",
+    "PNR du Morvan – Charte 2022-2037",
+    "SRCE Bourgogne-Franche-Comté / IGN-IFN 2023"
+  ],
+  "limites": [
+    "Les données de suivi des populations d'espèces patrimoniales restent parcellaires hors PNR Morvan, limitant l'évaluation précise pour les plaines nivernaises",
+    "L'état réel des corridors écologiques est peu renseigné par des indicateurs quantitatifs locaux, le SRCE régional n'étant pas décliné à l'échelle communale",
+    "Les pressions agricoles diffuses (intrants, drainage) sur la biodiversité des sols et des zones humides sont sous-documentées faute de suivis systématiques dans le département"
+  ]
+}

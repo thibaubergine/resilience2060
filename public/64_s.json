@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Atlantiques présentent des sols globalement préservés grâce à leur diversité géomorphologique, alliant piémont pyrénéen, zones de bocage basque et plaines béarnaises. Le département comptabilise environ 120 sites et sols pollués recensés dans la base BASOL/Géorisques, un nombre modéré au regard de l'histoire industrielle (chimie lacquoise, PAU aéronautique). La pression phytosanitaire reste significative dans les secteurs maïsicoles de Béarn et sur le vignoble de Jurançon-Madiran, avec des résidus détectés dans les sols agricoles (INRAE 2023). La part de Surface Agricole Utile (SAU) en agriculture biologique atteint environ 14-15% (Agence Bio 2023), performance supérieure à la moyenne nationale (~10,6%), portée par les filières ovines et fromagères du Pays Basque. Le risque radon est majoritairement faible à moyen sur le département, les formations granitiques pyrénéennes induisant toutefois des zones de vigilance localisées en montagne (IRSN, classification potentielle de catégorie 2-3).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "Environ 120 sites BASOL recensés, héritage industriel chimique et aéronautique localisé"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Pression pesticides notable en zone maïsicole béarnaise et vignoble; résidus détectés INRAE"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon faible à modéré; zones granitiques pyrénéennes en vigilance catégorie 2-3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio ~14-15%, bien au-dessus de la moyenne nationale, filières ovines Pays Basque"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU bio autour de 14-15%, soit près de 1,4 fois la moyenne nationale de 10,6% (Agence Bio 2023)",
+    "Diversité pédologique remarquable (sols de montagne, limons de terrasses, terres argilo-calcaires) offrant une résilience naturelle aux pollutions diffuses",
+    "Zones de bocage basque bien préservées limitant l'érosion et la dégradation structurale des sols",
+    "Faible imperméabilisation des sols en secteur rural montagnard, préservant les fonctions d'infiltration et de stockage carbone"
+  ],
+  "vigilances": [
+    "Contamination des sols agricoles par les pesticides en plaine maïsicole (secteurs Orthez, Artix) avec risques de transfert vers les nappes phréatiques croissants d'ici 2030",
+    "Sites industriels hérités (chimie à Lacq, Mourenx) présentant des pollutions résiduelles complexes nécessitant une surveillance longue durée selon Géorisques",
+    "Risque d'érosion accru sur les versants pyrénéens sous l'effet des événements pluvieux extrêmes projetés par DRIAS 2060, menaçant la stabilité des sols de montagne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~120",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "14-15%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Catégorie 2-3",
+      "label": "Risque radon zones montagnes"
+    },
+    {
+      "valeur": "Top 20%",
+      "label": "Rang national qualité sols"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL 2023",
+    "INRAE – Résidus pesticides dans les sols agricoles 2023",
+    "IRSN – Cartographie du risque radon départemental",
+    "Agence Bio – Chiffres clés 2023 Nouvelle-Aquitaine"
+  ],
+  "limites": [
+    "Les données BASOL ne couvrent pas tous les sites potentiellement pollués en diffus (anciens dépôts agricoles, sites ICPE non répertoriés), sous-estimant la réalité locale",
+    "La mesure de résidus pesticides dans les sols pyrénéens repose sur des campagnes INRAE ponctuelles peu représentatives de la diversité des exploitations du département",
+    "L'évaluation du risque radon à l'échelle départementale masque des hétérogénéités importantes entre vallées pyrénéennes à substrat granitique et plaines à faible risque"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Saône (70) affiche une biodiversité relativement préservée grâce à la mosaïque paysagère caractéristique de la plaine saônoise et des contreforts vosgiens, avec environ 14% du territoire classé en zones Natura 2000 (INPN, 2024). Le département accueille plus de 2 500 espèces végétales et une faune diversifiée incluant des populations significatives de loutres d'Europe et de cigognes blanches suivies par la LPO Franche-Comté. La trame verte et bleue bénéficie d'un réseau hydrographique dense articulé autour de la Saône, de l'Ognon et de leurs affluents, constituant des corridors écologiques fonctionnels entre le massif vosgien et la plaine (OFB, 2024). Toutefois, l'intensification agricole sur les plaines céréalières fragilise certains habitats ouverts et la qualité des zones humides associées, avec une réduction estimée à 30% des zones humides fonctionnelles depuis les années 1980 (INPN/OFB). Le PNR des Ballons des Vosges, dont une partie s'étend sur le nord du département, renforce l'armature écologique mais ne couvre qu'une fraction du territoire haut-saônois.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Environ 14% du territoire en Natura 2000, au-dessus de la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Ballons des Vosges partiel, absence de parc national propre"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Loutre, cigogne blanche, milan royal, populations bien documentées LPO"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors Saône-Ognon fonctionnels, pression agricole sur plaines céréalières"
+    }
+  ],
+  "points_forts": [
+    "Réseau Natura 2000 couvrant ~14% du territoire, supérieur à la moyenne française (~12,6%), avec des ZSC et ZPS bien délimitées (INPN, 2024)",
+    "Présence confirmée et stable de la loutre d'Europe sur l'Ognon et ses affluents, espèce bioindicatrice de qualité écologique (LPO Franche-Comté / OFB)",
+    "Retour et nidification régulière du milan royal et de la cigogne blanche, témoignant de la qualité des milieux ouverts et humides du département",
+    "Réseau hydrographique dense (Saône, Ognon, Lanterne) assurant des corridors bleus continus entre massif vosgien et plaine bourguignonne (SRCE Bourgogne-Franche-Comté)"
+  ],
+  "vigilances": [
+    "Régression estimée à 30% des zones humides depuis 1980, fragilisant les habitats d'espèces inféodées aux milieux aquatiques et amphibiens (OFB/INPN)",
+    "Pression des grandes cultures céréalières sur les haies et prairies permanentes, réduisant la connectivité écologique des plaines et la biodiversité entomologique",
+    "Impact potentiel du changement climatique sur les débits de l'Ognon et de la Saône (étiages plus sévères projetés à horizon 2060, DRIAS), menaçant les espèces aquatiques thermosensibles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~14%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Zones humides perdues depuis 1980"
+    },
+    {
+      "valeur": "Partiel",
+      "label": "PNR Ballons des Vosges"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Franche-Comté",
+    "SRCE Bourgogne-Franche-Comté",
+    "DRIAS / Climadiag 2024"
+  ],
+  "limites": [
+    "Les données de suivi des espèces restent hétérogènes sur le territoire haut-saônois, avec une couverture naturaliste moins dense que dans les zones périurbaines ou touristiques voisines",
+    "L'évaluation de l'état de conservation des habitats Natura 2000 n'est pas systématiquement actualisée, rendant difficile l'appréciation fine des tendances récentes",
+    "L'absence de parc national sur le département limite les dispositifs de suivi à long terme et les comparaisons standardisées avec d'autres territoires fortement protégés"
+  ]
+}

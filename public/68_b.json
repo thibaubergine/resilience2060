@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin présente une biodiversité contrastée, marquée par la richesse exceptionnelle du massif vosgien et de la plaine rhénane, mais fortement sous pression dans les zones agricoles intensives de la plaine d'Alsace. Environ 12 % du territoire départemental est couvert par des sites Natura 2000, représentant 30 sites désignés (INPN, 2024), notamment pour la protection des forêts alluviales rhénanes et des pelouses calcaires. Le PNR des Ballons des Vosges, qui couvre une partie significative du département, abrite plus de 1 700 espèces végétales et constitue un refuge pour le Grand tétras (Tetrao urogallus), espèce emblématique en déclin critique avec moins de 100 individus estimés en Alsace (LPO, 2023). Les corridors écologiques restent fragmentés en plaine par l'urbanisation diffuse, l'autoroute A35 et l'agriculture intensive (maïs, viticulture), menaçant la continuité des trames verte et bleue identifiées dans le SRCE Grand Est (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "12 % du territoire en Natura 2000, 30 sites désignés (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Ballons des Vosges couvre largement les hautes chaumes vosgiennes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Grand tétras, cigogne blanche, loutre présentes mais populations fragiles"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés en plaine par A35, urbanisation et agriculture intensive"
+    }
+  ],
+  "points_forts": [
+    "Présence du PNR des Ballons des Vosges, 3 000 km² de territoire protégé incluant le Haut-Rhin, avec plus de 1 700 espèces végétales recensées",
+    "La cigogne blanche (Ciconia ciconia) a retrouvé une population significative en Alsace avec plus de 500 couples nicheurs en 2023 (LPO Grand Est), symbole de reconquête faunistique",
+    "Les forêts alluviales rhénanes (île du Rhin, forêt de la Harth) constituent des zones Natura 2000 d'importance communautaire pour les espèces de la Directive Habitats",
+    "La viticulture alsacienne en conversion biologique (11 % des surfaces en 2023, Agence Bio) contribue ponctuellement à des ilots de biodiversité viticole en plaine"
+  ],
+  "vigilances": [
+    "Le Grand tétras est en voie d'extinction locale avec moins de 100 individus estimés dans les Vosges alsaciennes ; sans plan de gestion renforcé, disparition probable avant 2040 (LPO, 2023)",
+    "La fragmentation des corridors écologiques en plaine d'Alsace s'aggrave avec l'artificialisation des sols, +2,3 % de surfaces imperméabilisées entre 2015 et 2022 (CEREMA), compromettant les trames verte et bleue du SRCE",
+    "Le changement climatique menace les espèces de montagne des Vosges (écrevisses à pieds blancs, amphibiens de zones humides) avec une remontée des isothermes de +2°C anticipée à l'horizon 2060 (Climadiag, DRIAS 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "30 sites",
+      "label": "Sites Natura 2000 (INPN 2024)"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "Couverture Natura 2000 du territoire"
+    },
+    {
+      "valeur": "500+ couples",
+      "label": "Cigognes nicheuses en Alsace (LPO 2023)"
+    },
+    {
+      "valeur": "<100 individus",
+      "label": "Grand tétras restant dans les Vosges"
+    }
+  ],
+  "sources": [
+    "OFB / INPN 2024",
+    "LPO Grand Est 2023",
+    "PNR Ballons des Vosges",
+    "SRCE Grand Est / DREAL Grand Est"
+  ],
+  "limites": [
+    "Les données sur l'état de conservation des espèces en Haut-Rhin spécifiquement (hors Alsace globale) sont souvent agrégées à l'échelle régionale, rendant difficile une évaluation précise à la maille départementale",
+    "Le suivi des corridors écologiques repose sur des cartographies SRCE datant de 2014-2016, peu actualisées pour refléter les dynamiques récentes d'artificialisation en plaine",
+    "L'évaluation de la biodiversité agricole (pollinisateurs, faune des sols) reste lacunaire faute d'inventaires systématiques sur les exploitations conventionnelles du Sundgau et de la plaine d'Alsace"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie bénéficie d'une ressource en eau parmi les plus abondantes de France métropolitaine, alimentée par un réseau hydrographique dense (Isère, Arc, Arve) et d'importants glaciers alpins représentant encore environ 90 km² de surface englacée (Inventaire national des glaciers, CNRS 2023). La qualité des eaux potables distribuées est globalement excellente : plus de 95 % de la population savoyarde consomme une eau conforme aux paramètres microbiologiques et physico-chimiques réglementaires (ARS Auvergne-Rhône-Alpes, 2023). La pression agricole étant modérée sur ce territoire à dominante montagnarde, les teneurs en nitrates restent très inférieures aux seuils de vigilance, avec des masses d'eau souterraines majoritairement en bon état chimique au titre de la Directive Cadre sur l'Eau (Agence de l'eau RMC, cycle 2022-2027). Le projet Explore2 (2023) identifie néanmoins une réduction tendancielle des débits d'étiage alpins de 10 à 30 % à l'horizon 2060, liée à la fonte accélérée du manteau neigeux et au recul glaciaire, signalant une vulnérabilité structurelle à anticiper pour l'alimentation en eau potable des vallées et la production hydroélectrique.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "Plus de 95 % eau conforme; bon état microbiologique et chimique (ARS 2023)"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Réduction étiages alpins 10-30 % horizon 2060 (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Pression agricole faible; nitrates nettement sous les seuils réglementaires (DCE RMC)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Pollutions PFAS détectées ponctuellement; surveillance renforcée post-2023"
+    }
+  ],
+  "points_forts": [
+    "Ressource en eau abondante : réseau hydrographique alpin dense avec plus de 1 500 km de cours d'eau permanents, garantissant une alimentation sécurisée des captages AEP",
+    "Qualité exemplaire des eaux distribuées : 95,4 % de la population alimentée par une eau conforme en continu aux paramètres réglementaires (ARS AuRA, rapport annuel 2023)",
+    "Faible contamination nitrates : les masses d'eau souterraines savoyardes affichent des concentrations moyennes inférieures à 10 mg/L, bien en deçà du seuil d'alerte de 50 mg/L (Agence de l'eau Rhône-Méditerranée-Corse, état des lieux 2022)",
+    "Bon état écologique des masses d'eau : plus de 70 % des masses d'eau superficielles classées en bon ou très bon état au titre de la DCE (Agence de l'eau RMC, 2022)"
+  ],
+  "vigilances": [
+    "Recul glaciaire accéléré : la surface glaciaire savoyarde a diminué de près de 25 % depuis 1985 (CNRS/LGGE 2023), compromettant le soutien d'étiage des cours d'eau alpins à l'horizon 2050-2060",
+    "Stress hydrique saisonnier croissant : Explore2 projette une baisse des débits estivaux de 10 à 30 % à l'horizon 2060, avec risques de tensions sur l'AEP des vallées touristiques à forte fréquentation (Chamonix, Tarentaise, Maurienne)",
+    "Contamination PFAS émergente : des détections de substances per- et polyfluoroalkylées ont été signalées dans certains captages proches de zones industrielles et de sites aéroportuaires; la surveillance nationale renforcée (arrêté du 12 janvier 2023) est en cours d'application en Savoie"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "95,4 %",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "<10 mg/L",
+      "label": "Nitrates eaux souterraines (moy.)"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Débits étiage projetés 2060 (Explore2)"
+    },
+    {
+      "valeur": ">70 %",
+      "label": "Masses d'eau en bon état DCE (RMC 2022)"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes – Rapport qualité eaux 2023",
+    "Agence de l'eau Rhône-Méditerranée-Corse – État des lieux DCE 2022",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "CNRS/LGGE – Inventaire national des glaciers 2023"
+  ],
+  "limites": [
+    "Les données PFAS spécifiques au département 73 restent partielles, la campagne nationale de surveillance exhaustive des captages AEP étant encore en cours début 2024",
+    "Le suivi de la qualité des eaux en altitude (lacs et torrents glaciaires) est moins dense que celui des plaines, créant des lacunes pour les captages d'eau potable des communes de montagne isolées",
+    "Les projections Explore2 sont établies à l'échelle de grands bassins versants et peuvent masquer des disparités importantes entre vallées savoyardes (Isère/Tarentaise vs Arc/Maurienne), limitant la précision de la planification locale"
+  ]
+}

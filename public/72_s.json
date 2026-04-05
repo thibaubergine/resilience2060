@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe présente une situation pédologique contrastée, avec des sols agricoles majoritairement limoneux-argileux soumis à une pression agricole significative. Le département compte environ 85 sites recensés dans la base BASIAS (anciens sites industriels et activités de service) et une trentaine de sites actifs ou traités dans la base ex-BASOL, témoignant d'un héritage industriel modéré (GéoRisques). La contamination des sols agricoles par les résidus de pesticides reste préoccupante, la Sarthe étant un département à dominante grandes cultures (céréales, maïs) et élevage intensif, avec des indices de fréquence de traitement (IFT) supérieurs à la moyenne nationale dans certaines filières (INRAE 2023). L'agriculture biologique couvre environ 7,5 % de la SAU sarthoise, soit environ 45 000 hectares, légèrement en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023). Le risque radon est classé en catégorie 2 à 3 sur une partie du département, notamment dans les zones de socle granitique et schistes au nord-est vers le Perche, nécessitant une vigilance sur les bâtiments (IRSN).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 30 sites BASOL actifs ou traités, pression industrielle modérée"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "IFT élevé grandes cultures et maïs, résidus détectés fréquemment"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon modéré à élevé zone nord-est granitique, reste département faible"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "7,5 % SAU bio, ~45 000 ha, progression lente sous moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "Le risque radon est faible à modéré sur la majorité du territoire sarthois (plaines sédimentaires à l'ouest), classé catégorie 1-2 pour plus de 60 % des communes (IRSN)",
+    "La Sarthe dispose de sols agricoles profonds et fertiles de type limons des plateaux, favorables à une reconversion progressive vers l'agriculture durable",
+    "Le nombre de sites BASOL actifs reste limité (~30 sites) comparé à des départements à forte tradition industrielle, signe d'une pression industrielle historique contenue (GéoRisques)",
+    "Une dynamique de conversion bio est amorcée avec +12 % de surfaces engagées entre 2021 et 2023 (Agence Bio 2023)"
+  ],
+  "vigilances": [
+    "La pression pesticides reste élevée : les sols des zones de grandes cultures (blé, maïs) présentent des détections récurrentes de glyphosate et métabolites dans les analyses de sol (INRAE 2023), avec un risque d'accumulation à long terme",
+    "Le tassement des sols agricoles progresse sous l'effet de la mécanisation lourde, menaçant la structure et la porosité des limons sarthois, sans programme de suivi départemental structuré",
+    "Les zones granitiques du nord-est (Perche sarthois) concentrent un risque radon catégorie 3, avec un potentiel de sous-diagnostic dans le bâti ancien et les constructions sans vide sanitaire (IRSN)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~30 sites",
+      "label": "Sites ex-BASOL actifs ou traités"
+    },
+    {
+      "valeur": "7,5 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Cat. 1-2 (majorité)",
+      "label": "Risque radon communes sarth."
+    },
+    {
+      "valeur": "+12 %",
+      "label": "Progression surfaces bio 2021-2023"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du risque radon par commune",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas les pollutions diffuses agricoles historiques, largement sous-diagnostiquées en Sarthe faute de cartographie systématique des sols agricoles",
+    "L'absence d'un observatoire départemental des sols en Sarthe rend difficile le suivi temporel de la qualité biologique et chimique des terres agricoles (teneur en matière organique, biodiversité microbienne)",
+    "La part de SAU bio calculée par l'Agence Bio peut masquer des disparités territoriales importantes entre le nord-est du département (polyculture-élevage) et les zones de plaine à dominante grandes cultures conventionnelles"
+  ]
+}

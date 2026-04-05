@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Bas-Rhin présente une biodiversité contrastée, avec des milieux remarquables mais sous forte pression anthropique. Le département abrite environ 8,5 % de sa surface en zones Natura 2000 (INPN/OFB 2024), couvrant notamment les forêts rhénanes, les zones humides de la plaine d'Alsace et les secteurs vosgiens, mais ce taux reste inférieur à la moyenne nationale de 12,7 %. Le Parc Naturel Régional des Vosges du Nord (inscrit Réserve de biosphère UNESCO) constitue un atout majeur pour la préservation des habitats forestiers et des espèces associées, couvrant environ 130 000 ha dont une partie significative en Bas-Rhin. Cependant, la plaine agricole du Rhin souffre d'une fragmentation importante des continuités écologiques, avec un réseau de haies en recul de près de 30 % depuis 1980 (LPO Alsace/OFB 2024), pénalisant les espèces de milieux ouverts comme le Hamster d'Europe, classé en danger critique d'extinction. La pression urbaine autour de l'eurométropole de Strasbourg et l'intensification agricole constituent les principales menaces sur les corridors écologiques identifiés dans le Schéma Régional de Cohérence Écologique Grand Est.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 5.0,
+      "note": "Couverture Natura 2000 ~8,5%, inférieure à la moyenne nationale 12,7%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Vosges du Nord et Réserve biosphère UNESCO, atout structurant majeur"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 5.0,
+      "note": "Hamster d'Europe en danger critique, cigogne blanche en légère reprise"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragmentés par urbanisation strasbourgeoise et intensification agricole"
+    }
+  ],
+  "points_forts": [
+    "Le PNR des Vosges du Nord couvre ~130 000 ha et bénéficie du statut de Réserve de biosphère UNESCO, garantissant une gestion intégrée de la biodiversité",
+    "La plaine rhénane héberge des forêts alluviales relictuelles classées en Natura 2000, abritant plus de 1 500 espèces végétales recensées (INPN 2024)",
+    "La Cigogne blanche, emblème alsacien, affiche une population nicheuse en légère hausse avec environ 450 couples en Alsace (LPO Alsace 2023)",
+    "Le réseau de réserves naturelles régionales et nationales (dont la Réserve Naturelle Nationale de l'Île du Rohrschollen près de Strasbourg) assure la préservation de milieux alluviaux rares"
+  ],
+  "vigilances": [
+    "Le Hamster d'Europe (Cricetus cricetus), en danger critique d'extinction, voit son aire de répartition réduite à quelques communes de la plaine alsacienne malgré les plans nationaux d'actions successifs (OFB 2024)",
+    "La fragmentation des corridors écologiques par l'artificialisation des sols progresse : la région Strasbourg-Kehl consomme en moyenne 250 ha/an de milieux naturels et agricoles, menaçant les trames verte et bleue",
+    "Le déclin des pollinisateurs sauvages s'accélère dans les zones de grande culture céréalière de la plaine du Rhin, avec une perte estimée de 40 % des populations d'abeilles sauvages en 20 ans (LPO/OFB Grand Est)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~130 000 ha",
+      "label": "Surface PNR Vosges du Nord"
+    },
+    {
+      "valeur": "~450 couples",
+      "label": "Cigognes blanches nicheuses (Alsace)"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Recul réseau de haies depuis 1980"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Alsace 2023",
+    "PNR Vosges du Nord / UNESCO",
+    "SRCE Grand Est / DREAL Grand Est"
+  ],
+  "limites": [
+    "Les données de suivi des espèces sont hétérogènes : les inventaires naturalistes sont bien documentés dans les zones protégées (Vosges du Nord, zones rhénanes) mais lacunaires dans la plaine agricole intensive, créant un biais d'observation",
+    "L'efficacité réelle des mesures agro-environnementales et climatiques (MAEC) pour le Hamster d'Europe est difficile à évaluer à l'échelle départementale faute de suivi standardisé annuel publié",
+    "La définition administrative des corridors écologiques dans le SRCE Grand Est n'intègre pas encore suffisamment la dimension transfrontalière avec le Bade-Wurtemberg allemand, pourtant essentielle pour les continuités rhénanes"
+  ]
+}

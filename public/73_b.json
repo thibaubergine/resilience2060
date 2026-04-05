@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie (73) présente un patrimoine naturel exceptionnel, avec environ 38 % de sa superficie classée en zones Natura 2000 (INPN, 2024), soit l'une des couvertures les plus élevées de France métropolitaine. Le département abrite le Parc National de la Vanoise, premier parc national français créé en 1963, couvrant 53 500 ha en zone cœur et 145 000 ha en aire d'adhésion, ainsi que le Parc Naturel Régional du Massif des Bauges (86 000 ha). La richesse spécifique est remarquable : plus de 2 500 espèces végétales recensées, des populations stables de bouquetin des Alpes (environ 2 000 individus en Vanoise selon l'OFB 2024), de loup et de lynx. Les corridors écologiques alpins, bien que partiellement fragmentés par les axes autoroutiers (A43, A430) et les stations de ski, demeurent fonctionnels grâce aux dispositifs TVB inscrits au SRADDET Auvergne-Rhône-Alpes (2022). L'état de conservation des habitats d'altitude reste néanmoins sous pression croissante du réchauffement climatique, avec un recul documenté des glaciers et des pelouses alpines (INPN/LPO, 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "38% du territoire en Natura 2000, parmi les plus hauts taux nationaux"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PN Vanoise + PNR Bauges, protection emblématique et historique"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Bouquetin, loup, lynx, gypaète barbu, espèces alpines remarquables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Corridors TVB globalement fonctionnels, fragmentation limitée par axes routiers"
+    }
+  ],
+  "points_forts": [
+    "Parc National de la Vanoise : premier PN français (1963), 53 500 ha en zone cœur, refuge du bouquetin avec ~2 000 individus recensés (OFB, 2024)",
+    "Couverture Natura 2000 parmi les plus élevées : ~38 % de la superficie départementale classée ZSC/ZPS (INPN, 2024)",
+    "Présence confirmée de grands carnivores (loup, lynx) et du gypaète barbu, indicateurs d'écosystèmes alpins fonctionnels (LPO, 2023)",
+    "PNR du Massif des Bauges (86 000 ha) assurant une continuité écologique entre massifs préalpins et intra-alpins"
+  ],
+  "vigilances": [
+    "Recul accéléré des glaciers savoyards (glacier de la Vanoise -30 % de volume depuis 1985) menaçant les habitats cryophiles et les zones humides d'altitude (INPN/Climadiag, 2023)",
+    "Fragmentation des corridors écologiques par les infrastructures touristiques (domaines skiables >150 000 ha d'emprise totale) et les axes A43/A430, risquant d'isoler des populations faunistiques",
+    "Espèces alpines spécialisées (ptarmigan, niverolle, edelweiss) sous forte pression climatique : remontée altitudinale des biomes estimée à +300 m d'ici 2060 (DRIAS, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~38 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "53 500 ha",
+      "label": "Cœur PN Vanoise"
+    },
+    {
+      "valeur": "~2 000",
+      "label": "Bouquetins Vanoise (OFB 2024)"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces végétales recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Auvergne-Rhône-Alpes 2023",
+    "SRADDET AuRA 2022",
+    "Climadiag / DRIAS 2023"
+  ],
+  "limites": [
+    "Les données INPN sur l'état de conservation des habitats Natura 2000 savoyards ne sont pas toutes actualisées post-2020, limitant l'évaluation précise des tendances récentes",
+    "L'impact réel des domaines skiables sur la TVB reste difficile à quantifier faute de cartographie exhaustive des continuités écologiques à l'échelle parcellaire en Savoie",
+    "Les inventaires faunistiques de haute altitude (>2 500 m) sont lacunaires en dehors du PN Vanoise, sous-estimant potentiellement la richesse et les pressions dans les massifs périphériques"
+  ]
+}

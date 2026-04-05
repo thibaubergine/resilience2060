@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Bas-Rhin, département densément urbanisé et industrialisé autour de Strasbourg et du couloir rhénan, présente une qualité de l'air dégradée par rapport aux normes OMS 2021 révisées. Les concentrations moyennes annuelles en PM2,5 atteignent 11–13 µg/m³ dans l'agglomération strasbourgeoise (ATMO Grand Est, 2022), dépassant le seuil OMS de 5 µg/m³, bien que conformes aux valeurs limites européennes. Le NO₂ reste problématique en zones de trafic dense, avec des pics dépassant 30 µg/m³ sur certains axes strasbourgeois (ATMO Grand Est, 2023), proches de la limite annuelle UE de 40 µg/m³. Le tissu industriel du Bas-Rhin, concentré autour de l'Eurométropole et de la vallée du Rhin, génère des émissions significatives de COV et de particules (Citepa/IREP), tandis que les émissions d'ammoniac agricoles, bien que modérées à l'échelle nationale, contribuent à la formation de particules secondaires dans la plaine d'Alsace.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 5.0,
+      "note": "PM2,5 autour 11-13 µg/m³, dépassant largement le seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 4.0,
+      "note": "NO₂ élevé axes strasbourgeois, pics proches 30-35 µg/m³ annuel"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Industrie rhénane dense, émissions COV et particules significatives (IREP)"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Émissions NH₃ agricoles modérées, plaine alsacienne moins intensive"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance dense : ATMO Grand Est opère plus de 15 stations fixes dans le Bas-Rhin, offrant un suivi fin de la qualité de l'air",
+    "Tendance à la baisse des PM10 : réduction d'environ 20% des concentrations en PM10 entre 2010 et 2022 sur l'agglomération strasbourgeoise (ATMO Grand Est)",
+    "Politique de mobilité durable : Strasbourg, pionnière du tramway (réseau >60 km), contribue à limiter les émissions de trafic par rapport à d'autres métropoles françaises",
+    "Absence de dépassement réglementaire UE pour le NO₂ depuis 2019 sur la plupart des stations, signe d'une amélioration progressive"
+  ],
+  "vigilances": [
+    "Pollution transfrontalière : le couloir rhénan concentre des flux industriels et routiers franco-allemands, avec une exposition cumulée difficile à maîtriser unilatéralement, risquant de compromettre les objectifs OMS 2030",
+    "Épisodes de pollution hivernale récurrents : inversions thermiques fréquentes en plaine d'Alsace favorisent l'accumulation de PM2,5 et d'ozone secondaire, phénomène susceptible de s'intensifier avec le changement climatique (DRIAS 2060)",
+    "Ozone estival en hausse : les projections climatiques DRIAS indiquent une augmentation des journées chaudes, aggravant la formation d'ozone troposphérique (O₃ > 120 µg/m³) dans la plaine alsacienne d'ici 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "11-13 µg/m³",
+      "label": "PM2,5 moyen Strasbourg (2022)"
+    },
+    {
+      "valeur": ">5 µg/m³",
+      "label": "Seuil OMS PM2,5 dépassé"
+    },
+    {
+      "valeur": "30-35 µg/m³",
+      "label": "NO₂ axes trafic dense"
+    },
+    {
+      "valeur": "60 km+",
+      "label": "Réseau tramway Strasbourg"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2022-2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa / Registre IREP émissions industrielles",
+    "DRIAS / Climadiag projections climatiques Grand Est"
+  ],
+  "limites": [
+    "Les données ATMO couvrent principalement l'Eurométropole de Strasbourg ; les zones rurales du nord (Outre-Forêt) et du piémont vosgien sont sous-représentées dans le réseau de mesure",
+    "La pollution transfrontalière avec le Bade-Wurtemberg et la Suisse n'est pas intégrée dans les inventaires nationaux français, sous-estimant l'exposition réelle des populations riveraines du Rhin",
+    "Les seuils réglementaires européens, encore supérieurs aux recommandations OMS 2021, peuvent masquer des enjeux sanitaires réels pour les populations vulnérables du département"
+  ]
+}

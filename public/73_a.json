@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie affiche une qualité de l'air globalement favorable, bénéficiant de sa topographie alpine qui favorise la dispersion des polluants sur la majeure partie du territoire. Les concentrations moyennes annuelles en PM2,5 restent inférieures à 10 µg/m³ sur les zones rurales et de montagne, bien en deçà de la norme OMS 2021 (5 µg/m³) mais parmi les meilleures performances françaises (ATMO Auvergne-Rhône-Alpes, 2023). Le NO₂ urbain demeure modéré, avec des pics observés dans les vallées encaissées de Chambéry et Albertville, où l'effet de cuvette piège les émissions routières et de chauffage au bois (ATMO AuRA, 2022). La Savoie présente une densité industrielle émettrice limitée, avec quelques sites classés SEVESO et des activités d'électrolyse à Saint-Jean-de-Maurienne (Trimet/Aluminium Dunkerque) représentant une source ponctuelle de fluorures et de SO₂ (CITEPA, 2023). Les émissions agricoles d'ammoniac (NH₃) restent contenues grâce à la prédominance de l'élevage extensif bovin laitier, caractéristique du système d'alpage savoyard.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 ruraux < 10 µg/m³, vallées alpines sous normes françaises"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ modéré; vallées Chambéry/Albertville soumises à effet de cuvette"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries émettrices; site aluminium Maurienne, impact localisé"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 9.0,
+      "note": "Élevage extensif alpin; NH₃ agricole parmi les plus faibles de France"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 10 µg/m³ sur plus de 80 % du territoire, parmi les meilleures valeurs de la région AURA (ATMO AuRA, 2023)",
+    "Faible densité industrielle émettrice : moins de 10 installations classées ICPE A à fort impact atmosphérique recensées hors vallée de la Maurienne (DREAL AuRA, 2023)",
+    "Prédominance de l'élevage laitier extensif d'alpage limitant structurellement les émissions d'ammoniac (NH₃ < 2 kg/ha SAU, Citepa 2022)",
+    "Réseau de surveillance ATMO AuRA dense avec stations en altitude permettant un suivi spécifique de l'ozone troposphérique et des particules fines en contexte alpin"
+  ],
+  "vigilances": [
+    "Pollution hivernale aux particules fines (PM2,5 et PM10) dans les vallées encaissées de Chambéry et Albertville lors d'épisodes d'inversion thermique, avec dépassements ponctuels du seuil d'information OMS (ATMO AuRA, 2022-2023)",
+    "Émissions de fluorures et polluants spécifiques liés à l'électrolyse d'aluminium à Saint-Jean-de-Maurienne (site Trimet) : surveillance renforcée mais risque de contamination locale persistant",
+    "Augmentation prévisible des concentrations en ozone troposphérique avec le réchauffement climatique en contexte alpin, affectant notamment les écosystèmes d'altitude et la santé des populations estivales (DRIAS 2060, projection RCP 8.5)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 10 µg/m³",
+      "label": "PM2,5 moyen zones rurales"
+    },
+    {
+      "valeur": "~18 µg/m³",
+      "label": "NO₂ pic vallée Chambéry"
+    },
+    {
+      "valeur": "< 10 ICPE-A",
+      "label": "Installations émettrices majeures"
+    },
+    {
+      "valeur": "< 2 kg/ha SAU",
+      "label": "Émissions NH₃ agricoles"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes 2023",
+    "CITEPA Inventaire national 2022-2023",
+    "DREAL Auvergne-Rhône-Alpes 2023",
+    "OMS Lignes directrices qualité de l'air 2021"
+  ],
+  "limites": [
+    "La topographie alpine complexe de la Savoie rend la modélisation de la dispersion des polluants incertaine dans les fonds de vallée, où les données de stations peuvent sous-représenter les pics locaux",
+    "Le chauffage au bois individuel, très répandu en Savoie (résidences secondaires et principales en montagne), génère des émissions de particules fines et HAP difficiles à quantifier précisément à l'échelle infra-départementale",
+    "Les données sur la qualité de l'air en altitude (stations de ski, alpages) restent parcellaires, limitant l'évaluation complète de l'exposition des populations saisonnières et des écosystèmes d'altitude"
+  ]
+}

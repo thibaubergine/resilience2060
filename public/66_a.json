@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Orientales affichent une qualité de l'air globalement satisfaisante, avec des concentrations moyennes annuelles en PM2,5 estimées autour de 8-10 µg/m³ selon ATMO Occitanie, en dessous du seuil européen (25 µg/m³) mais au-dessus de la valeur guide OMS 2021 (5 µg/m³). Le département bénéficie d'une faible densité industrielle émettrice, notamment en l'absence de grandes zones industrielles lourdes comparables à celles des métropoles régionales. Perpignan, principale agglomération, enregistre des pics de NO₂ modérés liés à la circulation routière, avec des valeurs annuelles comprises entre 15 et 25 µg/m³ selon les stations ATMO (OMS : 10 µg/m³). Les émissions d'ammoniac (NH₃) sont non négligeables en lien avec la viticulture intensive et l'élevage, le secteur agricole représentant une part significative des émissions locales selon le Citepa. La topographie pyrénéenne favorise localement des phénomènes de confinement atmosphérique dans les vallées, pouvant aggraver ponctuellement les concentrations en polluants.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~9 µg/m³, sous seuil EU mais dépasse guide OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ Perpignan modéré, 15-25 µg/m³, trafic routier limité"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Faible industrie lourde, absence de sites SEVESO majeurs émetteurs"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Agriculture viticole et élevage génèrent NH₃ notable, pression persistante"
+    }
+  ],
+  "points_forts": [
+    "Concentrations PM2,5 parmi les plus basses du quart méditerranéen, ~9 µg/m³ annuel (ATMO Occitanie)",
+    "Absence de grande zone industrielle polluante : aucun site classé en dépassement NO₂ chronique (ATMO Occitanie 2022-2023)",
+    "Bénéfice de vents réguliers (Tramontane) favorisant le brassage et la dispersion des polluants atmosphériques",
+    "Faible densité de population hors littoral limitant les émissions de chauffage et de transport sur une grande partie du territoire"
+  ],
+  "vigilances": [
+    "Épisodes de pollution aux particules en suspension (PM10) lors de remontées de poussières sahariennes, fréquence en hausse avec le réchauffement climatique selon Météo-France",
+    "Perpignan exposée à des pics d'ozone estival (O₃ > 120 µg/m³) croissants avec l'augmentation des températures projetées à +2-3°C d'ici 2060 (DRIAS)",
+    "Émissions NH₃ agricoles structurellement élevées liées à la viticulture (utilisation d'engrais azotés) et à l'élevage ovin, contribuant à la formation de particules secondaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "15-25 µg/m³",
+      "label": "NO₂ urbain Perpignan"
+    },
+    {
+      "valeur": ">120 µg/m³",
+      "label": "Seuils O₃ estivaux dépassés (jours/an)"
+    },
+    {
+      "valeur": "~35%",
+      "label": "Part agricole dans émissions NH₃ locales"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions polluantes",
+    "Météo-France / DRIAS – Projections climatiques Occitanie"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est concentré sur Perpignan et le littoral, laissant les vallées pyrénéennes et l'arrière-pays peu documentés",
+    "Les données sur les émissions NH₃ agricoles locales manquent de désagrégation à l'échelle communale, rendant l'évaluation de hotspots difficile",
+    "Les épisodes de transport transfrontalier de polluants depuis l'Espagne (corridor catalan) sont insuffisamment quantifiés dans les bilans départementaux disponibles"
+  ]
+}

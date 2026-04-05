@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Orientales affichent un profil alimentaire notable avec une superficie agricole utilisée (SAU) d'environ 103 000 hectares, dont une part croissante dédiée à l'agriculture biologique qui atteignait 16,4 % en 2023, supérieure à la moyenne nationale (Agence Bio 2023). Le département est historiquement reconnu pour ses productions sous signes de qualité, notamment la Catalogne française, berceau de vignobles AOP (Côtes du Roussillon, Rivesaltes, Maury) et de fruits IGP (Pêche et Nectarine du Roussillon), représentant plusieurs dizaines de milliers d'hectares valorisés (INAO 2024). L'indicateur ZAVA (Zones à vocation agricole et alimentaire) positionne le département dans une autonomie alimentaire partielle, avec une production horticole et maraîchère significative mais une dépendance aux importations pour certaines filières céréalières et protéagineuses (ZAVA 2024). Les circuits courts et AMAP se développent activement sur le littoral et dans la plaine du Roussillon, soutenus par la Chambre d'agriculture 66 et le PAT (Projet Alimentaire Territorial) de Perpignan Méditerranée Métropole. Toutefois, la pression foncière littorale et les épisodes de sécheresse récurrents fragilisent la pérennité de certaines exploitations maraîchères et arboricoles (Chambre Agriculture 66, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie partielle, maraîchage fort mais déficit céréales-protéines locales"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Nombreuses AOP/IGP viticoles et fruitières, Roussillon reconnu nationalement"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.5,
+      "note": "16,4 % SAU bio en 2023, supérieur à la moyenne nationale (10,5 %)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "AMAP en développement, PAT Perpignan actif mais maillage rural encore limité"
+    }
+  ],
+  "points_forts": [
+    "Vignobles AOP parmi les plus diversifiés du sud de la France : Rivesaltes, Maury, Banyuls, Côtes du Roussillon (INAO 2024), représentant plus de 20 000 ha",
+    "Part de SAU bio à 16,4 % en 2023 (Agence Bio), soit 6 points au-dessus de la moyenne nationale, avec 780 exploitations engagées",
+    "IGP Pêche et Nectarine du Roussillon couvrant environ 3 500 ha et générant 60 000 t/an, première production fruitière départementale (INAO/FranceAgriMer)",
+    "Projet Alimentaire Territorial (PAT) de Perpignan Méditerranée Métropole labellisé niveau 2, structurant les filières locales maraîchères et la restauration collective"
+  ],
+  "vigilances": [
+    "Sécheresses répétées (déficit hydrique estival +30 % d'intensité projeté d'ici 2050, DRIAS) menaçant directement l'arboriculture et le maraîchage irrigué du Roussillon",
+    "Pression foncière littorale croissante réduisant la SAU disponible : perte estimée à 1 500 ha/décennie dans la plaine du Roussillon (Observatoire foncier Occitanie)",
+    "Dépendance aux importations pour les filières céréalières et légumineuses, fragilisant l'autonomie alimentaire du territoire en cas de rupture logistique ou climatique extrême"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "103 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "16,4 %",
+      "label": "Part SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "780",
+      "label": "Exploitations bio actives"
+    },
+    {
+      "valeur": "20 000 ha",
+      "label": "Vignobles sous AOP"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024",
+    "ZAVA 2024",
+    "Chambre d'Agriculture 66 / PAT Perpignan Méditerranée Métropole"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale Occitanie et ne permettent pas toujours une désagrégation fiable au niveau départemental 66",
+    "La diversité des circuits courts est difficile à quantifier précisément, les recensements AMAP étant partiels et non systématiquement actualisés en zone rurale pyrénéenne",
+    "Les projections d'impact climatique sur les rendements agricoles locaux sont encore peu spécifiques aux microclimats des différentes zones (littoral, plaine, piémont), limitant la précision de l'évaluation prospective"
+  ]
+}

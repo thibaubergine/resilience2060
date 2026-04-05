@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Rhône (69), dominé par la métropole lyonnaise (1,4 million d'habitants), présente une qualité de l'air structurellement dégradée par la densité du trafic routier, de l'industrie et du chauffage résidentiel. Les concentrations annuelles de PM2,5 atteignent 10 à 14 µg/m³ sur les zones urbaines lyonnaises selon ATMO Auvergne-Rhône-Alpes (2023), dépassant la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ demeure problématique sur les axes à fort trafic avec des pics atteignant 30 à 40 µg/m³ annuels près des boulevards périphériques (ATMO AuRA, 2023), proche de la valeur limite européenne de 40 µg/m³. La vallée du Rhône concentre par ailleurs plusieurs installations classées ICPE émettrices significatives, plaçant ce département parmi les plus exposés de la région. Les émissions agricoles d'ammoniac (NH₃) restent en revanche modérées compte tenu de la faible part de surfaces agricoles intensives dans un territoire très urbanisé (Citepa 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 10-14 µg/m³ en zone urbaine, bien au-dessus des 5 µg/m³ OMS"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 4.0,
+      "note": "NO₂ proche 40 µg/m³ sur axes lyonnais, limite européenne souvent frôlée"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Forte densité ICPE industrielles émettrices, couloir rhodanien concentré"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Faible pression agricole NH₃, territoire très urbanisé, peu d'élevage intensif"
+    }
+  ],
+  "points_forts": [
+    "Émissions agricoles d'ammoniac (NH₃) parmi les plus faibles des 96 départements grâce à une faible SAU (≈18% du territoire) (Citepa 2022)",
+    "Plans d'action ZFE-m (Zone à Faibles Émissions) actifs sur la Métropole de Lyon depuis 2023, réduisant le parc diesel polluant",
+    "Réseau de surveillance ATMO Auvergne-Rhône-Alpes dense (20+ stations sur le Rhône), offrant un suivi fin et réactif des polluants",
+    "Tendance à la baisse des émissions de SOₓ industriels sur 10 ans grâce aux efforts de modernisation des ICPE (ATMO AuRA 2023)"
+  ],
+  "vigilances": [
+    "Persistance d'épisodes de pollution aux particules fines (PM2,5 et PM10) en hiver, aggravés par les conditions de blocage atmosphérique en fond de vallée (50+ jours/an potentiellement concernés selon ATMO AuRA)",
+    "La ZFE-m lyonnaise, bien qu'ambitieuse, expose à des inégalités sociales d'accès si le renouvellement du parc n'est pas accompagné : risque de maintien de l'exposition dans les quartiers périphériques moins surveillés",
+    "Croissance du trafic sur le périphérique lyonnais et les autoroutes A6/A7 (nœud de transit national) susceptible de contrecarrer les gains de dépollution à l'horizon 2030 malgré l'électrification progressive"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "PM2,5 annuel zone urbaine (ATMO 2023)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 (seuil référence)"
+    },
+    {
+      "valeur": "~40 µg/m³",
+      "label": "NO₂ max annuel axes lyonnais"
+    },
+    {
+      "valeur": ">200 ICPE",
+      "label": "Installations classées émettrices dans le Rhône"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes – Bilan qualité de l'air 2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2022",
+    "Métropole de Lyon – Rapport ZFE-m 2023"
+  ],
+  "limites": [
+    "La séparation administrative entre le Rhône (69) et la Métropole de Lyon (69M) depuis 2015 complexifie la lecture des données : certaines stations ATMO et inventaires ICPE restent agrégés à l'échelle de l'ancienne entité, rendant difficile la distinction stricte des émissions du seul département hors métropole",
+    "Les données PM2,5 disponibles publiquement sont issues de stations fixes urbaines et périurbaines ; les zones rurales de l'ouest du département (Monts du Beaujolais) sont sous-représentées, pouvant sous-estimer ou surestimer les moyennes départementales",
+    "L'absence d'inventaire spatialisé actualisé à l'échelle communale pour le NH₃ et les COV (composés organiques volatils) issus des activités artisanales lyonnaises limite la précision du score sur la densité émettrice industrielle et diffuse"
+  ]
+}

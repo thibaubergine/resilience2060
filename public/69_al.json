@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Rhône (69), dominé par la métropole lyonnaise et ses 1,4 million d'habitants, affiche un profil alimentaire contrasté : avec seulement 67 000 ha de SAU (Agreste 2023), sa surface agricole utile est l'une des plus réduites de France métropolitaine, limitant structurellement l'autonomie alimentaire du territoire. La part de l'agriculture biologique représente environ 9,8 % de la SAU (Agence Bio 2023), soit un niveau légèrement inférieur à la moyenne nationale (10,7 %), mais en progression constante. Le Rhône bénéficie d'une richesse patrimoniale gastronomique notable avec plusieurs AOP/IGP emblématiques (Volaille de Bresse AOP, vins de Beaujolais IGP, Coteaux du Lyonnais AOC), contribuant à un tissu agri-alimentaire de qualité (INAO 2023). En contrepartie, la Zone à Autonomie Vivrière Alimentaire (ZAVA 2024) révèle un déficit marqué de production locale face à une demande urbaine très élevée, tandis que les circuits courts et AMAP se développent activement autour de Lyon, avec plus de 60 AMAP recensées dans le département (FNAB/AMAP Rhône-Alpes 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "Forte dépendance alimentaire extérieure, SAU très limitée face métropole lyonnaise"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs AOP/IGP reconnues : Beaujolais, Coteaux du Lyonnais, Volaille Bresse"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "9,8 % SAU bio, progression régulière, légèrement sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Plus de 60 AMAP actives, dynamisme circuits courts autour agglomération lyonnaise"
+    }
+  ],
+  "points_forts": [
+    "Plus de 60 AMAP recensées dans le département, portées par la forte demande urbaine lyonnaise (FNAB/AMAP Rhône-Alpes 2023)",
+    "Patrimoine AOP/IGP solide : AOC Beaujolais (13 appellations), Coteaux du Lyonnais, Volaille de Bresse AOP couvrant une partie du territoire (INAO 2023)",
+    "Progression de l'agriculture biologique : +3,2 % de surfaces certifiées entre 2021 et 2023 (Agence Bio 2023)",
+    "Présence de marchés de producteurs actifs et d'initiatives métropolitaines comme la Métropole de Lyon Alimentation Durable (Plan Alimentaire Territorial 2021-2026)"
+  ],
+  "vigilances": [
+    "Dépendance alimentaire structurelle très élevée : la SAU du Rhône (67 000 ha) est insuffisante pour nourrir 1,85 million d'habitants, un déficit qui s'aggravera avec l'étalement urbain projeté (Agreste/SCOT 2040)",
+    "Pression foncière intense autour de Lyon : artificialisation des terres agricoles en hausse, avec risque de perte irréversible de surfaces cultivables (DREAL AuRA, observatoire foncier 2023)",
+    "Vulnérabilité aux aléas climatiques des vignobles beaujolais : gel tardif et sécheresse estivale menacent les rendements, avec des épisodes récurrents (2021, 2022) affectant la production locale (Météo-France/Climadiag 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "67 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "9,8 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "60+",
+      "label": "AMAP actives dans le département"
+    },
+    {
+      "valeur": "13",
+      "label": "Appellations AOC Beaujolais"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "ZAVA 2024",
+    "Agreste Rhône 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations à l'échelle départementale, ne distinguant pas les flux intra-métropolitains des échanges régionaux",
+    "La diversité des systèmes agricoles entre plaine du Rhône, Beaujolais et monts du Lyonnais rend difficile une évaluation homogène de la résilience alimentaire territoriale",
+    "Le périmètre du département du Rhône (hors Métropole de Lyon depuis 2015) fragmente les statistiques agricoles et alimentaires, certaines données incluant ou excluant la Métropole selon les sources, ce qui nuit à la comparabilité interdépartementale"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe présente un profil alimentaire intermédiaire (6,5/10, rang estimé 35-45/96) porté par une agriculture diversifiée couvrant environ 365 000 ha de SAU, soit 65 % du territoire départemental (Agreste 2023). Le département bénéficie de productions sous signes de qualité reconnus, notamment la Volaille de la Sarthe IGP et les Rillettes du Mans IGP, qui structurent une identité gastronomique forte mais dont le nombre d'appellations reste modeste comparé aux départements viticoles (INAO 2024). La part de la superficie agricole en agriculture biologique s'établit à environ 5,8 % de la SAU, légèrement en dessous de la moyenne nationale de 6,2 % (Agence Bio 2023), révélant une transition agroécologique encore incomplète. Les circuits courts connaissent un développement notable avec plus de 280 exploitations déclarant vendre en circuit court (Agreste, recensement agricole 2020), mais la densité d'AMAP reste faible au regard de la population de 570 000 habitants. L'autonomie alimentaire locale, mesurée via la démarche ZAVA 2024, reste partielle, le territoire dépendant d'intrants extérieurs pour ses productions animales dominantes (bovins lait, porcins).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Production animale forte, intrants extérieurs limitent autonomie complète (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Rillettes du Mans IGP, Volaille Sarthe IGP ; offre qualitative reconnue (INAO 2024)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "5,8 % SAU bio, légèrement sous moyenne nationale 6,2 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "280+ exploitations circuits courts ; dynamique AMAP en progression (Agreste 2020)"
+    }
+  ],
+  "points_forts": [
+    "Les Rillettes du Mans IGP et la Volaille de la Sarthe IGP ancrent une identité alimentaire reconnue nationalement et à l'export (INAO 2024)",
+    "Plus de 280 exploitations engagées en vente directe ou circuits courts, soit ~15 % des exploitations sarthoises (Agreste, recensement 2020)",
+    "Une SAU importante de 365 000 ha offrant un potentiel de diversification et d'autonomie alimentaire territoriale élevé (Agreste 2023)",
+    "Présence d'initiatives locales de structuration (PAT – Projet Alimentaire Territorial) portées par Le Mans Métropole, favorisant les synergies producteurs-consommateurs"
+  ],
+  "vigilances": [
+    "La transition bio stagne à 5,8 % de la SAU, risquant un décrochage par rapport aux objectifs nationaux de 18 % d'ici 2027 (Plan Bio, Agence Bio 2023)",
+    "La dépendance aux intrants extérieurs (alimentation animale porcine et avicole) fragilise l'autonomie alimentaire face aux chocs d'approvisionnement internationaux (ZAVA 2024)",
+    "Le vieillissement des exploitants (âge moyen 52 ans en Sarthe, Agreste 2020) menace la continuité des exploitations en circuits courts et le renouvellement des signes de qualité"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "365 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "5,8 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "280+",
+      "label": "Exploitations en circuits courts"
+    },
+    {
+      "valeur": "2 IGP",
+      "label": "Appellations qualité (Rillettes, Volaille)"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre des signes officiels de qualité",
+    "Agence Bio 2023 – Chiffres clés agriculture biologique",
+    "Agreste 2020-2023 – Recensement agricole et statistiques SAU",
+    "ZAVA 2024 – Zones à Vocation Alimentaire, autonomie territoriale"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire de la Sarthe restent agrégées à l'échelle régionale Pays de la Loire, rendant l'analyse infra-départementale incertaine",
+    "La dynamique réelle des AMAP sarthoises n'est pas exhaustivement référencée dans les bases nationales, sous-estimant potentiellement les circuits de proximité",
+    "Les indicateurs de qualité nutritionnelle des productions locales (teneur en pesticides, diversité des cultures) sont absents des bases INAO/Agreste, limitant l'évaluation sanitaire de l'offre alimentaire"
+  ]
+}

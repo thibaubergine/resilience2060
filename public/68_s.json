@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin présente un profil pédologique marqué par son passé industriel dense (textile, chimie, potasse), avec un nombre significatif de sites pollués recensés dans la base BASOL/GéoRisques, notamment dans le bassin potassique du Florival et la plaine rhénane. Les sols agricoles de la plaine d'Alsace, à dominante limoneuse et très productive, accusent une pression phytosanitaire élevée liée aux grandes cultures de maïs, de betterave et à la viticulture intensive, avec des résidus de pesticides détectés dans les sols et eaux souterraines (INRAE 2023). Le radon constitue une préoccupation modérée à élevée sur les secteurs granitiques et vosgiens du département, classés en zone 2 à 3 par l'IRSN. L'agriculture biologique progresse mais reste en deçà de la moyenne nationale, avec environ 8 à 9 % de la SAU en bio en 2023 (Agence Bio), freinée par la pression foncière et la structure des exploitations viticoles et céréalières.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Nombreux sites BASOL liés à l'industrie potassière, chimique et textile alsacienne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression phytosanitaire élevée, viticulture et maïs, résidus détectés (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Zones vosgiennes en niveau 2-3 radon ; plaine moins exposée (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio ~8-9 %, progression notable mais sous moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU bio en progression constante, atteignant ~9 % en 2023, tirée par la filière maraîchère et viticole bio (Agence Bio 2023)",
+    "Présence de sols viticoles d'exception (AOC Alsace) bénéficiant de pratiques de préservation des terres à haute valeur agronomique (INAO)",
+    "Efforts de dépollution engagés sur plusieurs anciens sites MDPA (Mines de Potasse d'Alsace) avec suivi régulier GéoRisques",
+    "Réseau de surveillance des sols agricoles partiellement couvert par le programme RMQS (Réseau de Mesure de la Qualité des Sols, INRAE)"
+  ],
+  "vigilances": [
+    "Contamination résiduelle aux métaux lourds (cadmium, plomb) et hydrocarbures sur les anciens sites industriels de la plaine de la Largue et du bassin potassique, avec risques de transfert vers les nappes phréatiques",
+    "Pression pesticides soutenue sur la plaine agricole rhénane : présence de métolachlore et de glyphosate détectés dans les sols et eaux associées, tendance peu favorable selon INRAE 2023",
+    "Exposition au radon non négligeable dans les piémonts vosgiens et secteurs granitiques : environ 20 % du territoire en zone à potentiel radon significatif (IRSN), nécessitant un suivi renforcé des bâtiments"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 %",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": ">80 sites",
+      "label": "Sites pollués ou en surveillance (GéoRisques/ex-BASOL)"
+    },
+    {
+      "valeur": "Zone 2-3",
+      "label": "Potentiel radon secteurs vosgiens (IRSN)"
+    },
+    {
+      "valeur": "~450 000 ha",
+      "label": "Surface agricole utile totale du département"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Résidus pesticides et qualité des sols 2023",
+    "IRSN – Carte du potentiel radon par département",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL/GéoRisques ne couvrent pas tous les sites à surveiller : les pollutions diffuses agricoles de la plaine rhénane sont sous-documentées à l'échelle parcellaire",
+    "Le réseau RMQS offre une maille d'observation trop large pour refléter les hétérogénéités locales des sols alsaciens, notamment entre plaine et piedmont",
+    "L'absence de cartographie systématique des teneurs en pesticides dans les sols viticoles du Haut-Rhin limite l'évaluation précise de la contamination de ce type de SAU à haute valeur"
+  ]
+}

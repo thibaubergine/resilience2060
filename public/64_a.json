@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Pyrénées-Atlantiques affiche une qualité de l'air globalement favorable, bénéficiant de conditions géographiques et météorologiques avantageuses : la façade atlantique et le relief pyrénéen favorisent une dispersion efficace des polluants par des vents dominants d'ouest fréquents et soutenus. Les concentrations en PM2,5 restent en dessous du seuil OMS 2021 (5 µg/m³) sur la majorité du territoire, avec des moyennes annuelles autour de 7–9 µg/m³ mesurées par ATMO Nouvelle-Aquitaine, concentrées principalement dans l'agglomération bayonnaise (Bayonne-Anglet-Biarritz). Les niveaux de NO₂ urbain demeurent modérés, avec des valeurs autour de 15–20 µg/m³ en zone urbaine dense (ATMO Nouvelle-Aquitaine, 2022–2023), bien inférieurs au seuil réglementaire européen de 40 µg/m³. Le tissu industriel, concentré autour du pôle de Lacq (ancienne plateforme gazière reconvertie), génère des émissions localisées de soufre et de composés organiques volatils, mais reste limité en comparaison des grandes zones industrielles françaises (Citepa 2023). Les émissions agricoles d'ammoniac (NH₃), liées à l'élevage bovin et ovin intensif du Pays Basque et du Béarn, constituent le principal point de vigilance structurel du département.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 moyens ~7–9 µg/m³, inférieurs au seuil OMS, territoire bien ventilé"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain ~15–20 µg/m³ à BAB, nettement sous le seuil européen"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Plateforme Lacq émettrice localisée, faible densité industrielle globale"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Élevage ovin-bovin générateur NH₃, pression modérée vs grands bassins"
+    }
+  ],
+  "points_forts": [
+    "Concentrations moyennes annuelles en PM2,5 autour de 7–9 µg/m³, parmi les plus faibles du quart sud-ouest français (ATMO Nouvelle-Aquitaine, 2023)",
+    "Aucun dépassement du seuil réglementaire européen en NO₂ (40 µg/m³) ni en PM10 (50 µg/m³) enregistré sur le réseau de mesure départemental ces 3 dernières années",
+    "Vents d'ouest atlantiques dominants assurant un renouvellement naturel de masse d'air particulièrement efficace, limitant les épisodes de pollution persistants",
+    "Reconversion progressive de la plateforme de Lacq vers des activités de chimie verte et décarbonée, réduisant structurellement les émissions industrielles locales (Chemesis/Lacq Cluster Chimie)"
+  ],
+  "vigilances": [
+    "La vallée de l'Adour et l'agglomération Bayonne-Anglet-Biarritz concentrent un trafic routier croissant (A63, RN10) susceptible d'augmenter les pics de NO₂ et PM lors d'épisodes anticycloniques estivaux, tendance à la hausse avec l'essor touristique",
+    "Les émissions d'ammoniac (NH₃) issues de l'élevage (bovins lait, ovins lait pour fromages AOP) restent une source de précurseurs de PM2,5 secondaires, avec une sensibilité accrue en période estivale sèche projetée sous l'effet du changement climatique (DRIAS 2060)",
+    "La plateforme industrielle de Lacq conserve des émissions résiduelles de composés soufrés (H₂S, SO₂) et de COV malgré sa reconversion, faisant l'objet d'une surveillance renforcée par ATMO et la DREAL Nouvelle-Aquitaine"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "7–9 µg/m³",
+      "label": "Concentration moy. PM2,5 annuelle"
+    },
+    {
+      "valeur": "~15–20 µg/m³",
+      "label": "NO₂ moyen zone urbaine BAB"
+    },
+    {
+      "valeur": "0 dépassement",
+      "label": "Seuils EU NO₂/PM10 (2021–2023)"
+    },
+    {
+      "valeur": "Lacq",
+      "label": "Principal pôle émetteur industriel"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2022–2023",
+    "OMS 2021 – Nouvelles lignes directrices qualité de l'air mondial",
+    "Citepa – Inventaire des émissions 2023 (format OMINEA)",
+    "DREAL Nouvelle-Aquitaine – Surveillance industrielle plateforme Lacq"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur l'agglomération BAB et Pau, laissant les zones rurales pyrénéennes (vallées de montagne) sans données représentatives en temps réel",
+    "Les émissions de NH₃ agricoles sont estimées par modélisation à l'échelle régionale et non mesurées directement à l'échelle des Pyrénées-Atlantiques, induisant une incertitude sur les contributions locales réelles",
+    "L'impact transfrontalier de la pollution atmosphérique en provenance d'Espagne (industries de Navarre, trafic de l'A8/AP-8) n'est pas systématiquement intégré dans les bilans départementaux, pouvant sous-estimer certains épisodes de pollution dans le Pays Basque intérieur"
+  ]
+}

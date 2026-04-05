@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie (73) présente un profil alimentaire solide, porté par une agriculture de montagne structurée autour de filières fromagères d'excellence reconnues à l'échelle européenne. Le département compte 8 AOP/IGP agro-alimentaires (Beaufort, Reblochon, Tome des Bauges, Emmental de Savoie, Abondance, Chevrotin, Génépi, vins de Savoie), constituant l'une des densités d'appellations les plus élevées de France rapportée à la surface agricole utile (INAO 2024). La SAU départementale représente environ 95 000 ha, dont près de 11 % conduits en agriculture biologique, soit un taux légèrement supérieur à la moyenne nationale de 10,7 % (Agence Bio 2023). L'autonomie alimentaire locale reste cependant contrainte par la topographie alpine et la vocation essentiellement herbagère et laitière de l'agriculture savoyarde, limitant la diversification vers les productions végétales vivrières (ZAVA 2024). Le réseau de circuits courts est dynamique avec une quarantaine d'AMAP répertoriées et de nombreux marchés fermiers saisonniers, mais la dépendance aux flux touristiques fragilise la régularité des approvisionnements locaux.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Autonomie limitée : agriculture herbagère, faible diversification vivrière (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP reconnues, densité exceptionnelle rapportée à la SAU alpine"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "~11 % SAU bio, légèrement au-dessus de la moyenne nationale (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "~40 AMAP actives, circuits courts portés par tourisme mais saisonnalité marquée"
+    }
+  ],
+  "points_forts": [
+    "Densité AOP/IGP remarquable : 8 appellations dont Beaufort, Reblochon, Tome des Bauges, Abondance, représentant une valeur économique de plus de 300 M€/an (INAO 2024)",
+    "Part de SAU en agriculture biologique d'environ 11 %, supérieure à la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Filière fromagère AOP structurée avec des cahiers des charges exigeants garantissant pratiques extensives et maintien du tissu pastoral",
+    "Réseau de marchés fermiers et circuits courts dynamique avec plus de 400 exploitations déclarant une vente directe (Agreste Auvergne-Rhône-Alpes 2022)"
+  ],
+  "vigilances": [
+    "Dépendance aux flux touristiques (12 millions de nuitées/an) créant une demande alimentaire saisonnière mal couverte localement et favorisant les importations massives en saison hivernale",
+    "Réduction tendancielle du nombre d'exploitations laitières AOP sous pression économique : –15 % d'éleveurs Beaufort en 10 ans, menaçant la pérennité des filières (Syndicat du Beaufort 2023)",
+    "Vulnérabilité climatique des alpages : montée de la limite enneigement et stress hydrique estival projetés à +2°C d'ici 2060 (Climadiag 2024) risquant de réduire les surfaces pastorales de qualité"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8 AOP/IGP",
+      "label": "Appellations agro-alimentaires reconnues"
+    },
+    {
+      "valeur": "~11 %",
+      "label": "SAU conduite en agriculture biologique"
+    },
+    {
+      "valeur": ">400",
+      "label": "Exploitations en vente directe"
+    },
+    {
+      "valeur": "300 M€+",
+      "label": "Valeur économique filières AOP fromagères"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre des signes de qualité",
+    "Agence Bio 2023 – Observatoire national agriculture biologique",
+    "ZAVA 2024 – Zones à enjeux alimentation territoriale",
+    "Agreste AuRA 2022 – Recensement agricole circuits courts"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent agrégées à l'échelle régionale et ne permettent pas une désagrégation fine à l'échelle du département 73",
+    "La SAU savoyarde est dominée par les surfaces toujours en herbe (>80 %), rendant la comparaison des indicateurs céréaliers et maraîchers avec d'autres départements peu pertinente",
+    "L'attractivité touristique déforme les indicateurs de circuits courts : une partie des ventes directes bénéficie aux touristes plutôt qu'aux résidents permanents, surévaluant l'ancrage alimentaire local réel"
+  ]
+}

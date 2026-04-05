@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Saône (70), département continental de Bourgogne-Franche-Comté, présente un profil climatique 2060 intermédiaire avec un score de 6,0/10. Selon les projections DRIAS 2023, le département devrait connaître une hausse des températures moyennes de +2,5 à +3,5°C à l'horizon 2060 sous scénario RCP 8.5, avec une augmentation significative du nombre de jours de vague de chaleur passant de 5 à plus de 25 jours par an. L'outil Climadiag (Météo-France) indique que la Haute-Saône passera d'une moyenne de 3 jours de canicule actuellement à environ 15-20 jours en 2050-2060, plaçant le département dans une situation de vulnérabilité modérée à forte. Son altitude moyenne relativement modeste (340 m) et sa position enclavée en plaine de la Saône lui confèrent peu d'effet tampon thermique, bien que les reliefs du Plateau de Langres au nord offrent une protection partielle. Le risque inondation demeure préoccupant, la Saône et ses affluents ayant historiquement généré des crues majeures (crue centennale de 1999), un risque appelé à s'intensifier avec l'irrégularité croissante des précipitations projetée par AP3C.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne 340 m, plateau nord offre tampon thermique limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "15-20 jours de canicule projetés en 2050, hausse significative"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Faible couverture forestière combustible, risque feux très limité"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Plaine de la Saône inondable, crue centennale 1999 référence"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt parmi les plus faibles de France : taux de boisement de 28% avec essences peu combustibles et climat encore humide (précipitations ~900 mm/an, Météo-France)",
+    "Le Plateau de Langres (nord du département) offre une altitude de 400-500 m constituant un tampon thermique naturel pour une partie du territoire (Climadiag Météo-France 2023)",
+    "Absence totale de vulnérabilité côtière et faible exposition aux submersions marines, situation géographique très continentale avantageuse",
+    "Infrastructure de prévision des crues opérationnelle : Service de Prévision des Crues (SPC) Rhône-Saône couvrant le territoire, avec système d'alerte Vigicrues actif"
+  ],
+  "vigilances": [
+    "Projection d'une augmentation de +3,5°C en été à l'horizon 2060 (scénario RCP 8.5, DRIAS 2023), avec multiplication par 5 des jours de forte chaleur, impactant l'agriculture et la santé des populations âgées (22% de plus de 65 ans en Haute-Saône)",
+    "Risque d'inondations accrues et de sécheresses estivales alternées : le débit de la Saône pourrait baisser de 20 à 30% en étiage estival (projections Explore2, 2023), fragilisant l'alimentation en eau potable",
+    "Intensification probable des épisodes de gel tardif printanier perturbant les cultures, couplée à des canicules précoces créant un stress hydrique accru sur les sols agricoles déjà sensibles du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse temp. projetée 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "~20 j",
+      "label": "Jours de canicule projetés/an à 2050"
+    },
+    {
+      "valeur": "28%",
+      "label": "Taux de boisement départemental"
+    },
+    {
+      "valeur": "-25%",
+      "label": "Baisse débit étiage Saône projetée"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 (Météo-France)",
+    "Climadiag Météo-France 2023",
+    "Explore2 BRGM/OFB 2023",
+    "AP3C Bourgogne-Franche-Comté"
+  ],
+  "limites": [
+    "Les projections DRIAS et Climadiag sont établies à maille régionale (8 km), insuffisamment fines pour distinguer les microclimats locaux entre la plaine de la Saône et le Plateau de Langres en Haute-Saône",
+    "L'absence d'un plan d'adaptation climatique territorial spécifique au département (PCAET intercommunaux fragmentés) limite la disponibilité de données de vulnérabilité agrégées à l'échelle départementale",
+    "Le risque inondation est documenté historiquement mais les projections d'évolution des crues sur la Saône sous changement climatique restent incertaines, les modèles hydrologiques montrant une forte dispersion des résultats pour ce bassin versant"
+  ]
+}

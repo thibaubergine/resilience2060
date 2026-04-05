@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Atlantiques affichent un profil alimentaire exceptionnel, figurant parmi les meilleurs départements français avec un score de 8,5/10, porté par une richesse remarquable en signes de qualité officiels. Le département concentre des appellations emblématiques comme l'AOP Ossau-Iraty (fromage de brebis), l'AOP Piment d'Espelette, l'AOP Jambon de Bayonne (IGP) et plusieurs vins IGP Pays Basque, représentant plus de 15 signes de qualité actifs recensés par l'INAO. L'agriculture biologique progresse significativement avec environ 12 % de la SAU certifiée bio, au-dessus de la moyenne nationale (10,1 % en 2023, Agence Bio). Les circuits courts et les AMAP sont bien développés, notamment dans le Pays Basque intérieur et le Béarn, avec une forte culture maraîchère de proximité soutenue par les collectivités locales. L'autonomie alimentaire reste toutefois partielle, la forte orientation agro-pastorale limitant la diversité des productions végétales disponibles localement (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 8.0,
+      "note": "Zone agricole variée, agropastoralisme fort, autonomie partielle en végétaux"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 10,
+      "note": "Plus de 15 AOP/IGP actives, piment d'Espelette, Ossau-Iraty, Jambon Bayonne"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~12% SAU bio, au-dessus moyenne nationale 10,1% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Circuits courts dynamiques Pays Basque, AMAP actives, marchés fermiers nombreux"
+    }
+  ],
+  "points_forts": [
+    "Plus de 15 signes officiels de qualité (AOP/IGP/Label Rouge) recensés par l'INAO, densité parmi les plus élevées de France",
+    "AOP Piment d'Espelette : production annuelle d'environ 2 000 tonnes, impliquant plus de 200 producteurs sur 10 communes (INAO 2023)",
+    "Environ 12 % de la SAU en agriculture biologique, nettement au-dessus de la moyenne nationale de 10,1 % (Agence Bio 2023)",
+    "Réseau de circuits courts dense au Pays Basque et en Béarn, avec marchés fermiers hebdomadaires et plateformes locales soutenues par le Conseil Départemental"
+  ],
+  "vigilances": [
+    "Dépendance agropastorale élevée : la domination de l'élevage ovin et bovin limite la diversité végétale locale et expose à une autonomie alimentaire incomplète en cas de crise d'approvisionnement",
+    "Pression touristique estivale intense (plus de 4 millions de visiteurs/an) fragilisant les productions locales face à la demande saisonnière et risquant de déstabiliser les prix et les circuits courts",
+    "Vulnérabilité climatique des cultures identitaires : le piment d'Espelette et les vignobles IGP Pays Basque sont exposés aux épisodes de sécheresse et aux aléas pluviométriques projetés à l'horizon 2060 (Climadiag/AP3C)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "15+",
+      "label": "Signes qualité AOP/IGP actifs (INAO)"
+    },
+    {
+      "valeur": "12%",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "200+",
+      "label": "Producteurs AOP Piment d'Espelette"
+    },
+    {
+      "valeur": "8,5/10",
+      "label": "Score alimentation départemental (rang ~5/96)"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre AOP/IGP",
+    "Agence Bio 2023 – Statistiques nationales et régionales",
+    "ZAVA 2024 – Zones à autonomie vivrière alimentaire",
+    "AP3C / Climadiag – Projections climatiques Nouvelle-Aquitaine"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent à maille régionale pour certains indicateurs, rendant l'estimation de l'autonomie alimentaire strictement départementale approximative pour les Pyrénées-Atlantiques",
+    "La part de SAU en bio peut masquer des disparités territoriales fortes entre le Pays Basque (dynamique) et certaines zones béarnaises plus conventionnelles",
+    "Le recensement des AMAP et circuits courts repose sur des données déclaratives incomplètes, sous-estimant potentiellement la réalité des échanges informels en zone rurale montagnarde"
+  ]
+}

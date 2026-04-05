@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Orientales constituent l'un des départements français les plus exposés au stress hydrique, avec une pluviométrie annuelle moyenne inférieure à 600 mm sur les plaines du Roussillon et des étiages sévères de l'Agly, de la Têt et du Tech (Explore2, 2023). Le projet Explore2 anticipe une réduction des débits moyens annuels de 20 à 40 % à l'horizon 2060, plaçant le département parmi les plus vulnérables du territoire national. La qualité de l'eau potable est globalement satisfaisante pour 90 % de la population desservie, mais des dépassements ponctuels de pesticides et nitrates sont signalés sur les captages de la plaine agricole du Roussillon (ARS Occitanie, 2022). La contamination agricole liée à la viticulture intensive et aux cultures maraîchères génère des pressions notables sur les masses d'eau souterraines, avec plusieurs captages classés prioritaires au titre de la DCE (Agence de l'Eau RMC, 2022). La présence de PFAS reste encore peu documentée à l'échelle départementale, mais les investigations nationales en cours signalent des traces dans certains systèmes d'eau potable proches de zones industrielles et d'aérodromes.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "90% population eau conforme; dépassements pesticides sur captages plaine"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Réduction débits -20 à -40% horizon 2060; département très vulnérable"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Pressions viticoles et maraîchères; captages prioritaires DCE identifiés"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Données partielles; traces PFAS signalées près aérodrome Perpignan"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable à 90 % pour les paramètres microbiologiques (ARS Occitanie, 2022)",
+    "Réseau de surveillance DCE renforcé sur les trois fleuves côtiers (Agly, Têt, Tech) permettant un suivi réactif des masses d'eau",
+    "Faible densité industrielle lourde en plaine littorale limitant les rejets toxiques chroniques dans les cours d'eau",
+    "Existence de réservoirs montagnards (lac des Bouillouses, retenues pyrénéennes) assurant un soutien d'étiage partiel en période sèche"
+  ],
+  "vigilances": [
+    "Réduction projetée de 30 à 40 % des débits estivaux de la Têt d'ici 2060, menaçant l'alimentation en eau potable de Perpignan et l'irrigation agricole (Explore2, 2023)",
+    "Multiplication des arrêtés de restriction d'eau en été : le département a été placé en crise hydrique pendant plusieurs semaines consécutives en 2022 et 2023 (Préfecture 66)",
+    "Contamination aux pesticides (chlorpyrifos, métolachlore) persistante sur les captages de la plaine viticole du Roussillon, nécessitant des traitements coûteux pour mise en conformité (ARS/DCE)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-30 à -40%",
+      "label": "Réduction débits estivaux 2060"
+    },
+    {
+      "valeur": "90%",
+      "label": "Conformité eau potable (microbiologie)"
+    },
+    {
+      "valeur": "3",
+      "label": "Fleuves côtiers sous surveillance DCE"
+    },
+    {
+      "valeur": "Rang 78/96",
+      "label": "Stress hydrique national Explore2"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB 2023)",
+    "ARS Occitanie – Bilan qualité eaux 2022",
+    "Agence de l'Eau Rhône-Méditerranée-Corse – DCE 2022",
+    "Préfecture Pyrénées-Orientales – Arrêtés sécheresse 2022-2023"
+  ],
+  "limites": [
+    "Les données PFAS sur le département 66 sont encore fragmentaires, les campagnes nationales de screening n'ayant pas publié de résultats exhaustifs à l'échelle communale à date",
+    "Le stress hydrique est mesuré à l'échelle des bassins versants, masquant des disparités importantes entre la plaine roussillonnaise très exposée et les zones pyrénéennes à meilleure recharge",
+    "Les chiffres de conformité de l'eau potable agrègent petites et grandes unités de distribution, pouvant sous-estimer les problèmes réels des petites communes rurales non interconnectées du Fenouillèdes et des Aspres"
+  ]
+}

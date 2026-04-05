@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Atlantiques bénéficient d'une ressource en eau abondante grâce aux précipitations pyrénéennes parmi les plus élevées de France métropolitaine (1 500 à 2 500 mm/an en montagne), alimentant des cours d'eau majeurs comme le Gave de Pau et le Gave d'Oloron. La qualité des masses d'eau superficielles est globalement satisfaisante, avec environ 60 % des cours d'eau en bon état écologique selon l'état des lieux DCE 2022 (SDAGE Adour-Garonne), plaçant le département parmi les mieux notés de Nouvelle-Aquitaine. La contamination par les nitrates reste modérée : le département est classé hors zone vulnérable nitrates pour la majorité de son territoire, avec des teneurs généralement inférieures à 25 mg/L dans les eaux souterraines (ARS Nouvelle-Aquitaine, 2023). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 10 à 30 % à l'horizon 2050-2070 sur les gaves, signalant une vigilance accrue pour la gestion estivale des ressources, notamment en contexte de sécheresse.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 9.0,
+      "note": "Eau potable conforme >97% des analyses ARS 2023, département bien desservi"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Réduction débits étiage 10-30% horizon 2070 (Explore2), gaves sous pression"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 9.0,
+      "note": "Territoire majoritairement hors zone vulnérable nitrates, teneurs <25 mg/L"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Contaminations PFAS limitées, peu de sites industriels historiques concernés"
+    }
+  ],
+  "points_forts": [
+    "Précipitations parmi les plus élevées de France : 1 500 à 2 500 mm/an sur le piémont pyrénéen, garantissant une recharge naturelle des aquifères (Météo-France)",
+    "60 % des masses d'eau superficielles en bon état écologique selon l'état des lieux DCE 2022 (SDAGE Adour-Garonne), résultat supérieur à la moyenne nationale",
+    "Très faible pression agricole intensive sur une grande partie du territoire montagnard, limitant structurellement les pollutions diffuses aux nitrates et pesticides",
+    "Taux de conformité de l'eau potable supérieur à 97 % pour les paramètres microbiologiques et physico-chimiques (ARS Nouvelle-Aquitaine, bilan 2023)"
+  ],
+  "vigilances": [
+    "Réduction des débits d'étiage estimée entre 10 et 30 % à l'horizon 2050-2070 sur les gaves selon les projections Explore2 (2023), menaçant les usages agricoles et touristiques estivaux",
+    "Pression croissante sur les nappes du piémont béarnais en période estivale, accentuée par l'irrigation maïsicole dans la plaine de Lacq et du Béarn",
+    "Détection émergente de micropolluants (résidus médicamenteux, perturbateurs endocriniens) dans certains cours d'eau périurbains autour de Pau et Bayonne, à surveiller (DCE/OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">97%",
+      "label": "Conformité eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "60%",
+      "label": "Masses d'eau en bon état écologique (DCE 2022)"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines (moyenne)"
+    },
+    {
+      "valeur": "-10 à -30%",
+      "label": "Réduction débits étiage 2070 (Explore2)"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eaux 2023",
+    "SDAGE Adour-Garonne – État des lieux DCE 2022",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "OFB – Tableau de bord pressions eaux 2024"
+  ],
+  "limites": [
+    "Les données de qualité des petits captages AEP en zone de montagne (haute Soule, haut Béarn) sont parfois lacunaires ou peu fréquemment actualisées, limitant l'exhaustivité du diagnostic",
+    "L'état des eaux souterraines profondes du bassin de Lacq reste insuffisamment renseigné dans les rapports publics accessibles, compte tenu de l'historique industriel du site",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle des sous-bassins versants pyrénéens, rendant difficile une planification locale précise de la gestion quantitative"
+  ]
+}

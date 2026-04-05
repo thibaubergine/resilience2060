@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie (73) bénéficie d'un profil climatique 2060 globalement favorable grâce à son altitude moyenne élevée (~1 800 m), qui agit comme tampon thermique naturel réduisant l'exposition aux canicules estivales par rapport aux plaines françaises (Climadiag 2023). Selon les projections DRIAS 2022, le réchauffement attendu en montagne alpine sera de +2,5 à +3,5°C d'ici 2060 sous scénario SSP3-7.0, avec une accentuation de la variabilité saisonnière et une remontée de l'isothème 0°C significative. Le département reste peu exposé aux feux de forêt comparativement aux départements méditerranéens, bien que l'arc subalpin connaisse une augmentation de l'inflammabilité estivale (AP3C/TRACC 2023). Les risques hydrologiques constituent en revanche un enjeu majeur : crues torrentielles et mouvements de terrain sont amplifiés par la fonte glaciaire accélérée — les glaciers savoyards ont perdu ~30% de leur surface depuis 1985 (IGN/Laboratoire de Glaciologie, 2023). La combinaison altitude protectrice et risques montagnards spécifiques explique la note intermédiaire de 7,0/10 pour cette dimension.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude >1800m moyenne; tampon thermique fort contre canicules"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "Vallées basses exposées; isothermes remontant sous SSP3 +3°C"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Risque feux faible; forêts subalpines encore peu inflammables"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Crues torrentielles fréquentes; fonte glaciaire aggrave débits extrêmes"
+    }
+  ],
+  "points_forts": [
+    "Altitude moyenne départementale ~1 800 m : protection naturelle contre les vagues de chaleur estivales, nombre de jours >35°C quasi nul en zones montagnardes (Climadiag 2023)",
+    "Risque feux de forêt parmi les plus faibles de France continentale : indice FFMC historiquement bas, forêts subalpines humides dominant le territoire (AP3C/TRACC 2023)",
+    "Enneigement supérieur à 1 800 m encore préservé à horizon 2060 sous scénario intermédiaire, maintenant un bilan hydrique favorable en altitude (DRIAS 2022)",
+    "Faible densité urbaine hors Chambéry/Albertville limitant l'effet d'îlot de chaleur urbain à moins de 5% du territoire (INSEE 2023)"
+  ],
+  "vigilances": [
+    "Fonte glaciaire accélérée : -30% de surface glaciaire depuis 1985, risque de tarissement des débits d'étiage estivaux et déstabilisation des versants d'ici 2060 (IGN/Labo Glaciologie 2023)",
+    "Augmentation des crues torrentielles et laves torrentielles : fréquence des épisodes extrêmes projetée en hausse de +20 à +40% sous SSP3-7.0 (GéoRisques/TRACC 2023)",
+    "Remontée de l'inflammabilité forestière entre 1 200 et 2 000 m d'altitude : risque feux émergeant en forêts de mélèzes et de pins sylvestres sous scénario chaud 2050-2070 (AP3C 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Réchauffement projeté 2060 (SSP3)"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Surface glaciaire perdue depuis 1985"
+    },
+    {
+      "valeur": "~1800m",
+      "label": "Altitude moyenne départementale"
+    },
+    {
+      "valeur": "<5 j/an",
+      "label": "Jours >35°C en zone montagnarde"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2022 – Projections climatiques régionales",
+    "TRACC / AP3C – Adaptation montagne 2023",
+    "IGN / Laboratoire de Glaciologie Grenoble 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à maille fine (~8 km) restent insuffisantes pour capturer la diversité microclimatique des vallées alpines savoyardes, pouvant sous-estimer les risques locaux",
+    "L'indicateur \"risque feux\" est mal calibré pour les étages subalpins en émergence de risque, les bases historiques PROMÉTHÉE ne couvrant pas bien ce territoire",
+    "La vulnérabilité aux inondations torrentielles est difficile à scorer comparativement entre départements, les méthodologies GéoRisques étant davantage adaptées aux crues fluviales de plaine"
+  ]
+}

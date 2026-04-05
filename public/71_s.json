@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire présente une situation pédologique contrastée, héritée de son passé industriel et minier notable dans le bassin du Creusot-Montceau, qui concentre une part significative des sites pollués recensés dans l'ex-base BASOL avec plus de 80 sites identifiés sur le département (GéoRisques/BASOL). Les sols agricoles, très présents avec une SAU représentant environ 55 % du territoire, subissent une pression phytosanitaire notable liée aux grandes cultures céréalières et viticoles (Mâconnais, Chalonnais), avec des résidus de pesticides détectés dans les matrices sol supérieurs à la moyenne nationale dans certains secteurs (INRAE 2023). Le risque radon est modéré à significatif sur la partie ouest du département, notamment sur les socles granitiques du Charolais et du Morvan, classant plusieurs communes en catégorie 3 (IRSN). La part de SAU certifiée en agriculture biologique reste inférieure à 8 % en 2023, en deçà de la moyenne régionale Bourgogne-Franche-Comté qui dépasse 10 % (Agence Bio 2023), témoignant d'une transition agroécologique encore insuffisante.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plus de 80 sites BASOL, héritage industriel Creusot-Montceau marqué"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Pression pesticides céréales et viticulture, résidus sol détectés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Socles granitiques Charolais-Morvan, communes en catégorie 3 IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "Part SAU bio ~8%, progression réelle mais sous moyenne régionale"
+    }
+  ],
+  "points_forts": [
+    "Progression de l'agriculture biologique avec +15 % de surfaces certifiées entre 2020 et 2023 (Agence Bio)",
+    "Présence de sols bocagers préservés en Charolais, limitant l'érosion et favorisant le stockage carbone (OFB 2024)",
+    "Dispositifs de réhabilitation actifs sur plusieurs sites BASOL via les fonds ADEME, notamment autour du Creusot",
+    "Diversité pédologique (argilo-calcaires mâconnais, granites charolais, alluvions de Saône) offrant une résilience naturelle des sols"
+  ],
+  "vigilances": [
+    "Risque de transfert de pollutions métalliques (plomb, zinc, HAP) depuis les friches industrielles vers les nappes alluviales de la Saône, avec projections de lessivage accru sous effet climatique 2060",
+    "Érosion hydrique des sols viticoles en forte pente (Mâconnais) estimée à plus de 10 t/ha/an sur certaines parcelles, aggravée par l'intensification des épisodes pluvieux",
+    "Stagnation du taux de conversion bio et risque de décrochage face aux objectifs nationaux 18 % de SAU bio à l'horizon 2027 (Plan Ambition Bio)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "80+",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "~8%",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "55%",
+      "label": "Part SAU sur territoire"
+    },
+    {
+      "valeur": "Cat. 3 IRSN",
+      "label": "Communes à risque radon élevé"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (ADEME-BRGM)",
+    "INRAE 2023 – Résidus pesticides matrices sol",
+    "IRSN – Cartographie risque radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites réhabilités des sites en cours de traitement, pouvant surestimer le risque résiduel actuel en Saône-et-Loire",
+    "L'absence de cartographie pédologique fine et homogène sur l'ensemble du département (notamment zones bocagères) limite l'évaluation précise du stockage carbone des sols",
+    "Les résidus de pesticides dans les sols sont mesurés ponctuellement et ne reflètent pas la diversité des pratiques agricoles à l'échelle des 573 communes du département"
+  ]
+}

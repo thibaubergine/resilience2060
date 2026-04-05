@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Saône (70) bénéficie d'un réseau hydrographique dense structuré autour de la Saône, de l'Ognon et de leurs affluents, avec un débit moyen de la Saône à Gray avoisinant 110 m³/s (DREAL BFC). La qualité des eaux superficielles est globalement moyenne : selon l'état des lieux DCE 2022, environ 40 % des masses d'eau du département atteignent le bon état écologique, résultat inférieur à la moyenne nationale de 44 %. Les eaux souterraines présentent des contaminations localisées aux nitrates et pesticides, notamment dans la plaine de la Saône à dominante agricole, avec des teneurs dépassant parfois 25 mg/L (ARS BFC, 2022). Les projections Explore2 (2023) indiquent une baisse des débits d'étiage de 20 à 35 % à l'horizon 2050-2070 sur les bassins versants locaux, accentuant les tensions estivales. La présence de PFAS dans certaines ressources en eau potable, signalée par les contrôles ARS de 2023-2024, constitue une préoccupation émergente, bien que les dépassements restent limités à quelques captages.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Conformité eau potable correcte, quelques captages en dérogation nitrates/pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Baisse étiages projetée de 20-35 % horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Teneurs nitrates modérées, plaine de Saône agricole exposée >25 mg/L"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement, pas de dépassement généralisé ARS 2023"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (Saône, Ognon, Lanterne) assurant une ressource en eau globalement abondante en période normale",
+    "Débit moyen annuel de la Saône à Gray ~110 m³/s, offrant une réserve hydrique significative (DREAL BFC)",
+    "Part notable des masses d'eau en bon état hydromorphologique, favorable à la continuité écologique",
+    "Efforts de reconnexion des zones humides dans le cadre du SDAGE Rhône-Méditerranée 2022-2027, avec plusieurs opérations de restauration engagées"
+  ],
+  "vigilances": [
+    "Baisse des débits d'étiage de 20 à 35 % projetée à l'horizon 2050-2070 (Explore2, 2023), menaçant les prises d'eau estivales et les usages agricoles",
+    "Contamination diffuse aux nitrates et herbicides (métolachlore, glyphosate) dans la plaine alluviale de la Saône, risquant de déclasser des captages d'alimentation en eau potable",
+    "Détection de PFAS dans plusieurs captages du département lors des campagnes de mesure 2023-2024 (ARS BFC), avec un risque de renforcement des normes européennes dès 2026"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 %",
+      "label": "Masses d'eau en bon état écologique (DCE 2022)"
+    },
+    {
+      "valeur": "-20 à -35 %",
+      "label": "Baisse étiages projetée 2050-2070 (Explore2)"
+    },
+    {
+      "valeur": "~110 m³/s",
+      "label": "Débit moyen Saône à Gray (DREAL BFC)"
+    },
+    {
+      "valeur": "25 mg/L",
+      "label": "Seuil nitrates parfois atteint, plaine de Saône"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB, 2023)",
+    "ARS Bourgogne-Franche-Comté – Bilan qualité eau potable 2022-2023",
+    "SDAGE Rhône-Méditerranée 2022-2027 / État des lieux DCE 2022",
+    "DREAL BFC – Données hydrométriques Saône"
+  ],
+  "limites": [
+    "Les données PFAS départementales restent partielles : la campagne nationale ARS 2023-2024 ne couvre pas encore la totalité des captages de Haute-Saône, rendant l'évaluation du risque incomplète",
+    "L'état écologique des masses d'eau est agrégé à l'échelle du bassin Rhône-Méditerranée ; la granularité départementale fine n'est pas systématiquement publiée, induisant une marge d'incertitude",
+    "Les projections Explore2 sur les débits sont exprimées par grands bassins versants et ne distinguent pas les sous-bassins locaux de Haute-Saône, limitant leur applicabilité à la gestion locale"
+  ]
+}

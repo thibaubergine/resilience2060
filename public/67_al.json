@@ -1,0 +1,67 @@
+{
+  "synthese": "Le Bas-Rhin présente un profil alimentaire intermédiaire (6,0/10, rang estimé autour du 40e-50e sur 96 départements) porté par une identité gastronomique alsacienne forte et des filières structurées, mais contraint par une urbanisation intense autour de Strasbourg qui réduit les surfaces agricoles disponibles. La SAU représente environ 180 000 ha (AGRESTE 2023), soit 52 % du territoire, avec une dominante céréalière et viticole dans le vignoble alsacien. L'agriculture biologique couvre environ 8 % de la SAU, en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023), révélant un retard de conversion malgré des dynamiques récentes. Le département bénéficie de 9 signes officiels de qualité recensés (AOP/IGP/Label Rouge, INAO 2024), dont les vins d'Alsace IGP/AOC constituant un pilier économique, mais la densité reste modeste rapportée aux surfaces. Les circuits courts et AMAP se développent activement dans la métropole strasbourgeoise, avec plus de 25 AMAP recensées en 2023 (réseau AMAP Grand Est), renforçant les liens producteurs-consommateurs dans ce territoire à forte population urbaine.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Autonomie alimentaire partielle ; dépendance aux imports pour protéines et légumes"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "9 signes INAO (AOC vins alsaciens, munster AOP, choucroute IGP)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "8 % SAU en bio, sous moyenne nationale de 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Plus de 25 AMAP actives, dynamique urbaine strasbourgeoise favorable"
+    }
+  ],
+  "points_forts": [
+    "Vignoble alsacien AOC structuré : 15 600 ha, 1re région viticole de France en vins blancs secs (CIVAM Alsace 2023)",
+    "Munster AOP et choucroute d'Alsace IGP : filières identitaires ancrées avec débouchés locaux et export (INAO 2024)",
+    "Réseau de plus de 25 AMAP dans la métropole strasbourgeoise, parmi les plus actives du Grand Est (réseau AMAP Grand Est 2023)",
+    "Programme Alimentaire Territorial (PAT) de l'Eurométropole de Strasbourg labellisé niveau 2, intégrant approvisionnement local dans la restauration collective (MAA 2023)"
+  ],
+  "vigilances": [
+    "Artificialisation des terres agricoles en hausse autour de Strasbourg : perte estimée à 300 ha/an (AGRESTE Grand Est 2022), menaçant l'autonomie alimentaire locale à horizon 2040",
+    "Part du bio stagnante sous 8 % de la SAU, avec risque de décrochage face aux objectifs du Plan Ambition Bio 2027 (18 % national cible)",
+    "Dépendance croissante aux importations pour les légumes et protéines végétales consommés localement, vulnérabilité logistique amplifiée par la position frontalière (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~180 000 ha",
+      "label": "SAU totale (AGRESTE 2023)"
+    },
+    {
+      "valeur": "8 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "9",
+      "label": "Signes officiels qualité (INAO 2024)"
+    },
+    {
+      "valeur": "25+",
+      "label": "AMAP actives département"
+    }
+  ],
+  "sources": [
+    "INAO 2024 (signes de qualité)",
+    "Agence Bio 2023 (part SAU bio)",
+    "AGRESTE Grand Est 2022-2023 (SAU, dynamiques foncières)",
+    "Réseau AMAP Grand Est 2023",
+    "ZAVA 2024 (autonomie alimentaire)",
+    "MAA – label PAT Eurométropole 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du Bas-Rhin restent agrégées à l'échelle régionale Grand Est, rendant difficile une désagrégation fiable au niveau départemental",
+    "La superficie viticole AOC domine les indicateurs de qualité, pouvant masquer la faiblesse des filières maraîchères et protéines végétales locales dans le score global",
+    "L'évolution récente du bio (2022-2023) montre des déconversions en Alsace liées à la crise économique du secteur, fragilisant les projections à moyen terme"
+  ]
+}

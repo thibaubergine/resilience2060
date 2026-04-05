@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Orientales constituent un hotspot de biodiversité méditerranéo-montagnard exceptionnel, avec plus de 42% du territoire classé en zones Natura 2000 (INPN, 2024), soit l'une des couvertures les plus élevées de France métropolitaine. Le département abrite la Réserve Naturelle de Py, le Parc Naturel Régional des Pyrénées Catalanes et le site du Mas Larrieu, accueillant des espèces emblématiques telles que l'isard, le gypaète barbu et la tortue d'Hermann, dont les Pyrénées-Orientales hébergent la principale population française (LPO/OFB, 2024). L'INPN recense plus de 4 500 espèces végétales et animales sur le territoire, reflet d'une diversité altitudinale allant du littoral méditerranéen aux sommets pyrénéens à plus de 2 900 m. Cependant, les corridors écologiques côtiers et périurbains subissent une pression croissante liée à l'urbanisation du littoral roussillonnais et à la sécheresse chronique, menaçant la connectivité entre massifs (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "42% territoire en Natura 2000, parmi les taux nationaux les plus élevés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Pyrénées Catalanes, réserves naturelles et site Ramsar Canet-Saint-Nazaire"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Isard, gypaète barbu, tortue d'Hermann, principale population française"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors côtiers fragmentés par urbanisation littorale et sécheresse récurrente"
+    }
+  ],
+  "points_forts": [
+    "Plus de 42% du territoire couvert par des zones Natura 2000, soit l'un des taux les plus élevés de métropole (INPN, 2024)",
+    "Présence du PNR des Pyrénées Catalanes (137 000 ha) et de la Réserve Naturelle Nationale de Py, garantissant une protection réglementaire forte",
+    "La population de tortue d'Hermann (Testudo hermanni) des Pyrénées-Orientales est la plus importante de France, avec plusieurs milliers d'individus suivis par le SOPTOM",
+    "Le site Ramsar de Canet-Saint-Nazaire (150 ha) protège une lagune méditerranéenne abritant plus de 200 espèces d'oiseaux recensées par la LPO Occitanie"
+  ],
+  "vigilances": [
+    "Le changement climatique menace les habitats d'altitude : remontée de l'étage subalpin estimée à +300 m d'ici 2060 (DRIAS/Climadiag), réduisant les niches de l'isard et des espèces boréo-alpines",
+    "La pression urbaine sur le littoral roussillonnais fragmente les corridors écologiques côtiers, avec une artificialisation des sols en hausse de 15% entre 2010 et 2023 (GéoRisques/INRAE)",
+    "Les sécheresses récurrentes (été 2022 : déficit pluviométrique de -60% sur le département) fragilisent les zones humides littorales et les ripisylves, réduisant la capacité d'accueil des espèces aquatiques et amphibiens"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "42%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "137 000 ha",
+      "label": "Surface PNR Pyrénées Catalanes"
+    },
+    {
+      "valeur": "4 500+",
+      "label": "Espèces recensées (INPN)"
+    },
+    {
+      "valeur": "200+",
+      "label": "Espèces d'oiseaux site Ramsar"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Occitanie / SOPTOM",
+    "DRIAS / Climadiag 2024",
+    "GéoRisques / INRAE 2023"
+  ],
+  "limites": [
+    "Les données de suivi des populations d'espèces protégées restent partielles pour les zones rurales de haute montagne, limitant l'évaluation précise de certains corridors pyrénéens",
+    "L'état de conservation réel des habitats Natura 2000 n'est pas uniformément documenté, les rapportages Art. 17 (Directive Habitats) présentant des lacunes sur certains milieux calcicoles méditerranéens",
+    "Les pressions touristiques saisonnières intenses sur la côte Vermeille et les stations pyrénéennes sont insuffisamment intégrées dans les indicateurs de biodiversité disponibles à l'échelle départementale"
+  ]
+}

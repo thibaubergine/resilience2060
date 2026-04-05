@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Atlantiques constituent l'un des départements français les plus riches sur le plan de la biodiversité, avec une superficie Natura 2000 couvrant environ 20% du territoire (INPN 2024), reflétant la diversité exceptionnelle des écosystèmes pyrénéens, atlantiques et landais. Le département abrite le Parc National des Pyrénées (secteur occidental) et le Parc Naturel Régional du Pays Basque créé en 2018, offrant un cadre de protection renforcé pour des espèces emblématiques comme l'Isard (~6 000 individus), le Grand Tétras et le Vautour fauve (colonie d'Anie, ~350 couples) (OFB 2024). La trame verte et bleue bénéficie d'un réseau hydrographique dense (Gave de Pau, Gave d'Oloron, Nive) classé en excellente qualité écologique, favorisant la circulation des espèces migratrices dont le Saumon atlantique (LPO/INPN 2023). Avec plus de 3 500 espèces végétales recensées, dont plusieurs endémiques pyrénéennes, le département se positionne parmi les 10 premiers en termes de richesse floristique nationale (INPN 2024). Des pressions subsistent néanmoins via l'urbanisation littorale, l'intensification agricole en plaine et les effets du changement climatique sur les écosystèmes d'altitude.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "Environ 20% du territoire classé Natura 2000, performance supérieure à la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "Parc National Pyrénées + PNR Pays Basque (2018), double protection structurante"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Isard, Grand Tétras, Vautour fauve, Saumon atlantique, flore endémique pyrénéenne"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Réseau hydrographique dense mais corridors plaine fragmentés par urbanisation littorale"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 d'environ 20% du territoire, soit près du double de la moyenne nationale (~13%), avec 37 sites désignés (INPN 2024)",
+    "Double protection par le Parc National des Pyrénées (côté 64 : massif d'Ossau, Aspe) et le PNR Pays Basque créé en 2018, couvrant 154 communes (LPO/OFB)",
+    "Colonie de Vautours fauves en expansion sur les falaises d'Anie et d'Ossau (~350 couples reproducteurs), succès emblématique de conservation (OFB 2024)",
+    "Réseau hydrographique de haute qualité écologique : Gave d'Oloron classé meilleur axe à Saumon atlantique de France métropolitaine (INPN/Agence de l'eau Adour-Garonne)"
+  ],
+  "vigilances": [
+    "Régression du Grand Tétras estimée à -40% en 20 ans dans les Pyrénées occidentales, espèce en danger critique localement sous pression climatique et touristique (OFB 2024)",
+    "Urbanisation et artificialisation du littoral basque (Côte Basque) menaçant les corridors écologiques côtiers, avec une pression foncière parmi les plus fortes de Nouvelle-Aquitaine",
+    "Remontée altitudinale des espèces invasives (Renouée du Japon, Jussie) affectant les berges des gaves et réduisant la qualité des habitats aquatiques natifs (INPN 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~20%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "37",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "~350 couples",
+      "label": "Vautours fauves (Anie/Ossau)"
+    },
+    {
+      "valeur": "3 500+",
+      "label": "Espèces végétales recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / Rapport biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Aquitaine – Atlas des oiseaux nicheurs",
+    "Agence de l'eau Adour-Garonne – Qualité des cours d'eau"
+  ],
+  "limites": [
+    "Les données de fragmentation des corridors écologiques en zone de piémont et de plaine (Béarn) restent insuffisamment documentées à l'échelle départementale fine",
+    "L'état de conservation réel de nombreuses espèces endémiques pyrénéennes repose sur des inventaires anciens (antérieurs à 2015), réduisant la fiabilité des tendances actuelles",
+    "La pression agricole sur la biodiversité des estives d'altitude est difficile à distinguer des effets du changement climatique dans les études disponibles (OFB/INPN)"
+  ]
+}

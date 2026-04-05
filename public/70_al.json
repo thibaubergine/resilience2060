@@ -1,0 +1,66 @@
+{
+  "synthese": "La Haute-Saône (70) présente un profil alimentaire intermédiaire avec une Surface Agricole Utile (SAU) d'environ 268 000 hectares, représentant près de 56 % du territoire départemental, dominée par les grandes cultures céréalières et l'élevage bovin (Agreste 2020). La part de l'agriculture biologique y atteint environ 5,8 % de la SAU, légèrement en deçà de la moyenne nationale de 6,8 % (Agence Bio 2023), témoignant d'une transition agroécologique encore limitée. Le département dispose d'un tissu d'indications géographiques modeste, avec quelques références partagées avec la région Bourgogne-Franche-Comté (Comté, Emmental de Savoie IGP), sans dénomination propre à forte notoriété (INAO 2024). L'autonomie alimentaire locale reste contrainte par la prédominance des filières longues et exportatrices, bien que les circuits courts et AMAP se développent progressivement, avec une cinquantaine de structures recensées sur le département (DRAAF BFC 2022). La dépendance aux intrants extérieurs et la faible valorisation locale de la production agricole constituent les principaux freins à une meilleure résilience alimentaire territoriale (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "SAU élevée mais filières longues limitant l'autonomie alimentaire locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques IGP régionales partagées, aucune AOP propre au département"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Bio à 5,8% SAU, en deçà moyenne nationale de 6,8% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Cinquantaine de circuits courts/AMAP actifs, dynamique rurale favorable"
+    }
+  ],
+  "points_forts": [
+    "Une SAU importante de ~268 000 ha (56 % du territoire) offrant un potentiel de production alimentaire local significatif (Agreste 2020)",
+    "Présence de filières d'élevage bovin allaitant et laitier structurées, adossées aux IGP régionales comme le Comté (INAO 2024)",
+    "Développement progressif des circuits courts avec une cinquantaine de points de vente directe et AMAP recensés (DRAAF BFC 2022)",
+    "Un tissu rural dense favorisant les initiatives de maraîchage de proximité et les marchés locaux de producteurs"
+  ],
+  "vigilances": [
+    "La faible part du bio (5,8 % SAU) combinée à une dépendance aux intrants extérieurs expose le département aux tensions sur les marchés agricoles mondiaux (Agence Bio 2023)",
+    "Le vieillissement des agriculteurs (âge moyen > 50 ans) et la pression sur le foncier agricole risquent de réduire la SAU productive d'ici 2030 (Agreste 2020)",
+    "Les projections climatiques (Climadiag 2024) indiquent une hausse des épisodes de sécheresse estivale pouvant affecter les rendements céréaliers et fourragers dès 2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "268 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "5,8 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "~50",
+      "label": "Structures circuits courts/AMAP"
+    },
+    {
+      "valeur": "56 %",
+      "label": "Part du territoire en SAU"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024 (registre AOP/IGP)",
+    "Agreste – Recensement Agricole 2020",
+    "DRAAF Bourgogne-Franche-Comté 2022",
+    "ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent partielles pour les petits départements ruraux comme la Haute-Saône, rendant difficile une quantification précise des flux alimentaires internes",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, pouvant sous-estimer le nombre réel de structures actives sur le territoire",
+    "L'absence d'AOP/IGP propre à la Haute-Saône rend délicate la comparaison avec des départements bénéficiant d'une forte identité gastronomique protégée, biaisant potentiellement le score Densité AOP/IGP"
+  ]
+}

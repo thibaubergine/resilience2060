@@ -1,0 +1,65 @@
+{
+  "synthese": "La Nièvre présente un profil alimentaire intermédiaire (6,5/10, rang 44/96), caractérisé par une agriculture dominée par l'élevage bovin viande — la race charolaise en tête — avec environ 285 000 hectares de SAU sur 680 000 ha de surface départementale (Agreste 2023). L'agriculture biologique progresse mais reste en deçà des moyennes nationales, couvrant environ 7,5 % de la SAU nivernaise contre 10,7 % en France (Agence Bio 2023). Le département bénéficie d'indications géographiques reconnues, notamment l'IGP Charolais de Bourgogne et plusieurs AOP fromagères en périphérie, mais leur concentration reste modérée comparée aux départements voisins comme la Saône-et-Loire. Les circuits courts se développent timidement dans un contexte de faible densité de population (30 hab/km²), limitant la structuration des marchés locaux et des AMAP (ZAVA 2024). La dépendance aux grandes cultures d'exportation (céréales, oléagineux) et à un élevage extensif peu transformé localement fragilise l'autonomie alimentaire effective du territoire.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Élevage bovin dominant mais faible transformation locale; dépendance céréalière"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "IGP Charolais de Bourgogne présente; couverture AOP/IGP limitée sur le territoire"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Bio à ~7,5% SAU; progression réelle mais sous moyenne nationale de 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Circuits courts en développement; marché local contraint par faible densité"
+    }
+  ],
+  "points_forts": [
+    "Filière bovine charolaise structurante : la Nièvre abrite environ 180 000 bovins, avec une tradition d'élevage extensif valorisant les prairies permanentes (Agreste 2023)",
+    "L'IGP Charolais de Bourgogne confère une reconnaissance géographique à la viande bovine nivernaise et garantit une traçabilité territoriale (INAO 2023)",
+    "Progression de l'agriculture biologique de +12 % en surface entre 2020 et 2023, avec 320 opérateurs engagés dans la filière (Agence Bio 2023)",
+    "Présence de marchés paysans et d'une offre en circuits courts structurée autour de Nevers et des bourgs ruraux, soutenue par le PAT (Projet Alimentaire Territorial) du Conseil départemental"
+  ],
+  "vigilances": [
+    "L'autonomie protéique reste fragile : malgré l'élevage, la faible capacité d'abattage et de transformation locale force l'exportation des animaux sur pied vers d'autres régions, réduisant la valeur ajoutée territoriale",
+    "Le vieillissement des exploitants agricoles (âge moyen 52 ans en Nièvre, Agreste 2020) menace la transmission des exploitations et pourrait réduire les surfaces agricoles actives de 15 à 20 % d'ici 2035",
+    "L'exposition croissante aux sécheresses estivales (scénarios DRIAS 2060) fragilise les prairies permanentes, pilier de l'élevage charolais, avec un risque de réduction du potentiel fourrager de 20 à 30 % selon les projections climatiques régionales"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7,5%",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "285 000 ha",
+      "label": "Surface Agricole Utile départementale"
+    },
+    {
+      "valeur": "~180 000",
+      "label": "Bovins recensés (Agreste 2023)"
+    },
+    {
+      "valeur": "1 IGP majeure",
+      "label": "Charolais de Bourgogne (INAO)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Chiffres clés bio par département",
+    "INAO 2023 – Registre AOP/IGP français",
+    "Agreste 2023 – Statistiques agricoles Nièvre",
+    "ZAVA 2024 – Zones à fort enjeu pour l'alimentation et la vulnérabilité agricole"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire nivernaise restent agrégées à l'échelle régionale Bourgogne-Franche-Comté, limitant la précision départementale",
+    "L'absence d'un PAT formellement labellisé au niveau départemental rend difficile la quantification précise des volumes échangés en circuits courts sur la Nièvre",
+    "La faible densité démographique (30 hab/km²) biaise la comparaison avec des départements urbains ou périurbains sur les critères AMAP et marchés locaux, défavorisant mécaniquement la note relative"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées (65) constituent l'un des départements français les plus riches en biodiversité, avec environ 45 % du territoire classé en zone Natura 2000, couvrant des habitats allant des plaines de la Gascogne aux crêtes pyrénéennes au-dessus de 3 000 m (INPN, 2024). Le département abrite le Parc National des Pyrénées, créé en 1967, dont il partage le cœur avec les Pyrénées-Atlantiques, protégeant strictement plus de 45 700 ha sur son flanc haut-pyrénéen (OFB, 2024). La faune emblématique est exceptionnellement diversifiée : on y recense des populations d'ours brun (Ursus arctos, ~80 individus pour les Pyrénées), d'isard (~10 000 individus), de gypaète barbu et de vautour fauve dont la colonie de Vizzavona/Ossau est l'une des plus denses d'Europe (LPO, 2023). Les milieux naturels sont structurés en corridors écologiques fonctionnels reliant les massifs forestiers aux zones alpines, bien que la pression du pastoralisme intensif et du tourisme hivernal génère des points de fragmentation locaux (INPN, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 9.0,
+      "note": "~45 % du territoire en Natura 2000, parmi les plus élevés de France"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "Parc National des Pyrénées, PNR Pyrénées Ariégeoises en périphérie"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 9.0,
+      "note": "Ours brun, gypaète barbu, isard, vautour fauve, populations viables"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors fonctionnels mais fragmentés par routes et domaines skiables"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les 5 % supérieurs nationaux : ~45 % du territoire classé en ZSC/ZPS (INPN, 2024)",
+    "Parc National des Pyrénées : 45 707 ha de zone cœur, 206 602 ha de zone d'adhésion, richesse floristique de plus de 2 500 espèces végétales (OFB, 2024)",
+    "Population d'ours brun en croissance : environ 80 individus dans les Pyrénées en 2023, noyau géographique centré sur les Hautes-Pyrénées (DREAL Occitanie, 2023)",
+    "Colonie de vautours fauves parmi les plus importantes d'Europe occidentale avec plus de 400 couples nicheurs dans le département (LPO, 2023)"
+  ],
+  "vigilances": [
+    "Le réchauffement climatique projeté à +2,5°C d'ici 2060 sur les Pyrénées menace les espèces d'altitude (DRIAS/Climadiag 2024) avec remontée des étages végétaux de 300 à 500 m estimée",
+    "La fragmentation par les routes (RN 21, D918) et les 17 domaines skiables du département génère des interruptions dans les corridors écologiques, pénalisant la dispersion de grands mammifères (CEREMA, 2022)",
+    "La surpopulation touristique estivale (plus de 2 millions de visiteurs/an, dont le cirque de Gavarni) entraîne des perturbations sur les zones de reproduction sensibles (Parc National des Pyrénées, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "45 707 ha",
+      "label": "Zone cœur Parc National"
+    },
+    {
+      "valeur": "~80 individus",
+      "label": "Ours brun Pyrénées 2023"
+    },
+    {
+      "valeur": ">400 couples",
+      "label": "Vautours fauves nicheurs"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / Parc National des Pyrénées",
+    "INPN 2024 / Natura 2000",
+    "LPO 2023 / Atlas des oiseaux nicheurs",
+    "DREAL Occitanie 2023 / Plan ours"
+  ],
+  "limites": [
+    "Les données de suivi des espèces sont souvent issues de comptages ponctuels et non de protocoles standardisés couvrant l'ensemble du département, introduisant une incertitude sur les effectifs réels",
+    "La biodiversité des milieux souterrains (grottes, karsts pyrénéens) et des zones humides de piémont est sous-documentée malgré leur importance fonctionnelle pour les invertébrés et amphibiens",
+    "L'impact réel des activités pastorales sur la biodiversité des estives est difficile à quantifier précisément, les études disponibles manquant d'une baseline historique robuste pour les Hautes-Pyrénées spécifiquement"
+  ]
+}

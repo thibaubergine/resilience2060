@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Orientales présentent un profil des sols contrasté, avec une pression agricole notable sur les plaines viticoles et maraîchères du Roussillon où les résidus de pesticides dans les sols constituent une préoccupation documentée par l'INRAE (2023), notamment en raison d'une viticulture intensive représentant environ 24 000 ha de vignes. Le département recense une quarantaine de sites pollués ou en cours de réhabilitation selon la base GéoRisques (ex-BASOL), concentrés autour de Perpignan et des anciennes zones industrielles, un chiffre modéré à l'échelle nationale mais significatif pour un territoire à dominante agricole. Le risque radon est classé en niveau potentiel significatif sur les zones granitiques des Pyrénées et des Aspres (IRSN), concernant plusieurs communes rurales de l'intérieur. En revanche, le département se distingue positivement par un développement notable de l'agriculture biologique, avec environ 12 % de la SAU certifiée bio (Agence Bio 2023), supérieur à la moyenne nationale, porté par les filières fruits, légumes et vins bio du Roussillon.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites BASOL, concentration péri-urbaine Perpignan, réhabilitations en cours"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Vignoble intensif Roussillon, résidus fongicides et herbicides documentés INRAE 2023"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Zones granitiques Aspres-Pyrénées à potentiel radon modéré à élevé, IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "~12% SAU bio, au-dessus moyenne nationale, filières fruits-légumes-vins dynamiques"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique d'environ 12 %, supérieure à la moyenne nationale (~10,4 %), portée par les filières maraîchères et viticoles bio du Roussillon (Agence Bio 2023)",
+    "Dynamisme des conversions bio : les Pyrénées-Orientales figurent parmi les départements occitans les plus actifs en termes de nouvelles certifications (Agence Bio / DRAAF Occitanie)",
+    "Nombre de sites BASOL modéré (~40 sites) rapporté à la superficie agricole et à la densité industrielle du département, témoignant d'une pression industrielle historique limitée",
+    "Existence de sols pyrénéens à forte valeur agro-écologique, notamment les estives et terrasses pastorales d'altitude préservées des intrants chimiques"
+  ],
+  "vigilances": [
+    "Contamination persistante des sols viticoles de la plaine du Roussillon par les cuivre (fongicides), dont les accumulations dépassent localement 100 mg/kg selon les données INRAE, avec des effets négatifs sur la faune du sol à long terme",
+    "Risque radon non négligeable dans les communes granitiques des Aspres et de la Cerdagne, avec des concentrations intérieures potentiellement élevées affectant la qualité de vie des habitants (IRSN - catégorie 3)",
+    "Pression sur les sols agricoles de la plaine littorale par l'artificialisation : le département connaît un rythme d'urbanisation soutenu autour de Perpignan et du littoral, menaçant des terres agricoles à haute valeur productive (données CEREMA / Observatoire des territoires)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 sites",
+      "label": "Sites pollués BASOL (GéoRisques)"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Niveau 3 IRSN",
+      "label": "Risque radon zones granitiques"
+    },
+    {
+      "valeur": ">100 mg/kg",
+      "label": "Teneur cuivre sols viticoles (INRAE)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus de pesticides dans les sols 2023",
+    "IRSN – Cartographie du potentiel radon des formations géologiques",
+    "Agence Bio – Statistiques régionales 2023"
+  ],
+  "limites": [
+    "L'inventaire BASOL reste parcellaire pour les Pyrénées-Orientales : de nombreux sites agricoles contaminés (anciens dépôts phytosanitaires, caves coopératives) ne sont pas systématiquement recensés dans la base nationale",
+    "Les données INRAE sur les résidus de pesticides dans les sols ne couvrent pas uniformément l'ensemble des appellations viticoles roussillonnaises, laissant des zones d'ombre sur les secteurs Maury, Banyuls et Rivesaltes",
+    "L'évaluation du risque radon repose sur la géologie de surface et non sur des mesures intérieures systématiques dans les logements du département, limitant la précision territoriale de l'indicateur"
+  ]
+}

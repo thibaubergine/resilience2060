@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe (72) affiche une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et industrielle par rapport aux départements comparables. Les concentrations en PM2,5 restent inférieures à 12 µg/m³ en moyenne annuelle selon les données ATMO Pays de la Loire, proches mais encore au-dessus du seuil OMS 2021 (5 µg/m³). Le NO₂ demeure contenu autour de 15-18 µg/m³ en zone urbaine mancelle, nettement en deçà de la valeur limite européenne de 40 µg/m³ (ATMO PDL, 2023). En revanche, le département présente une pression agricole notable sur la qualité de l'air, notamment via les émissions d'ammoniac (NH₃) liées à l'élevage bovin et porcin, contribuant à la formation de particules secondaires (Citepa 2023). Le trafic lié à la RN138 et à l'agglomération du Mans constitue un point de vigilance local pour les polluants de proximité.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~11 µg/m³, au-dessus OMS 2021 (5 µg/m³), sous seuil UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain Le Mans ~16 µg/m³, bien inférieur aux 40 µg/m³ UE"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible tissu industriel émetteur, quelques sites ICPE secteur agroalimentaire"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevage bovin/porcin génère NH₃ significatif, formation particules secondaires"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de la région Pays de la Loire (~16 µg/m³ au Mans, ATMO PDL 2023)",
+    "Absence de grande zone industrielle émettrice majeure ; peu de sites classés Seveso en lien avec la pollution atmosphérique diffuse (GéoRisques 2024)",
+    "Couverture forestière et espaces ruraux importants (~27 % du territoire) favorisant la dispersion atmosphérique naturelle",
+    "Épisodes de pollution aux PM10 limités : moins de 5 jours de dépassement du seuil d'information (50 µg/m³) par an en moyenne (ATMO PDL 2022-2023)"
+  ],
+  "vigilances": [
+    "Émissions agricoles de NH₃ élevées : la Sarthe figure parmi les départements à forte densité d'élevage, contribuant à la formation de particules secondaires PM2,5 (Citepa 2023, tendance persistante)",
+    "Axe routier RN138 / A11 au Mans : exposition chronique aux NOx et PM pour les riverains, enjeu de santé environnementale à surveiller avec l'urbanisation projetée",
+    "Risque d'épisodes ozone (O₃) en hausse avec le réchauffement climatique : dépassements des 120 µg/m³ (seuil info) attendus plus fréquents d'ici 2030-2040 selon DRIAS"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "~16 µg/m³",
+      "label": "NO₂ urbain Le Mans"
+    },
+    {
+      "valeur": "<5 j/an",
+      "label": "Dépassements PM10 (seuil info)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS 2021 PM2,5"
+    }
+  ],
+  "sources": [
+    "ATMO Pays de la Loire 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa – Inventaire émissions NH₃ 2023",
+    "Directive européenne 2008/50/CE valeurs limites NO₂/PM"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO PDL est concentré sur l'agglomération mancelle ; la qualité de l'air en zones rurales et périurbaines reste sous-documentée pour la Sarthe",
+    "Les émissions diffuses agricoles de NH₃ sont estimées par modélisation et non mesurées in situ, introduisant une incertitude sur les concentrations réelles en particules secondaires",
+    "L'absence de station de mesure de l'ozone en zone rurale sarthoise limite l'évaluation précise de l'exposition des populations aux pics estivaux d'O₃"
+  ]
+}

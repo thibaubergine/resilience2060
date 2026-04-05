@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Saône présente un profil pédologique contrasté, avec des sols agricoles majoritairement limoneux et argileux propices à la grande culture céréalière, couvrant environ 56 % de la SAU départementale (Agreste 2023). Le département recense une quarantaine de sites BASOL (bases des anciens sites industriels et activités de service) actifs ou réhabilités, témoignant d'un passé industriel métallurgique concentré notamment dans le nord (vallée de l'Ognon et secteur de Héricourt-Montbéliard en limite). Les analyses INRAE 2023 révèlent des concentrations mesurables en résidus de fongicides et herbicides céréaliers (glyphosate, AMPA, époxiconazole) cohérentes avec la vocation grande culture dominante du territoire. Le risque radon est classé de moyen à significatif sur la partie est du département, en lien avec les formations géologiques de socle vosgien (IRSN), exposant potentiellement plusieurs milliers d'habitants. La part de SAU en agriculture biologique reste modeste, autour de 5,5 %, inférieure à la moyenne régionale Bourgogne-Franche-Comté (Agence Bio 2023), limitant la réduction des pressions phytosanitaires sur les sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Quarantaine de sites BASOL, héritage industriel nord-est limité"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Résidus fongicides/herbicides céréaliers détectés, pression agricole notable"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon modéré à significatif, flancs vosgiens exposés"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio ~5,5%, supérieure à moyenne nationale mais perfectible"
+    }
+  ],
+  "points_forts": [
+    "Taux de sites BASOL en cours de réhabilitation relativement maîtrisé : environ 60 % des sites recensés font l'objet d'un suivi actif ou sont réhabilités (GéoRisques 2023)",
+    "Présence de sols de grande qualité agronomique (limons profonds de la plaine de Saône) favorisant des rendements céréaliers élevés sans recours excessif à l'amendement (Agreste 2023)",
+    "Progression de l'agriculture biologique (+12 % de surfaces entre 2020 et 2023), trajectoire positive pour la réduction des intrants (Agence Bio 2023)",
+    "Absence de contamination majeure aux métaux lourds dans les sols agricoles de plaine, grâce à un tissu industriel lourd peu dense sur la zone centrale"
+  ],
+  "vigilances": [
+    "Extension possible de la contamination aux PFAS dans les secteurs industriels du nord-est du département (Héricourt, Lure), risque sous-évalué faute de cartographie systématique à ce jour",
+    "Érosion hydrique des sols de pente en bordure vosgienne estimée à plus de 5 t/ha/an sur les parcelles non enherbées, susceptible de s'aggraver avec l'intensification des pluies intenses projetées (DRIAS 2060)",
+    "Stagnation relative de la conversion bio sous la barre des 6 % de SAU, insuffisante pour réduire significativement la pression pesticides sur les masses d'eau souterraines alimentées par infiltration"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "5,5%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": ">5 t/ha/an",
+      "label": "Érosion sols vosgiens"
+    },
+    {
+      "valeur": "Moyen-élevé",
+      "label": "Niveau risque radon (est)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / Base BASOL (MTES)",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Chiffres régionaux BFC 2023"
+  ],
+  "limites": [
+    "L'absence d'un réseau de surveillance pédologique dense en Haute-Saône empêche une cartographie fine de la contamination aux micropolluants émergents (PFAS, perturbateurs endocriniens) sur l'ensemble du territoire",
+    "Les données BASOL ne couvrent pas les sites inférieurs aux seuils réglementaires de déclaration, sous-estimant potentiellement la pression sur les sols dans les zones artisanales et d'activités diffuses",
+    "La mesure de la SAU bio agrège des pratiques très hétérogènes (maraîchage, grandes cultures, élevage), rendant difficile l'évaluation précise de la réduction effective des intrants chimiques à l'échelle du sol"
+  ]
+}

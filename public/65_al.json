@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées (65) affichent un profil alimentaire solide (7.5/10, parmi les meilleurs départements français) porté par une agriculture de montagne diversifiée couvrant environ 137 000 ha de SAU (Agreste 2023). Le département compte plusieurs appellations d'origine reconnues dont l'AOC Haricot Tarbais et le Porc Noir de Bigorre (IGP/AOP), témoignant d'une identité gastronomique ancrée (INAO 2024). La part de la SAU certifiée en agriculture biologique atteint environ 9,5 % (Agence Bio 2023), au-dessus de la moyenne nationale (10,3 %), avec une dynamique de conversion soutenue par la Région Occitanie. Les circuits courts se développent notamment autour de Tarbes avec plusieurs AMAP actives et marchés de producteurs, bien que la structuration reste perfectible face à la faible densité urbaine (RGA 2020, DRAAF Occitanie). L'autonomie alimentaire du territoire reste cependant contrainte par la topographie pyrénéenne qui limite les surfaces cultivables en grandes cultures et génère une dépendance aux bassins voisins pour les produits céréaliers (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Autonomie partielle, relief limitant grandes cultures, dépendance céréalière externe"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "AOC Haricot Tarbais, AOP Porc Noir de Bigorre, plusieurs IGP reconnues"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "Environ 9,5% SAU bio, dynamique positive, légèrement sous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Réseau AMAP actif Tarbes, marchés producteurs, filières courtes en expansion"
+    }
+  ],
+  "points_forts": [
+    "Le Haricot Tarbais bénéficie d'une AOC depuis 2000, production d'environ 70 tonnes/an, emblème de l'identité agricole locale (INAO 2024)",
+    "Le Porc Noir de Bigorre, race patrimoniale relancée dans les années 1980, détient une AOP et une IGP, valorisant l'élevage extensif pyrénéen (INAO/Agence Bio 2023)",
+    "La SAU certifiée bio représente ~9,5 % du territoire agricole utile, avec une progression de +12 % des conversions entre 2020 et 2023 (Agence Bio 2023)",
+    "Présence d'une dizaine d'AMAP et de marchés de producteurs structurés autour de Tarbes et Lourdes, favorisant les circuits de proximité (DRAAF Occitanie 2023)"
+  ],
+  "vigilances": [
+    "La dépendance aux importations céréalières extérieures expose le département à des tensions d'approvisionnement accrues avec le réchauffement climatique projeté (+2,5°C à horizon 2060, Climadiag 2024)",
+    "La déprise agricole en zone de montagne, avec une réduction de 8 % des exploitations entre 2010 et 2020 (RGA 2020), fragilise la continuité des filières locales patrimoniales",
+    "Le tourisme de masse concentré à Lourdes (~4 millions de visiteurs/an) crée une pression saisonnière sur les ressources alimentaires locales sans filière d'approvisionnement court suffisamment dimensionnée"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~137 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "9,5 %",
+      "label": "Part SAU certifiée bio"
+    },
+    {
+      "valeur": "3 AOP/IGP",
+      "label": "Appellations alimentaires reconnues"
+    },
+    {
+      "valeur": "~10 AMAP",
+      "label": "Groupements circuits courts actifs"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre des appellations",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones d'autonomie alimentaire",
+    "DRAAF Occitanie / Agreste RGA 2020"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent partiellement agrégées à l'échelle régionale Occitanie, rendant difficile une estimation précise propre aux Hautes-Pyrénées",
+    "La diversité altitudinale du département (plaine de Tarbes vs haute montagne) implique des réalités agricoles très hétérogènes que les indicateurs moyens départementaux ne reflètent pas fidèlement",
+    "Les chiffres sur les circuits courts et AMAP manquent d'un référentiel standardisé national permettant une comparaison robuste entre les 96 départements continentaux"
+  ]
+}

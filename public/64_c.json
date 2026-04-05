@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Pyrénées-Atlantiques bénéficient d'un avantage climatique structurel grâce au massif pyrénéen, qui constitue un tampon thermique naturel significatif : environ 40 % du territoire se situe au-dessus de 500 m d'altitude, limitant l'exposition aux vagues de chaleur extrêmes projetées par les scénarios DRIAS 2060 (SSP3-7.0). Selon Climadiag Commune (Météo-France, 2023), le nombre de jours de canicule pourrait augmenter de +15 à +25 jours/an d'ici 2050-2060 sur les secteurs de plaine (Bayonne, Pau), mais reste inférieur aux projections des départements du sud-est ou de la vallée du Rhône. La façade atlantique génère en revanche une vulnérabilité côtière notable : le littoral basque (côte rocheuse) et les zones d'estuaire de l'Adour sont exposés à la montée du niveau marin (+40 à +60 cm estimés d'ici 2100, GIEC AR6) et aux submersions lors de tempêtes. Le risque feux de forêt est en progression selon le rapport AP3C (2022), notamment sur les secteurs de landes et de forêts de pins des piémonts, avec une extension prévisible de la période à risque de 3 à 4 semaines supplémentaires d'ici 2060. Au global, le département affiche un profil climatique 2060 favorable comparé à la moyenne nationale, grâce à sa diversité altitudinale et son régime océanique tamponneur.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Relief pyrénéen couvre 40 % du territoire, tampon thermique majeur"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "Hausse de +15 à +25 j/an de canicule en plaine d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux croissant sur piémonts et landes, période allongée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "Littoral basque et estuaire Adour exposés, élévation marine +40–60 cm"
+    }
+  ],
+  "points_forts": [
+    "Environ 40 % du territoire au-dessus de 500 m d'altitude, réduisant fortement l'exposition thermique estivale des populations de montagne (DRIAS/Météo-France)",
+    "Régime climatique océanique atténuateur : températures maximales estivales historiquement inférieures de 3 à 5 °C par rapport aux départements méditerranéens de rang comparable (Climadiag, 2023)",
+    "Nombre de jours de canicule projeté à 2060 parmi les plus bas du grand Sud-Ouest français, notamment grâce à l'influence de l'Atlantique et du Pays basque intérieur (AP3C, 2022)",
+    "Réseau hydrographique dense (Adour, Nive, Gave de Pau) offrant une ressource en eau et un effet de régulation thermique locale préservé comparativement aux régions méditerranéennes"
+  ],
+  "vigilances": [
+    "Montée du niveau marin estimée entre +40 et +60 cm d'ici 2100 (GIEC AR6) : secteur de Bayonne-Anglet-Biarritz et estuaire de l'Adour particulièrement exposés aux submersions marines et à l'érosion côtière accélérée",
+    "Extension prévisible de la période à risque feux de forêt de 3 à 4 semaines supplémentaires d'ici 2060 sur les landes et forêts de pins du piémont béarnais et basque (AP3C/Préfecture 64, 2022)",
+    "Intensification des épisodes de précipitations extrêmes liés aux perturbations atlantiques : crues rapides des gaves et du piémont pyrénéen en hausse de fréquence selon les projections TRACC (scénario +2°C à +3°C à l'horizon 2060)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "40 %",
+      "label": "Territoire au-dessus de 500 m"
+    },
+    {
+      "valeur": "+20 j",
+      "label": "Hausse jours canicule 2060 (plaine)"
+    },
+    {
+      "valeur": "+60 cm",
+      "label": "Élévation marine projetée 2100"
+    },
+    {
+      "valeur": "3-4 sem.",
+      "label": "Allongement période feux 2060"
+    }
+  ],
+  "sources": [
+    "Météo-France / Climadiag Commune 2023",
+    "DRIAS 2023 – Scénarios SSP3-7.0",
+    "GIEC AR6 – Sixième rapport d'évaluation 2021-2022",
+    "AP3C – Adaptation Pastoralisme et Changement Climatique 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag et DRIAS sont établies à maille communale mais restent incertaines à l'échelle fine des vallées pyrénéennes, dont les microclimats locaux sont très hétérogènes",
+    "L'évaluation du risque côtier sur le littoral basque est complexifiée par la nature rocheuse et découpée du trait de côte, peu comparable aux modèles de submersion calibrés pour les côtes sableuses",
+    "La progression du risque feux de forêt dans le piémont béarnais reste difficile à quantifier précisément, faute de données historiques longues spécifiques à ce territoire (peuplements mixtes landes/pins peu documentés dans les bases nationales)"
+  ]
+}

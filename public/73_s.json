@@ -1,0 +1,65 @@
+{
+  "synthese": "La Savoie présente un profil pédologique globalement favorable, caractérisé par une pression agricole modérée liée à la prédominance de l'élevage pastoral et à une faible utilisation de pesticides sur les surfaces agricoles de montagne. Le département compte un nombre limité de sites pollués historiques (environ 25 sites BASOL actifs ou en surveillance), reflet d'une industrialisation concentrée sur quelques vallées alpines (Maurienne, Tarentaise). Le risque radon constitue la principale vulnérabilité des sols savoyards, le département étant classé en zone 3 (potentiel radon significatif) par l'IRSN du fait de la prédominance de substrats granitiques et gneissiques. L'agriculture biologique progresse mais reste limitée par les contraintes altitudinales, représentant environ 12 à 14 % de la SAU (Agence Bio 2023), soit un niveau correct mais inférieur au potentiel de conversion des alpages. La qualité des sols agricoles reste préservée dans les zones de haute montagne, tandis que les fonds de vallées subissent des pressions ponctuelles liées aux activités industrielles et touristiques.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "Environ 25 sites BASOL actifs, concentrés en vallées industrielles"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 8.0,
+      "note": "Faible usage pesticides, élevage pastoral dominant, résidus limités"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Zone 3 IRSN, substrats granitiques/gneissiques, risque radon élevé"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "~13% SAU bio, élevage montagne favorable, progression constante"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués BASOL (~25 sites), bien en dessous de la moyenne nationale pour un département de cette superficie",
+    "Prédominance de l'élevage bovin allaitant et laitier (AOC Beaufort, Abondance) limitant structurellement le recours aux pesticides (INRAE 2023)",
+    "Part de SAU en agriculture biologique estimée à ~13 %, portée par la conversion des exploitations d'alpages (Agence Bio 2023)",
+    "Sols d'altitude préservés de la contamination diffuse grâce à l'absence de grandes cultures intensives au-dessus de 800 m"
+  ],
+  "vigilances": [
+    "Risque radon élevé (zone 3 IRSN) sur l'ensemble du socle cristallin savoyard, affectant les bâtiments construits directement sur granite/gneiss dans les vallées",
+    "Contamination historique des sols en métaux lourds (plomb, zinc, cadmium) dans les vallées industrielles de Maurienne liée aux anciennes activités métallurgiques et électrochimiques",
+    "Érosion accélérée des sols d'altitude sous l'effet du recul du pergélisol et de la déstabilisation des versants projetée à +30 % d'événements de masse d'ici 2060 (DRIAS/GéoRisques)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~25",
+      "label": "Sites BASOL actifs/surveillés"
+    },
+    {
+      "valeur": "Zone 3",
+      "label": "Potentiel radon IRSN"
+    },
+    {
+      "valeur": "~13%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "<5%",
+      "label": "Surfaces grandes cultures (pesticides)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "INRAE – Résidus pesticides sols agricoles 2023",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique dense en zone de montagne rend difficile l'évaluation précise des contaminations diffuses sur les alpages savoyards",
+    "Les données BASOL sous-estiment potentiellement les pollutions industrielles historiques des vallées alpines, certains sites anciens n'ayant jamais fait l'objet d'investigation formelle",
+    "La notion de SAU bio en Savoie recouvre des réalités très hétérogènes (alpages extensifs certifiés vs agriculture de fonds de vallée), rendant la comparaison interdépartementale partiellement biaisée"
+  ]
+}

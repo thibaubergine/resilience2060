@@ -1,0 +1,66 @@
+{
+  "synthese": "Les Pyrénées-Orientales constituent l'un des départements français les plus exposés au changement climatique à l'horizon 2060, avec une trajectoire de réchauffement parmi les plus marquées du territoire métropolitain. Selon Climadiag (Météo-France, 2023), le département pourrait connaître jusqu'à 40 à 50 jours de vague de chaleur par an d'ici 2060 sous scénario intermédiaire RCP4.5, contre une moyenne nationale de 20 jours. La plaine du Roussillon, urbanisée et agricole, concentre les vulnérabilités thermiques et hydriques, tandis que le littoral méditerranéen (60 km de côtes) fait face à une élévation du niveau marin estimée à +30 à +60 cm à l'horizon 2100 (DRIAS, 2022). Le risque incendie est classé « très élevé » sur plus de 60 % de la surface forestière du département (DRAAF Occitanie, 2023), comme l'ont dramatiquement illustré les incendies de l'été 2022 à Cerbère et dans les Albères. Le massif pyrénéen offre un gradient altitudinal protecteur partiel, mais insuffisant pour compenser l'ampleur des projections sur les zones basses et côtières (AP3C, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Gradient altitudinal pyrénéen jusqu'à 2 921 m, tampon thermique partiel notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "40-50 jours canicule/an projetés 2060, parmi les pires scores nationaux"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "60% surface forestière en risque très élevé ; incendies 2022 dévastateurs"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "60 km côtes vulnérables, plaine du Roussillon exposée aux inondations torrentielles"
+    }
+  ],
+  "points_forts": [
+    "Le massif pyrénéen offre un gradient altitudinal exceptionnel (0 à 2 921 m au Puigmal), créant des zones refuges climatiques en altitude pour les écosystèmes et les populations (AP3C, 2023)",
+    "La présence d'une couverture forestière significative en étage montagnard (hêtraies, sapinières) constitue un puits de carbone et un régulateur thermique local (IFN/IGN, 2022)",
+    "Le département dispose d'un Plan de Prévention des Risques Incendie (PPRI) révisé en 2022, avec des obligations de débroussaillement renforcées sur les zones à risque",
+    "La diversité topographique (plaine, piémont, haute montagne) permet des stratégies d'adaptation différenciées selon les territoires, contrairement aux départements totalement plans"
+  ],
+  "vigilances": [
+    "Projection de +40 à +50 jours de vague de chaleur annuels d'ici 2060 (scénario SSP2-4.5, Climadiag 2023), avec des nuits tropicales en forte augmentation dans la plaine du Roussillon, menaçant la santé des populations vulnérables",
+    "Le risque incendie de forêt est en forte extension vers les zones de piémont et de garrigue : les incendies d'août 2022 ont brûlé plus de 10 000 ha dans les Albères, un record départemental, et les projections DRIAS 2050 anticipent un allongement de la saison à risque de 2 mois supplémentaires",
+    "L'élévation du niveau marin (+30 à +60 cm d'ici 2100) combinée à l'intensification des épisodes méditerranéens (crues éclairs du Tech, de l'Agly, de la Têt) menace les zones basses littorales et la plaine du Roussillon, avec un risque d'érosion côtière accéléré sur le Roussillon (BRGM, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5°C",
+      "label": "Réchauffement projeté à 2060 (scénario moyen)"
+    },
+    {
+      "valeur": "40-50 j",
+      "label": "Jours de canicule annuels projetés 2060"
+    },
+    {
+      "valeur": "10 000 ha",
+      "label": "Surface brûlée incendies Albères 2022"
+    },
+    {
+      "valeur": "60 km",
+      "label": "Linéaire côtier exposé élévation marine"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2022 (TRACC)",
+    "AP3C Occitanie 2023",
+    "DRAAF Occitanie / IFN-IGN 2022-2023",
+    "BRGM Littoral 2022"
+  ],
+  "limites": [
+    "Les modèles climatiques régionaux (DRIAS) présentent une incertitude accrue sur les Pyrénées en raison de la complexité orographique du massif, pouvant sous-estimer ou surestimer les effets d'altitude locaux",
+    "Le score Climat 2060 ne capture pas pleinement les effets de micro-climat propres au département (tramontane, canigounades, influences méditerranéennes) qui modulent fortement les conditions réelles à l'échelle infra-communale",
+    "L'évaluation du risque incendie repose sur des modèles pré-2022 partiellement révisés ; la dynamique post-incendie des Albères et la régénération forestière introduisent des incertitudes importantes sur les projections de vulnérabilité à moyen terme"
+  ]
+}

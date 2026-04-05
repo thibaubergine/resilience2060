@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin présente une qualité de l'air dégradée en raison de sa position géographique particulière : encaissé entre le Rhin et les Vosges, le département souffre d'un effet de cuvette favorisant l'accumulation des polluants, notamment dans l'agglomération mulhousienne. Les concentrations en PM2,5 dépassent régulièrement les nouvelles valeurs guides OMS 2021 (5 µg/m³ annuel), avec des moyennes mesurées entre 10 et 14 µg/m³ selon les stations ATMO Grand Est (2022-2023). Le NO₂ urbain reste préoccupant à Mulhouse, où les axes routiers denses et le trafic transfrontalier avec l'Allemagne et la Suisse génèrent des pics récurrents, proches des 40 µg/m³. Le tissu industriel hérité (chimie, industrie textile reconvertie, logistique) contribue aux émissions de polluants primaires, tandis que l'agriculture intensive de la plaine alsacienne émet des quantités significatives de NH₃ (CITEPA/Inventaire régional ATMO Grand Est 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 entre 10-14 µg/m³, loin seuil OMS 5 µg/m³ annuel"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ Mulhouse proche 40 µg/m³, trafic transfrontalier dense"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 5.0,
+      "note": "Héritage chimique et logistique, émissions industrielles persistantes"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "NH₃ agricole notable, plaine alsacienne intensive mais maîtrisé"
+    }
+  ],
+  "points_forts": [
+    "Réseau de surveillance dense : ATMO Grand Est exploite plusieurs stations fixes en Haut-Rhin, permettant un suivi fin des épisodes de pollution",
+    "Tendance à la baisse des émissions de SO₂ et de métaux lourds grâce à la fermeture progressive de sites industriels lourds (CITEPA 2023)",
+    "Développement du réseau cyclable transfrontalier et politiques de mobilité douce à Mulhouse réduisant la pression automobile en centre-ville",
+    "Qualité de l'air en zones rurales et vosgesiennes satisfaisante, avec des concentrations en PM2,5 inférieures à 8 µg/m³ en altitude"
+  ],
+  "vigilances": [
+    "L'effet de cuvette géographique risque d'être aggravé par l'augmentation des épisodes de canicule et d'anticyclones prolongés projetés à horizon 2060 (DRIAS 2023), piégeant davantage les polluants dans la plaine",
+    "Le trafic de transit routier transfrontalier (France-Allemagne-Suisse) sur l'axe rhénan reste structurellement élevé et peu maîtrisable à l'échelle départementale, maintenant un fond de NO₂ important",
+    "Les émissions agricoles de NH₃ issues des épandages pourraient augmenter avec l'intensification des cultures face aux stress hydriques, contribuant à la formation de PM2,5 secondaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "10-14 µg/m³",
+      "label": "Concentration PM2,5 annuelle (ATMO Grand Est 2023)"
+    },
+    {
+      "valeur": "~40 µg/m³",
+      "label": "Pic NO₂ axes urbains Mulhouse"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5 (référence)"
+    },
+    {
+      "valeur": "Rang 70/96",
+      "label": "Classement national qualité de l'air"
+    }
+  ],
+  "sources": [
+    "ATMO Grand Est – Bilan qualité de l'air 2022-2023",
+    "OMS Guidelines 2021 (PM2,5, NO₂)",
+    "CITEPA – Inventaire national des émissions 2023",
+    "DRIAS/Climadiag – Projections climatiques Alsace 2060"
+  ],
+  "limites": [
+    "Les données de stations ATMO sont ponctuelles et peuvent sous-représenter les expositions dans les zones péri-urbaines et rurales densément agricoles du Haut-Rhin",
+    "L'absence de données désagrégées à l'échelle communale pour le NH₃ agricole limite la précision de l'évaluation pour la plaine alsacienne spécifiquement",
+    "Les épisodes transfrontaliers de pollution (importés d'Allemagne ou de Suisse) ne sont pas toujours distingués des émissions locales dans les inventaires départementaux, biaisantl'évaluation de la responsabilité territoriale"
+  ]
+}

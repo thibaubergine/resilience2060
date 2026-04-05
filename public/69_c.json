@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Rhône (69), dominé par la métropole lyonnaise et ses effets d'îlot de chaleur urbain, présente une vulnérabilité climatique significative à l'horizon 2060. Selon Climadiag (Météo-France, 2023), Lyon devrait connaître entre 25 et 40 jours de canicule supplémentaires par an d'ici 2060 sous scénario RCP8.5, contre une moyenne nationale de 20 à 30 jours. Le département s'étend majoritairement en plaine et en vallée (altitude moyenne ~300 m), offrant peu de tampon thermique naturel face aux vagues de chaleur, tandis que les projections DRIAS indiquent une hausse des températures estivales de +3°C à +4°C à l'horizon 2060. Les risques d'inondations restent élevés sur l'axe Rhône-Saône, avec 280 000 habitants en zone inondable selon l'EPTB Saône-Doubs et les PPRI en vigueur, renforçant la vulnérabilité composite du territoire face au changement climatique.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude moyenne ~300 m, vallons modérés, tampon thermique limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "25-40 jours canicule supplémentaires/an projetés à Lyon 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Bocages et zones urbaines réduisent risque feux comparé au sud"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "280 000 habitants en zone inondable Rhône-Saône, PPRI étendus"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt modéré : massifs forestiers limités et souvent feuillus (Monts du Lyonnais, Beaujolais), Indice Forêt Météo historiquement inférieur aux départements méditerranéens (DRIAS 2023)",
+    "Réseau de surveillance climatique dense via Météo-France et l'Observatoire de Lyon, permettant une anticipation robuste des aléas (Climadiag 2023)",
+    "Plans d'adaptation urbains avancés : la Métropole de Lyon dispose d'un Plan Climat-Air-Énergie Territorial (PCAET) actualisé en 2022, avec 300 ha de végétalisation projetés",
+    "Absence de vulnérabilité côtière directe, réduisant un facteur de risque climatique majeur présent dans 30+ départements français"
+  ],
+  "vigilances": [
+    "Intensification des îlots de chaleur urbains à Lyon : température estivale nocturne pouvant dépasser de +6°C les zones rurales environnantes d'ici 2060 (CEREMA/Climadiag)",
+    "Risque inondation croissant sur l'axe Rhône-Saône : les crues centennales pourraient augmenter en fréquence (+20 à +40% selon Explore2/DRIAS RCP8.5), impactant 280 000 habitants",
+    "Stress hydrique estival en progression : les étiages du Rhône s'accentuent avec des débits d'étiage projetés en baisse de 20 à 30% d'ici 2060 (Explore2 2023), menaçant usages agricoles et refroidissement industriel"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3 à +4°C",
+      "label": "Hausse températures estivales 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "25-40 j",
+      "label": "Jours de canicule supplémentaires/an à Lyon"
+    },
+    {
+      "valeur": "280 000",
+      "label": "Habitants en zone inondable Rhône-Saône"
+    },
+    {
+      "valeur": "-20 à -30%",
+      "label": "Baisse débit étiage Rhône projetée 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios RCP4.5/8.5)",
+    "Explore2 BRGM/OFB 2023",
+    "PCAET Métropole de Lyon 2022"
+  ],
+  "limites": [
+    "La forte hétérogénéité territoriale du Rhône (plaine lyonnaise dense vs. Beaujolais rural) rend difficile l'agrégation d'un score climatique unique représentatif",
+    "Les projections Climadiag sont disponibles à l'échelle communale mais les données d'impact socio-économique à l'échelle départementale restent partielles pour l'horizon 2060",
+    "L'effet d'îlot de chaleur urbain lyonnais biaise les indicateurs thermiques départementaux vers le haut, masquant la résilience relative des secteurs ruraux du nord et de l'ouest du département"
+  ]
+}

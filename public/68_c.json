@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin présente un profil climatique 2060 contrasté, combinant des atouts altitudinaux réels grâce aux Vosges (sommets > 1 400 m) et des vulnérabilités marquées dans la plaine alsacienne. Selon Climadiag (Météo-France, 2023), le département devrait connaître une hausse de +2,5 à +3,2°C des températures moyennes d'ici 2060 en scénario intermédiaire, avec une augmentation significative des jours de canicule passant de 5 à 20-25 jours par an dans la plaine du Rhin. La plaine rhénane, encaissée entre Vosges et Forêt-Noire, constitue un couloir de chaleur particulièrement exposé aux épisodes de chaleur extrême (DRIAS, 2023), accentuant les effets d'îlot de chaleur urbain à Mulhouse et Colmar. Le risque d'inondation reste prégnant : l'Ill, la Fecht et le Rhin classent plusieurs communes en zone de risque fort (PPRi actifs), avec des crues centennales potentiellement amplifiées par le changement climatique selon l'étude TRACC (2022). Le risque feux de forêt demeure modéré mais en progression, les forêts vosgiennes subissant déjà des dépérissements liés aux sécheresses répétées depuis 2018 (DSF/IGN 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Vosges (>1 400 m) offrent tampon thermique notable pour la moitié ouest"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Plaine rhénane encaissée, +20 jours canicule prévus d'ici 2060 (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Forêts vosgiennes fragilisées, risque feux en progression depuis sécheresses 2018-2022"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Inondations Ill/Rhin actives, PPRi nombreux, risque amplifié par dérèglement climatique"
+    }
+  ],
+  "points_forts": [
+    "Relief vosgien protecteur : 45 % du territoire au-dessus de 400 m, limitant les pics thermiques extrêmes en altitude (IGN/Climadiag 2023)",
+    "Réseau hydrographique dense (Ill, Rhin, canaux) offrant des corridors de fraîcheur et une régulation thermique locale",
+    "Couverture forestière significative (38 % du territoire, ONF 2023) contribuant à la régulation microclimatique et au stockage de carbone",
+    "Anticipation institutionnelle : PCAET du Pays de Mulhouse et du Pays Rhin-Vignoble-Grand Ballon intégrant des volets adaptation climatique 2030-2060"
+  ],
+  "vigilances": [
+    "La plaine rhénane atteindra potentiellement 35 à 40 jours de chaleur extrême (>35°C) par an d'ici 2060 en scénario RCP8.5 (DRIAS/Météo-France), exposant Mulhouse et Colmar à des risques sanitaires graves",
+    "Dépérissement forestier vosgien accéléré : 18 % des épicéas déjà affectés en 2022 (DSF-IGN), réduisant progressivement le tampon thermique et la capacité de séquestration carbone du département",
+    "Risque inondation renforcé : les crues de l'Ill et de la Thur pourraient voir leurs périodes de retour raccourcies de 30 à 50 % d'ici 2060 selon les projections TRACC, menaçant des zones urbaines densément peuplées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,8°C",
+      "label": "Hausse température moyenne prévue d'ici 2060 (scénario intermédiaire)"
+    },
+    {
+      "valeur": "~25 jours",
+      "label": "Jours de canicule supplémentaires/an prévus en plaine rhénane à 2060"
+    },
+    {
+      "valeur": "38 %",
+      "label": "Part du territoire en couverture forestière (ONF 2023)"
+    },
+    {
+      "valeur": "18 %",
+      "label": "Épicéas vosgiens en dépérissement constaté en 2022 (DSF-IGN)"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune – Météo-France 2023",
+    "DRIAS 2023 – projections climatiques régionales",
+    "TRACC – rapport adaptation changement climatique 2022",
+    "DSF-IGN – Département Santé des Forêts 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS disponibles à l'échelle département masquent les fortes disparités altitudinales entre la plaine rhénane et le massif vosgien, rendant le score global peu discriminant pour les territoires de montagne",
+    "Le risque inondation fluviale (Rhin, Ill) est bien documenté mais les interactions avec le changement climatique restent insuffisamment modélisées à l'échelle locale dans les PPRi actuels, datant parfois d'avant 2015",
+    "Les données sur le risque feux de forêt en contexte vosgien sont moins robustes qu'en région méditerranéenne, les modèles de propagation n'étant pas encore pleinement adaptés aux forêts de feuillus et mixtes du massif"
+  ]
+}

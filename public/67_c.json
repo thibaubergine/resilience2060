@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Bas-Rhin (67), situé dans la plaine rhénane à une altitude médiane d'environ 150 m, présente une vulnérabilité climatique significative à l'horizon 2060, notamment en raison de sa position continentale encaissée entre Vosges et Forêt-Noire qui favorise les extrêmes thermiques (Climadiag Commune, 2023). Selon les projections DRIAS 2023 (scénario RCP8.5), Strasbourg pourrait connaître jusqu'à 30 à 35 jours de canicule par an d'ici 2060, contre 5 à 8 jours en moyenne actuelle, classant la plaine d'Alsace parmi les zones à forte exposition aux vagues de chaleur en France métropolitaine. Le risque d'inondation reste prégnant : le Rhin et ses affluents (Ill, Bruche) exposent plusieurs dizaines de milliers d'habitants à des crues centennales, avec des PPRI couvrant près de 20 % du territoire départemental (GéoRisques, 2023). Le risque incendie de forêt demeure modéré mais croissant sur les piémonts vosgiens, avec une augmentation de l'aléa sécheresse estivale projetée par Météo-France dans le cadre de l'AP3C Grand Est.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude plaine dominante (150 m) ; Vosges offrent tampon partiel nord-ouest"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Strasbourg : +30-35 jours canicule/an projetés à 2060 (DRIAS RCP8.5)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Risque incendie modéré ; piémonts vosgiens sous pression sécheresse croissante"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Plaine rhénane inondable ; Rhin et Ill exposent ~20 % du territoire (GéoRisques)"
+    }
+  ],
+  "points_forts": [
+    "Les reliefs vosgiens à l'ouest (culminant à 1 424 m au Grand Ballon) jouent un rôle de régulateur thermique partiel sur la partie piémontaise du département",
+    "Le réseau de surveillance climatique AP3C Grand Est assure un suivi précis et continu des évolutions climatiques locales, permettant une adaptation territoriale anticipée",
+    "Le risque de feux de forêt reste inférieur à la moyenne nationale : le Bas-Rhin n'est pas classé en zone à risque élevé dans le référentiel national DFCI (Prométhée 2023)",
+    "La densité du réseau hydrographique (Rhin, Ill, Canal du Rhône au Rhin) offre des ressources en eau encore disponibles pour l'adaptation, malgré les pressions projetées (Explore2, 2023)"
+  ],
+  "vigilances": [
+    "Strasbourg figure parmi les métropoles françaises les plus exposées à l'effet d'îlot de chaleur urbain : température nocturne jusqu'à +5 °C vs périphérie, avec projection de +2,5 °C supplémentaires à 2060 (Climadiag, 2023)",
+    "Les crues du Rhin représentent un aléa structurel majeur : un événement centennal affecterait potentiellement 80 000 à 100 000 habitants en zone inondable selon les PPRI en vigueur (GéoRisques/DREAL Grand Est)",
+    "Le déficit hydrique estival projeté (–20 à –30 % de précipitations estivales selon DRIAS RCP8.5) menace les nappes phréatiques rhénanes, déjà sollicitées par l'agriculture intensive et l'industrie"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5°C",
+      "label": "Hausse température moyenne projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "30-35 j",
+      "label": "Jours de canicule annuels projetés à 2060"
+    },
+    {
+      "valeur": "~20 %",
+      "label": "Part du territoire en zone inondable (PPRI)"
+    },
+    {
+      "valeur": "150 m",
+      "label": "Altitude médiane départementale (plaine rhénane)"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune – Météo-France 2023",
+    "DRIAS 2023 – Projections climatiques RCP8.5",
+    "GéoRisques / DREAL Grand Est – PPRI Rhin-Ill",
+    "AP3C Grand Est – Adaptation au changement climatique"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale restent des moyennes régionalisées : les contrastes plaine/piémont/montagne intra-départementaux sont sous-estimés dans les modèles actuels",
+    "L'indice de vulnérabilité côtière ne s'applique pas au Bas-Rhin (département sans façade maritime), ce qui biaise mécaniquement la comparaison avec les 96 départements dans ce sous-critère",
+    "Les données sur l'adaptation effective des infrastructures urbaines strasbourgeoises au risque canicule (végétalisation, albédo) restent incomplètes et difficiles à intégrer dans une notation comparative standardisée"
+  ]
+}

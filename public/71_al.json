@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire présente un profil alimentaire solide, porté par une tradition agricole diversifiée sur 371 000 ha de SAU (Agreste 2023), combinant élevage bovin charolais, viticulture de renom et polyculture. Le département concentre un patrimoine en signes officiels de qualité remarquable, avec notamment les AOC viticoles de Mâcon, Pouilly-Fuissé, Givry et Mercurey, ainsi que le Charolais IGP et la Volaille de Bresse AOC (INAO 2024). La part des surfaces en agriculture biologique atteint environ 8,5 % de la SAU, légèrement en deçà de la moyenne nationale de 10,7 % (Agence Bio 2023), laissant une marge de progression significative. L'autonomie alimentaire du territoire, évaluée via l'indicateur ZAVA 2024, reste correcte grâce à la production bovine et viticole exportatrice, mais la dépendance aux intrants extérieurs pour les cultures conventionnelles tempère ce bilan. Le réseau de circuits courts et d'AMAP, bien que dynamique dans les bassins de vie de Chalon-sur-Saône et Mâcon, demeure inégalement réparti sur ce territoire rural étendu.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Production bovine charolaise et viticole assurant autonomie partielle solide"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Nombreuses AOC/IGP : Pouilly-Fuissé, Mâcon, Bresse, Charolais reconnues"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "8,5 % SAU bio, sous moyenne nationale de 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Circuits courts actifs à Chalon et Mâcon, couverture rurale inégale"
+    }
+  ],
+  "points_forts": [
+    "Patrimoine AOC/IGP exceptionnel : 7 appellations viticoles majeures (Pouilly-Fuissé, Mâcon, Mercurey, Givry…) et Volaille de Bresse AOP (INAO 2024)",
+    "Production bovine charolaise emblématique avec plus de 300 000 bovins recensés, fondement de l'autonomie protéique locale (Agreste 2023)",
+    "SAU de 371 000 ha représentant environ 45 % du territoire, offrant une base productive agricole dense",
+    "Dynamisme des marchés de producteurs et AMAP dans les pôles urbains de Chalon-sur-Saône, Mâcon et Montceau-les-Mines, structurant des filières courtes viables"
+  ],
+  "vigilances": [
+    "La progression de l'agriculture biologique reste lente (+0,4 point/an) ; l'objectif national de 18 % de SAU bio en 2027 paraît hors d'atteinte au rythme actuel (Agence Bio 2023)",
+    "Le changement climatique menace les appellations viticoles : déplacement phénologique avancé de 2 à 3 semaines depuis 1980, risques accrus de millésimes déséquilibrés (DRIAS 2060)",
+    "La dépendance aux intrants azotés et phytosanitaires dans les systèmes céréaliers et bovins conventionnels fragilise la résilience alimentaire face aux tensions sur les marchés mondiaux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "371 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part SAU en bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "7+ AOP/IGP",
+      "label": "Appellations alimentaires actives (INAO 2024)"
+    },
+    {
+      "valeur": "~300 000",
+      "label": "Bovins recensés (cheptel Charolais)"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre AOP/IGP alimentaires",
+    "Agence Bio 2023 – Observatoire national de l'agriculture biologique",
+    "Agreste 2023 – Recensement agricole Saône-et-Loire",
+    "ZAVA 2024 – Zones à vocation agricole et autonomie alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire ne distinguent pas les flux export viticoles des flux alimentaires locaux réels, surestimant potentiellement l'autosuffisance",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, sous-estimant les échanges informels dans les zones rurales peu denses du Charollais et du Morvan",
+    "La part de SAU bio peut masquer des disparités infra-départementales fortes entre le Mâconnais viticole bio-dynamique et les plaines d'élevage conventionnel de la Bresse"
+  ]
+}

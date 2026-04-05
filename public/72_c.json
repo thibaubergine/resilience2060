@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe (72), département de plaine du bassin parisien occidental, présente une vulnérabilité climatique modérée à l'horizon 2060, avec un score de 5,5/10 reflétant une position intermédiaire parmi les 96 départements métropolitains. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de +1,8°C à +2,4°C des températures moyennes annuelles d'ici 2050-2060, accompagnée d'une multiplication par 2 à 3 du nombre de jours de canicule (dépassement de 34°C). L'analyse DRIAS 2023 indique que la durée des sécheresses estivales pourrait s'allonger de 15 à 20 jours supplémentaires par an, pénalisant les zones agricoles de la Champagne mancelle et du Perche sarthois. Le département ne bénéficie d'aucun effet tampon littoral ou altitudinal significatif, son altitude moyenne oscillant entre 80 et 250 m (collines du Perche), ce qui le rend pleinement exposé aux évolutions thermiques continentales (TRACC/AP3C Pays de la Loire). Les projections TRACC signalent également une hausse de la fréquence des épisodes pluvieux intenses en automne-hiver, accroissant les risques d'inondation dans les vallées de la Sarthe, du Loir et de l'Huisne.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Altitude moyenne 80-250 m, aucun effet tampon thermique significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+2,4°C attendu d'ici 2060, jours canicule multipliés par 2-3 (Climadiag)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts peu denses, risque feux limité comparé au sud-ouest français"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Vallées Sarthe/Loir/Huisne exposées inondations, aucune vulnérabilité côtière"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt faible : faible taux de boisement continu (~18 % du territoire), pas de forêts méditerranéennes à risque extrême (IFN/IGN 2022)",
+    "Absence de vulnérabilité côtière directe : département intérieur, aucune façade maritime exposée à la montée des eaux (MNT IGN)",
+    "Réseau hydrographique dense (Sarthe, Loir, Huisne) offrant des capacités de recharge potentielles pour l'adaptation agricole en cas de gestion optimisée (Explore2/OFB)",
+    "Présence de zones bocagères et forestières dans le Perche sarthois constituant des îlots de fraîcheur naturels limitant partiellement les pics thermiques locaux (AP3C Pays de la Loire)"
+  ],
+  "vigilances": [
+    "Multiplication par 2 à 3 des jours de canicule d'ici 2060 (scénario SSP3-7.0, Climadiag 2023), avec des nuits tropicales en forte augmentation au Mans (températures nocturnes >20°C)",
+    "Sécheresses estivales allongées de 15 à 20 jours supplémentaires par an d'ici 2060, menaçant les cultures maïs et élevage bovin laitier dominant en Sarthe (DRIAS 2023/Chambre Agriculture 72)",
+    "Risque accru d'inondations automnales et hivernales dans les vallées alluviales de la Sarthe et du Loir, où plusieurs zones urbanisées (La Flèche, Sablé-sur-Sarthe) sont déjà classées en PPRI (GéoRisques/TRACC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,4°C",
+      "label": "Hausse température moyenne 2060 (SSP3-7.0)"
+    },
+    {
+      "valeur": "x2 à x3",
+      "label": "Multiplication jours canicule d'ici 2060"
+    },
+    {
+      "valeur": "~18 %",
+      "label": "Taux de boisement départemental (IGN 2022)"
+    },
+    {
+      "valeur": "80-250 m",
+      "label": "Altitude moyenne, faible tampon thermique"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios SSP)",
+    "TRACC / AP3C Pays de la Loire",
+    "GéoRisques PPRI / IGN IFN 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale restent des moyennes masquant des disparités locales significatives entre la plaine du Maine et le Perche sarthois",
+    "L'absence de station météorologique de référence dense en Sarthe rurale limite la précision des modélisations thermiques infra-départementales pour 2060",
+    "Les scénarios DRIAS sur les sécheresses ne distinguent pas finement les effets sur les différents types de sols sarthois (limons, argiles, sables), pourtant déterminants pour la vulnérabilité agricole réelle"
+  ]
+}

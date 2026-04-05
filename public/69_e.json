@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Rhône (69) présente une situation hydrique contrastée, tiraillée entre la présence du fleuve Rhône comme ressource stratégique majeure et une pression anthropique intense liée à la métropole lyonnaise (2,1 millions d'habitants). La qualité des eaux souterraines est affectée par un historique industriel dense, avec des contaminations aux PFAS documentées dans la plaine de la Bourbre et autour de la zone industrielle de Pont-de-Claix (ARS Auvergne-Rhône-Alpes, 2023). Selon le projet Explore2 (2023), les débits d'étiage du bassin versant de la Saône pourraient diminuer de 20 à 40 % à l'horizon 2060, accentuant les tensions sur les prélèvements agricoles et industriels. Les données DCE 2022 indiquent que moins de 45 % des masses d'eau superficielles du Rhône atteignent le bon état écologique, plaçant le département en deçà de la moyenne nationale (53 %). La contamination aux nitrates reste modérée comparée aux départements agricoles intensifs, mais les zones périurbaines connaissent une pression croissante (Agence de l'Eau RMC, 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Eau potable conforme à 92 % ; contaminations PFAS localisées signalées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Étiages Saône et Rhône en baisse projetée de 20–40 % (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Nitrates faibles ; département peu agricole, pression urbaine modérée"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "Contaminations PFAS avérées zones industrielles lyonnaises (ARS 2023)"
+    }
+  ],
+  "points_forts": [
+    "Le fleuve Rhône constitue une réserve stratégique majeure avec un débit moyen de 1 000 m³/s à Lyon, sécurisant l'alimentation en eau potable à moyen terme",
+    "La nappe alluviale du Rhône, bien protégée dans certains secteurs, alimente plus de 60 % de la population en eau potable de qualité (ARS AuRA, 2022)",
+    "Les taux de nitrates restent inférieurs à 25 mg/L sur la majorité du territoire, bien en dessous du seuil réglementaire de 50 mg/L (Agence de l'Eau RMC)",
+    "La Métropole de Lyon investit 120 M€ sur 2022–2026 dans la rénovation des réseaux d'eau potable pour réduire les pertes (actuellement ~18 %)"
+  ],
+  "vigilances": [
+    "Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 20 à 40 % sur les affluents de la Saône d'ici 2060, menaçant les usages agricoles et industriels en période estivale",
+    "La présence de PFAS détectée dans plusieurs captages de la rive gauche du Rhône dépasse ponctuellement les nouvelles valeurs seuils européennes (0,1 µg/L total PFAS, directive 2020/2184), impactant l'eau distribuée à environ 50 000 habitants",
+    "Moins de 45 % des masses d'eau superficielles atteignent le bon état écologique (DCE 2022), avec des pressions morphologiques et polluantes liées à l'urbanisation et aux rejets industriels de la métropole"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "92 %",
+      "label": "Conformité eau potable"
+    },
+    {
+      "valeur": "<25 mg/L",
+      "label": "Nitrates eaux souterraines"
+    },
+    {
+      "valeur": "<45 %",
+      "label": "Masses d'eau bon état écologique"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débit étiage 2060"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes 2023",
+    "Agence de l'Eau Rhône-Méditerranée-Corse – DCE 2022",
+    "Explore2 BRGM/OFB 2023",
+    "Métropole de Lyon – Rapport eau 2022"
+  ],
+  "limites": [
+    "La fusion administrative du Rhône avec la Métropole de Lyon (collectivité à statut particulier depuis 2015) complexifie la lecture des données départementales stricto sensu, certains indicateurs étant agrégés ou dissociés selon les sources",
+    "Les données PFAS à l'échelle départementale restent partielles, les campagnes de mesure ARS étant encore incomplètes sur les captages ruraux du Beaujolais et du Pays d'Ozon",
+    "Les modèles Explore2 présentent une incertitude élevée sur les petits bassins versants locaux (Azergues, Brévenne), limitant la précision des projections hydriques infra-départementales"
+  ]
+}

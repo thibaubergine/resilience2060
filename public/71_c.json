@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire (71) présente une vulnérabilité climatique modérée à horizon 2060, avec un score de 6,0/10 plaçant le département dans une situation intermédiaire parmi les 96 départements français. Selon les projections DRIAS 2023, le département devrait connaître une augmentation des températures moyennes de +2,5 à +3,5°C à l'horizon 2060 selon le scénario RCP 8.5, avec une multiplication par 2 à 3 du nombre de jours de canicule. Le relief bourguignon offre un certain tampon thermique grâce aux reliefs du Morvan (point culminant à 901 m, Haut-Folin) et du Mâconnais, mais les plaines alluviales de la Saône restent très exposées aux inondations, avec un risque centennal documenté sur les zones de Mâcon et Chalon-sur-Saône (PPRI en vigueur sur 63 communes). L'outil Climadiag Commune (Météo-France, 2023) identifie plusieurs secteurs du département comme fortement exposés aux sécheresses estivales répétées, menaçant à la fois la viticulture (AOP Mâcon, Mercurey) et l'agriculture céréalière qui occupe 58 % de la SAU départementale (Agreste 2023). La position continentale du département, éloignée des influences océaniques et méditerranéennes, génère une variabilité thermique saisonnière marquée qui amplifie les risques de gel tardif et de canicule.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Morvan (901 m) et Mâconnais offrent tampon thermique notable"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Plaines de la Saône très exposées, +25 jours caniculaires prévus 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Forêts mixtes à risque modéré, massifs du Morvan sous surveillance DFCI"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Inondations fréquentes Saône ; 63 communes en PPRI, pas de risque côtier"
+    }
+  ],
+  "points_forts": [
+    "Présence du massif du Morvan (jusqu'à 901 m) jouant un rôle de régulateur thermique et hydrologique pour le nord-ouest du département",
+    "Absence totale de risque côtier ou de submersion marine, simplifiant la gestion du trait de côte (DREAL BFC, 2023)",
+    "Couverture forestière significative (~30 % du territoire) contribuant à l'effet îlot de fraîcheur et au stockage carbone (IFN/IGN 2022)",
+    "Réseau de zones humides en vallée de Saône classées Ramsar et Natura 2000, offrant des zones tampons naturelles face aux crues"
+  ],
+  "vigilances": [
+    "Multiplication attendue des jours de canicule : +20 à +30 jours/an supplémentaires à horizon 2060 selon DRIAS (RCP 8.5), impactant santé et agriculture",
+    "Intensification du risque inondation en plaine alluviale de la Saône avec des crues décennales pouvant devenir plus fréquentes et plus rapides (Explore2, 2023)",
+    "Augmentation du risque feux de forêt dans le Morvan et les coteaux viticoles du Mâconnais, avec des conditions de sécheresse estivale prolongée prévues dès 2040 (AP3C/TRACC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3,5°C",
+      "label": "Hausse température prévue 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "63 communes",
+      "label": "Soumises à PPRI inondation Saône"
+    },
+    {
+      "valeur": "901 m",
+      "label": "Point culminant Haut-Folin (tampon thermique)"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Couverture forestière départementale"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France Climadiag",
+    "TRACC / AP3C Bourgogne-Franche-Comté",
+    "PPRI DREAL BFC / GéoRisques",
+    "IGN-IFN 2022 / Agreste 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS reposent sur des modèles à maille régionale (~8 km) insuffisamment précis pour différencier les microclimats locaux entre plaine de Saône et reliefs du Morvan",
+    "L'indicateur \"risque feux\" est encore peu documenté pour la Bourgogne, les bases DFCI étant historiquement centrées sur le Sud de la France, sous-estimant peut-être l'exposition réelle du Morvan",
+    "La vulnérabilité aux inondations est bien identifiée mais les données sur l'évolution des débits de la Saône à 2060 restent incertaines selon les scénarios climatiques retenus (Explore2, fourchette large)"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin affiche un profil alimentaire relativement solide avec un score de 6,5/10, porté notamment par une tradition viticole et agroalimentaire alsacienne structurée. Le département compte plusieurs appellations d'origine reconnues, dont le Munster AOP et les vins d'Alsace (AOC couvrant environ 15 500 ha de vignes sur le Bas-Rhin et Haut-Rhin réunis), conférant une densité en signes de qualité supérieure à la moyenne nationale (INAO 2023). La part de la SAU en agriculture biologique atteint environ 9 % dans le Haut-Rhin, légèrement en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023), avec une progression notable mais encore insuffisante pour rejoindre les leaders français. Les zones à autonomie alimentaire (ZAVA 2024) révèlent une dépendance aux bassins de consommation urbains de Mulhouse et Colmar, limitant la résilience alimentaire locale. Le tissu de circuits courts reste dynamique autour de Colmar et de la plaine d'Alsace, avec une densité d'AMAP et de marchés de producteurs supérieure à la moyenne régionale Grand Est.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Dépendance urbaine Mulhouse/Colmar, autonomie alimentaire locale insuffisante"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Munster AOP, vins AOC Alsace, Gewurztraminer, densité signes qualité élevée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Environ 9% SAU bio, progression régulière mais sous moyenne nationale 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif, marchés producteurs denses autour Colmar et Mulhouse"
+    }
+  ],
+  "points_forts": [
+    "Forte densité d'appellations : Munster AOP, AOC Alsace (Riesling, Gewurztraminer, Pinot Gris), parmi les IGP/AOP les plus reconnues d'Europe (INAO 2023)",
+    "Progression de l'agriculture biologique : +15 % de surfaces certifiées bio entre 2020 et 2023 dans le département (Agence Bio 2023)",
+    "Réseau de circuits courts structuré avec plus de 25 AMAP recensées et des marchés de producteurs hebdomadaires à Colmar, Mulhouse et Guebwiller",
+    "Plaine d'Alsace productive : polyculture diversifiée (maïs, légumes, arboriculture) garantissant une base agricole locale significative"
+  ],
+  "vigilances": [
+    "Pression foncière croissante en plaine d'Alsace : artificialisation des terres agricoles estimée à +1,2 % par an autour de Mulhouse, menaçant la base productive locale (INRAE 2023)",
+    "Vulnérabilité viticole face aux aléas climatiques : gel printanier et sécheresse estivale récurrents projettent une réduction des rendements AOC de 10 à 20 % d'ici 2050 (DRIAS/Climadiag)",
+    "Part du bio encore limitée par des coûts de conversion élevés et un manque d'opérateurs de transformation locale, freinant la montée en gamme des filières durables"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "9%",
+      "label": "SAU en agriculture biologique (2023)"
+    },
+    {
+      "valeur": "15 500 ha",
+      "label": "Vignoble AOC Alsace (Haut-Rhin + Bas-Rhin)"
+    },
+    {
+      "valeur": "25+",
+      "label": "AMAP recensées dans le département"
+    },
+    {
+      "valeur": "+15%",
+      "label": "Progression surfaces bio 2020-2023"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre AOP/IGP/AOC",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones autonomie alimentaire",
+    "INRAE 2023 – Artificialisation terres agricoles"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent partielles pour le Haut-Rhin, ne distinguant pas suffisamment les dynamiques urbaines de Mulhouse de celles des zones rurales vosgesiennes",
+    "L'agrégation des chiffres viticoles AOC Alsace couvre souvent Haut-Rhin et Bas-Rhin conjointement, rendant difficile l'isolement précis de la contribution du seul département 68",
+    "L'absence de données locales consolidées sur les volumes commercialisés en circuits courts empêche une évaluation quantitative rigoureuse de l'autonomie alimentaire effective"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe présente une situation hydrique globalement intermédiaire à l'échelle nationale, avec une ressource en eau superficielle structurée autour de la Sarthe, la Huisne et le Loir, mais soumise à des tensions croissantes en période estivale. Les eaux souterraines de la nappe du Cénomanien, principale ressource d'eau potable du département, affichent des niveaux de nitrates préoccupants dans les secteurs agricoles intensifs, avec des dépassements ponctuels du seuil des 50 mg/L signalés par l'ARS Pays de la Loire. Le projet Explore2 (BRGM/OFB 2023) projette pour la Sarthe une réduction des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les principaux cours d'eau, plaçant le département en zone de vigilance renforcée. Des contaminations aux PFAS ont été détectées dans plusieurs captages sarthois, en lien avec des activités industrielles et l'usage historique de mousses extincteurs, nécessitant des suivis renforcés depuis 2023 (ARS/DGS). La conformité globale de l'eau distribuée reste correcte (>95 % des analyses conformes selon ARS 2022), mais le coût du traitement s'alourdit face à la multiplication des micropolluants.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Taux de conformité eau potable >95%, nappe Cénomanien globalement bien gérée"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Débits étiage -20 à -40% projetés à 2060 selon Explore2 BRGM"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Dépassements 50 mg/L nitrates ponctuels, pression agricole notable sur captages"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "Contaminations PFAS détectées mais surveillance renforcée depuis 2023 ARS"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable supérieur à 95 % des analyses selon le bilan ARS Pays de la Loire 2022",
+    "La nappe du Cénomanien constitue une ressource stratégique bien identifiée et partiellement protégée par des périmètres de captage réglementaires (DUP)",
+    "Le réseau hydrographique dense (Sarthe, Huisne, Loir) offre une diversité de ressources alternatives en cas de tension sur un captage",
+    "Des programmes agro-environnementaux dans les aires d'alimentation de captage (AAC) mobilisent des agriculteurs volontaires pour réduire les intrants azotés"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage à l'horizon 2060 (Explore2, BRGM 2023), menaçant l'alimentation en eau potable et les usages agricoles en été",
+    "Présence confirmée de PFAS dans plusieurs captages sarthois ; les seuils sanitaires fixés par la directive européenne 2020/2184 (0,1 µg/L total PFAS) imposent des investissements de traitement coûteux",
+    "Pression agricole persistante sur les nitrates : plusieurs masses d'eau souterraines classées en mauvais état chimique au titre de la DCE, risque de non-atteinte du bon état en 2027"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">95%",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Réduction débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé ponctuellement"
+    },
+    {
+      "valeur": "0,1 µg/L",
+      "label": "Seuil PFAS directive EU 2020/2184"
+    }
+  ],
+  "sources": [
+    "ARS Pays de la Loire – Bilan qualité eau potable 2022",
+    "BRGM/OFB – Projet Explore2, projections hydrologiques 2023",
+    "Directive Cadre sur l'Eau (DCE) – État des masses d'eau, AELB 2022",
+    "DGS/ARS – Surveillance PFAS captages 2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages sarthois sont partielles et récentes (2023) ; l'exhaustivité du recensement des sites contaminants n'est pas garantie à l'échelle départementale",
+    "Les projections Explore2 reposent sur des modèles hydrologiques à maille régionale, dont l'incertitude à l'échelle des petits bassins versants sarthois reste élevée",
+    "L'état chimique des masses d'eau souterraines publié par l'AELB peut sous-estimer certains micropolluants émergents (médicaments, pesticides métabolites) insuffisamment couverts par les réseaux de surveillance actuels"
+  ]
+}

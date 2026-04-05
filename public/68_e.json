@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Haut-Rhin bénéficie d'une ressource en eau globalement abondante grâce à la nappe phréatique rhénane, l'une des plus grandes d'Europe occidentale (~35 milliards de m³), qui assure l'alimentation en eau potable de plus de 80 % de la population départementale (ARS Grand Est). Cependant, cette nappe alluviale du Rhin est soumise à des pressions importantes : teneurs en nitrates dépassant localement 25 mg/L dans les zones agricoles intensives de la plaine d'Alsace, et contaminations aux pesticides persistants signalées dans plusieurs captages (ARS/DCE 2022). La présence de PFAS constitue une préoccupation croissante, avec des détections documentées en aval de sites industriels du corridor rhénan et dans certaines unités de distribution du secteur mulhousien (ANSES 2023). Les projections Explore2 indiquent une réduction des débits d'étiage estivaux de l'Ill et des affluents vosgiens de l'ordre de 20 à 35 % à l'horizon 2050-2070, fragilisant les usages agricoles et industriels en période sèche.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Nappe rhénane assure >80 % AEP, conformité globale satisfaisante"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction étiages estivaux 20-35 % projetée à 2050-2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates localement >25 mg/L en plaine agricole alsacienne"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés en aval sites industriels rhénans et secteur mulhousien"
+    }
+  ],
+  "points_forts": [
+    "La nappe alluviale rhénane, estimée à ~35 milliards de m³, constitue un réservoir stratégique majeur assurant la sécurité hydrique de la majorité des habitants",
+    "Taux de conformité de l'eau distribuée en bactériologie supérieur à 98 % dans le département (ARS Grand Est, bilan annuel 2022)",
+    "Le réseau hydrographique vosgien (Ill, Fecht, Lauch) maintient des débits hivernaux et printaniers encore satisfaisants, alimentant les usages agricoles et hydro-électriques",
+    "Existence de périmètres de protection des captages actifs sur la nappe rhénane, avec démarches de reconquête de la qualité engagées dans plusieurs aires d'alimentation de captages (AAC)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 35 % à l'horizon 2060 sur les cours d'eau vosgiens (Explore2/DRIAS), avec risques de conflits d'usages agricoles, industriels et environnementaux",
+    "Contaminations aux PFAS détectées dans plusieurs unités de distribution desservant l'agglomération mulhousienne, sans solution de traitement généralisée à ce jour (ANSES 2023)",
+    "Pression agricole persistante sur la qualité de la nappe phréatique : progression des zones vulnérables nitrates en plaine d'Alsace et présence de résidus phytosanitaires (chlorothalonil, métolachlore) dans plusieurs captages (DCE 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~35 Mrd m³",
+      "label": "Volume nappe rhénane"
+    },
+    {
+      "valeur": ">80 %",
+      "label": "Population alimentée nappe rhénane"
+    },
+    {
+      "valeur": "-20 à -35 %",
+      "label": "Réduction étiages 2050-2070"
+    },
+    {
+      "valeur": ">98 %",
+      "label": "Conformité bactériologique AEP"
+    }
+  ],
+  "sources": [
+    "ARS Grand Est – Bilan qualité eaux distribuées 2022",
+    "Explore2 / DRIAS 2023 – Projections hydrologiques",
+    "DCE / Agence de l'Eau Rhin-Meuse 2022 – État des masses d'eau",
+    "ANSES 2023 – Surveillance PFAS eaux destinées à la consommation humaine"
+  ],
+  "limites": [
+    "Les données de contamination PFAS restent partielles sur le Haut-Rhin, la campagne nationale de mesures ANSES 2023 ne couvrant pas encore l'intégralité des unités de distribution du département",
+    "Les projections Explore2 sur la nappe rhénane présentent une incertitude élevée en raison de la complexité des échanges nappe-rivière et des pompages transfrontaliers franco-germano-suisses non entièrement modélisés",
+    "L'état chimique des masses d'eau souterraines de la plaine d'Alsace est déclassé par les pesticides historiques (atrazine déséthyl, chlorothalonil-R471811), rendant difficile l'évaluation de la trajectoire d'amélioration à court terme"
+  ]
+}

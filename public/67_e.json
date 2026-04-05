@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Bas-Rhin présente une situation hydrique contrastée : si la plaine d'Alsace bénéficie d'une nappe phréatique rhénane parmi les plus importantes d'Europe occidental (nappe d'Alsace, environ 35 milliards de m³), celle-ci est fortement exposée aux pollutions agricoles et industrielles, avec 61% des masses d'eau souterraines en mauvais état chimique selon l'état des lieux DCE 2022 (Agence de l'Eau Rhin-Meuse). Les teneurs en nitrates dépassent régulièrement 50 mg/L dans plusieurs secteurs de la plaine, notamment au sud de Strasbourg et dans le Kochersberg, classé en zone vulnérable nitrates (ARS Grand Est, 2023). La contamination aux PFAS constitue une préoccupation croissante, avec des détections documentées à proximité des zones industrielles de la communauté urbaine de Strasbourg et autour des anciens sites ICPE (ANSES, 2024). Les projections Explore2 indiquent une réduction des débits d'étiage de l'Ill et des affluents rhénans de l'ordre de 20 à 35% à l'horizon 2050-2070, menaçant la recharge de la nappe en période estivale.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "75% communes conformité eau potable, pression nitrates et pesticides localement"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction débits étiage -20 à -35% horizon 2070, nappe rhénane sous tension"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "61% masses eau souterraines mauvais état chimique, zones vulnérables nitrates étendues"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés secteurs industriels Strasbourg, niveaux inférieurs à certains départements"
+    }
+  ],
+  "points_forts": [
+    "La nappe phréatique d'Alsace constitue l'une des plus grandes réserves d'eau douce souterraine d'Europe occidentale, estimée à ~35 milliards de m³ (BRGM)",
+    "Le Rhin assure un débit régulier et abondant, soutenant la recharge latérale de la nappe alluviale et l'alimentation en eau potable de Strasbourg Eurométropole",
+    "Des programmes de reconquête de la qualité de l'eau sont actifs via le SDAGE Rhin-Meuse 2022-2027, avec des objectifs de bon état écologique pour 60% des masses d'eau",
+    "La gouvernance intercommunale autour de l'eau potable est structurée, avec des investissements dans les réseaux de distribution (taux de pertes ~18%, en amélioration)"
+  ],
+  "vigilances": [
+    "La contamination aux nitrates et pesticides de la nappe d'Alsace est chronique : 61% des masses d'eau souterraines en mauvais état chimique (DCE 2022, Agence de l'Eau Rhin-Meuse), avec des dépassements de seuils réglementaires persistants dans le Kochersberg et la plaine centrale",
+    "Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de l'Ill de 20 à 35% d'ici 2070, aggravant les conflits d'usage entre agriculture irriguée, industrie et alimentation en eau potable",
+    "La présence de PFAS (substances per- et polyfluoroalkylées) est détectée à proximité des zones industrielles de Strasbourg et d'anciens sites classés, avec un risque d'extension dans la nappe peu profonde difficilement réversible (ANSES 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "35 Mds m³",
+      "label": "Volume nappe phréatique d'Alsace"
+    },
+    {
+      "valeur": "61%",
+      "label": "Masses eau souterr. mauvais état chimique"
+    },
+    {
+      "valeur": "-20 à -35%",
+      "label": "Réduction débits étiage 2070 (Explore2)"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé localement"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Rhin-Meuse – État des lieux DCE 2022",
+    "BRGM – Hydrogéologie nappe d'Alsace",
+    "Explore2 (INRAE/OFB) 2023 – Projections hydrologiques",
+    "ARS Grand Est – Qualité eau potable 2023",
+    "ANSES – Surveillance PFAS eaux 2024"
+  ],
+  "limites": [
+    "Les données de contamination PFAS dans la nappe d'Alsace restent partielles : le maillage de surveillance est insuffisant pour cartographier l'étendue réelle des panaches de pollution dans la nappe peu profonde",
+    "Les projections Explore2 présentent une incertitude significative sur la recharge de la nappe rhénane, dont la dynamique dépend aussi des apports nivaux alpins via le Rhin, mal intégrés dans les modèles régionaux",
+    "L'état chimique des masses d'eau est évalué à une maille administrative qui masque des disparités infra-communales importantes entre secteurs viticoles, maraîchers et urbains du Bas-Rhin"
+  ]
+}

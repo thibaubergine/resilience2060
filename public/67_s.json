@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Bas-Rhin présente une situation sols préoccupante liée à son passé industriel rhénan et à l'intensité de son agriculture de plaine : la base BASOL recense plus de 200 sites pollués ou potentiellement pollués par des activités industrielles et de service sur le département, héritage des industries chimiques, pétrolières et mécaniques de l'agglomération strasbourgeoise (GéoRisques/BASOL 2023). Les sols agricoles de la plaine d'Alsace, dominés par les grandes cultures de maïs et céréales, affichent des niveaux de résidus de pesticides parmi les plus élevés du quart nord-est, avec une pression phytosanitaire soutenue liée aux vignobles et aux cultures intensives (INRAE 2023). Le risque radon est classé en catégorie 3 (potentiel radon significatif) sur les secteurs vosgiens et granitiques du département, concernant plusieurs communes de la bordure occidentale (IRSN). La part de SAU en agriculture biologique reste inférieure à la moyenne nationale, autour de 7-8 % contre 10,7 % en France (Agence Bio 2023), limitant la capacité de régénération des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Plus de 200 sites BASOL recensés, héritage industrialo-chimique strasbourgeois"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée, plaine maïsicole et vignoble intensif alsacien"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon catégorie 3 limité aux massifs granitiques vosgiens occidentaux"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~7-8%, progression réelle mais sous moyenne nationale de 10,7%"
+    }
+  ],
+  "points_forts": [
+    "Part SAU bio en progression constante depuis 2018, atteignant ~7-8 % en 2023 (Agence Bio 2023)",
+    "Le risque radon élevé est géographiquement circonscrit aux communes vosgiennes, épargnant la plaine densément peuplée (IRSN)",
+    "Présence d'initiatives de préservation des sols via les MAE (mesures agro-environnementales) en zone Natura 2000 rhénane",
+    "Développement de l'agriculture de conservation des sols dans certaines exploitations céréalières de la plaine d'Alsace"
+  ],
+  "vigilances": [
+    "Contamination aux PFAS et aux solvants chlorés sur plusieurs sites industriels strasbourgeois, avec risque de transfert vers la nappe phréatique rhénane (GéoRisques 2023)",
+    "Imperméabilisation accélérée des sols : le Bas-Rhin est l'un des départements du Grand Est avec les taux d'artificialisation les plus élevés, fragilisant la fonction de régulation hydrique des sols",
+    "Érosion des sols viticoles et agricoles des coteaux vosgiens, aggravée par les événements pluviaux intenses dont la fréquence augmente avec le changement climatique (Climadiag 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "200+",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "~8%",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Risque radon (zones vosgiennes)"
+    },
+    {
+      "valeur": "Top 20%",
+      "label": "Pression pesticides nationale"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL 2023",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Cartographie radon",
+    "Agence Bio – Statistiques 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne couvrent pas les sites historiques non encore diagnostiqués, potentiellement nombreux dans les zones industrielles anciennes de Strasbourg et Haguenau",
+    "L'absence de cartographie fine et actualisée des résidus de pesticides à l'échelle parcellaire limite l'évaluation précise de la contamination des sols agricoles alsaciens",
+    "Les statistiques SAU bio disponibles agrègent parfois Bas-Rhin et Haut-Rhin dans les rapports régionaux, rendant l'estimation départementale stricte incertaine"
+  ]
+}

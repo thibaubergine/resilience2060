@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Saône présente une qualité de l'air globalement satisfaisante, bénéficiant d'un tissu industriel modéré et d'une faible densité urbaine qui limitent les émissions polluantes. Les concentrations en PM2,5 sont estimées entre 9 et 12 µg/m³ en moyenne annuelle (ATMO Bourgogne-Franche-Comté), restant sous le seuil réglementaire européen de 25 µg/m³ mais dépassant la nouvelle valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ demeure à des niveaux faibles, sans axe autoroutier majeur traversant le département, avec des valeurs urbaines inférieures à 20 µg/m³ à Vesoul (ATMO BFC, 2022). Toutefois, l'agriculture intensive génère des émissions d'ammoniac (NH₃) non négligeables, la Haute-Saône figurant parmi les départements à densité bovine et porcine significative de Bourgogne-Franche-Comté (Citepa/Inventaire national 2022). La combustion de biomasse résidentielle constitue un contributeur croissant aux PM2,5, notamment en période hivernale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 9-12 µg/m³, sous norme EU mais au-delà OMS 2021"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ urbain faible à Vesoul, sous 20 µg/m³, pas d'axe autoroutier majeur"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Tissu industriel modéré, peu de sites ICPE émetteurs classés"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ agricole notable, élevage bovin-porcin dense, secteur sous-régulé"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de la région, inférieures à 20 µg/m³ à Vesoul (ATMO BFC 2022), reflet d'un trafic routier limité",
+    "Absence d'infrastructure autoroutière à fort trafic traversant le territoire, limitant les pics de pollution aux oxydes d'azote (ATMO BFC)",
+    "Faible densité industrielle émettrice : moins de 10 sites ICPE à émissions atmosphériques significatives recensés dans le département (DREAL BFC 2022)",
+    "Couverture forestière importante (>35 % du territoire) jouant un rôle de puits partiel pour certains polluants et favorisant la dispersion atmosphérique"
+  ],
+  "vigilances": [
+    "Émissions de PM2,5 issues du chauffage au bois en hausse, avec des épisodes hivernaux susceptibles de dépasser 25 µg/m³ en journées anticycloniques (ATMO BFC, plan de protection de l'atmosphère régional)",
+    "Ammoniac agricole : les émissions NH₃ du secteur agricole représentent plus de 90 % des émissions totales départementales du polluant, avec un risque de formation de particules secondaires (Citepa 2022)",
+    "Surveillance insuffisante : le réseau de mesure fixe reste limité à quelques stations autour de Vesoul, laissant de larges zones rurales sans données en temps réel (ATMO BFC)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "9-12 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "NO₂ urbain Vesoul (2022)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Part agricole des émissions NH₃"
+    },
+    {
+      "valeur": "<10 sites",
+      "label": "ICPE émetteurs atmosphériques majeurs"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté 2022",
+    "Citepa – Inventaire national des émissions 2022",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "DREAL BFC – Registre ICPE 2022"
+  ],
+  "limites": [
+    "Le réseau de surveillance ATMO BFC ne dispose que d'une station fixe principale autour de Vesoul, rendant la représentativité des données rurale très partielle pour un département à dominante agricole",
+    "L'inventaire des émissions NH₃ repose sur des modèles nationaux (Citepa) et non sur des mesures directes en Haute-Saône, introduisant une incertitude sur les valeurs locales réelles",
+    "Les données sur la pollution intérieure liée au chauffage au bois en milieu rural, très présente en Haute-Saône, ne sont pas intégrées dans les indices de qualité de l'air publiés, sous-estimant l'exposition réelle des populations"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Sarthe présente une biodiversité intermédiaire à l'échelle nationale, avec environ 8,5 % de son territoire classé en zones Natura 2000 (INPN 2024), soit quelque 52 000 ha couverts, incluant des sites majeurs comme la vallée du Loir et les forêts de Bercé et de Perseigne. Le département abrite une avifaune remarquable avec plus de 200 espèces nicheuses recensées, dont le Milan royal et la Pie-grièche écorcheur, espèces sensibles aux pressions agricoles (LPO Pays de la Loire 2023). Les corridors écologiques de la Trame Verte et Bleue sarthoise, identifiés dans le SRCE Pays de la Loire, souffrent cependant de fragmentations liées aux infrastructures (A11, voies ferrées) et à l'agriculture intensive qui couvre environ 62 % du territoire départemental. L'absence de Parc National et la présence limitée de Réserves Naturelles Nationales (une seule RNN, les Rives de l'Allonnes) fragilisent le dispositif de protection fort sur le territoire (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "8,5 % territoire en Natura 2000, valeur proche de la médiane nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Absence de Parc National; une seule RNN, peu de protection forte"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "200+ espèces nicheuses; Milan royal, Loutre, Vison d'Europe présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "TVB identifiée mais fragmentée par A11 et agriculture intensive (62%)"
+    }
+  ],
+  "points_forts": [
+    "Environ 52 000 ha couverts par des zones Natura 2000, incluant la forêt domaniale de Bercé (classée ZNIEFF type I, refuge de la futaie de Chênes remarquable)",
+    "Présence confirmée de la Loutre d'Europe et du Vison d'Europe sur les cours d'eau sarthois, espèces bio-indicatrices de bonne qualité des milieux aquatiques (LPO / OFB 2024)",
+    "Le réseau hydrographique dense (Sarthe, Loir, Huisne) constitue un corridor écologique fonctionnel pour les espèces aquatiques et rivulaires",
+    "Plus de 1 500 espèces végétales inventoriées sur le département, reflet d'une diversité de milieux (bocage, forêts, zones humides) (INPN 2023)"
+  ],
+  "vigilances": [
+    "Déclin des populations d'oiseaux agricoles (Alouette des champs, Perdrix grise) estimé à -30 % en 20 ans sous l'effet de l'intensification agricole (LPO Pays de la Loire 2023)",
+    "Fragmentation croissante des corridors écologiques par l'urbanisation diffuse : artificialisation de +1 200 ha entre 2015 et 2021 (CEREMA/Observatoire national de l'artificialisation)",
+    "Les zones humides sarthoises restent menacées par le drainage agricole et les crues morphologiques, avec une perte estimée à 50 % depuis les années 1960 (Agence de l'Eau Loire-Bretagne)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "52 000 ha",
+      "label": "Superficie zones Natura 2000"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part territoire Natura 2000"
+    },
+    {
+      "valeur": "200+",
+      "label": "Espèces d'oiseaux nicheuses"
+    },
+    {
+      "valeur": "1 500+",
+      "label": "Espèces végétales inventoriées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Pays de la Loire 2023",
+    "Agence de l'Eau Loire-Bretagne",
+    "CEREMA – Observatoire artificialisation"
+  ],
+  "limites": [
+    "Les inventaires ZNIEFF et INPN présentent des lacunes de prospection sur certaines communes rurales du nord du département, sous-estimant potentiellement la biodiversité réelle",
+    "L'état de conservation des habitats Natura 2000 sarthois n'est pas systématiquement évalué faute de suivis standardisés récents au niveau départemental",
+    "La fragmentation des données entre structures (LPO, CEN Pays de la Loire, collectivités) limite la construction d'un tableau de bord biodiversité homogène et actualisé pour la Sarthe"
+  ]
+}

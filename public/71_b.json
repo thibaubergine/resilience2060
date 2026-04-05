@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire présente une biodiversité remarquable grâce à la diversité de ses paysages, combinant le massif du Morvan, la plaine de la Bresse, le vignoble de la Côte chalonnaise et les vallées de la Saône et du Grosne. Le département abrite environ 8 % de son territoire en sites Natura 2000, avec 28 zones désignées couvrant près de 85 000 ha (INPN, 2024), dont des habitats humides d'importance communautaire comme les étangs bressans. Le Parc Naturel Régional du Morvan, dont une partie significative s'étend en Saône-et-Loire, constitue un réservoir de biodiversité majeur abritant des espèces emblématiques telles que le Milan royal, la Loutre d'Europe et le Cuivré des marais (LPO Bourgogne-Franche-Comté, 2023). Les corridors écologiques identifiés dans le SRCE Bourgogne-Franche-Comté restent fonctionnels sur une grande partie du département, bien que fragmentés par les infrastructures routières (A6, RN79) et l'intensification agricole en Bresse (OFB, 2024). Le score de 7,0/10 reflète une richesse biologique réelle mais fragilisée par les pressions agricoles et les effets du changement climatique sur les zones humides.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "28 sites Natura 2000, ~85 000 ha, soit ~8% du territoire départemental"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Morvan partiel, réserves naturelles régionales, corridors Saône préservés"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Milan royal, Loutre d'Europe, Cuivré des marais, Pie-grièche écorcheur présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors fonctionnels mais fragmentés par A6 et intensification bressane"
+    }
+  ],
+  "points_forts": [
+    "Présence de 28 sites Natura 2000 couvrant environ 85 000 ha, dont les étangs bressans classés ZPS pour l'avifaune migratrice (INPN, 2024)",
+    "Le PNR du Morvan (dont ~30 % en Saône-et-Loire) abrite une forêt ancienne riche en espèces saproxyliques et en chiroptères (OFB, 2024)",
+    "La Loutre d'Europe est en progression sur les cours d'eau du département, indicateur de l'amélioration de la qualité des milieux aquatiques (LPO BFC, 2023)",
+    "La Bresse bourguignonne constitue un hotspot avifaunistique national avec plus de 180 espèces d'oiseaux recensées, dont des limicoles nicheurs rares (atlas BFC)"
+  ],
+  "vigilances": [
+    "Régression des zones humides bresssanes estimée à -30 % depuis 1990, menaçant les populations d'amphibiens et d'oiseaux d'eau liées aux étangs (OFB, 2024)",
+    "Le changement climatique projette une hausse de +2,5°C à l'horizon 2060 sur le département, risquant de déstabiliser les espèces à faible capacité de dispersion du Morvan (DRIAS, 2023)",
+    "La fragmentation par les infrastructures (A6, future 2×2 voies RN79) coupe plusieurs corridors identifiés au SRCE, sans mesures compensatoires suffisamment évaluées"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "~85 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "~8 %",
+      "label": "Part du territoire protégé"
+    },
+    {
+      "valeur": "180+",
+      "label": "Espèces d'oiseaux en Bresse"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN 2024",
+    "LPO Bourgogne-Franche-Comté 2023",
+    "SRCE Bourgogne-Franche-Comté"
+  ],
+  "limites": [
+    "L'état de conservation réel des habitats Natura 2000 en Saône-et-Loire n'est pas évalué annuellement, rendant difficile le suivi fin des tendances de biodiversité à l'échelle départementale",
+    "Les données sur les espèces invasives (Jussie, Renouée du Japon, Ecrevisse de Louisiane) en Bresse restent lacunaires et peu centralisées au niveau départemental",
+    "L'impact précis de l'agriculture intensive bressane (drainage, pesticides) sur les populations d'amphibiens et d'invertébrés aquatiques est insuffisamment documenté à cette échelle"
+  ]
+}

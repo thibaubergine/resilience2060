@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hautes-Pyrénées (65) bénéficient d'un positionnement climatique favorable à l'horizon 2060 grâce à leur altitude moyenne élevée (~1 000 m) qui constitue un tampon thermique significatif face aux hausses de températures projetées (+2,5 à +3,5°C selon DRIAS 2023). Climadiag (Météo-France, 2023) indique que le département devrait connaître une augmentation modérée du nombre de jours de canicule (passant de ~4 à ~15 jours/an d'ici 2050 sous scénario SSP3-7.0), soit nettement moins que les plaines aquitaines voisines. Le risque de feux de forêt reste limité comparativement aux départements méditerranéens, bien que les projections AP3C (2023) signalent une extension progressive des zones à risque vers les étages montagnards sous l'effet de l'aridification estivale. L'absence de façade littorale protège le territoire des risques de submersion marine, mais les phénomènes de crues torrentielles et de retrait-gonflement des argiles restent des vulnérabilités locales documentées (GéoRisques, 2023). Le recul glaciaire accéléré (−50% de surface glaciaire depuis 1850 selon CNRS/LGGE) constitue l'indicateur climatique le plus préoccupant à long terme pour ce territoire.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 9.0,
+      "note": "Altitude moyenne ~1 000 m, tampon thermique puissant face au réchauffement"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 7.0,
+      "note": "+15 jours canicule/an projetés 2050, bien sous la moyenne nationale"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Risque feux faible hors piémont, végétation humide montagnarde protectrice"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Crues torrentielles fréquentes, glaciers en retrait menaçant débits d'étiage"
+    }
+  ],
+  "points_forts": [
+    "Altitude protectrice : 71% du territoire au-dessus de 800 m, limitant fortement l'exposition aux canicules extrêmes (DRIAS 2023)",
+    "Nombre de jours de forte chaleur (Tmax >35°C) parmi les plus faibles de la région Occitanie, estimé à <10 j/an en 2050 (Climadiag, Météo-France 2023)",
+    "Risque feux de forêt classé modéré à faible sur 85% du territoire, grâce à l'humidité orographique et aux forêts mixtes d'altitude (AP3C 2023)",
+    "Absence totale de vulnérabilité côtière, épargnant le département des risques de submersion et d'érosion littorale projetés pour 2060"
+  ],
+  "vigilances": [
+    "Recul glaciaire accéléré : −50% de surface depuis 1850, menaçant les débits estivaux des cours d'eau pyrénéens dès 2040-2060 (CNRS/LGGE)",
+    "Risque de crues torrentielles en hausse avec l'intensification des épisodes de précipitations extrêmes : 12 arrêtés catastrophe naturelle en 10 ans (GéoRisques 2023)",
+    "Extension progressive du risque incendie vers les étages sub-montagnards et le piémont sous scénario de réchauffement +3°C à l'horizon 2060 (AP3C/TRACC 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~1 000 m",
+      "label": "Altitude moyenne du département"
+    },
+    {
+      "valeur": "+3°C",
+      "label": "Réchauffement projeté à horizon 2060 (SSP3)"
+    },
+    {
+      "valeur": "−50%",
+      "label": "Recul glaciaire depuis 1850"
+    },
+    {
+      "valeur": "<10 j/an",
+      "label": "Jours Tmax >35°C projetés 2050"
+    }
+  ],
+  "sources": [
+    "DRIAS 2023 / Météo-France",
+    "Climadiag Météo-France 2023",
+    "AP3C / TRACC 2023",
+    "GéoRisques / CNRS-LGGE"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent la forte hétérogénéité altitudinale interne (de 300 m en piémont à 3 298 m au Pic Long), rendant toute moyenne peu représentative",
+    "L'évolution du risque feux est difficile à modéliser précisément en zone de montagne pyrénéenne, où les interactions entre enneigement, humidité et végétation sont complexes",
+    "Les données sur la vulnérabilité aux crues torrentielles restent partielles faute de suivi hydrométrique systématique sur l'ensemble des bassins versants de montagne du département"
+  ]
+}

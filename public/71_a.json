@@ -1,0 +1,65 @@
+{
+  "synthese": "La Saône-et-Loire présente une qualité de l'air globalement satisfaisante, bénéficiant d'une faible densité urbaine et d'un tissu industriel modéré hors des pôles du Creusot-Montceau. Selon ATMO Bourgogne-Franche-Comté, les concentrations moyennes annuelles en PM2,5 oscillent entre 8 et 11 µg/m³ selon les zones, restant en deçà des valeurs limites européennes (25 µg/m³) mais dépassant les nouvelles recommandations OMS 2021 fixées à 5 µg/m³. Les niveaux de NO₂ demeurent faibles sur la majeure partie du territoire, avec des pics localisés autour de l'axe A6 et des zones urbaines de Chalon-sur-Saône et Mâcon (ATMO BFC, 2023). Le secteur agricole représente une source notable d'émissions d'ammoniac (NH₃), la Saône-et-Loire comptant un cheptel bovin important (~300 000 têtes, Agreste 2022), contribuant aux dépôts azotés sur les écosystèmes sensibles. Le département se classe favorablement (rang 47/96 global, 7/10 sur la dimension Air) grâce à l'absence de grande métropole industrielle et à des vents favorables à la dispersion des polluants.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³, au-dessus seuil OMS 2021 (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ faible hors Chalon-sur-Saône et axe A6"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie modérée, pôle Le Creusot-Montceau émetteur résiduel"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Cheptel bovin ~300 000 têtes, NH₃ agricole significatif"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ nettement inférieures aux seuils réglementaires européens (40 µg/m³) sur l'ensemble du département, avec une moyenne estimée à ~12 µg/m³ (ATMO BFC, 2023)",
+    "Absence de grande zone industrielle émettrice en PM10/PM2,5 depuis la reconversion partielle du bassin minier de Montceau-les-Mines (Citepa, inventaire 2022)",
+    "Faible densité de population (~64 hab/km²) limitant les émissions liées aux transports urbains et au chauffage résidentiel groupé",
+    "Couvert forestier important (~30% du territoire, IFN) contribuant à la séquestration locale et à la filtration naturelle des polluants atmosphériques"
+  ],
+  "vigilances": [
+    "Les épisodes de brûlage agricole et forestier génèrent des pics saisonniers de PM2,5 et PM10, susceptibles de s'intensifier avec les sécheresses projetées à l'horizon 2050 (DRIAS 2023)",
+    "Les émissions d'ammoniac (NH₃) issues de l'élevage bovin restent un facteur de formation de particules secondaires, avec un risque de dépôts azotés sur les habitats Natura 2000 du département",
+    "La combustion de bois résidentiel, très répandue en milieu rural bourguignon, constitue la première source locale de PM2,5 en hiver, avec une part estimée à >40% des émissions saisonnières (ATMO BFC, Plan de Protection de l'Atmosphère régional)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 annuelle"
+    },
+    {
+      "valeur": "~12 µg/m³",
+      "label": "Concentration NO₂ moyenne"
+    },
+    {
+      "valeur": "~300 000",
+      "label": "Têtes bovines (Agreste 2022)"
+    },
+    {
+      "valeur": ">40%",
+      "label": "Part bois résidentiel dans PM2,5 hivernal"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa inventaire émissions 2022",
+    "Agreste – Recensement agricole 2022"
+  ],
+  "limites": [
+    "La couverture du réseau de mesure ATMO est concentrée sur Chalon-sur-Saône et Mâcon, laissant les zones rurales et périurbaines sans données de monitoring en temps réel fiables",
+    "L'inventaire des émissions NH₃ agricoles repose sur des modèles à l'échelle régionale, avec une incertitude élevée à l'échelle communale en Saône-et-Loire",
+    "Les données sur la pollution de l'air intérieur (radon, COV) liée aux bâtiments anciens ruraux ne sont pas intégrées dans les scores de qualité de l'air extérieur, sous-estimant l'exposition réelle des habitants"
+  ]
+}
