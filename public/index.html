@@ -143,49 +143,38 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:
 
 
 /* ── MOBILE ─────────────────────────────────────────────────────────────── */
-@media (max-width: 768px){
+@media (max-width:768px){
   .app{flex-direction:column}
   .sidebar{width:100%;height:44px;flex-direction:row;padding:0 8px;gap:0;border-right:none;border-bottom:1px solid var(--border);overflow-x:auto;justify-content:flex-start}
   .logo{display:none}
   .tb{width:40px;height:40px;flex-shrink:0;border-radius:6px}
   .tb .tip{display:none!important}
-  .main{flex:1;min-height:0}
   .topbar{height:auto;padding:8px 12px;flex-wrap:wrap;gap:6px}
   .topbar-title{font-size:13px}
   .topbar-sub{display:none}
-  .badge{max-width:140px;font-size:9px}
-  .dept-sel{font-size:10px;padding:3px 5px;max-width:120px}
-  /* Map tab */
+  .badge{max-width:130px;font-size:9px}
+  .dept-sel{font-size:10px;padding:3px 5px;max-width:110px}
   #p0{flex-direction:column}
   .map-col{padding:8px;gap:6px}
-  .dim-row{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px}
+  .dim-row{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch}
   .db{flex-shrink:0;font-size:9px;padding:2px 8px}
-  .sp{width:100%;border-left:none;border-top:1px solid var(--border);max-height:45vh;padding:12px}
-  .sp-score{font-size:38px}
+  .sp{width:100%;border-left:none;border-top:1px solid var(--border);max-height:42vh;padding:12px}
+  .sp-score{font-size:36px}
   .sp-name{font-size:14px}
-  /* Thematic tabs */
   .th-lay{flex-direction:column}
-  .th-right{width:100%;border-left:none;border-top:1px solid var(--border);max-height:200px;overflow-y:auto;padding:10px}
+  .th-right{width:100%;border-left:none;border-top:1px solid var(--border);max-height:180px;overflow-y:auto;padding:10px}
   .th-left{padding:10px}
-  /* Fiche */
-  .fiche-dept-head{flex-direction:row;gap:10px}
-  .fiche-score{font-size:36px}
-  .fiche-meta h2{font-size:15px}
-  /* Methodology */
-  #tl8{padding:10px}
-  .card{padding:12px}
-  [style*="grid-template-columns: 1fr 1fr"]{grid-template-columns:1fr!important}
-  [style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important}
+  .fiche-score{font-size:34px}
+  .fiche-meta h2{font-size:14px}
   .kpi-row{grid-template-columns:repeat(2,1fr)!important}
 }
-@media (max-width: 480px){
-  .sp-score{font-size:32px}
+@media (max-width:480px){
+  .sp-score{font-size:30px}
   .topbar-title{font-size:12px}
 }
 </style>
 </head>
 <body>
-
 
 
 <div class="tt" id="tt"></div>
@@ -480,6 +469,11 @@ Sources: Climat→TRACC/Climadiag/DRIAS/AP3C | Eau→Explore2/ARS/DCE | Air→AT
 // ─── FICHE GENERATION ────────────────────────────────────────────────────
 async function genFiche(){
   if(!selDept)return;
+  const key=getKey();
+  if(!key){
+    openModal();
+    return;
+  }
   const d=SCORES[selDept];
   const sorted=Object.entries(SCORES).sort((a,b)=>b[1].g-a[1].g);
   const rank=sorted.findIndex(([c])=>c===selDept)+1;
@@ -568,46 +562,30 @@ function renderTab(ti, code){
 }
 
 function renderFicheLoading(code, k, ti){
-  return `<div class="loading" id="loading-${ti}"><div class="spinner"></div><span>Génération de la fiche ${DIM_L[DIM_KEYS.indexOf(k)+1]} en cours…</span></div>`;
+  return `<div class="loading" id="loading-${ti}"><div class="spinner"></div><span>Chargement…</span></div>`;
 }
 
-function ssColor(score){
-  const t=Math.max(0,Math.min(1,(score-1)/9));
-  const seg=Math.min(2,Math.floor(t*3));
-  const f=(t*3)-seg;
-  const stops=[[196,100,80],[210,158,80],[140,175,95],[55,110,65]];
-  const c1=stops[seg],c2=stops[seg+1];
+function ssColor(s){
+  const t=Math.max(0,Math.min(1,(s-1)/9)),seg=Math.min(2,Math.floor(t*3)),f=(t*3)-seg;
+  const stops=[[196,100,80],[210,158,80],[140,175,95],[55,110,65]],c1=stops[seg],c2=stops[seg+1];
   return 'rgb('+Math.round(c1[0]+(c2[0]-c1[0])*f)+','+Math.round(c1[1]+(c2[1]-c1[1])*f)+','+Math.round(c1[2]+(c2[2]-c1[2])*f)+')';
-}
-function ssTxtColor(score){
-  return score>=7?'#276749':score>=5?'#7A5800':'#991B1B';
 }
 function renderSousScores(items){
   const cards=items.map(function(s){
-    const barColor=ssColor(s.score);
-    const textCol=ssTxtColor(s.score);
-    const pct=Math.round(s.score/10*100);
-    const note=s.note?'<div style="font-size:9px;color:var(--muted);line-height:1.35">'+s.note+'</div>':'';
+    const bc=ssColor(s.score),tc=s.score>=7?'#276749':s.score>=5?'#7A5800':'#991B1B',pct=Math.round(s.score/10*100);
     return '<div style="background:var(--surface);border-radius:8px;padding:9px 10px">'
       +'<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px">'
       +'<span style="font-size:9px;font-weight:500;color:var(--text);line-height:1.3;flex:1;padding-right:6px">'+s.label+'</span>'
-      +'<span style="font-size:13px;font-weight:700;font-family:JetBrains Mono,monospace;color:'+textCol+';flex-shrink:0">'+s.score.toFixed(1)+'</span>'
-      +'</div>'
-      +'<div style="height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:4px">'
-      +'<div style="height:100%;width:'+pct+'%;background:'+barColor+';border-radius:3px"></div>'
-      +'</div>'
-      +note
-      +'</div>';
+      +'<span style="font-size:13px;font-weight:700;font-family:JetBrains Mono,monospace;color:'+tc+'">'+s.score.toFixed(1)+'</span>'
+      +'</div><div style="height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-bottom:4px">'
+      +'<div style="height:100%;width:'+pct+'%;background:'+bc+';border-radius:3px"></div></div>'
+      +(s.note?'<div style="font-size:9px;color:var(--muted);line-height:1.35">'+s.note+'</div>':'')+'</div>';
   }).join('');
-  return '<div style="margin:12px 0">'
-    +'<div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px">Décomposition du score</div>'
-    +'<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">'+cards+'</div>'
-    +'</div>';
+  return '<div style="margin:12px 0"><div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px">Décomposition du score</div>'
+    +'<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">'+cards+'</div></div>';
 }
-
 function renderFicheBody(data){
   // Debug: log the keys received
-  console.log('[Résilience2060] Fiche data keys:', Object.keys(data));
   const synth = data.synthese || data.analyse || data.description || data.text || '';
   const forts = data.points_forts || data.atouts || data.forces || data.strengths || [];
   const risques = data.vigilances || data.risques || data.points_faibles || data.risks || [];
@@ -617,7 +595,24 @@ function renderFicheBody(data){
 
   return `<div class="fiche-body">
     ${synth?`<p>${synth}</p>`:''}
-    ${(data.sous_scores&&data.sous_scores.length>0)?renderSousScores(data.sous_scores):''}
+    ${(data.sous_scores&&data.sous_scores.length>0)?`
+      <div style="margin:12px 0">
+        <div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px">Décomposition du score</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">
+          ${data.sous_scores.map(s=>{
+            const col=s.score>=7?'#276749':s.score>=5?'#D97706':'#C53030';
+            const bg=s.score>=7?'#EFF6EC':s.score>=5?'#FFFBEB':'#FFF0F0';
+            const border=s.score>=7?'#86efac':s.score>=5?'#fcd34d':'#fca5a5';
+            return `<div style="background:${bg};border:1px solid ${border};border-radius:8px;padding:9px 10px">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:4px;margin-bottom:3px">
+                <span style="font-size:9px;font-weight:500;color:var(--text);line-height:1.3">${s.label}</span>
+                <span style="font-size:14px;font-weight:700;font-family:'JetBrains Mono',monospace;color:${col};flex-shrink:0;line-height:1">${s.score.toFixed(1)}</span>
+              </div>
+              ${s.note?`<div style="font-size:9px;color:var(--muted);line-height:1.35">${s.note}</div>`:''}
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`:''}
     ${forts.length?`
       <div style="background:#EFF6EC;border-radius:10px;padding:12px 14px;margin:10px 0">
         <div style="font-size:9px;font-weight:600;color:#276749;letter-spacing:.07em;text-transform:uppercase;margin-bottom:7px">↗ Points forts</div>
@@ -652,25 +647,344 @@ async function loadFiche(code, d, k, dimLabel, rank, ti){
   const token=Date.now();
   loadTokens[ti]=token;
   const cacheKey=`v6_${code}_${k}`;
-
   function writeIfCurrent(html){
     if(loadTokens[ti]!==token)return;
     const el=document.getElementById(`fiche-body-${ti}`);
     if(el)el.innerHTML=html;
   }
-
   try {
     const resp=await fetch(`/fiches/${code}_${k}.json`);
     if(!resp.ok){
-      writeIfCurrent(`<div class="fiche-body"><p style="color:#C53030;padding:10px 0">Fiche non disponible (${resp.status}).</p></div>`);
+      writeIfCurrent(`<div class="fiche-body"><p style="color:#C53030;padding:10px 0">Fiche non disponible.</p></div>`);
       return;
     }
     const parsed=await resp.json();
     ficheCache[cacheKey]=parsed;
     writeIfCurrent(renderFicheBody(parsed));
   } catch(e){
-    writeIfCurrent(`<div class="fiche-body"><p style="color:#C53030;padding:10px 0">Erreur chargement : ${e.message}</p></div>`);
+    writeIfCurrent(`<div class="fiche-body"><p style="color:#C53030;padding:10px 0">Erreur : ${e.message}</p></div>`);
   }
 }
 
->
+
+// ─── POPULATE SELECT ─────────────────────────────────────────────────────
+function populateSel(){
+  const sel=document.getElementById('dsel');
+  Object.entries(SCORES).sort((a,b)=>a[1].nom.localeCompare(b[1].nom,'fr')).forEach(([code,d])=>{
+    const o=document.createElement('option');
+    o.value=code;o.textContent=`${code} — ${d.nom}`;
+    sel.appendChild(o);
+  });
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────
+// ─── CONSTANTS & STATE ────────────────────────────────────────────────────
+const DIM=['g','c','e','a','s','al','b'];
+const DIM_L=['Global','Climat 2060','Eau','Air','Sols','Alimentation','Biodiversité'];
+const DIM_C=['#4A5568','#4A5568','#2C7A7B','#276749','#975A16','#234E52','#553C9A'];
+const DIM_BG=['#F0EEE8','#F0EEE8','#E8F5F4','#EEF5EE','#F9F3E8','#E8F5F1','#F0EDF9'];
+const DIM_KEYS=['c','e','a','s','al','b'];
+const DIM_IC=['☀️','💧','🌬️','🌱','🫙','🦋'];
+
+let curDim='g', selDept=null, currentTabIdx=0;
+const ficheCache={};
+
+// ─── API KEY ──────────────────────────────────────────────────────────────
+function getKey(){return localStorage.getItem('anthropic_key')||'';}
+function openModal(){
+  document.getElementById('api-input').value=getKey();
+  document.getElementById('api-modal').style.display='flex';
+}
+function closeModal(){document.getElementById('api-modal').style.display='none';}
+function saveKey(){
+  const k=document.getElementById('api-input').value.trim();
+  if(k){localStorage.setItem('anthropic_key',k);}
+  else{localStorage.removeItem('anthropic_key');}
+  updateKeyBtn();
+  closeModal();
+}
+function updateKeyBtn(){
+  const btn=document.getElementById('api-btn');
+  btn.className=getKey()?'api-btn has-key':'api-btn';
+  btn.textContent=getKey()?'🔑 Clé OK':'🔑 Clé API';
+}
+
+// ─── COLOR HELPERS ────────────────────────────────────────────────────────
+function scColor(s){
+  if(s>=8.5)return'#276749';if(s>=7)return'#38A169';if(s>=5.5)return'#D97706';if(s>=4)return'#C05621';return'#C53030';
+}
+function scBg(s){
+  if(s>=8.5)return'#EFF6EC';if(s>=7)return'#F0FDF4';if(s>=5.5)return'#FFFBEB';if(s>=4)return'#FFF3E8';return'#FFF0F0';
+}
+function mapColor(s){
+  const stops=[
+    [196,100,80],  // 1: terracotta doux
+    [210,158,80],  // 4: ambre chaud
+    [140,175,95],  // 7: vert olive
+    [55,110,65]    // 10: vert forêt
+  ];
+  const t=Math.max(0,Math.min(1,(s-1)/9));
+  const seg=Math.min(2,Math.floor(t*3));
+  const frac=(t*3)-seg;
+  const c1=stops[seg],c2=stops[seg+1];
+  return`rgb(${Math.round(c1[0]+(c2[0]-c1[0])*frac)},${Math.round(c1[1]+(c2[1]-c1[1])*frac)},${Math.round(c1[2]+(c2[2]-c1[2])*frac)})`;
+}
+
+// ─── MAP BUILD ────────────────────────────────────────────────────────────
+function buildMap(){
+  const svg=document.getElementById('fmap');
+  svg.innerHTML='';
+  for(const [code,geo] of Object.entries(GEO_SVG)){
+    const s=SCORES[code];if(!s)continue;
+    const path=document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d',geo.d);
+    path.setAttribute('fill',mapColor(s.g));
+    path.setAttribute('class','dp');
+    path.setAttribute('data-code',code);
+    path.addEventListener('click',()=>selCode(code));
+    path.addEventListener('mouseenter',e=>showTT(e,code));
+    path.addEventListener('mousemove',moveTT);
+    path.addEventListener('mouseleave',hideTT);
+    svg.appendChild(path);
+  }
+  const lgd=document.getElementById('lgd');
+  lgd.innerHTML=Array.from({length:8},(_,i)=>`<div class="lgd-seg" style="background:${mapColor(1+i*9/7)}"></div>`).join('');
+}
+function updateColors(){
+  document.querySelectorAll('.dp').forEach(p=>{
+    const code=p.getAttribute('data-code');
+    const s=SCORES[code];
+    if(s)p.setAttribute('fill',mapColor(s[curDim]||s.g));
+  });
+}
+
+// ─── TOOLTIP ─────────────────────────────────────────────────────────────
+const tt=document.getElementById('tt');
+function showTT(e,code){
+  const s=SCORES[code];if(!s)return;
+  const sc=s[curDim]||s.g;
+  const dimLabel=DIM_L[DIM.indexOf(curDim)]||'Global';
+  tt.innerHTML=`<b>${code} — ${s.nom}</b> &nbsp;·&nbsp; ${dimLabel} : <b>${sc.toFixed(1)}</b>/10`;
+  tt.style.display='block';moveTT(e);
+}
+function moveTT(e){tt.style.left=(e.clientX+12)+'px';tt.style.top=(e.clientY-30)+'px';}
+function hideTT(){tt.style.display='none';}
+
+// ─── DEPT SELECTION ───────────────────────────────────────────────────────
+function selCode(code){
+  if(!SCORES[code])return;
+  selDept=code;
+  document.getElementById('bdg').textContent=`${code} — ${SCORES[code].nom}`;
+  document.getElementById('dsel').value=code;
+  document.querySelectorAll('.dp').forEach(p=>p.classList.remove('sel'));
+  const p=document.querySelector(`.dp[data-code="${code}"]`);
+  if(p)p.classList.add('sel');
+  updateSP(code);
+  if(currentTabIdx>0&&currentTabIdx<7)renderTab(currentTabIdx,code);
+}
+window.selCode=selCode;
+
+function updateSP(code){
+  const d=SCORES[code];if(!d)return;
+  document.getElementById('sp-e').style.display='none';
+  document.getElementById('sp-c').style.display='block';
+  const sc=d.g;
+  document.getElementById('sp-sc').textContent=sc.toFixed(1);
+  document.getElementById('sp-sc').style.color=scColor(sc);
+  document.getElementById('sp-nm').textContent=d.nom;
+  document.getElementById('sp-rg').textContent=d.reg;
+  const sorted=Object.entries(SCORES).sort((a,b)=>b[1].g-a[1].g);
+  const rank=sorted.findIndex(([c])=>c===code)+1;
+  const rk=document.getElementById('sp-rk');
+  rk.textContent=`${rank<=3?'🥇 ':rank<=10?'🏆 ':rank<=25?'📊 ':rank<=50?'→ ':'⚠ '}${rank}e / 96`;
+  rk.style.background=scBg(sc);rk.style.color=scColor(sc);
+  document.getElementById('sp-bars').innerHTML=DIM_KEYS.map((k,i)=>`
+    <div class="br" onclick="sw(${i+1})">
+      <div class="br-top"><span class="br-label">${DIM_IC[i]} ${DIM_L[i+1]}</span><span class="br-val" style="color:${scColor(d[k])}">${d[k].toFixed(1)}</span></div>
+      <div class="br-bg"><div class="br-fill" style="width:${d[k]*10}%;background:${DIM_C[i+1]}"></div></div>
+    </div>`).join('');
+  const best=DIM_KEYS.slice().sort((a,b)=>d[b]-d[a]);
+  const lmap={c:'le climat',e:"l'eau",a:"l'air",s:'les sols',al:"l'alimentation",b:'la biodiversité'};
+  document.getElementById('sp-sm').innerHTML=`<b>${rank<=10?'Territoire très résilient':rank<=30?'Bonne résilience':rank<=60?'Résilience intermédiaire':'Territoire fragile'}</b><br>Atouts : ${lmap[best[0]]} (${d[best[0]].toFixed(1)}) et ${lmap[best[1]]} (${d[best[1]].toFixed(1)}).`;
+  // Show generate button only if on map tab
+  const genBtn=document.getElementById('sp-gen-btn');
+  if(genBtn)genBtn.style.display=currentTabIdx===0?'block':'none';
+}
+
+function sdim(d,btn){
+  curDim=d;
+  document.querySelectorAll('.db').forEach(b=>b.classList.remove('on'));
+  btn.classList.add('on');
+  updateColors();
+}
+
+function sw(i){
+  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
+  document.querySelectorAll('.tb').forEach(b=>b.classList.remove('on'));
+  document.getElementById(`p${i}`).classList.add('on');
+  document.querySelector(`.tb[data-i="${i}"]`).classList.add('on');
+  currentTabIdx=i;
+  if(i===8){renderMethodologie();}
+  else if(i>0&&i<8){renderTab(i,selDept);}
+  if(selDept)updateSP(selDept);
+}
+
+function renderMethodologie(){
+  const el=document.getElementById('tl8');
+  if(!el||el.dataset.rendered)return;
+  el.dataset.rendered='1';
+  el.innerHTML=`
+<div style="padding-bottom:40px">
+
+<div class="card" style="max-width:760px;margin-bottom:16px">
+  <h3>Pourquoi ce dashboard ?</h3>
+  <p>Ce tableau de bord vise à évaluer la <b>résilience environnementale</b> des 96 départements métropolitains à l'horizon 2060. Il ne s'agit pas d'un classement officiel mais d'une synthèse analytique croisant des sources publiques françaises et européennes, destinée à orienter une réflexion personnelle sur le <em>où vivre</em>.</p>
+</div>
+
+<div class="card" style="max-width:760px;margin-bottom:16px">
+  <h3>Les 6 dimensions et leurs sources</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px">
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">☀️ Climat 2060</div>
+      <p style="font-size:10px;margin-bottom:4px">Altitude (tampon thermique), exposition canicules, risque feux, vulnérabilité côtière. <b>Seule dimension avec projections quantitatives.</b></p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">Météo-France TRACC 2024 · DRIAS · Explore2 BRGM/INRAE 2022 · AP3C Massif Central</div>
+    </div>
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">💧 Eau</div>
+      <p style="font-size:10px;margin-bottom:4px">État écologique des masses d&#39;eau (DCE), nitrates, PFAS, stress hydrique projeté (Explore2).</p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">BRGM Explore2 · Agence eau · ARS · SDES 2024</div>
+    </div>
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">🌬️ Air</div>
+      <p style="font-size:10px;margin-bottom:4px">PM2,5 et NO₂ vs valeurs guides OMS 2021, sites Seveso, densité industrielle, émissions NH₃ agricoles.</p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">ATMO France réseau · OMS 2021 · Citepa · Santé Publique France 2023</div>
+    </div>
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">🌱 Sols</div>
+      <p style="font-size:10px;margin-bottom:4px">Sites ex-BASOL, résidus pesticides (INRAE 2023 : 98% des sites contaminés), risque radon (IRSN), % SAU bio.</p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">GéoRisques ex-BASOL nov.2024 · INRAE Froger et al. 2023 · IRSN · Agence Bio 2023</div>
+    </div>
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">🫙 Alimentation</div>
+      <p style="font-size:10px;margin-bottom:4px">Classement ZAVA 2024 (autonomie alimentaire locale), AOP/IGP, part SAU en agriculture biologique, circuits courts.</p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">ZAVA Manger Local 2024 · INAO · Agence Bio 2023 · Agreste 2020</div>
+    </div>
+    <div style="background:var(--surface);border-radius:8px;padding:12px">
+      <div style="font-weight:600;font-size:12px;margin-bottom:4px">🦋 Biodiversité</div>
+      <p style="font-size:10px;margin-bottom:4px">Part Natura 2000 (%), parcs nationaux et régionaux, espèces emblématiques, état des corridors écologiques.</p>
+      <div style="font-size:9px;color:var(--muted);font-style:italic">OFB Chiffres clés 2024 · INPN PatriNat · UICN-MNHN 2023 · LPO</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="max-width:760px;margin-bottom:16px">
+  <h3>Comment les scores sont calculés</h3>
+  <p>Chaque dimension est notée de <b>1 à 10</b> sur une base <b>comparative</b> entre les 96 départements. Le score n&#39;est pas absolu mais relatif : un 9/10 signifie que le département est parmi les meilleurs de France pour cette dimension, pas qu&#39;il est parfait en valeur absolue.</p>
+  <p>Le <b>score global est une moyenne simple</b> des 6 dimensions, pondération égale. C&#39;est un choix délibéré et discutable — on pourrait légitimement accorder plus de poids au climat à horizon 2060. Cette pondération est un parti pris transparent.</p>
+  <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:10px">
+    ${[['≥ 8,5','#EFF6EC','#276749','Très résilient'],['≥ 7,0','#F0FDF4','#38A169','Résilient'],['≥ 5,5','#FFFBEB','#D97706','Intermédiaire'],['≥ 4,0','#FFF3E8','#C05621','Fragile'],['< 4,0','#FFF0F0','#C53030','Très fragile']].map(([v,bg,c,l])=>
+      `<span style="background:${bg};color:${c};padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600">${v} — ${l}</span>`).join('')}
+  </div>
+</div>
+
+<div class="card" style="max-width:760px;margin-bottom:16px;border-color:#F6D860;background:#FFFDF0">
+  <h3 style="color:#7A5800">☀️ Seul le climat est une projection — pourquoi ?</h3>
+  <p>Le changement climatique est le seul facteur pour lequel des <b>projections quantitatives fiables à l&#39;échelle départementale existent</b> (Météo-France TRACC, BRGM Explore2). La physique du climat obéit à des lois naturelles modélisables indépendamment des choix politiques.</p>
+  <p>Les 5 autres dimensions reflètent la <b>situation actuelle</b> et sont <b>fondamentalement dépendantes des choix politiques futurs</b> :</p>
+  <ul style="list-style:none;font-size:11px;line-height:1.9;margin:10px 0">
+    <li style="padding:5px 0 5px 12px;border-left:2px solid #F6D860;margin-bottom:6px"><b>Eau</b> — Les nitrates et PFAS reflètent des politiques agricoles et industrielles actuelles. La Directive Eau EU (révision 2027) et les zones vulnérables nitrates peuvent radicalement changer la donne.</li>
+    <li style="padding:5px 0 5px 12px;border-left:2px solid #F6D860;margin-bottom:6px"><b>Air</b> — Les PM2,5 ont déjà baissé de 30% depuis 2000 grâce aux politiques industrielles. La révision de la directive européenne qualité de l&#39;air (2030) va renforcer les contraintes sur tous les territoires.</li>
+    <li style="padding:5px 0 5px 12px;border-left:2px solid #F6D860;margin-bottom:6px"><b>Sols</b> — La contamination aux pesticides peut s&#39;améliorer avec la transition bio (objectif 25% SAU bio en 2030). Les 11 016 sites BASOL sont en cours de dépollution progressive.</li>
+    <li style="padding:5px 0 5px 12px;border-left:2px solid #F6D860;margin-bottom:6px"><b>Alimentation</b> — L&#39;autonomie alimentaire dépend des politiques de la PAC, des circuits courts et des choix de consommation — tous réversibles et très évolutifs.</li>
+    <li style="padding:5px 0 5px 12px;border-left:2px solid #F6D860"><b>Biodiversité</b> — La trajectoire dépend de l&#39;atteinte de l&#39;objectif 30×30 (30% territoire protégé d&#39;ici 2030) et du règlement européen de restauration de la nature (adopté 2024).</li>
+  </ul>
+  <p style="margin-top:6px;font-size:11px"><b>Un territoire fragile aujourd&#39;hui sur l&#39;eau ou les sols peut s&#39;améliorer considérablement d&#39;ici 2060</b> avec des politiques volontaristes. À l&#39;inverse, un territoire solide peut se dégrader sans action.</p>
+</div>
+
+<div class="card" style="max-width:760px;margin-bottom:16px;border-color:#fca5a5;background:#FFF8F8">
+  <h3 style="color:#991B1B">⚠️ Limites honnêtes de cette analyse</h3>
+  <ul style="list-style:none;font-size:11px;line-height:1.85">
+    <li style="margin-bottom:9px"><b>Granularité</b> — Le département masque des disparités intra-territoriales majeures. La Lozère est exemplaire en altitude, mais ses vallées touristiques subissent des pressions différentes. Un score 8,8 global cache des hétérogénéités importantes.</li>
+    <li style="margin-bottom:9px"><b>Données incomplètes</b> — PFAS mesurés dans 40% des captages seulement (ANSES 2024). PM2,5 sans station permanente dans plusieurs départements ruraux (Lozère, Ariège, Aude, Lot en 2023). Listes rouges UICN couvrant surtout vertébrés et plantes.</li>
+    <li style="margin-bottom:9px"><b>Pondération arbitraire</b> — La moyenne simple des 6 dimensions est un choix. Une pondération plus forte sur le Climat (30-40%) changerait significativement le classement final, notamment pour les départements d&#39;altitude.</li>
+    <li style="margin-bottom:9px"><b>Absence de dimensions socio-économiques</b> — Ce dashboard n&#39;intègre pas le coût de la vie, l&#39;accès aux soins, l&#39;emploi, la qualité des logements ou les transports — facteurs essentiels pour une décision réelle de lieu de vie.</li>
+    <li style="margin-bottom:9px"><b>Fiches IA</b> — Les fiches générées par l&#39;API Claude sont indicatives. Le modèle peut contenir des données légèrement datées ou des approximations. Les sources citées doivent être vérifiées directement.</li>
+    <li><b>ZAVA 2024</b> — Le classement alimentaire ZAVA est propriétaire, sa méthodologie n&#39;est pas publiée en open data. Les scores alimentaires sont donc moins robustes que les autres dimensions.</li>
+  </ul>
+</div>
+
+<div class="card" style="max-width:760px">
+  <h3>Ressources pour aller plus loin</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px">
+    ${[
+      ['Climadiag Commune','Projections par commune (Météo-France)','meteofrance.com/climadiag-commune'],
+      ['DRIAS futurs du climat','Données climatiques téléchargeables','drias-climat.fr'],
+      ['Explore2 BRGM/INRAE','Projections hydrologiques France','explore2.inrae.fr'],
+      ['GéoRisques','Sols pollués, aléas naturels','georisques.gouv.fr'],
+      ['ATMO France','Qualité air par région','atmo-france.org'],
+      ['OFB biodiversité','Chiffres clés 2024','ofb.gouv.fr']
+    ].map(([t,d,u])=>`
+      <div style="background:var(--surface);border-radius:8px;padding:10px">
+        <div style="font-weight:600;font-size:11px">${t}</div>
+        <div style="font-size:10px;color:var(--muted);margin:2px 0 3px">${d}</div>
+        <div style="font-size:9px;color:#4A5568;font-family:'JetBrains Mono',monospace">${u}</div>
+      </div>`).join('')}
+  </div>
+</div>
+
+</div>`;
+}
+
+function genFiche(){
+  if(!selDept)return;
+  const key=getKey();
+  if(!key){openModal();return;}
+  sw(1);
+}
+window.genFiche=genFiche;
+
+// ─── POPULATE SELECT ─────────────────────────────────────────────────────
+function populateSel(){
+  const sel=document.getElementById('dsel');
+  Object.entries(SCORES).sort((a,b)=>a[1].nom.localeCompare(b[1].nom,'fr')).forEach(([code,d])=>{
+    const o=document.createElement('option');
+    o.value=code;o.textContent=`${code} — ${d.nom}`;
+    sel.appendChild(o);
+  });
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────
+function init(){
+  buildMap();
+  populateSel();
+  updateKeyBtn();
+  for(let i=1;i<=6;i++)renderTab(i,null);
+  // Start on methodology tab
+  sw(8);
+  // Pre-select Lozère so map is ready when user switches to it
+  selDept='48';
+  document.getElementById('bdg').textContent='48 — Lozère';
+  document.getElementById('dsel').value='48';
+  const p=document.querySelector('.dp[data-code="48"]');
+  if(p)p.classList.add('sel');
+}
+init();
+
+function init(){
+  buildMap();
+  populateSel();
+  for(let i=1;i<=6;i++)renderTab(i,null);
+  // Start on methodology tab
+  sw(8);
+  // Pre-select Lozère so map is ready when user switches to it
+  selDept='48';
+  document.getElementById('bdg').textContent='48 — Lozère';
+  document.getElementById('dsel').value='48';
+  const p=document.querySelector('.dp[data-code="48"]');
+  if(p)p.classList.add('sel');
+}
+init();
+
+</script>
+</body>
+</html>
