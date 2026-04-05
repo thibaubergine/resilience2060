@@ -1,0 +1,65 @@
+{
+  "synthese": "La Gironde, département de plaine littorale atlantique, présente une vulnérabilité climatique significative à l'horizon 2060, confirmée par les projections DRIAS-2020 : les températures estivales moyennes pourraient augmenter de +2,5 à +3,5°C selon le scénario RCP8.5, portant le nombre de jours de canicule à plus de 20 par an contre 4 à 6 actuellement (Climadiag communes, 2023). Le département est particulièrement exposé au risque incendie : les Landes de Gascogne, qui couvrent près de 500 000 ha sur le territoire girondin, constituent la plus grande forêt cultivée d'Europe occidentale, classée en aléa très fort selon le PPFCI révisé après les méga-feux de 2022 (32 000 ha brûlés en Gironde). La façade atlantique (126 km de côtes) est soumise à une érosion accélérée et à une montée du niveau marin estimée entre +20 et +60 cm à l'horizon 2060 (ONERC/TRACC), menaçant les secteurs du Médoc et du bassin d'Arcachon. L'altitude quasi nulle du département (point culminant < 200 m, altitude médiane ~40 m) limite tout tampon thermique naturel, rendant le territoire particulièrement sensible aux vagues de chaleur prolongées (AP3C Nouvelle-Aquitaine, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude médiane ~40 m, aucun tampon thermique naturel significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "+20 jours canicule/an projetés à 2060, scénario RCP8.5 DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "500 000 ha forêt résineuse, méga-feux 2022, aléa PPFCI très fort"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "126 km côtes, montée mer +20-60 cm, érosion dunaire accélérée"
+    }
+  ],
+  "points_forts": [
+    "Proximité de l'océan Atlantique assurant un effet modérateur des températures estivales extrêmes sur la frange littorale (amplitude thermique côtière réduite de ~3°C vs intérieur des terres, Météo-France)",
+    "Réseau de surveillance climatique dense : 47 stations Météo-France actives en Gironde, permettant un suivi fin des évolutions (AP3C Nouvelle-Aquitaine, 2023)",
+    "Engagement fort de la Gironde dans la reforestation post-incendie avec 7 000 ha replantés en essences diversifiées dès 2023 (GIP ATGeRi / DRAAF Nouvelle-Aquitaine)",
+    "Plan départemental de prévention des risques naturels parmi les plus complets de France, intégrant PPRI, PPFCI et PPRL sur l'ensemble du territoire littoral et estuarien"
+  ],
+  "vigilances": [
+    "Risque incendie de forêt structurellement aggravé : modèles DRIAS projettent une extension de la période à risque de 45 à 90 jours/an d'ici 2060, avec une inflammabilité accrue des peuplements de pins maritimes asséchés",
+    "Submersion marine et érosion côtière : le GIP Littoral Aquitain identifie 50 à 80 km de côtes menacées à horizon 2050, avec recul dunaire pouvant dépasser 1 m/an sur certains secteurs du Médoc",
+    "Stress hydrique croissant sur les nappes phréatiques superficielles (nappe des Landes) : recharge hivernale en déficit de -15 % à -30 % selon scénario intermédiaire Explore2 2023, menaçant l'alimentation en eau potable de communes rurales"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~40 m",
+      "label": "Altitude médiane du département"
+    },
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse température estivale projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "32 000 ha",
+      "label": "Surface brûlée lors des méga-feux de 2022"
+    },
+    {
+      "valeur": "126 km",
+      "label": "Linéaire côtier atlantique exposé"
+    }
+  ],
+  "sources": [
+    "DRIAS-2020 / Climadiag communes 2023 (Météo-France)",
+    "AP3C Nouvelle-Aquitaine – Atlas climatique 2023",
+    "TRACC / ONERC – Projections montée du niveau marin",
+    "GIP ATGeRi / PPFCI Gironde – Risque incendie 2022-2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent de fortes disparités internes : le gradient côte/intérieur des terres en Gironde est l'un des plus marqués de France, rendant un score unique peu représentatif des situations locales",
+    "L'évaluation du risque incendie post-2022 est en cours de révision réglementaire (PPFCI et cartographie DFCI en refonte), ce qui introduit une incertitude sur les données de vulnérabilité actuellement disponibles",
+    "La vulnérabilité côtière intègre mal les dynamiques estuariennes (Gironde, Leyre) dont les régimes hydrologiques et les risques de submersion sont distincts du littoral océanique et insuffisamment modélisés à horizon 2060"
+  ]
+}

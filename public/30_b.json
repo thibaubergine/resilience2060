@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente un patrimoine naturel exceptionnel avec près de 38% de sa superficie couverte par des sites Natura 2000 (INPN 2024), plaçant le département parmi les mieux dotés d'Occitanie. Le département abrite des milieux remarquables allant des gorges du Gardon aux zones humides camarguaises de la petite Camargue gardoise, en passant par les garrigues et les Cévennes, générant une mosaïque d'habitats favorable à une biodiversité élevée. Le Parc National des Cévennes, classé Réserve de Biosphère UNESCO, couvre une part significative du nord du département et protège plus de 2 400 espèces végétales recensées (PNC/OFB 2024). La LPO Gard recense régulièrement des espèces emblématiques comme le Vautour fauve, le Castor d'Europe ou la Cistude d'Europe, témoignant de la richesse faunistique du territoire. Malgré ces atouts, la pression urbaine croissante autour de Nîmes et les épisodes de sécheresse récurrents fragilisent les continuités écologiques identifiées au SRCE Occitanie.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "38% du territoire en Natura 2000, parmi les meilleurs d'Occitanie"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNC, PNR Camargue partiel, Réserve Biosphère UNESCO Cévennes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Vautour fauve, Castor, Cistude, flore cévenole très diversifiée"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors garrigues-Cévennes identifiés mais fragmentés par urbanisation nîmoise"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 : environ 38% du territoire départemental classé, bien au-dessus de la moyenne nationale (~13%)",
+    "Parc National des Cévennes : seul parc national de plaine-montagne français, Réserve de Biosphère UNESCO depuis 1985, abritant 2 400 espèces végétales (PNC 2024)",
+    "Retour et maintien du Vautour fauve dans les gorges du Gardon et sur les Causses gardois, avec plus de 600 individus suivis par la LPO Gard",
+    "Petite Camargue gardoise : zone humide d'importance internationale (Ramsar), corridor majeur pour les oiseaux migrateurs avec plus de 300 espèces observées"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques autour de Nîmes et dans le piémont : l'artificialisation progresse de +1,2% par an (CEREMA 2023), menaçant les liaisons garrigues-Rhône",
+    "Risque élevé de dégradation des zones humides gardoises sous l'effet combiné de la sécheresse et des pompages agricoles : Explore2 projette -20 à -30% de débit des cours d'eau cévenols à l'horizon 2060",
+    "Prolifération d'espèces exotiques envahissantes (Jussie, Ragondin, Frelon asiatique) dans les milieux aquatiques et les garrigues, identifiée comme menace croissante par l'OFB 2024"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "38%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "2 400",
+      "label": "Espèces végétales PNC"
+    },
+    {
+      "valeur": "300+",
+      "label": "Espèces d'oiseaux Camargue gardoise"
+    },
+    {
+      "valeur": "600+",
+      "label": "Vautours fauves suivis LPO"
+    }
+  ],
+  "sources": [
+    "OFB / INPN 2024",
+    "Parc National des Cévennes 2024",
+    "LPO Gard – Atlas ornithologique",
+    "SRCE Occitanie / CEREMA 2023"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 ne distinguent pas toujours la qualité effective des habitats de leur superficie déclarée, pouvant surestimer l'état de conservation réel",
+    "Le suivi des espèces emblématiques repose largement sur des données participatives (LPO, GARD Nature) dont la couverture spatiale est hétérogène sur le département",
+    "L'état des corridors écologiques est évalué à l'échelle régionale dans le SRCE Occitanie, sans déclinaison opérationnelle systématique à l'échelle des EPCI gardois"
+  ]
+}

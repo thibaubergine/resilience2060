@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Landes bénéficie d'une ressource en eau globalement abondante grâce à la nappe de l'Éocène et à un réseau hydrographique dense (Adour, Midouze, Leyre), avec une pluviométrie annuelle d'environ 1 000 à 1 200 mm (Météo-France). Cependant, les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2050-2070 sur les cours d'eau landais, fragilisant l'alimentation en eau potable en période estivale. La qualité des eaux souterraines est affectée par les pratiques agricoles (maïsiculture intensive sur environ 100 000 ha) et par la présence de pesticides mesurée dans plusieurs captages (ARS Nouvelle-Aquitaine, bilan 2022). La contamination aux PFAS, bien que moins documentée que dans certains départements industriels, fait l'objet d'une surveillance renforcée depuis 2023 (arrêté du 14 août 2023). Le taux de conformité de l'eau potable distribuée reste supérieur à 94 % pour les paramètres bactériologiques et physicochimiques (ARS 2022), mais des dépassements ponctuels aux pesticides sont signalés sur des unités de distribution rurales.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Conformité ARS >94 % bactério ; dépassements pesticides ponctuels UDI rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Explore2 : -20 à -40 % débits étiage 2050-2070 ; tension estivale croissante"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Maïsiculture intensive mais lessivage nitrates modéré ; nappes majoritairement conformes"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Surveillance PFAS engagée 2023 ; données encore partielles sur captages prioritaires"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie élevée (1 000-1 200 mm/an) assurant une recharge naturelle satisfaisante des nappes (Météo-France)",
+    "Nappe de l'Éocène et système aquifère multicouche offrant des réserves stratégiques importantes pour l'AEP",
+    "Taux de conformité bactériologique de l'eau potable >94 % (ARS Nouvelle-Aquitaine, bilan 2022)",
+    "Réseau hydrographique dense (Adour, Midouze, Leyre, courants côtiers) favorable à la dilution et à la recharge"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage des cours d'eau landais à l'horizon 2070 (Explore2, 2023), menaçant l'AEP estivale",
+    "Présence récurrente de pesticides (métolachlore, prosulfocarbe) dans plusieurs captages AEP du fait des 100 000 ha de maïs irrigué",
+    "Contamination aux PFAS insuffisamment caractérisée sur l'ensemble des captages ; résultats de la campagne nationale 2023-2024 encore attendus"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "1 000-1 200 mm/an",
+      "label": "Pluviométrie moyenne annuelle"
+    },
+    {
+      "valeur": ">94 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage projetée (Explore2 2070)"
+    },
+    {
+      "valeur": "~100 000 ha",
+      "label": "Surface en maïs (pression pesticides/nitrates)"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques France 2023 (INRAE/OFB)",
+    "Météo-France – Normales climatiques 1991-2020",
+    "Arrêté ministériel PFAS du 14 août 2023 – surveillance captages AEP"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages landais sont encore partielles ; la campagne nationale 2023-2024 n'est pas encore totalement consolidée pour ce département",
+    "L'état qualitatif précis de la nappe de l'Éocène à l'échelle communale reste peu accessible publiquement, limitant l'analyse fine des zones vulnérables",
+    "Les projections Explore2 comportent une incertitude élevée à l'échelle locale (bassins versants côtiers des Landes peu jaugés), ce qui rend difficile la hiérarchisation territoriale des risques"
+  ]
+}

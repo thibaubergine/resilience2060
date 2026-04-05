@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loir-et-Cher présente un profil alimentaire intermédiaire avec un score de 6,5/10, porté par une agriculture diversifiée occupant environ 285 000 ha de SAU (Agreste 2023), soit plus de 50 % du territoire départemental. Le département bénéficie d'une reconnaissance en signes officiels de qualité non négligeable, notamment grâce aux vins de la Loire (AOP Cheverny, Cour-Cheverny, Touraine) et aux productions fromagères comme la Selles-sur-Cher AOP (INAO 2023). La part de l'agriculture biologique représente environ 7,5 % de la SAU, soit un niveau légèrement inférieur à la moyenne nationale de 10,7 % (Agence Bio 2023), constituant un point de progression identifié. L'autonomie alimentaire territoriale reste limitée par une orientation majoritairement céréalière et oléagineuse destinée à l'export, avec une zone à vocation agricole dominante peu tournée vers les circuits de proximité (ZAVA 2024). Les circuits courts et AMAP se développent mais demeurent en deçà des niveaux observés dans les départements périurbains ou à forte attractivité touristique alimentaire.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "SAU dominée par céréales/oléagineux, faible orientation vivrière locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.0,
+      "note": "Plusieurs AOP vins et Selles-sur-Cher fromagère bien identifiées"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "7,5 % SAU bio, sous la moyenne nationale de 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif, marchés de producteurs développés en Sologne et Blésois"
+    }
+  ],
+  "points_forts": [
+    "3 AOP viticoles reconnues (Cheverny, Cour-Cheverny, Touraine) valorisant le terroir ligérien (INAO 2023)",
+    "Fromage Selles-sur-Cher AOP, production caprine emblématique avec filière structurée et notoriété nationale",
+    "SAU importante (≈ 285 000 ha, >50 % du territoire) assurant une base productive agricole solide (Agreste 2023)",
+    "Développement des circuits courts et marchés de producteurs dans le Blésois et autour de Romorantin, soutenu par le Conseil départemental"
+  ],
+  "vigilances": [
+    "Dépendance aux grandes cultures exportatrices (blé, colza) fragilisant l'autonomie alimentaire locale face aux crises d'approvisionnement",
+    "Progression lente de l'agriculture biologique (7,5 % SAU en 2023) avec risque de décrochage par rapport aux objectifs Éco'logique 2030 (15 % SAU bio)",
+    "Vulnérabilité des AOP viticoles et fromagères face aux aléas climatiques (sécheresses, épisodes de gel tardif, comme avril 2021 ayant détruit jusqu'à 80 % des récoltes dans certaines communes)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "285 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "7,5 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "3",
+      "label": "AOP viticoles actives"
+    },
+    {
+      "valeur": "1",
+      "label": "AOP fromagère (Selles-sur-Cher)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Chiffres clés bio par département",
+    "INAO 2023 – Registre des signes officiels de qualité",
+    "Agreste Centre-Val de Loire 2023 – Statistiques agricoles",
+    "ZAVA 2024 – Zones à vocation agricole et alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent parcellaires pour le Loir-et-Cher, rendant difficile une quantification précise des flux alimentaires intra-départementaux",
+    "Le recensement des AMAP et circuits courts actifs n'est pas exhaustif à l'échelle départementale, la DRAAF ne disposant pas d'un registre unifié et actualisé annuellement",
+    "La part de SAU bio intègre des exploitations en conversion dont la production commercialisée en bio est encore partielle, pouvant surestimer l'offre alimentaire biologique réellement disponible localement"
+  ]
+}

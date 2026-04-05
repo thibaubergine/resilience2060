@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Garonne dispose d'une ressource en eau globalement abondante grâce à la Garonne et ses affluents pyrénéens, alimentés par la fonte nivale et glaciaire, avec un débit moyen de la Garonne à Toulouse d'environ 195 m³/s (DREAL Occitanie). Cependant, les projections Explore2 (2022) indiquent une réduction des débits estivaux de 30 à 50 % à l'horizon 2050-2070 pour les cours d'eau du bassin Garonne-Adour, menaçant directement l'alimentation en eau potable de l'agglomération toulousaine qui compte plus de 800 000 habitants raccordés. La qualité des eaux distribuées est satisfaisante pour 94 % de la population selon les bilans ARS Occitanie 2022, mais des tensions persistent sur certaines captages en zones agricoles périurbaines affectés par les nitrates et pesticides. La contamination aux PFAS constitue une vigilance croissante, avec plusieurs analyses récentes révélant des teneurs détectables dans certains cours d'eau du département (ANSES 2023). L'état écologique des masses d'eau superficielles reste mitigé : seuls 47 % des masses d'eau atteignent le bon état au titre de la Directive Cadre sur l'Eau (DCE), état des lieux 2019, Agence de l'eau Adour-Garonne.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "94% population desservie en eau conforme, captages pyrénéens protégés"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Débits estivaux Garonne en baisse de 30-50% horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Pressions agricoles périurbaines ; nitrates modérés sous seuil alerte majoritairement"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement ; niveaux sous seuils réglementaires actuels"
+    }
+  ],
+  "points_forts": [
+    "Ressource pyrénéenne abondante : débit moyen de la Garonne à Toulouse ~195 m³/s, soutenu par la fonte nivale (DREAL Occitanie)",
+    "Taux de conformité eau potable élevé : 94 % de la population desservie en eau conforme aux normes sanitaires (ARS Occitanie 2022)",
+    "Réseaux d'alimentation bien structurés autour de la métropole toulousaine, avec interconnexions sécurisant l'approvisionnement de 800 000+ habitants",
+    "Démarches de protection des captages actives : plusieurs Aires d'Alimentation de Captages (AAC) prioritaires dotées de plans d'action (Agence de l'eau Adour-Garonne)"
+  ],
+  "vigilances": [
+    "Réduction projetée de 30 à 50 % des débits estivaux de la Garonne à l'horizon 2050-2070, menaçant l'alimentation en eau potable et le refroidissement des infrastructures (Explore2, 2022)",
+    "Seulement 47 % des masses d'eau superficielles en bon état écologique (DCE, état des lieux 2019, Agence de l'eau Adour-Garonne), pression agricole et urbaine persistante",
+    "Détection croissante de PFAS et micropolluants dans les eaux de surface et souterraines, avec un cadre réglementaire encore en construction (ANSES 2023, directive eau potable 2020/2184)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "195 m³/s",
+      "label": "Débit moyen Garonne à Toulouse"
+    },
+    {
+      "valeur": "94 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "47 %",
+      "label": "Masses d'eau en bon état (DCE 2019)"
+    },
+    {
+      "valeur": "-30 à -50 %",
+      "label": "Réduction débits estivaux 2070 (Explore2)"
+    }
+  ],
+  "sources": [
+    "Agence de l'eau Adour-Garonne – État des lieux DCE 2019",
+    "ARS Occitanie – Bilan qualité eaux distribuées 2022",
+    "Explore2 – Projections hydrologiques 2022 (INRAE/OFB)",
+    "ANSES – Campagne nationale PFAS eaux 2023"
+  ],
+  "limites": [
+    "Les données DCE 2019 ne reflètent pas les effets des sécheresses récentes (2022-2023), particulièrement sévères en Haute-Garonne, sous-estimant potentiellement la dégradation actuelle",
+    "Le suivi PFAS reste fragmentaire sur le département, avec peu de points de mesure homologués dans les eaux souterraines hors agglomération toulousaine",
+    "Les projections Explore2 présentent une incertitude notable sur les apports nivaux pyrénéens, dont la variabilité interannuelle est forte et difficile à modéliser à fine échelle pour la Haute-Garonne"
+  ]
+}

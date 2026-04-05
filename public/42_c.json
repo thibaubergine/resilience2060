@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Loire (42) présente une vulnérabilité climatique modérée à l'horizon 2060, avec un score de 6,0/10, reflétant une situation contrastée entre ses secteurs de plaine et ses massifs montagneux. Selon Climadiag (Météo-France, 2023), le département devrait connaître une hausse des températures moyennes de +2,0 à +2,8°C d'ici 2060 selon le scénario RCP 4.5, avec une augmentation notable du nombre de jours de vague de chaleur passant de 4 à environ 20 jours/an dans la plaine du Forez. Les projections DRIAS indiquent une réduction des précipitations estivales de l'ordre de 15 à 20 % à l'horizon 2060, accentuant les tensions sur la ressource en eau et les étiages de la Loire déjà sévères (débit d'étiage Q90 en baisse tendancielle, données DREAL AuRA). Le relief structuré du département — du Massif du Pilat (1 432 m) aux monts du Forez (1 634 m) — constitue un tampon thermique significatif pour environ 30 % du territoire, atténuant partiellement l'exposition aux extrêmes climatiques (AP3C, 2022). Néanmoins, la plaine du Forez et la conurbation stéphanoise concentrent les enjeux d'îlot de chaleur urbain et d'imperméabilisation des sols, renforçant la vulnérabilité locale aux événements extrêmes.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Massifs du Forez et Pilat (1 634 m) offrent tampon thermique notable pour 30 % du territoire"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "Plaine du Forez exposée : +20 jours canicule prévus à 2060 selon Climadiag"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux modéré ; surfaces forestières limitées et peu contiguës en contexte méditerranéen"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Plaine du Forez inondable ; Loire et affluents en risque fort, PPRI couvrant 47 communes"
+    }
+  ],
+  "points_forts": [
+    "Relief montagneux protecteur : les monts du Forez culminent à 1 634 m (Pierre-sur-Haute), offrant des zones refuges thermiques à l'horizon 2060",
+    "Risque incendie de forêt relativement contenu grâce à une forêt fragmentée et un climat encore sub-atlantique sur les hauteurs (AP3C, 2022)",
+    "Absence de vulnérabilité côtière directe ; le département est enclavé à 300 km de tout littoral",
+    "Diversité altitudinale permettant des adaptations agricoles et sylvicoles graduelles face au changement climatique (TRACC, 2023)"
+  ],
+  "vigilances": [
+    "Augmentation projetée de +15 à +20 % des épisodes de sécheresse estivale en plaine du Forez à l'horizon 2060 (DRIAS/RCP 4.5), menaçant les étiages de la Loire",
+    "Intensification du risque d'inondations rapides sur les affluents de la Loire (Ondaine, Gier, Furens) sous l'effet de pluies plus intenses et concentrées (projections DRIAS 2023, +10 % intensité extrêmes)",
+    "Développement probable du risque incendie en secteur Pilat et Haut-Forez avec la méridionalisation progressive du climat, aujourd'hui encore sous-estimé dans les PPFCI locaux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,4°C",
+      "label": "Hausse T° moyenne projetée à 2060 (RCP 4.5)"
+    },
+    {
+      "valeur": "~20 j/an",
+      "label": "Jours de canicule projetés en plaine du Forez (vs 4 actuellement)"
+    },
+    {
+      "valeur": "1 634 m",
+      "label": "Altitude max. (Pierre-sur-Haute) — tampon thermique"
+    },
+    {
+      "valeur": "47 communes",
+      "label": "Communes en PPRI Loire et affluents"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios RCP 4.5 / 8.5)",
+    "AP3C Auvergne-Rhône-Alpes 2022",
+    "TRACC (Trajectoire de Réchauffement de Référence) 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag disponibles publiquement restent à maille régionale (~8 km) et peuvent sous-estimer les contrastes altitudinaux forts propres à la Loire (plaine vs massifs)",
+    "L'îlot de chaleur urbain de Saint-Étienne et de la vallée du Gier n'est pas encore modélisé finement dans les outils DRIAS, ce qui minore probablement l'exposition réelle des populations urbaines",
+    "Le risque incendie en expansion vers les massifs ligériens est insuffisamment intégré dans les PPFCI actuels, conduisant à une possible sous-estimation de cette menace émergente à l'horizon 2060"
+  ]
+}

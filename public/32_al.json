@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gers se distingue comme l'un des départements français les plus performants en matière alimentaire, porté par une tradition agro-pastorale diversifiée et une forte identité gastronomique. Avec plus de 20 signes de qualité officiels (AOP, IGP, Label Rouge) recensés par l'INAO, le département concentre une densité exceptionnelle de produits sous signe de qualité, notamment autour du foie gras d'oie, de l'Armagnac, du poulet Label Rouge et des vins de Gascogne IGP. La part de la SAU en agriculture biologique atteignait 8,2 % en 2023 (Agence Bio), en progression régulière mais encore inférieure à la moyenne régionale occitane (~11 %). L'indicateur ZAVA 2024 classe le Gers parmi les territoires à forte autonomie alimentaire, avec une production agricole brute excédentaire couvrant largement les besoins locaux estimés, grâce à une SAU de 480 000 ha représentant ~70 % du territoire (Agreste 2023). Le réseau de circuits courts reste dynamique avec plus de 250 points de vente directe et une douzaine d'AMAP actives recensées en 2023 (RésAP Occitanie).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 9.0,
+      "note": "ZAVA 2024 : excédent alimentaire brut, SAU couvrant 70% territoire"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Plus de 20 AOP/IGP/Label Rouge, foie gras, Armagnac, vins Gascogne"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "8,2% SAU bio (2023, Agence Bio), progression mais sous moyenne régionale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "250+ points vente directe, ~12 AMAP actives (RésAP Occitanie 2023)"
+    }
+  ],
+  "points_forts": [
+    "Autonomie alimentaire exceptionnelle : SAU de 480 000 ha (~70 % du territoire), production excédentaire classant le Gers en top 10 national (ZAVA 2024)",
+    "Densité remarquable de signes officiels de qualité : 20+ AOP/IGP/Label Rouge, dont Armagnac AOC, Floc de Gascogne AOC, foie gras IGP Sud-Ouest (INAO 2024)",
+    "Filière volailles gasconne structurée : 1er département français pour la production de foie gras d'oie, avec des cahiers des charges exigeants garantissant l'ancrage territorial",
+    "Réseau de circuits courts en développement : 250+ exploitations en vente directe et marchés fermiers hebdomadaires dans la quasi-totalité des bourgs-centres (Chambre d'Agriculture 32, 2023)"
+  ],
+  "vigilances": [
+    "Dépendance aux grandes cultures céréalières (maïs irrigué ~35 % de la SAU) fragilisant la diversité agronomique face aux stress hydriques projetés à l'horizon 2050 (Climadiag 2024)",
+    "Progression de l'agriculture biologique encore insuffisante (8,2 % vs 11 % en Occitanie) avec un risque de déconversions liées à la crise des débouchés bio nationale observée en 2022-2024 (Agence Bio)",
+    "Vulnérabilité de la filière foie gras aux épisodes répétés d'Influenza Aviaire Hautement Pathogène (IAHP) : 3 vagues majeures entre 2020 et 2023 menaçant la pérennité économique et territoriale de la filière"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "480 000 ha",
+      "label": "SAU totale (Agreste 2023)"
+    },
+    {
+      "valeur": "20+",
+      "label": "Signes qualité AOP/IGP/LR (INAO 2024)"
+    },
+    {
+      "valeur": "8,2 %",
+      "label": "SAU en agriculture biologique (Agence Bio 2023)"
+    },
+    {
+      "valeur": "250+",
+      "label": "Exploitations en vente directe (CA32 2023)"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agreste Occitanie 2023",
+    "INAO – Registre des signes officiels de qualité 2024",
+    "Agence Bio – Baromètre national 2023",
+    "RésAP Occitanie / Chambre d'Agriculture du Gers 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations agrégées ne distinguant pas la destination export des productions (Armagnac, foie gras) de la consommation locale réelle",
+    "La mesure de la densité AOP/IGP par département ne tient pas compte de la superficie effective des zones de production, pouvant surestimer l'ancrage territorial de certaines IGP étendues à plusieurs départements",
+    "L'indicateur de circuits courts (points de vente directe) ne reflète pas les volumes réels échangés ni l'accessibilité socio-économique pour les populations rurales dispersées du département"
+  ]
+}

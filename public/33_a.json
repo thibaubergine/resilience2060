@@ -1,0 +1,65 @@
+{
+  "synthese": "La Gironde présente une qualité de l'air globalement satisfaisante, bénéficiant de la proximité océanique et de vents dominants d'ouest qui facilitent la dispersion des polluants atmosphériques. Selon ATMO Nouvelle-Aquitaine, les concentrations moyennes annuelles en PM2,5 sur le département oscillent autour de 8-10 µg/m³, restant proches du seuil OMS 2021 (5 µg/m³) mais nettement inférieures aux zones industrialo-portuaires de l'arc méditerranéen. Le NO₂ urbain à Bordeaux Métropole atteint environ 18-22 µg/m³ en moyenne annuelle (ATMO NA, 2022), soit en deçà de la valeur limite réglementaire française (40 µg/m³) mais au-dessus de la recommandation OMS (10 µg/m³). Les émissions agricoles d'ammoniac (NH₃) constituent un enjeu local notable, notamment dans les zones viticoles et d'élevage du Nord-Gironde, contribuant à la pollution secondaire aux particules fines (Citepa, 2022). La présence du couloir industriel de Lacq-Ambès sur la rive droite de la Garonne maintient une pression émettrice localisée mais surveillée par le réseau dense de stations ATMO.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~9 µg/m³ : au-dessus OMS 5 µg/m³, sous valeur UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ Bordeaux ~20 µg/m³ : bon niveau, dépasse seuil OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Zone Ambès-Lacq notable mais périmètre limité, bonne dispersion"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Viticulture et élevage Nord-Gironde : NH₃ modéré, enjeu réel"
+    }
+  ],
+  "points_forts": [
+    "Vents océaniques dominants d'ouest assurant une dispersion naturelle efficace des polluants, avec ~200 jours/an de flux atlantiques (Météo-France)",
+    "Qualité de l'air urbain à Bordeaux parmi les meilleures des grandes métropoles françaises : NO₂ moyen 2022 à ~20 µg/m³ (ATMO Nouvelle-Aquitaine)",
+    "Réseau de surveillance dense avec 15+ stations ATMO actives en Gironde, permettant une couverture fine des épisodes de pollution",
+    "Nombre d'épisodes de pollution aux PM10 en baisse de 30 % entre 2015 et 2022, témoignant de progrès sur les émissions locales (ATMO NA, rapport 2022)"
+  ],
+  "vigilances": [
+    "Le couloir industriel Ambès-Bassens concentre des émissions de COV, HAP et métaux lourds ; des dépassements ponctuels d'H₂S sont signalés, impactant les riverains de la rive droite garonnaise",
+    "L'ozone troposphérique (O₃) représente un risque croissant : les épisodes de dépassement du seuil d'information (180 µg/m³) devraient s'intensifier avec le réchauffement climatique projeté (+1,5°C à horizon 2050, DRIAS)",
+    "L'expansion de la viticulture intensive et l'usage des produits phytosanitaires (dont le cuivre) génèrent une pollution diffuse aux particules et pesticides atmosphériques, encore mal quantifiée à l'échelle départementale (ATMO NA / Agence Bio 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne (2022)"
+    },
+    {
+      "valeur": "~20 µg/m³",
+      "label": "NO₂ moyen annuel Bordeaux Métropole (2022)"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse épisodes PM10 entre 2015 et 2022"
+    },
+    {
+      "valeur": "15+",
+      "label": "Stations ATMO actives en Gironde"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan de la qualité de l'air 2022",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Citepa – Inventaire national des émissions 2022",
+    "DRIAS – Projections climatiques Nouvelle-Aquitaine 2050"
+  ],
+  "limites": [
+    "Les données ATMO sont principalement concentrées sur Bordeaux Métropole et les zones industrielles ; la pollution diffuse agricole et viticole en milieu rural girondin reste sous-mesurée",
+    "L'inventaire Citepa ne permet pas toujours une désagrégation fine à l'échelle du département 33, rendant incertaine la part exacte des émissions sectorielles locales",
+    "Les effets sanitaires de la pollution atmosphérique de fond (pesticides, particules ultrafines) ne sont pas encore intégrés dans les bilans officiels départementaux, créant un angle mort épidémiologique"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Loire présente un profil alimentaire solide, avec une superficie agricole utile (SAU) de 222 000 ha représentant environ 44% du territoire, marquée par une dominante herbagère favorable à l'élevage bovin et à la production fromagère (Agreste 2023). Le département bénéficie de plusieurs signes officiels de qualité reconnus, dont la Lentille verte du Puy (1er légume AOP de France, obtenu en 1996, production annuelle ~1 000 t) et la Verveine du Velay, qui ancrent une identité agricole territoriale forte (INAO 2024). L'agriculture biologique progresse avec environ 9,5% de la SAU certifiée bio en 2023, soit un niveau légèrement supérieur à la moyenne nationale (~10%), soutenu par des programmes régionaux d'accompagnement (Agence Bio 2024). Les circuits courts se développent notamment autour du Puy-en-Velay, avec une densité d'AMAP et de marchés de producteurs en croissance, bien que la ruralité marquée du territoire limite l'accès pour certaines populations isolées. Le score ZAVA (Zone à vocation agricole alimentaire) positionne le département dans une autonomie alimentaire intermédiaire, avec des forces sur les productions animales mais une dépendance persistante pour les fruits, légumes et céréales (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "SAU 44% du territoire, élevage dominant, dépendance céréales et légumes"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Lentille verte du Puy AOP 1996, Verveine du Velay, Fin Gras du Mézenc"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "9,5% SAU bio 2023, progression constante, programmes régionaux actifs"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Marchés producteurs actifs Puy-en-Velay, AMAP en croissance, ruralité limitante"
+    }
+  ],
+  "points_forts": [
+    "La Lentille verte du Puy bénéficie du 1er AOP légume français (1996), avec une production d'environ 1 000 t/an et une reconnaissance internationale forte (INAO 2024)",
+    "Le Fin Gras du Mézenc (AOC viande bovine) et la Fourme de Montbrison/Ambert illustrent un tissu de signes de qualité diversifiés ancrant la valeur ajoutée locale",
+    "L'agriculture biologique représente ~9,5% de la SAU, avec une dynamique de conversion soutenue par la Région Auvergne-Rhône-Alpes et le GAB43 (Agence Bio 2024)",
+    "La densité de marchés de producteurs et la culture coopérative (coopératives laitières du Velay) favorisent les circuits courts et la rémunération directe des agriculteurs"
+  ],
+  "vigilances": [
+    "La production de Lentille verte du Puy est fortement exposée aux aléas climatiques (sécheresses estivales projetées en hausse sous scénario RCP 4.5/8.5 DRIAS 2060), menaçant les rendements et la qualité",
+    "Le vieillissement des exploitants agricoles (âge moyen >50 ans, Agreste 2020) couplé à des difficultés de transmission foncière risque d'accentuer la déprise agricole sur les secteurs les plus contraignants",
+    "La dépendance aux approvisionnements extérieurs en fruits, légumes et grandes cultures limite la résilience alimentaire locale et expose le territoire aux tensions logistiques et prix (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "222 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "9,5%",
+      "label": "Part SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "~1 000 t/an",
+      "label": "Production Lentille verte du Puy AOP"
+    },
+    {
+      "valeur": "3",
+      "label": "Signes AOP/AOC/IGP principaux actifs"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2024 – Chiffres clés bio par département",
+    "INAO 2024 – Registre AOP/IGP/AOC France",
+    "Agreste Auvergne-Rhône-Alpes 2023 – Statistiques agricoles Haute-Loire",
+    "ZAVA 2024 – Zones à vocation alimentaire, diagnostic territorial"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent à maille régionale pour certains indicateurs, rendant l'estimation de l'autonomie alimentaire strictement départementale imprécise",
+    "La part de SAU en bio peut être sous-estimée en raison de délais de mise à jour du registre Agence Bio pour les petites exploitations en conversion récente",
+    "L'absence d'un observatoire alimentaire territorial propre à la Haute-Loire (PAT peu formalisé) limite la disponibilité de données fines sur les flux circuits courts et AMAP au niveau infradépartemental"
+  ]
+}

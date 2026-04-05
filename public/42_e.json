@@ -1,0 +1,66 @@
+{
+  "synthese": "Le département de la Loire (42) présente une situation hydrique contrastée, marquée par la coexistence de ressources en eau superficielles relativement abondantes (bassin versant du fleuve Loire, affluents du Rhône) et de tensions croissantes liées aux usages agricoles et industriels. La qualité des eaux distribuées est globalement satisfaisante, avec 94,5 % de la population alimentée par une eau conforme aux exigences réglementaires en 2022 (ARS Auvergne-Rhône-Alpes), mais des dépassements ponctuels persistent sur certaines communes rurales. Les projections Explore2 (2023) anticipent une réduction des débits estivaux des cours d'eau ligériens de l'ordre de 20 à 40 % à l'horizon 2050-2070, aggravant les tensions sur les étiages déjà critiques observés sur le Furan et la Coise. La contamination aux nitrates reste modérée comparativement aux départements du Bassin parisien, mais des pressions agricoles localisées dans les secteurs de plaine (Forez, Roannais) maintiennent certaines masses d'eau en état médiocre au sens de la Directive Cadre sur l'Eau (DCE). La présence de PFAS constitue une préoccupation émergente, particulièrement en lien avec le tissu industriel stéphanois et les zones de traitement des eaux usées de l'agglomération de Saint-Étienne.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "94,5 % conformité ARS 2022 ; quelques dépassements ruraux persistants"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits estivaux -20 à -40 % horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Nitrates modérés ; pressions localisées Forez et Roannais (DCE)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "PFAS détectés secteur stéphanois ; suivi émergent industriel"
+    }
+  ],
+  "points_forts": [
+    "94,5 % de la population desservie par une eau potable conforme aux normes réglementaires en 2022 (ARS AuRA)",
+    "Le massif du Pilat et les Monts du Forez constituent des châteaux d'eau naturels préservant la recharge des nappes superficielles (OFB 2024)",
+    "Faible pression nitrates globale : aucune zone vulnérable nitrates classée sur la majeure partie du département (GREN 2023)",
+    "Schéma d'Aménagement et de Gestion des Eaux (SAGE) Loire en Rhône-Alpes actif, encadrant les usages et la restauration des cours d'eau"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits estivaux des cours d'eau ligériens et affluents d'ici 2050-2070 (Explore2, 2023), accentuant les conflits d'usage entre irrigation agricole, industrie et eau potable",
+    "Contamination aux PFAS détectée dans plusieurs captages de l'agglomération stéphanoise et à proximité de zones industrielles historiques, sans réglementation seuil définitive avant 2026 (ANSES)",
+    "Vieillissement des réseaux d'adduction en zones rurales : taux de perte moyen estimé à 20-25 % sur certaines communes du Roannais, fragilisant la sécurisation de l'alimentation en eau potable (SISPEA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94,5 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction débits estivaux 2070 (Explore2)"
+    },
+    {
+      "valeur": "~20-25 %",
+      "label": "Pertes réseau eau ruraux (SISPEA 2022)"
+    },
+    {
+      "valeur": "4 SAGE",
+      "label": "Schémas actifs sur le territoire Loire"
+    }
+  ],
+  "sources": [
+    "ARS Auvergne-Rhône-Alpes 2022",
+    "Explore2 BRGM/OFB 2023",
+    "DCE / Agence de l'eau Loire-Bretagne 2022",
+    "SISPEA – ONEMA 2022",
+    "ANSES – PFAS eaux 2023"
+  ],
+  "limites": [
+    "Les données PFAS sur le département Loire sont encore partielles et hétérogènes : le réseau de surveillance systématique des captages n'est pas finalisé à l'échelle communale (ANSES 2023)",
+    "Les projections Explore2 s'appliquent à des bassins versants larges et la résolution spatiale reste insuffisante pour distinguer précisément les sous-bassins ligériens internes au département",
+    "L'état écologique DCE des masses d'eau de surface est renseigné avec un décalage de 3 à 6 ans, limitant la lecture en temps réel des dynamiques de contamination agricole ou industrielle"
+  ]
+}

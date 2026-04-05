@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Landes (40) affiche l'une des meilleures qualités de l'air de France métropolitaine, bénéficiant d'une faible densité démographique (41 hab/km²) et de la présence du massif forestier des Landes de Gascogne qui agit comme puits de polluants. Les concentrations annuelles en PM2,5 restent inférieures à 8 µg/m³ selon les mesures ATMO Nouvelle-Aquitaine (2022-2023), bien en deçà du seuil OMS 2021 de 5 µg/m³ mais très favorables comparativement aux zones urbaines nationales. Le NO₂ demeure à des niveaux très bas (< 15 µg/m³ en agglomération dacquoise), reflétant l'absence de trafic autoroutier dense et d'industrie lourde (Citepa/ATMO 2022). Néanmoins, les émissions d'ammoniac (NH₃) liées à l'élevage avicole et porcin, particulièrement concentré dans le secteur de Chalosse et du Tursan, constituent le principal point de vigilance pour la qualité de l'air rural landais (ATMO NA, inventaire OMINEA 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 < 8 µg/m³, faible exposition, massif forestier protecteur"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urban < 15 µg/m³, trafic limité, aucune métropole dense"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries émettrices, économie sylvicole et touristique dominante"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Élevage avicole/porcin notable, NH₃ agricole élevé en Chalosse"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses du quart sud-ouest : < 8 µg/m³ en moyenne annuelle (ATMO Nouvelle-Aquitaine, 2023)",
+    "Aucune agglomération dépassant 25 000 habitants, NO₂ chroniquement sous 20 µg/m³ (ATMO NA / Citepa 2022)",
+    "Massif forestier des Landes de Gascogne (930 000 ha) jouant un rôle de filtre naturel et de puits de carbone pour les polluants locaux",
+    "Absence d'industrie lourde émettrice (sidérurgie, chimie lourde) : faibles émissions de SO₂ et de COV industriels (inventaire OMINEA/Citepa 2022)"
+  ],
+  "vigilances": [
+    "Émissions agricoles d'ammoniac (NH₃) en hausse liée au développement de l'élevage intensif avicole et porcin, contribuant à la formation de particules secondaires (PM2,5 secondaires) en zone rurale landaise",
+    "Risque d'augmentation des feux de forêt sous effet du changement climatique (scénario Climadiag 2060 : +15 à +20 jours de risque extrême/an), générant des pics épisodiques de PM10 et CO lors des incendies comme ceux de l'été 2022 (60 000 ha brûlés)",
+    "Exposition saisonnière aux pollens (graminées, pin maritime) en forte augmentation sous l'effet du réchauffement climatique, constituant un risque sanitaire croissant pour les populations allergiques (RNSA, tendance 2020-2030)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 8 µg/m³",
+      "label": "PM2,5 annuel moyen"
+    },
+    {
+      "valeur": "< 15 µg/m³",
+      "label": "NO₂ max urbain (Dax)"
+    },
+    {
+      "valeur": "930 000 ha",
+      "label": "Massif forestier filtrant"
+    },
+    {
+      "valeur": "~6 kt NH₃/an",
+      "label": "Émissions ammoniac agricoles"
+    }
+  ],
+  "sources": [
+    "ATMO Nouvelle-Aquitaine – Bilan qualité de l'air 2022-2023",
+    "Citepa – Inventaire OMINEA 2022 (NH₃, NOx, PM)",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Climadiag / DRIAS – Projections risque incendie 2060 Landes"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est peu dense dans les zones rurales et forestières des Landes, limitant la représentativité spatiale des données pour un département aussi vaste (9 243 km²)",
+    "Les pics de pollution liés aux feux de forêt (comme en 2022) sont des événements extrêmes difficiles à intégrer dans les moyennes annuelles, sous-estimant l'exposition réelle lors des épisodes",
+    "Les émissions de COV biogéniques (isoprène, terpènes) issues du massif de pins maritimes sont peu documentées localement et peuvent contribuer à la formation d'ozone troposphérique en période estivale chaude"
+  ]
+}

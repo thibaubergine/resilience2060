@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Loire (42) présente une qualité de l'air intermédiaire, pénalisée par la concentration industrielle et urbaine autour de Saint-Étienne et Roanne, deux agglomérations historiquement marquées par la métallurgie et le textile. Selon les données ATMO Auvergne-Rhône-Alpes (2023), les concentrations moyennes annuelles de PM2,5 oscillent entre 9 et 13 µg/m³ selon les zones, dépassant ponctuellement la valeur guide OMS 2021 fixée à 5 µg/m³. Le NO₂ urbain atteint des niveaux préoccupants à Saint-Étienne, avec des moyennes annuelles proches de 25-30 µg/m³ dans les axes routiers denses (ATMO AuRA, 2023), en deçà de la valeur limite européenne (40 µg/m³) mais au-dessus de la recommandation OMS (10 µg/m³). L'agriculture ligérienne, notamment l'élevage bovin dans les zones rurales de la Plaine du Forez, contribue aux émissions de NH₃, mais dans des proportions modérées comparées aux grands bassins céréaliers (Citepa 2022). La topographie encaissée de la vallée du Gier et du bassin stéphanois favorise des phénomènes d'accumulation de polluants en situation anticyclonique, aggravant ponctuellement les épisodes de pollution.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 entre 9-13 µg/m³, au-dessus du seuil OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 6.0,
+      "note": "NO₂ urbain ~25-30 µg/m³ à Saint-Étienne, dépasse OMS 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 6.0,
+      "note": "Industrie métallurgique et chimique présente, émissions résiduelles notables"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage bovin modéré en Forez, NH₃ limité comparé aux grandes plaines"
+    }
+  ],
+  "points_forts": [
+    "Amélioration tendancielle des concentrations en PM2,5 de -20% entre 2015 et 2023 (ATMO AuRA)",
+    "Absence de dépassement des valeurs limites européennes annuelles pour le NO₂ (40 µg/m³) sur toutes les stations de mesure (ATMO AuRA 2023)",
+    "Part importante de surfaces rurales et forestières (Monts du Forez, Pilat) assurant une dilution naturelle des polluants",
+    "Plan de Protection de l'Atmosphère (PPA) de Saint-Étienne révisé et actif, mobilisant collectivités et industriels sur les émissions locales"
+  ],
+  "vigilances": [
+    "Topographie encaissée du bassin stéphanois propice aux inversions thermiques et accumulations de polluants en hiver, risque accru avec les vagues de chaleur projetées d'ici 2050 (DRIAS 2024)",
+    "Renouvellement lent du parc industriel dans la vallée du Gier, maintien d'émissions diffuses de COV et métaux lourds à surveiller (Citepa 2022)",
+    "Trafic routier dense sur l'A47 (axe Lyon–Saint-Étienne, >60 000 véh/jour) représentant une source persistante de NO₂ et particules fines en bordure urbaine"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle"
+    },
+    {
+      "valeur": "~27 µg/m³",
+      "label": "Concentration NO₂ urbain Saint-Étienne"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Valeur guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "-20%",
+      "label": "Baisse PM2,5 depuis 2015"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes, Bilan qualité de l'air 2023",
+    "OMS, Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa, Inventaire national des émissions 2022",
+    "PPA Saint-Étienne Métropole, révision 2021"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO reste concentré sur les zones urbaines (Saint-Étienne, Roanne) ; les zones rurales de la Plaine du Forez et des Monts du Pilat sont peu couvertes, créant un angle mort sur l'exposition réelle des populations rurales",
+    "Les données de déposition de NH₃ agricole à l'échelle fine du département ne sont pas individualisées dans les publications Citepa disponibles, limitant l'évaluation précise de ce critère",
+    "L'impact des épisodes transfrontaliers de pollution (remontées méditerranéennes d'ozone, transport de masses d'air depuis la vallée du Rhône) n'est pas pleinement isolable dans les bilans départementaux actuels"
+  ]
+}

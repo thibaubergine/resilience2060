@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Hérault présente un profil de biodiversité remarquable, avec près de 27 % de sa superficie couverte par des zones Natura 2000 (INPN, 2024), soit l'un des taux les plus élevés du sud de la France, reflétant la richesse des milieux méditerranéens, lagunaires et caussenards. Le département abrite plus de 3 500 espèces végétales recensées, représentant environ 60 % de la flore française, ainsi qu'une faune exceptionnelle incluant le flamant rose, l'aigle de Bonelli et la tortue cistude (LPO Hérault, 2023). Le Parc Naturel Régional du Haut-Languedoc et la proximité du Parc National des Cévennes structurent un réseau de protection terrestre complété par des espaces littoraux gérés par le Conservatoire du Littoral sur plus de 5 000 hectares. Cependant, la pression urbaine autour de Montpellier — l'une des métropoles à croissance démographique la plus rapide de France (+1,5 %/an) — et la fréquentation touristique massive (15 millions de visiteurs/an) fragilisent les continuités écologiques identifiées dans le SRCE Occitanie (OFB, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "27 % superficie en Natura 2000, parmi les meilleurs scores nationaux"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Haut-Languedoc, proximité Cévennes, Conservatoire Littoral actif"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Flamant rose, aigle de Bonelli, cistude ; flore parmi les plus riches de France"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors fragilisés par urbanisation montpelliéraine et axes routiers littoraux"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 parmi les plus élevées de France métropolitaine : ~27 % du territoire départemental (INPN, 2024)",
+    "Plus de 3 500 espèces végétales recensées, soit ~60 % de la flore nationale concentrée sur un seul département (CBN Méditerranée)",
+    "Présence de l'aigle de Bonelli avec plusieurs couples nicheurs suivis activement par la LPO Hérault, espèce emblématique protégée",
+    "Gestion littorale exemplaire : plus de 5 000 ha sous protection du Conservatoire du Littoral, incluant les étangs palavasiens et le lido de Sète"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques par l'étalement urbain de la métropole de Montpellier, en croissance de +1,5 %/an, menaçant les liaisons garrigue-littoral",
+    "Assèchement progressif des zones humides lagunaires sous l'effet du changement climatique : déficit hydrique estival projeté en hausse de 20 à 30 % d'ici 2060 (DRIAS, 2023)",
+    "Pression touristique sur les espaces naturels sensibles (15 millions de visiteurs/an) entraînant piétinement, dérangement de l'avifaune nicheuse et dégradation des habitats dunaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~27 %",
+      "label": "Superficie en Natura 2000"
+    },
+    {
+      "valeur": "3 500+",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "5 000 ha",
+      "label": "Conservatoire du Littoral"
+    },
+    {
+      "valeur": "2 couples",
+      "label": "Aigles de Bonelli suivis"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Hérault 2023",
+    "CBN Méditerranée",
+    "Conservatoire du Littoral",
+    "SRCE Occitanie / DRIAS 2023"
+  ],
+  "limites": [
+    "Les données INPN sur la couverture Natura 2000 reflètent la désignation administrative et non l'état réel de conservation des habitats au sein des zones",
+    "L'inventaire des espèces reste incomplet pour les groupes taxonomiques peu étudiés (invertébrés, champignons, bryophytes), biaisant les indicateurs de richesse spécifique",
+    "L'efficacité réelle des corridors écologiques du SRCE Occitanie n'est pas évaluée par un suivi systématique de terrain dans l'Hérault, rendant leur fonctionnalité difficile à quantifier"
+  ]
+}

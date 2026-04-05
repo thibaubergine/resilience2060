@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente une qualité de l'air globalement satisfaisante au regard des indicateurs régionaux, avec des concentrations moyennes annuelles en PM2,5 estimées entre 8 et 11 µg/m³ selon les zones, en deçà du seuil européen de 25 µg/m³ mais dépassant la norme OMS 2021 de 5 µg/m³ dans les secteurs urbanisés (ATMO Occitanie, 2023). Les niveaux de NO₂ restent modérés, avec des concentrations proches de 15–25 µg/m³ en agglomération nîmoise, loin du seuil réglementaire de 40 µg/m³ mais supérieurs à l'objectif OMS de 10 µg/m³ (ATMO Occitanie, 2023). La pression industrielle demeure limitée malgré la présence de zones industrielles autour de Nîmes et Alès, le département ne figurant pas parmi les plus émetteurs de polluants industriels en Occitanie (Citepa, 2022). En revanche, les émissions agricoles d'ammoniac (NH₃), liées à l'élevage ovin et aux cultures céréalières, constituent un facteur de vigilance modéré, contribuant à la formation de particules secondaires en période estivale (Citepa, 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8–11 µg/m³ ; dépasse OMS 5 µg/m³, conforme UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ ~15–25 µg/m³ Nîmes ; sous seuil UE, au-dessus OMS"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Pression industrielle faible ; Alès et Nîmes sans émetteurs majeurs"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Élevage ovin et céréales génèrent NH₃ non négligeable en zones rurales"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 12 µg/m³ sur la majorité du territoire, parmi les meilleures performances du quart sud-est (ATMO Occitanie, 2023)",
+    "Aucun dépassement du seuil réglementaire européen en NO₂ (40 µg/m³) enregistré dans le département depuis 2019 (ATMO Occitanie)",
+    "Faible densité d'industries lourdes émettrices : le Gard ne compte aucune installation classée Seveso de seuil haut avec émissions atmosphériques majeures dans le top 50 régional (Citepa, 2022)",
+    "Couverture de surveillance efficace grâce au réseau ATMO Occitanie avec stations fixes à Nîmes, Alès et Bagnols-sur-Cèze, permettant un suivi continu des polluants réglementés"
+  ],
+  "vigilances": [
+    "Les épisodes de pollution estivale à l'ozone (O₃) sont fréquents : le Gard dépasse régulièrement le seuil d'information de 180 µg/m³ en période de canicule, tendance appelée à s'aggraver avec le réchauffement climatique d'ici 2050 (ATMO Occitanie, DRIAS)",
+    "La zone de Bagnols-sur-Cèze, à proximité du site nucléaire de Marcoule, nécessite une surveillance spécifique des émissions de radionucléides et composés chimiques associés aux activités de retraitement (IRSN, 2023)",
+    "Les émissions de NH₃ agricoles, en progression avec l'intensification de certaines filières d'élevage, favorisent la formation de particules fines secondaires (PM2,5 et PM10), risque accru lors des périodes sèches prolongées (Citepa, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8–11 µg/m³",
+      "label": "Concentration PM2,5 moyenne annuelle (zones urbaines)"
+    },
+    {
+      "valeur": "15–25 µg/m³",
+      "label": "Concentration NO₂ agglomération nîmoise"
+    },
+    {
+      "valeur": "180 µg/m³",
+      "label": "Seuil O₃ dépassé lors d'épisodes estivaux"
+    },
+    {
+      "valeur": "<40 µg/m³",
+      "label": "Conformité NO₂ réglementaire UE maintenue depuis 2019"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie 2023",
+    "Citepa 2022",
+    "OMS Guidelines 2021",
+    "IRSN Rapport Marcoule 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO Occitanie reste concentré sur les pôles urbains (Nîmes, Alès) ; les zones rurales et les Cévennes sont peu couvertes, créant des lacunes dans l'évaluation de l'exposition réelle des populations dispersées",
+    "Les données sur les émissions agricoles de NH₃ à l'échelle infra-départementale manquent de granularité, rendant difficile l'identification précise des bassins d'émission les plus impactants dans le Gard",
+    "L'absence de données récentes sur les émissions diffuses liées au trafic de transit (axe A9/A54) ne permet pas d'évaluer finement la contribution des corridors autoroutiers à la pollution de proximité en périphérie nîmoise"
+  ]
+}

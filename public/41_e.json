@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loir-et-Cher (41) présente une situation hydrique contrastée, avec des ressources en eau superficielles et souterraines sous pression croissante. Le département est traversé par la Loire et le Cher, mais les projections du programme Explore2 (2023) anticipent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2050-2070 sur les cours d'eau locaux, accentuant les tensions estivales déjà observées. La qualité des eaux brutes est affectée par une contamination aux nitrates persistante, avec environ 30 % des masses d'eau souterraines dépassant ou approchant le seuil de 50 mg/L (ARS Centre-Val de Loire, 2022), notamment dans les zones de grandes cultures céréalières et oléagineuses. La conformité de l'eau potable distribuée reste globalement acceptable (>95 % de la population desservie en eau conforme selon l'ARS 2022), mais des dépassements ponctuels sont enregistrés sur des communes rurales isolées. La présence de polluants émergents, dont les PFAS, commence à être documentée dans certains captages du département, sans encore faire l'objet d'un suivi systématique exhaustif (DCE/BRGM 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Eau potable conforme pour >95% habitants; dépassements ruraux ponctuels"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Débits étiage projetés -20 à -40% horizon 2070 (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "30% masses d'eau souterraines proches ou au-delà 50 mg/L nitrates"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement; surveillance encore incomplète sur captages"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable distribuée supérieur à 95 % pour la majorité de la population (ARS Centre-Val de Loire, 2022)",
+    "Réseau hydrographique dense avec la Loire, le Cher et le Loir, classés en partie en zones Natura 2000, offrant un rôle tampon écologique reconnu",
+    "Existence de périmètres de protection de captages couvrant les principales prises d'eau stratégiques du département",
+    "Engagement du SAGE Loire en Rhône-Alpes et SAGE Cher amont pour la gestion concertée et planifiée des ressources en eau"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2050-2070 (Explore2, 2023), menaçant l'alimentation en eau potable estivale et les usages agricoles",
+    "Contamination nitrates persistante sur les plateaux agricoles de Beauce solognote et Vendômois, avec risque d'extension des zones vulnérables si les pratiques culturales n'évoluent pas",
+    "Détection croissante de PFAS et micropolluants dans les captages superficiels liés à la Loire, sans protocole de suivi harmonisé à l'échelle départementale (DCE/BRGM 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">95%",
+      "label": "Eau potable conforme (ARS 2022)"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Réduction débits étiage 2070 (Explore2)"
+    },
+    {
+      "valeur": "~30%",
+      "label": "Masses d'eau souterraines >40 mg/L NO₃"
+    },
+    {
+      "valeur": "5.5/10",
+      "label": "Score Eau départemental (rang 66/96)"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB, 2023)",
+    "ARS Centre-Val de Loire – Bilan eau potable 2022",
+    "DCE / BRGM – Surveillance masses d'eau 2023",
+    "SAGE Cher amont & SDAGE Loire-Bretagne 2022-2027"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages du Loir-et-Cher sont partielles et non encore consolidées à l'échelle départementale, rendant toute évaluation définitive prématurée",
+    "Les projections Explore2 présentent une incertitude importante selon les scénarios climatiques retenus (RCP4.5 vs RCP8.5), ce qui complique la planification locale",
+    "La qualité des eaux superficielles de la Sologne, territoire aux nappes superficielles sensibles, est sous-documentée dans les rapports ARS publics disponibles"
+  ]
+}

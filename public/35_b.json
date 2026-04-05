@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ille-et-Vilaine présente une biodiversité contrastée, avec environ 8,5 % de son territoire couvert par des zones Natura 2000 (INPN, 2024), un chiffre inférieur à la moyenne nationale (~13 %), reflétant la pression agricole intense sur un département où plus de 60 % des surfaces sont consacrées à l'agriculture (Agreste 2023). Le réseau hydrographique dense (bassins de la Vilaine, du Couesnon, de l'Ille) abrite des espèces patrimoniales comme le saumon atlantique ou la loutre d'Europe, dont les populations restent fragiles en raison de la dégradation de la qualité des eaux (OFB 2024). Le département est partiellement couvert par le Parc naturel régional des Marais du Cotentin et du Bessin en frange nord-ouest et bénéficie de la présence du Parc naturel marin de l'estuaire de la Gironde et de la mer des Pertuis sur son littoral, mais aucun parc national ne le recouvre directement (UICN France 2023). Les corridors écologiques de la Trame verte et bleue sont fragilisés par l'artificialisation croissante autour de la métropole rennaise, qui enregistre l'une des plus fortes progressions d'imperméabilisation de Bretagne, avec +1 200 ha/an en moyenne sur la décennie 2010-2020 (CEREMA 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "Natura 2000 couvre ~8,5% du territoire, sous la moyenne nationale de 13%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Aucun parc national; proximité PNR Normandie-Maine en limite nord-est"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Saumon atlantique, loutre, triton crêté présents; populations sous pression"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "TVB identifiée au SRADDET; fragmentation croissante autour de Rennes"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (bassins Vilaine, Couesnon, Ille) favorable à des espèces patrimoniales aquatiques dont le saumon atlantique et la lamproie marine (OFB 2024)",
+    "Présence de zones humides côtières remarquables, notamment la Baie du Mont-Saint-Michel (site Ramsar), abritant des milliers d'oiseaux limicoles migrateurs chaque année (LPO Bretagne 2023)",
+    "47 ZNIEFF de type I et 18 de type II recensées en Ille-et-Vilaine, témoignant d'une richesse écologique reconnue (INPN 2024)",
+    "Dynamique associative forte : la LPO Bretagne et Bretagne Vivante coordonnent des inventaires participatifs sur plus de 200 communes du département"
+  ],
+  "vigilances": [
+    "Artificialisation accélérée autour de Rennes Métropole (+1 200 ha/an) menaçant la continuité des corridors écologiques de la Trame verte et bleue d'ici 2030 (CEREMA 2023)",
+    "Dégradation persistante des cours d'eau due aux intrants agricoles : 65 % des masses d'eau du bassin Vilaine en mauvais état écologique, impactant directement les espèces aquatiques sensibles (Agence de l'Eau Loire-Bretagne 2022)",
+    "Régression des espèces pollinisatrices et des oiseaux agricoles (bruant proyer, alouette des champs en déclin de -30 % depuis 2000 en Bretagne) liée à l'intensification des pratiques culturales (STOC/LPO 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "0",
+      "label": "Parc national sur le territoire"
+    },
+    {
+      "valeur": "65 ZNIEFF",
+      "label": "Zones naturelles inventoriées (INPN)"
+    },
+    {
+      "valeur": "65%",
+      "label": "Masses d'eau en mauvais état écologique"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Bretagne 2023",
+    "Agence de l'Eau Loire-Bretagne 2022",
+    "CEREMA 2023"
+  ],
+  "limites": [
+    "Les données Natura 2000 disponibles n'intègrent pas toujours les surfaces marines adjacentes au littoral ille-et-vilainais, sous-estimant potentiellement la couverture réelle de protection",
+    "L'évaluation de l'état des corridors écologiques repose sur des données SRADDET Bretagne agrégées à l'échelle régionale, sans déclinaison fine à la maille départementale",
+    "Les inventaires d'espèces (ZNIEFF, atlas) présentent des lacunes sur les zones agricoles intensives du centre du département, peu prospectées par les naturalistes bénévoles"
+  ]
+}

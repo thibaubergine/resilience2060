@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente un profil climatique 2060 préoccupant, situé en zone méditerranéenne parmi les plus exposées de France métropolitaine. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de 2,5 à 3,5°C des températures moyennes annuelles d'ici 2060 sous scénario intermédiaire RCP4.5, avec jusqu'à 30 jours de canicule supplémentaires par an. Le DRIAS projette une intensification marquée des épisodes cévenols, phénomène déjà responsable de crues dévastatrices (événement de Sommières 2002 : 23 morts, 1,2 milliard d'euros de dégâts), combinée à une sécheresse estivale prolongée. Le département couvre environ 295 000 hectares dont près de 40 % de surfaces boisées (IFN), ce qui en fait l'un des territoires les plus exposés aux feux de forêt du quart sud-est (TRACC/AP3C). Les projections DRIAS 2022 indiquent une réduction du cumul de précipitations estivales de 20 à 30 % à horizon 2060, aggravant simultanément les risques d'inondation éclair hivernale et de stress hydrique estival.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 5.0,
+      "note": "Relief cévenol modéré ; plaines littorales sans tampon thermique efficace"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "Jusqu'à 30 jours canicule supplémentaires/an projetés (Climadiag 2023)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "40 % territoire boisé ; risque incendie très élevé classé DFCI"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Épisodes cévenols récurrents ; littoral camargais faiblement exposé"
+    }
+  ],
+  "points_forts": [
+    "Présence du massif cévenol (point culminant : Mont Aigoual, 1 567 m) offrant un gradient altitudinal protecteur pour 30 % du territoire",
+    "Réseau de surveillance ATMO Occitanie dense permettant une anticipation des pics thermiques et une gestion de crise améliorée",
+    "Plan de Prévention des Risques Incendies de Forêt (PPRIF) actif sur plusieurs communes à forte exposition, avec débroussaillement obligatoire encadré",
+    "Frange littorale camargaise à très faible pente sans accumulation thermique urbaine majeure, limitant les îlots de chaleur côtiers"
+  ],
+  "vigilances": [
+    "Multiplication des épisodes méditerranéens intenses : DRIAS projette une augmentation de l'intensité horaire des pluies de 20 à 40 % d'ici 2060, aggravant le risque de crues-éclairs sur les bassins versants rapides du Gardon et de la Cèze",
+    "Risque feux de forêt en forte hausse : selon AP3C/TRACC, la saison à risque s'étend de 3 à 5 semaines supplémentaires d'ici 2050, avec colonisation du risque vers les Cévennes jusqu'alors épargnées",
+    "Stress hydrique cumulé : combinaison sécheresse estivale (-25 % précipitations juin-août) et demande agricole/touristique croissante crée une tension structurelle sur les nappes du Vistre et du Rhôny (Explore2, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse températures moyennes 2060 (RCP4.5)"
+    },
+    {
+      "valeur": "30 j",
+      "label": "Jours de canicule supplémentaires/an projetés"
+    },
+    {
+      "valeur": "40 %",
+      "label": "Surface départementale boisée exposée feux"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Réduction précipitations estivales à horizon 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2022 scénarios RCP4.5/8.5",
+    "TRACC/AP3C risques feux Sud-Est",
+    "Explore2 BRGM/OIEau 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à maille de 8 km, insuffisante pour différencier les microclimats cévenols des plaines gardoises très contrastés",
+    "L'indice composite Climat 2060 ne pondère pas suffisamment l'effet protecteur de l'altitude cévenole, défavorisant le Gard par rapport à des départements alpins moins exposés en plaine",
+    "Les données sur l'extension future des feux reposent sur des modèles DFCI régionaux non encore intégrés aux bases nationales standardisées, introduisant une incertitude de ±15 % sur les surfaces à risque"
+  ]
+}

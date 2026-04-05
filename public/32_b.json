@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gers présente un profil de biodiversité globalement favorable, avec environ 12,8 % de son territoire couvert par des zones Natura 2000 (INPN, 2024), incluant des habitats remarquables comme les coteaux calcaires gascons et les zones humides du Bas-Armagnac. Le département abrite des populations significatives d'espèces emblématiques telles que le Grand Hamster d'Alsace (absent) mais surtout le Faucon crécerellette, l'Outarde canepetière et la Pie-grièche à poitrine rose, espèces prioritaires suivies par la LPO Occitanie. Les corridors écologiques du Gers s'articulent autour des vallées de la Save, du Gers et de l'Adour, formant un réseau bocager encore dense malgré une pression agricole intensive (OFB, 2024). Le département ne dispose pas de Parc National mais bénéficie de la proximité du PNR Pyrénées Gascognes et de sites classés en Réserves Naturelles Régionales, ce qui limite la couverture en aires protégées strictes (INPN, 2024). Avec un indice d'abondance des oiseaux des plaines agricoles en recul estimé à -20 % sur 10 ans (LPO/STOC 2023), des tensions persistent entre pratiques agricoles dominantes et maintien de la biodiversité ordinaire.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Couverture Natura 2000 ≈12,8 % du territoire, supérieure à la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "Pas de Parc National; proximité PNR Pyrénées Gascognes sans intégration directe"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Faucon crécerellette, Outarde canepetière, espèces prioritaires bien documentées LPO"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 8.0,
+      "note": "Réseau bocager et vallées de la Save et de l'Adour fonctionnels, SRCE actif"
+    }
+  ],
+  "points_forts": [
+    "Couverture Natura 2000 à 12,8 % du territoire, au-dessus de la moyenne nationale de 12,5 % (INPN, 2024)",
+    "Présence d'espèces à fort enjeu de conservation : Outarde canepetière et Faucon crécerellette, suivies activement par la LPO Occitanie",
+    "Réseau hydrographique dense (Save, Gers, Adour, Baïse) structurant des corridors humides fonctionnels reconnus au SRCE Occitanie",
+    "Agriculture biologique en progression (8,2 % de la SAU en 2023, Agence Bio), favorable à la biodiversité des agrosystèmes"
+  ],
+  "vigilances": [
+    "Déclin marqué des oiseaux des plaines agricoles estimé à -20 % en 10 ans dans le département (LPO/STOC 2023), lié à l'intensification culturale",
+    "Fragmentation des continuités écologiques par les infrastructures routières (RN21, A64) et l'étalement des zones d'activité, risquant d'isoler des populations",
+    "Pression croissante des espèces exotiques envahissantes (Jussie, Ragondin, Frelon asiatique) sur les zones humides gerscoises, en expansion projetée sous effet du changement climatique d'ici 2050 (OFB, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12,8 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "6",
+      "label": "Sites Natura 2000 (ZSC+ZPS)"
+    },
+    {
+      "valeur": "8,2 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "-20 %",
+      "label": "Oiseaux plaines agricoles (10 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Occitanie / STOC 2023",
+    "SRCE Occitanie / DREAL",
+    "Agence Bio 2023"
+  ],
+  "limites": [
+    "Les données STOC (oiseaux communs) ne couvrent pas exhaustivement les espèces d'invertébrés et de flore, sous-représentées dans les suivis gersois",
+    "L'absence de Parc National ou de Réserve Naturelle Nationale limite la disponibilité de données standardisées et comparables sur la biodiversité strictement protégée",
+    "La délimitation des corridors écologiques fonctionnels repose sur des modélisations du SRCE (2015) nécessitant une actualisation face aux évolutions d'usage des sols observées depuis 2020"
+  ]
+}

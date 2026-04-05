@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Landes (40) présentent un profil climatique 2060 contrasté, marqué par une altitude quasi nulle (point culminant à 311 m, moyenne départementale inférieure à 70 m) offrant un tampon thermique très limité face aux projections de réchauffement (Climadiag, 2023). Le scénario SSP3-7.0 projette pour le département jusqu'à 35 à 40 jours de canicule supplémentaires par an à l'horizon 2050-2070 et une hausse des températures estivales de +3 à +4°C par rapport à la période de référence 1976-2005 (DRIAS/Météo-France). La forêt des Landes de Gascogne, plus grande forêt artificielle d'Europe occidentale avec près de 700 000 ha de pins maritimes, constitue un facteur aggravant majeur du risque incendie, comme l'a dramatiquement illustré l'été 2022 (plus de 35 000 ha brûlés dans le seul département, Préfecture des Landes). La façade atlantique (200 km de côte sableuse) et les zones humides de fond de vallée exposent enfin le département à une vulnérabilité côtière et aux inondations notable, avec un recul du trait de côte estimé à 1 à 3 m/an sur certains secteurs (CEREMA/EUROSION, 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude très basse (<70 m moy.), quasi-absence de tampon thermique altitudinal"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "35-40 jours canicule supplémentaires/an projetés à 2050-2070 (DRIAS SSP3)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 3.0,
+      "note": "700 000 ha de pins maritimes; 35 000 ha brûlés en 2022, risque structurel élevé"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 9.0,
+      "note": "Côte atlantique stable/sableuse mais recul trait de côte limité; bon réseau hydraulique"
+    }
+  ],
+  "points_forts": [
+    "Façade atlantique à influence océanique modératrice : l'amplitude thermique annuelle reste parmi les plus faibles de France métropolitaine (environ 15°C d'amplitude, Météo-France)",
+    "Réseau hydrographique dense (Adour, Midouze, courants côtiers) offrant des capacités de régulation locale du ruissellement (AP3C Nouvelle-Aquitaine)",
+    "Le couvert forestier important (70 % du territoire), bien que vulnérable, représente un puits de carbone significatif estimé à 3,5 Mt CO₂éq/an en conditions normales (INRAE/GIP ECOFOR)",
+    "Des initiatives d'adaptation sylvicole déjà engagées : diversification des essences et pare-feux renforcés dans le cadre du plan régional \"Forêt-Bois 2030\" (Conseil régional Nouvelle-Aquitaine)"
+  ],
+  "vigilances": [
+    "Risque incendie structurellement aggravé par le changement climatique : la surface potentiellement exposée à un risque feux \"extrême\" pourrait doubler d'ici 2060 selon les projections TRACC/ONF, après la séquence catastrophique de 2022 (>35 000 ha)",
+    "Augmentation projetée de la fréquence et de l'intensité des sécheresses édaphiques : l'indice d'humidité des sols forestiers pourrait diminuer de 15 à 25 % en été à horizon 2050 (DRIAS/INRAE), menaçant la survie des peuplements de pin maritime",
+    "Érosion côtière et submersion marine en accélération : le recul du trait de côte atteint localement 3 m/an (Lacanau, Mimizan) et pourrait s'accélérer avec la hausse du niveau marin projetée à +30 à +60 cm d'ici 2100 (CEREMA/GIEC AR6)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "700 000 ha",
+      "label": "Surface forêt de Gascogne (pins maritimes)"
+    },
+    {
+      "valeur": "35 000 ha",
+      "label": "Brûlés dans les Landes été 2022"
+    },
+    {
+      "valeur": "+3 à +4°C",
+      "label": "Hausse T° estivale projetée 2050-2070 (SSP3)"
+    },
+    {
+      "valeur": "1 à 3 m/an",
+      "label": "Recul moyen du trait de côte (CEREMA)"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes / Météo-France 2023",
+    "DRIAS – projections climatiques DRIAS-2020 / CNRM",
+    "CEREMA – Observatoire national de l'érosion côtière 2022",
+    "TRACC / DGEC – Trajectoire de Réchauffement de Référence pour l'Adaptation au Changement Climatique 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag/DRIAS disponibles à l'échelle communale masquent l'homogénéité topographique du département, rendant difficile la différenciation intra-départementale du risque thermique",
+    "Le risque feux de forêt post-2022 est en cours de réévaluation sylvicole et les nouvelles modélisations INRAE sur la vulnérabilité des peuplements diversifiés ne sont pas encore intégrées dans les indices officiels",
+    "L'indice de vulnérabilité côtière ne capture pas complètement les dynamiques sédimentaires spécifiques au littoral gascon (dunes, courants, passes), rendant les projections d'érosion incertaines à horizon 2060"
+  ]
+}

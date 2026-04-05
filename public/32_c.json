@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gers (32), département gascon à dominante agricole et bocagère, présente une vulnérabilité climatique intermédiaire à horizon 2060, avec un score de 6,5/10. Selon Climadiag (Météo-France, 2023), le département connaîtra une hausse des températures moyennes de +2,5 à +3,5°C d'ici 2060 sous scénario SSP3-7.0, avec une augmentation du nombre de jours de canicule passant de 7 jours/an actuellement à 20-30 jours/an. L'altitude modérée des reliefs de Gascogne (200-300 m) offre un tampon thermique limité, tandis que les projections DRIAS indiquent une réduction de 20 à 30% des précipitations estivales, accentuant les déficits hydriques déjà structurels. Le risque feux de forêt reste contenu par rapport aux Landes voisines grâce à une moindre densité de pinèdes, mais les projections AP3C (2022) signalent une progression de l'aléa incendie sur les coteaux boisés du sud-Gers à horizon 2050. Les inondations par crues des rivières Gers, Baïse et Adour restent un risque récurrent, avec 70% des communes exposées selon le PPRI départemental (Préfecture 32).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude moyenne 200-300m, tampon thermique faible, plaine gasconne exposée"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "20-30 jours de canicule/an projetés à 2060 (Climadiag), forte hausse attendue"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Risque feux modéré, pinèdes rares, mais coteaux sud-Gers en progression"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 8.0,
+      "note": "70% communes en zone inondable, crues Gers/Baïse récurrentes, pas de façade côtière"
+    }
+  ],
+  "points_forts": [
+    "Absence de façade côtière, aucune vulnérabilité au recul du trait de côte ni à la submersion marine",
+    "Couverture bocagère et haies encore présentes (~18 000 km de haies, DRAAF Occitanie 2021) offrant une régulation microclimatique locale",
+    "Faible densité de forêts de résineux réduisant l'aléa incendie par rapport aux Landes et à la Gironde voisines",
+    "Topographie vallonnée des coteaux de Gascogne permettant une diversification des expositions et une atténuation des effets d'îlot de chaleur rural"
+  ],
+  "vigilances": [
+    "Multiplication des jours de canicule projetée à +20-30 jours/an d'ici 2060 (SSP3-7.0, Climadiag Météo-France 2023), avec impact direct sur agriculture et santé des populations rurales âgées (indice de vieillissement Gers : 139, INSEE 2021)",
+    "Déficit hydrique estival croissant : réduction de 20-30% des précipitations estivales projetée (DRIAS 2023), menaçant les cultures irriguées (maïs, tournesol) qui représentent 40% de la SAU",
+    "Progression de l'aléa feux de forêt sur les coteaux boisés du sud-Gers et Armagnac, avec allongement de la saison à risque de 3 à 4 semaines supplémentaires d'ici 2050 (AP3C/INRAE 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,5 à +3,5°C",
+      "label": "Hausse température projetée 2060"
+    },
+    {
+      "valeur": "20-30 jours",
+      "label": "Jours de canicule/an à 2060"
+    },
+    {
+      "valeur": "-20 à -30%",
+      "label": "Précipitations estivales 2060"
+    },
+    {
+      "valeur": "70%",
+      "label": "Communes en zone inondable (PPRI)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios SSP)",
+    "AP3C Occitanie 2022",
+    "DRAAF Occitanie / INSEE 2021"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale masquent les disparités nord/sud du Gers (plaine vs coteaux d'Armagnac), limitant la granularité de l'analyse",
+    "L'absence de station météorologique de référence dense en milieu rural gersois fragilise la calibration fine des modèles DRIAS sur ce territoire peu instrumenté",
+    "Le score feux de forêt repose sur des projections d'aléa encore peu consolidées pour les bocages gascons, l'essentiel de la littérature se concentrant sur les massifs landais et méditerranéens"
+  ]
+}

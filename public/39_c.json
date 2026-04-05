@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Jura (39) bénéficie d'un relief prononcé avec des altitudes atteignant 1 718 m au Crêt de la Neige (massif du Jura), offrant un tampon thermique naturel significatif face aux projections de réchauffement (Climadiag, 2023). Selon les scénarios DRIAS 2060 (RCP 8.5), le département devrait connaître une hausse moyenne des températures estivales de +2,5 à +3,5°C par rapport à la période 1976-2005, avec une multiplication par 2 à 3 du nombre de jours de vague de chaleur dans les zones de plaine (vallée de la Bresse jurassienne). Le risque incendie reste modéré mais croissant : la surface forestière couvre 47 % du territoire (IFN/IGN 2023), avec une Inflammabilité des peuplements résineux en augmentation selon l'AP3C Bourgogne-Franche-Comté. Le département est également exposé aux inondations fluviales, notamment sur les bassins de la Saône, du Doubs et de l'Ain, avec des événements extrêmes projetés plus fréquents sous l'effet du changement climatique (TRACC, SGPE 2024).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude moyenne 500-800 m, sommets à 1 500 m ; fort tampon thermique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.0,
+      "note": "Plaines bressanes exposées ; +3°C projeté en été 2060 (DRIAS)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "47 % forêt résineuse ; risque incendie croissant mais encore modéré"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Inondations Saône/Doubs/Ain fréquentes ; crues centennales plus intenses"
+    }
+  ],
+  "points_forts": [
+    "Relief jurassien marqué (alt. max. 1 718 m) assurant un rafraîchissement naturel significatif par rapport aux plaines voisines",
+    "Nombre de jours de canicule projeté parmi les plus faibles de Bourgogne-Franche-Comté grâce à l'altitude (Climadiag 2023)",
+    "Couverture forestière dense (47 % du territoire, IGN 2023) contribuant à l'effet d'îlot frais et à la régulation microclimatique",
+    "Faible densité urbaine (260 000 hab.) limitant l'effet îlot de chaleur urbain et la vulnérabilité populationnelle aux extrêmes thermiques"
+  ],
+  "vigilances": [
+    "Hausse projetée de +2,5 à +3,5°C des températures estivales à l'horizon 2060 en zone de plaine (DRIAS/RCP8.5), menaçant l'économie agropastorale et la filière fromagère AOC (Comté, Morbier)",
+    "Risque d'incendie de forêt en progression sur les peuplements résineux (épicéas) fragilisés par les sécheresses répétées et les attaques de scolytes, déjà documentées depuis 2018 (AP3C BFC)",
+    "Risque inondation structurel élevé : 30 communes en zone inondable prioritaire (TRI) sur les bassins Saône et Doubs ; événements extrêmes plus fréquents et intenses attendus d'ici 2060 (TRACC, SGPE 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3°C",
+      "label": "Hausse temp. estivale 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "47 %",
+      "label": "Couverture forestière (IGN 2023)"
+    },
+    {
+      "valeur": "1 718 m",
+      "label": "Point culminant (tampon thermique)"
+    },
+    {
+      "valeur": "30",
+      "label": "Communes en zone inondable prioritaire (TRI)"
+    }
+  ],
+  "sources": [
+    "Climadiag Communes 2023 (Météo-France)",
+    "DRIAS 2060 scénario RCP4.5/8.5 (Météo-France)",
+    "AP3C Bourgogne-Franche-Comté – Adaptation agriculture",
+    "TRACC / SGPE 2024 – Plan national adaptation climatique"
+  ],
+  "limites": [
+    "Les projections Climadiag et DRIAS sont disponibles à maille communale mais l'hétérogénéité altitudinale du Jura (plaine bressane vs. massif jurassien) rend toute moyenne départementale peu représentative des réalités locales",
+    "L'évolution du risque incendie reste sous-documentée pour le massif jurassien spécifiquement, les référentiels nationaux (DFCI) étant davantage calibrés sur le sud de la France",
+    "La vulnérabilité des filières AOC (Comté, Morbier, Vin du Jura) au changement climatique est encore peu quantifiée dans les études prospectives territoriales disponibles publiquement"
+  ]
+}

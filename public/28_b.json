@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure-et-Loir présente une biodiversité fragilisée par sa vocation agricole dominante, avec près de 74 % du territoire occupé par des grandes cultures céréalières intensives (Agreste 2023), laissant peu d'espace aux milieux naturels diversifiés. La couverture Natura 2000 ne représente qu'environ 3,8 % de la superficie départementale (INPN 2024), soit un niveau nettement inférieur à la moyenne nationale (12,6 %), reflétant un déficit structurel de protection réglementaire. Le département est dépourvu de parc naturel régional ou national sur son territoire, ce qui le pénalise fortement pour la mise en place de politiques de conservation cohérentes à grande échelle. Toutefois, la Beauce et le Perche abritent quelques espèces emblématiques comme l'outarde canepetière et le busard cendré, dont les populations locales font l'objet de programmes de suivi par la LPO Centre-Val de Loire (LPO 2023). Les corridors écologiques restent très fragmentés par les grandes infrastructures (A11, N10, RN154) et la monoculture céréalière, menaçant la connectivité des habitats résiduels identifiés dans le SRCE régional (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 3.0,
+      "note": "Couverture Natura 2000 ≈ 3,8 %, bien inférieure à la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 3.0,
+      "note": "Aucun PN ou PNR ; faible présence de réserves naturelles"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Outarde canepetière, busard cendré, présence notable en Beauce"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors très fragmentés par agriculture intensive et axes routiers"
+    }
+  ],
+  "points_forts": [
+    "Présence de populations reproductrices d'outarde canepetière, espèce prioritaire, suivies activement par la LPO Centre-Val de Loire (LPO 2023)",
+    "Zones humides résiduelles le long de l'Eure et du Loir offrent des refuges pour l'avifaune aquatique et les amphibiens (INPN 2024)",
+    "Programmes agro-environnementaux et climatiques (MAEC) déployés sur une partie des exploitations céréalières pour favoriser la biodiversité des grandes cultures (Agreste 2023)",
+    "Réseau de haies et bosquets du Perche percheronais contribuant à la connectivité écologique dans le nord-ouest du département (SRCE Centre-Val de Loire)"
+  ],
+  "vigilances": [
+    "Régression continue des populations d'oiseaux des grandes cultures : –40 % en 20 ans pour certaines espèces comme l'alouette des champs en Beauce (LPO/STOC 2023)",
+    "Risque d'effondrement des pollinisateurs sauvages lié à l'usage intensif de pesticides : la Beauce figure parmi les zones à forte pression phytosanitaire nationale (Agreste/Nodu 2022)",
+    "Fragmentation croissante des corridors écologiques avec les projets d'extension logistique et urbaine autour de Chartres, menaçant les continuités identifiées dans le SRCE (OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3,8 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "0",
+      "label": "Parcs naturels (PN/PNR)"
+    },
+    {
+      "valeur": "74 %",
+      "label": "Surface agricole (grandes cultures)"
+    },
+    {
+      "valeur": "-40 %",
+      "label": "Déclin oiseaux grandes cultures (20 ans)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Centre-Val de Loire 2023",
+    "Agreste / Nodu 2022-2023",
+    "SRCE Centre-Val de Loire / OFB"
+  ],
+  "limites": [
+    "L'absence de parc naturel régional sur le territoire limite la disponibilité de données de suivi fines et continues sur la biodiversité locale",
+    "Les inventaires naturalistes restent partiels sur la Beauce centrale, vaste territoire peu prospecté par les réseaux de bénévoles (INPN 2024)",
+    "Les données sur l'état réel des corridors écologiques fonctionnels manquent d'actualisation post-SRCE 2015, rendant difficile l'évaluation précise de leur connectivité actuelle"
+  ]
+}

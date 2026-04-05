@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Loire (42) présente un profil de biodiversité intermédiaire-favorable, avec environ 8,5 % de sa superficie couverte par des sites Natura 2000, représentant quelque 53 000 ha de milieux désignés (INPN, 2024). Le département est traversé par deux grandes trames vertes et bleues structurantes : la vallée de la Loire, classée patrimoine mondial UNESCO, et les gorges de la Loire/Haute-Loire, offrant des habitats rupestres et alluviaux remarquables. Le Parc Naturel Régional du Pilat, couvrant environ 70 000 ha dont une partie significative en Loire (42), constitue le principal espace de gouvernance territoriale de la biodiversité, abritant des espèces emblématiques comme le faucon pèlerin, la loutre d'Europe et plusieurs espèces de chauves-souris (LPO Loire, OFB 2024). L'inventaire ZNIEFF recense plus de 280 zones de type I et II sur le département, témoignant d'une richesse écologique notable dans les secteurs de montagne (Monts du Forez, Monts de la Madeleine) et les zones humides ligériennes (INPN 2024). Néanmoins, la pression de l'urbanisation autour de Saint-Étienne et la fragmentation des corridors écologiques par les axes routiers (A47, RN82) constituent des défis persistants pour la connectivité écologique.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "~8,5% superficie Natura 2000 ; gorges Loire et Pilat inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Pilat partiel, RNNO et réserves biologiques présentes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Faucon pèlerin, loutre, desman des Pyrénées en Forez recensés"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Trame ligérienne forte ; fragmentation par A47 et zones urbaines"
+    }
+  ],
+  "points_forts": [
+    "Vallée de la Loire classée UNESCO et désignée site Natura 2000 (FR8201647), corridor fluvial majeur pour les espèces migratrices",
+    "PNR du Pilat (70 000 ha dont ~35 000 ha en Loire 42) : charte renouvelée 2013-2025 avec objectifs biodiversité renforcés (OFB 2024)",
+    "Plus de 280 zones ZNIEFF inventoriées (types I et II), dont les tourbières des Monts du Forez d'intérêt européen (INPN 2024)",
+    "Présence confirmée de la loutre d'Europe sur plusieurs bassins versants (Ondaine, Semène), espèce bioindicatrice de qualité des cours d'eau (LPO Loire 2023)"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques par les infrastructures routières (A47, RN82) et l'étalement urbain de l'agglomération stéphanoise : 15 % des corridors identifiés au SRCE jugés dégradés (AURA 2023)",
+    "Pression croissante sur les zones humides : 30 % des zones humides inventoriées en Loire auraient disparu ou été dégradées depuis 1990 (Agence de l'eau RMC 2022)",
+    "Impact du changement climatique sur les milieux d'altitude (Monts du Forez) : remontée des espèces thermophiles et régression probable des habitats tourbeux d'ici 2060 (Climadiag 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~53 000 ha",
+      "label": "Surface Natura 2000"
+    },
+    {
+      "valeur": "280+",
+      "label": "Zones ZNIEFF (I+II)"
+    },
+    {
+      "valeur": "70 000 ha",
+      "label": "Surface PNR Pilat (total)"
+    },
+    {
+      "valeur": "8,5 %",
+      "label": "Part territoire sous Natura 2000"
+    }
+  ],
+  "sources": [
+    "OFB / INPN 2024",
+    "LPO Loire 2023",
+    "Agence de l'eau Rhône-Méditerranée-Corse 2022",
+    "SRCE Auvergne-Rhône-Alpes / DREAL AURA 2023"
+  ],
+  "limites": [
+    "La part exacte du PNR Pilat intégralement en Loire (42) versus Isère/Haute-Loire reste difficile à quantifier précisément sans SIG dédié",
+    "Les données ZNIEFF sont hétérogènes en date de mise à jour, certaines fiches remontant aux années 2000, limitant la comparaison dynamique",
+    "L'absence d'Observatoire Départemental de la Biodiversité structuré en Loire rend le suivi temporaire des espèces et habitats moins systématique qu'en d'autres départements"
+  ]
+}

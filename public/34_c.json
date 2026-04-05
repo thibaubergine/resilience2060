@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Hérault (34) présente une vulnérabilité climatique significative à l'horizon 2060, classé parmi les départements les plus exposés de France métropolitaine en raison de sa position méditerranéenne. Selon Climadiag (Météo-France, 2023), le département devrait connaître une augmentation de +2,1°C à +3,4°C des températures moyennes annuelles d'ici 2060 selon les scénarios SSP2-4.5 et SSP3-7.0, avec une multiplication par 3 à 4 du nombre de jours de vague de chaleur. Le littoral héraultais, qui concentre plus de 300 km de côtes basses et lagunes, est exposé à une élévation du niveau marin estimée entre +20 et +60 cm d'ici 2060 (DRIAS/GIEC AR6), menaçant directement les communes de Palavas-les-Flots, Agde ou Marseillan. Le massif de la Gardiole et les garrigues montpelliéraines, combinés à des épisodes de sécheresse prolongée, placent l'Hérault dans la catégorie \"risque feux très élevé\" selon le PFCI Occitanie (AP3C, 2022), avec une surface potentiellement combustible dépassant 250 000 ha. Le relief modéré du département (altitude médiane inférieure à 200 m, hors Hauts-Cantons) offre peu de tampon thermique, contrairement aux Pyrénées ou aux Alpes.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Altitude médiane <200 m ; Hauts-Cantons seuls offrent tampon thermique limité"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "+40 jours/an de canicule projetés d'ici 2060 ; Montpellier parmi villes les plus exposées"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 4.0,
+      "note": "250 000 ha combustibles ; risque très élevé classé PFCI Occitanie 2022"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "300 km côtes basses ; lagunes et zones inondables menacées par +20 à +60 cm"
+    }
+  ],
+  "points_forts": [
+    "Présence des Hauts-Cantons (Lodève, Saint-Guilhem) offrant une diversité altitudinale jusqu'à 1 124 m (Pic de Tantajo), refuge thermique partiel pour les populations",
+    "Le réseau AP3C Occitanie fournit un suivi agroclimatique territorial parmi les plus avancés de France, permettant une anticipation locale des scénarios DRIAS",
+    "Existence d'un Plan Climat-Air-Énergie Territorial (PCAET) intercommunal actif sur la Métropole de Montpellier (adopté 2019, révisé 2022), intégrant les trajectoires TRACC",
+    "Les garrigues et massifs boisés représentent un stock de carbone estimé à environ 15 Mt CO₂ éq. (INRAE 2023), contribuant à l'atténuation locale si préservés des incendies"
+  ],
+  "vigilances": [
+    "Augmentation projetée des épisodes cévenols extrêmes (pluies >100 mm/24h) avec un risque de crue éclair sur les bassins versants de l'Hérault et de l'Orb, affectant des zones urbanisées en forte croissance démographique (+1,3 %/an, INSEE 2023)",
+    "Le linéaire côtier bas (lidos de Palavas, Carnon, Le Grau-du-Roi proche) est menacé par l'érosion accélérée et la submersion marine, avec 60 % des plages héraultaises en recul selon le CEREMA (2022)",
+    "La combinaison sécheresse-canicule-feux risque de dégrader irrémédiablement les peuplements de chênes verts et pins d'Alep sur 180 000 ha de garrigues, amplifiant les émissions de GES et la perte de biodiversité"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,1 à +3,4°C",
+      "label": "Hausse température 2060 (SSP2-4.5/SSP3-7.0)"
+    },
+    {
+      "valeur": "+40 jours/an",
+      "label": "Jours supplémentaires de canicule projetés 2060"
+    },
+    {
+      "valeur": "300 km",
+      "label": "Linéaire côtier bas vulnérable à la submersion"
+    },
+    {
+      "valeur": "250 000 ha",
+      "label": "Surface forestière et garrigue à risque feux élevé"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS/GIEC AR6 2021",
+    "AP3C Occitanie PFCI 2022",
+    "CEREMA Observatoire du littoral 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag disponibles à l'échelle départementale masquent une forte hétérogénéité interne entre le littoral très vulnérable et les Hauts-Cantons plus résilients, biaisant le score global vers le bas",
+    "L'indice de vulnérabilité côtière ne prend pas en compte les ouvrages de protection existants (digues, lidos artificiels), pouvant surestimer l'exposition réelle à court terme sur certaines communes",
+    "Les scénarios feux de forêt reposent sur des modèles nationaux (PFCI) qui intègrent imparfaitement la dynamique locale des garrigues méditerranéennes et les pratiques sylvicoles spécifiques à l'Hérault"
+  ]
+}

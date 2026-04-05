@@ -1,0 +1,65 @@
+{
+  "synthese": "La Gironde présente une situation contrastée en matière de qualité des sols, reflétant la coexistence d'une viticulture intensive et d'un vaste territoire forestier. Le département compte parmi les plus importants en termes de sites pollués ou potentiellement pollués, avec plus de 250 sites recensés dans la base BASOL/Géorisques, concentrés principalement autour de la métropole bordelaise et des zones industrielles portuaires. L'usage intensif de pesticides dans le vignoble bordelais, l'un des plus grands d'Europe avec environ 112 000 ha de vignes, place la Gironde parmi les départements les plus exposés aux résidus phytosanitaires dans les sols (INRAE 2023). En revanche, le risque radon demeure faible à modéré sur la majeure partie du territoire, les substrats géologiques sédimentaires du Bassin aquitain limitant les émanations naturelles (IRSN). La part de la surface agricole utile conduite en agriculture biologique atteint environ 12 % en Gironde (Agence Bio 2023), valeur légèrement supérieure à la moyenne nationale mais insuffisante pour compenser la pression phytosanitaire viticole.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plus de 250 sites BASOL recensés, forte densité industrialo-portuaire bordelaise"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Viticulture intensive sur 112 000 ha, résidus pesticides élevés dans sols viticoles"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Substrat sédimentaire aquitain, risque radon majoritairement faible sur le département"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "Environ 12 % SAU bio, au-dessus moyenne nationale, progression régulière"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus bas de France grâce aux formations géologiques sédimentaires du Bassin aquitain (IRSN)",
+    "Part de SAU biologique à ~12 %, supérieure à la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Vaste massif forestier des Landes de Gascogne (>500 000 ha) préservant des sols forestiers peu contaminés",
+    "Dynamique de conversion bio en progression, notamment dans les appellations Bordeaux et Entre-Deux-Mers"
+  ],
+  "vigilances": [
+    "Contamination des sols viticoles aux cuivre et pesticides : les vignobles bordelais concentrent des apports en cuivre dépassant 3 kg/ha/an en agriculture conventionnelle, avec des accumulations persistantes dans les horizons superficiels (INRAE 2023)",
+    "Plus de 250 sites pollués ou potentiellement pollués recensés (Géorisques), avec des friches industrielles et portuaires à Bordeaux-Bassens présentant des contaminations aux métaux lourds et hydrocarbures",
+    "Risque d'érosion et de tassement des sols accru avec les projections climatiques 2060 (DRIAS) : épisodes de sécheresse alternant avec des pluies intenses fragilisant les sols viticoles en coteaux"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">250",
+      "label": "Sites pollués BASOL/Géorisques"
+    },
+    {
+      "valeur": "112 000 ha",
+      "label": "Surface viticole départementale"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "Faible-Modéré",
+      "label": "Niveau risque radon IRSN"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Pesticides et métaux lourds dans les sols viticoles 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'hétérogénéité territoriale est forte : les données BASOL agrègent des situations très disparates entre zone métropolitaine bordelaise fortement industrialisée et zones rurales forestières peu exposées",
+    "Les données sur les résidus de pesticides dans les sols viticoles girondins restent partielles et peu actualisées, les suivis INRAE n'étant pas systématiquement départementalisés",
+    "La part de SAU bio masque la persistance de pratiques conventionnelles intensives sur la majorité du vignoble AOC, où les contraintes cahier des charges limitent les conversions biologiques complètes"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ille-et-Vilaine bénéficie d'un climat océanique tempéré qui constitue un tampon thermique naturel face aux projections de réchauffement, avec des températures moyennes actuelles de 11-12°C et des étés historiquement modérés (Météo-France, normales 1991-2020). Selon les projections Climadiag 2050 (Météo-France, 2023), le département pourrait connaître une augmentation de +1,8 à +2,4°C en scénario intermédiaire SSP2-4.5, avec une multiplication par 2 à 3 des jours de vague de chaleur d'ici 2060. Le littoral du département (environ 100 km de côtes sur la Manche et l'Atlantique) expose les zones basses à une élévation du niveau marin estimée entre +20 et +60 cm à l'horizon 2100 (GIEC AR6, 2021), avec des risques accrus pour les zones estuariennes de la Vilaine et de la Rance. Le risque incendie reste modéré en comparaison des départements méditerranéens et aquitains, bien que la sécheresse édaphique croissante (DRIAS 2023) interroge sur l'évolution des massifs forestiers intérieurs. Le score Climat 2060 de 6,5/10 reflète une position intermédiaire favorable, portée par l'atténuation océanique mais fragilisée par les vulnérabilités côtières et l'intensification hydrique (AP3C Bretagne, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.5,
+      "note": "Relief plat à collines, façade atlantique assure régulation thermique efficace"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 6.5,
+      "note": "Hausse +2°C prévue, canicules rares mais croissantes selon DRIAS 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.5,
+      "note": "Forêts limitées, humidité océanique, risque feux très faible nationalement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "100 km côtes, submersion Vilaine/Rance, élévation mer +40 cm horizon 2100"
+    }
+  ],
+  "points_forts": [
+    "Régulation thermique océanique : les étés restent parmi les plus frais de France métropolitaine, avec seulement 3 à 5 jours de chaleur extrême (>35°C) par an actuellement (Météo-France, 2022)",
+    "Risque incendie très limité : le département figure parmi les moins exposés de France, avec moins de 50 ha brûlés par an en moyenne (DFCI / SDIS 35)",
+    "Ressources en eau globalement préservées : la Vilaine et ses affluents maintiennent des débits favorables à l'adaptation agricole et urbaine (Explore2, 2023)",
+    "Engagement territorial fort : le Schéma Régional Climat Air Énergie (SRCAE) Bretagne et le programme AP3C accompagnent l'adaptation locale avec des projections spatialisées à l'échelle communale"
+  ],
+  "vigilances": [
+    "Submersion côtière et recul du trait de côte : des communes comme Cancale, Saint-Malo ou les rives de la Vilaine sont exposées à des événements de tempête aggravés par +40 cm de hausse du niveau marin d'ici 2100 (GIEC AR6 / CEREMA 2022)",
+    "Multiplication des sécheresses estivales : les projections DRIAS 2060 indiquent une augmentation du déficit hydrique de 15 à 25% en été, menaçant les élevages laitiers et la recharge des nappes phréatiques",
+    "Intensification des épisodes pluviométriques hivernaux : les crues de la Vilaine (référence 2000-2001) pourraient se répéter avec une fréquence accrue, impactant Redon et les zones de marais en aval (TRACC, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,1°C",
+      "label": "Hausse température projetée 2060 (SSP2)"
+    },
+    {
+      "valeur": "~100 km",
+      "label": "Linéaire côtier exposé submersion"
+    },
+    {
+      "valeur": "3-5 j/an",
+      "label": "Jours canicule actuels (vs 15-20 projetés)"
+    },
+    {
+      "valeur": "+20%",
+      "label": "Déficit hydrique estival projeté 2060"
+    }
+  ],
+  "sources": [
+    "Météo-France / Climadiag 2023",
+    "DRIAS 2023 (scénarios IPCC SSP)",
+    "GIEC AR6 2021 / CEREMA Trait de côte",
+    "AP3C Bretagne / TRACC 2023"
+  ],
+  "limites": [
+    "Les projections Climadiag sont disponibles à l'échelle communale mais leur agrégation départementale masque les disparités entre le littoral nord (Saint-Malo, Cancale) et l'intérieur rural du département",
+    "L'évaluation du risque de submersion côtière repose sur des scénarios à horizon 2100, rendant difficile la calibration précise du score à l'horizon 2060 retenu pour cette analyse",
+    "Le département ne dispose pas encore d'un Plan de Gestion des Risques d'Inondation (PGRI) pleinement intégré à l'échelle des bassins versants côtiers secondaires, limitant la granularité de l'analyse territoriale"
+  ]
+}

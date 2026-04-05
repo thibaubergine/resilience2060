@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Loire (43) affiche l'une des meilleures qualités d'air de France métropolitaine, bénéficiant d'un relief prononcé (altitude moyenne ~850 m) qui favorise la dispersion des polluants et limite les phénomènes d'inversion thermique prolongée. Les concentrations moyennes annuelles en PM2,5 relevées par ATMO Auvergne-Rhône-Alpes restent inférieures à 8 µg/m³ sur la majeure partie du territoire, bien en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ mais parmi les plus basses du département français hors façade maritime. Le NO₂ demeure marginal, avec des moyennes inférieures à 15 µg/m³ même au Puy-en-Velay, seule agglomération significative (~22 000 habitants), contre un seuil OMS de 10 µg/m³ (ATMO AuRA, 2023). L'absence d'industries lourdes majeures — aucun site classé SEVESO seuil haut actif — et la faible densité de trafic autoroutier contribuent à des émissions de polluants atmosphériques parmi les plus contenues de la région (Citepa/inventaire régional 2022). Le principal enjeu résiduel concerne les émissions agricoles d'ammoniac (NH₃), liées à l'élevage bovin dominant, et le chauffage au bois résidentiel, source notable de particules fines en période hivernale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 9.0,
+      "note": "PM2,5 < 8 µg/m³ en moyenne; parmi les plus faibles valeurs nationales"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ < 15 µg/m³ au Puy-en-Velay; trafic et industrie très limités"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 9.0,
+      "note": "Aucun site SEVESO seuil haut; faible tissu industriel émetteur"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Élevage bovin dominant; émissions NH₃ notables mais sans pic exceptionnel"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 8 µg/m³ sur la majorité du territoire, parmi les 15 % les plus bas des départements français (ATMO AuRA, 2023)",
+    "Aucun site SEVESO seuil haut recensé dans le département, limitant structurellement les émissions industrielles de polluants critiques (DREAL AuRA, 2023)",
+    "NO₂ moyen annuel au Puy-en-Velay estimé à ~12-15 µg/m³, inférieur à la limite OMS 2021 (10 µg/m³ pour l'exposition annuelle) et très en deçà de la valeur réglementaire européenne (40 µg/m³)",
+    "Relief et altitude moyenne (~850 m) favorisant la ventilation naturelle et limitant les épisodes de pollution persistante par accumulation"
+  ],
+  "vigilances": [
+    "Émissions de particules fines liées au chauffage au bois résidentiel (plus de 40 % des ménages ruraux concernés en Haute-Loire), constituant la première source locale de PM2,5 en hiver selon ATMO AuRA 2022",
+    "Émissions agricoles d'ammoniac (NH₃) en lien avec l'élevage bovin intensif (cheptel d'environ 450 000 bovins, AGRESTE 2020), contribuant à la formation de particules secondaires",
+    "Risque d'épisodes d'ozone (O₃) en période estivale sur les zones de moyenne montagne, tendance à la hausse avec le réchauffement climatique projeté par DRIAS 2023 (+1,5 °C d'ici 2050 scénario intermédiaire)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 8 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "~12-15 µg/m³",
+      "label": "NO₂ moyen Le Puy-en-Velay"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites SEVESO seuil haut"
+    },
+    {
+      "valeur": "~450 000",
+      "label": "Bovins (cheptel dép.)"
+    }
+  ],
+  "sources": [
+    "ATMO Auvergne-Rhône-Alpes 2023",
+    "OMS Guidelines qualité de l'air 2021",
+    "Citepa/Inventaire régional émissions 2022",
+    "DREAL AuRA – Inventaire sites classés 2023"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure de qualité de l'air en Haute-Loire est limité à quelques points (principalement Le Puy-en-Velay), rendant la représentativité spatiale incertaine pour les zones rurales et de montagne",
+    "Les données d'émissions NH₃ agricoles sont issues de modèles d'estimation (CITEPA) et non de mesures directes sur le territoire, avec une incertitude significative pour un département à dominante d'élevage extensif",
+    "L'absence de station de mesure continue pour l'ozone en altitude limite la caractérisation des épisodes estivaux sur les espaces de moyenne montagne, pourtant exposés structurellement"
+  ]
+}

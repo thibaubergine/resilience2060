@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Isère bénéficie d'une ressource en eau abondante grâce à ses massifs alpins (Belledonne, Chartreuse, Vercors), qui alimentent de nombreux cours d'eau pérennes dont l'Isère, le Drac et la Romanche, représentant un potentiel hydrologique parmi les plus élevés de France métropolitaine. La qualité des eaux superficielles est globalement satisfaisante : selon les données DCE 2022, plus de 60 % des masses d'eau de surface atteignent le bon état écologique, un résultat supérieur à la moyenne nationale (~44 %). L'ARS Auvergne-Rhône-Alpes indique que plus de 95 % de la population iséroise est alimentée par une eau du robinet conforme aux exigences microbiologiques et physico-chimiques, avec toutefois des disparités en zones rurales de montagne. Le projet Explore2 (2023) signale néanmoins une réduction probable des débits estivaux de 10 à 30 % à l'horizon 2050-2070 sur les bassins versants alpins, sous l'effet de la diminution du manteau neigeux et de la fonte glaciaire. La contamination par les nitrates reste modérée sur l'essentiel du territoire, mais la plaine de Bièvre-Valloire et certaines zones agricoles de l'Avant-Pays savoyard concentrent des teneurs préoccupantes (ARS/ADES 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "95 % population conforme ARS ; quelques dérogations zones rurales montagneuses"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits estivaux -10 à -30 % horizon 2070 (Explore2) ; glaciers en recul"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Nitrates faibles sauf plaine Bièvre-Valloire ; majorité masses d'eau non classées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Contaminations PFAS détectées axe Rhône-Isère ; niveaux inférieurs seuils alerte"
+    }
+  ],
+  "points_forts": [
+    "Ressource hydrologique exceptionnelle : l'Isère draine ~330 m³/s en moyenne annuelle, parmi les plus importants débits de France métropolitaine hors grands fleuves",
+    "Plus de 60 % des masses d'eau de surface en bon état écologique (DCE 2022), nettement au-dessus de la moyenne nationale (~44 %)",
+    "Taux de conformité eau potable > 95 % pour les paramètres microbiologiques et physico-chimiques (ARS AuRA, rapport 2022)",
+    "Faible pression agricole en altitude : les zones de montagne (>1 000 m) préservent une grande partie des bassins versants de la contamination diffuse par les intrants agricoles"
+  ],
+  "vigilances": [
+    "Réduction prévisible des ressources nivales et glaciaires : les glaciers isérois (Belledonne, Écrins) ont perdu ~30 % de leur superficie depuis 1950, menaçant l'étiage estival des rivières alpines à l'horizon 2060 (Explore2/IGE Grenoble)",
+    "Contamination PFAS en cours d'évaluation : la vallée du Rhône et certains secteurs industriels de l'agglomération grenobloise (Grésivaudan, Crolles) présentent des détections PFAS dans les eaux souterraines, nécessitant une surveillance renforcée (ARS 2023)",
+    "Pressions agricoles et urbaines sur les nappes de la plaine : les zones de Bièvre-Valloire et Chambaran montrent des teneurs en nitrates localement proches de 40 mg/L, et les pesticides restent détectés dans plusieurs captages AEP (ADES/ARS 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "330 m³/s",
+      "label": "Débit moyen Isère (m³/s)"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Masses d'eau bon état écologique"
+    },
+    {
+      "valeur": ">95 %",
+      "label": "Conformité eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Réduction débit estival 2070 (Explore2)"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB, 2023)",
+    "ARS Auvergne-Rhône-Alpes – Bilan qualité eau potable 2022",
+    "Agence de l'Eau RMC – État des masses d'eau DCE 2022",
+    "ADES – Réseau surveillance eaux souterraines 2022"
+  ],
+  "limites": [
+    "Les données PFAS en Isère sont encore partielles : les campagnes de mesure systématiques dans les eaux souterraines et les captages AEP ne couvrent pas l'ensemble du département, rendant l'évaluation du risque incomplète",
+    "Les projections Explore2 présentent une incertitude élevée pour les bassins alpins nivaux-glaciaires, car la modélisation de la fonte glaciaire et de la recharge des nappes en contexte de changement climatique reste complexe à fine échelle",
+    "Les indicateurs DCE agrègent des masses d'eau de nature très hétérogène (torrents alpins, rivières de plaine, plans d'eau) ; le bon état moyen masque des situations dégradées locales sur les cours d'eau périurbains de l'agglomération grenobloise (Gères, Sonnant)"
+  ]
+}

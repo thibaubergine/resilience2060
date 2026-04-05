@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loir-et-Cher présente un profil pédologique dominé par des sols agricoles intensifs, avec une SAU représentant environ 56 % du territoire (Agreste 2020), largement orientée vers les grandes cultures céréalières et la viticulture AOC (Cheverny, Touraine), exposant les sols à des pressions phytosanitaires significatives. Les données INRAE 2023 signalent des résidus de pesticides préoccupants dans les horizons superficiels des zones de grandes cultures solognotes et du Val de Loire, reflet d'une agriculture conventionnelle encore majoritaire. Le département compte plusieurs sites pollués recensés dans la base ex-BASOL/BASIAS sur GéoRisques, notamment autour de Blois et Vendôme, liés à d'anciennes activités industrielles et artisanales. Le risque radon est modéré en Loir-et-Cher, le substrat géologique dominant (sables, calcaires de Beauce, argiles de Sologne) ne constituant pas un fort émetteur de radon contrairement aux massifs cristallins (IRSN). La part de SAU en agriculture biologique reste inférieure à la moyenne nationale, autour de 5 à 6 % en 2022 (Agence Bio), limitant la reconquête de la qualité des sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Environ 80 sites ex-BASOL recensés, concentration autour de Blois et Vendôme"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Résidus pesticides élevés en zones grandes cultures et viticulture intensive"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Substrat sablo-calcaire peu émetteur, risque radon faible à modéré IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 4.0,
+      "note": "Part SAU bio ~5-6%, inférieure à la moyenne nationale de 10% (Agence Bio 2022)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de la région, grâce aux formations sédimentaires dominantes (sables de Sologne, calcaires de Beauce) (IRSN)",
+    "Présence de zones humides solognotes limitant l'érosion des sols et maintenant la matière organique dans certains secteurs",
+    "Démarches agri-environnementales actives dans la vallée de la Loire, classée UNESCO, incitant à des pratiques culturales moins impactantes pour les sols",
+    "Filières viticoles AOC (Cheverny, Cour-Cheverny) amorcent des conversions en viticulture raisonnée et biodynamique, réduisant localement les intrants"
+  ],
+  "vigilances": [
+    "Contamination aux pesticides des sols agricoles en hausse dans les zones de grandes cultures (maïs, céréales) de Sologne et du Blésois, avec risque de transfert vers les eaux souterraines (INRAE 2023)",
+    "Sites industriels anciens à Blois et Vendôme présentant des pollutions aux métaux lourds et hydrocarbures potentiellement non totalement dépollués (GéoRisques/ex-BASOL)",
+    "Tassement et artificialisation des sols en progression autour des aires urbaines de Blois (+2,5 % surfaces artificialisées entre 2015 et 2021, Corine Land Cover), menaçant la fonctionnalité pédologique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80",
+      "label": "Sites ex-BASOL recensés (dept)"
+    },
+    {
+      "valeur": "~5-6 %",
+      "label": "Part SAU en agriculture bio (2022)"
+    },
+    {
+      "valeur": "56 %",
+      "label": "Part SAU dans la superficie totale"
+    },
+    {
+      "valeur": "Faible-modéré",
+      "label": "Niveau risque radon (IRSN)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Qualité des sols agricoles 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Observatoire national 2022"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique départementalisé en Loir-et-Cher rend difficile une cartographie fine et actualisée de la qualité des sols agricoles à l'échelle infraterritoriale",
+    "Les données ex-BASOL sont parcellaires et ne couvrent pas les sites BASIAS non encore caractérisés, sous-estimant potentiellement le nombre de points de contamination réels",
+    "La mesure de la part SAU bio ne rend pas compte des pratiques intermédiaires (agriculture raisonnée, HVE) et peut masquer des évolutions positives non certifiées mais réelles sur la qualité des sols"
+  ]
+}

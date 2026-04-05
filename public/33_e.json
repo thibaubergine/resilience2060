@@ -1,0 +1,65 @@
+{
+  "synthese": "La Gironde dispose de ressources en eau globalement importantes grâce à ses aquifères profonds et à l'estuaire de la Gironde, premier estuaire d'Europe occidentale, mais la pression agricole viticole intense fragilise la qualité des eaux superficielles. Les projections Explore2 indiquent une baisse des débits d'étiage estivaux de -20 à -40% à l'horizon 2050 sur les cours d'eau girondins, notamment la Garonne et la Dordogne, compromettant les usages multiples en période estivale. La qualité des eaux potables reste globalement conforme (95,8% de conformité en 2022 selon ARS Nouvelle-Aquitaine), mais les pesticides viticoles constituent une pression persistante sur les captages, avec 38% des masses d'eau superficielles en mauvais état chimique (DCE, état des lieux 2022). La contamination aux PFAS, bien que moins documentée que dans certains départements industriels, fait l'objet d'une surveillance renforcée depuis 2023, notamment autour de zones industrielles de l'agglomération bordelaise (ARS 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "95,8% conformité eau potable; pression pesticides viticoles sur captages"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Baisse débits -20 à -40% à l'horizon 2050; étiages sévères Garonne-Dordogne"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Pressions viticoles significatives; 38% masses eau superficielles mauvais état chimique"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Contamination PFAS limitée; surveillance renforcée zones industrielles bordelaises 2023"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable élevé : 95,8% en 2022 (ARS Nouvelle-Aquitaine), supérieur à la moyenne nationale",
+    "Ressources en eaux souterraines importantes via les aquifères profonds de la nappe des Landes et du Crétacé, offrant une réserve stratégique (BRGM)",
+    "L'estuaire de la Gironde, premier estuaire d'Europe occidentale (~625 km²), joue un rôle tampon hydrologique majeur (OFB 2024)",
+    "Faible densité industrielle lourde en dehors de l'agglomération bordelaise, limitant la contamination aux polluants émergents hors zones ciblées"
+  ],
+  "vigilances": [
+    "Stress hydrique croissant : Explore2 projette une réduction des débits d'étiage de -20 à -40% à l'horizon 2050 sur la Garonne et la Dordogne, exacerbant les conflits d'usage entre agriculture, consommation humaine et maintien des milieux aquatiques",
+    "Contamination pesticides viticole : 38% des masses d'eau superficielles en mauvais état chimique (DCE, état des lieux 2022), avec une forte pression des herbicides et fongicides issus du vignoble bordelais (premier vignoble AOC de France)",
+    "Vulnérabilité des captages d'eau potable : plusieurs captages prioritaires identifiés en Gironde sous pression agricole diffuse, avec des dépassements ponctuels de seuils en pesticides (ARS 2022-2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "95,8%",
+      "label": "Conformité eau potable (2022)"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Baisse débits étiage 2050 (Explore2)"
+    },
+    {
+      "valeur": "38%",
+      "label": "Masses d'eau superficielles mauvais état chimique (DCE 2022)"
+    },
+    {
+      "valeur": "625 km²",
+      "label": "Surface estuaire de la Gironde"
+    }
+  ],
+  "sources": [
+    "ARS Nouvelle-Aquitaine – Bilan qualité eau potable 2022",
+    "Explore2 – Projections hydrologiques 2050, INRAE/OFB 2023",
+    "DCE – État des lieux des masses d'eau 2022, Agence de l'Eau Adour-Garonne",
+    "BRGM – Référentiel hydrogéologique des aquifères girondins"
+  ],
+  "limites": [
+    "Les données PFAS en Gironde restent partielles : les campagnes de mesure ARS 2023 couvrent prioritairement les zones à risque industriel bordelais, laissant des angles morts en zone rurale viticole",
+    "L'état des masses d'eau DCE 2022 est établi à l'échelle des bassins versants, ce qui peut masquer des disparités locales fortes entre secteurs viticoles intensifs (Entre-deux-Mers, Médoc) et zones moins exposées",
+    "Les projections Explore2 comportent une incertitude significative selon les scénarios climatiques RCP retenus, rendant difficile la quantification précise des déficits hydriques futurs à l'échelle départementale"
+  ]
+}

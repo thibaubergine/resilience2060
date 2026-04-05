@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Hérault présente un profil alimentaire contrasté, avec une filière viticole dominante structurée autour de nombreuses AOP/IGP (plus de 15 appellations viticoles et agroalimentaires recensées par l'INAO), mais une dépendance alimentaire marquée pour les productions céréalières et protéagineuses. La Surface Agricole Utile (SAU) bio atteint environ 18 % du total départemental, soit un niveau supérieur à la moyenne nationale (10,3 % en 2023, Agence Bio), porté par la dynamique viticole en conversion. Les circuits courts et AMAP connaissent un essor notable autour de Montpellier, avec plus de 30 AMAP actives recensées en 2023, bénéficiant d'un bassin de consommation urbain dense de 650 000 habitants environ dans l'aire métropolitaine. Toutefois, l'indice ZAVA 2024 souligne une autonomie alimentaire limitée : l'Hérault, département très urbanisé (2e taux d'urbanisation d'Occitanie), importe l'essentiel de ses productions vivrières, fruits et légumes de plein champ, malgré un potentiel maraîcher en Camargue gardoise et plaine littorale. La pression foncière agricole est parmi les plus fortes du Midi, avec 2 000 à 2 500 ha agricoles artificialisés par décennie (INRAE 2023), fragilisant la trajectoire d'autonomie locale.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 5.0,
+      "note": "Autonomie alimentaire faible : urbanisation élevée, dépendance vivrière structurelle (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Plus de 15 AOP/IGP viticoles et agroalimentaires actives (INAO 2023)"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "18 % SAU bio, au-dessus moyenne nationale 10,3 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Plus de 30 AMAP actives, marché Montpellier porteur mais inégal"
+    }
+  ],
+  "points_forts": [
+    "Densité AOP/IGP parmi les plus élevées de France : plus de 15 appellations viticoles et agroalimentaires actives dont AOP Languedoc, Picpoul-de-Pinet, Faugères, Saint-Chinian (INAO 2023)",
+    "Part de SAU en agriculture biologique estimée à 18 %, nettement supérieure à la moyenne nationale de 10,3 % (Agence Bio, rapport 2023)",
+    "Réseau de circuits courts dynamique autour de Montpellier Méditerranée Métropole avec plus de 30 AMAP actives et plusieurs marchés de producteurs labellisés (Réseau AMAP Occitanie 2023)",
+    "Filière maraîchère et arboricole en développement sur la plaine littorale et les coteaux du nord héraultais, soutenue par le PAT (Projet Alimentaire Territorial) de la Métropole de Montpellier"
+  ],
+  "vigilances": [
+    "Artificialisation des terres agricoles à un rythme de 200 à 250 ha/an, menaçant directement les zones maraîchères périurbaines et la capacité d'autonomie alimentaire à horizon 2040 (INRAE 2023, Observatoire foncier Occitanie)",
+    "Vulnérabilité croissante de la viticulture face aux aléas climatiques (sécheresse, gel tardif, mildiou) : la production viticole héraultaise a chuté de 25 % en 2021 par rapport à la moyenne décennale (Agreste Occitanie)",
+    "Dépendance alimentaire structurelle pour les produits vivriers de base (céréales, légumineuses, produits laitiers) sans filière locale suffisante pour alimenter les 1,2 million d'habitants du département (ZAVA 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "15+",
+      "label": "AOP/IGP actives (INAO 2023)"
+    },
+    {
+      "valeur": "30+",
+      "label": "AMAP actives (aire Montpellier)"
+    },
+    {
+      "valeur": "~250 ha/an",
+      "label": "Terres agricoles artificialisées"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio rapport annuel 2023",
+    "INAO, registre AOP-IGP 2023",
+    "Agence Bio & Réseau AMAP Occitanie 2023",
+    "INRAE / Observatoire foncier Occitanie 2023",
+    "Agreste Occitanie, conjoncture viticole 2021-2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent agrégées à l'échelle régionale pour certains postes, rendant l'estimation infra-départementale de l'autonomie alimentaire approximative pour l'Hérault",
+    "La part de SAU bio intègre majoritairement la viticulture convertie, ce qui surestime la diversification alimentaire réelle en productions vivrières locales",
+    "L'absence de suivi systématique et public des AMAP et circuits courts au niveau départemental limite la comparaison rigoureuse avec les 96 autres départements"
+  ]
+}

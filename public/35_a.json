@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ille-et-Vilaine présente une qualité de l'air globalement satisfaisante au regard des indicateurs nationaux, avec des concentrations moyennes en PM2,5 estimées entre 8 et 10 µg/m³ selon ATMO Bretagne (2022-2023), en deçà des 15 µg/m³ préconisés par l'OMS 2021 mais encore au-dessus du seuil cible de 5 µg/m³. Le département bénéficie d'une position atlantique favorable, les vents d'ouest assurant une dispersion efficace des polluants et limitant les épisodes de pollution persistante, contrairement aux zones continentales françaises. Rennes, aire urbaine de plus de 450 000 habitants, concentre l'essentiel des émissions de NO₂ liées au trafic routier, avec des valeurs moyennes annuelles restant néanmoins inférieures à 25 µg/m³ (ATMO Bretagne, 2022), bien en deçà de la valeur limite réglementaire de 40 µg/m³. Le principal point de vigilance concerne les émissions d'ammoniac (NH₃) d'origine agricole : l'Ille-et-Vilaine, premier département breton en élevage porcin et avicole, contribue significativement aux émissions régionales de NH₃, estimées à plusieurs milliers de tonnes annuelles (Citepa/ATMO Bretagne), favorisant la formation de particules secondaires. La densité industrielle émettrice reste modérée, le tissu économique étant davantage orienté vers le tertiaire et l'agroalimentaire.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 ~9 µg/m³, sous seuil OMS 15 µg/m³ mais au-dessus de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ Rennes <25 µg/m³, nettement sous la limite réglementaire 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Tissu industriel limité, dominante tertiaire et agroalimentaire peu émissif"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Élevages porcins/avicoles intenses, NH₃ agricole élevé, particules secondaires"
+    }
+  ],
+  "points_forts": [
+    "Qualité de l'air favorable grâce aux vents atlantiques dominants assurant une dispersion naturelle efficace des polluants (ATMO Bretagne, 2022)",
+    "Concentrations en NO₂ à Rennes inférieures à 25 µg/m³/an, bien en deçà du seuil légal de 40 µg/m³ (directive 2008/50/CE)",
+    "Absence de grande zone industrielle émettrice de polluants primaires lourds (SOx, métaux lourds), tissu économique à faible intensité émissive",
+    "Rares épisodes de pollution persistante : moins de 5 jours/an de dépassement des seuils d'information PM10 en moyenne sur la décennie 2013-2023 (ATMO Bretagne)"
+  ],
+  "vigilances": [
+    "Émissions d'ammoniac agricole (NH₃) structurellement élevées en lien avec la densité d'élevages porcins et avicoles, contribuant à la formation de particules secondaires (PM2,5) en période hivernale et printemps",
+    "Qualité de l'air intérieur et périurbain à Rennes Métropole exposée à une pression croissante du trafic routier malgré le développement du réseau de métro (ligne b inaugurée 2022), les émissions de particules fines restant un enjeu pour les quartiers denses",
+    "Risque d'augmentation des épisodes d'ozone (O₃) en période estivale avec le réchauffement climatique : les projections DRIAS 2060 prévoient une hausse des températures estivales de +2 à +3°C en Ille-et-Vilaine, conditions propices à la formation photochimique d'ozone"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~9 µg/m³",
+      "label": "Concentration moyenne PM2,5 (2022-2023)"
+    },
+    {
+      "valeur": "<25 µg/m³",
+      "label": "NO₂ annuel moyen Rennes"
+    },
+    {
+      "valeur": "<5 j/an",
+      "label": "Jours dépassement seuil info PM10 (moy. décennale)"
+    },
+    {
+      "valeur": "1er rang breton",
+      "label": "Élevage porcin/avicole (NH₃ agricole)"
+    }
+  ],
+  "sources": [
+    "ATMO Bretagne – Bilan de la qualité de l'air 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2023",
+    "DRIAS / Météo-France – Projections climatiques régionales 2060"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe ATMO Bretagne est concentré sur Rennes Métropole, laissant les zones rurales et périurbaines du département peu couvertes, ce qui sous-estime potentiellement l'exposition réelle aux PM2,5 et NH₃ dans les bassins d'élevage",
+    "Les données sur les émissions agricoles de NH₃ reposent sur des modélisations à l'échelle régionale (Citepa), sans désagrégation fine au niveau cantonal permettant d'identifier les zones les plus exposées en Ille-et-Vilaine",
+    "L'absence d'une station de mesure rurale spécifique aux particules secondaires d'origine agricole limite la quantification précise de la contribution des élevages intensifs à la qualité de l'air local en dehors des épisodes documentés"
+  ]
+}

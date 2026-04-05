@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure-et-Loir, département de plaine céréalière situé entre 100 et 250 m d'altitude, présente une vulnérabilité climatique moyenne mais structurellement défavorable à l'horizon 2060 (Climadiag 2023). Les projections DRIAS indiquent une hausse des températures moyennes de +2,5 à +3,5°C d'ici 2060 selon le scénario RCP 8.5, avec une augmentation significative du nombre de jours de canicule passant de 5 à 20-30 jours annuels dans la plaine beauceronne. Le département enregistre déjà une tendance à l'assèchement estival marquée, avec un déficit hydrique récurrent sur la Beauce depuis 2018 (TRACC/AP3C Centre-Val de Loire). L'absence de relief notable prive le territoire de tout tampon thermique naturel, rendant les cultures céréalières dominantes (blé tendre : 300 000 ha) particulièrement exposées aux stress thermiques cumulés (Chambre d'Agriculture d'Eure-et-Loir, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 3.0,
+      "note": "Plateau beauceron plat, 100-250 m, aucun tampon thermique altitudinal"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "20-30 jours de canicule projetés/an d'ici 2060, plaine très exposée"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Couverture forestière très faible (<8%), risque feux quasi-nul"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 5.0,
+      "note": "Inondations Eure et Loir amont ponctuelles, pas d'exposition côtière"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt quasi inexistant : taux de boisement inférieur à 8% du territoire, parmi les plus bas de France métropolitaine (IFN/IGN 2022)",
+    "Absence totale d'exposition côtière, éliminant les risques de submersion marine et d'érosion littorale (Géorisques)",
+    "Réseau de suivi climatique régional AP3C opérationnel permettant une anticipation agronomique et une adaptation des pratiques culturales",
+    "Température moyenne hivernale encore modérée (~4°C), limitant les épisodes de gel-dégel extrêmes comparativement aux départements alpins"
+  ],
+  "vigilances": [
+    "Stress hydrique estival en forte hausse : le déficit pluviométrique estival pourrait atteindre -30% d'ici 2060 sur la Beauce selon les scénarios DRIAS RCP 8.5, menaçant directement les 300 000 ha de grandes cultures",
+    "Multiplication des vagues de chaleur prolongées : passage projeté de 5 à 25-30 jours de canicule annuels à l'horizon 2060, avec des pics nocturnes insuffisamment rafraîchissants en zone de plaine (Climadiag 2023)",
+    "Vulnérabilité des nappes de Beauce : la nappe captive, déjà sous tension chronique, risque de voir ses niveaux piézométriques s'abaisser durablement sous l'effet conjugué des sécheresses répétées et des prélèvements agricoles (BRGM 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,0°C",
+      "label": "Hausse T° projetée 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "25-30 j",
+      "label": "Jours de canicule annuels projetés 2060"
+    },
+    {
+      "valeur": "<8%",
+      "label": "Taux de boisement départemental"
+    },
+    {
+      "valeur": "300 000 ha",
+      "label": "Surface en grandes cultures (blé/orge)"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune 2023 – Météo-France",
+    "DRIAS 2.0 – Projections climatiques régionalisées, scénarios RCP 4.5/8.5",
+    "TRACC / AP3C Centre-Val de Loire – Trajectoire de réchauffement",
+    "BRGM – Suivi piézométrique nappe de Beauce 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle communale restent incertaines pour les phénomènes extrêmes locaux (orages de grêle, gel tardif) qui affectent pourtant fortement la Beauce céréalière",
+    "L'absence de données fines sur l'adaptation des exploitations agricoles du département rend difficile l'évaluation réelle de la résilience territoriale face aux chocs climatiques 2060",
+    "Les scénarios DRIAS ne distinguent pas suffisamment les microclimats liés aux vallées de l'Eure et du Loir, pouvant sous-estimer ou surestimer localement les impacts thermiques et hydriques"
+  ]
+}

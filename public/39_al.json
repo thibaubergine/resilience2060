@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Jura présente un profil alimentaire remarquable, porté par une identité agro-alimentaire forte articulée autour de 8 appellations AOP/IGP reconnues (INAO 2023), dont le Comté, première AOP fromagère française en volume avec plus de 75 000 tonnes produites annuellement. La Surface Agricole Utile (SAU) bio représente environ 12 % de la SAU totale départementale, soit un niveau supérieur à la moyenne nationale de 10,7 % (Agence Bio 2023), témoignant d'une dynamique de conversion engagée. Selon les données ZAVA 2024, le département affiche une autonomie alimentaire relative satisfaisante sur les filières herbivores et laitières, mais reste dépendant pour les grandes cultures vivrières. Les circuits courts se développent progressivement avec plus de 450 exploitations engagées dans la vente directe (Agreste 2020), bien que leur densité reste inférieure aux départements périurbains. L'enjeu majeur réside dans la diversification des productions face aux aléas climatiques croissants menaçant la viticulture jurassienne et les prairies d'altitude.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Bonne autonomie laitière/herbivore, déficit en grandes cultures vivrières"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "8 AOP/IGP dont Comté, Morbier, Bleu de Gex, vins du Jura"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "~12% SAU bio, supérieur moyenne nationale, dynamique croissante"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "450+ exploitations vente directe, densité AMAP modeste vs urbain"
+    }
+  ],
+  "points_forts": [
+    "Première AOP fromagère française : le Comté dépasse 75 000 tonnes/an et mobilise plus de 2 600 producteurs de lait (INAO 2023)",
+    "8 signes officiels de qualité AOP/IGP couvrant fromages, vins et produits charcutiers, positionnant le Jura parmi les 10 départements les plus dotés de France (INAO 2023)",
+    "Part de SAU bio d'environ 12 %, supérieure à la moyenne nationale (10,7 %), avec une progression continue depuis 2018 (Agence Bio 2023)",
+    "Filière viticole AOP reconnue (Arbois, Côtes du Jura, L'Étoile, Château-Chalon) générant une valeur ajoutée territoriale significative et ancrée dans les circuits courts locaux"
+  ],
+  "vigilances": [
+    "Le réchauffement climatique menace la typicité des fromages AOP : modification de la flore des prairies d'altitude projetée dès 2040-2050 (Climadiag 2023), remettant en cause les cahiers des charges",
+    "La dépendance aux productions herbivores et laitières fragilise l'autonomie alimentaire en cas de sécheresse prolongée affectant les prairies permanentes (scénario RCP 8.5 DRIAS 2024)",
+    "Le maillage en circuits courts et AMAP reste insuffisant pour répondre à une demande alimentaire locale croissante, avec un risque de décrochage si les exploitations familiales poursuivent leur déclin démographique (Agreste 2020 : -15 % exploitations en 10 ans)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "75 000 t/an",
+      "label": "Production Comté AOP"
+    },
+    {
+      "valeur": "12 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "8",
+      "label": "Appellations AOP/IGP actives"
+    },
+    {
+      "valeur": "450+",
+      "label": "Exploitations en vente directe"
+    }
+  ],
+  "sources": [
+    "INAO 2023 – Registre des signes de qualité",
+    "Agence Bio 2023 – Observatoire national de l'agriculture biologique",
+    "ZAVA 2024 – Zones à autonomie alimentaire",
+    "Agreste 2020 – Recensement agricole Jura"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire du Jura manquent de granularité infra-départementale, masquant les disparités entre zones de plaine et massif jurassien",
+    "La part de SAU bio est estimée par interpolation régionale Bourgogne-Franche-Comté, sans déclinaison certifiée au niveau départemental 39 pour 2023",
+    "L'évaluation des circuits courts repose sur le recensement agricole 2020, antérieur aux dynamiques post-Covid et aux nouvelles installations, potentiellement sous-estimant la réalité actuelle"
+  ]
+}

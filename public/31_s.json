@@ -1,0 +1,66 @@
+{
+  "synthese": "La Haute-Garonne présente une situation contrastée sur la dimension sols, avec une pression anthropique notable liée à la forte urbanisation toulousaine et à l'activité agricole intensive dans les plaines. Le département recense un nombre significatif de sites pollués ou en cours de traitement, héritage d'un tissu industriel et aéronautique dense autour de Toulouse (GéoRisques/ex-BASOL). Les résidus de pesticides dans les sols agricoles restent préoccupants dans les zones de grandes cultures du lauragais et des plaines de la Garonne, avec des détections récurrentes de fongicides et d'herbicides (INRAE 2023). Le risque radon demeure modéré à faible sur la majeure partie du territoire, les formations géologiques dominantes étant des alluvions et molasses peu émettrices, à l'exception du piémont pyrénéen. La part de la SAU conduite en agriculture biologique atteint environ 8-9 % en Haute-Garonne, légèrement inférieure à la moyenne occitane (~12 %), reflétant la domination des grandes cultures conventionnelles (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Nombreux sites industriels toulousains recensés, héritage aéronautique et chimique"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Plaines du Lauragais sous pression pesticides, détections fongicides herbicides fréquentes"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie alluviale et molassique dominante, risque radon faible à modéré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 6.0,
+      "note": "SAU bio ~8-9%, en progression mais sous moyenne occitane de 12%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible sur 80 % du territoire grâce aux formations alluviales de la Garonne (IRSN)",
+    "Agriculture biologique en progression constante : +15 % de surfaces certifiées entre 2020 et 2023 (Agence Bio 2023)",
+    "Politiques de dépollution actives sur les friches industrielles toulousaines avec plusieurs sites en réhabilitation (GéoRisques 2024)",
+    "Présence de sols à forte valeur agronomique dans les plaines alluviales, protégés partiellement par le SCOT de Toulouse Métropole"
+  ],
+  "vigilances": [
+    "Artificialisation des sols en forte progression autour de Toulouse : +1 200 ha/an consommés, parmi les taux les plus élevés de France (CEREMA 2023)",
+    "Contamination résiduelle de sites ex-industriels (chimie, aéronautique) pouvant affecter les nappes sous-jacentes et les sols agricoles périurbains",
+    "Pression pesticides persistante dans le Lauragais (polyculture céréalière intensive) avec risque de dégradation de la qualité biologique des sols à horizon 2030 (INRAE)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~120 sites",
+      "label": "Sites BASOL recensés (GéoRisques)"
+    },
+    {
+      "valeur": "~8-9 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Faible à modéré",
+      "label": "Niveau risque radon départemental"
+    },
+    {
+      "valeur": ">1 200 ha/an",
+      "label": "Rythme artificialisation sols (CEREMA)"
+    }
+  ],
+  "sources": [
+    "GéoRisques/ex-BASOL 2024",
+    "INRAE – Résidus pesticides sols 2023",
+    "IRSN – Cartographie radon",
+    "Agence Bio – Chiffres clés 2023",
+    "CEREMA – Artificialisation des sols 2023"
+  ],
+  "limites": [
+    "Les données ex-BASOL ne couvrent pas les sites non déclarés ni les pollutions diffuses agricoles périurbaines, fréquentes autour de Toulouse",
+    "La cartographie radon de l'IRSN est établie à l'échelle communale et masque des hétérogénéités locales dans les zones de piémont pyrénéen (Comminges, Volvestre)",
+    "Les indicateurs INRAE sur les résidus pesticides dans les sols restent partiels : peu de points de mesure en Haute-Garonne hors zones de surveillance prioritaires, limitant la représentativité départementale"
+  ]
+}

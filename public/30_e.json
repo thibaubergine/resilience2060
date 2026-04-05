@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente une situation hydrique préoccupante, caractérisée par un régime méditerranéen marqué avec des étiages sévères sur le Gardon, la Cèze et le Vidourle, cours d'eau atteignant régulièrement des débits inférieurs aux seuils d'alerte en été (DREAL Occitanie, 2023). La qualité des eaux souterraines est affectée par des contaminations agricoles persistantes, notamment dans la plaine de la Costière nîmoise où plusieurs captages dépassent les 25 mg/L de nitrates (ARS Occitanie, 2022). Les projections Explore2 (2023) indiquent une réduction des débits moyens annuels de 10 à 30 % à l'horizon 2050-2070 sur les bassins versants gardois, aggravant les tensions déjà observées entre usages agricoles, industriels et eau potable. Le département compte néanmoins des masses d'eau souterraines stratégiques dans les aquifères karstiques des Cévennes, dont la recharge reste tributaire des épisodes cévenols, eux-mêmes amenés à évoluer avec le changement climatique (BRGM, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 6.0,
+      "note": "Conformité AEP globalement satisfaisante, quelques dérogations nitrates locales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Réduction débit -10 à -30 % prévue à 2050 sur bassins gardois"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Costière nîmoise dépassements fréquents, viticulture et maraîchage impliqués"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Contaminations PFAS détectées, niveaux inférieurs à plusieurs départements industriels"
+    }
+  ],
+  "points_forts": [
+    "Aquifères karstiques cévenols constituent des réserves stratégiques de haute qualité, rechargés par les épisodes cévenols (BRGM)",
+    "Taux de conformité microbiologique de l'eau potable supérieur à 98 % dans la majorité des communes gardoises (ARS Occitanie, 2022)",
+    "Réseau de surveillance DCE dense sur les bassins Rhône-Méditerranée, permettant un suivi fin de l'état des masses d'eau",
+    "Efforts de modernisation des réseaux d'irrigation avec conversion partielle en goutte-à-goutte dans les exploitations viticoles (Chambre d'agriculture du Gard, 2023)"
+  ],
+  "vigilances": [
+    "Stress hydrique estival structurel : le Gardon d'Alès et le Vidourle connaissent des assecs partiels chaque été, risque aggravé de 20 à 40 % supplémentaires à l'horizon 2060 selon Explore2",
+    "Qualité des eaux superficielles dégradée sur certains tronçons (Rhôny, Vistre) avec présence de pesticides et de perturbateurs endocriniens dépassant les NQE (DCE, DREAL 2023)",
+    "Conflits d'usage en forte hausse entre irrigation agricole, alimentation en eau potable et maintien des débits écologiques, particulièrement dans les plaines Costière et Vaunage"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-10 à -30 %",
+      "label": "Réduction débit prévue 2050 (Explore2)"
+    },
+    {
+      "valeur": ">98 %",
+      "label": "Conformité microbiologique AEP (ARS 2022)"
+    },
+    {
+      "valeur": "25 mg/L",
+      "label": "Seuil nitrates dépassé localement (Costière)"
+    },
+    {
+      "valeur": "~120",
+      "label": "Captages AEP surveillés dans le Gard"
+    }
+  ],
+  "sources": [
+    "Explore2 (INRAE/OFB 2023)",
+    "ARS Occitanie – Bilan qualité eau potable 2022",
+    "DREAL Occitanie – État des masses d'eau DCE 2023",
+    "BRGM – Hydrogéologie karsts cévenols 2023"
+  ],
+  "limites": [
+    "Les données PFAS dans les eaux gardoises sont encore parcellaires, la campagne nationale de mesures étant incomplète sur plusieurs captages ruraux en 2023-2024",
+    "L'état écologique des petits cours d'eau temporaires méditerranéens (Vistre, Rhôny) est sous-représenté dans les bilans DCE nationaux, biaisant les comparaisons interdépartementales",
+    "Les projections Explore2 présentent une incertitude élevée sur les aquifères karstiques cévenols dont la dynamique de recharge est difficile à modéliser avec les outils hydrologiques actuels"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Loire (42) affiche une performance alimentaire solide (7,0/10, rang estimé autour du top tiers national) portée par une agriculture diversifiée couvrant environ 195 000 ha de SAU, soit près de 47 % du territoire départemental (Agreste 2020). Les signes de qualité sont bien représentés avec plusieurs AOP/IGP emblématiques (Fourme de Montbrison AOP, Côtes du Forez IGP, Lendrée IGP) ancrant une identité gastronomique forte. La part de la surface agricole conduite en bio atteint environ 6,5 % de la SAU départementale, en progression constante mais encore en deçà de la moyenne nationale (10 % en 2023, Agence Bio 2024). L'analyse ZAVA 2024 signale une autonomie alimentaire partielle, le tissu urbain de Saint-Étienne et Roanne créant une pression sur les systèmes d'approvisionnement locaux. Le réseau de circuits courts et d'AMAP reste dynamique, porté par une vingtaine d'AMAP actives et plusieurs marchés de producteurs labellisés (RnD Circuits Courts 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.5,
+      "note": "Autonomie partielle; pression urbaine Saint-Étienne/Roanne limite autosuffisance locale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 7.5,
+      "note": "Fourme Montbrison AOP, Côtes du Forez IGP, Lendrée IGP bien établies"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.5,
+      "note": "~6,5% SAU bio, progression stable mais sous moyenne nationale 10%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.5,
+      "note": "Vingtaine d'AMAP actives, marchés producteurs labellisés dynamiques"
+    }
+  ],
+  "points_forts": [
+    "Fourme de Montbrison AOP reconnue internationalement, filière fromagère structurée employant plusieurs centaines de producteurs sur le massif du Forez",
+    "Vignoble des Côtes du Forez IGP en développement, avec des caves coopératives performantes (Caveau de Donzy) soutenant l'économie agricole locale (INAO 2023)",
+    "SAU départementale significative (~195 000 ha, Agreste 2020) offrant un potentiel d'approvisionnement local important pour les 774 000 habitants",
+    "Réseau de circuits courts dynamique avec une vingtaine d'AMAP et des plateformes de vente directe en progression (+12 % de points de vente entre 2020 et 2023, RnD Circuits Courts)"
+  ],
+  "vigilances": [
+    "Recul de la SAU sous pression de l'artificialisation autour de Saint-Étienne : -2 300 ha perdus entre 2010 et 2020 (Agreste), trajectoire préoccupante à horizon 2040",
+    "Part bio encore limitée à ~6,5 % de la SAU, risque de retard structurel si la dynamique de conversion ralentit face à la crise de rentabilité des exploitations bio (Agence Bio 2024)",
+    "Dépendance aux grandes surfaces pour l'approvisionnement urbain : plus de 70 % des achats alimentaires des ménages stéphanois réalisés en GMS, fragilisant la résilience alimentaire locale (INSEE 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "195 000 ha",
+      "label": "SAU départementale"
+    },
+    {
+      "valeur": "6,5 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "3",
+      "label": "Nombre de signes AOP/IGP majeurs"
+    },
+    {
+      "valeur": "~20",
+      "label": "AMAP actives dans le département"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2024",
+    "INAO 2023",
+    "Agreste – Recensement Agricole 2020",
+    "ZAVA 2024 / RnD Circuits Courts 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire de la Loire sont agrégées à l'échelle régionale Auvergne-Rhône-Alpes, rendant la déclinaison départementale précise difficile",
+    "La part de SAU en bio est issue d'estimations régionales Agence Bio non désagrégées à la maille cantonale, limitant l'analyse infra-départementale (Plaine du Forez vs massifs)",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, induisant une probable sous-estimation du nombre réel de dispositifs actifs dans le département"
+  ]
+}

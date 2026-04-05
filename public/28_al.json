@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure-et-Loir est l'un des premiers départements céréaliers français, avec une Surface Agricole Utile (SAU) représentant environ 75 % du territoire (ZAVA 2024), dominée par les grandes cultures de blé tendre et d'orge qui font de la Beauce le « grenier à blé » de l'Europe. Malgré cette vocation productiviste majeure, le département présente une agriculture peu diversifiée, limitant son autonomie alimentaire locale : la part de l'agriculture biologique atteint seulement 3,8 % de la SAU, nettement en deçà de la moyenne nationale (10,3 % en 2023, Agence Bio). Le territoire dispose d'un nombre modeste de signes de qualité (AOP/IGP), principalement autour du Miel de Beauce IGP et de quelques productions céréalières labellisées (INAO 2023). Les circuits courts et les AMAP restent en développement, avec environ 150 points de vente directe recensés, portés par une dynamique périurbaine croissante autour de Chartres (Réseau CIVAM Centre-Val de Loire 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Premier département céréalier français, forte SAU mais peu diversifiée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Très peu d'AOP/IGP ; Miel de Beauce IGP principal label territorial"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "3,8 % SAU bio, largement sous la moyenne nationale de 10,3 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 5.0,
+      "note": "~150 points vente directe, AMAP en développement autour de Chartres"
+    }
+  ],
+  "points_forts": [
+    "Premier département français producteur de blé tendre avec une SAU de 75 % du territoire, contribuant à la souveraineté alimentaire nationale (ZAVA 2024)",
+    "Production céréalière record : environ 1,5 million de tonnes de blé par an, positionnant le département comme pilier de la filière grain en France (Agreste 2022)",
+    "Dynamique de développement des circuits courts en zone périurbaine chartraine, avec +12 % de points de vente directe entre 2020 et 2023 (Réseau CIVAM Centre-Val de Loire)",
+    "Présence du Miel de Beauce IGP valorisant une production apicole locale et participant à la biodiversité cultivée du territoire (INAO 2023)"
+  ],
+  "vigilances": [
+    "Monoculture céréalière extensive exposant le département à une forte vulnérabilité aux aléas climatiques (sécheresses projetées +30 % à horizon 2060, DRIAS) et aux crises de marché mondiales",
+    "Part du bio stagnante à 3,8 % de la SAU malgré les objectifs du plan Ambition Bio 2027 (15 % nationalement), risquant de creuser l'écart avec les standards européens (Agence Bio 2023)",
+    "Faible diversification des productions alimentaires locales limitant l'autonomie alimentaire du territoire pour les fruits, légumes et protéines végétales, rendant les habitants dépendants des approvisionnements extérieurs"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "75 %",
+      "label": "Part SAU / territoire"
+    },
+    {
+      "valeur": "3,8 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "~150",
+      "label": "Points de vente directe"
+    },
+    {
+      "valeur": "1 IGP",
+      "label": "Labels AOP/IGP actifs"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024",
+    "Agence Bio 2023",
+    "INAO 2023",
+    "Réseau CIVAM Centre-Val de Loire 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent agrégées à l'échelle régionale et ne permettent pas une granularité fine à l'échelle départementale pour l'Eure-et-Loir",
+    "Le recensement des AMAP et circuits courts est parcellaire : seuls les réseaux affiliés sont comptabilisés, sous-estimant probablement les initiatives informelles en zone rurale beauceron",
+    "L'absence d'indicateur standardisé sur la diversité des productions alimentaires locales rend difficile l'évaluation précise de l'autonomie protéique et maraîchère du territoire"
+  ]
+}

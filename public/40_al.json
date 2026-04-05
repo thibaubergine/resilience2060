@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département des Landes (40) présente un profil alimentaire solide, porté par une agriculture diversifiée et des productions sous signes de qualité reconnus mondialement. Avec environ 428 000 hectares de surface agricole utile (SAU), le département est dominé par la sylviculture mais recèle des filières alimentaires emblématiques : le maïs (premier bassin de production français pour la semence), le canard à foie gras et le poulet Label Rouge des Landes, bénéficiant d'AOP et IGP protégées (INAO, 2023). La part de la SAU en agriculture biologique reste modeste, autour de 5,8 % en 2022, inférieure à la moyenne nationale de 10,7 % (Agence Bio, 2023), constituant un point de faiblesse structurel. Les circuits courts se développent progressivement, avec une quinzaine d'AMAP recensées et un réseau de marchés fermiers actifs, mais la densité reste limitée au regard de la dispersion géographique rurale du territoire (ZAVA 2024). L'autonomie alimentaire du département est partiellement assurée sur les productions animales et céréalières, mais dépendante des intrants extérieurs pour les cultures intensives en maïs.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "Maïs et filières volailles assurent une autonomie partielle solide"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Foie gras IGP, Poulet Landes Label Rouge, Jambon Bayonne IGP présents"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 5.0,
+      "note": "SAU bio à 5,8%, sous la moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Marchés fermiers dynamiques, 15+ AMAP, réseau rural actif"
+    }
+  ],
+  "points_forts": [
+    "Filière volailles sous signes de qualité : le Poulet Fermier des Landes bénéficie d'un Label Rouge reconnu, avec plus de 400 éleveurs engagés dans la filière (INAO, 2023)",
+    "Présence forte d'IGP structurantes : le Jambon de Bayonne IGP et le Canard à Foie Gras du Sud-Ouest IGP représentent des ancres économiques majeures du territoire landais",
+    "Premier département français pour la production de semences de maïs, renforçant la souveraineté agricole nationale sur cette filière stratégique",
+    "Réseau de marchés fermiers et de vente directe dense malgré la ruralité, avec des initiatives portées par la Chambre d'Agriculture des Landes soutenant les circuits courts"
+  ],
+  "vigilances": [
+    "La monoculture intensive du maïs (plus de 40 % de la SAU cultivée) rend le système alimentaire local vulnérable aux stress hydriques projetés à l'horizon 2060 (DRIAS, scénario SSP3-7.0), avec une baisse des précipitations estivales attendue de -20 à -30 %",
+    "La faible part de SAU en agriculture biologique (5,8 % contre 10,7 % national) limite la résilience agroécologique du territoire et expose les sols à une dépendance aux intrants chimiques sur le long terme",
+    "La crise sanitaire récurrente de l'influenza aviaire (5 épisodes majeurs entre 2015 et 2023) fragilise structurellement la filière foie gras et volailles, première filière alimentaire sous signe de qualité des Landes"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "5,8 %",
+      "label": "SAU en agriculture biologique (2022)"
+    },
+    {
+      "valeur": "400+",
+      "label": "Éleveurs Label Rouge volailles"
+    },
+    {
+      "valeur": "15+",
+      "label": "AMAP et points de vente directe"
+    },
+    {
+      "valeur": "3 IGP/AOP",
+      "label": "Signes qualité majeurs présents"
+    }
+  ],
+  "sources": [
+    "Agence Bio – Rapport annuel 2023",
+    "INAO – Registre AOP/IGP 2023",
+    "ZAVA 2024 – Zones à vocation agricole",
+    "Chambre d'Agriculture des Landes – Bilan filières 2022"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire des Landes sont agrégées à l'échelle régionale Nouvelle-Aquitaine, rendant difficile une quantification précise à l'échelle départementale",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires, induisant une probable sous-estimation du nombre réel de dispositifs actifs dans ce territoire rural dispersé",
+    "L'impact réel des crises aviaires sur la capacité de production à long terme des filières IGP landaises n'est pas encore pleinement intégré dans les projections alimentaires territoriales disponibles"
+  ]
+}

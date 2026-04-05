@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gers bénéficie d'une ressource en eau globalement abondante grâce à ses nombreux cours d'eau (Gers, Baïse, Save, Arros) et à ses ouvrages de stockage : le département compte plus de 3 500 retenues collinaires, parmi les plus fortes densités nationales, qui alimentent l'irrigation agricole (ARS Occitanie, 2023). La qualité de l'eau potable distribuée est correcte pour la grande majorité de la population, bien que des dépassements ponctuels en nitrates et en pesticides soient recensés dans certaines captages du nord du département (Bilan ARS 32, 2022). Le projet Explore2 (2023) place toutefois le Gers parmi les territoires fortement exposés à la baisse des débits estivaux à l'horizon 2050-2070, avec des réductions de débit projetées de -20 à -40 % sur plusieurs bassins versants. La pression agricole dominante — le département est le premier producteur français d'armagnac et de volailles Label Rouge — engendre une contamination diffuse en nitrates et produits phytosanitaires, classant plusieurs masses d'eau en état chimique médiocre au titre de la Directive Cadre sur l'Eau (DCE, état des lieux AELB 2022). La présence de PFAS reste peu documentée localement, les campagnes nationales de screening (ANSES/BRGM 2022-2023) ne couvrant que partiellement les captages gersois.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 8.0,
+      "note": "Eau potable conforme pour ~87 % abonnés ; dépassements ponctuels pesticides nord-Gers"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Débits estivaux en baisse projetée de -30 % à 2070 (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.0,
+      "note": "Nitrates modérés ; quelques captages déclassés en chimique mauvais (DCE AELB)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 8.0,
+      "note": "Screening PFAS partiel ; aucun dépassement majeur confirmé sur captages AEP"
+    }
+  ],
+  "points_forts": [
+    "Plus de 3 500 retenues collinaires offrant une capacité de stockage exceptionnelle à l'échelle nationale (Chambre d'Agriculture du Gers, 2023)",
+    "Réseau hydrographique dense avec 4 rivières principales structurantes (Gers, Baïse, Save, Arros) assurant une bonne disponibilité hivernale et printanière (SDAGE Adour-Garonne 2022-2027)",
+    "Taux de conformité de l'eau potable distribuée de 87 % des analyses, au-dessus de la moyenne des départements ruraux comparables (ARS Occitanie, bilan 2022)",
+    "Absence de grands sites industriels polluants historiques sur les bassins versants, limitant la contamination en micropolluants émergents (GéoRisques/BASOL 2023)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits estivaux de -20 à -40 % à l'horizon 2050-2070 sur les bassins Gers et Save, menaçant l'alimentation en eau potable en période d'étiage (Explore2, INRAE 2023)",
+    "Contamination diffuse aux pesticides (métolachlore, S-métolachlore et métabolites) dans plusieurs captages du nord et du centre du département, avec risques de déclassement supplémentaire (rapport ARS 32, 2022)",
+    "Conflits d'usage eau croissants entre irrigation agricole intensive (maïs, tournesol) et maintien des débits réservés des cours d'eau, dans un contexte de tensions estivales déjà récurrentes (OUGC Neste, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3 500+",
+      "label": "Retenues collinaires recensées"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse débit projeté 2070 (Explore2)"
+    },
+    {
+      "valeur": "87 %",
+      "label": "Conformité analyses eau potable (ARS 2022)"
+    },
+    {
+      "valeur": "4",
+      "label": "Rivières principales structurantes"
+    }
+  ],
+  "sources": [
+    "ARS Occitanie – Bilan qualité eau potable 32 (2022)",
+    "INRAE/Explore2 – Projections débits France 2023",
+    "SDAGE Adour-Garonne & DCE – État des lieux masses d'eau (AELB 2022)",
+    "ANSES/BRGM – Screening PFAS eaux souterraines (2022-2023)"
+  ],
+  "limites": [
+    "Le screening PFAS sur les captages d'eau potable gersois est incomplet : plusieurs unités de distribution rurales n'ont pas encore fait l'objet de mesures dans les campagnes nationales 2022-2023, créant un angle mort analytique",
+    "Les données de qualité des masses d'eau superficielles proviennent d'un réseau de suivi DCE avec des points de mesure espacés, insuffisants pour caractériser finement les petits bassins versants viticoles et céréaliers du Gers",
+    "Les projections Explore2 fournissent des fourchettes larges d'incertitude à l'échelle locale, rendant difficile la planification précise des besoins en eau à l'horizon 2060-2070 pour ce département"
+  ]
+}

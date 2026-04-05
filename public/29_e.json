@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Finistère, département le plus occidental de France métropolitaine, bénéficie d'une pluviométrie abondante (1 000 à 1 800 mm/an selon l'ARS Bretagne), limitant structurellement le risque de stress hydrique à court terme. Toutefois, la pression agricole intensive — notamment l'élevage porcin et bovin — engendre une contamination chronique aux nitrates : environ 30 % des masses d'eau de surface classées en mauvais état chimique ou écologique (Agence de l'Eau Loire-Bretagne, état des lieux DCE 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 10 à 25 % à l'horizon 2050-2070 sur les bassins côtiers bretons, fragilisant les prises d'eau superficielles. La contamination aux PFAS, bien que moins documentée qu'en arc méditerranéen, fait l'objet d'une surveillance accrue depuis les données ARS 2023-2024, avec des signalements ponctuels liés aux activités portuaires et militaires (Brest, Lorient-proximité). La qualité de l'eau potable distribuée reste globalement acceptable mais inégale selon les communes rurales, où des dérogations nitrates ont encore été accordées (ARS Bretagne, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "Conformité eau potable globalement bonne, dérogations nitrates résiduelles rurales"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 7.0,
+      "note": "Pluviométrie élevée mais étiages estivaux en hausse selon Explore2 2023"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "30 % masses d'eau mauvais état ; élevages intensifs, pression agricole forte"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS surveillés, signalements ponctuels zones portuaires et militaires bretonnes"
+    }
+  ],
+  "points_forts": [
+    "Pluviométrie parmi les plus élevées de France métropolitaine (1 000–1 800 mm/an), limitant le risque de pénurie structurelle (Météo-France)",
+    "Réseau de surveillance DCE renforcé : plus de 200 points de contrôle sur les masses d'eau de surface et souterraines (Agence de l'Eau Loire-Bretagne)",
+    "Programmes agro-environnementaux actifs (MAEC, plan Algues Vertes 2022-2027) visant la réduction des intrants azotés sur les bassins versants côtiers",
+    "Taux de conformité eau potable supérieur à 96 % pour les paramètres bactériologiques (ARS Bretagne, bilan 2023)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 10 à 25 % à l'horizon 2050-2070 sur les bassins côtiers finistériens (Explore2, 2023), menaçant les prises d'eau superficielles en été",
+    "Contamination persistante aux nitrates et aux pesticides (métolachlore ESA notamment) dans les eaux souterraines et de surface, avec 30 % des masses d'eau en mauvais état écologique ou chimique (DCE 2022)",
+    "Présence de PFAS détectée ponctuellement dans des captages proches de zones d'activités portuaires et militaires (Brest), nécessitant un suivi renforcé post-arrêté ministériel 2024"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "1 000–1 800 mm/an",
+      "label": "Pluviométrie annuelle"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Masses d'eau mauvais état (DCE 2022)"
+    },
+    {
+      "valeur": "-10 à -25 %",
+      "label": "Baisse débits étiage 2050-2070 (Explore2)"
+    },
+    {
+      "valeur": ">96 %",
+      "label": "Conformité bactériologique eau potable"
+    }
+  ],
+  "sources": [
+    "Agence de l'Eau Loire-Bretagne – État des lieux DCE 2022",
+    "ARS Bretagne – Bilan qualité eau potable 2023",
+    "Explore2 – Projections hydrologiques 2023 (INRAE/OFB)",
+    "Plan Algues Vertes Bretagne 2022-2027"
+  ],
+  "limites": [
+    "Les données PFAS sur le Finistère restent partielles et récentes (post-2023) : la couverture géographique des captages analysés est incomplète, notamment en zones rurales éloignées des sites industriels",
+    "L'état des masses d'eau souterraines est moins bien documenté que les eaux de surface en Finistère, en raison de la faible épaisseur des aquifères de socle cristallin breton, peu favorables aux réseaux piézométriques denses",
+    "Les projections Explore2 appliquées au Finistère présentent une incertitude élevée sur les bassins versants côtiers de faible superficie, dont les comportements hydrologiques sont très sensibles aux variabilités locales de précipitation"
+  ]
+}

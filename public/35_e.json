@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ille-et-Vilaine présente une situation hydrique contrastée : si 98,5 % de la population est alimentée par une eau potable conforme aux critères bactériologiques (ARS Bretagne, 2023), la qualité chimique reste sous pression en raison d'une agriculture intensive concentrée dans le bassin versant de la Vilaine. Les nitrates constituent la principale menace, avec des concentrations dépassant 50 mg/L dans plusieurs captages du centre et de l'est du département, classant 60 % des masses d'eau souterraines en mauvais état chimique (DCE, état des lieux 2022). Le projet Explore2 (2023) anticipe une baisse des débits d'étiage de 20 à 40 % sur les bassins bretons à l'horizon 2050-2070, fragilisant l'alimentation en eau potable d'une métropole rennaise en forte croissance (450 000 habitants desservis depuis le barrage de la Valière). La contamination aux PFAS, détectée dans plusieurs captages du département suite aux campagnes de surveillance nationales 2023-2024 (ANSES/DGCCRF), constitue un signal d'alerte émergent, bien que les teneurs restent généralement inférieures aux nouvelles valeurs seuils européennes de 2026.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "98,5 % conformité bactériologique ; pression nitrates sur captages ruraux"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Baisse débits étiage 20-40 % prévue ; tension sur ressource rennaise"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "60 % masses d'eau souterraines en mauvais état chimique nitrates"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement ; teneurs sous seuils européens 2026"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité bactériologique de l'eau potable à 98,5 %, supérieur à la moyenne nationale (ARS Bretagne, 2023)",
+    "Barrage de la Valière (Rennes Métropole) : infrastructure stratégique sécurisant l'AEP de plus de 450 000 habitants avec capacité de stockage significative",
+    "Démarches Breizh Bocage et contrats de bassin versant actifs sur la Vilaine et le Couesnon, mobilisant des financements Agence de l'eau Loire-Bretagne pour réduire les intrants",
+    "Réseau de surveillance DCE dense avec plus de 200 points de contrôle qualitatif, permettant un suivi fin et réactif des contaminations"
+  ],
+  "vigilances": [
+    "Stress hydrique accru d'ici 2050-2070 : les projections Explore2 (2023) indiquent une réduction de 20 à 40 % des débits d'étiage sur les bassins versants bretons, menaçant les prélèvements en période estivale pour une population métropolitaine en hausse",
+    "Pression nitrates structurelle liée à l'élevage intensif (1er département français pour les volailles, 2e pour les porcs) : persistance de dépassements du seuil de 50 mg/L dans les eaux brutes de captages ruraux malgré les plans d'action",
+    "Émergence des contaminants PFAS et micropolluants pharmaceutiques dans les cours d'eau périurbains rennais, avec un cadre réglementaire européen (directive 2020/2184) imposant de nouvelles valeurs paramétriques dès 2026 pouvant remettre en cause la conformité de certains captages"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "98,5 %",
+      "label": "Conformité eau potable (bactério.)"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Baisse débits étiage 2050 (Explore2)"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Masses d'eau souterr. mauvais état chimique"
+    },
+    {
+      "valeur": "50 mg/L",
+      "label": "Seuil nitrates dépassé sur captages ruraux"
+    }
+  ],
+  "sources": [
+    "ARS Bretagne – Bilan qualité eau potable 2023",
+    "Explore2 – Projections hydrologiques France métropolitaine 2023 (INRAE/OFB)",
+    "DCE – État des lieux masses d'eau 2022, Agence de l'eau Loire-Bretagne",
+    "ANSES/DGCCRF – Campagne nationale de surveillance PFAS eaux destinées à la consommation humaine 2023-2024"
+  ],
+  "limites": [
+    "Les données de contamination PFAS à l'échelle des captages d'Ille-et-Vilaine restent partielles : la cartographie nationale publiée en 2024 ne couvre pas encore l'ensemble des points de prélèvement départementaux, limitant l'évaluation du risque réel",
+    "Les projections Explore2 sont établies à l'échelle des grands bassins versants (Vilaine, bassins côtiers) et ne permettent pas de spatialiser finement les tensions hydriques à l'échelle communale ou intercommunale",
+    "L'état écologique des masses d'eau de surface intègre de nombreux paramètres biologiques dont la mise à jour triennale (DCE) introduit un décalage temporel rendant difficile l'évaluation des effets récents des politiques agro-environnementales locales"
+  ]
+}

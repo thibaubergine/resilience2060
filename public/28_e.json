@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Eure-et-Loir, département agricole à dominante céréalière (Beauce), présente une situation hydrique préoccupante : la nappe de Beauce, principal réservoir souterrain du département, alimente plus de 70 % de l'eau potable distribuée mais fait l'objet d'arrêtés de restriction récurrents, avec des niveaux piézométriques en baisse tendancielle depuis les années 1990 (BRGM, 2023). Les projections Explore2 (2023) anticipent une réduction des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins de l'Eure et du Loir, classant le département parmi les territoires à fort stress hydrique futur. La contamination aux nitrates est structurellement élevée : environ 30 % des masses d'eau souterraines dépassent ou frôlent le seuil réglementaire de 50 mg/L, en lien direct avec l'agriculture intensive beauceronne (ARS Centre-Val de Loire, 2022 ; DCE 2022). La présence de PFAS dans certains captages, bien que moins documentée qu'en Auvergne-Rhône-Alpes, constitue un signal émergent nécessitant une surveillance renforcée.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "30% captages sous surveillance ; conformité globale satisfaisante mais nitrates limitants"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Réduction étiages -20 à -40% horizon 2060 ; nappe Beauce sous tension chronique"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "~30% eaux souterraines proches ou au-delà de 50 mg/L nitrates (DCE 2022)"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Contamination PFAS émergente ; peu de captages impactés recensés à ce jour"
+    }
+  ],
+  "points_forts": [
+    "La nappe de Beauce est l'une des plus grandes nappes libres d'Europe (~10 000 km²), garantissant un volume de réserve significatif malgré les pressions",
+    "Un suivi piézométrique dense assuré par le BRGM permet une gestion anticipée des niveaux et des restrictions (réseau de 150+ points de mesure)",
+    "Le taux de conformité bactériologique de l'eau distribuée dépasse 98 % en Eure-et-Loir (ARS Centre-Val de Loire, 2022)",
+    "Des périmètres de protection des captages sont en cours de renforcement sur plusieurs UDI prioritaires du département"
+  ],
+  "vigilances": [
+    "Stress hydrique majeur : Explore2 (2023) projette une baisse de -30 % des débits moyens annuels du Loir à l'horizon 2060, avec des conflits d'usage eau potable/irrigation intensifiés",
+    "Contamination nitrates structurelle : l'agriculture beauceronne génère une pression diffuse chronique sur les eaux souterraines, avec des délais de transfert de plusieurs décennies rendant toute amélioration très lente",
+    "Risque PFAS sous-évalué : l'absence de données exhaustives sur les captages d'Eure-et-Loir ne signifie pas l'absence de contamination ; les campagnes nationales 2024 pourraient révéler des points critiques"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">70%",
+      "label": "Alimentation eau potable depuis nappe Beauce"
+    },
+    {
+      "valeur": "-20 à -40%",
+      "label": "Réduction étiages projetée (Explore2, 2060)"
+    },
+    {
+      "valeur": "~30%",
+      "label": "Masses d'eau souterr. à risque nitrates (DCE 2022)"
+    },
+    {
+      "valeur": ">98%",
+      "label": "Conformité bactériologique eau distribuée (ARS 2022)"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB, 2023)",
+    "ARS Centre-Val de Loire – Bilan qualité eaux potables 2022",
+    "DCE – État des masses d'eau 2022 (Loire-Bretagne/Seine-Normandie)",
+    "BRGM – Réseau piézométrique nappe de Beauce 2023"
+  ],
+  "limites": [
+    "Les données PFAS pour les captages d'Eure-et-Loir restent parcellaires ; les résultats complets des campagnes nationales 2024 ne sont pas encore tous publiés",
+    "L'état qualitatif des masses d'eau de surface (Eure, Loir, Conie) est inégalement renseigné selon les stations de mesure, créant des zones grises dans l'évaluation DCE",
+    "Les modèles Explore2 présentent une incertitude significative à l'échelle départementale ; les projections hydrologiques locales sur la nappe de Beauce nécessitent des modèles spécifiques non encore finalisés"
+  ]
+}

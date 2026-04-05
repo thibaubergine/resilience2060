@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Loir-et-Cher (41) présente une vulnérabilité climatique modérée à l'horizon 2060, caractéristique des départements du Bassin parisien méridional. Selon Climadiag (Météo-France, 2023), le département devrait connaître une hausse des températures moyennes annuelles de +2,0 à +2,8°C d'ici 2060 sous scénario intermédiaire (SSP2-4.5), avec une augmentation significative du nombre de jours de canicule (passages de 5 à 20-25 jours/an). La Loire et ses affluents (Cher, Cosson, Beuvron) exposent une part importante du territoire aux crues, avec des épisodes de sécheresse hydrique de plus en plus fréquents enregistrés depuis 2018 (DRIAS/TRACC). La Sologne, qui couvre plus de 500 000 hectares au sud-est du département, constitue un massif forestier particulièrement vulnérable au risque incendie amplifié par le changement climatique (AP3C, Centre-Val de Loire). L'altitude faible et homogène du territoire (50 à 200 m) offre peu de tampon thermique face aux vagues de chaleur projetées.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 4.0,
+      "note": "Relief plat (50-200 m), aucun tampon thermique naturel significatif"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "20-25 jours de canicule/an projetés en 2060 (Climadiag 2023)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Sologne : 500 000 ha forêts sensibles, risque incendie croissant (AP3C)"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 7.0,
+      "note": "Loire et affluents : crues historiques, inondations récurrentes, PPRI actifs"
+    }
+  ],
+  "points_forts": [
+    "Réseau hydrographique dense (Loire, Cher, Loir) assurant une recharge partielle des nappes superficielles en année normale",
+    "Le Plan Régional d'Adaptation au Changement Climatique (PRACC Centre-Val de Loire) identifie le département parmi les territoires pilotes bénéficiant d'actions de sensibilisation AP3C",
+    "La ZNIEFF Sologne (une des plus grandes zones naturelles de plaine de France) offre une capacité de régulation thermique et de stockage carbone dans les tourbières et zones humides",
+    "Les températures actuelles restent en dessous des seuils critiques pour les cultures viticoles (AOC Cheverny, Touraine) jusqu'en 2040 selon les projections DRIAS"
+  ],
+  "vigilances": [
+    "Multiplication des jours de sécheresse estivale : déficit hydrique cumulé déjà observé en 2019, 2020, 2022 et 2023 sur la Sologne, avec assèchement des étangs (DREAL Centre-Val de Loire)",
+    "Risque incendie en forte progression : la Sologne, classée en aléa modéré à fort, pourrait basculer en zone à risque équivalent au sud-ouest français d'ici 2060 selon les projections AP3C/INRAE",
+    "Vulnérabilité des zones urbaines de Blois et Vendôme aux îlots de chaleur urbaine, sans relief atténuateur, avec une population âgée exposée (INSEE 2022 : 22% de plus de 65 ans dans le département)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+2,4°C",
+      "label": "Hausse T° moyenne projetée 2060 (SSP2-4.5)"
+    },
+    {
+      "valeur": "~22 jours",
+      "label": "Jours de canicule supplémentaires/an à 2060"
+    },
+    {
+      "valeur": "500 000 ha",
+      "label": "Surface Sologne (risque feux croissant)"
+    },
+    {
+      "valeur": "22%",
+      "label": "Part population >65 ans (vulnérabilité canicule)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2022 (scénarios CMIP6)",
+    "AP3C Centre-Val de Loire",
+    "TRACC SGPE 2023",
+    "DREAL Centre-Val de Loire"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale masquent des disparités internes importantes entre la Beauce (nord) et la Sologne (sud), deux entités climatiques distinctes",
+    "Le risque incendie en Sologne reste sous-évalué dans les outils nationaux calibrés sur les forêts méditerranéennes, biaisant potentiellement la note à la hausse",
+    "Les données de vulnérabilité aux inondations (Loire) sont bien documentées mais l'interaction avec la sécheresse des nappes alluviales à 2060 reste peu modélisée à cette échelle infra-régionale"
+  ]
+}

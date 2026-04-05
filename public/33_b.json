@@ -1,0 +1,66 @@
+{
+  "synthese": "La Gironde présente une biodiversité remarquable, portée par la façade atlantique et ses 80 km de côtes dunaires, la forêt des Landes de Gascogne (premier massif forestier d'Europe avec plus de 500 000 ha en Gironde), le Bassin d'Arcachon et les milieux humides de l'estuaire de la Gironde (60 000 ha, premier estuaire d'Europe occidentale). Le département accueille plus de 150 sites Natura 2000 couvrant environ 25 % de son territoire, avec des habitats d'intérêt communautaire tels que les lagunes littorales, les dunes côtières et les forêts alluviales (INPN, 2024). La LPO Gironde recense plus de 300 espèces d'oiseaux dont des populations significatives de Cigogne blanche, Milan noir et Pipit rousseline, espèces indicatrices de la qualité des milieux (LPO 2023). Le Parc Naturel Régional des Landes de Gascogne, dont une partie significative couvre la Gironde, structure les trames vertes et bleues à l'échelle du territoire, appuyant un réseau de corridors écologiques relativement bien préservé (OFB 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "25% du territoire en Natura 2000, 150+ sites estuaire-littoral-forêt"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Landes de Gascogne, réserves naturelles Banc d'Arguin et Bruges"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "300+ espèces d'oiseaux, Grande Alose, Loutre d'Europe présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors TVB globalement fonctionnels, pression urbaine croissante Bordeaux"
+    }
+  ],
+  "points_forts": [
+    "Plus de 150 sites Natura 2000 couvrant ~25 % du territoire départemental, dont des zones humides d'importance internationale (INPN 2024)",
+    "L'estuaire de la Gironde, premier estuaire d'Europe occidentale (~60 000 ha), abrite des espèces migratrices emblématiques comme la Grande Alose et l'Esturgeon européen (OFB 2024)",
+    "Le Banc d'Arguin, réserve naturelle nationale, constitue l'un des plus importants sites de nidification de Sternes en France (>15 000 couples)",
+    "La forêt landaise (>500 000 ha en Gironde) offre un vaste réservoir de biodiversité forestière et de corridors pour la faune sauvage"
+  ],
+  "vigilances": [
+    "Les incendies de 2022 ont détruit plus de 24 000 ha en Gironde, fragilisant durablement les corridors forestiers et les habitats d'espèces protégées (Préfecture Gironde 2022)",
+    "La pression urbaine autour de la métropole bordelaise (+20 000 habitants/an) fragmente les continuités écologiques identifiées dans le SRCE Nouvelle-Aquitaine",
+    "Le réchauffement climatique menace les milieux dunaires et humides littoraux : élévation du niveau marin projetée à +30-60 cm d'ici 2060 (DRIAS 2023), mettant en péril les habitats Natura 2000 côtiers"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~25 %",
+      "label": "Couverture Natura 2000 du territoire"
+    },
+    {
+      "valeur": "150+",
+      "label": "Sites Natura 2000 recensés (INPN 2024)"
+    },
+    {
+      "valeur": "60 000 ha",
+      "label": "Superficie estuaire de la Gironde"
+    },
+    {
+      "valeur": "500 000 ha",
+      "label": "Massif forestier landais en Gironde"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire de la Biodiversité",
+    "INPN – Inventaire National du Patrimoine Naturel",
+    "LPO Gironde 2023 – Atlas des oiseaux",
+    "DRIAS 2023 – Projections climatiques littoral",
+    "PNR Landes de Gascogne – Rapport annuel 2023"
+  ],
+  "limites": [
+    "Les données sur l'état de conservation réel des habitats Natura 2000 girondins restent partielles, les évaluations exhaustives étant réalisées tous les 6 ans seulement (cycle DCE/OFB)",
+    "L'impact des incendies de 2022 sur la biodiversité forestière n'est pas encore pleinement intégré aux indicateurs de suivi disponibles, rendant l'évaluation des corridors incomplète",
+    "La pression sur les milieux humides de l'estuaire liée à la viticulture intensive (pollutions diffuses, drainage) est insuffisamment documentée à l'échelle départementale fine"
+  ]
+}

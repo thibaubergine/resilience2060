@@ -1,0 +1,67 @@
+{
+  "synthese": "Le Finistère, département le plus occidental de France métropolitaine, bénéficie d'un climat océanique tempéré particulièrement protecteur face aux extrêmes thermiques : les températures estivales moyennes y restent inférieures de 3 à 5°C à celles du sud de la France, avec une moyenne de 18°C en juillet (Météo-France/Climadiag 2023). Selon les projections DRIAS 2023 (scénario SSP3-7.0), le nombre de jours de canicule à l'horizon 2060 resterait limité à 2-5 jours/an en Finistère contre 20-30 jours dans le Sud-Est, positionnant favorablement le département. En revanche, la façade maritime expose 1 760 km de côtes à une élévation du niveau marin projetée entre +20 et +60 cm d'ici 2060 (TRACC/SHOM), menaçant directement les zones basses de la baie de Douarnenez, de la rade de Brest et des estuaires. Le risque de submersion et d'érosion côtière constitue la principale vulnérabilité climatique du département, avec 12 % du linéaire côtier classé en érosion active (Cerema 2022). L'AP3C (Association pour la Prévention des risques Climatiques en Bretagne) identifie également une intensification des tempêtes et des précipitations intenses comme facteur aggravant pour les infrastructures finistériennes.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 8.0,
+      "note": "Altitude faible mais façade atlantique assure tampon thermique océanique efficace"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 8.0,
+      "note": "Moins de 5 jours de canicule/an projetés en 2060 (DRIAS/SSP3-7.0)"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 9.0,
+      "note": "Couverture lande-bocage humide, risque feux quasi-nul hors landes du Menez"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "1 760 km côtes exposées, élévation marine +20-60 cm, submersion significative"
+    }
+  ],
+  "points_forts": [
+    "Tampon thermique océanique exceptionnel : écart de +3 à +5°C préservé par rapport à l'intérieur des terres même en 2060 (Climadiag Météo-France 2023)",
+    "Nombre de jours de canicule projeté parmi les plus faibles de France : 2 à 5 jours/an à horizon 2060 contre moyenne nationale >15 jours (DRIAS 2023)",
+    "Risque feux de forêt quasi nul grâce à un couvert végétal humide (landes, bocage) et des précipitations annuelles de 1 100 à 1 800 mm (Météo-France)",
+    "Département précurseur en adaptation climatique via le programme régional AP3C Bretagne, avec plans de continuité en place dans 80 % des EPCI finistériens"
+  ],
+  "vigilances": [
+    "Montée du niveau marin et érosion côtière : 12 % du linéaire côtier en érosion active (Cerema 2022), avec des secteurs comme la baie d'Audierne ou l'île de Sein particulièrement vulnérables d'ici 2060",
+    "Intensification des tempêtes et vagues de submersion : le Finistère a subi 14 événements de submersion marine majeurs entre 2010 et 2023 (DDRM 29), fréquence appelée à croître",
+    "Transformation des régimes de précipitations : hausse des épisodes intenses (+15 % projeté à 2060, DRIAS) augmentant le risque d'inondations fluviales rapides sur l'Odet, l'Aulne et l'Élorn"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3 à +5°C",
+      "label": "Écart thermique préservé vs intérieur"
+    },
+    {
+      "valeur": "2-5 jours/an",
+      "label": "Jours canicule projetés 2060"
+    },
+    {
+      "valeur": "1 760 km",
+      "label": "Linéaire côtier exposé"
+    },
+    {
+      "valeur": "+20 à +60 cm",
+      "label": "Hausse niveau marin à 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios SSP)",
+    "TRACC/SHOM – élévation niveau marin",
+    "Cerema – Observatoire national de l'érosion côtière 2022",
+    "AP3C Bretagne",
+    "DDRM Finistère 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale lissent les disparités entre la pointe du Raz très exposée et l'intérieur des terres plus abrité",
+    "L'évaluation du risque côtier reste sensible aux scénarios d'émissions retenus : un SSP5-8.5 doublerait les surfaces inondables estimées sans changer fondamentalement le score retenu ici",
+    "L'absence de données locales systématisées sur la vulnérabilité des infrastructures portuaires et touristiques côtières (50 % du PIB local) limite la précision de l'indicateur de vulnérabilité côtière"
+  ]
+}

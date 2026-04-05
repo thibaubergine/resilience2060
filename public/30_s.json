@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente un profil pédologique contrasté, marqué par la diversité de ses substrats géologiques entre plaine littorale, Costières, garrigues calcaires et contreforts cévenols. Le département recense 87 sites BASOL (anciens sites industriels et de service potentiellement pollués), plaçant le Gard dans une situation intermédiaire à l'échelle nationale (GéoRisques/BASOL 2023). La pression phytosanitaire reste significative, notamment sur les zones viticoles des Costières de Nîmes et du Languedoc, avec des résidus de fongicides et d'herbicides détectés dans les sols viticoles (INRAE 2023). Le risque radon est modéré à fort sur la frange cévenole granitique (classe 3 sur certaines communes des Cévennes, IRSN), tandis que les plaines sédimentaires restent peu exposées. La dynamique de l'agriculture biologique reste en progression avec environ 12 % de la SAU certifiée bio (Agence Bio 2023), portée par la viticulture et l'arboriculture, mais en deçà de la moyenne régionale occitane.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "87 sites BASOL recensés, concentration modérée, héritage industriel gardois"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Pression phytosanitaire viticole élevée, fongicides détectés sols Costières"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Risque radon modéré à fort en zone cévenole granitique, communes classe 3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "~12 % SAU bio, viticulture et arboriculture bio dynamiques en Gard"
+    }
+  ],
+  "points_forts": [
+    "Part de SAU en agriculture biologique en hausse, atteignant environ 12 % (Agence Bio 2023), portée par la viticulture biologique des Costières de Nîmes",
+    "Diversité pédologique favorable à des pratiques agricoles variées (sols alluviaux des plaines, argilo-calcaires des Costières), limitant la mono-dépendance aux intrants",
+    "Les garrigues calcaires et massifs cévenols offrent des sols peu artificialisés et à haute valeur écologique, préservés de toute pression agricole intensive (INPN/OFB 2024)",
+    "Dynamique territoriale de réduction des phytosanitaires soutenue par plusieurs MAEC (Mesures Agro-Environnementales et Climatiques) actives dans le département"
+  ],
+  "vigilances": [
+    "Contamination diffuse des sols viticoles par les produits phytosanitaires (cuivre notamment) sur les appellations Costières de Nîmes et Clairette de Bellegarde, avec accumulation cumulée détectée (INRAE 2023)",
+    "Risque d'érosion des sols aggravé par les épisodes cévenols intenses (précipitations > 100 mm/24h fréquentes) et l'imperméabilisation croissante des sols périurbains nîmois, avec projection de dégradation sous climat 2060 (DRIAS 2023)",
+    "Présence de sites pollués hérités des activités minières (bassin d'Alès, mines de charbon et de zinc) dont la réhabilitation reste partielle, avec risque de mobilisation de métaux lourds en cas d'inondation"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "87",
+      "label": "Sites BASOL recensés (2023)"
+    },
+    {
+      "valeur": "~12 %",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Classe 3 (partielle)",
+      "label": "Risque radon zone cévenole (IRSN)"
+    },
+    {
+      "valeur": ">100 mm/24h",
+      "label": "Épisodes pluvieux érosifs fréquents"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Chiffres bio régionaux 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites en cours de traitement actif de ceux simplement surveillés, nuançant la réelle exposition résiduelle des sols gardois",
+    "L'absence de cartographie systématique des teneurs en cuivre des sols viticoles à l'échelle parcellaire limite la précision du diagnostic phytosanitaire pour le Gard",
+    "Les dynamiques d'érosion liées aux épisodes cévenols sont sous-documentées dans les bases nationales standardisées, rendant difficile la comparaison interdépartementale objective"
+  ]
+}

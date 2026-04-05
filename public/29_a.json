@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Finistère bénéficie d'une qualité de l'air globalement favorable, portée par sa position atlantique et des vents dominants d'ouest qui dispersent efficacement les polluants atmosphériques. Les concentrations moyennes en PM2,5 restent inférieures à 10 µg/m³ (ATMO Bretagne, 2023), soit en deçà de la valeur guide OMS 2021 fixée à 5 µg/m³ mais parmi les plus basses du territoire métropolitain. Le NO₂ urbain demeure contenu, avec des valeurs moyennes annuelles autour de 10-15 µg/m³ dans l'agglomération brestoise (ATMO Bretagne, 2022), très en dessous du seuil réglementaire de 40 µg/m³. Le principal défi reste les émissions d'ammoniac (NH₃) liées à l'élevage intensif porcin et avicole, le Finistère figurant parmi les départements bretons les plus contributeurs aux émissions agricoles (Citepa, 2022), pesant sur la qualité de l'air rural et les écosystèmes sensibles via les dépôts azotés.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 < 10 µg/m³, bien sous guide OMS, vents atlantiques favorables"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain Brest ~12 µg/m³, très inférieur au seuil 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Faible densité industrielle lourde, tissu PME agroalimentaire dominant"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "NH₃ élevé, élevages porcins et avicoles intensifs, pression agricole persistante"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 parmi les plus basses de France métropolitaine, inférieures à 10 µg/m³ (ATMO Bretagne, 2023)",
+    "Aucun dépassement des valeurs réglementaires NO₂ enregistré dans l'agglomération brestoise depuis 2019 (ATMO Bretagne)",
+    "Renouvellement naturel de l'air par les vents dominants d'ouest à 15-20 km/h en moyenne annuelle, limitant l'accumulation des polluants",
+    "Absence de grande industrie émettrice de SO₂ ou de métaux lourds sur le territoire, parc industriel à faible empreinte atmosphérique"
+  ],
+  "vigilances": [
+    "Émissions de NH₃ agricoles structurellement élevées : le secteur agricole représente plus de 90 % des émissions d'ammoniac bretonnes (Citepa, 2022), contribuant aux dépôts azotés sur les habitats naturels côtiers",
+    "Qualité de l'air intérieur et brûlage de biomasse en hausse : progression du chauffage bois individuel (+15 % d'installations en Bretagne entre 2018-2023) risquant d'augmenter les pics hivernaux de PM2,5",
+    "Épisodes de pollution transfrontalière par ozone (O₃) lors de périodes anticycloniques estivales, avec dépassements ponctuels du seuil d'information de 180 µg/m³ observés en 2022 (ATMO Bretagne)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 10 µg/m³",
+      "label": "Concentration moyenne PM2,5 (2023)"
+    },
+    {
+      "valeur": "~12 µg/m³",
+      "label": "NO₂ moyen Brest (2022)"
+    },
+    {
+      "valeur": ">90 %",
+      "label": "Part agricole émissions NH₃ Bretagne"
+    },
+    {
+      "valeur": "0",
+      "label": "Dépassements NO₂ réglementaires depuis 2019"
+    }
+  ],
+  "sources": [
+    "ATMO Bretagne – Bilan qualité de l'air 2022-2023",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Citepa – Inventaire des émissions NH₃ par secteur 2022",
+    "DREAL Bretagne – Registre des émissions industrielles 2022"
+  ],
+  "limites": [
+    "Le réseau de mesure ATMO est concentré sur Brest et Quimper, laissant les zones rurales et côtières peu couvertes, sous-estimant potentiellement les pics locaux de NH₃",
+    "L'absence de station de mesure permanente dans le nord-Finistère (Morlaix, Landivisiau) réduit la représentativité des données départementales",
+    "Les données sur les dépôts azotés et leur impact sur la biodiversité côtière finistérienne restent peu consolidées à l'échelle infra-départementale"
+  ]
+}

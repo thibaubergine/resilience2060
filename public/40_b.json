@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Landes constituent l'un des départements les plus riches de France en matière de biodiversité grâce à la diversité exceptionnelle de ses milieux naturels : forêt landaise de pins maritimes (environ 500 000 ha, soit la plus grande forêt cultivée d'Europe), zones humides côtières, courant d'Huchet, étangs et marais. Le département abrite plus de 15 % de sa superficie en zones Natura 2000, couvrant des habitats allant des dunes littorales aux landes atlantiques (INPN 2024). La LPO Landes recense plus de 330 espèces d'oiseaux nicheurs ou de passage, dont la Cistude d'Europe et le Vison d'Europe, espèces emblématiques en forte régression nationale. Le littoral sableux des Landes (environ 106 km) constitue un corridor écologique majeur pour les espèces migratoires et les amphibiens des zones humides arrière-dunaires (OFB 2024). Cependant, la monoculture sylvicole intensive et la pression touristique croissante sur les milieux littoraux fragilisent la dynamique naturelle de plusieurs écosystèmes sensibles.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "Plus de 15% du territoire classé Natura 2000, habitats diversifiés"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "Présence du PNR des Landes de Gascogne, réserves naturelles littorales"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Vison d'Europe, Cistude, Grande Aigrette, espèces prioritaires présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Corridors littoraux et humides fonctionnels mais forêt monospécifique limite connectivité"
+    }
+  ],
+  "points_forts": [
+    "Plus de 100 000 ha classés en zones Natura 2000 (habitats dunaires, marais, landes atlantiques) représentant ~15 % du territoire départemental (INPN 2024)",
+    "Présence du Parc Naturel Régional des Landes de Gascogne (~300 000 ha), véritable sanctuaire pour la faune et la flore des milieux humides et forestiers (PNRLG)",
+    "Le courant d'Huchet, seul fleuve côtier landais à coulement permanent, abrite une biodiversité aquatique et ripicole remarquable, classé Réserve Naturelle Nationale",
+    "Plus de 330 espèces d'oiseaux recensées par la LPO Landes, dont des espèces rares comme le Phragmite aquatique et le Busard des roseaux en halte migratoire"
+  ],
+  "vigilances": [
+    "La dépérissement accéléré de la forêt de pins maritimes face aux attaques du scolyte et à la sécheresse (épisodes 2022-2023 ayant touché plusieurs dizaines de milliers d'hectares) menace à terme la biodiversité forestière associée",
+    "Le Vison d'Europe (Mustela lutreola), espèce en danger critique d'extinction, voit ses populations landaises soumises à la fragmentation croissante des zones humides par les infrastructures routières et la déprise des prairies",
+    "La montée du niveau marin et l'érosion côtière (recul estimé à 1-3 m/an sur certaines portions littorales selon le CEREMA 2023) risquent de détruire des habitats dunaires et arrière-dunaires irremplaçables d'ici 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~15%",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "330+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "~300 000 ha",
+      "label": "Surface PNR Landes de Gascogne"
+    },
+    {
+      "valeur": "106 km",
+      "label": "Linéaire côtier protégé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Landes",
+    "PNR Landes de Gascogne",
+    "CEREMA 2023"
+  ],
+  "limites": [
+    "La proportion de forêt monoculturale de pins maritimes (~500 000 ha) biaise positivement la couverture végétale sans refléter la richesse écologique réelle des écosystèmes forestiers naturels",
+    "Les données sur l'état de conservation détaillé des habitats Natura 2000 landais restent partielles, les rapportages DCE et OFB présentant des lacunes pour les milieux terrestres inter-dunaires",
+    "Le suivi des populations de Vison d'Europe et de Cistude est assuré par des associations locales avec des moyens limités, rendant les tendances populationnelles précises difficiles à établir à l'échelle départementale"
+  ]
+}

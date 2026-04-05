@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département d'Eure-et-Loir présente une qualité de l'air globalement intermédiaire, avec des concentrations en PM2,5 oscillant entre 8 et 12 µg/m³ selon les zones, restant en deçà du seuil réglementaire européen (25 µg/m³) mais dépassant la valeur guide OMS 2021 fixée à 5 µg/m³ (ATMO Centre-Val de Loire, 2023). La plaine beauceronne, dominée par la grande culture céréalière intensive, constitue une source majeure d'émissions d'ammoniac (NH₃), Eure-et-Loir figurant parmi les départements français à forte intensité d'émissions agricoles avec environ 8 000 à 10 000 tonnes NH₃/an estimées (Citepa, 2022). Les niveaux de NO₂ demeurent contenus en dehors de l'agglomération chartraine, grâce à la faible densité urbaine du territoire et à l'absence de grande infrastructure autoroutière majeure de transit. La pression industrielle reste modérée, sans complexe pétrochimique ou sidérurgique lourd, mais quelques établissements classés SEVESO et sites de logistique alimentaire contribuent localement aux émissions de composés organiques volatils (DREAL Centre-Val de Loire, 2023).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 6.0,
+      "note": "PM2,5 ~10 µg/m³, au-dessus seuil OMS 5 µg/m³, sous norme UE"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 7.0,
+      "note": "NO₂ faible hors Chartres, densité urbaine limitée, peu de trafic lourd"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie légère, peu de sites SEVESO lourds, logistique alimentaire dominante"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "Emissions NH₃ élevées, Beauce très intensive, parmi départements les plus émetteurs"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ inférieures à 20 µg/m³ en zone rurale, bien en dessous du seuil OMS de 10 µg/m³ (ATMO Centre-Val de Loire, 2023)",
+    "Absence de grande zone industrielle lourde (pas de site pétrochimique ni sidérurgique), limitant les émissions de SO₂ et métaux lourds (DREAL CVL, 2023)",
+    "Chartres dispose d'un plan de déplacements urbains favorisant les mobilités douces, contribuant à contenir le trafic en centre-ville",
+    "Bonne couverture du réseau de surveillance ATMO permettant un suivi en temps réel sur les principaux pôles urbains du département"
+  ],
+  "vigilances": [
+    "Les émissions de NH₃ agricoles issues des épandages d'engrais azotés et des élevages contribuent significativement à la formation de particules secondaires PM2,5 ; sans réduction des intrants azotés, ce flux restera structurellement élevé (Citepa, trajectoire 2030)",
+    "Les épisodes de pollution printanière liés aux travaux agricoles (poussières, herbicides volatilisés) restent mal quantifiés et peu encadrés, avec un risque accru lors des périodes sèches et venteuses typiques de la Beauce",
+    "L'intensification de la logistique autour des grandes plateformes (axe A11/N10 vers Paris) génère un trafic poids-lourds diesel croissant, avec un risque de dégradation locale de la qualité de l'air à horizon 2030 si la transition vers des flottes propres tarde"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "Concentration moyenne PM2,5"
+    },
+    {
+      "valeur": "<20 µg/m³",
+      "label": "NO₂ moyen zones rurales"
+    },
+    {
+      "valeur": "~8 000-10 000 t/an",
+      "label": "Émissions NH₃ agricoles estimées"
+    },
+    {
+      "valeur": "<5 sites",
+      "label": "Établissements SEVESO seuil haut"
+    }
+  ],
+  "sources": [
+    "ATMO Centre-Val de Loire 2023",
+    "Citepa – Inventaire national émissions 2022",
+    "DREAL Centre-Val de Loire 2023",
+    "OMS Guidelines qualité de l'air 2021"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est concentré sur Chartres et Dreux, laissant la vaste plaine beauceronne peu couverte, ce qui sous-estime potentiellement les pics de pollution agricole saisonniers",
+    "Les émissions diffuses liées aux pratiques phytosanitaires (pesticides volatilisés) ne sont pas intégrées dans les indices de qualité de l'air officiels, créant un angle mort réglementaire majeur pour ce département agricole",
+    "L'absence de données granulaires communales récentes sur les expositions populationnelles aux polluants atmosphériques limite la précision de l'évaluation infra-départementale, notamment pour les populations rurales isolées"
+  ]
+}

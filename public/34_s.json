@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Hérault présente une situation des sols contrastée, marquée par la pression viticole sur environ 110 000 ha de superficie agricole utile (SAU), générant des résidus phytosanitaires significatifs documentés par l'INRAE (2023). Le département compte plusieurs dizaines de sites répertoriés dans l'ex-base BASOL (GéoRisques), héritage industriel notamment autour de Montpellier, Sète et du bassin de Thau. L'agriculture biologique progresse avec environ 17 % de la SAU certifiée bio (Agence Bio 2023), performance supérieure à la moyenne nationale (~10 %), portée par la dynamique viticole bio régionale. Le risque radon reste globalement faible sur la majeure partie du territoire, les formations géologiques calcaires et sédimentaires du littoral présentant une potentialité limitée, à l'exception de quelques secteurs des Avant-Monts (IRSN). La densification urbaine autour de la métropole montpelliéraine exerce une pression croissante sur les terres agricoles, avec une artificialisation estimée parmi les plus élevées de la région Occitanie (CEREMA 2022).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Plusieurs dizaines de sites BASOL, héritage industrialo-portuaire Sète-Montpellier"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Viticulture intensive génère résidus pesticides élevés (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie calcaire-sédimentaire : potentiel radon faible sur littoral-plaine"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "~17% SAU certifiée bio, au-dessus moyenne nationale (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Agriculture biologique : ~17 % de la SAU en bio, soit environ 2e rang régional (Agence Bio 2023)",
+    "Faible risque radon sur plus de 70 % du territoire, zones sédimentaires et calcaires dominantes (IRSN)",
+    "Dynamisme des conversions bio en viticulture, filière structurée par Montpellier SupAgro et les caves coopératives",
+    "Plan Régional de l'Agriculture Durable (PRAD Occitanie) intégrant des mesures de préservation des sols viticoles"
+  ],
+  "vigilances": [
+    "Artificialisation des sols : Hérault parmi les départements les plus consommateurs de foncier agricole (+800 ha/an estimés, CEREMA 2022), menaçant les terres péri-urbaines montpelliéraines",
+    "Résidus phytosanitaires : contamination des sols viticoles par le cuivre (fongicide autorisé en bio) et herbicides, accumulation sur le long terme documentée par INRAE",
+    "Sites pollués BASOL : requalification de friches industrielles et portuaires (Sète, bassin de Thau) nécessitant dépollution coûteuse avant réhabilitation agricole ou naturelle"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~17 %",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "~110 000 ha",
+      "label": "Superficie Agricole Utile totale"
+    },
+    {
+      "valeur": "Rang moyen",
+      "label": "Potentialité radon (IRSN)"
+    },
+    {
+      "valeur": ">800 ha/an",
+      "label": "Artificialisation estimée"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie du potentiel radon",
+    "Agence Bio – Chiffres clés 2023",
+    "CEREMA – Observatoire de l'artificialisation 2022"
+  ],
+  "limites": [
+    "L'ex-base BASOL ne recense que les sites en traitement actif ; de nombreux sites historiques (mines, tanneries, caves vinicoles) de l'Hérault peuvent être sous-répertoriés",
+    "Les données INRAE sur les résidus pesticides dans les sols sont disponibles à l'échelle régionale mais peu désagrégées au niveau départemental précis",
+    "La part de SAU bio masque des disparités internes importantes entre littoral viticole fortement converti et zones céréalières de l'arrière-pays moins engagées dans la transition"
+  ]
+}

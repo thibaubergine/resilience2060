@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Isère présente une situation contrastée pour la qualité de ses sols, avec une pression industrielle historique significative liée à son passé chimique et métallurgique (vallée du Grésivaudan, bassin de Grenoble) qui génère un nombre élevé de sites et sols pollués répertoriés dans la base GéoRisques ex-BASOL. Le département affiche cependant une progression notable de l'agriculture biologique, avec environ 14 % de la SAU convertie en bio (Agence Bio 2023), ce qui place l'Isère au-dessus de la moyenne nationale et limite la pression en résidus de pesticides sur certains secteurs. Le risque radon constitue une préoccupation majeure : l'Isère est classée en zone 3 (risque fort) par l'IRSN sur une large part de son territoire granitique et cristallin (massifs de Belledonne, Vercors, Chartreuse), exposant potentiellement plusieurs centaines de milliers d'habitants. La pression en résidus de pesticides reste modérée à l'échelle départementale mais des zones de grandes cultures en plaine (Bièvre, Valloire) présentent des niveaux de contamination des sols non négligeables selon les suivis INRAE 2023.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Nombreux sites ex-BASOL liés à industrie chimique et métallurgique iséroise"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "Pression pesticides modérée, part bio élevée atténuant contamination plaines"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Large zone radon niveau 3 sur massifs cristallins Belledonne, Chartreuse, Vercors"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 9.0,
+      "note": "~14% SAU bio, rang élevé national, dynamique de conversion soutenue"
+    }
+  ],
+  "points_forts": [
+    "Environ 14 % de la SAU iséroise certifiée en agriculture biologique, au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023)",
+    "Forte dynamique de conversion bio avec +8 % d'exploitations engagées entre 2020 et 2023, soutenue par les politiques régionales AURA",
+    "Sols forestiers et alpins préservés sur les massifs (Chartreuse, Vercors, Belledonne), avec une faible pression agricole intensive en altitude",
+    "Réduction progressive de la pression industrielle sur les sols grâce aux plans de réhabilitation engagés sur les friches de la chimie grenobloise (GéoRisques)"
+  ],
+  "vigilances": [
+    "Risque radon élevé (zone 3 IRSN) sur plus de 60 % du territoire isérois, avec des concentrations intérieures potentiellement supérieures à 300 Bq/m³ dans les habitations anciennes des massifs cristallins",
+    "Héritage industriel lourd : plusieurs dizaines de sites ex-BASOL en cours de traitement dans les vallées industrielles (Grésivaudan, agglomération grenobloise), avec risques de transfert vers les nappes alluviales",
+    "Contamination résiduelle aux pesticides dans les sols de plaines agricoles intensives (Bièvre, Valloire) susceptible de s'aggraver avec les épisodes de sécheresse projetés à l'horizon 2050-2060 (DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~14%",
+      "label": "SAU certifiée bio (2023)"
+    },
+    {
+      "valeur": "Zone 3 IRSN",
+      "label": "Risque radon majoritaire"
+    },
+    {
+      "valeur": ">50 sites",
+      "label": "Sites ex-BASOL actifs"
+    },
+    {
+      "valeur": "6.5/10",
+      "label": "Score sols départemental"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE - Observatoire des résidus pesticides 2023",
+    "IRSN - Cartographie radon zones réglementaires",
+    "Agence Bio - Chiffres clés bio 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie fine et systématique des sols agricoles isérois en dehors des périmètres ex-BASOL limite l'évaluation précise de la contamination diffuse en métaux lourds et pesticides",
+    "Les données INRAE sur les résidus de pesticides dans les sols sont agrégées à l'échelle régionale AURA et ne permettent pas une lecture strictement départementale pour l'Isère",
+    "Le suivi du radon dans les bâtiments reste insuffisant en zones rurales de montagne malgré le classement réglementaire, créant un angle mort sur l'exposition réelle des populations isolées"
+  ]
+}

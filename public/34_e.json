@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Hérault (34) présente une situation hydrique structurellement tendue, caractéristique des départements méditerranéens : avec moins de 700 mm de précipitations annuelles sur les plaines littorales et une demande en eau croissante liée à une population dépassant 1,2 million d'habitants (croissance de +1,5 %/an, INSEE 2023), la pression sur la ressource est parmi les plus élevées de France métropolitaine. Le fleuve Hérault, le Lez et les étangs littoraux constituent des ressources stratégiques mais vulnérables, soumis à des étiages sévères et répétés, notamment documentés lors des crises de 2022 et 2023 (BRGM, arrêtés de restriction). Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de 30 à 50 % à l'horizon 2060 sur les bassins versants côtiers méditerranéens, plaçant l'Hérault en situation de déficit chronique. La qualité des eaux souterraines reste affectée par des contaminations aux nitrates dans les zones viticoles et maraîchères (Agence de l'eau Rhône-Méditerranée-Corse, 2022), ainsi que par des détections de PFAS signalées dans plusieurs captages du département (ARS Occitanie, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Conformité eau potable globale correcte mais captages vulnérables aux pollutions agricoles"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Baisse étiages 30-50 % prévue d'ici 2060, déficit chronique anticipé (Explore2)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 6.0,
+      "note": "Nitrates modérés, zones viticoles concernées mais sous seuil critique majoritairement"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 6.0,
+      "note": "Détections PFAS sur captages littoraux, ampleur encore partiellement documentée"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable distribuée supérieur à 96 % en paramètres bactériologiques (ARS Occitanie, 2023)",
+    "Réseau de surveillance DCE dense sur le bassin Rhône-Méditerranée-Corse permettant un suivi fin des masses d'eau",
+    "Plusieurs zones humides littorales (étang de Thau, Palavas) bénéficiant de plans de gestion et de programmes LIFE contribuant à la recharge",
+    "Engagement du SMEA (syndicat mixte de l'eau et de l'assainissement) dans la sécurisation des interconnexions de réseaux et la diversification des ressources"
+  ],
+  "vigilances": [
+    "Stress hydrique structurel aggravé : les projections Explore2 (2023) indiquent une réduction des débits d'étiage de 30 à 50 % à l'horizon 2060 sur les cours d'eau côtiers méditerranéens héraultais",
+    "Contaminations aux PFAS détectées dans plusieurs captages du département, avec un cadre réglementaire européen (directive 2020/2184) imposant des seuils renforcés dès 2026, nécessitant des investissements importants en traitement",
+    "Pression démographique exceptionnelle (+25 000 habitants/an en Occitanie littorale, INSEE) combinée au tourisme estival (pic à 2,5 millions de touristes) amplifiant les conflits d'usage sur une ressource en eau déjà déficitaire en été"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "-30 à -50 %",
+      "label": "Baisse débit étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": ">96 %",
+      "label": "Conformité bactério eau potable (ARS 2023)"
+    },
+    {
+      "valeur": "1,2 M hab.",
+      "label": "Population départementale (INSEE 2023)"
+    },
+    {
+      "valeur": "+1,5 %/an",
+      "label": "Croissance démographique annuelle"
+    }
+  ],
+  "sources": [
+    "Explore2 (BRGM/OFB 2023)",
+    "ARS Occitanie – Bilan qualité eaux 2023",
+    "Agence de l'eau Rhône-Méditerranée-Corse – DCE 2022",
+    "INSEE – Recensement et projections démographiques 2023"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages héraultais restent partiellement publiées, la cartographie exhaustive étant encore en cours de consolidation par l'ARS Occitanie (campagnes 2023-2024)",
+    "Les projections Explore2 présentent une incertitude élevée à l'échelle sub-départementale, notamment entre les bassins versants cévenols (régime pluvio-nival) et les bassins littoraux (régime méditerranéen pur)",
+    "L'absence de compteurs individuels généralisés et de données consolidées sur les volumes prélevés par l'agriculture viticole limite l'évaluation précise du stress hydrique réel par masse d'eau"
+  ]
+}

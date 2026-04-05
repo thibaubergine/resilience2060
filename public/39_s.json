@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Jura présente un profil pédologique contrasté, avec des sols majoritairement agricoles (SAU de 218 000 ha, soit environ 43 % du territoire) soumis à des pressions variables selon les systèmes de production. La géologie karstique jurassienne rend les sols particulièrement vulnérables aux transferts de polluants vers les nappes souterraines, amplifiant les risques liés aux intrants agricoles (BRGM, 2022). Le département compte 32 sites ou sols pollués recensés dans la base BASIAS et une dizaine de sites actifs ou en surveillance dans l'ancienne base BASOL/GéoRisques, un chiffre modéré au regard de la faible densité industrielle. Le radon constitue une préoccupation notable : le Jura figure parmi les départements à potentiel radon significatif (catégorie 3 partielle, IRSN), lié aux formations granitiques et métamorphiques du Morvan et des Vosges méridionales. La part de SAU conduite en agriculture biologique atteint environ 9 % (Agence Bio, 2023), en progression mais encore inférieure à la moyenne régionale Bourgogne-Franche-Comté (~11 %), reflétant le poids des filières fromagères AOP sous cahier des charges conventionnel.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 7.0,
+      "note": "32 sites BASIAS ; faible pression industrielle, quelques friches surveillées"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Viticulture Arbois et polyculture génèrent résidus pesticides modérés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Potentiel radon catégorie 2-3 ; formations calcaires et cristallines concernées"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "~9 % SAU bio ; progression régulière mais freinée par AOP fromagères"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués actifs : une dizaine de sites BASOL/GéoRisques, densité parmi les plus basses des départements ruraux français",
+    "Progression de l'agriculture biologique : +15 % de surfaces certifiées bio entre 2020 et 2023 (Agence Bio, 2023), tendance favorable",
+    "Sols forestiers préservés : 47 % du territoire boisé (IFN/IGN), limitant l'érosion et le lessivage des polluants",
+    "Cahiers des charges AOP (Comté, Morbier, Mont-d'Or) encadrant les pratiques agricoles et limitant certains intrants chimiques sur ~80 000 ha de zone AOP"
+  ],
+  "vigilances": [
+    "Vulnérabilité karstique élevée : les sols calcaires favorisent le transfert rapide des nitrates et pesticides vers les aquifères, avec des dépassements ponctuels relevés sur certains captages (ARS Bourgogne-Franche-Comté, 2022)",
+    "Pression viticole localisée : le vignoble du Jura (2 100 ha, Bichot/CIVJ) concentre des résidus de fongicides (cuivre, soufre) pouvant s'accumuler dans les horizons superficiels à long terme",
+    "Risque radon sous-estimé : une part des communes rurales en zone de potentiel radon significatif (catégorie 3, IRSN) sans programme de cartographie fine des sols à l'échelle parcellaire"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 sites",
+      "label": "Sites BASOL actifs ou surveillés"
+    },
+    {
+      "valeur": "9 %",
+      "label": "SAU conduite en bio (2023)"
+    },
+    {
+      "valeur": "218 000 ha",
+      "label": "Surface agricole utile totale"
+    },
+    {
+      "valeur": "47 %",
+      "label": "Couverture forestière du territoire"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL-BASIAS 2023",
+    "Agence Bio – Observatoire national 2023",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "INRAE – Résidus pesticides sols agricoles 2023"
+  ],
+  "limites": [
+    "Absence de cartographie pédologique exhaustive à l'échelle parcellaire dans le Jura, rendant difficile l'évaluation fine de la contamination des sols hors zones agricoles déclarées",
+    "Les données BASOL fusionnées dans GéoRisques ne distinguent pas toujours les sites en surveillance passive des sites en dépollution active, sous-estimant potentiellement les risques réels",
+    "La part de SAU bio déclarée intègre les périodes de conversion (3 ans), pouvant surestimer les surfaces effectivement conduites sans intrants de synthèse au moment du recensement"
+  ]
+}

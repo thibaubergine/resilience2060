@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loir-et-Cher couvre 6 343 km² et présente une biodiversité remarquable portée par la Sologne, vaste zone humide intérieure de plus de 500 000 ha, qui constitue l'un des ensembles forestiers et lacustres les plus importants du territoire métropolitain (INPN 2024). Le département abrite 18 sites Natura 2000 couvrant environ 22 % de sa superficie, incluant des habitats d'intérêt communautaire comme les forêts alluviales de la Loire et les landes à bruyères solagnes (OFB 2024). La LPO Centre-Val de Loire recense plus de 250 espèces d'oiseaux nicheurs ou de passage, dont la Cigogne noire, la Pie-grièche écorcheur et plusieurs espèces de milans, témoignant d'une avifaune diversifiée mais sous pression. Les corridors écologiques sont structurés par la Loire (site UNESCO et réservoir TVB national), le Loir et le Cher, mais restent fragilisés par l'intensification agricole sur les plateaux de Beauce et de Vendômois (SRCE Centre-Val de Loire 2015).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "22 % du territoire classé Natura 2000, au-dessus de la moyenne nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNR Sologne en projet avancé ; réserves biologiques ONCFS existantes"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 6.0,
+      "note": "Cigogne noire, Milan royal, Loutre ; populations sensibles mais présentes"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors Loire/Loir fonctionnels ; plateaux beaucerons très fragmentés"
+    }
+  ],
+  "points_forts": [
+    "18 sites Natura 2000 couvrant ~22 % du département, dont la ZPS \"Sologne\" de 170 000 ha (INPN 2024)",
+    "La Sologne concentre plus de 3 000 étangs, habitat prioritaire pour les amphibiens et la faune aquatique (LPO Centre-Val de Loire)",
+    "La Loire, classée UNESCO et réservoir de biodiversité national TVB, traverse 150 km du département avec des habitats alluviaux remarquables",
+    "Présence confirmée de la Loutre d'Europe et du Castor d'Eurasie sur les cours d'eau principaux, espèces indicatrices de bonne qualité écologique (OFB 2024)"
+  ],
+  "vigilances": [
+    "Enrésinement de la Sologne (Douglas, pins) : près de 30 % des forêts solagnes en monoculture, appauvrissement des sous-bois et réduction de la biodiversité forestière (IGN 2022)",
+    "Déclin des populations d'insectes pollinisateurs estimé à -30 % sur les zones de grandes cultures de Beauce depuis 2010, menaçant les services écosystémiques (INRAE 2023)",
+    "Eutrophisation de nombreux étangs solognots liée aux pratiques piscicoles intensives et aux apports azotés agricoles, dégradant les habitats d'amphibiens (Agence de l'Eau Loire-Bretagne)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18",
+      "label": "Sites Natura 2000"
+    },
+    {
+      "valeur": "~22 %",
+      "label": "Superficie Natura 2000"
+    },
+    {
+      "valeur": "3 000+",
+      "label": "Étangs en Sologne"
+    },
+    {
+      "valeur": "250+",
+      "label": "Espèces oiseaux recensées"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Centre-Val de Loire",
+    "SRCE Centre-Val de Loire 2015",
+    "IGN Inventaire forestier 2022"
+  ],
+  "limites": [
+    "L'absence de Parc National et le statut encore non abouti du PNR Sologne limitent la portée réglementaire de la protection de la biodiversité solagnoïde",
+    "Les données de suivi des espèces en Loir-et-Cher reposent largement sur des inventaires participatifs (LPO, associations) sans protocole standardisé départemental exhaustif",
+    "La fragmentation entre zones protégées (Natura 2000) et plateaux agricoles intensifs de Beauce n'est pas intégrée dans un plan d'action TVB opérationnel à l'échelle départementale"
+  ]
+}

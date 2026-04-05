@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Loir-et-Cher affiche une qualité de l'air globalement satisfaisante au regard de sa faible densité urbaine et industrielle, avec des concentrations en PM2,5 estimées entre 8 et 11 µg/m³ selon les stations ATMO Centre-Val de Loire, valeurs inférieures à la moyenne nationale mais dépassant encore le seuil OMS 2021 de 5 µg/m³. Les niveaux de NO₂ restent modérés, les agglomérations de Blois et Vendôme enregistrant des pics ponctuels liés au trafic routier (RN152, A10), sans toutefois franchir les 40 µg/m³ annuels réglementaires européens (ATMO CVL, 2022-2023). Le département est en revanche pénalisé par ses émissions agricoles d'ammoniac (NH₃), la grande céréaliculture et l'élevage générant des flux significatifs inventoriés par le CITEPA, plaçant le 41 parmi les émetteurs intermédiaires de la région. L'absence de grands sites industriels classés Seveso ou de zones portuaires limite les émissions de polluants lourds, conférant au territoire un profil aérien plutôt rural, avec les contraintes inhérentes à l'agriculture intensive.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 7.0,
+      "note": "PM2,5 entre 8-11 µg/m³, sous seuil EU mais au-dessus OMS 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 8.0,
+      "note": "NO₂ faible, Blois sous 40 µg/m³ annuels, trafic limité hors A10"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 8.0,
+      "note": "Peu d'industries émettrices majeures, pas de site Seveso lourd"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "NH₃ agricole élevé, céréaliculture intensive et élevage présents"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en PM2,5 inférieures à 12 µg/m³ sur la majorité du territoire, sous la moyenne nationale (ATMO Centre-Val de Loire, 2023)",
+    "Absence de grande zone industrielle émettrice de polluants lourds (SOx, métaux lourds) : aucun site SEVESO seuil haut actif dans le département (DREAL CVL)",
+    "Qualité de l'air urbain à Blois classée « bonne » ou « très bonne » plus de 300 jours/an selon l'indice ATMO régional",
+    "Forêt de Sologne (>170 000 ha) et espaces naturels jouant un rôle de puits et de tampon contre la dispersion locale des polluants"
+  ],
+  "vigilances": [
+    "Les émissions de NH₃ agricoles représentent plus de 80 % des émissions totales d'ammoniac départementales et contribuent à la formation de PM2,5 secondaires (nitrates d'ammonium), risque d'aggravation avec intensification culturale (CITEPA 2022)",
+    "Épisodes de pollution à l'ozone (O₃) récurrents en été, liés au fort ensoleillement de la plaine de Beauce-Blésois et au précurseurs ruraux agricoles ; tendance à la hausse avec le réchauffement climatique projeté (DRIAS 2060)",
+    "Brûlage des résidus de cultures et chauffage au bois individuel diffus en zone rurale générant des pics hivernaux de PM2,5 et PM10, mal couverts par le réseau de mesure actuel"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8-11 µg/m³",
+      "label": "Concentration PM2,5 moyenne"
+    },
+    {
+      "valeur": "<40 µg/m³",
+      "label": "NO₂ annuel Blois"
+    },
+    {
+      "valeur": ">300 j/an",
+      "label": "Jours qualité air \"bonne\""
+    },
+    {
+      "valeur": "~80 %",
+      "label": "Part NH₃ d'origine agricole"
+    }
+  ],
+  "sources": [
+    "ATMO Centre-Val de Loire – Bilan qualité de l'air 2022-2023",
+    "CITEPA – Inventaire des émissions polluantes 2022 (NH₃, PM)",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DREAL Centre-Val de Loire – Registre SEVESO et sites industriels"
+  ],
+  "limites": [
+    "Le réseau de stations de mesure ATMO est concentré sur Blois et Vendôme ; les zones rurales de Sologne et de la Beauce blésoise restent sous-instrumentées, rendant les estimations rurales peu précises",
+    "L'inventaire CITEPA agrège les émissions NH₃ à l'échelle régionale, sans désagrégation communale fiable pour le Loir-et-Cher, limitant les analyses locales fines",
+    "Les épisodes de brûlage agricole et de chauffage bois diffus ne font pas l'objet d'un suivi temporel continu dans le département, sous-estimant potentiellement les pics hivernaux de PM"
+  ]
+}

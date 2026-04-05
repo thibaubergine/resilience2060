@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Finistère présente une situation contrastée en matière de sols, avec une pression agricole intense liée à l'élevage hors-sol et aux grandes cultures légumières du Léon, générant des résidus de pesticides et des excédents azotés préoccupants (INRAE 2023). Le département compte plusieurs dizaines de sites pollués ou en cours de réhabilitation recensés dans la base ex-BASOL/BASIAS, héritage industriel portuaire de Brest et Quimper notamment. Le risque radon y est significatif : le Finistère figure parmi les départements français les plus exposés, avec des niveaux moyens en lien avec les formations géologiques granitiques et métamorphiques du Massif armoricain (IRSN). La part de la SAU en agriculture biologique reste inférieure à la moyenne nationale malgré une dynamique de conversion en légère progression ces dernières années (Agence Bio 2023), limitant la résilience des sols face à la dégradation physico-chimique. Ces facteurs combinés expliquent le score de 5.5/10, plaçant le Finistère au 36e rang national sur la dimension sols.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Sites ex-BASOL limités; héritage industriel portuaire Brest/Quimper contenu"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Pression pesticides élevée; grandes cultures légumières et maïs ensilage Léon"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 4.0,
+      "note": "Risque radon fort; socle granitique armoricain classe département prioritaire IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio en progression; dynamique conversion portée par filières légumes bio bretons"
+    }
+  ],
+  "points_forts": [
+    "Relativement peu de sites BASOL actifs au regard du tissu industriel présent, avec une majorité de dossiers classés ou en surveillance passive",
+    "Dynamique de conversion bio encourageante : progression des surfaces certifiées bio (Agence Bio 2023), portée par des filières légumes et maraîchage structurées",
+    "Pratiques agro-environnementales en développement dans le cadre du programme Breizh Bocage, favorisant la restauration des sols sous couverture végétale",
+    "Présence de sols à forte capacité de séquestration carbone dans les zones humides et tourbières du Finistère intérieur (Monts d'Arrée)"
+  ],
+  "vigilances": [
+    "Contamination diffuse des sols agricoles par les pesticides (fongicides et herbicides sur pomme de terre et maïs), avec détection de résidus persistants dans les horizons superficiels selon INRAE 2023",
+    "Exposition au radon particulièrement prégnante dans les zones de socle granitique (Crozon, Monts d'Arrée) : des bâtiments résidentiels dépassent 300 Bq/m³, seuil d'action recommandé",
+    "Risque de compaction et d'érosion des sols liés à la mécanisation lourde en zones légumières intensives du Nord-Finistère, fragilisant la structure physique des terres à long terme"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~60",
+      "label": "Sites BASOL/BASIAS suivis (29)"
+    },
+    {
+      "valeur": "4e rang national",
+      "label": "Exposition radon (IRSN)"
+    },
+    {
+      "valeur": "~8%",
+      "label": "Part SAU bio Finistère (2023)"
+    },
+    {
+      "valeur": ">40 kg/ha",
+      "label": "Excédent azoté agricole estimé (INRAE)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / base ex-BASOL 2023",
+    "INRAE – Observatoire des résidus de pesticides 2023",
+    "IRSN – Cartographie du risque radon par département",
+    "Agence Bio – Statistiques régionales Bretagne 2023"
+  ],
+  "limites": [
+    "L'absence de réseau de surveillance pédologique systématique à l'échelle du Finistère limite la connaissance fine de l'état chimique et biologique des sols agricoles",
+    "Les données ex-BASOL ne couvrent pas les contaminations diffuses d'origine agricole, sous-estimant le risque réel sur les sols ruraux du département",
+    "La variabilité géologique entre le littoral sédimentaire, les massifs granitiques et les zones métamorphiques rend difficile toute généralisation départementale du risque radon et de la qualité des sols"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "synthese": "L'Ille-et-Vilaine est l'un des principaux départements agricoles bretons avec une Surface Agricole Utile (SAU) d'environ 450 000 ha, représentant près de 65% du territoire départemental (Agreste 2023). Le département affiche une dynamique notable en agriculture biologique, avec environ 12% de la SAU certifiée bio en 2023, légèrement au-dessus de la moyenne nationale de 10,7% (Agence Bio 2023). L'autonomie alimentaire est soutenue par une production diversifiée couvrant élevage laitier, porcin, maraîchage et céréales, bien que les circuits d'approvisionnement restent largement tournés vers l'export industriel (ZAVA 2024). La densité en signes de qualité (AOP/IGP) demeure modeste comparée à d'autres régions françaises, avec quelques indications géographiques notables comme le Beurre de Bretagne et le Poulet de Bretagne IGP (INAO 2023). Le réseau d'AMAP et de circuits courts est relativement développé autour de Rennes, avec plus de 80 AMAP recensées dans le département (MIRAMAP 2023), reflétant une demande urbaine croissante pour une alimentation de proximité.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "SAU étendue, production diversifiée, mais dépendance export industriel"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 5.0,
+      "note": "Peu d'AOP/IGP ; quelques IGP bretonnes à portée limitée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~12% SAU bio, au-dessus moyenne nationale, dynamique croissante"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 80 AMAP, réseau circuits courts dense autour Rennes"
+    }
+  ],
+  "points_forts": [
+    "Agriculture biologique en progression : ~12% de la SAU certifiée bio en 2023, contre 10,7% en moyenne nationale (Agence Bio 2023)",
+    "Réseau dense de circuits courts avec plus de 80 AMAP recensées, principalement concentrées dans l'aire urbaine rennaise (MIRAMAP 2023)",
+    "SAU importante (~450 000 ha, 65% du territoire) garantissant une capacité productive locale significative (Agreste 2023)",
+    "Projet Alimentaire Territorial (PAT) de Rennes Métropole labellisé niveau 2, favorisant la structuration des filières locales (MAA 2023)"
+  ],
+  "vigilances": [
+    "Dépendance forte aux filières agro-industrielles porcines et avicoles, vulnérables aux crises sanitaires (grippe aviaire H5N1, cycles de peste porcine africaine) et aux fluctuations des marchés mondiaux",
+    "Pression foncière croissante autour de Rennes (3ème ville de France en croissance démographique) menaçant la préservation des terres agricoles périurbaines à horizon 2030",
+    "Faible diversification des signes de qualité officiels (AOP/IGP) limitant la valorisation économique locale et la résilience face aux stratégies de bas prix de la grande distribution"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~12%",
+      "label": "Part SAU en bio (2023)"
+    },
+    {
+      "valeur": "80+",
+      "label": "AMAP actives dans le 35"
+    },
+    {
+      "valeur": "450 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "3 IGP",
+      "label": "Signes qualité officiels bretons"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2023",
+    "ZAVA 2024",
+    "Agreste Bretagne 2023",
+    "MIRAMAP 2023",
+    "MAA – Projets Alimentaires Territoriaux 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire agrègent souvent à l'échelle régionale Bretagne, rendant l'estimation infra-départementale pour le seul Ille-et-Vilaine imprécise",
+    "Le nombre d'AMAP et de points de vente en circuits courts varie selon les référentiels (MIRAMAP, RnPAT, chambres d'agriculture), sans base exhaustive unifiée au niveau départemental",
+    "La part de SAU bio peut fluctuer annuellement selon les conversions et déconversions ; les chiffres 2023 sont provisoires et susceptibles de révision par l'Agence Bio en 2024"
+  ]
+}

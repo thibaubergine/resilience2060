@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gers présente un profil pédologique globalement favorable, caractérisé par des sols argilo-calcaires et des molasses du Miocène dominants, propices à l'agriculture mais sensibles à la compaction et à l'érosion hydrique. Avec seulement 28 sites BASOL recensés sur le département (GéoRisques 2023), la pression industrielle sur les sols reste historiquement faible, reflet d'un tissu économique essentiellement agricole. Cependant, l'intensification agricole passée a laissé des traces : les analyses INRAE (2023) placent le Gers parmi les départements à résidus pesticides détectables significatifs dans les sols, notamment en lien avec la viticulture armagnacaise et la grande culture maïsicole. La part de SAU en agriculture biologique atteint environ 9,2 % (Agence Bio 2023), soit un niveau légèrement supérieur à la moyenne nationale (10,7 %), témoignant d'une transition encore incomplète. Le risque radon reste faible à modéré sur l'essentiel du territoire gersois, les formations géologiques tertiaires sédimentaires générant peu d'émanations (IRSN 2022).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 8.0,
+      "note": "28 sites BASOL seulement, faible pression industrielle historique"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Résidus pesticides élevés, viticulture et maïsiculture intensives détectés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Géologie sédimentaire tertiaire, risque radon faible à modéré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "SAU bio ~9,2 %, progression régulière mais sous moyenne Occitanie"
+    }
+  ],
+  "points_forts": [
+    "Faible densité de sites pollués : 28 sites BASOL pour 6 257 km², soit l'un des ratios les plus bas d'Occitanie (GéoRisques 2023)",
+    "Risque radon classé majoritairement en catégorie 1 (faible) sur 80 % des communes gersoises (IRSN 2022)",
+    "Progression de l'agriculture biologique : +1,8 point de SAU bio entre 2020 et 2023 (Agence Bio 2023)",
+    "Sols argilo-calcaires profonds offrant une bonne capacité de rétention et de filtration naturelle des polluants"
+  ],
+  "vigilances": [
+    "Contamination aux pesticides préoccupante : le Gers figure parmi les 20 départements à plus forte utilisation de produits phytosanitaires en grandes cultures et viticulture (IFT INRAE 2023), avec risque de persistance dans les sols argileux",
+    "Érosion hydrique en hausse : les projections climatiques DRIAS 2060 anticipent une augmentation des épisodes de pluies intenses automnales pouvant accentuer le ruissellement sur les coteaux gersois déjà sensibles",
+    "Compaction des sols agricoles par mécanisation lourde, risque structurel aggravé par l'alternance sécheresse/précipitations intenses projetée à horizon 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "28",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "9,2 %",
+      "label": "SAU en agriculture bio (2023)"
+    },
+    {
+      "valeur": "80 %",
+      "label": "Communes à risque radon faible (cat. 1)"
+    },
+    {
+      "valeur": "6 257 km²",
+      "label": "Surface départementale analysée"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie radon 2022",
+    "Agence Bio – Chiffres et résultats 2023"
+  ],
+  "limites": [
+    "L'inventaire BASOL sous-estime probablement les pollutions diffuses agricoles, non répertoriées dans la base de données des sites industriels",
+    "Les données INRAE sur les résidus pesticides dans les sols gersois reposent sur un réseau de points de mesure encore insuffisant pour cartographier finement les hotspots locaux",
+    "La part de SAU bio déclarée peut inclure des parcelles en conversion récente, rendant difficile l'évaluation de la qualité réelle des sols en transition"
+  ]
+}

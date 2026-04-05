@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Garonne présente un profil de biodiversité globalement favorable, porté par la présence du massif pyrénéen au sud et de la vallée de la Garonne qui constituent des réservoirs écologiques majeurs. Le département compte environ 18 % de sa superficie couverte par des zones Natura 2000, incluant des habitats d'intérêt communautaire comme les forêts alluviales et les pelouses calcaires (INPN, 2024). Plus de 350 espèces végétales protégées y sont recensées, ainsi que des espèces emblématiques telles que l'Ours brun, le Desman des Pyrénées et le Grand Tétras dans le piémont pyrénéen (OFB, 2024). Le Parc National des Pyrénées en bordure du département et la Réserve naturelle régionale de la Confluence Garonne-Ariège renforcent le dispositif de protection, mais la pression urbaine autour de Toulouse, première métropole du Sud-Ouest, fragilise les continuités écologiques en plaine.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 7.0,
+      "note": "Environ 18% de superficie Natura 2000, corridors pyrénéens et garonnais inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 7.0,
+      "note": "PNP en bordure, RNR Confluence, ENS actifs sur secteurs alluviaux"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Ours brun, Desman des Pyrénées, Grand Tétras, loutre présents"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 6.0,
+      "note": "Corridors fragilisés par étalement urbain toulousain et axes routiers"
+    }
+  ],
+  "points_forts": [
+    "Présence du Desman des Pyrénées et de l'Ours brun, espèces à haute valeur patrimoniale recensées dans les zones pyrénéennes du département (OFB, 2024)",
+    "Environ 18 % du territoire couvert par des sites Natura 2000 (ZSC et ZPS), dont la vallée de la Garonne et les Petites Pyrénées (INPN, 2024)",
+    "Réserve naturelle régionale de la Confluence Garonne-Ariège, hotspot d'oiseaux migrateurs et de végétation alluviale relictuelle",
+    "Plus de 2 500 espèces de plantes vasculaires inventoriées sur le département, grâce au gradient altitudinal plaine-montagne (CBP-OPP, 2023)"
+  ],
+  "vigilances": [
+    "L'étalement urbain de Toulouse Métropole (+15 000 ha artificialisés entre 2000 et 2023) fragmente les corridors écologiques en plaine, menaçant la TVB (Cerema, 2023)",
+    "Le réchauffement climatique projette une remontée des espèces montagnarde vers des altitudes plus élevées, réduisant les habitats disponibles pour le Grand Tétras et le Desman d'ici 2060 (DRIAS, 2024)",
+    "La qualité des ripisylves de la Garonne reste dégradée par les activités agricoles intensives en plaine, limitant la fonctionnalité des corridors aquatiques (Agence de l'Eau Adour-Garonne, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "350+",
+      "label": "Espèces végétales protégées"
+    },
+    {
+      "valeur": "2 500+",
+      "label": "Espèces plantes vasculaires"
+    },
+    {
+      "valeur": "1 RNR + PNP",
+      "label": "Aires protégées majeures"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Haute-Garonne",
+    "Agence de l'Eau Adour-Garonne 2023",
+    "Cerema / SRADDET Occitanie 2023"
+  ],
+  "limites": [
+    "Les données de suivi des populations d'ours et de Grand Tétras sont partielles et sensibles, rendant difficile une évaluation précise de l'état des populations pyrénéennes",
+    "La cartographie des continuités écologiques (TVB) en plaine toulousaine reste insuffisamment actualisée face à la vitesse de l'artificialisation des sols",
+    "Les inventaires de biodiversité ordinaire (insectes, champignons, invertébrés) sont très lacunaires hors zones Natura 2000, sous-estimant potentiellement la richesse réelle du département"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "synthese": "La Gironde présente un profil alimentaire solide, porté par un vignoble d'exception couvrant environ 111 000 hectares et générant plus de 14 milliards d'euros de chiffre d'affaires annuel (CIVB 2023), avec une concentration d'appellations viticoles unique en France (INAO 2024). La Surface Agricole Utile (SAU) départementale atteint environ 330 000 ha, dont près de 8,5% certifiée en agriculture biologique, légèrement en dessous de la moyenne nationale de 10,7% mais en progression constante (Agence Bio 2023). Le département compte une quarantaine de marchés de producteurs et plusieurs dizaines d'AMAP actives, concentrées autour de la métropole bordelaise, traduisant une demande urbaine forte pour les circuits courts (CIVAM Gironde 2023). La dépendance structurelle à la monoculture viticole fragilise l'autonomie alimentaire locale, la vigne occupant l'essentiel des meilleures terres et limitant la diversification vers des productions vivrières (ZAVA 2024). Les risques climatiques croissants — gel tardif de 2021, épisodes de mildiou et de grillure — menacent la pérennité du modèle agricole girondin à l'horizon 2040-2060 (Climadiag 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "Monoculture viticole dominante limite diversification alimentaire locale (ZAVA 2024)"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 9.0,
+      "note": "Concentration exceptionnelle AOP viticoles : 57 appellations, première concentration nationale"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "8,5% SAU bio, progression mais sous moyenne nationale de 10,7% (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Réseau AMAP actif autour Bordeaux, quarantaine marchés producteurs identifiés"
+    }
+  ],
+  "points_forts": [
+    "57 appellations AOP/IGP viticoles classées par l'INAO, première densité d'appellations en France sur un territoire départemental",
+    "Vignoble bordelais : 111 000 ha, 14 Mds€ de CA annuel, vitrine internationale du terroir français (CIVB 2023)",
+    "Progression de l'agriculture biologique : +12% de surfaces certifiées entre 2020 et 2023, dynamique portée par la demande métropolitaine bordelaise (Agence Bio 2023)",
+    "Réseau de circuits courts structuré : plusieurs dizaines d'AMAP et marchés de producteurs, renforcé par le PAT (Projet Alimentaire Territorial) de Bordeaux Métropole labellisé en 2021"
+  ],
+  "vigilances": [
+    "Vulnérabilité de la viticulture au changement climatique : hausse des températures de +1,5°C à +3°C projetée à 2060, risque accru de grillure des raisins et avancement des vendanges de 3 semaines (Climadiag 2024)",
+    "Faible autonomie alimentaire en protéines végétales et céréales vivrières : la vigne monopolise les meilleures terres et freine la diversification vers des cultures alimentaires locales (ZAVA 2024)",
+    "Pression foncière intense autour de Bordeaux Métropole (3e aire urbaine française) menaçant le maintien des terres agricoles périurbaines et la viabilité économique des maraîchers en circuits courts"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "111 000 ha",
+      "label": "Surface vignoble girondin"
+    },
+    {
+      "valeur": "57",
+      "label": "Appellations AOP/IGP (INAO 2024)"
+    },
+    {
+      "valeur": "8,5%",
+      "label": "SAU certifiée bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "330 000 ha",
+      "label": "SAU totale départementale"
+    }
+  ],
+  "sources": [
+    "INAO 2024 – Registre des signes de qualité",
+    "Agence Bio 2023 – Statistiques par département",
+    "CIVB 2023 – Observatoire économique du vignoble bordelais",
+    "ZAVA 2024 – Zones à vocation agricole et alimentaire",
+    "Climadiag Gironde 2024 – Météo-France/TRACC"
+  ],
+  "limites": [
+    "La surreprésentation de la viticulture dans les indicateurs AOP/IGP masque une réelle fragilité en termes de diversité alimentaire locale, rendant la note difficile à comparer avec des départements à agriculture plus diversifiée",
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent partielles pour la Gironde, le périmètre d'analyse ne distinguant pas toujours production vivrière et production de rente viticole",
+    "L'attractivité de Bordeaux Métropole génère des flux alimentaires extra-départementaux importants difficiles à quantifier, sous-estimant probablement la dépendance alimentaire réelle du territoire"
+  ]
+}

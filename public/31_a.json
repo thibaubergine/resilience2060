@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Garonne présente une qualité de l'air contrastée, dominée par la pression de l'agglomération toulousaine (plus d'un million d'habitants), 2e plus grande ville de France, générant des concentrations de NO₂ urbain régulièrement supérieures aux seuils OMS 2021 (10 µg/m³). Selon ATMO Occitanie, les PM2,5 annuelles moyennes oscillent autour de 10-12 µg/m³ sur Toulouse, dépassant la valeur guide OMS de 5 µg/m³ mais restant en dessous des seuils réglementaires européens. Le trafic routier demeure le premier contributeur aux émissions de NOx (environ 40% des émissions départementales selon Citepa/ATMO Occitanie), aggravé par une congestion chronique et un réseau autoroutier dense (A61, A62, A64, A68). Le secteur agricole du nord du département (Lauragais) contribue significativement aux émissions d'ammoniac (NH₃), tandis que la présence d'industries aéronautiques (Airbus, secteur de Blagnac) génère des émissions de composés organiques volatils non méthaniques (COVNM) spécifiques.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 5.0,
+      "note": "PM2,5 ~11 µg/m³ sur Toulouse, double seuil OMS 2021 de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ urbain toulousain élevé, trafic dense, axes autoroutiers multiples"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie aéronautique localisée (Blagnac), hors zones d'émission diffuse majeure"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 7.0,
+      "note": "Lauragais céréalier contributeur NH₃ modéré, élevage limité département"
+    }
+  ],
+  "points_forts": [
+    "Plan de Protection de l'Atmosphère (PPA) de Toulouse en vigueur, révisé avec des objectifs renforcés pour 2025 (ATMO Occitanie)",
+    "Réseau de surveillance dense : 15+ stations de mesure ATMO Occitanie couvrant l'ensemble du département, dont stations périurbaines et rurales",
+    "Part modale des transports en commun en hausse à Toulouse Métropole : +8% de fréquentation du métro entre 2020 et 2023, réduisant les émissions liées au trafic",
+    "Tendance baisse long terme des émissions SOx et NOx industriels, conformément aux trajectoires nationales Citepa : -30% NOx en 10 ans sur le périmètre régional"
+  ],
+  "vigilances": [
+    "Épisodes de pollution hivernale aux PM2,5 récurrents dans le bassin toulousain (topographie favorisant l'accumulation), avec déclenchement de procédures d'information plusieurs fois par an selon ATMO Occitanie",
+    "Développement urbain et péri-urbain soutenu (croissance démographique +1,5%/an parmi les plus fortes de France) risquant d'accroître les émissions liées au trafic malgré les efforts de report modal",
+    "Émissions de COV liées au secteur aéronautique (peintures, solvants) et risque de dépassement local des seuils, nécessitant un suivi renforcé dans la zone de Blagnac-Colomiers"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "PM2,5 annuel moyen Toulouse"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "40%",
+      "label": "Part trafic dans émissions NOx dép."
+    },
+    {
+      "valeur": "15+",
+      "label": "Stations surveillance ATMO Occitanie"
+    }
+  ],
+  "sources": [
+    "ATMO Occitanie – Bilan qualité de l'air 2022-2023",
+    "Citepa – Inventaire national des émissions 2023",
+    "OMS – Lignes directrices qualité de l'air 2021",
+    "Plan de Protection de l'Atmosphère Toulouse (Préfecture 31)"
+  ],
+  "limites": [
+    "Les données ATMO Occitanie sont plus représentatives de l'agglomération toulousaine que des zones rurales du nord (Lauragais) et du sud (piémont pyrénéen) du département, créant un biais urbain dans l'évaluation",
+    "L'absence de station de mesure permanente sur plusieurs communes périurbaines en forte croissance (Colomiers, Muret, Tournefeuille) limite la précision des estimations d'exposition réelle de la population",
+    "Les émissions du transport aérien (aéroport Toulouse-Blagnac, 10 millions de passagers/an) sont mal intégrées dans les bilans départementaux standards, sous-estimant potentiellement l'impact local sur la qualité de l'air"
+  ]
+}

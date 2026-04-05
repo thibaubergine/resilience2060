@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Jura bénéficie d'une ressource en eau globalement abondante grâce à ses massifs karstiques et ses nombreux cours d'eau (Ain, Loue, Bienne, Cuisance), avec un débit moyen annuel du réseau hydrographique parmi les plus élevés de la région (ARS BFC, 2023). La qualité de l'eau potable distribuée est satisfaisante pour environ 85 % de la population jurassienne, bien que certaines communes rurales et zones karstiques présentent des vulnérabilités bactériologiques et des dépassements ponctuels de pesticides (ARS, bilan 2022). La contamination aux nitrates reste modérée comparativement aux grandes plaines céréalières françaises, avec la majorité des masses d'eau souterraine en dessous du seuil d'alerte de 50 mg/L, même si la pression agricole sur les plateaux comtois engendre des épisodes de dégradation (DCE, état des lieux 2022). Les projections Explore2 (2023) indiquent une réduction possible des débits d'étiage de 20 à 40 % à l'horizon 2060 sur les bassins versants jurassiens, avec une accentuation des sécheresses estivales susceptible de fragiliser les aquifères karstiques, particulièrement sensibles aux variations climatiques. La présence de PFAS constitue un risque émergent documenté localement, notamment à proximité des zones industrielles et des anciens sites de traitement de l'eau (ANSES, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.5,
+      "note": "85% population alimentée en eau conforme ; vulnérabilités karstiques ponctuelles"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 6.0,
+      "note": "Réduction étiages 20-40% prévue horizon 2060 (Explore2) sur cours d'eau jurassiens"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 7.5,
+      "note": "Nitrates majoritairement sous 25 mg/L ; pression agricole modérée sur plateaux"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 7.0,
+      "note": "PFAS détectés ponctuellement ; surveillance renforcée zones industrielles (ANSES 2023)"
+    }
+  ],
+  "points_forts": [
+    "Ressource hydrique abondante : réseau hydrographique dense avec plus de 3 000 km de cours d'eau classés (INPN, 2023)",
+    "Qualité des eaux souterraines karstiques globalement bonne, avec 70 % des masses d'eau en bon état chimique (DCE, état des lieux 2022)",
+    "Contamination aux nitrates faible à modérée, la plupart des captages AEP sous le seuil de vigilance de 25 mg/L (ARS BFC, 2022)",
+    "Politique de préservation des captages active : plusieurs aires d'alimentation de captage (AAC) engagées dans des démarches de protection réglementaire (Agence de l'eau RMC, 2023)"
+  ],
+  "vigilances": [
+    "Réduction projetée des débits d'étiage de 20 à 40 % à l'horizon 2060 sur le bassin versant de l'Ain et de la Loue (Explore2, 2023), menaçant l'alimentation en eau potable estivale",
+    "Vulnérabilité intrinsèque élevée des systèmes karstiques aux contaminations bactériologiques et pesticides, avec des épisodes de non-conformité post-orages récurrents (ARS, 2022)",
+    "Détection croissante de PFAS dans certaines eaux brutes jurassiennes, nécessitant des traitements coûteux et une surveillance renforcée au regard des nouvelles valeurs-seuils européennes (ANSES, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "3 000 km",
+      "label": "Linéaire cours d'eau classés"
+    },
+    {
+      "valeur": "85 %",
+      "label": "Population eau conforme ARS"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction étiages 2060 (Explore2)"
+    },
+    {
+      "valeur": "70 %",
+      "label": "Masses d'eau bon état chimique"
+    }
+  ],
+  "sources": [
+    "ARS Bourgogne-Franche-Comté, bilan qualité eaux 2022",
+    "Agence de l'eau Rhône-Méditerranée-Corse, état des lieux DCE 2022",
+    "Explore2, projections hydrologiques 2023",
+    "ANSES, campagne nationale PFAS 2023"
+  ],
+  "limites": [
+    "Les données PFAS restent partielles pour le Jura, la campagne nationale ANSES 2023 ne couvrant pas l'ensemble des captages départementaux",
+    "L'hétérogénéité des systèmes karstiques rend difficile une évaluation homogène de la qualité des eaux souterraines à l'échelle du département",
+    "Les projections Explore2 présentent une incertitude élevée sur les aquifères karstiques jurassiens, dont les dynamiques de recharge restent difficiles à modéliser"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Ille-et-Vilaine présente une situation préoccupante pour la qualité des sols, reflet d'une agriculture intensive historiquement dominée par l'élevage hors-sol et les grandes cultures. Le département enregistre une contamination significative des sols agricoles par les pesticides, avec des résidus de fongicides et d'herbicides détectés dans plus de 60 % des parcelles échantillonnées selon les données INRAE 2023, notamment en lien avec les cultures de céréales et de maïs fourrager. On dénombre environ 150 sites et sols pollués recensés sur la base ex-BASOL/GéoRisques, héritage industriel concentré autour de Rennes et de l'axe Vitré-Redon. Le risque radon reste modéré à faible sur une majorité du territoire, les formations géologiques granitiques étant moins présentes qu'en Finistère ou dans les Côtes-d'Armor, bien que quelques secteurs du pays de Vitré présentent un niveau 2 (IRSN). La part de la SAU conduite en agriculture biologique demeure inférieure à la moyenne nationale (environ 7 % contre 10,7 % en France en 2023), malgré une progression régulière portée par l'Agence Bio Bretagne.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 150 sites ex-BASOL, concentration autour de Rennes et Vitré"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 4.0,
+      "note": "Résidus pesticides élevés, céréales et maïs fourrager très présents (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Risque radon majoritairement faible, quelques zones niveau 2 à Vitré"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~7%, en dessous de la moyenne nationale 10,7% (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible à modéré sur 80 % du territoire départemental (IRSN)",
+    "Nombre de sites ex-BASOL maîtrisé (≈150) rapporté à la surface et à l'activité industrielle du département (GéoRisques)",
+    "Progression de l'agriculture biologique : +12 % du nombre de fermes bio en Ille-et-Vilaine entre 2020 et 2023 (Agence Bio)",
+    "Présence de Plans de Prévention des Risques Technologiques (PPRT) actifs autour des sites industriels sensibles de la métropole rennaise"
+  ],
+  "vigilances": [
+    "Contamination des sols agricoles par les pesticides : les zones maraîchères périurbaines et les bassins versants céréaliers (Vilaine amont) montrent des indices de pression phytosanitaire parmi les plus élevés de Bretagne (INRAE 2023)",
+    "Artificialisation des sols en forte progression autour de Rennes Métropole : le département est l'un des plus dynamiques de France en termes de consommation foncière, avec un rythme estimé à ~600 ha/an (CEREMA/Observatoire régional)",
+    "Risque de dégradation de la matière organique des sols sous l'effet conjugué du tassement par engins agricoles lourds et du changement climatique (sécheresses estivales projetées à horizon 2050-2060, DRIAS)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~150",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "~7 %",
+      "label": "SAU conduite en bio (2023)"
+    },
+    {
+      "valeur": ">60 %",
+      "label": "Parcelles avec résidus pesticides détectés"
+    },
+    {
+      "valeur": "Niveau 1-2",
+      "label": "Zonage radon majoritaire (IRSN)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Qualité des sols agricoles 2023",
+    "IRSN – Cartographie du risque radon",
+    "Agence Bio – Observatoire national 2023"
+  ],
+  "limites": [
+    "L'absence de cartographie systématique des teneurs en pesticides à l'échelle parcellaire en Ille-et-Vilaine rend difficile une spatialisation précise des zones les plus exposées",
+    "Les données ex-BASOL ne couvrent pas les sites sous surveillance administrative légère ni les pollutions diffuses agricoles non répertoriées officiellement",
+    "La mesure de la part de SAU bio ne rend pas compte de la qualité réelle des sols en agriculture conventionnelle, ni des pratiques agroécologiques intermédiaires (HVE, couverts hivernaux) en progression sur le département"
+  ]
+}

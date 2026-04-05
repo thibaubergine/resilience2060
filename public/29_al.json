@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Finistère présente un profil alimentaire solide, porté par une agriculture diversifiée couvrant environ 553 000 ha de SAU, avec une orientation marquée vers l'élevage laitier, porcin et légumier (Agreste 2023). La part de la SAU en agriculture biologique atteint environ 7,5 % en 2023, légèrement en deçà de la moyenne bretonne mais en progression constante (Agence Bio 2023). Le département compte plusieurs indications géographiques protégées notables, notamment le Chou-fleur de Bretagne et les Fraises de Plougastel, bien que la densité d'IGP/AOP reste modérée à l'échelle nationale (INAO 2024). L'autonomie alimentaire territoriale (ZAVA) est renforcée par une production légumière significative — le Finistère représente environ 30 % de la production nationale de choux-fleurs — et par un tissu dense de circuits courts et d'AMAP estimé à plus de 80 structures actives sur le département (RnPAT 2023). La pression agricole intensive, notamment en zones légumières et d'élevage concentré, demeure un défi pour la qualité des sols et la transition agroécologique.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.5,
+      "note": "Production légumière et laitière forte, bon ancrage alimentaire local ZAVA"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques IGP/AOP présentes mais densité limitée face à d'autres régions"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.5,
+      "note": "Part bio ~7,5 % SAU, progression régulière mais inférieure objectifs PAC"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 8.0,
+      "note": "Plus de 80 AMAP et circuits courts actifs, dynamisme territorial reconnu"
+    }
+  ],
+  "points_forts": [
+    "Le Finistère assure environ 30 % de la production nationale de choux-fleurs, faisant du département un pilier de la souveraineté légumière française (Agreste 2023)",
+    "Plus de 80 structures de circuits courts et AMAP recensées, avec une couverture territoriale étendue incluant les zones rurales (RnPAT / DRAAF Bretagne 2023)",
+    "L'agriculture biologique couvre environ 41 000 ha de SAU en progression de +12 % sur cinq ans, soutenue par des politiques régionales actives (Agence Bio 2023)",
+    "La diversification des productions (légumes, lait, porcs, artisanat alimentaire marin) confère au territoire une autonomie alimentaire relative élevée selon l'indice ZAVA 2024"
+  ],
+  "vigilances": [
+    "La concentration de l'élevage porcin et laitier génère des pressions sur la qualité de l'eau et des sols pouvant fragiliser à terme la durabilité du système alimentaire (DRAAF 2023)",
+    "Le changement climatique d'ici 2060 pourrait affecter les rendements légumiers côtiers via l'augmentation des événements de sécheresse printanière et de salinisation des nappes (DRIAS 2024)",
+    "La dépendance aux intrants et aux grandes filières agro-industrielles bretonnes limite la résilience locale en cas de perturbation des chaînes d'approvisionnement (Chambre d'Agriculture Finistère 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~553 000 ha",
+      "label": "Surface agricole utile (SAU)"
+    },
+    {
+      "valeur": "~7,5 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "~30 %",
+      "label": "Part production nationale choux-fleurs"
+    },
+    {
+      "valeur": "80+",
+      "label": "Structures circuits courts / AMAP actives"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023",
+    "INAO 2024",
+    "Agreste / DRAAF Bretagne 2023",
+    "RnPAT / ZAVA 2024"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire restent des estimations agrégées, peu différenciées à l'échelle infra-départementale pour le Finistère",
+    "La part de SAU en bio peut varier selon les périmètres retenus (conversion incluse ou non), rendant les comparaisons interdépartementales partiellement imprécises",
+    "Le recensement des circuits courts et AMAP repose sur des déclarations volontaires, sous-estimant potentiellement les initiatives informelles en zones rurales isolées du Finistère intérieur"
+  ]
+}

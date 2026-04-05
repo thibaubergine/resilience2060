@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département de la Loire (42) présente un profil pédologique contrasté, marqué par un héritage industriel significatif lié au bassin minier stéphanois : on recense plus de 80 sites répertoriés dans l'ancien inventaire BASOL, témoignant d'une pollution historique aux métaux lourds (plomb, arsenic, zinc) et aux hydrocarbures concentrée autour de Saint-Étienne (GéoRisques/ex-BASOL). Sur le plan radiologique, l'IRSN classe une large partie du département en niveau de potentiel radon modéré à élevé (catégorie 3), en raison des formations granitiques et métamorphiques du Massif Central qui affleurent largement. Les sols agricoles affichent des niveaux de résidus de pesticides préoccupants dans les zones de grande culture de la plaine du Forez, avec des contaminations détectées dans les matrices sol par les réseaux de surveillance RMQS-INRAE 2023. En revanche, l'agriculture biologique progresse mais reste sous la moyenne nationale, couvrant environ 8 % de la SAU départementale, contre 10,7 % au niveau national (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plus de 80 sites BASOL, héritage minier stéphanois, métaux lourds"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Plaine du Forez exposée, résidus détectés RMQS-INRAE 2023"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 5.0,
+      "note": "Formations granitiques massif central, potentiel radon élevé catégorie 3"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 8.0,
+      "note": "SAU bio ~8%, progression notable mais sous moyenne nationale"
+    }
+  ],
+  "points_forts": [
+    "La SAU en agriculture biologique représente environ 8 % du total départemental, en hausse de +2 points depuis 2019 (Agence Bio 2023)",
+    "Des programmes de dépollution et de réhabilitation des friches industrielles stéphanoises ont permis la requalification de plusieurs sites (GéoRisques/ADEME)",
+    "La diversité pédologique du département (sols volcaniques, alluviaux, granitiques) offre une capacité agronomique variée favorable à la polyculture-élevage",
+    "Le Parc Naturel Régional du Pilat contribue à la préservation de sols forestiers et prairiaux non artificialisés sur environ 70 000 ha"
+  ],
+  "vigilances": [
+    "La persistance de contaminations aux métaux lourds (plomb, arsenic) dans les sols périurbains stéphanois expose encore des populations riveraines, avec des études de sol résiduel toujours en cours sur certains secteurs (GéoRisques 2023)",
+    "Le potentiel radon de catégorie 3 sur une majorité du territoire (IRSN) implique un risque d'exposition intérieure sous-évalué dans l'habitat ancien rural",
+    "L'artificialisation des sols progresse dans les zones péri-urbaines de Saint-Étienne et Roanne, avec une perte estimée de surfaces agricoles et naturelles menaçant les objectifs ZAN 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "80+",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "8 %",
+      "label": "SAU en agriculture bio"
+    },
+    {
+      "valeur": "Catégorie 3",
+      "label": "Potentiel radon IRSN"
+    },
+    {
+      "valeur": "70 000 ha",
+      "label": "Superficie PNR Pilat"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – RMQS 2023",
+    "IRSN – Cartographie radon",
+    "Agence Bio – Statistiques 2023"
+  ],
+  "limites": [
+    "Les données BASOL ne distinguent pas toujours les sites traités des sites encore actifs, rendant l'évaluation du risque résiduel difficile pour la Loire",
+    "La cartographie des résidus de pesticides dans les sols reste partielle sur la plaine du Forez, avec des points de mesure RMQS insuffisamment denses à l'échelle départementale",
+    "L'absence d'observatoire départemental unifié des sols ne permet pas de suivre en continu l'évolution de la qualité pédologique sur l'ensemble du territoire ligérien"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Eure-et-Loir présente une situation préoccupante pour la qualité des sols, reflet direct d'une agriculture céréalière très intensive qui domine 73% de la surface agricole utile du département (Agreste 2023). Les sols beaucerons, parmi les plus fertiles de France, subissent une pression phytosanitaire majeure : la région Centre-Val de Loire figure parmi les premières consommatrices de pesticides, avec des résidus fréquemment détectés dans les horizons agricoles (INRAE 2023). Le département recense plusieurs dizaines de sites pollués ou en cours de traitement issus de l'historique industriel et agricole, répertoriés dans la base BASOL/Géorisques. La part de SAU conduite en agriculture biologique reste particulièrement faible, estimée à environ 4,5% contre 11,4% à l'échelle nationale (Agence Bio 2023), témoignant d'une transition agroécologique encore embryonnaire. Le risque radon demeure toutefois limité sur ce département à dominante sédimentaire, constituant l'un des rares points positifs de ce bilan.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 5.0,
+      "note": "Plusieurs dizaines de sites BASOL, pression industrielle et agricole historique"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 2.0,
+      "note": "Agriculture céréalière intensive, résidus pesticides élevés, sols beaucerons exposés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Substrat sédimentaire calcaire, risque radon très faible sur le département"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio ~4,5%, très inférieure à la moyenne nationale de 11,4%"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France grâce au substrat calcaire sénonien dominant (IRSN)",
+    "Sols limoneux beaucerons à haute capacité de rétention, limitant certaines migrations de polluants en profondeur",
+    "Quelques initiatives de réduction des intrants dans le cadre du plan Ecophyto régional (DRAAF Centre-Val de Loire 2022)",
+    "Présence de périmètres de protection de captages encourageant des pratiques agricoles moins intensives sur certaines parcelles (ARS 28)"
+  ],
+  "vigilances": [
+    "Contamination diffuse des sols par les pesticides et nitrates : la Beauce est identifiée comme zone vulnérable aux nitrates depuis 1996, avec des concentrations en hausse projetées d'ici 2030 (INRAE 2023)",
+    "Érosion des sols aggravée par les cultures à nu en hiver et l'intensification climatique : les projections DRIAS indiquent une augmentation des épisodes pluvieux intenses d'ici 2060",
+    "Très faible progression de l'agriculture biologique (croissance <0,5 pt/an), compromettant les objectifs du Plan Ambition Bio 2027 à l'échelle régionale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~4,5%",
+      "label": "SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "73%",
+      "label": "SAU en grandes cultures céréalières"
+    },
+    {
+      "valeur": "Faible",
+      "label": "Niveau risque radon (IRSN)"
+    },
+    {
+      "valeur": "Zone vulnérable",
+      "label": "Nitrates depuis 1996 (DRAAF)"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL 2023",
+    "INRAE Observatoire des résidus pesticides 2023",
+    "IRSN cartographie radon",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "Absence de cartographie fine et publique des teneurs en pesticides sol parcelle par parcelle en Eure-et-Loir, rendant toute quantification précise impossible",
+    "Les données BASOL ne distinguent pas toujours les sites définitivement traités des sites encore actifs, ce qui peut biaiser l'évaluation du risque résiduel",
+    "La SAU bio déclarée ne renseigne pas sur la qualité réelle des sols (taux de matière organique, biodiversité édaphique), paramètres non disponibles à l'échelle départementale systématique"
+  ]
+}

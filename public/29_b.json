@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Finistère présente une biodiversité remarquable avec environ 18 % de sa superficie couverte par le réseau Natura 2000, incluant des sites majeurs comme la Baie d'Audierne, le Cap Sizun et les îles d'Iroise (INPN 2024). Le département abrite le Parc Naturel Régional d'Armorique (172 000 ha) et le Parc Naturel Marin d'Iroise, premier parc naturel marin français créé en 2007, couvrant 3 500 km² de milieux marins exceptionnels (OFB 2024). La LPO Bretagne recense plus de 300 espèces d'oiseaux nicheuses ou de passage sur le territoire, dont des populations significatives de macareux moines, de fous de Bassan et de grands dauphins en mer d'Iroise. Cependant, les corridors écologiques terrestres restent fragmentés par un bocage en recul, avec une perte estimée à 30 % des haies bocagères depuis 1970 (INRAE 2023), affaiblissant la trame verte et bleue intérieure.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18% superficie en Natura 2000, sites marins et côtiers exceptionnels"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 9.0,
+      "note": "PNR Armorique et premier Parc Naturel Marin de France, Iroise"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 8.0,
+      "note": "Macareux, grands dauphins, loutres, 300+ espèces d'oiseaux recensées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Bocage en recul de 30% depuis 1970, corridors terrestres fragmentés"
+    }
+  ],
+  "points_forts": [
+    "Le Parc Naturel Marin d'Iroise couvre 3 500 km² et constitue l'un des écosystèmes marins les mieux protégés de France métropolitaine (OFB 2024)",
+    "Plus de 60 zones Natura 2000 répertoriées sur le département, couvrant milieux dunaires, landes, estuaires et fonds marins (INPN 2024)",
+    "Présence de la loutre d'Europe en progression sur les cours d'eau finistériens, indicateur d'une bonne qualité des milieux aquatiques (LPO Bretagne)",
+    "Les îles de l'Iroise (Ouessant, Sein, Molène) constituent des refuges ornithologiques d'importance européenne avec plusieurs espèces en liste rouge nationale"
+  ],
+  "vigilances": [
+    "Le recul du bocage (–30 % de haies depuis 1970) menace la continuité de la trame verte et la faune terrestre associée (INRAE 2023), avec un risque d'accélération sous pression agricole",
+    "L'acidification et le réchauffement des eaux marines en mer d'Iroise pourraient impacter les herbiers de zostères et les populations de crustacés d'ici 2050 (DRIAS 2024)",
+    "La progression des espèces invasives, notamment la crépidule en baie de Brest et le baccharis halimifolia sur le littoral, menace les habitats indigènes côtiers (OFB 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "18%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "3 500 km²",
+      "label": "Parc Naturel Marin Iroise"
+    },
+    {
+      "valeur": "300+",
+      "label": "Espèces oiseaux recensées"
+    },
+    {
+      "valeur": "–30%",
+      "label": "Haies bocagères perdues depuis 1970"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Bretagne",
+    "INRAE 2023",
+    "DRIAS 2024"
+  ],
+  "limites": [
+    "Les données de suivi des espèces marines restent partielles et irrégulières hors périmètre du Parc Naturel Marin, limitant l'évaluation exhaustive de la biodiversité marine finistérienne",
+    "L'état réel des corridors écologiques terrestres est peu documenté à l'échelle communale, rendant difficile une cartographie fine de la trame verte et bleue départementale",
+    "Les inventaires de biodiversité terrestre sont inégaux selon les communes, avec une surreprésentation des zones littorales et une sous-documentation des milieux intérieurs (monts d'Arrée, Montagnes Noires)"
+  ]
+}

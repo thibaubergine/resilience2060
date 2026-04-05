@@ -1,0 +1,65 @@
+{
+  "synthese": "Le département du Jura (39) présente une richesse biodiversitaire remarquable, avec environ 18 % de son territoire classé en zones Natura 2000, couvrant des milieux variés allant des tourbières du Haut-Jura aux pelouses calcicoles (INPN, 2024). Le Parc Naturel Régional du Haut-Jura, créé en 1986 et couvrant plus de 258 000 ha dont une partie significative en territoire jurassien, constitue un cadre de protection fort pour des espèces emblématiques comme le lynx boréal, le grand tétras ou la loutre d'Europe (OFB, 2024). Le département abrite plus de 2 500 espèces végétales recensées et figure parmi les territoires les mieux dotés en corridors écologiques de la région Bourgogne-Franche-Comté, grâce notamment à la continuité forestière et aux réseaux de zones humides (LPO, 2024). Les lacs de Chalain, Clairvaux et la reculée de Baume-les-Messieurs constituent des réservoirs de biodiversité aquatique et terrestre d'importance régionale, contribuant à la bonne connectivité écologique du massif jurassien (INPN, 2024).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 8.0,
+      "note": "18 % du territoire en Natura 2000, tourbières et pelouses calcicoles incluses"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 8.0,
+      "note": "PNR Haut-Jura couvre large portion jurassienne, protection effective"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Lynx, grand tétras, loutre présents mais populations fragiles et surveillées"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "Continuités forestières solides, quelques ruptures en zones agricoles intensives"
+    }
+  ],
+  "points_forts": [
+    "Environ 18 % du territoire jurassien couvert par des zones Natura 2000 (INPN, 2024), parmi les taux les plus élevés de la région",
+    "Le PNR du Haut-Jura (258 000 ha) offre une gouvernance territoriale favorable à la préservation des espèces forestières et montagnarden (OFB, 2024)",
+    "Présence confirmée du lynx boréal (Lynx lynx), espèce sentinelle de la santé des écosystèmes forestiers, avec un noyau de population stable dans le massif jurassien (LPO/OFB, 2024)",
+    "Réseau de zones humides dense (tourbières, lacs, reculées karstiques) assurant une biodiversité aquatique et amphibienne remarquable (INPN, 2024)"
+  ],
+  "vigilances": [
+    "Le grand tétras (Tetrao urogallus) est en déclin sévère dans le Jura, avec une population estimée à moins de 200 individus ; le réchauffement climatique et la fragmentation forestière aggravent la tendance (OFB, 2024)",
+    "Les pratiques agricoles intensives dans les plaines viticoles et fromagères (secteur comté) génèrent des pressions sur les corridors écologiques en basse altitude, limitant les continuités entre massif et vallées",
+    "La multiplication des espèces exotiques envahissantes (renouée du Japon, écrevisse signal) menace les milieux aquatiques et les berges de cours d'eau jurassiens (LPO/INPN, 2024)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~18 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "258 000 ha",
+      "label": "Surface PNR Haut-Jura"
+    },
+    {
+      "valeur": ">2 500",
+      "label": "Espèces végétales recensées"
+    },
+    {
+      "valeur": "<200",
+      "label": "Individus grand tétras estimés"
+    }
+  ],
+  "sources": [
+    "OFB 2024",
+    "INPN 2024",
+    "LPO Bourgogne-Franche-Comté 2024",
+    "PNR Haut-Jura"
+  ],
+  "limites": [
+    "Les données sur la fragmentation précise des corridors écologiques à l'échelle infra-départementale restent partielles, les cartographies TVB étant établies à l'échelle régionale (SRCE BFC)",
+    "Le suivi des populations d'espèces discrètes (lynx, grand tétras) repose sur des protocoles de comptage indirects (pièges photographiques, indices de présence) avec des marges d'incertitude importantes",
+    "L'état de conservation des habitats Natura 2000 jurassiens n'est pas exhaustivement évalué à ce jour, les rapportages officiels étant réalisés par grands domaines biogéographiques et non par département"
+  ]
+}

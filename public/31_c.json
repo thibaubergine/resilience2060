@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Garonne présente un profil climatique 2060 contrasté, tirant parti de la présence pyrénéenne comme tampon thermique partiel, mais restant fortement exposée aux hausses de températures estivales sur sa plaine centrale et toulousaine. Selon les projections DRIAS 2023 (scénario SSP3-7.0), le département pourrait connaître une augmentation de +3,2°C à +4,1°C des températures moyennes estivales d'ici 2060, avec un nombre de jours de canicule multiplié par 3 à 4 sur l'agglomération toulousaine. L'outil Climadiag (Météo-France) classe la Haute-Garonne parmi les territoires à vigilance élevée pour les vagues de chaleur, avec une fréquence des épisodes intenses passant de 1 jour/an actuellement à 8-12 jours/an à l'horizon 2060. Le risque feux de forêt est en progression notable, notamment sur les zones de coteaux garonnais et du Lauragais (TRACC 2023), tandis que le risque inondation reste structurel le long de la Garonne, avec des crues centennales dont la fréquence pourrait s'accroître sous l'effet des épisodes méditerranéens amplifiés (AP3C Occitanie).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 7.0,
+      "note": "Pyrénées offrent un gradient altitudinal protecteur significatif au sud"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 4.0,
+      "note": "Toulouse exposée à multiplication par 3-4 des jours de canicule 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Coteaux et Lauragais en risque feux croissant, végétation vulnérable"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 6.0,
+      "note": "Garonne à risque inondations chronique, crues centennales plus fréquentes"
+    }
+  ],
+  "points_forts": [
+    "Gradient altitudinal pyrénéen notable : le sud du département dépasse 3 000 m (Bagnères-de-Luchon), offrant un tampon thermique réel pour ~15 % du territoire",
+    "Réseau de surveillance et d'adaptation AP3C Occitanie opérationnel, avec des diagnostics communaux disponibles pour 90 % des communes du département",
+    "Forêts de montagne pyrénéennes (hêtraies-sapinières) jouant un rôle de puits de carbone et de régulateur thermique local, inventoriées par l'ONF 2022",
+    "Plan Climat Air Énergie Territorial (PCAET) de Toulouse Métropole adopté en 2019, avec des objectifs de réduction de 40 % des émissions GES d'ici 2030"
+  ],
+  "vigilances": [
+    "Agglomération toulousaine (800 000 habitants) fortement vulnérable aux îlots de chaleur urbains, avec des nuits tropicales pouvant atteindre 30 à 45 nuits/an d'ici 2060 (projection DRIAS SSP3-7.0)",
+    "Risque incendie en forte progression sur les coteaux du Comminges et du Lauragais, avec une période d'inflammabilité allongée de 30 à 45 jours supplémentaires par an selon TRACC 2023",
+    "Tension hydrique sur la Garonne en période estivale critique : étiages sévères déjà observés (été 2022, débit historiquement bas), risque d'incompatibilité entre besoins agricoles, industriels et débits écologiques à l'horizon 2060"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2 à +4,1°C",
+      "label": "Hausse températures estivales 2060 (DRIAS)"
+    },
+    {
+      "valeur": "8-12 jours/an",
+      "label": "Épisodes canicule intenses prévus 2060"
+    },
+    {
+      "valeur": "3 000 m",
+      "label": "Altitude maximale (tampon thermique sud)"
+    },
+    {
+      "valeur": "45 nuits/an",
+      "label": "Nuits tropicales projetées Toulouse 2060"
+    }
+  ],
+  "sources": [
+    "Météo-France / Climadiag 2023",
+    "DRIAS 2023 (scénario SSP3-7.0)",
+    "AP3C Occitanie / TRACC 2023",
+    "ONF – Bilan forêts pyrénéennes 2022"
+  ],
+  "limites": [
+    "Les projections DRIAS sont établies à l'échelle régionale Occitanie et manquent de granularité infra-départementale pour distinguer plaine toulousaine et zones de montagne pyrénéenne",
+    "L'évaluation du risque feux de forêt repose sur des modèles nationaux (Prométhée) peu adaptés aux spécificités des forêts de coteaux garonnais, sous-représentées dans les bases de données incendies",
+    "Les données d'îlot de chaleur urbain sur Toulouse sont encore partielles et peu intégrées dans les outils de planification communaux, limitant la comparaison inter-départementale robuste"
+  ]
+}

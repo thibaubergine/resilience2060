@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Jura bénéficie d'une qualité de l'air globalement satisfaisante, avec des concentrations en PM2,5 inférieures à 10 µg/m³ en moyenne annuelle sur la majeure partie du territoire, soit en dessous du seuil OMS 2021 de 5 µg/m³ mais nettement sous la valeur limite européenne de 25 µg/m³ (ATMO Bourgogne-Franche-Comté, 2023). Le NO₂ reste peu problématique en l'absence de grandes agglomérations, Lons-le-Saunier affichant des niveaux moyens autour de 15 µg/m³, bien en deçà de la valeur limite annuelle de 40 µg/m³ (ATMO BFC, 2022). Le tissu industriel jurassien, dominé par la plasturgie, la lunetterie et l'agroalimentaire fromager, génère des émissions de COV et d'ammoniac notables mais reste modéré au regard des grands bassins industriels nationaux (Citepa, inventaire 2022). L'élevage bovin extensif lié aux AOP fromagères (Comté, Morbier, Mont d'Or) constitue la principale source de NH₃ agricole, avec environ 4 500 tonnes émises par an dans le département (CITEPA/Inventaire OMINEA 2022). Des épisodes de pollution par l'ozone en été et de particules en hiver liées au chauffage au bois restent les principales fragilités identifiées par la surveillance régionale.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 8.0,
+      "note": "PM2,5 moyen <10 µg/m³ ; dépasse seuil OMS 5 µg/m³ mais faible exposition"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 9.0,
+      "note": "NO₂ urbain ~15 µg/m³ à Lons-le-Saunier, très inférieur à 40 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 7.0,
+      "note": "Industrie plasturgie/lunetterie modérée ; émissions COV localisées"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 6.0,
+      "note": "Élevage AOP bovin intensif ; NH₃ ~4 500 t/an, pression agricole notable"
+    }
+  ],
+  "points_forts": [
+    "Concentrations en NO₂ parmi les plus basses de Bourgogne-Franche-Comté, avec ~15 µg/m³ à Lons-le-Saunier, soit 2,5 fois sous la valeur limite européenne (ATMO BFC, 2022)",
+    "Absence de grande zone urbaine ou d'autoroute à fort trafic réduisant structurellement les émissions de polluants primaires liés aux transports",
+    "Couverture forestière de 45 % du territoire jouant un rôle de puits de pollution et favorisant la dispersion atmosphérique en milieu rural (IGN/Inventaire forestier 2023)",
+    "Qualité de l'air classée \"bonne\" à \"très bonne\" plus de 300 jours par an en moyenne sur les stations rurales jurassiennes (ATMO BFC, 2023)"
+  ],
+  "vigilances": [
+    "Épisodes estivaux d'ozone (O₃) en augmentation liés au réchauffement climatique, avec des dépassements du seuil d'information (180 µg/m³) attendus plus fréquents d'ici 2030 (ATMO BFC/DRIAS)",
+    "Combustion de bois en chauffage résidentiel concentrant les émissions de PM2,5 et HAP en période hivernale, notamment dans les vallées encaissées du Haut-Jura où la dispersion est limitée",
+    "Émissions d'ammoniac agricoles susceptibles d'augmenter avec l'intensification des élevages AOP face aux aléas climatiques, contribuant à la formation de particules secondaires (Citepa/OMINEA 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~10 µg/m³",
+      "label": "PM2,5 moyen annuel"
+    },
+    {
+      "valeur": "~15 µg/m³",
+      "label": "NO₂ Lons-le-Saunier"
+    },
+    {
+      "valeur": "~4 500 t/an",
+      "label": "Émissions NH₃ agricoles"
+    },
+    {
+      "valeur": ">300 jours/an",
+      "label": "Indice air \"bon\""
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté 2022-2023",
+    "Citepa/OMINEA inventaire 2022",
+    "OMS lignes directrices qualité de l'air 2021",
+    "IGN Inventaire forestier national 2023"
+  ],
+  "limites": [
+    "Le réseau de mesure fixe d'ATMO BFC est peu dense en milieu rural jurassien, rendant difficile la caractérisation fine de la qualité de l'air dans les vallées et massifs du Haut-Jura",
+    "Les émissions de COV spécifiques à l'industrie de la plasturgie et de la lunetterie sont insuffisamment documentées à l'échelle communale, limitant l'évaluation des expositions localisées",
+    "L'impact du brûlage agricole résiduel et des pratiques pastorales sur les émissions de particules reste mal quantifié dans les inventaires départementaux disponibles"
+  ]
+}

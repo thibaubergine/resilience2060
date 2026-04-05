@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Gard présente un profil alimentaire solide avec un score de 7,5/10, se positionnant parmi les départements méridionaux les mieux dotés en diversité agro-alimentaire. La Surface Agricole Utile (SAU) bio atteint environ 14% de la SAU totale departementale, soit près du double de la moyenne nationale (~9,5%), avec plus de 650 exploitations certifiées bio recensées (Agence Bio, 2023). Le département bénéficie d'un patrimoine riche en signes officiels de qualité, notamment avec les AOC/AOP viticoles Costières-de-Nîmes, Clairette de Bellegarde, Muscat de Lunel et Muscat de Mireval, ainsi que des IGP couvrant des huiles d'olive, olives et productions maraîchères (INAO, 2023). L'indice ZAVA (Zone d'Autonomie Vivrière Alimentaire, 2024) positionne le Gard en situation intermédiaire, avec une production locale couvrant une part significative des besoins en fruits, légumes et céréales, mais une dépendance persistante pour les produits carnés et laitiers. Les circuits courts et AMAP se développent activement, avec plus de 35 AMAP recensées et une forte dynamique de marchés producteurs portée par les agglomérations de Nîmes et Alès (RnPAT, 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 7.0,
+      "note": "ZAVA intermédiaire ; bons fruits/légumes, déficit en produits carnés/laitiers"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 8.0,
+      "note": "Costières-de-Nîmes, Clairette, 4 Muscats, olives IGP, riche patrimoine"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 8.0,
+      "note": "~14% SAU bio, 650+ exploitations, bien au-dessus moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "35+ AMAP, dynamique marchés producteurs Nîmes/Alès, RnPAT actif"
+    }
+  ],
+  "points_forts": [
+    "SAU certifiée bio ~14% de la SAU totale, soit +47% au-dessus de la moyenne nationale de 9,5% (Agence Bio, 2023)",
+    "Richesse en signes de qualité : 4 AOP viticoles (Costières-de-Nîmes, Clairette de Bellegarde, Muscat de Lunel, Muscat de Mireval) et IGP oléicoles (INAO, 2023)",
+    "Plus de 35 AMAP actives et forte culture de vente directe producteur-consommateur portée par les agglomérations de Nîmes et Alès (RnPAT, 2023)",
+    "Projet Alimentaire Territorial (PAT) de Nîmes Métropole labellisé niveau 2, structurant des filières locales légumes, céréales et huile d'olive (Ministère Agriculture, 2023)"
+  ],
+  "vigilances": [
+    "Dépendance aux importations extradépartementales pour la viande et les produits laitiers : la production locale ne couvre pas les besoins, fragilité logistique en cas de perturbation d'approvisionnement (ZAVA, 2024)",
+    "Pression hydrique croissante sur l'agriculture irriguée : les projections DRIAS 2060 prévoient une baisse des précipitations estivales de -20 à -30%, menaçant les cultures maraîchères et arboricoles qui soutiennent l'autonomie alimentaire locale",
+    "Artificialisation des terres agricoles péri-urbaines autour de Nîmes et Alès : perte estimée de SAU à un rythme de 400–600 ha/an dans le département, réduisant le potentiel productif local à long terme (DRAAF Occitanie, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~14%",
+      "label": "SAU certifiée bio"
+    },
+    {
+      "valeur": "650+",
+      "label": "Exploitations bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "4 AOP + IGP",
+      "label": "Signes qualité viticoles/oléicoles"
+    },
+    {
+      "valeur": "35+",
+      "label": "AMAP recensées (RnPAT 2023)"
+    }
+  ],
+  "sources": [
+    "Agence Bio – Chiffres clés 2023 (département Gard)",
+    "INAO – Registre AOP/IGP Occitanie 2023",
+    "ZAVA (Zone d'Autonomie Vivrière Alimentaire) – Rapport national 2024",
+    "RnPAT – Recensement PAT et AMAP, Occitanie 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 restent agrégées à l'échelle régionale pour certains postes alimentaires (produits laitiers, viandes), rendant difficile une estimation précise de l'autonomie réelle à l'échelle strictement départementale du Gard",
+    "Le recensement des AMAP et circuits courts repose sur des déclarations volontaires (RnPAT), susceptibles de sous-estimer le nombre réel de dispositifs informels actifs dans les zones rurales du nord du département (Cévennes, piémont)",
+    "L'évolution de la SAU bio est mesurée annuellement mais ne distingue pas les conversions pérennes des certifications temporaires, pouvant surestimer la stabilité structurelle du tissu bio gardois"
+  ]
+}

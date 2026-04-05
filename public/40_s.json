@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Landes présentent un profil pédologique dominé par les sols sableux acides du massif forestier landais (plus de 60 % de la superficie départementale), naturellement pauvres en matière organique et vulnérables au lessivage des intrants (GéoRisques/BRGM). La pression agricole sur les sols est notable dans le couloir maïsicole du Bas-Adour, où l'usage intensif de pesticides et d'engrais azotés génère des résidus mesurables, classant le département parmi les territoires à vigilance modérée selon les données INRAE 2023. On recense environ 45 sites ou sols pollués référencés (base ex-BASOL/BASIAS), liés principalement aux activités industrielles passées (traitement du bois, pin maritime, résines) et aux zones portuaires de la côte. Le risque radon est globalement faible dans les Landes en raison de la nature sableuse et peu granitique des sous-sols, classifiant l'essentiel du territoire en zone 1 (IRSN). Enfin, la part de la SAU en agriculture biologique reste en deçà de la moyenne nationale (~12 %), reflétant la prédominance de la grande culture conventionnelle, même si une progression est enregistrée depuis 2020 (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 6.0,
+      "note": "Environ 45 sites ex-BASOL, industrie résineuse et bois majoritaire"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 5.0,
+      "note": "Maïsiculture intensive, résidus pesticides élevés dans zones agricoles landaises"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Sous-sols sableux, risque radon très faible, majorité zone 1 IRSN"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 5.0,
+      "note": "SAU bio ~10%, sous la moyenne nationale de 12%, progression lente"
+    }
+  ],
+  "points_forts": [
+    "Risque radon très limité : plus de 85 % des communes classées en zone 1 (faible exposition), IRSN",
+    "Absence de contamination industrielle lourde diffuse grâce à la dominance forestière sur 60 % du territoire (IGN/IFN)",
+    "Dynamique de conversion bio en hausse de +15 % entre 2020 et 2023 sur les exploitations maraîchères et arboricoles (Agence Bio 2023)",
+    "Sols forestiers du massif landais jouant un rôle de puits de carbone organique, estimé à plusieurs Mt CO₂éq stockées (INRAE)"
+  ],
+  "vigilances": [
+    "Lessivage des sols sableux acides par les intrants du maïs irrigué : risque de dégradation de la structure pédologique accéléré par les sécheresses projetées d'ici 2050 (DRIAS/Climadiag)",
+    "Contamination résiduelle des sites industriels liés à la sylviculture (créosote, résines, solvants) : environ 45 sites suivis dont une fraction sans dépollution achevée (ex-BASOL/GéoRisques)",
+    "Artificialisation des sols en progression sur le littoral et autour de l'agglomération dacquoise : +2 500 ha consommés sur 2011–2021, menaçant la réserve foncière agricole (Observatoire foncier Nouvelle-Aquitaine)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~45",
+      "label": "Sites ex-BASOL recensés"
+    },
+    {
+      "valeur": "~10 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": ">85 %",
+      "label": "Communes en zone radon faible (zone 1)"
+    },
+    {
+      "valeur": "60 %",
+      "label": "Territoire sous couvert forestier (massif landais)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (2023)",
+    "INRAE – Observatoire des résidus pesticides (2023)",
+    "IRSN – Cartographie radon (2022)",
+    "Agence Bio – Chiffres clés Nouvelle-Aquitaine (2023)"
+  ],
+  "limites": [
+    "Les données ex-BASOL sous-estiment probablement la contamination diffuse des sols forestiers liée aux traitements phytosanitaires sylvicoles historiques, peu référencés dans la base",
+    "La cartographie INRAE des résidus pesticides manque de granularité infra-départementale, masquant les disparités entre le couloir maïsicole et les zones d'élevage extensif landaises",
+    "L'indicateur de SAU bio ne reflète pas les pratiques agro-écologiques non certifiées (HVE, bas intrants) qui restent non quantifiées à l'échelle du département"
+  ]
+}

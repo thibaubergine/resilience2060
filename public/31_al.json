@@ -1,0 +1,65 @@
+{
+  "synthese": "La Haute-Garonne présente un profil alimentaire intermédiaire (6,5/10, rang estimé à environ 35-40/96) porté par une agriculture diversifiée mais fortement soumise à la pression urbaine toulousaine. La Surface Agricole Utile (SAU) du département couvre environ 265 000 ha, soit 43 % du territoire, avec une orientation dominante vers les grandes cultures céréalières (blé, maïs) et l'élevage bovin (Agreste 2023). L'agriculture biologique représente environ 12 % de la SAU, légèrement au-dessus de la moyenne nationale de 10,7 % (Agence Bio 2023). Le département bénéficie d'un tissu de circuits courts dynamique, notamment autour de la métropole toulousaine qui concentre plus d'une centaine d'AMAP actives (DRAAF Occitanie 2023). Cependant, le taux d'autonomie alimentaire reste limité par l'urbanisation croissante et la dépendance aux importations pour certaines filières, avec une perte moyenne de 1 200 ha de SAU par an sous la pression foncière (SAFER Occitanie 2022).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 6.0,
+      "note": "SAU sous pression urbaine toulousaine, autonomie céréalière correcte mais limitée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 6.0,
+      "note": "Quelques IGP locales (ail rose Lautrec proche, volailles); densité moyenne"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 7.0,
+      "note": "12 % SAU en bio, au-dessus moyenne nationale de 10,7 % (Agence Bio 2023)"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Plus de 100 AMAP actives, marché de plein air dense autour de Toulouse"
+    }
+  ],
+  "points_forts": [
+    "Agriculture biologique en progression : 12 % de la SAU certifiée bio, dépassant la moyenne nationale (Agence Bio 2023)",
+    "Réseau AMAP dense avec plus de 100 associations actives sur la métropole toulousaine, parmi les plus importants d'Occitanie (DRAAF Occitanie 2023)",
+    "Présence de filières maraîchères péri-urbaines structurées autour des ceintures vertes de Toulouse, favorisant l'approvisionnement local des cantines scolaires",
+    "Engagement des collectivités : la métropole toulousaine vise 50 % de produits locaux et bio dans la restauration collective d'ici 2026 (PAT Toulouse Métropole 2022)"
+  ],
+  "vigilances": [
+    "Perte de SAU estimée à 1 200 ha/an sous l'effet de l'urbanisation autour de Toulouse, menaçant durablement le potentiel productif local (SAFER Occitanie 2022)",
+    "Vulnérabilité hydrique croissante des cultures maïsicoles face aux sécheresses estivales projetées à l'horizon 2050 (DRIAS 2023), fragilisant l'autonomie fourragère et céréalière",
+    "Faible densité d'AOP/IGP strictement rattachées au département, exposant les filières locales à une concurrence sans protection d'origine renforcée"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "265 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "12 %",
+      "label": "Part SAU en agriculture biologique"
+    },
+    {
+      "valeur": "100+",
+      "label": "AMAP actives (métropole toulousaine)"
+    },
+    {
+      "valeur": "1 200 ha/an",
+      "label": "Perte annuelle de SAU (pression urbaine)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques nationales et régionales bio",
+    "DRAAF Occitanie / Agreste 2023 – Structure agricole",
+    "SAFER Occitanie 2022 – Marché foncier rural",
+    "PAT Toulouse Métropole 2022 – Projet Alimentaire Territorial"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire à l'échelle départementale restent agrégées à l'échelle régionale Occitanie, rendant difficile une évaluation précise de la seule Haute-Garonne",
+    "La densité AMAP est bien documentée pour la métropole toulousaine mais sous-estimée pour les zones rurales du département (Lauragais, Comminges), faute de recensement exhaustif",
+    "L'impact réel des Projets Alimentaires Territoriaux (PAT) sur les flux alimentaires locaux n'est pas encore mesuré avec des indicateurs standardisés comparables entre départements"
+  ]
+}
