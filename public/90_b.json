@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90), plus petit département métropolitain avec seulement 609 km², présente une biodiversité relativement préservée malgré une forte densité humaine (236 hab/km²). Environ 8,5% de sa superficie est couverte par des sites Natura 2000, incluant notamment la Zone Spéciale de Conservation \"Étang des Forges et forêts environnantes\" et plusieurs ZNIEFF de type I et II recensées par l'INPN (2024). Le département ne dispose d'aucun Parc National ni Parc Naturel Régional en propre, bien que sa proximité avec le Parc Naturel Régional des Ballons des Vosges offre des continuités écologiques partielles vers le nord-est. La LPO Territoire de Belfort recense des espèces emblématiques comme le Martin-pêcheur, la Loutre d'Europe et le Grand rhinolophe, témoignant d'une qualité environnementale locale encore présente mais fragilisée par l'urbanisation et l'imperméabilisation des sols (OFB 2024). Les corridors écologiques sont sous pression structurelle en raison de l'axe Belfort-Montbéliard et des infrastructures de transport (A36, LGV), limitant la fonctionnalité de la Trame Verte et Bleue départementale.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 6.0,
+      "note": "8,5% du territoire en Natura 2000; étangs et forêts inclus"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 4.0,
+      "note": "Aucun PN/PNR direct; proximité partielle Ballons des Vosges"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 7.0,
+      "note": "Loutre, Grand rhinolophe, Martin-pêcheur confirmés LPO 90"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 7.0,
+      "note": "TVB fragilisée par A36/LGV mais continuités forestières maintenues"
+    }
+  ],
+  "points_forts": [
+    "Site Natura 2000 \"Étang des Forges\" (ZSC), écosystème humide remarquable en cœur périurbain de Belfort",
+    "Présence confirmée de la Loutre d'Europe sur la Savoureuse, indicateur fiable de bonne qualité des cours d'eau (LPO 90 / OFB 2024)",
+    "Plus de 40 ZNIEFF recensées sur le département malgré sa superficie réduite (INPN 2024), dont plusieurs abritant des espèces protégées",
+    "Maintien de massifs forestiers fonctionnels (forêt de la Haute-Saône, boisements du Sundgau) assurant des refuges pour la faune sauvage"
+  ],
+  "vigilances": [
+    "Fragmentation des corridors écologiques par l'axe A36 et la LGV Rhin-Rhône : risque d'isolement génétique des populations faunistiques à horizon 2040",
+    "Pression urbaine croissante sur les zones humides périphériques de Belfort, avec un risque de perte nette de biodiversité aquatique (espèces d'amphibiens menacées)",
+    "Changement climatique projetant une hausse de +2,5°C à +3°C à horizon 2060 (Climadiag), susceptible de déstabiliser les habitats forestiers de hêtres et les zones humides du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "8,5%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "0",
+      "label": "Parcs Nationaux/PNR directs"
+    },
+    {
+      "valeur": "40+",
+      "label": "ZNIEFF recensées (INPN)"
+    },
+    {
+      "valeur": "609 km²",
+      "label": "Superficie départementale"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Territoire de Belfort",
+    "INPN - ZNIEFF Franche-Comté",
+    "Climadiag / DRIAS 2023"
+  ],
+  "limites": [
+    "La petite taille du département (609 km²) rend les indicateurs de pourcentage peu comparables aux grands départements forestiers, biaisant les classements relatifs",
+    "Absence d'observatoire départemental dédié à la biodiversité : les données LPO et INPN reposent partiellement sur des inventaires participatifs non exhaustifs",
+    "Les corridors écologiques transfrontaliers avec la Suisse (canton du Jura) et l'Alsace sont mal documentés à l'échelle départementale, limitant l'évaluation réelle de la TVB"
+  ]
+}

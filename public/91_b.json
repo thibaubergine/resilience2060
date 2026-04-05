@@ -1,0 +1,66 @@
+{
+  "synthese": "L'Essonne (91), département péri-urbain d'Île-de-France, présente une biodiversité fragilisée par une urbanisation intense et une pression foncière parmi les plus élevées de France, avec une artificialisation atteignant environ 23% du territoire (CEREMA 2023). Le département abrite néanmoins des espaces naturels significatifs, notamment la forêt de Fontainebleau en limite sud et la plaine de la Beauce au nord, mais seulement 4,2% de la superficie départementale est couverte par des sites Natura 2000, bien en deçà de la moyenne nationale de 12,7% (INPN 2024). La Trame Verte et Bleue francilienne identifie des corridors écologiques fortement fragmentés par les axes routiers majeurs (A6, A10, N7) et l'urbanisation des plateaux, menaçant la continuité entre massifs forestiers (OFB 2024). Les inventaires LPO et INPN recensent environ 1 800 espèces végétales et plusieurs espèces animales emblématiques (Martin-pêcheur, Loutre potentielle sur l'Essonne), mais les populations restent vulnérables face à la fragmentation et aux pollutions diffuses agricoles et urbaines.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 3.0,
+      "note": "Seulement 4,2% du territoire en Natura 2000, contre 12,7% national"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 5.0,
+      "note": "Présence PNR Gâtinais francilien et forêts domaniales significatives"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Espèces menacées présentes mais populations fragmentées et en déclin"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors TVB identifiés mais très fragmentés par axes routiers majeurs"
+    }
+  ],
+  "points_forts": [
+    "Présence du Parc Naturel Régional du Gâtinais français couvrant la partie sud du département, offrant un cadre de protection de près de 70 000 ha (PNR Gâtinais 2023)",
+    "La forêt de Fontainebleau et les massifs boisés du sud-Essonne constituent un réservoir de biodiversité majeur abritant plus de 5 000 espèces recensées (ONF/INPN)",
+    "La rivière Essonne et ses affluents maintiennent des habitats humides favorables aux amphibiens et à l'avifaune paludicole malgré les pressions anthropiques",
+    "Le Schéma Régional de Cohérence Écologique (SRCE) Île-de-France identifie l'Essonne comme département clé pour les continuités nord-sud entre Beauce et massifs forestiers du sud"
+  ],
+  "vigilances": [
+    "L'artificialisation nette progresse à un rythme d'environ 300 ha/an en Essonne (CEREMA 2023), menaçant directement les zones tampons autour des sites Natura 2000 et les corridors relictuels",
+    "Les pollutions aux pesticides agricoles (plateau de Beauce) et aux micropolluants urbains dégradent les habitats aquatiques de l'Essonne et de l'Orge, avec moins de 30% des masses d'eau en bon état écologique (DCE/Agence de l'eau Seine-Normandie 2022)",
+    "Le changement climatique projetée à +2,5°C à horizon 2060 (Climadiag 2024) risque d'accentuer les sécheresses des milieux tourbeux et humides du Gâtinais, fragilisant des habitats d'intérêt communautaire déjà réduits"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "4,2%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~70 000 ha",
+      "label": "Surface PNR Gâtinais français"
+    },
+    {
+      "valeur": "<30%",
+      "label": "Masses d'eau bon état écologique"
+    },
+    {
+      "valeur": "23%",
+      "label": "Part territoire artificialisé"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Île-de-France",
+    "PNR Gâtinais français 2023",
+    "CEREMA 2023 – Artificialisation",
+    "Agence de l'eau Seine-Normandie / DCE 2022"
+  ],
+  "limites": [
+    "Les données d'inventaire naturaliste restent incomplètes sur les plateaux agricoles de Beauce essonnienne, sous-représentés dans les bases INPN par manque de prospections récentes",
+    "L'état réel des corridors écologiques est difficile à quantifier faute d'indicateurs de perméabilité standardisés à l'échelle départementale en Île-de-France",
+    "Les suivis d'espèces emblématiques (Loutre d'Europe, Crapaud calamite) sont insuffisamment coordonnés entre acteurs associatifs et institutionnels, rendant les tendances populationnelles incertaines"
+  ]
+}

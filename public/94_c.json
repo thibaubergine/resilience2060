@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-de-Marne (94), département dense de la première couronne parisienne avec une altitude moyenne inférieure à 100 m et un taux d'imperméabilisation supérieur à 70 % de sa surface artificialisée, présente une vulnérabilité climatique particulièrement élevée à l'horizon 2060. Selon Climadiag (Météo-France, 2023), le département pourrait connaître entre 25 et 35 jours de canicule supplémentaires par an d'ici 2060 sous scénario RCP 8.5, avec des températures nocturnes ne descendant plus sous les 25 °C (nuits tropicales). L'effet d'îlot de chaleur urbain (ICU), documenté par l'IAU Île-de-France, amplifie localement de +2 à +4 °C les températures estivales par rapport aux zones rurales voisines, rendant les populations des secteurs les plus denses (Vitry-sur-Seine, Ivry, Créteil) particulièrement exposées. Le réseau hydrographique dense (Marne, Seine, Yerres) et la forte imperméabilisation des sols augmentent significativement le risque de crues rapides et d'inondations urbaines, classant le département parmi les plus vulnérables d'Île-de-France selon le PPRI Île-de-France (DRIEAT, 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 2.0,
+      "note": "Altitude < 100 m, aucun tampon thermique, plaine urbaine dense"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 2.0,
+      "note": "25 à 35 jours canicule supplémentaires/an projetés horizon 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 8.0,
+      "note": "Risque feux quasi nul, département quasi intégralement urbanisé"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 2.0,
+      "note": "Seine et Marne en PPRI, 70 % sols imperméabilisés, crues rapides"
+    }
+  ],
+  "points_forts": [
+    "Risque incendie de forêt quasi inexistant : moins de 2 % de surface boisée, aucun massif forestier significatif (IFN/IGN 2022)",
+    "Réseau de surveillance climatique dense via l'IAU Île-de-France et Météo-France permettant un suivi fin des ICU",
+    "Plan Canicule départemental renforcé avec registres de personnes vulnérables opérationnels depuis 2004",
+    "Projets de végétalisation urbaine en cours (plan canopée de plusieurs communes, ex. Créteil +15 % espaces verts visés d'ici 2030)"
+  ],
+  "vigilances": [
+    "Îlot de chaleur urbain majeur : surmortalité estivale documentée lors de la canicule 2003 (+2 400 décès en excès en Île-de-France, INSERM), risque aggravé à 2060",
+    "Inondations fluviales : environ 220 000 habitants en zone inondable potentielle (PPRI DRIEAT 2022), aggravées par intensification des pluies extrêmes (+20 % projetés, DRIAS 2023)",
+    "Stress thermique nocturne chronique attendu avec multiplication des nuits tropicales (>20°C) pouvant dépasser 60 nuits/an d'ici 2060 sous RCP 8.5 (Climadiag Météo-France 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 100 m",
+      "label": "Altitude moyenne département"
+    },
+    {
+      "valeur": "+3°C",
+      "label": "Réchauffement projeté à 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "~220 000",
+      "label": "Habitants en zone inondable"
+    },
+    {
+      "valeur": "> 70 %",
+      "label": "Taux imperméabilisation sols"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (DREAL/Météo-France)",
+    "PPRI Île-de-France DRIEAT 2022",
+    "IAU Île-de-France – Étude ICU 2021"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à l'échelle régionale Île-de-France et ne distinguent pas finement les micro-variations intra-départementales du Val-de-Marne",
+    "L'absence de données spécifiques sur le taux de rafraîchissement nocturne par secteur communal limite l'évaluation précise des ICU locaux",
+    "Les scénarios DRIAS 2023 présentent une incertitude significative sur l'intensité des précipitations extrêmes à l'échelle locale, rendant difficile la quantification précise du risque d'inondation rapide"
+  ]
+}

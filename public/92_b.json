@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hauts-de-Seine constituent l'un des départements les plus défavorisés de France métropolitaine en matière de biodiversité, avec un taux d'artificialisation des sols dépassant 80 % de la superficie totale (93 km²), laissant une part infime aux espaces naturels fonctionnels (INRAE 2023). La couverture Natura 2000 y est quasi nulle, aucun site n'étant officiellement désigné sur le territoire départemental, contre une moyenne nationale de 12,6 % (INPN 2024). Les seuls refuges écologiques identifiables se concentrent sur les berges de Seine, les boisements résiduels de Meudon-la-Forêt (environ 1 100 ha en limite de département) et quelques parcs urbains, insuffisants pour constituer des corridors fonctionnels (OFB 2024). La LPO Île-de-France recense moins de 120 espèces d'oiseaux nicheurs réguliers, un chiffre parmi les plus bas de la région, témoignant d'une pression anthropique extrême sur la faune sauvage. L'état de la trame verte et bleue départementale demeure très dégradé, fragmenté par des infrastructures majeures (A86, RN13, voies ferrées) qui isolent les rares îlots verts subsistants.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 1,
+      "note": "Aucun site Natura 2000 désigné sur le territoire départemental (INPN 2024)"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 2.0,
+      "note": "Aucun parc national ; seule lisière forêt Meudon en bordure départementale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 2.0,
+      "note": "Moins de 120 espèces nicheurs; faune appauvrie par urbanisation extrême"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 2.0,
+      "note": "Corridors sévèrement fragmentés par A86, RN13 et voies ferrées denses"
+    }
+  ],
+  "points_forts": [
+    "Forêt de Meudon (~1 100 ha en limite sud du département) constitue le principal réservoir de biodiversité accessible depuis le 92",
+    "Berges de Seine réaménagées dans le cadre du SDRIF-E offrent quelques habitats semi-naturels pour l'avifaune et les chiroptères (LPO IDF 2022)",
+    "Présence de parcs urbains significatifs (Parc de Sceaux ~181 ha, Parc de Saint-Cloud ~460 ha) intégrés au réseau vert métropolitain",
+    "Programmes de végétalisation urbaine portés par certaines communes (Issy-les-Moulineaux, Boulogne-Billancourt) dans le cadre du label ÉcoQuartier"
+  ],
+  "vigilances": [
+    "Accélération de l'imperméabilisation liée aux grands projets du Grand Paris Express (lignes 15/16/17) risque de supprimer des micro-habitats résiduels d'ici 2030",
+    "Fragmentation croissante des corridors écologiques : moins de 3 % du territoire classé en zone à dominante naturelle dans le SDRIF, rendant toute reconnexion biologique très difficile",
+    "Réchauffement climatique projeté (+2,5°C d'ici 2060, Climadiag 2023) amplifiant les îlots de chaleur urbains et menaçant les espèces déjà fragilisées par l'urbanisation"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "0 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~80 %",
+      "label": "Taux artificialisation sols"
+    },
+    {
+      "valeur": "<120",
+      "label": "Espèces nicheurs LPO"
+    },
+    {
+      "valeur": "~1 100 ha",
+      "label": "Forêt Meudon (lisière)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 / INPN",
+    "LPO Île-de-France 2022",
+    "INRAE 2023",
+    "Climadiag / DRIAS 2023"
+  ],
+  "limites": [
+    "L'absence de site Natura 2000 dans le 92 rend toute comparaison avec les indicateurs européens de conservation impossible, biaisée vers le bas",
+    "Les données INPN sur les espèces observées sont sous-représentées en milieu ultra-urbain faute de prospections naturalistes suffisantes dans ce département dense",
+    "La prise en compte des espaces verts privés (jardins d'entreprises, toitures végétalisées) dans la TVB reste non standardisée et non intégrée aux bilans officiels de biodiversité"
+  ]
+}

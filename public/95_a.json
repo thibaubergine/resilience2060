@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Val-d'Oise (95) présente une qualité de l'air dégradée, largement influencée par sa position au nord de l'agglomération parisienne et par l'axe autoroutier A1/A15 traversant le département. Les concentrations moyennes en PM2,5 atteignent 12 à 14 µg/m³ selon AirParif (2022-2023), dépassant la valeur guide OMS 2021 de 5 µg/m³ et restant proches du seuil réglementaire européen de 25 µg/m³. Le NO₂ demeure problématique en zones périurbaines denses (Cergy, Argenteuil, Sarcelles), avec des dépassements ponctuels de 40 µg/m³ à proximité des axes routiers majeurs (AirParif, 2023). La zone aéroportuaire de Roissy-CDG constitue un émetteur spécifique significatif en NOₓ, kérosène et particules ultrafines, impactant les communes du nord-est du département (Citepa, 2022). Malgré une part agricole non négligeable au nord, les émissions de NH₃ restent modérées à l'échelle nationale, mais la pression cumulée des sources trafic, industrie et aéroport classe le Val-d'Oise parmi les départements franciliens les plus exposés.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 4.0,
+      "note": "PM2,5 ~13 µg/m³, soit 2,6x la valeur guide OMS 2021 (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ élevé à Argenteuil, Cergy ; dépassements fréquents axe A15/A1"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Zone Roissy-CDG et industries lourdes en vallée de Seine émettent significativement"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Agriculture présente au nord mais NH₃ modéré versus départements ruraux"
+    }
+  ],
+  "points_forts": [
+    "Zone rurale nord du département (Vexin) bénéficie d'une qualité de l'air nettement meilleure, PM2,5 < 10 µg/m³ (AirParif, 2022)",
+    "Plan de Protection de l'Atmosphère (PPA) d'Île-de-France révisé en 2023 avec mesures ciblées sur les zones denses du 95",
+    "Progression continue depuis 2010 : baisse de ~30 % des émissions de NOₓ départementales liée au renouvellement du parc automobile (Citepa, 2022)",
+    "Développement du réseau de véloroutes et du Grand Paris Express (ligne 17) contribuant à terme à la réduction du trafic motorisé"
+  ],
+  "vigilances": [
+    "Aéroport Roissy-CDG : fort émetteur de particules ultrafines (PUF < 100 nm), dont les effets sanitaires à long terme sont encore sous-évalués pour les riverains (ANSES, 2021)",
+    "Trafic poids lourds en forte croissance sur A1/A16 : les projections à 2030 anticipent une augmentation du fret routier de +15 %, aggravant les niveaux de NO₂ locaux",
+    "Effet îlot de chaleur urbain couplé à la pollution : les épisodes estivaux d'ozone troposphérique (O₃ > 180 µg/m³) pourraient s'intensifier avec le réchauffement climatique prévu (DRIAS 2060)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13 µg/m³",
+      "label": "PM2,5 moyen (AirParif 2022)"
+    },
+    {
+      "valeur": "2,6×",
+      "label": "Dépassement guide OMS PM2,5"
+    },
+    {
+      "valeur": "~40 µg/m³",
+      "label": "NO₂ bord de voie A1/A15"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Baisse NOₓ depuis 2010 (Citepa)"
+    }
+  ],
+  "sources": [
+    "AirParif – Bilan de la qualité de l'air en Île-de-France 2022-2023",
+    "OMS – Lignes directrices qualité de l'air mondial 2021",
+    "Citepa – Inventaire des émissions de polluants atmosphériques 2022",
+    "ANSES – Rapport particules ultrafines aéroports 2021",
+    "PPA Île-de-France révisé 2023"
+  ],
+  "limites": [
+    "Le réseau de surveillance AirParif est plus dense en zones urbaines (Cergy, Argenteuil) ; les communes rurales du Vexin restent sous-instrumentées, générant des incertitudes sur les niveaux réels de fond",
+    "Les données sur les particules ultrafines (PUF) émises par Roissy-CDG ne sont pas encore intégrées dans les indices réglementaires officiels, sous-estimant l'exposition réelle des riverains",
+    "L'inventaire Citepa agrège les émissions à l'échelle nationale ; la désagrégation à l'échelle communale du Val-d'Oise reste imprécise, notamment pour distinguer les contributions respectives du trafic routier, aéroportuaire et industriel"
+  ]
+}

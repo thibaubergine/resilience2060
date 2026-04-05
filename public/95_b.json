@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-d'Oise (95) présente une biodiversité fragilisée par une pression urbaine et périurbaine intense, caractéristique de sa position en grande couronne parisienne, avec seulement environ 3 à 4 % de son territoire couvert par des sites Natura 2000 (INPN, 2024), bien en dessous de la moyenne nationale de 12,6 %. Le département abrite cependant des milieux remarquables concentrés dans les massifs forestiers de l'Île-de-France (forêts de Montmorency, L'Isle-Adam, Carnelle) et les vallées de l'Oise et du Vexin, qui constituent des réservoirs de biodiversité identifiés dans le SRCE Île-de-France. Le Parc Naturel Régional du Vexin français, qui couvre partiellement le Val-d'Oise (~65 000 ha sur son territoire), offre un cadre de protection partielle, mais les pressions liées à l'artificialisation des sols — le département a perdu environ 300 ha/an de surfaces naturelles et agricoles sur la décennie 2010-2020 (Observatoire régional des espaces naturels) — menacent durablement les continuités écologiques. La LPO Île-de-France recense des espèces indicatrices en déclin, notamment les oiseaux des plaines agricoles du Vexin (busard cendré, outarde canepetière sporadique), reflet d'une biodiversité ordinaire sous pression.",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 3.0,
+      "note": "Couverture Natura 2000 ~3-4%, très inférieure à la moyenne nationale 12,6%"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 6.0,
+      "note": "PNR Vexin français couvre partiellement le département, ~65 000 ha"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Espèces patrimoniales présentes mais en déclin : busard cendré, pic noir"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 5.0,
+      "note": "Corridors forestiers partiels, fragmentés par axes routiers et urbanisation dense"
+    }
+  ],
+  "points_forts": [
+    "Présence du PNR du Vexin français, l'un des plus grands PNR d'Île-de-France (~186 000 ha au total), structurant la biodiversité du nord-ouest du département",
+    "Massifs forestiers significatifs : forêt de Montmorency (2 600 ha), L'Isle-Adam (1 500 ha) et Carnelle (870 ha), classés ENS par le Conseil départemental",
+    "Vallées de l'Oise et de l'Epte identifiées comme corridors bleus dans le SRCE Île-de-France (OFB 2024), abritant des espèces piscicoles patrimoniales",
+    "Réseau d'Espaces Naturels Sensibles (ENS) du Conseil départemental 95 actif, avec plus de 3 000 ha gérés et ouverts au public"
+  ],
+  "vigilances": [
+    "Artificialisation soutenue (~300 ha/an sur 2010-2020) liée aux projets urbains et logistiques (Grand Paris Express, zones d'activités), menaçant irréversiblement les corridors écologiques identifiés au SRCE",
+    "Fragmentation croissante des habitats par le réseau routier dense (A15, A16, francilienne) : plus de 60 % des corridors régionaux traversant le département sont classés \"à restaurer\" ou \"dégradés\" (SRCE IDF)",
+    "Déclin documenté des oiseaux agricoles dans les plaines du Vexin (-30 % d'abondance sur 20 ans selon LPO IDF/STOC), risquant de s'accélérer avec l'intensification agricole et le changement climatique d'ici 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~3-4%",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "~65 000 ha",
+      "label": "Surface PNR Vexin (part Val-d'Oise)"
+    },
+    {
+      "valeur": ">3 000 ha",
+      "label": "ENS gérés par le département"
+    },
+    {
+      "valeur": "~300 ha/an",
+      "label": "Artificialisation 2010-2020"
+    }
+  ],
+  "sources": [
+    "OFB / INPN 2024",
+    "LPO Île-de-France / STOC",
+    "SRCE Île-de-France (DRIEAT)",
+    "Observatoire Régional des Espaces Naturels IDF"
+  ],
+  "limites": [
+    "Les données de suivi des espèces sont fortement dépendantes des réseaux de bénévoles (LPO, CBNBP), induisant des lacunes d'inventaire sur les zones périurbaines et industrielles du sud du département",
+    "La délimitation des corridors écologiques dans le SRCE date de 2013 et n'intègre pas les évolutions récentes d'urbanisation liées aux projets du Grand Paris, sous-estimant potentiellement la fragmentation actuelle",
+    "L'absence d'un observatoire départemental dédié à la biodiversité limite la production de données locales consolidées et comparables sur le long terme pour le Val-d'Oise"
+  ]
+}

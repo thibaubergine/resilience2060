@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-de-Marne (94) présente l'un des profils de biodiversité les plus dégradés de France métropolitaine, classé parmi les derniers départements (rang 92/96), reflet d'une urbanisation massive couvrant plus de 85 % du territoire (INSEE 2023). La couverture Natura 2000 y est quasi inexistante, avec moins de 0,5 % de surface désignée, contre une moyenne nationale de 12,6 % (INPN 2024). Le département ne dispose d'aucun parc naturel régional ni parc national, et les espaces naturels résiduels se concentrent essentiellement sur les berges de la Marne et de la Seine, soumis à de fortes pressions anthropiques (OFB 2024). Les corridors écologiques identifiés dans le Schéma Régional de Cohérence Écologique (SRCE Île-de-France) sont fortement fragmentés par l'autoroute A86, les voies ferrées et la densité du bâti, compromettant toute continuité fonctionnelle entre les rares ilots verts (LPO 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 2.0,
+      "note": "Moins de 0,5 % du territoire classé Natura 2000, très en-dessous nationale"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 1,
+      "note": "Aucun parc national ni PNR; aucune réserve naturelle nationale"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 3.0,
+      "note": "Quelques espèces remarquables en berges Marne/Seine; effectifs très limités"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 4.0,
+      "note": "Corridors SRCE identifiés mais fortement fragmentés par infrastructure dense"
+    }
+  ],
+  "points_forts": [
+    "Présence de la Marne et de la Seine offrant des corridors humides résiduels avec habitats favorables aux amphibiens et oiseaux d'eau (LPO 94)",
+    "Le Bois de Vincennes (~995 ha), forêt domanière limitrophe, constitue le principal réservoir de biodiversité accessible aux habitants du département (ONF 2023)",
+    "Développement d'une trame verte urbaine via les plans locaux d'urbanisme intercommunaux (PLUi) de la Métropole du Grand Paris, avec obligation de végétalisation des toitures et cours",
+    "Programme « Territoires engagés pour la nature » (TEN) : plusieurs communes du 94 engagées dans des plans de gestion différenciée réduisant l'usage de pesticides dans les espaces verts publics"
+  ],
+  "vigilances": [
+    "Fragmentation croissante des espaces naturels résiduels : l'imperméabilisation des sols atteint ~73 % du territoire, menaçant les dernières continuités écologiques (INRAE 2023)",
+    "Espèces invasives en expansion sur les berges (Renouée du Japon, Jussie, Ragondin) colonisant les habitats riverains de la Marne, réduisant la diversité floristique et faunistique (OFB 2024)",
+    "Changement climatique amplifié par l'îlot de chaleur urbain (+2 à +3°C projetés d'ici 2060 selon DRIAS) : stress thermique sur les espèces végétales et animales des espaces verts fragmentés"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "< 0,5 %",
+      "label": "Couverture Natura 2000"
+    },
+    {
+      "valeur": "0",
+      "label": "Parcs naturels (PN/PNR)"
+    },
+    {
+      "valeur": "~73 %",
+      "label": "Taux imperméabilisation sols"
+    },
+    {
+      "valeur": "~995 ha",
+      "label": "Bois de Vincennes (limitrophe)"
+    }
+  ],
+  "sources": [
+    "OFB 2024 – Observatoire national de la biodiversité",
+    "INPN 2024 – Inventaire National du Patrimoine Naturel",
+    "LPO Île-de-France 2023 – Atlas des oiseaux nicheurs",
+    "SRCE Île-de-France – Schéma Régional de Cohérence Écologique"
+  ],
+  "limites": [
+    "L'absence de données de suivis naturalistes systématiques à l'échelle du Val-de-Marne rend difficile l'évaluation précise des populations d'espèces, le département étant peu couvert par les inventaires participatifs (INPN)",
+    "Le Bois de Vincennes, principal réservoir de biodiversité attribué au département, est administrativement partagé avec Paris (75), ce qui biaise l'évaluation positive des espaces naturels disponibles",
+    "Les données Natura 2000 et aires protégées ne capturent pas les efforts récents de végétalisation urbaine (toitures vertes, jardins partagés) qui contribuent à une biodiversité ordinaire difficilement quantifiable à ce stade"
+  ]
+}

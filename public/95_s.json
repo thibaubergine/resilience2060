@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-d'Oise présente une situation préoccupante sur la dimension sols, reflet d'un territoire soumis à de fortes pressions industrielles, agricoles et urbaines. Le département recense plus de 250 sites pollués ou potentiellement pollués répertoriés dans la base de données GéoRisques (ex-BASOL/BASIAS), héritage d'une industrialisation dense autour de Cergy-Pontoise et de la plaine de France. Les sols agricoles du département, cultivés à plus de 55 % en grandes cultures céréalières (SAU d'environ 105 000 ha), présentent des résidus de pesticides significatifs, notamment en herbicides de la famille des triazines et en fongicides, selon les données INRAE 2023. La part de la SAU certifiée en agriculture biologique reste très faible, inférieure à 4 %, bien en dessous de la moyenne nationale de 10,7 % (Agence Bio 2023). Le risque radon est classé en zone 1 (faible) sur la quasi-totalité du territoire, constituant l'un des rares éléments favorables de la dimension sols pour ce département.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 3.0,
+      "note": "Plus de 250 sites BASOL/BASIAS; pression industrielle élevée Cergy-plaine de France"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Grandes cultures dominantes; résidus herbicides et fongicides fréquents (INRAE 2023)"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Zone radon 1 (faible) sur quasi-totalité du département (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio < 4%, très inférieure à la moyenne nationale de 10,7% (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles d'Île-de-France : département classé en zone 1 (potentiel radon faible) sur l'essentiel du territoire (IRSN)",
+    "Absence de formations géologiques uranifères majeures limitant la contamination naturelle des sols",
+    "Présence de corridors agricoles préservant des sols non artificialisés en Vexin (Parc naturel régional du Vexin français)",
+    "Efforts de dépollution engagés sur certains sites industriels reconvertis à Cergy-Pontoise dans le cadre de projets d'aménagement urbain"
+  ],
+  "vigilances": [
+    "Contamination persistante des sols par les hydrocarbures, métaux lourds et solvants chlorés sur les friches industrielles de la plaine de France et des zones péri-urbaines, avec risque de transfert vers les nappes phréatiques",
+    "Progression de l'artificialisation des sols : le Val-d'Oise est l'un des départements franciliens les plus consommateurs d'espaces naturels et agricoles, menaçant les objectifs ZAN (zéro artificialisation nette) d'ici 2050",
+    "Accumulation de résidus phytosanitaires dans les sols de grandes cultures céréalières, avec détection régulière de métabolites de chlorothalonil et de glyphosate, susceptible de s'aggraver avec l'intensification des pratiques (INRAE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">250",
+      "label": "Sites pollués recensés (GéoRisques)"
+    },
+    {
+      "valeur": "<4%",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "Zone 1",
+      "label": "Classement risque radon (IRSN)"
+    },
+    {
+      "valeur": "~105 000 ha",
+      "label": "Surface agricole utile totale"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "INRAE - Observatoire des résidus de pesticides 2023",
+    "IRSN - Cartographie du potentiel radon",
+    "Agence Bio - Statistiques nationales 2023"
+  ],
+  "limites": [
+    "Les données BASIAS/BASOL ne renseignent pas systématiquement sur la nature et la concentration précise des polluants présents dans les sols du Val-d'Oise, rendant toute hiérarchisation fine des risques difficile",
+    "L'absence d'un réseau de surveillance systématique des résidus de pesticides dans les sols agricoles du département impose de recourir aux données régionales ou nationales INRAE, peu spécifiques aux terroirs valdoisiens",
+    "La dynamique d'artificialisation est mesurée avec un décalage temporel (données Fichiers Fonciers millésimés), ce qui sous-estime probablement la consommation réelle des sols en lien avec les projets de Grand Paris Express et d'urbanisation en cours"
+  ]
+}

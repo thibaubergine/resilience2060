@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Saint-Denis présente le profil de sols le plus dégradé de France métropolitaine, avec une densité exceptionnelle de sites pollués hérités de son passé industriel intense. Le département comptabilise plus de 200 sites référencés dans la base BASOL/Géorisques, soit l'une des densités surfaciques les plus élevées de France pour un territoire de seulement 236 km². Les sols agricoles sont quasi-absents (SAU inférieure à 1% du territoire selon Agreste 2023), rendant toute dynamique de conversion bio structurellement marginale. La contamination historique aux métaux lourds, hydrocarbures et composés organochlorés affecte des sols urbains où vivent plus de 1,6 million d'habitants, avec des enjeux sanitaires documentés par Santé Publique France. Le risque radon est toutefois faible en raison de la géologie sédimentaire du bassin parisien, ce qui constitue l'un des rares paramètres favorables du département.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 1,
+      "note": "Plus de 200 sites BASOL, densité record nationale sur 236 km²"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 2.0,
+      "note": "Résidus pesticides détectés, sols urbains fortement contaminés métaux lourds"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie sédimentaire, risque radon catégorie 1 faible (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 1,
+      "note": "SAU inférieure à 1%, part bio structurellement nulle (Agreste 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon parmi les plus faibles de France : département classé en zone 1 (IRSN), exposition résidentielle minimale",
+    "Efforts de dépollution engagés sur plusieurs friches industrielles dans le cadre du Grand Paris Express, avec réhabilitation documentée sur sites Plaine Commune",
+    "Absence quasi-totale de contamination aux pesticides agricoles récents, faute de surfaces cultivées significatives",
+    "Dynamique de renaturation urbaine croissante : programme \"1000 hectares de nature\" porté par le Département 93"
+  ],
+  "vigilances": [
+    "Contamination aux métaux lourds (plomb, arsenic, cadmium) sur sols urbains affectant potentiellement les espaces récréatifs fréquentés par les enfants, avec risques sanitaires documentés par SPF",
+    "Résurgence de pollutions diffuses lors des chantiers du Grand Paris Express (180 km de tunnels) : excavation de terres polluées estimée à plusieurs millions de m³ à gérer d'ici 2030",
+    "Imperméabilisation massive des sols (plus de 85% de surfaces artificialisées selon CEREMA 2023) aggravant les risques d'inondation par ruissellement et limitant toute capacité de dépollution naturelle"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">200",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "<1%",
+      "label": "Part SAU du territoire"
+    },
+    {
+      "valeur": "85%+",
+      "label": "Taux artificialisation sols"
+    },
+    {
+      "valeur": "Zone 1",
+      "label": "Classement radon IRSN"
+    }
+  ],
+  "sources": [
+    "GéoRisques/BASOL 2023",
+    "IRSN - Cartographie radon",
+    "Agreste - recensement agricole 2020",
+    "CEREMA - artificialisation des sols 2023"
+  ],
+  "limites": [
+    "L'absence de SAU significative rend le critère \"résidus pesticides agricoles\" peu pertinent pour ce département, faussant la comparaison nationale",
+    "Les données BASOL sous-estiment probablement la contamination réelle des sols urbains non industriels, faiblement cartographiés en contexte résidentiel dense",
+    "L'indicateur radon, seul critère favorable, masque la réalité d'une pollution multi-contaminants complexe et mal agrégée dans les bases nationales disponibles"
+  ]
+}

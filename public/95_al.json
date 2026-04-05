@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-d'Oise (95) présente une situation alimentaire fragilisée par l'urbanisation massive de ce département périurbain d'Île-de-France, où la Surface Agricole Utile (SAU) ne représente qu'environ 45 % du territoire, soit environ 70 000 ha, principalement consacrés aux grandes cultures céréalières peu diversifiées (DRAAF Île-de-France, 2023). La part de l'agriculture biologique certifiée reste très limitée, autour de 3,5 % de la SAU, nettement inférieure à la moyenne nationale de 10,7 % (Agence Bio, 2023), reflétant la domination d'un modèle agricole conventionnel intensif hérité de la Plaine de France. Le département souffre d'une quasi-absence de signes officiels de qualité (AOP/IGP) liés à des productions locales spécifiques, réduisant sa valorisation territoriale alimentaire (INAO, 2024). Toutefois, la proximité de l'agglomération parisienne génère une demande croissante en circuits courts et quelques dynamiques AMAP émergentes, mais insuffisantes pour compenser la forte dépendance aux approvisionnements extérieurs évaluée dans le cadre du diagnostic ZAVA 2024.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "Forte dépendance alimentaire extérieure, SAU dominée par céréales exportées"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 3.0,
+      "note": "Quasi-absence d'AOP/IGP territorialement ancrées dans le département"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 4.0,
+      "note": "Part bio ~3,5% SAU, bien en-dessous de la moyenne nationale 10,7%"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Dynamique AMAP périurbaine existante, demande urbaine favorable aux circuits courts"
+    }
+  ],
+  "points_forts": [
+    "Environ 70 000 ha de SAU préservés malgré la pression urbaine, offrant un potentiel de reconversion (DRAAF Île-de-France, 2023)",
+    "Dynamique croissante de circuits courts alimentée par la proximité de 1,2 million d'habitants et une demande urbaine solvable (INSEE, 2023)",
+    "Présence de marchés de producteurs locaux et d'initiatives AMAP en développement dans les villes moyennes (Cergy, Pontoise, Argenteuil)",
+    "Projets agro-alimentaires de territoire portés dans le cadre du PAT (Projet Alimentaire Territorial) en cours d'élaboration dans le Val-d'Oise"
+  ],
+  "vigilances": [
+    "Artificialisation continue des terres agricoles : entre 150 et 200 ha/an perdus en Île-de-France, Val-d'Oise particulièrement exposé (ZAN, SDRIF-E 2040)",
+    "Très faible diversification des cultures (blé, colza dominants) rendant le système alimentaire local vulnérable aux chocs climatiques projetés à +2°C d'ici 2050 (Climadiag, DRIAS 2023)",
+    "Risque de désertification agricole dans les secteurs sous forte pression foncière (vallée de l'Oise, pourtour de Cergy-Pontoise), menaçant à terme la souveraineté alimentaire locale"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~70 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "3,5 %",
+      "label": "Part agriculture biologique (SAU)"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP alimentaires locales majeures"
+    },
+    {
+      "valeur": "~1,2 M",
+      "label": "Population dépendante (INSEE 2023)"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2023 – Statistiques nationales et régionales bio",
+    "INAO 2024 – Registre AOP/IGP France",
+    "DRAAF Île-de-France 2023 – Recensement agricole",
+    "ZAVA 2024 – Zone à enjeux de vulnérabilité alimentaire"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 à l'échelle départementale restent agrégées et ne permettent pas d'identifier finement les micro-territoires agricoles encore résilients dans le Val-d'Oise",
+    "L'absence de PAT formellement adopté dans le département au moment de l'analyse rend difficile l'évaluation des trajectoires de transition alimentaire en cours",
+    "Les chiffres de circuits courts et AMAP ne font pas l'objet d'un recensement exhaustif officiel à l'échelle du 95, induisant une sous-estimation potentielle de la réalité de terrain"
+  ]
+}

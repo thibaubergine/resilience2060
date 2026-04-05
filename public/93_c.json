@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Saint-Denis (93), département le plus densément peuplé de France métropolitaine avec 7 400 hab/km², présente une vulnérabilité climatique majeure en horizon 2060 (Climadiag Météo-France, 2023). Selon les projections DRIAS 2050, le département subira en moyenne 20 à 25 jours de vagues de chaleur supplémentaires par an d'ici 2060, avec des températures estivales dépassant régulièrement 40°C en scénario RCP 8.5. L'effet d'îlot de chaleur urbain (ICU) y est particulièrement intense : les températures nocturnes y dépassent de 3 à 5°C celles des zones périurbaines environnantes, aggravant drastiquement l'exposition des populations précaires (APUR, 2022). La faible présence de végétation – seulement 16% d'espaces verts par habitant, très en deçà du seuil OMS de 9 m²/hab dans plusieurs communes – annule tout tampon thermique naturel (IAU Île-de-France, 2021). Par ailleurs, le territoire est traversé par plusieurs cours d'eau canalisés (Seine, Marne, canal de l'Ourcq) exposant plus de 180 000 habitants à un risque inondation centennale selon le PPRI francilien (DRIEAT, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 2.0,
+      "note": "Altitude quasi nulle (30-100m), aucun tampon thermique orographique"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 1,
+      "note": "Îlot de chaleur urbain extrême, +25 jours canicule prévus d'ici 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Quasi-absence de forêts, risque feux marginal sur ce territoire"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 2.0,
+      "note": "180 000 habitants en zone inondable centennale, Seine et Marne"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt quasi nul : moins de 1% du territoire en zone boisée sensible (IFN/ONF 2023), score parmi les meilleurs de France",
+    "Absence de submersion marine : département 100% continental, aucune façade côtière exposée",
+    "Projets de renaturation urbaine en cours : Plan Canopée Paris Métropole vise +10% de couvert arboré d'ici 2030 (MGP, 2022)",
+    "Réseau de climatisation urbaine partiel via GDF-Suez/Climespace étendu à certaines zones du département"
+  ],
+  "vigilances": [
+    "Surmortalité estivale élevée : lors de la canicule de 2003, excès de mortalité de +142% en Île-de-France densifiée ; projection d'aggravation forte d'ici 2060 en RCP8.5 (Inserm/Météo-France)",
+    "Cumul de vulnérabilités sociales et climatiques : 28% de la population sous le seuil de pauvreté, sans accès à la climatisation ni à des espaces verts refuges (INSEE 2022 / ADEME)",
+    "Risque inondation majeur du fait de la Seine et de la Marne : un événement centennale type 1910 affecterait directement 180 000 habitants et paralyserait les infrastructures critiques (DRIEAT/PPRI 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+25 jours",
+      "label": "Jours de canicule supplémentaires/an d'ici 2060 (DRIAS RCP8.5)"
+    },
+    {
+      "valeur": "+4°C",
+      "label": "Écart thermique nocturne ICU vs zones péri-urbaines (APUR 2022)"
+    },
+    {
+      "valeur": "180 000 hab",
+      "label": "Population en zone inondable centennale (PPRI DRIEAT 2023)"
+    },
+    {
+      "valeur": "16%",
+      "label": "Part d'espaces verts, insuffisante vs seuil OMS (IAU IdF 2021)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2050 scénarios RCP4.5/8.5",
+    "PPRI DRIEAT Île-de-France 2023",
+    "APUR – Îlots de chaleur urbains 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag sont établies à maille régionale (Île-de-France) et ne distinguent pas toujours les spécificités intra-départementales de la Seine-Saint-Denis face au Grand Paris",
+    "L'intensité réelle de l'ICU en 2060 dépend fortement des politiques d'urbanisme et de végétalisation locales, très incertaines à cet horizon",
+    "Les données de vulnérabilité sociale (accès à la climatisation, mobilité résidentielle) sont sous-documentées dans les outils climatiques officiels, sous-estimant potentiellement l'exposition réelle des populations"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Essonne (91), département de la grande couronne francilienne, présente une vulnérabilité climatique préoccupante à l'horizon 2060, se classant parmi les territoires les plus exposés de France métropolitaine (rang 91/96). Selon Climadiag (Météo-France, 2023), le département pourrait connaître jusqu'à 30 jours de vagues de chaleur par an d'ici 2050-2070 sous scénario RCP 8.5, contre 4 à 6 jours en moyenne actuelle. Son altitude très faible (entre 40 et 200 m NGF pour la majorité du territoire) prive l'Essonne de tout tampon thermique orographique significatif. La Juine, l'Orge et l'Essonne constituent des axes inondables majeurs : environ 120 000 habitants résident en zone inondable identifiée (PPRI en vigueur, DRIEAT Île-de-France). La progression de l'urbanisation dense (environ 70 % de surfaces artificialisées dans la zone nord du département) amplifie l'îlot de chaleur urbain et réduit la résilience climatique globale (PCAET Essonne, 2022).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 3.0,
+      "note": "Altitude faible (40-200 m), aucun relief significatif, îlot thermique urbain marqué"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 2.0,
+      "note": "30 jours de canicule/an projetés 2060, parmi les plus élevés d'Île-de-France"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Forêts de Fontainebleau proches, risque feux modéré mais croissant sous RCP8.5"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Vallées Orge/Juine/Essonne inondables, 120 000 habitants en zone à risque"
+    }
+  ],
+  "points_forts": [
+    "Présence de massifs forestiers structurants (forêt de Sénart, lisières de Fontainebleau) offrant un potentiel de rafraîchissement local non négligeable",
+    "Réseau hydrographique dense (Essonne, Orge, Juine) favorisant des corridors de fraîcheur naturels recensés dans le SRCE Île-de-France (IAU, 2021)",
+    "Plusieurs communes dotées d'un PCAET approuvé (Communauté Paris-Saclay, Val d'Essonne) avec mesures d'adaptation thermique urbaine",
+    "Part relative de surfaces agricoles et naturelles encore significative au sud du département (~45 % du territoire), limitant partiellement l'effet d'îlot de chaleur"
+  ],
+  "vigilances": [
+    "Projection Climadiag (Météo-France, 2023) : hausse de +3°C à +4°C des températures estivales moyennes à l'horizon 2071-2100 sous RCP 8.5, avec multiplication des nuits tropicales (>20°C)",
+    "Risque inondation majeur sur les vallées de l'Orge et de l'Essonne : le PPRI couvre des zones densément peuplées ; l'événement de référence (crue centennale type 1910) causerait des dommages estimés à plusieurs centaines de millions d'euros (DRIEAT, 2022)",
+    "Artificialisation croissante aggravant le ruissellement urbain et réduisant la recharge des nappes phréatiques, dans un contexte de déficits hydriques estivaux projetés en hausse de 20 à 30 % (DRIAS 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "30 j/an",
+      "label": "Jours canicule projetés 2060 (RCP 8.5)"
+    },
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse températures estivales horizon 2100"
+    },
+    {
+      "valeur": "120 000",
+      "label": "Habitants en zone inondable (PPRI)"
+    },
+    {
+      "valeur": "45 %",
+      "label": "Part surfaces naturelles/agricoles au sud"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (TRACC/RCP 8.5)",
+    "DRIEAT Île-de-France – PPRI Orge/Essonne 2022",
+    "PCAET Communauté Paris-Saclay 2022"
+  ],
+  "limites": [
+    "Les projections Climadiag à l'échelle départementale lissent les fortes disparités nord/sud de l'Essonne (gradient urbain/rural très marqué entre Évry-Courcouronnes et Étampes)",
+    "L'absence de station météorologique de référence longue durée sur le territoire essonnien propre contraint à extrapoler depuis les données Orly (94) ou Melun (77), introduisant un biais possible sur les indicateurs thermiques locaux",
+    "Le risque feux de forêt, encore sous-documenté pour l'Essonne dans les bases DFCI franciliennes, est susceptible d'être sous-estimé compte tenu de la progression des conditions favorables aux incendies en lisière de Fontainebleau"
+  ]
+}

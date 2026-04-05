@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-de-Marne (94), département urbain dense de la petite couronne parisienne, présente une situation hydrique préoccupante malgré une alimentation en eau potable globalement conforme. L'eau distribuée provient majoritairement de la Seine et de la Marne via les usines de production d'Île-de-France (Eau de Paris, SEDIF), mais les deux cours d'eau traversant le département affichent un état écologique médiocre à moyen selon le classement DCE 2022, avec des pressions polluantes multiples (ruissellement urbain, rejets pluviaux, micropolluants). Les projections Explore2 (2023) anticipent une baisse des débits d'étiage de la Seine de l'ordre de 25 à 40 % à l'horizon 2060 en Île-de-France, accentuant la tension sur la ressource brute mobilisée. La détection de PFAS dans plusieurs captages franciliens et dans les eaux superficielles de la Marne constitue une alerte sérieuse (données ARS Île-de-France 2023), tandis que la pression nitrates reste modérée en contexte urbain mais significative en bordure des zones maraîchères résiduelles du département.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Eau potable conforme mais micropolluants détectés en réseau SEDIF/Eau de Paris"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Baisse étiage Seine 25–40 % horizon 2060 selon projections Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 5.0,
+      "note": "Pression nitrates faible en zone urbaine dense, légère en périphérie agricole"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 2.0,
+      "note": "PFAS détectés dans eaux Marne et captages franciliens ARS 2023"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité microbiologique de l'eau distribuée supérieur à 99 % (ARS Île-de-France, 2022)",
+    "Réseau SEDIF modernisé avec traitement par charbon actif réduisant les micropolluants organiques",
+    "Absence de dépassement réglementaire nitrates dans les eaux distribuées (seuil 50 mg/L non atteint)",
+    "Efforts de renaturation des berges de Marne engagés dans plusieurs communes (Champigny, Nogent) favorisant l'autoépuration"
+  ],
+  "vigilances": [
+    "Projections Explore2 (2023) prévoient une réduction de 25 à 40 % des débits d'étiage de la Seine d'ici 2060, fragilisant l'approvisionnement en eau brute",
+    "Contamination aux PFAS détectée dans les eaux de surface de la Marne et dans plusieurs captages franciliens (ARS Île-de-France 2023), sans valeur limite réglementaire française encore pleinement opérationnelle",
+    "Imperméabilisation très élevée du territoire (plus de 70 % de surfaces artificialisées) limitant la recharge des nappes phréatiques et augmentant les risques de ruissellement pollué vers la Marne et la Seine"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "99 %",
+      "label": "Conformité microbiologique eau potable"
+    },
+    {
+      "valeur": "-30 % médian",
+      "label": "Baisse débit étiage Seine 2060 (Explore2)"
+    },
+    {
+      "valeur": ">70 %",
+      "label": "Part surfaces imperméabilisées"
+    },
+    {
+      "valeur": "PFAS détectés",
+      "label": "Contamination eaux Marne (ARS 2023)"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France – Bilan qualité eaux potables 2022",
+    "Explore2 – Projections hydrologiques France 2023 (INRAE/OFB)",
+    "DCE – État écologique masses d'eau Seine-Normandie 2022",
+    "ARS Île-de-France – Campagne PFAS eaux superficielles et captages 2023"
+  ],
+  "limites": [
+    "Les données PFAS disponibles pour le Val-de-Marne sont partielles et issues de campagnes ponctuelles ; une surveillance continue par captage fait encore défaut à l'échelle départementale",
+    "L'état écologique de la Marne et de la Seine est évalué à l'échelle des masses d'eau régionales, rendant difficile une lecture strictement val-de-marnaise des pressions locales",
+    "Les projections Explore2 sur les débits sont produites à l'échelle des bassins versants et non à l'échelle départementale, ce qui introduit une incertitude sur l'impact local précis"
+  ]
+}

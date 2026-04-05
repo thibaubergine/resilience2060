@@ -1,0 +1,66 @@
+{
+  "synthese": "La Seine-Saint-Denis affiche l'une des qualités d'air les plus dégradées de France métropolitaine, pénalisée par une conjonction de pressions urbaines, industrielles et routières exceptionnelles. Les concentrations moyennes annuelles de NO₂ dépassent régulièrement 35–45 µg/m³ dans les zones proches du périphérique et des axes autoroutiers (A1, A3, A86), soit deux à trois fois la valeur guide OMS 2021 de 10 µg/m³ (Airparif, 2023). Les PM2,5 atteignent en moyenne 12–15 µg/m³ à l'échelle départementale, dépassant la valeur guide OMS de 5 µg/m³, avec des pics aux abords de la Plaine-Saint-Denis, zone industrielle parmi les plus denses d'Île-de-France (Airparif/Citepa). Le département concentre une densité exceptionnelle de sources émettrices : industries, entrepôts logistiques, aéroport du Bourget, trafic dense sur plus de 1 200 km de voiries classées, sans oublier le chauffage au fioul encore présent dans un parc résidentiel fortement dégradé (DRIEAT, 2022). L'exposition chronique aux polluants atmosphériques génère un surcoût sanitaire estimé à plusieurs centaines de millions d'euros annuels pour les pathologies respiratoires et cardiovasculaires des 1,6 million d'habitants (Santé publique France, 2021).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 2.0,
+      "note": "PM2,5 ~13 µg/m³, soit 2,6× la valeur guide OMS 2021 (5 µg/m³)"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 1,
+      "note": "NO₂ urbain jusqu'à 45 µg/m³, 4× la limite OMS, parmi les pires"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 2.0,
+      "note": "Plaine-Saint-Denis : l'une des zones industrielles les plus denses IDF"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 3.0,
+      "note": "Agriculture quasi-absente ; NH₃ agricole faible mais trafic routier dominant"
+    }
+  ],
+  "points_forts": [
+    "Quasi-absence de sources agricoles d'ammoniac (NH₃) : la superficie agricole utile est inférieure à 1 % du territoire, minimisant cette source spécifique de polluants (Agreste 2022)",
+    "Déploiement progressif de la Zone à Faibles Émissions (ZFE) métropolitaine couvrant le 93, avec interdiction des vignettes Crit'Air 5 et 4 dès 2024 (Métropole du Grand Paris)",
+    "Développement du réseau de transports en commun (Grand Paris Express, lignes 16/17) attendu pour réduire significativement la dépendance automobile à horizon 2030",
+    "Réseau de surveillance Airparif dense dans le département, permettant un suivi en temps réel et une information publique régulière (Airparif, 2023)"
+  ],
+  "vigilances": [
+    "Exposition chronique au NO₂ : 380 000 habitants environ vivent dans des zones dépassant régulièrement 40 µg/m³ (valeur limite UE), risque accru d'asthme, BPCO et maladies cardiovasculaires (Santé publique France, 2021)",
+    "Cumul de polluants autour des zones logistiques (A1/A3, Plaine-Saint-Denis, Le Bourget) : l'essor du e-commerce amplifie le trafic de poids lourds, menaçant toute amélioration de la qualité de l'air à court terme",
+    "Effet « canyon urbain » dans les centres-villes densément bâtis (Saint-Denis, Montreuil, Aubervilliers) : la morphologie urbaine piège les polluants et limite la dispersion, aggravant l'exposition des populations les plus précaires"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13 µg/m³",
+      "label": "PM2,5 moyen annuel (2× guide OMS)"
+    },
+    {
+      "valeur": "~40 µg/m³",
+      "label": "NO₂ moyen axes routiers majeurs"
+    },
+    {
+      "valeur": ">500",
+      "label": "Sites industriels émetteurs recensés (Plaine-Saint-Denis)"
+    },
+    {
+      "valeur": "2,6×",
+      "label": "Dépassement guide OMS PM2,5"
+    }
+  ],
+  "sources": [
+    "Airparif – Bilan de la qualité de l'air en Île-de-France 2023",
+    "OMS – Valeurs guides qualité de l'air 2021",
+    "Citepa – Inventaire des émissions polluantes 2022",
+    "Santé publique France – Impact sanitaire de la pollution atmosphérique 2021",
+    "DRIEAT – Plan de Protection de l'Atmosphère Île-de-France 2022"
+  ],
+  "limites": [
+    "Les données Airparif reposent sur un nombre limité de stations fixes ; la variabilité intra-départementale (forte hétérogénéité entre zones industrielles et résidentielles) est probablement sous-estimée dans les scores agrégés",
+    "L'inventaire Citepa n'intègre pas toujours les émissions diffuses des chantiers du Grand Paris Express, pourtant nombreux et actifs sur tout le département depuis 2017",
+    "L'évaluation comparative entre départements mélange des territoires à dominante rurale (faibles émissions agricoles) et urbaine, ce qui peut artificiellement pénaliser le 93 sur des critères pensés pour des contextes mixtes"
+  ]
+}

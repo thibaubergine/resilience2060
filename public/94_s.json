@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-de-Marne (94) présente l'un des profils de contamination des sols les plus dégradés de France métropolitaine, avec une densité exceptionnelle de sites et sols pollués héritée de son passé industriel intense (chimie, métallurgie, raffinage). Selon la base de données GéoRisques (ex-BASOL), le département recense plus de 200 sites pollués ou potentiellement pollués, soit une densité parmi les plus élevées rapportée à la superficie (245 km²). La quasi-absence de Surface Agricole Utile (SAU) — moins de 1 % du territoire selon Agreste 2023 — rend la problématique des résidus de pesticides agricoles marginale, mais ne compense pas la pression urbanistique sur les sols. Le risque radon est classé en zone 1 (faible) par l'IRSN, représentant l'un des rares avantages du département. La très forte imperméabilisation des sols (plus de 75 % de surfaces artificialisées selon Corine Land Cover 2018) aggrave les risques de ruissellement et de transfert de polluants vers les nappes.",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 2.0,
+      "note": "Plus de 200 sites BASOL, densité extrême pour 245 km²"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 7.0,
+      "note": "SAU quasi nulle (<1%), pression pesticides agricoles marginale"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 8.0,
+      "note": "Zone radon 1 IRSN, risque géologique faible en Île-de-France"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 2.0,
+      "note": "Part SAU bio anecdotique, territoire quasi totalement urbanisé"
+    }
+  ],
+  "points_forts": [
+    "Risque radon très faible : département classé en zone 1 (potentiel radon minimal) par l'IRSN, favorable à la qualité de l'air intérieur",
+    "Absence quasi totale d'agriculture intensive : moins de 1 % de SAU (Agreste 2023), limitant les apports directs de pesticides et engrais dans les sols",
+    "Plusieurs opérations de dépollution avancées sur d'anciens sites industriels (ex-raffinerie de Vitry, reconversions urbaines) inscrites dans les politiques régionales de renouvellement urbain",
+    "Engagement du Conseil Départemental dans la désimperméabilisation via le Plan Vert 94 et les opérations de renaturation urbaine"
+  ],
+  "vigilances": [
+    "Contamination chronique des sols par métaux lourds (plomb, cadmium, HAP) sur d'anciens sites industriels : risque d'exposition résidentielle lors des opérations de renouvellement urbain (GéoRisques)",
+    "Imperméabilisation massive (>75 % du territoire, Corine Land Cover 2018) aggravant le ruissellement urbain et le transfert de polluants vers la Marne et ses affluents, avec projection d'intensification des épisodes pluvieux extrêmes d'ici 2060 (DRIAS)",
+    "Densité de friches industrielles sous-diagnostiquées susceptibles d'abriter des pollutions résiduelles non répertoriées, notamment aux abords des anciens couloirs industriels de la Marne"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">200",
+      "label": "Sites BASOL recensés"
+    },
+    {
+      "valeur": "<1 %",
+      "label": "Part SAU du territoire"
+    },
+    {
+      "valeur": ">75 %",
+      "label": "Taux d'imperméabilisation"
+    },
+    {
+      "valeur": "Zone 1",
+      "label": "Classement radon IRSN"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Corine Land Cover 2018 (Copernicus)",
+    "Agreste – Recensement Agricole 2020"
+  ],
+  "limites": [
+    "L'inventaire BASOL ne recense que les sites connus et instruits administrativement ; de nombreuses pollutions diffuses liées à l'histoire industrielle du Val-de-Marne restent non cartographiées",
+    "L'absence de SAU significative rend les indicateurs nationaux sur les résidus de pesticides dans les sols (INRAE) non pertinents pour ce département, faussant la comparaison inter-départementale",
+    "Les données de désimperméabilisation et de renaturation sont insuffisamment consolidées à l'échelle communale, rendant difficile le suivi des progrès réels en matière de restauration de la fonction des sols"
+  ]
+}

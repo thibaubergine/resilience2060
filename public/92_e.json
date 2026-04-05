@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hauts-de-Seine (92) présentent une situation hydrique parmi les plus préoccupantes de France métropolitaine, reflet d'un territoire quasi-intégralement artificialisé (91% de surfaces imperméabilisées) où les ressources en eau souterraine sont quasi inexistantes. L'alimentation en eau potable repose à plus de 95% sur les eaux de surface de la Seine et de la Marne, traitées par les usines d'Île-de-France de Sagep/Eau de Paris et Veolia, exposant le département aux pollutions fluviales chroniques (ARS Île-de-France, 2023). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la Seine de 20 à 40% à l'horizon 2060 sous scénario SSP3-7.0, aggravant les tensions sur les prises d'eau situées en amont de l'agglomération parisienne. Les analyses PFAS menées suite au plan national 2022-2027 révèlent des contaminations détectées dans plusieurs captages franciliens, avec des concentrations totales parfois supérieures au seuil provisoire de 0,1 µg/L fixé pour 2026 (ANSES, 2023). La pression démographique exceptionnelle (1,6 million d'habitants sur 176 km²) conjuguée à l'imperméabilisation des sols génère des ruissellements urbains massifs dégradant la qualité des eaux de la Seine, classée en état chimique mauvais sur ce tronçon (DCE/AESN, 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 4.0,
+      "note": "Eau potable conforme mais dépendance totale aux eaux de surface traitées"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Débits Seine en baisse 20-40% horizon 2060 selon Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Nitrates modérés mais eaux de surface impactées par ruissellements urbains"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 2.0,
+      "note": "PFAS détectés dans captages franciliens, dépassements provisoires signalés"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité de l'eau potable distribuée supérieur à 98% pour les paramètres microbiologiques (ARS Île-de-France, 2023)",
+    "Réseau de surveillance dense : plus de 15 points de contrôle qualité sur la Seine traversant le département (Agence de l'Eau Seine-Normandie, 2022)",
+    "Infrastructures de traitement avancées (ozonation, charbon actif) permettant d'éliminer une large gamme de micropolluants organiques",
+    "Investissements du SIAAP pour la modernisation des stations d'épuration (Seine Aval) réduisant les rejets azotés de 30% depuis 2010"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40% des débits d'étiage de la Seine à l'horizon 2060 (Explore2, scénario SSP3-7.0), menaçant les prises d'eau franciliennes en période estivale",
+    "Contamination aux PFAS persistante dans les eaux brutes de surface, avec risque de non-conformité au seuil européen de 0,1 µg/L somme PFAS applicable dès 2026 (Directive 2020/2184)",
+    "Ruissellements urbains chroniques liés aux 91% de surfaces imperméabilisées générant des pics de pollution bactériologique et chimique lors d'épisodes orageux, compromettant durablement l'état écologique de la Seine"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "91%",
+      "label": "Surfaces imperméabilisées"
+    },
+    {
+      "valeur": "-30%",
+      "label": "Débits étiage Seine 2060 (médiane Explore2)"
+    },
+    {
+      "valeur": ">95%",
+      "label": "Eau potable issue eaux de surface"
+    },
+    {
+      "valeur": "0,1 µg/L",
+      "label": "Seuil PFAS applicable 2026"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France – Bilan qualité eau potable 2023",
+    "Explore2 – Projections hydrologiques INRAE/BRGM 2023",
+    "Agence de l'Eau Seine-Normandie – État des masses d'eau DCE 2022",
+    "ANSES – Bilan contamination PFAS eaux destinées consommation humaine 2023"
+  ],
+  "limites": [
+    "L'absence de masse d'eau souterraine significative sur le territoire des Hauts-de-Seine rend difficile toute comparaison avec les 96 départements sur le critère « stress hydrique nappe »",
+    "Les données de contamination PFAS spécifiques aux captages hauts-séquanais ne sont pas individualisées dans les bases publiques nationales, limitant la précision de l'évaluation infra-départementale",
+    "L'état chimique de la Seine est évalué à l'échelle de masses d'eau pluridépartementales, ne permettant pas d'isoler la contribution stricte du département 92 aux dégradations observées"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hauts-de-Seine (92) affichent le score sols le plus dégradé de France métropolitaine, reflet d'une densité industrielle et urbaine extrême sur seulement 176 km². Le département concentre l'un des plus forts taux de sites et sols pollués recensés en base BASOL/Géorisques, avec plus de 150 sites identifiés sur ce territoire, héritage des anciennes industries chimiques, pétrolières et mécaniques de la boucle de la Seine (Gennevilliers, Nanterre, Colombes). La surface agricole utile est quasi inexistante (moins de 0,5 % du territoire), rendant toute évaluation des résidus de pesticides INRAE marginale mais révélatrice d'une artificialisation totale des terres. Le risque radon est faible compte tenu de la géologie sédimentaire francilienne, seul paramètre épargné dans ce bilan sévère (IRSN). L'agriculture biologique est structurellement absente du département, avec une part SAU bio nulle, classant les Hauts-de-Seine dernier ou avant-dernier rang national sur cet indicateur (Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 1,
+      "note": "Plus de 150 sites BASOL recensés, densité parmi les plus élevées nationales"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 2.0,
+      "note": "SAU quasi nulle, résidus pesticides non représentatifs mais sols urbains très contaminés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 7.0,
+      "note": "Géologie sédimentaire francilienne, potentiel radon naturellement très faible (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 1,
+      "note": "Part SAU bio nulle, aucune exploitation bio recensée (Agence Bio 2023)"
+    }
+  ],
+  "points_forts": [
+    "Risque radon classé en catégorie 1 (faible) par l'IRSN, géologie sédimentaire du Bassin parisien protectrice",
+    "Absence quasi totale d'activité agricole limitant les apports de pesticides directs sur les sols du territoire",
+    "Démarches de dépollution engagées sur plusieurs friches industrielles majeures (Nanterre, Gennevilliers) dans le cadre de projets urbains Grand Paris",
+    "Réglementation ICPE stricte en Île-de-France encadrant les sites industriels encore actifs et imposant des plans de gestion des sols pollués"
+  ],
+  "vigilances": [
+    "Plus de 150 sites pollués recensés (ex-BASOL/Géorisques), avec risques de diffusion de contaminants (hydrocarbures, métaux lourds, solvants chlorés) vers les nappes phréatiques de la Seine",
+    "Artificialisation irréversible : plus de 99 % du territoire imperméabilisé, rendant toute renaturation ou restauration écologique des sols extrêmement coûteuse et marginale face aux projections du ZAN (Zéro Artificialisation Nette 2050)",
+    "Contamination chronique des sols de proximité (jardins partagés, espaces verts urbains) par les dépôts atmosphériques historiques et le ruissellement urbain, exposant potentiellement 1,6 million d'habitants (données INSEE 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">150",
+      "label": "Sites pollués BASOL/Géorisques"
+    },
+    {
+      "valeur": "<0,5 %",
+      "label": "Part du territoire en SAU"
+    },
+    {
+      "valeur": "0 %",
+      "label": "Part SAU bio (Agence Bio 2023)"
+    },
+    {
+      "valeur": "Catégorie 1",
+      "label": "Risque radon IRSN (faible)"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (2023)",
+    "IRSN – Cartographie du potentiel radon (2022)",
+    "Agence Bio – Observatoire national agriculture biologique (2023)",
+    "INRAE – Qualité des sols agricoles français (2023)"
+  ],
+  "limites": [
+    "L'indicateur résidus pesticides INRAE est conçu pour les territoires agricoles : son application aux Hauts-de-Seine, quasi entièrement urbanisés, le rend non pertinent et statistiquement non représentatif",
+    "Les bases BASOL et Géorisques sous-estiment potentiellement la réalité, car de nombreuses friches industrielles diffuses en zone dense n'ont pas fait l'objet d'investigation formelle et ne sont pas encore répertoriées",
+    "L'absence de données sols homogènes à l'échelle intra-départementale (cartographie RMQS insuffisamment dense en milieu urbain) empêche une évaluation fine de la contamination des sols urbains non industriels (jardins, parcs, voies ferrées)"
+  ]
+}

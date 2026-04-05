@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Saint-Denis (93) présente une situation hydrique parmi les plus préoccupantes de France métropolitaine, cumulant densité urbaine extrême (6 900 hab/km²) et vulnérabilités multiples sur la ressource en eau. L'alimentation en eau potable dépend quasi exclusivement des captages de la Marne et de la Seine via Eau de Paris et le SEDIF, avec des teneurs résiduelles en pesticides et micropolluants détectées au-delà des seuils de vigilance dans plusieurs distributions (ARS Île-de-France, 2022-2023). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la Seine de -20 à -40 % à l'horizon 2050-2070, menaçant directement les prélèvements de surface qui alimentent le département. La contamination aux PFAS est documentée dans plusieurs communes du département via les réseaux de distribution raccordés à des stations de traitement franciliennes sous pression, avec des concentrations détectées avant la norme 2026 de 0,1 µg/L (Anses, 2023). L'imperméabilisation massive des sols (>70 % de surfaces artificialisées) aggrave le ruissellement urbain, la surcharge des réseaux unitaires et la dégradation de la qualité des eaux superficielles lors des épisodes pluvieux intenses.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 3.0,
+      "note": "Micropolluants et pesticides résiduels détectés, distribution SEDIF sous pression"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Étiages Seine -20 à -40 % horizon 2060, dépendance totale aux eaux de surface"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Faible agriculture locale, nitrates peu problématiques, dilution urbaine dominante"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 2.0,
+      "note": "PFAS détectés dans réseaux reliés à stations franciliennes, vigilance Anses 2023"
+    }
+  ],
+  "points_forts": [
+    "Taux de conformité bactériologique de l'eau distribuée >98 % grâce aux traitements avancés du SEDIF (ARS Île-de-France, 2023)",
+    "Absence de pression agricole locale : quasi-zéro surface cultivée, nitrates d'origine agricole négligeables dans les captages",
+    "Investissements du SEDIF dans la modernisation des filières de traitement (osmose inverse, charbon actif) prévus 2024-2030",
+    "Réseaux de surveillance DCE et ARS parmi les plus denses d'Île-de-France, permettant un suivi continu des paramètres chimiques"
+  ],
+  "vigilances": [
+    "Stress hydrique critique : les projections Explore2 (2023) prévoient -30 % de débit moyen annuel sur la Seine à l'horizon 2070, menaçant les 1,5 million d'habitants dépendants des eaux de surface franciliennes",
+    "Contamination PFAS documentée : présence de substances per- et polyfluoroalkylées dans plusieurs unités de distribution alimentant le 93, avant entrée en vigueur de la norme réglementaire de 0,1 µg/L en 2026 (Anses/DGS 2023)",
+    "Surcharge des réseaux unitaires : plus de 60 % du réseau d'assainissement en réseau unitaire, générant des déversements d'eaux usées non traitées dans la Marne et le canal de l'Ourcq lors de chaque épisode pluvieux intense (SIAAP, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">70 %",
+      "label": "Surfaces imperméabilisées"
+    },
+    {
+      "valeur": "-30 %",
+      "label": "Débit Seine 2070 (Explore2)"
+    },
+    {
+      "valeur": ">98 %",
+      "label": "Conformité bactériologique eau"
+    },
+    {
+      "valeur": "~60 %",
+      "label": "Réseau unitaire assainissement"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France 2022-2023",
+    "Explore2 BRGM/OFB 2023",
+    "Anses/DGS PFAS 2023",
+    "SIAAP Rapport annuel 2022"
+  ],
+  "limites": [
+    "La Seine-Saint-Denis ne dispose d'aucun captage souterrain propre : toute évaluation de la qualité de l'eau brute dépend des données agrégées au niveau francilien, rendant difficile une analyse strictement départementale",
+    "Les données PFAS disponibles publiquement concernent les unités de distribution et non les captages spécifiques alimentant le 93, limitant la précision géographique du risque",
+    "L'absence de masse d'eau souterraine locale gérée au niveau départemental empêche toute comparaison directe avec les 96 départements pour les critères nitrates et pression agricole"
+  ]
+}

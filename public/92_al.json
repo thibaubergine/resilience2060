@@ -1,0 +1,65 @@
+{
+  "synthese": "Les Hauts-de-Seine constituent l'un des départements les plus urbanisés de France métropolitaine, avec une superficie totale de seulement 176 km² dont moins de 1% est consacré à la surface agricole utile (SAU), soit environ 150 hectares (Agreste 2023). Le département présente une autonomie alimentaire quasi nulle, sa densité démographique de plus de 9 700 hab/km² rendant toute production vivrière locale structurellement impossible à l'échelle territoriale (INSEE 2023). Aucune appellation d'origine protégée (AOP) ni indication géographique protégée (IGP) n'est recensée sur le territoire du 92, confirmant l'absence totale de filières agricoles labellisées (INAO 2024). La part de SAU certifiée en agriculture biologique reste marginale et non significative statistiquement, le territoire dépendant intégralement de l'approvisionnement externe via les grandes centrales logistiques de la région Île-de-France, notamment Rungis (ZAVA 2024 ; Agence Bio 2023).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 1,
+      "note": "SAU <150 ha, autonomie alimentaire quasi inexistante, dépendance totale externe"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 1,
+      "note": "Aucune AOP ni IGP recensée sur le territoire du département"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 1,
+      "note": "Part bio statistiquement non mesurable, SAU résiduelle non convertie"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 3.0,
+      "note": "Quelques AMAP actives en milieu urbain dense, initiatives limitées mais réelles"
+    }
+  ],
+  "points_forts": [
+    "Présence d'une dizaine d'AMAP actives dans le département, notamment à Boulogne-Billancourt et Levallois-Perret, mobilisant des consommateurs urbains engagés (Réseau AMAP IdF 2023)",
+    "Développement d'initiatives d'agriculture urbaine portées par des collectivités (toitures maraîchères, jardins partagés), avec plus de 80 jardins collectifs recensés (Mairie de Nanterre / AgroParisTech 2022)",
+    "Proximité immédiate du MIN de Rungis, garantissant un approvisionnement en produits frais de qualité pour la restauration collective et les commerces de détail",
+    "Dynamique locale de restauration scolaire intégrant progressivement la loi EGalim (50% de produits durables visés), portée par plusieurs communes du département (ADEME IdF 2023)"
+  ],
+  "vigilances": [
+    "Vulnérabilité alimentaire extrême en cas de rupture logistique : 100% des besoins alimentaires dépendent de flux externes, avec un risque systémique accru par la densité de population (1,6 million d'habitants)",
+    "Pression foncière irréversible sur les derniers espaces potentiellement cultivables, aucun verrou réglementaire fort ne protégeant les rares espaces verts à vocation productive (DRIEAT 2023)",
+    "Précarité alimentaire en hausse : les Banques alimentaires d'Île-de-France signalent une augmentation de 15% des bénéficiaires dans les Hauts-de-Seine entre 2021 et 2023, aggravée par l'inflation alimentaire"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~150 ha",
+      "label": "SAU totale estimée (92)"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP recensées"
+    },
+    {
+      "valeur": "<1%",
+      "label": "Part SAU / superficie totale"
+    },
+    {
+      "valeur": "~80",
+      "label": "Jardins partagés recensés"
+    }
+  ],
+  "sources": [
+    "Agreste Île-de-France 2023",
+    "INAO 2024 – Registre AOP/IGP",
+    "Agence Bio 2023 – Observatoire national",
+    "ZAVA 2024 – Zones d'autonomie alimentaire"
+  ],
+  "limites": [
+    "L'indicateur ZAVA est structurellement inadapté aux territoires hyper-urbanisés comme le 92 : il mesure une autonomie par définition impossible sans prendre en compte les stratégies métropolitaines d'approvisionnement mutualisé",
+    "L'absence de données agricoles fiables à l'échelle infra-départementale dans Agreste rend toute comparaison fine avec d'autres départements peu agricoles (Paris, petite couronne) méthodologiquement fragile",
+    "Les initiatives d'agriculture urbaine, bien que croissantes, ne sont pas encore intégrées dans les statistiques officielles de SAU ni dans les bilans de l'Agence Bio, conduisant à une sous-estimation de la production alimentaire locale non conventionnelle"
+  ]
+}

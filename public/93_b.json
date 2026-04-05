@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Saint-Denis (93) est le département le plus urbanisé de France métropolitaine avec plus de 93% de surface artificialisée, ce qui en fait l'un des territoires les plus défavorables à la biodiversité à l'échelle nationale (OFB 2024). Le département ne dispose d'aucun site Natura 2000 terrestre significatif et d'aucun parc naturel régional ou national sur son territoire, contrairement à ses voisins franciliens (INPN 2024). Les corridors écologiques y sont extrêmement fragmentés, réduits à quelques continuités vertes le long de la Seine, du canal de l'Ourcq et des rares espaces verts urbains, représentant moins de 7% du territoire en espaces naturels (SRCE Île-de-France). Malgré ce contexte très contraint, des espèces adaptées au milieu urbain comme le Faucon pèlerin ou la Chevêche d'Athéna ont été recensées, et des efforts de renaturation sont engagés dans le cadre des Jeux Olympiques 2024 avec la création du Parc des Nations à Saint-Denis (LPO Île-de-France 2023).",
+  "sous_scores": [
+    {
+      "label": "Couverture Natura 2000 (%)",
+      "score": 1,
+      "note": "Aucun site Natura 2000 terrestre significatif recensé sur le département"
+    },
+    {
+      "label": "Aires protégées (PN/PNR)",
+      "score": 1,
+      "note": "Pas de PN ni PNR; quelques réserves naturelles régionales très réduites"
+    },
+    {
+      "label": "Espèces emblématiques",
+      "score": 4.0,
+      "note": "Faucon pèlerin, Chevêche, espèces urbaines adaptées présentes localement"
+    },
+    {
+      "label": "État corridors écologiques",
+      "score": 3.0,
+      "note": "Corridors très fragmentés; canal de l'Ourcq et Seine, axes résiduels"
+    }
+  ],
+  "points_forts": [
+    "Présence du Faucon pèlerin nicheur sur plusieurs édifices urbains du département, espèce indicatrice d'une faune sauvage résistante en milieu urbain (LPO Île-de-France 2023)",
+    "Projet de renaturation lié aux JO 2024 : création du Parc des Nations (~50 ha) à Saint-Denis, plus grand espace vert créé en petite couronne depuis 30 ans",
+    "Le canal de l'Ourcq constitue un corridor écologique aquatique permettant la circulation de certaines espèces de poissons et d'odonates (INPN 2024)",
+    "Initiatives de végétalisation urbaine portées par plusieurs communes (Aubervilliers, Montreuil) dans le cadre de la TVB régionale (SRCE Île-de-France)"
+  ],
+  "vigilances": [
+    "Artificialisation persistante : avec 93% du territoire imperméabilisé, toute nouvelle urbanisation aggrave l'effondrement des corridors écologiques résiduels, menaçant les quelques continuités restantes d'ici 2030",
+    "Espèces exotiques envahissantes (EEE) en progression dans les friches industrielles et berges de canaux, concurrençant la végétation indigène sur les rares espaces naturels (OFB 2024)",
+    "Réchauffement climatique amplifié par l'effet d'îlot de chaleur urbain (jusqu'à +4°C en 2060 selon Climadiag), réduisant encore la capacité d'accueil des espèces thermosensibles et accentuant la pression sur la biodiversité urbaine résiduelle"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~7%",
+      "label": "Espaces naturels et semi-naturels"
+    },
+    {
+      "valeur": "0",
+      "label": "Sites Natura 2000 terrestres"
+    },
+    {
+      "valeur": "~50 ha",
+      "label": "Renaturation JO 2024 (Parc des Nations)"
+    },
+    {
+      "valeur": ">93%",
+      "label": "Surface artificialisée"
+    }
+  ],
+  "sources": [
+    "OFB 2024 - Observatoire national de la biodiversité",
+    "INPN - Inventaire National du Patrimoine Naturel 2024",
+    "LPO Île-de-France 2023 - Atlas des oiseaux nicheurs",
+    "SRCE Île-de-France - Schéma Régional de Cohérence Écologique"
+  ],
+  "limites": [
+    "L'absence quasi-totale de milieux naturels rend les indicateurs biodiversité standards (Natura 2000, aires protégées) inopérants et peu discriminants pour évaluer les efforts locaux de renaturation urbaine",
+    "Les données de suivi des espèces en milieu urbain dense sont lacunaires et peu systématiques en Seine-Saint-Denis, rendant difficile l'évaluation précise des populations faunistiques et floristiques réelles",
+    "Les projets de renaturation récents (JO 2024, TVB communale) n'ont pas encore fait l'objet d'évaluations d'impact biodiversité publiées, limitant la mesure des progrès effectifs sur le court terme"
+  ]
+}

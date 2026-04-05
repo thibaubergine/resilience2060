@@ -1,0 +1,66 @@
+{
+  "synthese": "Le Val-de-Marne (94) présente une situation alimentaire très dégradée, caractéristique des départements hyper-urbanisés de la petite couronne parisienne. Avec seulement 1 400 hectares de Surface Agricole Utile (SAU), soit moins de 5 % du territoire départemental, l'autonomie alimentaire locale est quasi nulle selon l'analyse ZAVA 2024. Le département ne recense aucune AOP ou IGP propre à son territoire, et la part de la SAU cultivée en agriculture biologique reste inférieure à 3 %, très en deçà de la moyenne nationale de 10,7 % (Agence Bio, 2023). Les circuits courts restent embryonnaires avec une dizaine d'AMAP répertoriées pour 1,35 million d'habitants, soit un ratio parmi les plus faibles de France métropolitaine. La pression foncière extrême, avec un prix médian des terres agricoles parmi les plus élevés d'Île-de-France (Safer IdF, 2023), rend toute reconquête agricole structurelle difficile à court terme.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 2.0,
+      "note": "SAU inférieure à 5% du territoire, dépendance alimentaire totale"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 2.0,
+      "note": "Aucune AOP/IGP propre au département recensée"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 3.0,
+      "note": "Part bio SAU inférieure à 3%, bien en dessous moyenne nationale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 5.0,
+      "note": "Une dizaine d'AMAP actives, dynamisme associatif urbain notable"
+    }
+  ],
+  "points_forts": [
+    "Une dizaine d'AMAP actives dans le département, notamment portées par des collectifs citoyens en zones pavillonnaires (Réseau AMAP IdF, 2023)",
+    "Projets de jardins partagés et de fermes urbaines en développement, avec le soutien du Conseil départemental via le Plan Vert 94",
+    "Quelques exploitations maraîchères périurbaines maintenues dans les espaces agricoles protégés du plateau de Mandres-les-Roses et de Périgny",
+    "Présence d'un tissu associatif dense autour de l'alimentation durable (épiceries solidaires, groupements d'achats) dans les villes comme Créteil et Vincennes"
+  ],
+  "vigilances": [
+    "Érosion continue de la SAU sous pression foncière et urbanistique : risque de disparition des dernières zones agricoles d'ici 2035 sans protection réglementaire renforcée (Safer IdF)",
+    "Forte dépendance aux chaînes logistiques extérieures pour l'approvisionnement alimentaire d'1,35 million d'habitants, vulnérabilité en cas de crise d'approvisionnement",
+    "Précarité alimentaire élevée dans plusieurs communes du département (taux de pauvreté > 20 % à Orly, Villeneuve-Saint-Georges), risquant de s'aggraver avec l'inflation alimentaire projetée +15 % d'ici 2030 (INSEE, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~1 400 ha",
+      "label": "Surface Agricole Utile totale"
+    },
+    {
+      "valeur": "< 3 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP propres au département"
+    },
+    {
+      "valeur": "~10",
+      "label": "AMAP recensées sur le territoire"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 (Zone à Vocation Agricole et Alimentaire)",
+    "Agence Bio – Chiffres clés 2023",
+    "INAO – Registre AOP/IGP 2024",
+    "Safer Île-de-France – Rapport foncier 2023",
+    "Réseau AMAP Île-de-France 2023"
+  ],
+  "limites": [
+    "L'absence de données ZAVA spécifiquement désagrégées à l'échelle du Val-de-Marne oblige à extrapoler depuis les données régionales Île-de-France, réduisant la précision de l'autonomie alimentaire calculée",
+    "La mesure des circuits courts et AMAP repose sur des recensements associatifs partiels, potentiellement sous-estimant les initiatives informelles et les drives fermiers périurbains",
+    "La SAU déclarée peut inclure des terres en jachère ou des espaces non cultivés en pratique, surestimant légèrement le potentiel productif réel du département"
+  ]
+}

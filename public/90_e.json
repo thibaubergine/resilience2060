@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90), petit département de 609 km², est traversé par la Savoureuse et ses affluents, alimentant en grande partie les captages AEP depuis les nappes alluviales du fossé rhénan et les eaux de surface vosgiens (ARS BFC, 2023). La qualité des eaux distribuées est globalement satisfaisante, avec environ 94 % de la population alimentée en eau conforme aux normes bactériologiques et physico-chimiques, bien que certaines communes rurales présentent des dépassements ponctuels (SISPEA, 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de l'ordre de 20 à 30 % d'ici 2050 sur les bassins versants vosgiens, exposant le département à un stress hydrique estival accru malgré des précipitations annuelles actuellement élevées (~1 000 mm/an). La contamination aux nitrates reste modérée en raison d'une pression agricole limitée (SAU restreinte), mais la présence de PFAS dans certains cours d'eau proches de zones industrielles de l'agglomération belfortaine constitue une vigilance émergente (DCE/ARS, 2023).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 7.0,
+      "note": "94 % population alimentée en eau conforme; quelques dépassements ruraux ponctuels"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 5.0,
+      "note": "Réduction débits étiage 20-30 % d'ici 2050 selon projections Explore2"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 8.0,
+      "note": "Pression agricole faible; nitrates bas, peu de zones vulnérables identifiées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "PFAS détectés dans Savoureuse à proximité zones industrielles agglomération belfortaine"
+    }
+  ],
+  "points_forts": [
+    "Qualité bactériologique de l'eau potable satisfaisante : 94 % de conformité sur le réseau AEP (SISPEA, 2022)",
+    "Faible pression agricole limitant la contamination aux nitrates, aucune zone vulnérable nitrates classée en 2023 (DRAAF BFC)",
+    "Ressource en eau abondante actuellement : précipitations annuelles ~1 000 mm/an, soutenant les débits de la Savoureuse (Météo-France)",
+    "Réseau de suivi DCE actif sur les masses d'eau du bassin Rhin-Meuse et Rhône-Méditerranée assurant une surveillance régulière"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 30 % des débits d'étiage à l'horizon 2050 (Explore2, 2023), menaçant l'alimentation en eau potable en été",
+    "Présence de PFAS détectée dans la Savoureuse et certains captages à proximité des zones industrielles de Belfort, surveillance renforcée requise (DCE/ARS, 2023)",
+    "Vieillissement des réseaux de distribution : taux de rendement moyen du réseau AEP inférieur à 75 % dans certaines collectivités rurales, entraînant des pertes significatives (SISPEA, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "94 %",
+      "label": "Conformité eau potable (bactério.)"
+    },
+    {
+      "valeur": "-25 %",
+      "label": "Réduction débit étiage estimée 2050"
+    },
+    {
+      "valeur": "~1 000 mm",
+      "label": "Précipitations annuelles moyennes"
+    },
+    {
+      "valeur": "0",
+      "label": "Zones vulnérables nitrates classées"
+    }
+  ],
+  "sources": [
+    "ARS BFC – Bilan qualité eaux 2023",
+    "SISPEA – Données services eau potable 2022",
+    "Explore2 – Projections hydrologiques 2023",
+    "DCE/OFB – Surveillance masses d'eau Rhin-Meuse/RM"
+  ],
+  "limites": [
+    "Le Territoire de Belfort est à cheval sur deux bassins hydrographiques (Rhin-Meuse et Rhône-Méditerranée), rendant l'agrégation des données de suivi complexe et parfois incomplète à l'échelle départementale",
+    "La très faible superficie du département (609 km²) limite la représentativité statistique des mesures ponctuelles de contamination aux PFAS ou nitrates",
+    "Les données PFAS dans les eaux souterraines restent partielles en 2023, le plan national de surveillance n'étant pas encore exhaustif pour ce département de petite taille"
+  ]
+}

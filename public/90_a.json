@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90), plus petit département français métropolitain avec 609 km², présente une qualité de l'air intermédiaire, sous surveillance du réseau ATMO Bourgogne-Franche-Comté. Les concentrations en PM2,5 oscillent autour de 10-12 µg/m³ en moyenne annuelle, dépassant la nouvelle valeur guide OMS 2021 fixée à 5 µg/m³, notamment en fond urbain de l'agglomération de Belfort. Le bassin industriel historique (anciens sites Alstom/GE, zone d'activités des Grésilles) génère des émissions de NOₓ et de particules significatives, classant le département parmi les territoires à pression industrielle notable pour sa superficie (ATMO BFC, bilan 2022). Les émissions d'ammoniac agricoles restent modérées compte tenu de la faible surface agricole utile (environ 18 000 ha, soit 30 % du territoire), ce qui constitue un facteur légèrement favorable par rapport aux grands départements céréaliers ou d'élevage intensif (Citepa, inventaire 2021).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 5.0,
+      "note": "PM2,5 ~11 µg/m³, dépasse nettement le seuil OMS 2021 de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 5.0,
+      "note": "NO₂ urbain Belfort ~18-22 µg/m³, proche seuil OMS, trafic dense A36"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Densité industrielle élevée pour superficie: anciens sites GE/Alstom, zones actives"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Faible SAU départementale, émissions NH₃ agricoles très limitées comparativement"
+    }
+  ],
+  "points_forts": [
+    "Émissions NH₃ agricoles parmi les plus basses de France en valeur absolue, SAU limitée à ~18 000 ha (Citepa 2021)",
+    "Réseau de surveillance ATMO BFC actif avec stations fixes à Belfort-centre et en périphérie, permettant un suivi continu des polluants réglementaires",
+    "Absence de grande industrie agro-alimentaire intensive ou d'élevage porcin/avicole industriel, limitant les odeurs et émissions diffuses d'ammoniac",
+    "Tendance baissière des émissions de NOₓ sur 10 ans grâce au renouvellement du parc automobile et à la réduction d'activité de certains sites industriels (ATMO BFC, bilan 2022)"
+  ],
+  "vigilances": [
+    "Exposition chronique aux PM2,5 pour ~140 000 habitants de l'agglomération belfortaine, avec dépassement persistant des valeurs guides OMS 2021 (5 µg/m³) ; risque sanitaire cardiovasculaire accru estimé à plusieurs centaines de cas évitables annuellement (Santé Publique France)",
+    "Corridor de transit A36/RN19 générant des pics de NO₂ et de particules en zone urbaine dense, avec risque d'aggravation si report modal insuffisant vers les transports en commun",
+    "Héritage industriel de la vallée de la Savoureuse : risque de remise en suspension de polluants (HAP, métaux lourds) lors d'épisodes venteux ou de travaux sur friches, en lien avec sols contaminés (GéoRisques, ex-BASOL)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~11 µg/m³",
+      "label": "PM2,5 moyen annuel (fond urbain)"
+    },
+    {
+      "valeur": "~20 µg/m³",
+      "label": "NO₂ moyen annuel (station urbaine)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil guide OMS 2021 PM2,5"
+    },
+    {
+      "valeur": "~18 000 ha",
+      "label": "SAU départementale (30% du territoire)"
+    }
+  ],
+  "sources": [
+    "ATMO Bourgogne-Franche-Comté, bilan qualité de l'air 2022",
+    "OMS, lignes directrices mondiales sur la qualité de l'air, 2021",
+    "Citepa, inventaire national des émissions, édition 2021",
+    "Santé Publique France, impact sanitaire de la pollution atmosphérique, 2021"
+  ],
+  "limites": [
+    "Le Territoire de Belfort ne dispose que d'un nombre limité de stations de mesure fixes, ce qui peut sous-représenter les disparités intra-départementales entre zones urbaines, péri-urbaines et rurales",
+    "Les données ATMO à l'échelle du département 90 sont parfois agrégées avec l'agglomération Belfort-Montbéliard-Héricourt-Delle (BMHD), rendant difficile l'isolement strict des valeurs propres au seul département",
+    "L'inventaire Citepa des émissions industrielles repose sur des déclarations des exploitants (registre GEREP), potentiellement sous-estimées pour les émissions diffuses des anciens sites en cours de dépollution"
+  ]
+}

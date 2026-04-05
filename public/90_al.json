@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90) est le plus petit département métropolitain français avec seulement 609 km², ce qui contraint structurellement sa surface agricole utile (SAU) à environ 13 000 hectares, soit moins de 22% du territoire (Agreste 2020). Sa dépendance alimentaire est forte : l'indice d'autonomie alimentaire ZAVA 2024 le positionne parmi les départements les moins autonomes, avec une production locale couvrant une fraction limitée des besoins d'une population d'environ 143 000 habitants concentrée autour de Belfort. Le département est quasi absent du registre INAO en matière d'AOP/IGP agroalimentaires reconnues, à l'exception d'une proximité géographique avec quelques indications voisines franc-comtoises (Comté, Morbier) sans ancrage territorial direct. La part de la SAU conduite en agriculture biologique reste inférieure à 8%, en deçà de la moyenne régionale Bourgogne-Franche-Comté (~12%, Agence Bio 2022), bien que quelques initiatives de circuits courts et d'AMAP émergent autour de l'agglomération belfortaine.",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "SAU réduite (13 000 ha), forte dépendance alimentaire extérieure avérée"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 4.0,
+      "note": "Aucune AOP/IGP propre ; proximité Comté sans ancrage territorial direct"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 6.0,
+      "note": "Part bio ~8% SAU, progression récente mais sous moyenne régionale"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 7.0,
+      "note": "Dynamique AMAP et marchés locaux actifs autour de l'agglomération belfortaine"
+    }
+  ],
+  "points_forts": [
+    "Présence d'une vingtaine de points de vente directe et AMAP recensés autour de Belfort, témoignant d'une demande urbaine active pour les circuits courts (Agence Bio 2022)",
+    "Progression de la surface en agriculture biologique de +15% entre 2018 et 2022, dynamique supérieure à la tendance nationale sur la période (Agence Bio 2022)",
+    "Engagement de la communauté d'agglomération Belfort-Montbéliard-Héricourt dans des projets alimentaires territoriaux (PAT) intégrant l'approvisionnement local des cantines scolaires",
+    "Proximité immédiate avec les filières fromagères AOP franc-comtoises (Comté, Morbier) permettant un accès local facilité pour la restauration collective"
+  ],
+  "vigilances": [
+    "La très faible SAU disponible (moins de 22% du territoire) rend structurellement impossible toute autonomie alimentaire significative, risque accentué par l'urbanisation continue de zones péri-agricoles",
+    "L'absence d'AOP/IGP propres fragilise l'identité et la valorisation économique des productions locales, limitant l'attractivité pour les nouvelles installations agricoles",
+    "La pression foncière autour de l'agglomération belfortaine menace les dernières terres agricoles péri-urbaines, avec un risque de réduction supplémentaire de la SAU à horizon 2030-2040"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~13 000 ha",
+      "label": "SAU totale départementale"
+    },
+    {
+      "valeur": "<8%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP agroalimentaires propres"
+    },
+    {
+      "valeur": "~20",
+      "label": "Points vente directe / AMAP recensés"
+    }
+  ],
+  "sources": [
+    "Agence Bio 2022 – Statistiques départementales bio",
+    "INAO 2024 – Registre AOP/IGP",
+    "ZAVA 2024 – Zones à vocation agricole et autonomie alimentaire",
+    "Agreste 2020 – Recensement agricole départemental"
+  ],
+  "limites": [
+    "La très petite taille du département (609 km²) rend les comparaisons entre 96 départements structurellement défavorables, indépendamment des politiques locales mises en œuvre",
+    "Les données ZAVA 2024 à l'échelle départementale peuvent masquer des dynamiques locales positives portées par l'intercommunalité Belfort-Montbéliard-Héricourt, non dissociables dans les statistiques",
+    "L'absence de filières agricoles longues et structurées (coopératives, abattoirs de proximité) dans le département rend difficile le suivi statistique précis des circuits courts réels au-delà des AMAP déclarées"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90), plus petit département métropolitain avec seulement 609 km², présente des sols sous forte pression anthropique liée à son passé industriel (sidérurgie, mécanique, automobile autour de Belfort-Montbéliard), générant un nombre élevé de sites pollués ou potentiellement pollués au regard de sa superficie (GéoRisques/ex-BASOL). Le département est classé en zone à potentiel radon significatif (niveau 3), soit le niveau le plus élevé défini par l'IRSN, couvrant l'ensemble du territoire en raison du socle granitique vosgien sous-jacent. La surface agricole utile (SAU) est limitée (~18 000 ha), avec une part en agriculture biologique encore modeste autour de 8-10% selon l'Agence Bio 2023, inférieure à la moyenne régionale Bourgogne-Franche-Comté. La pression en résidus de pesticides reste modérée compte tenu de la faible intensification agricole, mais les sols periurbains et industriels concentrent des contaminations historiques aux métaux lourds et hydrocarbures (INRAE 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 4.0,
+      "note": "Nombreux sites BASOL/industrie lourde, densité élevée/km²"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 6.0,
+      "note": "Faible SAU, agriculture peu intensive, résidus pesticides limités"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 3.0,
+      "note": "Totalité département classée zone radon niveau 3 (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 7.0,
+      "note": "Part bio ~9%, supérieure à moyenne nationale mais SAU réduite"
+    }
+  ],
+  "points_forts": [
+    "Agriculture peu intensive : la faible SAU (~18 000 ha) limite l'exposition globale aux résidus de pesticides dans les sols agricoles (INRAE 2023)",
+    "Part de SAU en bio estimée à ~9%, au-dessus de la moyenne nationale de 7,5% (Agence Bio 2023), portée par des exploitations herbagères",
+    "Présence de zones naturelles et forestières (massif vosgien) préservant des sols non artificialisés et non contaminés sur une partie du territoire",
+    "Engagement territorial dans le ZAN (Zéro Artificialisation Nette) intégré au SRADDET Bourgogne-Franche-Comté, limitant l'étalement urbain supplémentaire"
+  ],
+  "vigilances": [
+    "Risque radon classé niveau 3 (potentiel élevé) sur l'intégralité du département : exposition chronique dans les bâtiments mal ventilés, 2e cause de cancer du poumon selon l'IRSN, nécessitant des mesures préventives systématiques",
+    "Héritage industriel lourd (Alsthom, industrie automobile) : sites potentiellement pollués aux métaux lourds (plomb, chrome) et HAP avec risques de transfert vers les nappes phréatiques en cas de réhabilitation mal encadrée (GéoRisques)",
+    "Artificialisation des sols historiquement élevée pour un département de cette taille : environ 20% de surfaces artificialisées, limitant la capacité de résilience et de régulation hydrique des sols à horizon 2050"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "609 km²",
+      "label": "Superficie totale (plus petit dpt métrop.)"
+    },
+    {
+      "valeur": "Niveau 3",
+      "label": "Zonage radon IRSN (max)"
+    },
+    {
+      "valeur": "~18 000 ha",
+      "label": "SAU estimée"
+    },
+    {
+      "valeur": "~9%",
+      "label": "Part SAU en agriculture biologique"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL (BRGM)",
+    "IRSN – Cartographie du potentiel radon 2022",
+    "Agence Bio – Chiffres régionaux 2023",
+    "INRAE – Qualité des sols agricoles 2023"
+  ],
+  "limites": [
+    "L'absence d'observatoire départemental dédié aux sols dans le Territoire de Belfort rend difficile une quantification précise des surfaces contaminées hors sites BASOL référencés",
+    "La très petite taille du département (609 km²) amplifie statistiquement les indicateurs par unité de surface (densité de sites pollués/km²), pouvant biaiser les comparaisons interdépartementales",
+    "Les données sur les résidus de pesticides dans les sols agricoles spécifiques au département 90 sont peu documentées individuellement, les statistiques étant souvent agrégées à l'échelle régionale Bourgogne-Franche-Comté"
+  ]
+}

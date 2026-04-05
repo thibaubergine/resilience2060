@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Essonne (91) présente une situation préoccupante pour la qualité des sols, reflétant les pressions combinées d'une urbanisation intense et d'une agriculture conventionnelle dominante en grande plaine céréalière. Le département recense plus de 200 sites ou sols pollués référencés dans la base ex-BASOL/BASIAS, héritage d'une industrialisation ancienne dans la vallée de l'Orge et de l'Essonne (GéoRisques, 2023). Les résidus de pesticides dans les sols agricoles y sont parmi les plus élevés d'Île-de-France, la Beauce essonnienne étant une zone de grande culture intensive avec usage important de fongicides et herbicides (INRAE, 2023). Le risque radon reste modéré à faible sur l'essentiel du territoire (zones 1 et 2 IRSN), tandis que la part de SAU en agriculture biologique demeure très insuffisante, autour de 5 à 6 %, bien en deçà des objectifs Écophyto et du plan Ambition Bio national (Agence Bio, 2023).",
+  "sous_scores": [
+    {
+      "label": "Sites ex-BASOL",
+      "score": 3.0,
+      "note": "Plus de 200 sites pollués ex-BASOL, vallées industrialisées Orge/Essonne"
+    },
+    {
+      "label": "Résidus pesticides (INRAE)",
+      "score": 3.0,
+      "note": "Grande plaine céréalière Beauce, intrants pesticides élevés, sols dégradés"
+    },
+    {
+      "label": "Risque radon (IRSN)",
+      "score": 6.0,
+      "note": "Majorité territoire en zone radon 1-2, risque faible à modéré (IRSN)"
+    },
+    {
+      "label": "Part SAU bio",
+      "score": 3.0,
+      "note": "SAU bio ~5-6%, très inférieure moyenne nationale 10%, progression lente"
+    }
+  ],
+  "points_forts": [
+    "Risque radon globalement faible : plus de 80 % des communes essonniennes classées en zone 1 ou 2 (IRSN, 2022)",
+    "Présence de quelques exploitations maraîchères bio en zone péri-urbaine sud (plateau de Saclay), soutenues par la ZAP de Saclay",
+    "Démarches de dépollution actives sur plusieurs friches industrielles (Corbeil-Essonnes, Évry) dans le cadre des projets Grand Paris",
+    "Existence d'un observatoire régional des sols en Île-de-France permettant un suivi partiel de la contamination diffuse (GéoRisques/DRIEAT)"
+  ],
+  "vigilances": [
+    "Artificialisation croissante : l'Essonne consomme en moyenne 200 à 300 ha/an de terres agricoles et naturelles (DRIEAT, 2022), menaçant les sols à fort potentiel agronomique de Beauce",
+    "Contamination diffuse aux pesticides persistants (chlordécone-analogues, AMPA, glyphosate) détectée dans les eaux souterraines et sols de la plaine céréalière, avec risque de transfert alimentaire (INRAE, 2023)",
+    "Héritage industriel : plusieurs sites ex-BASOL en attente de réhabilitation complète présentent des risques de remobilisation de métaux lourds et d'hydrocarbures en cas de crues de l'Essonne ou de l'Orge"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">200",
+      "label": "Sites pollués ex-BASOL/BASIAS"
+    },
+    {
+      "valeur": "~5-6 %",
+      "label": "SAU en agriculture biologique"
+    },
+    {
+      "valeur": "80 %",
+      "label": "Communes en zone radon faible (zone 1-2)"
+    },
+    {
+      "valeur": "200-300 ha/an",
+      "label": "Artificialisation annuelle des sols"
+    }
+  ],
+  "sources": [
+    "GéoRisques / ex-BASOL 2023",
+    "INRAE – Observatoire des résidus pesticides 2023",
+    "IRSN – Cartographie radon 2022",
+    "Agence Bio – Chiffres clés 2023"
+  ],
+  "limites": [
+    "L'absence d'un réseau de mesure systématique des sols agricoles essonniens rend difficile une quantification précise des teneurs en contaminants organiques à l'échelle parcellaire",
+    "Les données ex-BASOL ne capturent pas la totalité des contaminations diffuses historiques liées aux pratiques agricoles intensives sur la Beauce essonnienne, sous-estimant probablement le risque réel",
+    "La progression de l'agriculture biologique est difficile à évaluer finement faute de données infra-départementales récentes et homogènes, notamment pour les exploitations en conversion (Agence Bio, données 2023 partielles)"
+  ]
+}

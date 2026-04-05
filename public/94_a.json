@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-de-Marne (94) présente une qualité de l'air parmi les plus dégradées de France métropolitaine, sous l'effet conjugué d'une densité urbaine extrême (5 600 hab/km²) et d'une exposition chronique aux polluants routiers et aéroportuaires. Les concentrations moyennes de NO₂ atteignent 30 à 45 µg/m³ en zone urbaine dense selon Airparif (2023), dépassant largement la valeur guide OMS 2021 fixée à 10 µg/m³. Les PM2,5 relevées sur le département oscillent entre 12 et 18 µg/m³ annuels (Airparif 2022), soit 2 à 3 fois la norme OMS de 5 µg/m³, exposant une population de 1,4 million d'habitants à un risque sanitaire significatif. L'aéroport d'Orly, situé en bordure sud du département, constitue une source d'émissions spécifique de particules ultrafines et de NOx qui aggrave localement la situation des communes riveraines comme Villeneuve-le-Roi ou Ablon-sur-Seine (Bruitparif/Airparif 2022). L'absence de toute activité agricole significative épargne le département des émissions ammoniacales, mais ne compense pas la pression exercée par les 450 000 véhicules/jour circulant sur les axes A86, A6 et N7 traversant le territoire (DRIEAT 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 3.0,
+      "note": "PM2,5 entre 12-18 µg/m³, 2-3x la norme OMS 2021 de 5 µg/m³"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 2.0,
+      "note": "NO₂ 30-45 µg/m³, dépasse massivement le seuil OMS de 10 µg/m³"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 3.0,
+      "note": "Densité industrielle modérée mais aéroport Orly et axes routiers majeurs"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 5.0,
+      "note": "Agriculture quasi-absente, émissions NH₃ négligeables sur le département"
+    }
+  ],
+  "points_forts": [
+    "Absence quasi-totale d'émissions agricoles ammoniacales (NH₃) : moins de 50 ha agricoles sur 244 km² de superficie (Agreste 2020)",
+    "Réseau de surveillance Airparif dense avec 8 stations de mesure fixes permettant un suivi fin de la qualité de l'air en temps réel",
+    "Plan de Protection de l'Atmosphère (PPA) Île-de-France révisé en 2023 intégrant des mesures spécifiques aux zones à forte exposition comme le Val-de-Marne",
+    "Zone à Faibles Émissions métropolitaine (ZFE-m) Grand Paris opérationnelle depuis 2021, engageant une réduction progressive du parc automobile polluant circulant dans le département"
+  ],
+  "vigilances": [
+    "Exposition chronique aux particules ultrafines (PUF) autour d'Orly : les riverains dans un rayon de 5 km présentent des concentrations PUF 30 à 40 % supérieures à la moyenne francilienne (Airparif 2022), avec un potentiel d'aggravation lié à la reprise du trafic aérien post-Covid",
+    "Pics de pollution au NO₂ récurrents sur l'A86 et le périphérique intérieur : en 2022, 15 jours de dépassement du seuil d'information de 200 µg/m³/heure ont été enregistrés sur les stations proches, exposant les populations résidentes à moins de 100 m des voiries",
+    "Effet « canyon urbain » dans les communes denses comme Créteil, Ivry-sur-Seine et Vitry-sur-Seine : la morphologie urbaine piège les polluants et réduit la dispersion, risque aggravé par les épisodes de chaleur intense projetés à +2°C d'ici 2050 (Climadiag 2023) favorisant la formation d'ozone troposphérique"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12-18 µg/m³",
+      "label": "Concentration PM2,5 annuelle moyenne"
+    },
+    {
+      "valeur": "30-45 µg/m³",
+      "label": "Concentration NO₂ urbaine (Airparif 2023)"
+    },
+    {
+      "valeur": "1,4 M hab.",
+      "label": "Population exposée à dépassements OMS"
+    },
+    {
+      "valeur": "450 000 véh./j",
+      "label": "Trafic axes autoroutiers principaux"
+    }
+  ],
+  "sources": [
+    "Airparif – Bilan de la qualité de l'air en Île-de-France 2022-2023",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DRIEAT Île-de-France – Trafic routier et émissions 2022",
+    "Bruitparif/Airparif – Étude environnementale aéroport d'Orly 2022"
+  ],
+  "limites": [
+    "Les données Airparif sont agrégées à l'échelle régionale ; la résolution spatiale infra-communale reste insuffisante pour identifier précisément les micro-zones de surexposition dans les communes les plus denses du Val-de-Marne",
+    "L'absence de station de mesure dédiée aux particules ultrafines (PUF) dans plusieurs communes riveraines d'Orly empêche une quantification précise de cette pollution spécifique pour l'ensemble du département",
+    "Les modélisations de dispersion atmosphérique ne prennent pas encore pleinement en compte les effets combinés îlot de chaleur urbain + augmentation des températures projetées par Climadiag, susceptibles d'amplifier la formation d'ozone troposphérique à l'horizon 2040-2060"
+  ]
+}

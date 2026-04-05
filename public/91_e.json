@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Essonne (91) présente une situation hydrique préoccupante, caractéristique d'un département francilien fortement urbanisé et agricole, soumis à des pressions multiples sur ses ressources en eau. La qualité des eaux souterraines est affectée par les nitrates et pesticides issus des grandes cultures céréalières de la plaine de Beauce, avec des teneurs dépassant localement 50 mg/L de nitrates dans les captages du sud du département (ARS Île-de-France, 2022). Les projections Explore2 (2023) indiquent une réduction des débits d'étiage de la Seine et de ses affluents (Essonne, Yerres) de l'ordre de 20 à 40 % à l'horizon 2060, accentuant les tensions sur l'alimentation en eau potable d'une population de 1,3 million d'habitants. La contamination aux PFAS a été détectée dans plusieurs captages du département, conformément aux campagnes nationales de surveillance menées par l'ANSES en 2022-2023, plaçant l'Essonne parmi les territoires franciliens sous surveillance renforcée.",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Qualité eau potable variable, captages sud dépassent seuils nitrates"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 3.0,
+      "note": "Débits réduits 20-40% à 2060 selon Explore2, nappe Beauce tendue"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Grandes cultures céréalières génèrent pressions nitrates localisées"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 4.0,
+      "note": "PFAS détectés plusieurs captages, surveillance ANSES 2022-2023 active"
+    }
+  ],
+  "points_forts": [
+    "Réseau d'eau potable bien structuré desservant 1,3 million d'habitants avec un taux de conformité bactériologique supérieur à 98% (ARS Île-de-France, 2022)",
+    "Présence de zones humides protégées en vallée de l'Essonne et de l'Orge contribuant à la recharge naturelle des nappes (INPN)",
+    "Schéma d'Aménagement et de Gestion des Eaux (SAGE) Nappe de Beauce opérationnel, encadrant les prélèvements agricoles et industriels",
+    "Efforts de réhabilitation des cours d'eau (renaturation de l'Orge) engagés par le SIVOA, améliorant l'état écologique local"
+  ],
+  "vigilances": [
+    "Stress hydrique majeur projeté : les débits d'étiage de l'Essonne et de l'Yerres pourraient baisser de 30 à 40% d'ici 2060 (Explore2, 2023), menaçant les usages AEP",
+    "Contamination aux pesticides (chlorothalonil et ses métabolites, métolachlore-ESA) persistante dans plusieurs masses d'eau souterraines de la plaine de Beauce, dépassements réglementaires recensés (DCE)",
+    "Présence de PFAS dans des captages d'eau potable desservant des communes essonnaises, sans plan de substitution pleinement opérationnel à ce jour"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": ">50 mg/L",
+      "label": "Nitrates captages sud (ARS 2022)"
+    },
+    {
+      "valeur": "-30 à -40%",
+      "label": "Réduction débits étiage 2060 (Explore2)"
+    },
+    {
+      "valeur": "98%",
+      "label": "Conformité bactériologique AEP"
+    },
+    {
+      "valeur": "1,3 M",
+      "label": "Habitants desservis réseau AEP"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France 2022 – Bilan qualité eaux potables",
+    "Explore2 2023 – Projections hydrologiques France",
+    "ANSES 2022-2023 – Campagne nationale PFAS eaux potables",
+    "DCE / Agence de l'eau Seine-Normandie – État des masses d'eau"
+  ],
+  "limites": [
+    "Les données PFAS restent partielles pour l'Essonne : toutes les communes n'ont pas encore fait l'objet d'analyses publiées, sous-estimant potentiellement l'étendue de la contamination",
+    "Les projections Explore2 sont établies à l'échelle des bassins versants et non à la maille départementale fine, introduisant une incertitude sur les impacts locaux précis",
+    "L'état écologique des masses d'eau de surface (Essonne, Orge, Yerres) est hétérogène selon les tronçons, et les données DCE disponibles ne reflètent pas toujours les dynamiques les plus récentes post-renaturation"
+  ]
+}

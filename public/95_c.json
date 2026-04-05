@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-d'Oise (95), département de basse altitude (20 à 200 m) en cœur d'Île-de-France, présente une vulnérabilité climatique 2060 élevée, liée à son tissu urbain dense amplifiant l'effet d'îlot de chaleur urbain (ICU). Selon Climadiag Commune (Météo-France, 2023), les projections DRIAS 2060 scénario RCP8.5 indiquent une augmentation de +3 à +4°C des températures estivales moyennes, avec un doublement probable des jours de vague de chaleur (passage de 5 à 10-12 jours/an). Le département est traversé par l'Oise et la Seine en bordure, exposant environ 80 000 habitants à un risque inondation répertorié dans le PPRI (Plan de Prévention des Risques Inondation, DRIEAT Île-de-France). La faible couverture forestière du département (~14% du territoire, IFN) limite les effets tampon thermiques, tandis que les zones agricoles de plaine (plateau du Vexin, plaine de France) offrent peu d'absorption de chaleur. Le score de 4,0/10 reflète une combinaison de faible altitude, forte urbanisation et exposition aux événements climatiques extrêmes, plaçant le Val-d'Oise parmi les départements les plus vulnérables (rang 89/96).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 3.0,
+      "note": "Altitude faible (20-200 m), aucun tampon thermique montagnard disponible"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 3.0,
+      "note": "+3,5°C projeté 2060 ; doublement jours caniculaires RCP8.5 DRIAS"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 6.0,
+      "note": "Forêt limitée (~14%) ; risque feux modéré, non prioritaire nationalement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "Oise et Seine : 80 000 habitants en zone PPRI, inondations fréquentes"
+    }
+  ],
+  "points_forts": [
+    "Risque feux de forêt relativement limité grâce à une faible densité boisée continue et des peuplements non méditerranéens (IFN, forêts caducifoliées)",
+    "Absence de façade littorale : aucune vulnérabilité à l'élévation du niveau marin (INSEE, géographie départementale)",
+    "Présence du massif forestier de l'Isle-Adam (~1 500 ha) offrant un îlot de fraîcheur localisé réduisant partiellement l'ICU sur le nord du département",
+    "Engagement de plusieurs communes (Cergy, Pontoise) dans des Plans Locaux d'Urbanisme bioclimatiques intégrant la végétalisation et la désimperméabilisation"
+  ],
+  "vigilances": [
+    "Vagues de chaleur 2060 : projection de 12 à 15 jours de canicule/an (RCP8.5, DRIAS), contre 5 actuellement, avec effet ICU amplifié par l'imperméabilisation urbaine dense (>60% surfaces artificialisées localement)",
+    "Risque inondation majeur : la vallée de l'Oise concentre des zones urbanisées exposées à des crues centennales, avec un coût potentiel estimé à plusieurs centaines de millions d'euros (DRIEAT IDF, scénario Seine 2016 extrapolé)",
+    "Stress hydrique croissant : les nappes phréatiques du Vexin et de la plaine de France soumises à une recharge réduite de 15 à 25% à l'horizon 2060 selon les projections Explore2 (BRGM/OFB), impactant alimentation en eau et agriculture"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,5°C",
+      "label": "Hausse température estivale 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "80 000 hab.",
+      "label": "Population en zone PPRI inondation"
+    },
+    {
+      "valeur": "~14%",
+      "label": "Couverture forestière départementale"
+    },
+    {
+      "valeur": "12-15 j/an",
+      "label": "Jours canicule projetés 2060"
+    }
+  ],
+  "sources": [
+    "Climadiag Commune – Météo-France 2023",
+    "DRIAS 2060 scénarios RCP4.5/8.5 – DRIAS-Climat",
+    "PPRI Val-d'Oise – DRIEAT Île-de-France",
+    "Explore2 – BRGM/OFB 2023"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale masquent les hétérogénéités intra-territoriales fortes entre la plaine de France très urbanisée et le Vexin rural plus résilient",
+    "L'absence de station météorologique de référence dense sur l'ensemble du Val-d'Oise limite la précision des modèles d'ICU locaux et des bilans thermiques communaux",
+    "Les scénarios d'adaptation (PLU bioclimatiques, renaturation) ne sont pas encore intégrés dans les modèles prospectifs disponibles, sous-estimant potentiellement la capacité d'atténuation future du territoire"
+  ]
+}

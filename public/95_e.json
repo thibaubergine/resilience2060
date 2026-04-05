@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Val-d'Oise (95) présente une situation hydrique préoccupante, marquée par une forte pression sur la ressource en eau dans un contexte de densité urbaine et périurbaine élevée (plus d'1,2 million d'habitants). Les masses d'eau souterraines, notamment la nappe de la Craie et les alluvions de la Seine et de l'Oise, subissent des contaminations diffuses par les nitrates et les pesticides, avec des teneurs dépassant régulièrement 25 mg/L dans certaines zones agricoles du Vexin français (ARS Île-de-France, 2022). La présence de PFAS dans les eaux de captage constitue un enjeu émergent particulièrement sensible, plusieurs captages alimentant des zones densément peuplées étant concernés par des teneurs détectables (ANSES/BRGM, 2023). Les projections du programme Explore2 (2023) indiquent une réduction des débits d'étiage estivaux de l'Oise et de ses affluents de l'ordre de 20 à 40 % à l'horizon 2060, aggravant les tensions entre usages agricoles, industriels et domestiques. La qualité écologique des cours d'eau reste globalement médiocre, moins de 30 % des masses d'eau de surface atteignant le bon état écologique au titre de la Directive Cadre sur l'Eau (DCE, état des lieux 2022).",
+  "sous_scores": [
+    {
+      "label": "Qualité eau potable",
+      "score": 5.0,
+      "note": "Captages partiellement non conformes ; contaminations ponctuelles nitrates et pesticides"
+    },
+    {
+      "label": "Stress hydrique futur (Explore2)",
+      "score": 4.0,
+      "note": "Débits étiage Oise/Seine en baisse projetée de 20-40 % (Explore2 2023)"
+    },
+    {
+      "label": "Contamination nitrates",
+      "score": 4.0,
+      "note": "Vexin agricole : teneurs nitrates >25 mg/L, certaines zones >40 mg/L"
+    },
+    {
+      "label": "Présence PFAS",
+      "score": 5.0,
+      "note": "PFAS détectés sur plusieurs captages stratégiques en zone dense"
+    }
+  ],
+  "points_forts": [
+    "Réseau d'eau potable densément maillé assurant un taux de desserte de plus de 99 % de la population (ARS Île-de-France, 2022)",
+    "Présence de structures de suivi actives : SIAEP, syndicats intercommunaux coordonnant la gestion de la ressource sur un territoire à fort enjeu",
+    "Le parc naturel régional du Vexin français couvre environ 71 000 ha et contribue à préserver partiellement la qualité des zones de recharge des nappes",
+    "Des investissements en cours dans le cadre du SDAGE Seine-Normandie 2022-2027 pour la restauration de continuité écologique sur l'Oise et ses affluents"
+  ],
+  "vigilances": [
+    "Réduction projetée de 20 à 40 % des débits d'étiage de l'Oise à l'horizon 2060 (Explore2), aggravant les conflits d'usage en période estivale dans un département en forte croissance démographique",
+    "Contamination aux PFAS détectée sur des captages desservant des zones urbaines denses, sans encore de valeurs limites réglementaires nationales pleinement applicables avant 2026 (directive UE 2020/2184)",
+    "Moins de 30 % des masses d'eau de surface en bon état écologique (DCE 2022), avec un risque de non-atteinte des objectifs DCE 2027 pour la majorité des cours d'eau du département"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<30 %",
+      "label": "Masses d'eau surface en bon état écologique"
+    },
+    {
+      "valeur": "-20 à -40 %",
+      "label": "Réduction débit étiage Oise à 2060 (Explore2)"
+    },
+    {
+      "valeur": ">25 mg/L",
+      "label": "Nitrates dans certaines zones Vexin agricole"
+    },
+    {
+      "valeur": "99 %",
+      "label": "Taux de desserte en eau potable"
+    }
+  ],
+  "sources": [
+    "ARS Île-de-France 2022 – Qualité eaux captage",
+    "Explore2 BRGM/OFB 2023 – Projections hydrologiques",
+    "SDAGE Seine-Normandie 2022-2027 – DCE état des lieux",
+    "ANSES/BRGM 2023 – Données PFAS captages"
+  ],
+  "limites": [
+    "Les données PFAS sur les captages du Val-d'Oise restent partielles, les campagnes de mesure exhaustives étant encore en cours au niveau national (ANSES 2023), rendant l'évaluation du risque sous-estimée",
+    "L'état écologique des masses d'eau souterraines profondes (nappes du Lutétien, Yprésien) est mal documenté à l'échelle départementale, les suivres piézométriques étant insuffisamment denses",
+    "Les projections Explore2 présentent des incertitudes importantes à l'échelle locale des sous-bassins versants secondaires du Val-d'Oise, limitant la précision des évaluations de stress hydrique localisé"
+  ]
+}

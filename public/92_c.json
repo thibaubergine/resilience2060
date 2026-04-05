@@ -1,0 +1,66 @@
+{
+  "synthese": "Les Hauts-de-Seine (92) constituent l'un des départements les plus vulnérables de France métropolitaine face aux projections climatiques à l'horizon 2060, en raison de sa position géographique en cœur d'agglomération parisienne ultra-dense. Selon Climadiag (Météo-France, 2023), le département devrait connaître entre 20 et 35 jours de canicule supplémentaires par an d'ici 2060 sous scénario RCP 8.5, contre une moyenne nationale de 15 jours. L'altitude moyenne du territoire ne dépasse pas 80 m (point culminant ~190 m à Sèvres), offrant un tampon thermique quasi inexistant face à l'îlot de chaleur urbain (ICU), lequel génère déjà +3 à +5°C par rapport aux zones rurales environnantes (APUR, 2022). Le taux d'imperméabilisation des sols dépasse 72 % (CEREMA, 2022), amplifiant le ruissellement et les inondations rapides, notamment en bordure de Seine qui traverse le département sur 30 km. L'absence totale de façade maritime et la très faible superficie forestière (<3 % du territoire) privent le département de tout amortisseur climatique naturel significatif (DRIAS, 2023).",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 2.0,
+      "note": "Altitude moyenne ~80 m, aucun tampon thermique face à l'ICU urbain"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 2.0,
+      "note": "35 jours canicule/an projetés en 2060, densité urbaine aggravante"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 5.0,
+      "note": "Risque feux quasi nul, végétation urbaine résiduelle très limitée"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 2.0,
+      "note": "30 km de Seine, 72 % sols imperméabilisés, inondations majeures probables"
+    }
+  ],
+  "points_forts": [
+    "Risque incendie de forêt quasi inexistant : moins de 3 % du territoire en espace boisé classé, aucun sinistre forestier majeur historique recensé (INPN, 2023)",
+    "Présence du Plan de Prévention des Risques d'Inondation (PPRI) couvrant l'ensemble de la vallée de la Seine sur le département, outil de planification réglementaire actif (Préfecture 92, 2021)",
+    "Investissements importants en végétalisation urbaine : programme \"Nature en Ville\" du Conseil départemental visant +30 % d'espaces verts d'ici 2030",
+    "Réseau dense de stations de surveillance climatique et météorologique lié à la proximité de Météo-France et des outils Climadiag disponibles à l'échelle communale"
+  ],
+  "vigilances": [
+    "Exposition canicule critique : projection de 35 jours de vague de chaleur/an à horizon 2060 (RCP 8.5, DRIAS 2023), contre 8 jours en moyenne sur la période 1981-2010, avec une population âgée et urbaine très exposée",
+    "Risque inondation majeur de la Seine : une crue centennale de type 1910 inonderait 25 % du territoire du département et affecterait 250 000 habitants selon les estimations EPRI (2022)",
+    "Îlot de chaleur urbain structurel : avec 9 500 hab/km² de densité moyenne et plus de 72 % de sols imperméabilisés, le département manque de capacité d'adaptation naturelle aux épisodes thermiques extrêmes projetés (CEREMA, 2022)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 m",
+      "label": "Altitude moyenne du département"
+    },
+    {
+      "valeur": "+3 à +5°C",
+      "label": "Îlot de chaleur urbain actuel"
+    },
+    {
+      "valeur": "72 %",
+      "label": "Taux imperméabilisation des sols"
+    },
+    {
+      "valeur": "35 j/an",
+      "label": "Jours canicule projetés 2060 (RCP8.5)"
+    }
+  ],
+  "sources": [
+    "Climadiag Météo-France 2023",
+    "DRIAS 2023 (scénarios RCP 4.5 / 8.5)",
+    "CEREMA 2022 (imperméabilisation)",
+    "APUR 2022 (îlot chaleur urbain)",
+    "EPRI Seine 2022 (risque inondation)"
+  ],
+  "limites": [
+    "Les projections DRIAS à l'échelle départementale restent issues de modèles régionalisés à maille de 8 km, insuffisants pour capter les micro-variations intra-urbaines très marquées dans un territoire aussi dense que les Hauts-de-Seine",
+    "L'évaluation du risque canicule ne tient pas encore compte des effets différenciés selon les îlots urbains (canyons de rue, présence d'arbres, albédo des surfaces), données non standardisées à l'échelle des 36 communes du département",
+    "L'absence de données longues séries spécifiques au 92 pour les températures nocturnes et le stress thermique nocturne limite la précision des projections d'impact sanitaire à 2060"
+  ]
+}

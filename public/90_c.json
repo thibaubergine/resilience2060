@@ -1,0 +1,65 @@
+{
+  "synthese": "Le Territoire de Belfort (90), plus petit département métropolitain avec 609 km², est positionné à une altitude moyenne modérée (entre 350 et 1 200 m dans le massif des Vosges du Sud), offrant un léger tampon thermique naturel face aux vagues de chaleur (Climadiag, 2023). Selon les projections DRIAS 2022, le département devrait connaître une augmentation de +3,2°C en température moyenne estivale à l'horizon 2060 sous scénario RCP8.5, avec un nombre de jours de canicule passant de 5 à 18-25 jours/an. La vallée de la Savoureuse et les zones urbanisées de l'agglomération belfortaine concentrent les ilots de chaleur urbains les plus préoccupants (TRACC/AP3C, 2023). Le risque inondation est réel, avec 43% des communes soumises à un Plan de Prévention des Risques Inondation (PPRI), notamment le long de la Savoureuse et de l'Allan (GéoRisques, 2023). Le département présente un profil climatique 2060 intermédiaire, pénalisé par sa faible superficie limitant les capacités d'adaptation territoriale et sa position en fond de vallée industrielle.",
+  "sous_scores": [
+    {
+      "label": "Altitude / tampon thermique",
+      "score": 6.0,
+      "note": "Altitude 350-1200m, massif vosgien offre tampon thermique partiel modéré"
+    },
+    {
+      "label": "Exposition canicules 2050",
+      "score": 5.0,
+      "note": "+3,2°C prévu RCP8.5 ; 18-25 jours canicule/an vers 2060"
+    },
+    {
+      "label": "Risque feux de forêt",
+      "score": 7.0,
+      "note": "Forêts feuillues humides réduisent risque feux ; aléa faible historiquement"
+    },
+    {
+      "label": "Vulnérabilité côtière / inondations",
+      "score": 4.0,
+      "note": "43% communes en PPRI ; Savoureuse et Allan inondables régulièrement"
+    }
+  ],
+  "points_forts": [
+    "Altitude et relief vosgien : un tampon thermique partiel avec des zones dépassant 900 m d'altitude dans le massif des Vosges du Sud, limitant les excès de chaleur en zones rurales",
+    "Faible risque feux de forêt : les forêts mixtes et feuillues à forte humidité représentent 38% du territoire, classées en aléa faible selon Prométhée/DRIAS 2023",
+    "Faible densité automobile et réseau de transports en commun en développement dans l'agglomération belfortaine, contribuant à une meilleure résilience climatique urbaine",
+    "Présence de zones humides fonctionnelles le long des cours d'eau qui jouent un rôle de régulation thermique et hydrologique (INPN, 2023)"
+  ],
+  "vigilances": [
+    "Augmentation projetée des épisodes de canicule : passage de 5 à 18-25 jours/an à horizon 2060 (RCP8.5, DRIAS 2022), avec concentration des vulnérabilités dans l'agglomération de Belfort (pop. âgée exposée)",
+    "Risque inondation structurel : la Savoureuse a connu des crues centennales historiques ; les projections EXPLORE2 anticipent des étiages plus sévères mais des crues de printemps plus intenses avec la fonte nivale accélérée",
+    "Réchauffement du régime nivologique vosgien : la réduction de l'enneigement au-dessus de 600 m affecte la recharge des nappes et les débits d'étiage estivaux, aggravant les tensions sur la ressource en eau (Climadiag, 2023)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "+3,2°C",
+      "label": "Hausse temp. estivale 2060 (RCP8.5)"
+    },
+    {
+      "valeur": "18-25 j",
+      "label": "Jours canicule/an projetés 2060"
+    },
+    {
+      "valeur": "43%",
+      "label": "Communes en PPRI inondation"
+    },
+    {
+      "valeur": "38%",
+      "label": "Part forêt (aléa feux faible)"
+    }
+  ],
+  "sources": [
+    "DRIAS 2022 – Projections climatiques régionales",
+    "Climadiag Communes – Météo-France 2023",
+    "TRACC/AP3C – Adaptation au changement climatique BFC",
+    "GéoRisques – PPRI et aléas naturels 2023"
+  ],
+  "limites": [
+    "La très petite superficie du département (609 km²) limite la représentativité statistique des modèles climatiques régionaux DRIAS, dont les mailles de 8 km couvrent peu de points de grille spécifiques au Territoire de Belfort",
+    "L'absence d'une station météorologique de référence longue durée spécifiquement dans le département (les données sont souvent rattachées à Mulhouse ou Besançon) réduit la précision des projections locales",
+    "Les données Climadiag 2023 restent agrégées à l'échelle communale et ne distinguent pas suffisamment les microclimats entre le fond de vallée industriel de Belfort et les zones d'altitude vosgienne du département"
+  ]
+}

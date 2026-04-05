@@ -1,0 +1,66 @@
+{
+  "synthese": "Les Hauts-de-Seine constituent l'un des départements français les plus exposés à la pollution atmosphérique, avec des concentrations moyennes annuelles de NO₂ dépassant régulièrement 30 à 40 µg/m³ à proximité des axes routiers majeurs (A86, boulevard périphérique), soit bien au-delà de la valeur guide OMS 2021 fixée à 10 µg/m³ (AIRPARIF, 2023). Les niveaux de PM2,5 oscillent entre 12 et 17 µg/m³ selon les zones, excédant systématiquement le seuil OMS de 5 µg/m³ et dépassant par endroits la valeur réglementaire européenne (AIRPARIF/CITEPA). La densité exceptionnelle du trafic routier — le département est traversé par certains des axes les plus chargés d'Europe avec plus de 200 000 véhicules/jour sur l'A86 — en fait la première source d'émissions locales de polluants primaires. L'absence quasi-totale d'agriculture limite les émissions de NH₃, mais la forte concentration d'activités tertiaires, de zones industrielles (Gennevilliers) et de chantiers urbains entretient une exposition chronique des 1,6 million d'habitants à une qualité d'air dégradée.",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 2.0,
+      "note": "PM2,5 entre 12-17 µg/m³ ; seuil OMS 5 µg/m³ largement dépassé"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 1,
+      "note": "NO₂ >30-40 µg/m³ ; guide OMS 10 µg/m³ très largement dépassé"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 3.0,
+      "note": "Zone Gennevilliers et axes A86/RN13 : densité émettrice élevée"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 8.0,
+      "note": "Département quasi-urbain ; émissions NH₃ agricoles quasi nulles"
+    }
+  ],
+  "points_forts": [
+    "Absence quasi-totale d'émissions agricoles de NH₃ : moins de 0,1 % de surface agricole utile dans le département (Agreste 2023)",
+    "Déploiement progressif de la Zone à Faibles Émissions (ZFE) métropolitaine couvrant les 92 depuis 2021, avec restrictions Crit'Air 3 et au-delà (Métropole du Grand Paris)",
+    "Part croissante des transports en commun : 78 % des déplacements domicile-travail en TC ou modes actifs dans certaines communes (INSEE 2021), limitant la croissance des émissions",
+    "Réseau de surveillance AIRPARIF dense avec plus de 12 stations fixes en Île-de-France permettant un suivi fin des polluants"
+  ],
+  "vigilances": [
+    "Dépassements chroniques des seuils OMS de NO₂ et PM2,5 exposant 1,6 million d'habitants à des risques cardiovasculaires et respiratoires accrus, avec un coût sanitaire estimé à plusieurs milliards d'euros annuels en IdF (Santé Publique France)",
+    "La densification urbaine et les grands chantiers du Grand Paris Express (lignes 15, 16, 17) génèrent des émissions temporaires mais massives de poussières et PM10 jusqu'en 2030",
+    "Risque de blocage de la ZFE face aux recours juridiques et pressions sociales, compromettant les trajectoires de réduction des NO₂ attendues à l'horizon 2025-2030 (objectif -30 % NO₂ sur l'axe RN13)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~15 µg/m³",
+      "label": "Concentration moyenne PM2,5 (AIRPARIF 2023)"
+    },
+    {
+      "valeur": ">35 µg/m³",
+      "label": "Pic NO₂ axes routiers majeurs"
+    },
+    {
+      "valeur": "200 000+ véh/j",
+      "label": "Trafic A86 (DRIEAT 2022)"
+    },
+    {
+      "valeur": "1,6 M hab",
+      "label": "Population exposée en continu"
+    }
+  ],
+  "sources": [
+    "AIRPARIF – Bilan de la qualité de l'air en Île-de-France 2023",
+    "OMS – Global Air Quality Guidelines 2021",
+    "CITEPA – Inventaire national des émissions 2023",
+    "Métropole du Grand Paris – Bilan ZFE 2023",
+    "Santé Publique France – Impact sanitaire de la pollution atmosphérique 2021"
+  ],
+  "limites": [
+    "Les données AIRPARIF sont issues de stations fixes dont la représentativité spatiale fine reste limitée dans un département aussi dense et hétérogène que le 92 (zones résidentielles vs. axes autoroutiers)",
+    "L'inventaire CITEPA est établi à l'échelle nationale et régionale ; la désagrégation au niveau départemental introduit des incertitudes sur les contributions sectorielles exactes pour les Hauts-de-Seine",
+    "La ZFE étant une politique récente (2021-2023), ses effets réels sur la qualité de l'air ne sont pas encore pleinement mesurables ni dissociables des tendances de fond (COVID, télétravail), rendant les projections à 2030 incertaines"
+  ]
+}

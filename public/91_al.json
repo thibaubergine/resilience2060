@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Essonne (91), département péri-urbain d'Île-de-France, présente une situation alimentaire intermédiaire mais structurellement fragilisée par la pression urbaine sur ses terres agricoles. Avec environ 55 % de sa superficie classée en SAU (soit ~80 000 ha), le département conserve un potentiel agricole notable, mais l'autonomie alimentaire reste très limitée dans un contexte de dépendance aux circuits d'approvisionnement métropolitains (ZAVA 2024). La part de la SAU conduite en agriculture biologique atteint seulement 3,8 % en Essonne, contre 10,3 % au niveau national (Agence Bio 2023), révélant un retard significatif dans la transition agroécologique. Le département ne bénéficie d'aucune AOP ni IGP agroalimentaire majeure structurante, à l'exception de quelques reconnaissances marginales liées aux productions franciliennes (INAO 2023). Les circuits courts et AMAP se développent autour des polarités urbaines (Évry-Courcouronnes, Corbeil-Essonnes), mais leur maillage reste insuffisant pour couvrir les besoins d'une population d'environ 1,3 million d'habitants (Agreste Île-de-France 2022).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 4.0,
+      "note": "Autonomie alimentaire faible, forte dépendance aux flux métropolitains franciliens"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 3.0,
+      "note": "Aucune AOP/IGP majeure, absence de filières de qualité certifiées structurantes"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 3.0,
+      "note": "Seulement 3,8 % SAU en bio, bien sous la moyenne nationale de 10,3 %"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 6.0,
+      "note": "Réseau AMAP actif autour des pôles urbains, dynamique circuits courts croissante"
+    }
+  ],
+  "points_forts": [
+    "Environ 80 000 ha de SAU préservée, soit ~55 % du territoire, parmi les mieux dotés d'Île-de-France (Agreste 2022)",
+    "Réseau d'AMAP en développement autour d'Évry, Massy et Palaiseau, avec plus de 30 structures actives recensées (MIRAMAP 2023)",
+    "Présence de grandes exploitations céréalières productrices (blé, colza) alimentant partiellement la filière locale francilienne",
+    "Initiatives territoriales comme le PAT (Projet Alimentaire Territorial) en cours de structuration sur certaines intercommunalités de l'Essonne (DRIAAF 2023)"
+  ],
+  "vigilances": [
+    "Artificialisation continue des terres agricoles : l'Essonne perd en moyenne 400 à 600 ha/an de SAU sous pression des projets d'urbanisation et logistiques (SDRIF-E 2023)",
+    "Part bio stagnante à 3,8 %, risque de décrochage face aux objectifs nationaux de 18 % en bio d'ici 2027 (Agence Bio / Egalim)",
+    "Dépendance alimentaire croissante vis-à-vis des circuits longs et de la grande distribution, accentuant la vulnérabilité en cas de rupture d'approvisionnement métropolitain"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "~80 000 ha",
+      "label": "SAU totale Essonne"
+    },
+    {
+      "valeur": "3,8 %",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP agroalimentaires majeures"
+    },
+    {
+      "valeur": "30+",
+      "label": "AMAP et points de vente directe"
+    }
+  ],
+  "sources": [
+    "ZAVA 2024 / Agence Bio 2023",
+    "INAO 2023 – registre AOP/IGP",
+    "Agreste Île-de-France 2022",
+    "MIRAMAP 2023 / DRIAAF Île-de-France 2023"
+  ],
+  "limites": [
+    "Les données ZAVA 2024 sur l'autonomie alimentaire locale restent partielles pour l'Essonne, les flux intra-franciliens étant difficiles à isoler statistiquement",
+    "L'absence d'observatoire départemental consolidé des circuits courts limite la quantification précise des volumes échangés en vente directe",
+    "La frontière entre SAU « active » et terres en déprise ou en mutation foncière est mal tracée dans les données Agreste, pouvant surestimer le potentiel productif réel"
+  ]
+}

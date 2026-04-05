@@ -1,0 +1,65 @@
+{
+  "synthese": "La Seine-Saint-Denis (93) présente le profil alimentaire le plus défavorable de France métropolitaine, avec une surface agricole utile (SAU) quasi inexistante estimée à moins de 1 500 ha, soit moins de 2% du territoire départemental (Agreste 2023). Le département ne recense aucune appellation d'origine protégée (AOP) ni indication géographique protégée (IGP) propre à son territoire, témoignant d'une absence totale de production valorisée sous signe de qualité (INAO 2024). La part de l'agriculture biologique dans la SAU est marginale, inférieure à 1%, contre une moyenne nationale de 10,7% (Agence Bio 2024). Malgré un tissu associatif dynamique en milieu urbain dense (une vingtaine d'AMAP recensées), la dépendance alimentaire extérieure est structurellement totale, le département étant l'un des plus urbanisés et peuplés de France avec 1,65 million d'habitants sur 236 km² (INSEE 2023). La zone ZAVA (Zone à Vocation Agricole et Alimentaire) du département ne couvre qu'une fraction symbolique du territoire, sans capacité d'approvisionnement local significatif (ZAVA 2024).",
+  "sous_scores": [
+    {
+      "label": "Autonomie alimentaire (ZAVA)",
+      "score": 1,
+      "note": "SAU inférieure à 1 500 ha, autonomie alimentaire quasi nulle"
+    },
+    {
+      "label": "Densité AOP/IGP",
+      "score": 1,
+      "note": "Aucune AOP/IGP référencée sur le territoire départemental"
+    },
+    {
+      "label": "Part SAU en bio",
+      "score": 2.0,
+      "note": "Agriculture bio marginale, SAU bio inférieure à 1% du total"
+    },
+    {
+      "label": "Circuits courts / AMAP",
+      "score": 2.0,
+      "note": "Vingtaine d'AMAP actives, offre limitée par la faible production locale"
+    }
+  ],
+  "points_forts": [
+    "Réseau d'AMAP urbaines actif : environ 20 groupements recensés mobilisant plusieurs centaines de familles (Réseau AMAP Île-de-France 2023)",
+    "Initiatives de jardins partagés et fermes urbaines en développement, notamment à Saint-Denis et Montreuil (Plaine Commune 2023)",
+    "Engagement croissant des collectivités dans les projets alimentaires territoriaux (PAT) : Seine-Saint-Denis a engagé un PAT intercommunal reconnu niveau 1 (MAA 2023)",
+    "Proximité des marchés de gestion alimentaire métropolitains (MIN de Rungis) facilitant l'approvisionnement des structures de solidarité alimentaire"
+  ],
+  "vigilances": [
+    "Insécurité alimentaire structurelle : 28% de la population sous le seuil de pauvreté (INSEE 2022), premier département le plus pauvre de France métropolitaine, fragilisant l'accès à une alimentation de qualité",
+    "Pression foncière extrême rendant toute reconquête agricole quasi impossible : prix du foncier parmi les plus élevés d'Île-de-France, aucune réserve foncière agricole disponible à moyen terme",
+    "Dépendance alimentaire totale vis-à-vis de l'extérieur exposant le territoire à des ruptures d'approvisionnement en cas de crise logistique ou climatique majeure (projections ADEME 2030)"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "<1 500 ha",
+      "label": "Surface Agricole Utile (SAU)"
+    },
+    {
+      "valeur": "0",
+      "label": "AOP/IGP référencées"
+    },
+    {
+      "valeur": "<1%",
+      "label": "Part SAU en agriculture bio"
+    },
+    {
+      "valeur": "~20",
+      "label": "AMAP actives recensées"
+    }
+  ],
+  "sources": [
+    "Agreste Île-de-France 2023",
+    "INAO 2024 – Registre AOP/IGP",
+    "Agence Bio 2024 – Chiffres clés régionaux",
+    "ZAVA 2024 / Réseau AMAP Île-de-France 2023"
+  ],
+  "limites": [
+    "L'absence de données SAU précises et actualisées pour ce département très urbanisé rend toute comparaison inter-départementale partielle",
+    "Les initiatives d'agriculture urbaine (toits, friches) ne sont pas intégrées aux statistiques officielles Agreste, sous-estimant potentiellement la production locale émergente",
+    "Le PAT départemental étant récent (2022-2023), son impact sur les indicateurs alimentaires n'est pas encore mesurable dans les bases statistiques disponibles"
+  ]
+}

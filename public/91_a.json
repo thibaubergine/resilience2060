@@ -1,0 +1,65 @@
+{
+  "synthese": "L'Essonne (91) présente une qualité de l'air dégradée, caractéristique des départements de la grande couronne francilienne soumis aux flux de pollution métropolitains. Les concentrations moyennes annuelles de PM2,5 atteignent 12 à 14 µg/m³ selon les zones (AIRPARIF 2022-2023), dépassant significativement le seuil OMS 2021 fixé à 5 µg/m³. Le corridor autoroutier A6/N20 et la RN7 génèrent des niveaux de NO₂ dépassant localement 40 µg/m³ à proximité immédiate des axes, tandis que les agglomérations d'Évry-Courcouronnes et de Corbeil-Essonnes concentrent les émissions industrielles et de transport (CITEPA/AIRPARIF 2023). Le département cumule également des émissions agricoles d'ammoniac (NH₃) notables en raison de la vaste plaine céréalière de Beauce au sud, contribuant à la formation de particules secondaires (CITEPA inventaire national 2022).",
+  "sous_scores": [
+    {
+      "label": "Niveau PM2,5 (vs OMS 2021)",
+      "score": 3.0,
+      "note": "PM2,5 entre 12-14 µg/m³, soit 2,5× la norme OMS 2021"
+    },
+    {
+      "label": "Niveau NO₂ urbain",
+      "score": 3.0,
+      "note": "NO₂ dépasse 40 µg/m³ sur axes A6/N20, Évry-Courcouronnes"
+    },
+    {
+      "label": "Densité industrielle émettrice",
+      "score": 4.0,
+      "note": "Sites industriels Corbeil, Évry; moins dense qu'inner suburbs"
+    },
+    {
+      "label": "Émissions NH₃ agricoles",
+      "score": 4.0,
+      "note": "Plaine céréalière sud-Essonne génère NH₃ agricole significatif"
+    }
+  ],
+  "points_forts": [
+    "Une part croissante des communes du sud-Essonne enregistre des PM2,5 en légère baisse depuis 2015 (-18% selon AIRPARIF 2022)",
+    "Absence de grande installation industrielle à hautes émissions SOx, contrairement aux zones chimiques de Seine-et-Marne (CITEPA 2022)",
+    "Le réseau Natura 2000 et les espaces verts (forêt de Fontainebleau en limite, massif de Sénart) jouent un rôle tampon sur les émissions locales",
+    "Déploiement progressif du réseau de mesure AIRPARIF (8 stations actives en 2023) offrant un suivi territorial plus fin"
+  ],
+  "vigilances": [
+    "L'intensification du trafic sur l'A6 et le contournement francilien (A86-Francilienne) pourrait maintenir des pics de NO₂ > 200 µg/m³ lors d'épisodes de canicule estivale projetés à la hausse d'ici 2050 (DRIAS 2023)",
+    "La persistance des épisodes de pollution particulaire hivernale (dépassements du seuil d'alerte PM10 : 50 µg/m³ en moyenne journalière) affecte les populations vulnérables d'Évry et Corbeil (AIRPARIF 2023)",
+    "La croissance démographique prévue (+80 000 habitants d'ici 2040 selon IAU Île-de-France) et l'urbanisation du plateau de Saclay risquent d'augmenter les émissions de NOx et PM liées aux déplacements automobiles"
+  ],
+  "donnees_cles": [
+    {
+      "valeur": "12-14 µg/m³",
+      "label": "PM2,5 moyen annuel (AIRPARIF 2023)"
+    },
+    {
+      "valeur": "5 µg/m³",
+      "label": "Seuil OMS PM2,5 (2021)"
+    },
+    {
+      "valeur": "40+ µg/m³",
+      "label": "NO₂ proximité A6/N20"
+    },
+    {
+      "valeur": "8",
+      "label": "Stations AIRPARIF actives (91)"
+    }
+  ],
+  "sources": [
+    "AIRPARIF – Bilan de la qualité de l'air en Île-de-France 2022-2023",
+    "CITEPA – Inventaire national des émissions atmosphériques 2022",
+    "OMS – Lignes directrices mondiales sur la qualité de l'air 2021",
+    "DRIAS – Projections climatiques Île-de-France 2023"
+  ],
+  "limites": [
+    "Le réseau AIRPARIF en Essonne est moins dense en zone rurale/sud du département, laissant des angles morts sur les émissions agricoles diffuses de la Beauce essonnienne",
+    "Les données NO₂ satellitaires (Sentinel-5P) disponibles manquent de résolution infra-communale pour distinguer précisément les sources industrielles des sources trafic dans les zones mixtes d'Évry-Courcouronnes",
+    "L'absence d'un inventaire spatialisé communal récent (post-2022) des émissions NH₃ agricoles en Essonne limite l'évaluation fine de la contribution des grandes exploitations céréalières à la pollution particulaire secondaire"
+  ]
+}
