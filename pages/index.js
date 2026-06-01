@@ -1,15 +1,13 @@
-import fs from 'fs'
-import path from 'path'
+import { useEffect } from 'react'
 
 export default function Home() {
-  return null
-}
-
-export async function getServerSideProps({ res }) {
-  const filePath = path.join(process.cwd(), 'public', 'index.html')
-  const html = fs.readFileSync(filePath, 'utf8')
-  res.setHeader('Content-Type', 'text/html')
-  res.write(html)
-  res.end()
-  return { props: {} }
+  return (
+    <div style={{ fontFamily: 'sans-serif', padding: '2rem' }}>
+      <h1>laubergine.org</h1>
+      <ul>
+        <li><a href="/resilience">Résilience 2060</a></li>
+        <li><a href="https://petroleum.laubergine.org">Petroleum</a></li>
+      </ul>
+    </div>
+  )
 }
